@@ -25,6 +25,7 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "npm run clean && style-dictionary build",
+    "clean": "rm -rf flutter/ && rm -rf sketch/"
   }
 }
