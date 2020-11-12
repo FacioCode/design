@@ -1,0 +1,27 @@
+{
+  "name": "@faciocode/styles",
+  "version": "0.0.0",
+  "description": "Styles for Facio Design System",
+  "keywords": [
+    "styles",
+    "facio",
+    "design",
+    "ds"
+  ],
+  "author": {
+    "name": "Facio",
+    "url": "https://github.com/FacioCode"
+  },
+  "homepage": "https://github.com/FacioCode/design/tree/master/packages/styles#readme",
+  "files": [
+    "properties"
+  ],
+  "repository": {
+    "directory": "packages/styles",
+    "type": "git",
+    "url": "git+https://github.com/FacioCode/design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FacioCode/design/issues"
+  }
+}
