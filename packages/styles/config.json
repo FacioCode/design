@@ -1,0 +1,15 @@
+{
+  "source": [
+    "properties/**/*.json"
+  ],
+  "platforms": {
+    "flutter": {
+      "transformGroup": "flutter",
+      "buildPath": "flutter/",
+      "files": [{
+        "destination": "styles.dart",
+        "format": "flutter/class.dart"
+      }]
+    }
+  }
+}
