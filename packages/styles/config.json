@@ -9,7 +9,31 @@
       "files": [{
         "className": "ColorPalette",
         "destination": "ColorPalette.dart",
-        "format": "flutter/class.dart"
+        "format": "flutter/class.dart",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      }, {
+        "className": "Fonts",
+        "destination": "Fonts.dart",
+        "format": "flutter/class.dart",
+        "filter": {
+          "attributes": {
+            "category": "font"
+          }
+        }
+      }, {
+        "className": "FontSizes",
+        "destination": "FontSizes.dart",
+        "format": "flutter/class.dart",
+        "filter": {
+          "attributes": {
+            "category": "size",
+            "type": "font"
+          }
+        }
       }]
     }
   }
