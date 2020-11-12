@@ -4,10 +4,11 @@
   ],
   "platforms": {
     "flutter": {
-      "transformGroup": "flutter",
+      "transformGroup": "flutter-separate",
       "buildPath": "flutter/",
       "files": [{
-        "destination": "styles.dart",
+        "className": "ColorPalette",
+        "destination": "ColorPalette.dart",
         "format": "flutter/class.dart"
       }]
     }
