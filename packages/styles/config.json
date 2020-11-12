@@ -35,6 +35,14 @@
           }
         }
       }]
+    },
+    "web": {
+      "transformGroup": "web",
+      "buildPath": "dist/",
+      "files": [{
+        "destination": "index.css",
+        "format": "css/variables"
+      }]
     }
   }
 }
