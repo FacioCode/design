@@ -23,5 +23,8 @@
   },
   "bugs": {
     "url": "https://github.com/FacioCode/design/issues"
+  },
+  "scripts": {
+    "build": "style-dictionary build"
   }
 }
