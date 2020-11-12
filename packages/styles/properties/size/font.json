@@ -1,0 +1,17 @@
+{
+  "size": {
+    "font": {
+      "largeTitle": { "value": 34 },
+      "title1": { "value": 28 },
+      "title2": { "value": 22 },
+      "title3": { "value": 20 },
+      "headline": { "value": 17 },
+      "body": { "value": 17 },
+      "subhead": { "value": 15 },
+      "button": { "value": 14 },
+      "footnote": { "value": 14 },
+      "input": { "value": 14 },
+      "caption": { "value": 12 }
+    }
+  }
+}
