@@ -16,6 +16,9 @@
   "files": [
     "properties"
   ],
+  "directories": {
+    "lib": "dist"
+  },
   "repository": {
     "directory": "packages/styles",
     "type": "git",
@@ -26,6 +29,6 @@
   },
   "scripts": {
     "build": "npm run clean && style-dictionary build",
-    "clean": "rm -rf flutter/ && rm -rf sketch/"
+    "clean": "rm -rf dist/ && rm -rf flutter/ && rm -rf sketch/"
   }
 }
