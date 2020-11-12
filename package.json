@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "3.22.1"
+  },
+  "description": "Design System for Facio",
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacioCode/design.git"
+  },
+  "keywords": [
+    "facio",
+    "design"
+  ],
+  "author": {
+    "name": "Facio",
+    "url": "https://github.com/FacioCode"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FacioCode/design/issues"
+  },
+  "homepage": "https://github.com/FacioCode/design#readme"
+}
