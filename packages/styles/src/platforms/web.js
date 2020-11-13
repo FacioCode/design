@@ -1,15 +1,15 @@
 const web = {
-  "buildPath": "dist/",
-  "files": [
+  buildPath: "dist/",
+  files: [
     {
-      "destination": "index.css",
-      "format": "css/variables",
+      destination: "index.css",
+      format: "css/variables",
     }, {
-      "destination": "index.js",
-      "format": "javascript/module",
+      destination: "index.js",
+      format: "javascript/module",
     },
   ],
-  "transformGroup": "web",
+  transformGroup: "web",
 };
 
 module.exports = web;

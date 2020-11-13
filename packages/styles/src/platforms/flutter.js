@@ -1,49 +1,58 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { author, bugs, description, displayName, homepage, repository, version } = require("../../package.json");
+/* eslint-disable @typescript-eslint/no-var-requires */
+const {
+  author, bugs, description, displayName: packageName, homepage, repository, version,
+} = require("../../package.json");
 
 const flutter = {
   buildPath: "flutter/",
   files: [
     {
       className: "ColorPalette",
-      destination: "lib/src/ColorPalette.dart",
+      destination: "lib/src/color_palette.dart",
       filter: {
         attributes: {
           category: "color",
         },
       },
-      format: "flutter/class.dart",
+      format: "flutter/library_class.dart",
+      packageName,
     }, {
       className: "Fonts",
-      destination: "lib/src/Fonts.dart",
+      destination: "lib/src/fonts.dart",
       filter: {
         attributes: {
           category: "font",
         },
       },
-      format: "flutter/class.dart",
+      format: "flutter/library_class.dart",
+      packageName,
     }, {
       className: "FontSizes",
-      destination: "lib/src/FontSizes.dart",
+      destination: "lib/src/font_sizes.dart",
       filter: {
         attributes: {
           category: "size",
           type: "font",
         },
       },
-      format: "flutter/class.dart",
+      format: "flutter/library_class.dart",
+      packageName,
     }, {
       destination: "pubspec.yaml",
       format: "flutter/pubspec.yaml",
     },
+    {
+      destination: "lib/facio_styles.dart",
+      format: "flutter/package.dart",
+    },
   ],
-  pubspec: {
+  metadata: {
     author: author.name,
     description,
-    displayName,
     documentation: homepage,
     homepage,
     issueTracker: bugs.url,
+    packageName,
     repository: repository.url,
     version,
   },

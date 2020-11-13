@@ -1,0 +1,24 @@
+---
+name: {{packageName}}
+description: {{description}}
+version: {{version}}
+author: {{author}}
+homepage: {{homepage}}
+repository: {{repository}}
+issue_tracker: {{issueTracker}}
+documentation: {{documentation}}
+publish_to: none
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter: ~

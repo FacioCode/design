@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/no-var-requires,no-sync */
 const Handlebars = require("handlebars");
 const fs = require("fs");
-const templateFile = fs.readFileSync("./src/templates/flutter/pubspec.yaml");
+const templateFile = fs.readFileSync("./src/templates/flutter/package.dart");
 const template = Handlebars.compile(templateFile.toString());
 
-const pubspecYamlFormatter = (dictionary, { metadata }) => template({
+const packageDartFormatter = (dictionary, { metadata }) => template({
   ...metadata,
 });
 
-module.exports = pubspecYamlFormatter;
+module.exports = packageDartFormatter;
