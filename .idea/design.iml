@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/react-storybook/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/react-unstyled/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/styles/flutter" />
       <excludeFolder url="file://$MODULE_DIR$/packages/styles/sketch" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
