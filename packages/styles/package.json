@@ -1,5 +1,6 @@
 {
   "name": "@faciocode/styles",
+  "displayName": "facio_styles",
   "version": "0.0.0",
   "description": "Styles for Facio Design System",
   "keywords": [
@@ -19,16 +20,18 @@
   "directories": {
     "lib": "dist"
   },
+  "main": "dist/index.js",
+  "source": "src/index.js",
   "repository": {
     "directory": "packages/styles",
     "type": "git",
-    "url": "git+https://github.com/FacioCode/design.git"
+    "url": "https://github.com/FacioCode/design"
   },
   "bugs": {
     "url": "https://github.com/FacioCode/design/issues"
   },
   "scripts": {
-    "build": "npm run clean && style-dictionary build",
-    "clean": "rm -rf dist/ && rm -rf flutter/ && rm -rf sketch/"
+    "build": "npm run clean && style-dictionary build --config ./src/index.js",
+    "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ./flutter"
   }
 }
