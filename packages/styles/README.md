@@ -2,8 +2,8 @@
 
 Styles for Facio Design System.
 
-## Usage
+## Importing
 
-```
-// TODO: DEMONSTRATE API
+```dart
+import 'package:faciostyles/main.dart';
 ```
