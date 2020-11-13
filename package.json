@@ -2,13 +2,29 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "10.0.0",
+    "@rollup/plugin-typescript": "6.1.0",
+    "@storybook/addon-essentials": "6.0.28",
+    "@storybook/react": "6.0.28",
+    "@types/react": "16.9.56",
+    "@typescript-eslint/eslint-plugin": "4.7.0",
+    "@typescript-eslint/parser": "4.7.0",
+    "eslint": "7.12.1",
+    "eslint-plugin-react": "7.21.5",
+    "handlebars": "4.7.6",
     "lerna": "3.22.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "rollup": "2.33.1",
+    "rollup-plugin-peer-deps-external": "2.2.4",
+    "rollup-plugin-postcss": "3.1.8",
     "style-dictionary": "2.10.2"
   },
   "description": "Design System for Facio",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "clean": "lerna clean"
   },
   "repository": {
     "type": "git",
