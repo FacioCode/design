@@ -40,6 +40,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+.packages
 
 # TypeScript v1 declaration files
 typings/
@@ -105,3 +106,4 @@ dist
 
 # IDEA workspace file
 .idea/workspace.xml
+
