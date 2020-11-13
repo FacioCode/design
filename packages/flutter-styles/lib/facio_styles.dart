@@ -1,4 +1,4 @@
-library {{packageName}};
+library facio_styles;
 
 import 'dart:ui';
 

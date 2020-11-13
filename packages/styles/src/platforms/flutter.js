@@ -4,11 +4,11 @@ const {
 } = require("../../package.json");
 
 const flutter = {
-  buildPath: "flutter/",
+  buildPath: "../flutter-styles/",
   files: [
     {
       className: "ColorPalette",
-      destination: "lib/src/color_palette.dart",
+      destination: "lib/color_palette.dart",
       filter: {
         attributes: {
           category: "color",
@@ -18,7 +18,7 @@ const flutter = {
       packageName,
     }, {
       className: "Fonts",
-      destination: "lib/src/fonts.dart",
+      destination: "lib/fonts.dart",
       filter: {
         attributes: {
           category: "font",
@@ -28,7 +28,7 @@ const flutter = {
       packageName,
     }, {
       className: "FontSizes",
-      destination: "lib/src/font_sizes.dart",
+      destination: "lib/font_sizes.dart",
       filter: {
         attributes: {
           category: "size",

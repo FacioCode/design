@@ -31,7 +31,8 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "scripts": {
-    "build": "npm run clean && style-dictionary build --config ./src/index.js",
-    "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ./flutter"
+    "build": "npm run clean && npm run compile",
+    "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist",
+    "compile": "style-dictionary build --config ./src/index.js"
   }
 }
