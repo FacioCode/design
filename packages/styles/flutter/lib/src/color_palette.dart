@@ -1,17 +1,8 @@
-
-//
-// lib/src/ColorPalette.dart
-//
-// Do not edit directly
-// Generated on Fri, 13 Nov 2020 20:16:34 GMT
-//
-
-
-import 'dart:ui';
+part of facio_styles;
 
 class ColorPalette {
-  ColorPalette._();
-  
+    ColorPalette._();
+
     static const baseGrey20 = Color(0xFFEDEDEE);
     static const baseGrey30 = Color(0xFFE2E3E4);
     static const baseGrey40 = Color(0xFFD1D3D6);

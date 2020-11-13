@@ -1,17 +1,8 @@
-
-//
-// lib/src/FontSizes.dart
-//
-// Do not edit directly
-// Generated on Fri, 13 Nov 2020 20:16:34 GMT
-//
-
-
-import 'dart:ui';
+part of facio_styles;
 
 class FontSizes {
-  FontSizes._();
-  
+    FontSizes._();
+
     static const fontBody = 272.00;
     static const fontButton = 224.00;
     static const fontCaption = 192.00;

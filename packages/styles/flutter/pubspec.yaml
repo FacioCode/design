@@ -5,7 +5,7 @@ version: 0.0.0
 author: Facio
 homepage: https://github.com/FacioCode/design/tree/master/packages/styles#readme
 repository: https://github.com/FacioCode/design
-issue_tracker: 
+issue_tracker: https://github.com/FacioCode/design/issues
 documentation: https://github.com/FacioCode/design/tree/master/packages/styles#readme
 publish_to: none
 
