@@ -15,7 +15,8 @@
   },
   "homepage": "https://github.com/FacioCode/design/tree/master/packages/styles#readme",
   "files": [
-    "properties"
+    "dist",
+    "README.md"
   ],
   "directories": {
     "lib": "dist"
