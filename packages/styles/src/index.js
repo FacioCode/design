@@ -7,7 +7,7 @@ const web = require("./platforms/web");
 
 const opts = {
   platforms: { flutter, web },
-  source: ["src/properties/**/*.json"],
+  source: ["src/tokens/**/*.json"],
 };
 
 const StyleDictionary = require("style-dictionary").extend(opts);

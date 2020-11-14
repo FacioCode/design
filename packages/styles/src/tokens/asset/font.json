@@ -1,0 +1,10 @@
+{
+  "asset": {
+    "font": {
+      "opensans": {
+        "name": { "value": "Open Sans" },
+        "ttf": { "value": "assets/fonts/OpenSans-Regular.ttf" }
+      }
+    }
+  }
+}
