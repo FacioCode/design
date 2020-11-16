@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable no-console,@typescript-eslint/no-var-requires */
 const libraryClassFormatter = require("./formats/flutter/library-class-dart");
 const packageDartFormatter = require("./formats/flutter/package-dart");
 const pubspecYamlFormatter = require("./formats/flutter/pubspec-yaml");
