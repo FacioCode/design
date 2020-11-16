@@ -9,6 +9,7 @@ class FontSizes {
     static const fontFootnote = 224.00;
     static const fontHeadline = 272.00;
     static const fontInput = 224.00;
+    static const fontLargeInput = 448.00;
     static const fontLargeTitle = 544.00;
     static const fontSubhead = 240.00;
     static const fontTitle1 = 448.00;
