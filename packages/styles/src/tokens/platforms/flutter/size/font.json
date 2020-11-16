@@ -2,6 +2,7 @@
   "size": {
     "font": {
       "largeTitle": { "value": 34 },
+      "largeInput": { "value": 28 },
       "title1": { "value": 28 },
       "title2": { "value": 22 },
       "title3": { "value": 20 },

@@ -72,7 +72,9 @@
         "20": { "value": "#ffe6b3" },
         "10": { "value": "#ffefd0" },
         "05": { "value": "#fff4e3" }
-      }
+      },
+      "white": { "value": "#ffffff" },
+      "black": { "value": "#000000" }
     }
   }
 }
