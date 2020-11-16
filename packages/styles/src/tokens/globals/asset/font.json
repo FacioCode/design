@@ -1,6 +1,10 @@
 {
   "asset": {
     "font": {
+      "icon": {
+        "name": { "value": "FacioIcons" },
+        "ttf": { "value": "assets/fonts/FacioIcons.ttf" }
+      },
       "opensans": {
         "name": { "value": "Open Sans" },
         "ttf": { "value": "assets/fonts/OpenSans-Regular.ttf" }
