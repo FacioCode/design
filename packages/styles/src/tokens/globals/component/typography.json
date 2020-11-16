@@ -1,0 +1,10 @@
+{
+  "component": {
+    "typography": {
+      "color": { "value": "{color.font.textPrimary.value}" },
+      "body": {
+        "color": "{component.typography.color.value}"
+      }
+    }
+  }
+}
