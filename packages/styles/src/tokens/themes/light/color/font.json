@@ -1,0 +1,13 @@
+{
+  "color": {
+    "font": {
+      "base": { "value": "#20252d" },
+      "disabled": { "value": "#b0b4ba" },
+      "highlight": { "value": "#3b8388" },
+      "inverse": {
+        "base": { "value": "{color.base.white.value}" }
+      },
+      "textPrimary": { "value": "{color.font.base.value}" }
+    }
+  }
+}
