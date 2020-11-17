@@ -1,0 +1,10 @@
+{
+  "component": {
+    "chip": {
+      "border": {
+        "radius": { "value": "{size.border.radius.double.value}" },
+        "width": { "value": "{size.border.width.single.value}" }
+      }
+    }
+  }
+}
