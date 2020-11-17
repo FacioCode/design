@@ -1,5 +1,7 @@
 {
   "name": "root",
+  "displayName": "Root",
+  "description": "Root package for Design System for Facio",
   "private": true,
   "devDependencies": {
     "@rollup/plugin-node-resolve": "10.0.0",
@@ -22,11 +24,14 @@
     "style-dictionary": "2.10.2",
     "svgo": "1.3.2"
   },
-  "description": "Design System for Facio",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "clean": "lerna clean"
+    "clean": "lerna clean",
+    "postinstall": "npm run bootstrap",
+    "pretest": "npm run build",
+    "preversion": "npm run test",
+    "test": "lerna run test"
   },
   "repository": {
     "type": "git",
@@ -44,5 +49,8 @@
   "bugs": {
     "url": "https://github.com/FacioCode/design/issues"
   },
-  "homepage": "https://github.com/FacioCode/design#readme"
+  "homepage": "https://github.com/FacioCode/design#readme",
+  "engines": {
+    "node": ">=10.0.0"
+  }
 }
