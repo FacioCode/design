@@ -11,7 +11,11 @@
       "title4": { "value": "{size.font.base.value}" },
       "title5": { "value": "{size.font.base.value}" },
       "title6": { "value": "{size.font.base.value}" },
-      "body": { "value": "{size.font.base.value}" }
+      "body": { "value": "{size.font.base.value}" },
+      "button": {
+        "comment": "For web, default button font size is 1em = 16px in default browsers",
+        "value": "{size.font.base.value}"
+      }
     }
   }
 }
