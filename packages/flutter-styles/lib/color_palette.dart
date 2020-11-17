@@ -3,7 +3,9 @@ part of facio_styles;
 class ColorPalette {
     ColorPalette._();
 
-    static const backgroundBase = Color(0xFFFFFFFF);
+    static const backgroundBackLayer = Color(0xFFFFFFFF);
+    static const backgroundFrontLayer = Color(0xFFF2F2F3);
+    static const backgroundInverseBase = Color(0xFF1F252E);
     static const baseAquamarine05 = Color(0xFFE3FFF4);
     static const baseAquamarine10 = Color(0xFFD0FFEF);
     static const baseAquamarine20 = Color(0xFFB3FFE6);
@@ -14,7 +16,7 @@ class ColorPalette {
     static const baseAquamarine70 = Color(0xFF068589);
     static const baseAquamarine80 = Color(0xFF005C5E);
     static const baseAquamarine90 = Color(0xFF083F39);
-    static const baseBlack = Color(0xFF000000);
+    static const baseBlack = Color(0xFF1F252E);
     static const baseGoldenrod05 = Color(0xFFFFF4E3);
     static const baseGoldenrod10 = Color(0xFFFFEFD0);
     static const baseGoldenrod20 = Color(0xFFFFE6B3);
@@ -66,9 +68,8 @@ class ColorPalette {
     static const baseSkyBlue80 = Color(0xFF002C5E);
     static const baseSkyBlue90 = Color(0xFF082A3F);
     static const baseWhite = Color(0xFFFFFFFF);
-    static const fontBase = Color(0xFF20252D);
-    static const fontDisabled = Color(0xFFB0B4BA);
-    static const fontHighlight = Color(0xFF3B8388);
+    static const fontBase = Color(0xFF1F252E);
+    static const fontDisabled = Color(0xFFAFB4BB);
+    static const fontHighlight = Color(0xFF068589);
     static const fontInverseBase = Color(0xFFFFFFFF);
-    static const fontTextPrimary = Color(0xFF20252D);
 }
