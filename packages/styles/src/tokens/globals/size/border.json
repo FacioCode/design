@@ -8,7 +8,7 @@
       },
       "width": {
         "none": { "value": "{size.base.none.value}" },
-        "single": { "value": "{size.base.single.value}" }
+        "single": { "value": "{size.base.one.value}" }
       }
     }
   }
