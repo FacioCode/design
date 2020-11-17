@@ -1,0 +1,9 @@
+{
+  "component": {
+    "appbar": {
+      "background": {
+        "color": { "value": "{color.background.backLayer.value}" }
+      }
+    }
+  }
+}
