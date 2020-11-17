@@ -1,7 +1,7 @@
 {
   "component": {
     "typography": {
-      "color": { "value": "{color.font.textPrimary.value}" },
+      "color": { "value": "{color.font.base.value}" },
       "body": {
         "color": "{component.typography.color.value}"
       }
