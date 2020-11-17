@@ -1,0 +1,17 @@
+{
+  "size": {
+    "font": {
+      "base": {
+        "comment": "1em = 16px in default browsers",
+        "value": 1
+      },
+      "title1": { "value": 3.38888889 },
+      "title2": { "value": 2.27777778 },
+      "title3": { "value": 1.5 },
+      "title4": { "value": "{size.font.base.value}" },
+      "title5": { "value": "{size.font.base.value}" },
+      "title6": { "value": "{size.font.base.value}" },
+      "body": { "value": "{size.font.base.value}" }
+    }
+  }
+}
