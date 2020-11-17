@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
+      - run: npm install --global lerna
       - run: npm ci
       - run: npm whoami
         env:
@@ -41,6 +42,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+      - run: npm install --global lerna
       - run: npm ci
       - run: npm whoami
         env:
