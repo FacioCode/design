@@ -34,6 +34,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist",
-    "compile": "style-dictionary build --config ./src/index.js"
+    "compile": "style-dictionary build --config ./src/index.js",
+    "test": "echo \"Todo: implement tests\" && exit 0"
   }
 }
