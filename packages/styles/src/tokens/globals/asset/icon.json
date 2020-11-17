@@ -1,7 +1,30 @@
 {
   "asset": {
     "icon": {
-      "pig": { "value": "assets/icons/pig.svg" }
+      "deposit": {
+        "comment": "Antecipação de salário",
+        "value": "assets/icons/deposit.svg"
+      },
+      "eyeOpen": {
+        "comment": "Exibir/ocultar saldo",
+        "value": "assets/icons/eye-open.svg"
+      },
+      "growth": {
+        "comment": "Educação financeira",
+        "value": "assets/icons/growth.svg"
+      },
+      "pig": {
+        "comment": "Poupe Facio",
+        "value": "assets/icons/pig.svg"
+      },
+      "received": {
+        "comment": "Crédito consignado",
+        "value": "assets/icons/received.svg"
+      },
+      "whatsapp": {
+        "comment": "WhatsApp",
+        "value": "assets/icons/whatsapp.svg"
+      }
     }
   }
 }
