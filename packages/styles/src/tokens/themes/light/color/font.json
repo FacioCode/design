@@ -1,9 +1,18 @@
 {
   "color": {
     "font": {
-      "base": { "value": "#20252d" },
-      "disabled": { "value": "#b0b4ba" },
-      "highlight": { "value": "#3b8388" },
+      "base": {
+        "comment": "Todo: replace by color token",
+        "value": "#20252d"
+      },
+      "disabled": {
+        "comment": "Todo: replace by color token",
+        "value": "#b0b4ba"
+      },
+      "highlight": {
+        "comment": "Todo: replace by color token",
+        "value": "#3b8388"
+      },
       "inverse": {
         "base": { "value": "{color.base.white.value}" }
       },
