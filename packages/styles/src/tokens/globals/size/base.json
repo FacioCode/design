@@ -4,7 +4,7 @@
       "none": { "value": 0 },
       "quarter": { "value": 1 },
       "half": { "value": 4 },
-      "one": { "value": 8 },
+      "single": { "value": 8 },
       "double": {
         "comment": "Twice the base value (8) = 16",
         "value": 16

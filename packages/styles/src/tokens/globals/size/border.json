@@ -3,12 +3,12 @@
     "border": {
       "radius": {
         "none": { "value": "{size.base.none.value}" },
-        "single": { "value": "{size.base.one.value}" },
+        "single": { "value": "{size.base.single.value}" },
         "double": { "value": "{size.base.double.value}" }
       },
       "width": {
         "none": { "value": "{size.base.none.value}" },
-        "single": { "value": "{size.base.one.value}" }
+        "single": { "value": "{size.base.single.value}" }
       }
     }
   }
