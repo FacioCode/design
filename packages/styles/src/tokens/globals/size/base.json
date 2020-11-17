@@ -2,12 +2,21 @@
   "size": {
     "base": {
       "none": { "value": 0 },
-      "quarter": { "value": 1 },
+      "one": { "value": 1 },
+      "quarter": { "value": 2 },
       "half": { "value": 4 },
       "single": { "value": 8 },
+      "doubleHalf": {
+        "comment": "Commonly used for large button vertical padding",
+        "value": 12
+      },
       "double": {
         "comment": "Twice the base value (8) = 16",
         "value": 16
+      },
+      "triple": {
+        "comment": "Commonly used for button label height",
+        "value": 24
       },
       "quadruple": { "value": 32 },
       "sixfold": { "value": 48 }
