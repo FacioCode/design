@@ -2,21 +2,17 @@
   "color": {
     "font": {
       "base": {
-        "comment": "Todo: replace by color token",
-        "value": "#20252d"
+        "value": "{color.base.black.value}"
       },
       "disabled": {
-        "comment": "Todo: replace by color token",
-        "value": "#b0b4ba"
+        "value": "{color.base.grey.50.value}"
       },
       "highlight": {
-        "comment": "Todo: replace by color token",
-        "value": "#3b8388"
+        "value": "{color.base.aquamarine.70.value}"
       },
       "inverse": {
         "base": { "value": "{color.base.white.value}" }
-      },
-      "textPrimary": { "value": "{color.font.base.value}" }
+      }
     }
   }
 }
