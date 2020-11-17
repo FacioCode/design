@@ -12,7 +12,21 @@
           "value": "{size.font.button.value}"
         }
       },
-      "height": "{size.base.quadruple.value}"
+
+      "small": {
+        "height": "{size.base.quadruple.value}",
+        "label": {
+          "padding": {
+            "bottom": "{size.base.half.value}",
+            "top": "{size.base.half.value}"
+          }
+        }
+      },
+
+      "medium": {
+        "height": "{size.base.sixfold.value}"
+      }
+
     }
   }
 }
