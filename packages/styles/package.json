@@ -2,7 +2,7 @@
   "name": "@faciocode/styles",
   "displayName": "facio_styles",
   "version": "0.0.0",
-  "description": "Styles for Facio Design System",
+  "description": "Styles and assets for Facio Design System",
   "keywords": [
     "styles",
     "facio",
@@ -36,5 +36,8 @@
     "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist",
     "compile": "style-dictionary build --config ./src/index.js",
     "test": "echo \"Todo: implement tests\" && exit 0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
