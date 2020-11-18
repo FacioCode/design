@@ -28,5 +28,5 @@ jobs:
         GH_TOKEN: ${{secrets.gh_token}}
         GH_AUTH_TOKEN: ${{secrets.gh_auth_token}}
     - run: git add packages/flutter-styles/pubspec.yaml
-    - run: "git commit -m \"chore(flutter-styles): bump version [skip ci]\""
+    - run: "git commit --allow-empty -m \"chore(flutter-styles): bump version [skip ci]\""
     - run: git push
