@@ -1,0 +1,19 @@
+{
+  "name": "facio_styles",
+  "description": "Flutter styles package for Design System for Facio",
+  "private": true,
+  "repository": {
+    "directory": "packages/flutter-styles",
+    "type": "git",
+    "url": "git+https://github.com/FacioCode/design.git"
+  },
+  "keywords": [
+    "facio",
+    "design"
+  ],
+  "author": {
+    "name": "Facio",
+    "url": "https://github.com/FacioCode"
+  },
+  "license": "ISC"
+}
