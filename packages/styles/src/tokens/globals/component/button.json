@@ -12,19 +12,23 @@
           "value": "{size.font.button.value}"
         }
       },
-
       "small": {
-        "height": "{size.base.quadruple.value}",
+        "height": { "value": "{size.base.quadruple.value}" },
         "label": {
           "padding": {
-            "bottom": "{size.base.half.value}",
-            "top": "{size.base.half.value}"
+            "bottom": { "value": "{size.base.half.value}" },
+            "top": { "value": "{size.base.half.value}" }
           }
         }
       },
-
       "medium": {
-        "height": "{size.base.sixfold.value}"
+        "height": { "value": "{size.base.sixfold.value}" },
+        "label": {
+          "padding": {
+            "bottom": { "value": "{size.base.doubleHalf.value}" },
+            "top": { "value": "{size.base.doubleHalf.value}" }
+          }
+        }
       }
 
     }
