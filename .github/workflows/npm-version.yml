@@ -23,10 +23,11 @@ jobs:
     - run: npm ci
     - run: git config --global user.email "technology+opensource@facio.com"
     - run: git config --global user.name "Facio"
+    - run: npm test
+    - run: git add packages/flutter-styles/pubspec.yaml
+    - run: "git commit --allow-empty -m \"chore(flutter-styles): update pubspec version [skip ci]\""
+    - run: git push
     - run: lerna version --conventional-commits --create-release github --yes
       env:
         GH_TOKEN: ${{secrets.gh_token}}
         GH_AUTH_TOKEN: ${{secrets.gh_auth_token}}
-    - run: git add packages/flutter-styles/pubspec.yaml
-    - run: "git commit --allow-empty -m \"chore(flutter-styles): bump version [skip ci]\""
-    - run: git push

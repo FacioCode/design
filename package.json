@@ -30,7 +30,6 @@
     "clean": "lerna clean",
     "postinstall": "npm run bootstrap",
     "pretest": "npm run build",
-    "preversion": "npm run test",
     "test": "lerna run test"
   },
   "repository": {
