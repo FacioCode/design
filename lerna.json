@@ -1,4 +1,10 @@
 {
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "message": "chore(release): publish %s [skip ci]"
+    }
+  },
   "packages": [
     "packages/*"
   ],
