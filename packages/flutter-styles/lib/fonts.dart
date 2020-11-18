@@ -1,7 +1,7 @@
 part of facio_styles;
 
 class Fonts {
-    Fonts._();
+  Fonts._();
 
-    static const familyBase = "Open Sans";
+  static const familyBase = "Open Sans";
 }
