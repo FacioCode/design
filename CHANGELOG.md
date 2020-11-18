@@ -6,14 +6,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 0.1.0 (2020-11-18)
 
 
-### Features
-
-* **styles:** add height and label padding for medium button ([3717452](https://github.com/FacioCode/design/commit/37174520e35ba2a70aad0e9380174886aced7923))
-
-
-
-
-
-## 0.0.1 (2020-11-17)
-
-**Note:** Version bump only for package root
+Initial version.
