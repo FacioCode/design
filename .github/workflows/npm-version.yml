@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install --global lerna
+    - run: npm install --global --loglevel=error lerna
     - run: npm ci
     - run: git config --global user.email "technology+opensource@facio.com"
     - run: git config --global user.name "Facio"
