@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const {
-  author, bugs, description, displayName: packageName, homepage, repository, version,
+  bugs, description, displayName: packageName, homepage, repository, version,
 } = require("../../package.json");
 
 const flutter = {
@@ -47,7 +47,6 @@ const flutter = {
     },
   ],
   metadata: {
-    author: author.name,
     description,
     documentation: homepage,
     homepage,
