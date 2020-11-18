@@ -5,11 +5,13 @@
         "radius": { "value": "{size.border.radius.single.value}" },
         "width": { "value": "{size.border.width.none.value}" }
       },
-      "color": { "value": "{color.font.base.value}" },
-      "font": {
-        "size": {
-          "comment": "Default button font size can vary depending on platform. E.g. 1em for web.",
-          "value": "{size.font.button.value}"
+      "label": {
+        "color": { "value": "{color.font.base.value}" },
+        "font": {
+          "size": {
+            "comment": "Default button font size can vary depending on platform. E.g. 1em for web.",
+            "value": "{size.font.button.value}"
+          }
         }
       },
       "small": {
