@@ -6,7 +6,7 @@
       "quarter": { "value": 2 },
       "half": { "value": 4 },
       "single": { "value": 8 },
-      "doubleHalf": {
+      "singleHalf": {
         "comment": "Commonly used for medium button vertical padding",
         "value": 12
       },
@@ -19,6 +19,7 @@
         "value": 24
       },
       "quadruple": { "value": 32 },
+      "fivefold": { "value": 40 },
       "sixfold": { "value": 48 },
       "sevenfold": {
         "comment": "Commonly used for app bar height",
