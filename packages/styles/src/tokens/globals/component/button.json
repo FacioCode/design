@@ -7,11 +7,9 @@
       },
       "label": {
         "color": { "value": "{color.font.base.value}" },
-        "font": {
-          "size": {
-            "comment": "Default button font size can vary depending on platform. E.g. 1em for web.",
-            "value": "{size.font.button.value}"
-          }
+        "fontSize": {
+          "comment": "Default button font size can vary depending on platform. E.g. 1em for web.",
+          "value": "{size.font.button.fontSize.value}"
         }
       },
       "small": {
@@ -27,8 +25,8 @@
         "height": { "value": "{size.base.sixfold.value}" },
         "label": {
           "padding": {
-            "bottom": { "value": "{size.base.doubleHalf.value}" },
-            "top": { "value": "{size.base.doubleHalf.value}" }
+            "bottom": { "value": "{size.base.singleHalf.value}" },
+            "top": { "value": "{size.base.singleHalf.value}" }
           }
         }
       }
