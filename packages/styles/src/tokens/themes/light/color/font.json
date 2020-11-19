@@ -1,18 +1,13 @@
 {
   "color": {
     "font": {
-      "base": {
-        "value": "{color.base.black.value}"
-      },
-      "disabled": {
-        "value": "{color.base.grey.50.value}"
-      },
-      "highlight": {
-        "value": "{color.base.aquamarine.70.value}"
-      },
-      "inverse": {
-        "base": { "value": "{color.base.white.value}" }
-      }
+      "primary": { "value": "{color.base.grey.90.value}" },
+      "secondary": { "value": "{color.base.grey.80.value}" },
+      "default": { "value": "{color.base.grey.70.value}" },
+      "hint": { "value": "{color.base.grey.60.value}" },
+      "disabled": { "value": "{color.base.grey.50.value}" },
+      "inverse": { "value": "{color.base.white.value}" },
+      "highlight": { "value": "{color.base.aquamarine.70.value}" }
     }
   }
 }
