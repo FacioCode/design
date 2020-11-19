@@ -1,32 +1,131 @@
 {
   "component": {
     "typography": {
-      "largeTitle": {
-        "color": { "value": "{color.font.base.value}" },
+      "headline1": {
+        "comment": "Formerly largeTitle. Useful for showing Poupe Facio balance, for example.",
+        "color": { "value": "{color.font.primary.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
-        "fontSize": { "value": "{size.font.largeTitle.fontSize.value}" },
-        "fontWeight": { "value": "{font.weight.extraBold.value}" },
-        "letterSpacing": { "value": "{size.font.largeTitle.letterSpacing.value}" }
+        "fontSize": {
+          "comment": "Extremely large text. It is the most prominent element in the interface.",
+          "value": "{size.font.headline1.fontSize.value}"
+        },
+        "fontWeight": {
+          "comment": "We use extra bold everytime we want to show monetary info.",
+          "value": "{font.weight.extraBold.value}"
+        },
+        "letterSpacing": { "value": "{size.font.headline1.letterSpacing.value}" }
       },
-      "largeInput": {
+      "headline2": {
+        "comment": "Formerly title1. Todo: define its use.",
+        "color": { "value": "{color.font.secondary.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
-        "fontSize": { "value": "{size.font.largeInput.fontSize.value}" },
-        "fontWeight": { "value": "{font.weight.regular.value}" },
-        "letterSpacing": { "value": "{size.font.largeInput.letterSpacing.value}" }
-      },
-      "title1": {
-        "color": { "value": "{color.font.base.value}" },
-        "fontFamily": { "value": "{font.family.base.value}" },
-        "fontSize": { "value": "{size.font.title1.fontSize.value}" },
+        "fontSize": {
+          "comment": "Very, very large text",
+          "value": "{size.font.headline2.fontSize.value}"
+        },
         "fontWeight": { "value": "{font.weight.bold.value}" },
-        "letterSpacing": { "value": "{size.font.title1.letterSpacing.value}" }
+        "letterSpacing": { "value": "{size.font.headline2.letterSpacing.value}" }
       },
-      "body": {
-        "color": { "value": "{color.font.base.value}" },
-        "fontFamily": { "value": "{font.family.base.value}"},
-        "fontSize": { "value": "{size.font.body.fontSize.value}" },
+      "headline3": {
+        "comment": "Formerly title2. Useful for title text when we show messages with emoji and title text",
+        "color": { "value": "{color.font.secondary.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": {
+          "comment": "Very large text",
+          "value": "{size.font.headline3.fontSize.value}"
+        },
+        "fontWeight": { "value": "{font.weight.bold.value}" },
+        "letterSpacing": { "value": "{size.font.headline3.letterSpacing.value}" }
+      },
+      "headline4": {
+        "comment": "Formerly title3. Todo: define its use.",
+        "color": { "value": "{color.font.secondary.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": {
+          "comment": "Large text",
+          "value": "{size.font.headline4.fontSize.value}"
+        },
+        "fontWeight": { "value": "{font.weight.bold.value}" },
+        "letterSpacing": { "value": "{size.font.headline4.letterSpacing.value}" }
+      },
+      "headline5": {
+        "comment": "Formerly headline. Can be used for primary text in app bars and dialogs.",
+        "color": { "value": "{color.font.secondary.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": {
+          "comment": "Recommended for large text in dialogs.",
+          "value": "{size.font.headline5.fontSize.value}"
+        },
+        "fontWeight": { "value": "{font.weight.bold.value}" },
+        "letterSpacing": { "value": "{size.font.headline5.letterSpacing.value}" }
+      },
+      "bodyText1": {
+        "comment": "Formerly body. Also known as body1. Most common than bodyText2.",
+        "color": { "value": "{color.font.default.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": { "value": "{size.font.bodyText1.fontSize.value}" },
         "fontWeight": { "value": "{font.weight.regular.value}"},
-        "letterSpacing": { "value": "{size.font.body.letterSpacing.value}" }
+        "letterSpacing": { "value": "{size.font.bodyText1.letterSpacing.value}" }
+      },
+      "subtitle1": {
+        "comment": "Formerly subhead. Used for primary text for list titles.",
+        "color": { "value": "{color.font.secondary.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": {
+          "comment": "A little smaller than headline5.",
+          "value": "{size.font.subtitle.fontSize.value}"
+        },
+        "fontWeight": { "value": "{font.weight.regular.value}"},
+        "letterSpacing": { "value": "{size.font.subtitle.letterSpacing.value}" }
+      },
+      "subtitle2": {
+        "comment": "For medium emphasis text.",
+        "color": { "value": "{color.font.default.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": {
+          "comment": "A little smaller than headline5.",
+          "fontSize": { "value": "{size.font.subtitle.fontSize.value}" }
+        },
+        "fontWeight": { "value": "{font.weight.regular.value}"},
+        "letterSpacing": { "value": "{size.font.subtitle.letterSpacing.value}" }
+      },
+      "button": {
+        "color": {
+          "comment": "Button color is secondary (probably grey-80) by default",
+          "value": "{color.font.secondary.value}"
+        },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": { "value": "{size.font.button.fontSize.value}" },
+        "fontWeight": {
+          "comment": "Button labels will have regular font weight by default but they can be bold.",
+          "value": "{font.weight.regular.value}"
+        },
+        "letterSpacing": { "value": "{size.font.button.letterSpacing.value}" }
+      },
+      "bodyText2": {
+        "comment": "Formerly footnote. Useful for optional text content, like card content text.",
+        "color": { "value": "{color.font.default.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": {
+          "comment": "Low emphasis, useful for very small blocks",
+          "value": "{size.font.bodyText2.fontSize.value}"
+        },
+        "fontWeight": { "value": "{font.weight.regular.value}" },
+        "letterSpacing": { "value": "{size.font.bodyText2.letterSpacing.value}" }
+      },
+      "caption": {
+        "comment": "Useful as auxiliary text for describing figures, like images or tables.",
+        "color": {
+          "comment": "Caption color is secondary (probably grey-80) by default",
+          "value": "{color.font.secondary.value}"
+        },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": {
+          "comment": "The smallest font size.",
+          "value": "{size.font.caption.fontSize.value}"
+        },
+        "fontWeight": { "value": "{font.weight.regular.value}" },
+        "letterSpacing": { "value": "{size.font.caption.letterSpacing.value}" }
       }
     }
   }

@@ -2,68 +2,62 @@
   "size": {
     "font": {
       "base": {
+        "fontSize": { "value": 17 },
         "letterSpacing": { "value": -0.43 },
         "lineHeight": { "value": "{size.base.triple.value}" }
       },
-      "largeTitle": {
+      "headline1": {
         "fontSize": { "value": 34 },
         "letterSpacing": { "value": -0.5 },
         "lineHeight": { "value": "{size.base.fivefold.value}" }
       },
-      "largeInput": {
+      "headline2": {
         "fontSize": { "value": 28 },
         "letterSpacing": { "value": -0.38 },
         "lineHeight": { "value": "{size.base.fivefold.value}" }
       },
-      "title1": {
-        "fontSize": { "value": 28 },
-        "letterSpacing": { "value": -0.38 },
-        "lineHeight": { "value": "{size.base.fivefold.value}" }
-      },
-      "title2": {
+      "headline3": {
         "fontSize": { "value": 22 },
         "letterSpacing": { "value": -0.26 },
         "lineHeight": { "value": "{size.base.quadruple.value}" }
       },
-      "title3": {
+      "headline4": {
         "fontSize": { "value": 20 },
         "letterSpacing": { "value": -0.45 },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
       },
-      "headline": {
+      "headline5": {
+        "comment": "Inspired by iOS, equivalent to Material subtitle1",
         "fontSize": { "value": 17 },
         "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
       },
-      "body": {
+      "bodyText1": {
+        "comment": "Inspired by iOS. Maps to Flutter body1.",
         "fontSize": { "value": 17 },
         "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
       },
-      "subhead": {
+      "subtitle": {
+        "comment": "Inspired by iOS, equivalent to Material subtitle2.",
         "fontSize": { "value": 15 },
         "letterSpacing": { "value": -0.23 },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
       },
       "button": {
+        "comment": "Used for text on ElevatedButton, TextButton and OutlinedButton",
         "fontSize": { "value": 14 },
         "letterSpacing": { "value": -0.15 },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
       },
-      "footnote": {
+      "bodyText2": {
+        "comment": "Inspired by iOS. Default text style for Material.",
         "fontSize": { "value": 14 },
         "letterSpacing": { "value": -0.15 },
-        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
-      },
-      "input": {
-        "fontSize": { "value": 14 },
-        "letterSpacing": {
-          "comment": "Check if letter spacing for input is correct",
-          "value": -0.15
-        },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
       },
       "caption": {
+        "comment": "Inspired by Material.",
         "fontSize": { "value": 12 },
         "letterSpacing": { "value": 0 },
         "lineHeight": { "value": "{size.base.double.value}" }

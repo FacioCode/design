@@ -6,59 +6,89 @@
           "comment": "1em = 16px in default browsers",
           "value": 1
         },
-        "letterSpacing": { "value": 0 },
-        "lineHeight": { "value": 1.5 }
-      },
-      "largeTitle": {
-        "comment": "Todo: check largeTitle values",
-        "fontSize": { "value": 3.38888889 },
-        "letterSpacing": { "value": -4 },
-        "lineHeight": { "value": 1.32786885 }
-      },
-      "largeInput": {
-        "comment": "Todo: check largeInput values",
-        "fontSize": {
-          "comment": "1.75em = 28px (inspired on Flutter largeInput size)",
-          "value": 1.75
+        "letterSpacing": {
+          "value": 0
         },
-        "letterSpacing": { "value": -4 },
-        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+        "lineHeight": {
+          "value": 1.5
+        }
       },
-      "title1": {
-        "fontSize": { "value": 3.38888889 },
-        "letterSpacing": { "value": -4 },
-        "lineHeight": { "value": 1.32786885 }
+      "headline1": {
+        "fontSize": {
+          "value": 3.38888889
+        },
+        "letterSpacing": {
+          "value": -4
+        },
+        "lineHeight": {
+          "value": 1.32786885
+        }
       },
-      "title2": {
-        "fontSize": { "value": 2.27777778 },
-        "letterSpacing": { "value": -2 },
-        "lineHeight": { "value": 1.31707317 }
+      "headline2": {
+        "fontSize": {
+          "value": 2.27777778
+        },
+        "letterSpacing": {
+          "value": -2
+        },
+        "lineHeight": {
+          "value": 1.31707317
+        }
       },
-      "title3": {
-        "fontSize": { "value": 1.5 },
-        "letterSpacing": { "value": -1 },
-        "lineHeight": { "value": 1 }
+      "headline3": {
+        "fontSize": {
+          "value": 1.5
+        },
+        "letterSpacing": {
+          "value": -1
+        },
+        "lineHeight": {
+          "value": 1
+        }
       },
-      "title4": {
-        "fontSize": { "value": "{size.font.base.fontSize.value}" },
-        "letterSpacing": { "value": 0.25 },
-        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      "headline4": {
+        "fontSize": {
+          "value": "{size.font.base.fontSize.value}"
+        },
+        "letterSpacing": {
+          "value": 0.25
+        },
+        "lineHeight": {
+          "value": "{size.font.base.lineHeight.value}"
+        }
       },
-      "title5": {
-        "fontSize": { "value": "{size.font.base.fontSize.value}" },
-        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
-        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      "headline5": {
+        "fontSize": {
+          "value": "{size.font.base.fontSize.value}"
+        },
+        "letterSpacing": {
+          "value": "{size.font.base.letterSpacing.value}"
+        },
+        "lineHeight": {
+          "value": "{size.font.base.lineHeight.value}"
+        }
       },
-      "title6": {
-        "fontSize": { "value": "{size.font.base.fontSize.value}" },
-        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
-        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
-      },
-      "body": {
-        "fontSize": { "value": "{size.font.base.fontSize.value}" },
-        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
+      "bodyText1": {
+        "fontSize": {
+          "value": "{size.font.base.fontSize.value}"
+        },
+        "letterSpacing": {
+          "value": "{size.font.base.letterSpacing.value}"
+        },
         "lineHeight": {
           "comment": "On web, line height for body text should be 1.5rem",
+          "value": "{size.font.base.lineHeight.value}"
+        }
+      },
+      "subtitle": {
+        "comment": "Can be represented by an <h6> element at HTML",
+        "fontSize": {
+          "value": "{size.font.base.fontSize.value}"
+        },
+        "letterSpacing": {
+          "value": "{size.font.base.letterSpacing.value}"
+        },
+        "lineHeight": {
           "value": "{size.font.base.lineHeight.value}"
         }
       },
@@ -66,7 +96,25 @@
         "fontSize": {
           "comment": "For web, default button font size is 1em = 16px in default browsers",
           "value": "{size.font.base.fontSize.value}"
+        },
+        "letterSpacing": {
+          "value": "{size.font.base.letterSpacing.value}"
+        },
+        "lineHeight": {
+          "value": "{size.font.base.lineHeight.value}"
         }
+      },
+      "bodyText2": {
+        "comment": "Todo: check these values",
+        "fontSize": { "value": 0.875 },
+        "letterSpacing": { "value": -0.15 },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "caption": {
+        "comment": "Todo: check these values",
+        "fontSize": { "value": 0.75 },
+        "letterSpacing": { "value": 0 },
+        "lineHeight": { "value": 1 }
       }
     }
   }
