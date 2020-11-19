@@ -15,5 +15,6 @@
     "name": "Facio",
     "url": "https://github.com/FacioCode"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "version": "0.2.0"
 }
