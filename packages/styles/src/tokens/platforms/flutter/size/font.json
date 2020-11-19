@@ -1,7 +1,11 @@
 {
   "size": {
     "font": {
-      "largeTitle": { "value": 34 },
+      "largeTitle": {
+        "fontSize": { "value": 34 },
+        "letterSpacing": { "value": -0.5 },
+        "lineHeight": { "value": 40 }
+      },
       "largeInput": { "value": 28 },
       "title1": { "value": 28 },
       "title2": { "value": 22 },
