@@ -1,7 +1,7 @@
 ---
 name: facio_styles
 description: Styles and assets for Facio Design System
-version: 0.1.7
+version: 0.2.0
 homepage: https://github.com/FacioCode/design/tree/master/packages/styles#readme
 repository: https://github.com/FacioCode/design
 issue_tracker: https://github.com/FacioCode/design/issues
