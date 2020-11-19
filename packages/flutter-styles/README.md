@@ -1,4 +1,4 @@
-# `facio_styles`
+# `facio_styles` for Flutter
 
 Facio Design System styles for Flutter applications.
 
