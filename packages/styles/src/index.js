@@ -2,6 +2,7 @@
 const libraryClassFormatter = require("./formats/flutter/library-class-dart");
 const packageDartFormatter = require("./formats/flutter/package-dart");
 const pubspecYamlFormatter = require("./formats/flutter/pubspec-yaml");
+const textThemeFormatter = require("./formats/flutter/text-theme");
 const flutter = require("./platforms/flutter");
 const web = require("./platforms/web");
 const StyleDictionary = require("style-dictionary");
@@ -38,6 +39,11 @@ themes.map((theme) => {
     styleDictionary.registerFormat({
       formatter: libraryClassFormatter,
       name: "flutter/library_class.dart",
+    });
+
+    styleDictionary.registerFormat({
+      formatter: textThemeFormatter,
+      name: "flutter/text_theme.dart",
     });
 
     styleDictionary.buildPlatform(platform);
