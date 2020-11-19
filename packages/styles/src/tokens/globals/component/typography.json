@@ -1,15 +1,32 @@
 {
   "component": {
     "typography": {
-      "color": { "value": "{color.font.base.value}" },
-      "body": {
-        "color": "{component.typography.color.value}"
-      },
       "largeTitle": {
-        "fontFamily": { "value": "{font.family.base.value}"},
+        "color": { "value": "{color.font.base.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": { "value": "{size.font.largeTitle.fontSize.value}" },
-        "fontWeight": { "value": "{font.weight.extraBold.value}"},
+        "fontWeight": { "value": "{font.weight.extraBold.value}" },
         "letterSpacing": { "value": "{size.font.largeTitle.letterSpacing.value}" }
+      },
+      "largeInput": {
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": { "value": "{size.font.largeInput.fontSize.value}" },
+        "fontWeight": { "value": "{font.weight.regular.value}" },
+        "letterSpacing": { "value": "{size.font.largeInput.letterSpacing.value}" }
+      },
+      "title1": {
+        "color": { "value": "{color.font.base.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": { "value": "{size.font.title1.fontSize.value}" },
+        "fontWeight": { "value": "{font.weight.bold.value}" },
+        "letterSpacing": { "value": "{size.font.title1.letterSpacing.value}" }
+      },
+      "body": {
+        "color": { "value": "{color.font.base.value}" },
+        "fontFamily": { "value": "{font.family.base.value}"},
+        "fontSize": { "value": "{size.font.body.fontSize.value}" },
+        "fontWeight": { "value": "{font.weight.regular.value}"},
+        "letterSpacing": { "value": "{size.font.body.letterSpacing.value}" }
       }
     }
   }
