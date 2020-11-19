@@ -1,0 +1,20 @@
+{
+  "component": {
+    "label": {
+      "large": {
+        "comment": "Todo: define letter-spacing and line-height.",
+        "fontSize": {
+          "comment": "Font size is the same of subtitle1, formerly subhead.",
+          "value": "{component.typography.subtitle1.fontSize.value}"
+        }
+      },
+      "medium": {
+        "comment": "Todo: define letter-spacing and line-height.",
+        "fontSize": {
+          "comment": "Font size is the same of caption.",
+          "value": "{component.typography.caption.fontSize.value}"
+        }
+      }
+    }
+  }
+}
