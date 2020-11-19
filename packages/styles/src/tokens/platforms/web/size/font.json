@@ -5,9 +5,17 @@
         "comment": "1em = 16px in default browsers",
         "value": 1
       },
-      "title1": { "value": 3.38888889 },
-      "title2": { "value": 2.27777778 },
-      "title3": { "value": 1.5 },
+      "largeTitle": {
+        "fontSize": {
+          "comment": "Approx. 54 pixels",
+          "value": 3.38888889
+        },
+        "letterSpacing": { "value": -4 },
+        "lineHeight": { "value": 1.32786885 }
+      },
+      "title1": { "value": 2.27777778 },
+      "title2": { "value": 1.5 },
+      "title3": { "value": "{size.font.base.value}" },
       "title4": { "value": "{size.font.base.value}" },
       "title5": { "value": "{size.font.base.value}" },
       "title6": { "value": "{size.font.base.value}" },
