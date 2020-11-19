@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2020-11-19)
+
+
+### Code Refactoring
+
+* **styles:** change typography/text styles names ([c0d30ed](https://github.com/FacioCode/design/commit/c0d30ed06c377557e3cde096fa2c5e398754fbe9))
+
+
+### BREAKING CHANGES
+
+* **styles:** Now largeTitle is called headline1. Now title1 is called headline2. Now title2 is called headline3. Now title3 is called headline4. Now headline is called headline5. Now body is called bodyText1. Now subhead is called subtitle*. Now footnote is called bodyText2. Now input and largeInput are not typography styles anymore, since they were turned into component tokens.
+
+
+
+
+
 # 0.2.0 (2020-11-19)
 
 
