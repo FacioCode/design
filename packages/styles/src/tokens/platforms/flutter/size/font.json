@@ -1,22 +1,73 @@
 {
   "size": {
     "font": {
+      "base": {
+        "letterSpacing": { "value": -0.43 },
+        "lineHeight": { "value": "{size.base.triple.value}" }
+      },
       "largeTitle": {
         "fontSize": { "value": 34 },
         "letterSpacing": { "value": -0.5 },
-        "lineHeight": { "value": 40 }
+        "lineHeight": { "value": "{size.base.fivefold.value}" }
       },
-      "largeInput": { "value": 28 },
-      "title1": { "value": 28 },
-      "title2": { "value": 22 },
-      "title3": { "value": 20 },
-      "headline": { "value": 17 },
-      "body": { "value": 17 },
-      "subhead": { "value": 15 },
-      "button": { "value": 14 },
-      "footnote": { "value": 14 },
-      "input": { "value": 14 },
-      "caption": { "value": 12 }
+      "largeInput": {
+        "fontSize": { "value": 28 },
+        "letterSpacing": { "value": -0.38 },
+        "lineHeight": { "value": "{size.base.fivefold.value}" }
+      },
+      "title1": {
+        "fontSize": { "value": 28 },
+        "letterSpacing": { "value": -0.38 },
+        "lineHeight": { "value": "{size.base.fivefold.value}" }
+      },
+      "title2": {
+        "fontSize": { "value": 22 },
+        "letterSpacing": { "value": -0.26 },
+        "lineHeight": { "value": "{size.base.quadruple.value}" }
+      },
+      "title3": {
+        "fontSize": { "value": 20 },
+        "letterSpacing": { "value": -0.45 },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "headline": {
+        "fontSize": { "value": 17 },
+        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "body": {
+        "fontSize": { "value": 17 },
+        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "subhead": {
+        "fontSize": { "value": 15 },
+        "letterSpacing": { "value": -0.23 },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "button": {
+        "fontSize": { "value": 14 },
+        "letterSpacing": { "value": -0.15 },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "footnote": {
+        "fontSize": { "value": 14 },
+        "letterSpacing": { "value": -0.15 },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "input": {
+        "fontSize": { "value": 14 },
+        "letterSpacing": {
+          "comment": "Check if letter spacing for input is correct",
+          "value": -0.15
+        },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "caption": {
+        "fontSize": { "value": 12 },
+        "letterSpacing": { "value": 0 },
+        "lineHeight": { "value": "{size.base.double.value}" }
+      }
     }
   }
 }
