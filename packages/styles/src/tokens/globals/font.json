@@ -6,6 +6,8 @@
       }
     },
     "weight": {
+      "regular": { "value": 400 },
+      "bold": { "value": 700 },
       "extraBold": { "value": 800 }
     }
   }
