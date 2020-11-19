@@ -68,8 +68,11 @@ class ColorPalette {
   static const baseSkyBlue80 = Color(0xFF002C5E);
   static const baseSkyBlue90 = Color(0xFF082A3F);
   static const baseWhite = Color(0xFFFFFFFF);
-  static const fontBase = Color(0xFF1F252E);
+  static const fontDefault = Color(0xFF424D5C);
   static const fontDisabled = Color(0xFFAFB4BB);
   static const fontHighlight = Color(0xFF068589);
-  static const fontInverseBase = Color(0xFFFFFFFF);
+  static const fontHint = Color(0xFF828C9B);
+  static const fontInverse = Color(0xFFFFFFFF);
+  static const fontPrimary = Color(0xFF1F252E);
+  static const fontSecondary = Color(0xFF303846);
 }
