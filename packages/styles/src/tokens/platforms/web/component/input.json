@@ -1,0 +1,12 @@
+{
+  "component": {
+    "input": {
+      "large": {
+        "fontSize": {
+          "comment": "At web, 1.75em = 28px (inspired on Flutter largeInput size)",
+          "value": 1.75
+        }
+      }
+    }
+  }
+}
