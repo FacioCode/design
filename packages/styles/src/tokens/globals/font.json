@@ -4,6 +4,9 @@
       "base": {
         "value": "{asset.font.opensans.name.value}"
       }
+    },
+    "weight": {
+      "extraBold": { "value": 800 }
     }
   }
 }
