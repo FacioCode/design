@@ -1,6 +1,6 @@
 {
   "component": {
-    "appbar": {
+    "appBar": {
       "background": {
         "color": { "value": "{color.background.backLayer.value}" }
       },
