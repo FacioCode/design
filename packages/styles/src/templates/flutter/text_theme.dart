@@ -23,7 +23,7 @@ class <%= this.className %> {
 
   return `
   static const TextStyle ${prop.key} = TextStyle(${mappedStyles}
-  )
+  );
 `;
 
 }).join('') %>
