@@ -6,6 +6,7 @@ const textThemeFormatter = require("./formats/flutter/text-theme");
 const flutter = require("./platforms/flutter");
 const web = require("./platforms/web");
 const StyleDictionary = require("style-dictionary");
+const componentStylesFormatter = require("./formats/flutter/component-styles-dart");
 
 const themes = ["light"];
 const platforms = ["flutter", "web"];
@@ -21,7 +22,6 @@ const config = ({ platform, theme }) => ({
 
 themes.map((theme) => {
   platforms.map((platform) => {
-    console.log("\n==============================================");
     console.log(`\nProcessing: [${platform}] [${theme}]`);
 
     const styleDictionary = StyleDictionary.extend(config({ platform, theme }));
@@ -44,6 +44,11 @@ themes.map((theme) => {
     styleDictionary.registerFormat({
       formatter: textThemeFormatter,
       name: "flutter/text_theme.dart",
+    });
+
+    styleDictionary.registerFormat({
+      formatter: componentStylesFormatter,
+      name: "flutter/component_styles.dart",
     });
 
     styleDictionary.buildPlatform(platform);

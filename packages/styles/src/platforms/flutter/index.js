@@ -18,6 +18,16 @@ const flutter = {
       destination: "lib/facio_styles.dart",
       format: "flutter/package.dart",
     },
+    {
+      destination: "lib/component_styles.dart",
+      filter: {
+        attributes: {
+          category: "component",
+        },
+      },
+      format: "flutter/component_styles.dart",
+      packageName,
+    },
     colorPalette({ packageName }),
     sizes({ packageName }),
     textTheme({ packageName }),

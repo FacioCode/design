@@ -3,6 +3,11 @@ const web = {
   files: [
     {
       destination: "index.css",
+      filter: {
+        attributes: {
+          category: "component",
+        },
+      },
       format: "css/variables",
     },
   ],
