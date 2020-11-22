@@ -4,12 +4,10 @@ const web = {
     {
       destination: "index.css",
       format: "css/variables",
-    }, {
-      destination: "index.js",
-      format: "javascript/module",
     },
   ],
-  transformGroup: "web",
+  // transformGroup: "web",
+  transforms: ["attribute/cti", "name/cti/kebab", "color/css"],
 };
 
 module.exports = web;
