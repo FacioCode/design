@@ -1,18 +1,24 @@
 {
   "component": {
     "button": {
-      "border": {
-        "radius": { "value": "{size.border.radius.single.value}" },
-        "width": { "value": "{size.border.width.none.value}" }
+      "root": {
+        "comment": "Styles applied to the root element.",
+        "borderRadius": { "value": "{size.border.radius.single.value}" }
+      },
+      "contained": {
+        "comment": "Styles applied to the root element if variant is contained.",
+        "borderWidth": { "value": "{size.border.width.none.value}" }
       },
       "label": {
+        "comment": "Styles applied to the element that wraps the button children.",
         "color": { "value": "{component.typography.button.color.value}" },
         "fontSize": {
-          "comment": "Default button font size can vary depending on platform. E.g. 1em for web.",
+          "comment": "Default button font size can vary depending on platform.",
           "value": "{size.font.button.fontSize.value}"
         }
       },
-      "small": {
+      "sizeMedium": {
+        "comment": "Styles applied to the root element if size is medium.",
         "height": { "value": "{size.base.quadruple.value}" },
         "label": {
           "padding": {
@@ -21,7 +27,8 @@
           }
         }
       },
-      "medium": {
+      "sizeLarge": {
+        "comment": "Styles applied to the root element if size is large.",
         "height": { "value": "{size.base.sixfold.value}" },
         "label": {
           "padding": {
