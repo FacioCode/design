@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.4](https://github.com/FacioCode/design/compare/v0.4.3...v0.4.4) (2020-11-22)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
 ## 0.4.1 (2020-11-22)
 
 
@@ -182,6 +190,3 @@ text/typography style, please use TextTheme.textTheme. The text style names also
 * **styles:** add support to multiple themes and platforms ([c1cea45](https://github.com/FacioCode/design/commit/c1cea45d96808fcf4f4b69d5d3363d7f2ab14853))
 * **styles:** add web platform config ([d376a44](https://github.com/FacioCode/design/commit/d376a44f65909953d36395003de07fbb5a68d298))
 * **styles:** initialize typographuy component ([4f24ca6](https://github.com/FacioCode/design/commit/4f24ca693d3943a1c7d8551874c6168ff1e2ba65))
-
-
-

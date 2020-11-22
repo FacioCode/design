@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.4](https://github.com/FacioCode/design/compare/v0.4.3...v0.4.4) (2020-11-22)
+
+**Note:** Version bump only for package facio_styles
+
+
+
+
+
 ## 0.4.3 (2020-11-22)
 
 
@@ -67,6 +75,3 @@ text/typography style, please use TextTheme.textTheme. The text style names also
 * **flutter-styles:** add more font sizing definitions ([b5d8610](https://github.com/FacioCode/design/commit/b5d861018c47b2ba67dda1805f3cd1c9c7ab9782))
 * **flutter-styles:** add sizes constants ([8bb0f5c](https://github.com/FacioCode/design/commit/8bb0f5ce108d02dcfcff00248559c84ce62d0727))
 * **flutter-styles:** expose sizes and wip text_theme classes ([fc596bf](https://github.com/FacioCode/design/commit/fc596bfcd86d68971ec0ffdd72677cb6945bf4e3))
-
-
-
