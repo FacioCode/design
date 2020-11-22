@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2020-11-22)
+
+
+### Features
+
+* **flutter-styles:** add component styles classes ([8862576](https://github.com/FacioCode/design/commit/88625766481ab45aecbb5acd4d969f631f543933))
+
+
+
+
+
 ## 0.3.1 (2020-11-19)
 
 **Note:** Version bump only for package facio_styles
