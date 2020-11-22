@@ -14,9 +14,12 @@ jobs:
         node-version: [14.x]
 
     steps:
-    - uses: actions/checkout@v2
-        with:
-          fetch-depth: "0"
+    - name: Pull all commits for Lerna semantic release
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: "0"
+    - name: Pull all tags for Lerna semantic release
+      run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
