@@ -1,9 +1,9 @@
 {
   "component": {
     "chip": {
-      "border": {
-        "radius": { "value": "{size.border.radius.double.value}" },
-        "width": { "value": "{size.border.width.single.value}" }
+      "root": {
+        "borderRadius": { "value": "{size.border.radius.double.value}" },
+        "borderWidth": { "value": "{size.border.width.single.value}" }
       }
     }
   }
