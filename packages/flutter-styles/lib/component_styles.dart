@@ -2,6 +2,8 @@ part of facio_styles;
 
 class AppBarStyles {
 
+  AppBarStyles._();
+  
   /// height for root
   static const appBarRootHeight = 896.00;
 
@@ -12,6 +14,8 @@ class AppBarStyles {
 
 class ButtonStyles {
 
+  ButtonStyles._();
+  
   /// borderRadius for root
   static const buttonRootBorderRadius = 128.00;
 
@@ -46,6 +50,8 @@ class ButtonStyles {
 
 class ChipStyles {
 
+  ChipStyles._();
+  
   /// borderRadius for root
   static const chipRootBorderRadius = 256.00;
 
@@ -56,16 +62,20 @@ class ChipStyles {
 
 class InputStyles {
 
+  InputStyles._();
+  
   /// Font size is the same of headline, formerly headline.
   static const inputMediumFontSize = 272.00;
 
   /// Font size is the same of headline2, formerly title1.
-  static const inputLargeFontSize = [object Object];
+  static const inputLargeFontSize = 448.00;
 
 }
 
 class LabelStyles {
 
+  LabelStyles._();
+  
   /// Font size is the same of subtitle1, formerly subhead.
   static const labelLargeFontSize = 240.00;
 
@@ -76,6 +86,8 @@ class LabelStyles {
 
 class TypographyStyles {
 
+  TypographyStyles._();
+  
   /// color for headline1
   static const typographyHeadline1Color = Color(0xFF1F252E);
 
