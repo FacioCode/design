@@ -19,7 +19,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 544.00,
     fontWeight: "800",
-    letterSpacing: -8.00
+    letterSpacing: -8.00,
+    lineHeight: 640.00
   )
 
   static const TextStyle headline2 = TextStyle(
@@ -27,7 +28,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 448.00,
     fontWeight: "700",
-    letterSpacing: -6.08
+    letterSpacing: -6.08,
+    lineHeight: 640.00
   )
 
   static const TextStyle headline3 = TextStyle(
@@ -35,7 +37,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 352.00,
     fontWeight: "700",
-    letterSpacing: -4.16
+    letterSpacing: -4.16,
+    lineHeight: 512.00
   )
 
   static const TextStyle headline4 = TextStyle(
@@ -43,7 +46,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 320.00,
     fontWeight: "700",
-    letterSpacing: -7.20
+    letterSpacing: -7.20,
+    lineHeight: 384.00
   )
 
   static const TextStyle headline5 = TextStyle(
@@ -51,7 +55,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 272.00,
     fontWeight: "700",
-    letterSpacing: -6.88
+    letterSpacing: -6.88,
+    lineHeight: 384.00
   )
 
   static const TextStyle bodyText1 = TextStyle(
@@ -59,7 +64,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 272.00,
     fontWeight: "400",
-    letterSpacing: -6.88
+    letterSpacing: -6.88,
+    lineHeight: 384.00
   )
 
   static const TextStyle subtitle1 = TextStyle(
@@ -67,7 +73,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 240.00,
     fontWeight: "400",
-    letterSpacing: -3.68
+    letterSpacing: -3.68,
+    lineHeight: 384.00
   )
 
   static const TextStyle subtitle2 = TextStyle(
@@ -75,7 +82,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 240.00,
     fontWeight: "400",
-    letterSpacing: -3.68
+    letterSpacing: -3.68,
+    lineHeight: 384.00
   )
 
   static const TextStyle button = TextStyle(
@@ -83,7 +91,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 224.00,
     fontWeight: "400",
-    letterSpacing: -2.40
+    letterSpacing: -2.40,
+    lineHeight: 384.00
   )
 
   static const TextStyle bodyText2 = TextStyle(
@@ -91,7 +100,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 224.00,
     fontWeight: "400",
-    letterSpacing: -2.40
+    letterSpacing: -2.40,
+    lineHeight: 384.00
   )
 
   static const TextStyle caption = TextStyle(
@@ -99,7 +109,8 @@ class TextStyles {
     fontFamily: "Open Sans",
     fontSize: 192.00,
     fontWeight: "400",
-    letterSpacing: 0.00
+    letterSpacing: 0.00,
+    lineHeight: 256.00
   )
 
   static const TextTheme textTheme = TextTheme(
