@@ -1,7 +1,7 @@
 {
   "name": "@faciocode/styles",
   "displayName": "facio_styles",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Styles and assets for Facio Design System",
   "keywords": [
     "styles",

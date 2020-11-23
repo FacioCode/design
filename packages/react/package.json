@@ -1,7 +1,7 @@
 {
   "name": "@faciocode/react",
   "displayName": "FacioReact",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "React styled components for Facio",
   "keywords": [
     "react",
@@ -52,7 +52,7 @@
     "react-dom": "16.14.0 || 17.0.1"
   },
   "dependencies": {
-    "@faciocode/react-unstyled": "^0.5.0"
+    "@faciocode/react-unstyled": "^0.6.0"
   },
   "publishConfig": {
     "access": "public"
