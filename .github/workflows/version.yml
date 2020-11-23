@@ -1,4 +1,4 @@
-name: Bump version and create GitHub release
+name: Node.js Packages version bump
 
 on:
   push:
