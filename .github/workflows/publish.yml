@@ -1,0 +1,86 @@
+name: Publish packages
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm ci
+      - run: npm test
+
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - name: Install lerna globally
+        run: npm install --global --loglevel=error lerna
+      - name: Install project dependencies
+        run: npm ci
+      - name: Checking npm credentials
+        run: npm whoami
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      - name: Publishing to npm
+        run: lerna publish from-git --ignore-prepublish --yes
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+
+  publish-gpr:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://npm.pkg.github.com/
+      - name: Install lerna globally
+        run: npm install --global --loglevel=error lerna
+      - name: Install project dependencies
+        run: npm ci
+      - name: Publishing to GitHub packages
+        run: lerna publish from-git --ignore-prepublish --registry https://npm.pkg.github.com/ --yes
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  publish-pubdev:
+    needs: build
+    runs-on: ubuntu-latest
+    container:
+      image: google/dart:latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup credentials
+      run: |
+        mkdir -p ~/.pub-cache
+        cat <<EOF > ~/.pub-cache/credentials.json
+        {
+          "accessToken":"${{ secrets.PUB_ACCESS_TOKEN }}",
+          "refreshToken":"${{ secrets.PUB_REFRESH_TOKEN }}",
+          "tokenEndpoint":"https://accounts.google.com/o/oauth2/token",
+          "scopes": [ "openid", "https://www.googleapis.com/auth/userinfo.email" ],
+          "expiration": 1606086594822
+        }
+        EOF
+    - name: Print Dart SDK version
+      run: dart --version
+    - name: Install dependencies
+      run: dart pub get
+    - name: Verify formatting
+      run: dart format --output=none --set-exit-if-changed .
+    - name: Analyze project source
+      run: dart analyze --fatal-infos
+    - name: Publish package
+      run: pub publish -f
