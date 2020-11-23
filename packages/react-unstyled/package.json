@@ -1,7 +1,7 @@
 {
   "name": "@faciocode/react-unstyled",
   "displayName": "FacioReactUnstyled",
-  "version": "0.0.0",
+  "version": "0.5.0",
   "description": "Unstyled React components for Facio",
   "keywords": [
     "react",
