@@ -62,7 +62,9 @@ jobs:
       image: google/dart:latest
     steps:
     - uses: actions/checkout@v2
-    - name: Setup credentials
+    - name: Change directory to flutter-styles package
+      run: cd packages/flutter-styles
+    - name: Setup pub credentials
       run: |
         mkdir -p ~/.pub-cache
         cat <<EOF > ~/.pub-cache/credentials.json
