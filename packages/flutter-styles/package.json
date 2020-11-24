@@ -1,12 +1,12 @@
 {
   "name": "facio_styles",
   "version": "0.11.4",
-  "description": "Flutter styles package for Design System for Facio",
+  "description": "Facio Design System style package for use in Flutter applications. The styles in this package are consumed by the UI components of Facio applications built on Flutter.",
   "private": true,
   "repository": {
     "directory": "packages/flutter-styles",
     "type": "git",
-    "url": "git+https://github.com/FacioCode/design.git"
+    "url": "https://github.com/FacioCode/design"
   },
   "keywords": [
     "facio",
@@ -16,5 +16,9 @@
     "name": "Facio",
     "url": "https://github.com/FacioCode"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/FacioCode/design/tree/master/packages/flutter-styles#readme",
+  "bugs": {
+    "url": "https://github.com/FacioCode/design/issues"
+  }
 }
