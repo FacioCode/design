@@ -1,8 +1,24 @@
-import type { ElementType, Ref } from "react";
+import type { ElementType, HTMLAttributes, Ref } from "react";
 
 export type Element = HTMLButtonElement | HTMLElement
+type Attributes = HTMLAttributes<Element>
+
+type ClassKey = |
+  "root";
 
 export type Props = {
+
+  /**
+   * @optional
+   * @type object
+   */
+  classes?: Record<ClassKey, Attributes["className"]>
+
+  /**
+   * @optional
+   * @type string
+   */
+  className?: Attributes["className"]
 
   /**
    * The component used for the root node. Either a `string` to use a HTML element or a component.
