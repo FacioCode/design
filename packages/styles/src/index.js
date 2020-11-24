@@ -7,6 +7,10 @@ const flutter = require("./platforms/flutter");
 const web = require("./platforms/web");
 const StyleDictionary = require("style-dictionary");
 const componentStylesFormatter = require("./formats/flutter/component-styles-dart");
+const fontSizeToRem = require("./transforms/size/fontSizeToRem");
+const lineHeightToEm = require("./transforms/size/lineHeightToEm");
+const componentFlutterAlignment = require("./transforms/component/flutter/alignment");
+const componentFlutterFontWeight = require("./transforms/component/flutter/fontWeight");
 
 const themes = ["light"];
 const platforms = ["flutter", "web"];
@@ -50,6 +54,11 @@ themes.map((theme) => {
       formatter: componentStylesFormatter,
       name: "flutter/component_styles.dart",
     });
+
+    styleDictionary.registerTransform(componentFlutterAlignment);
+    styleDictionary.registerTransform(componentFlutterFontWeight);
+    styleDictionary.registerTransform(fontSizeToRem);
+    styleDictionary.registerTransform(lineHeightToEm);
 
     styleDictionary.buildPlatform(platform);
     console.log("\nEnd processing");
