@@ -12,8 +12,16 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
-      - run: npm test
+      - name: Install dependencies
+        run: npm ci
+      - name: Build and run tests
+        run: npm test
+      - name: Prepare Flutter pubspec file to commit
+        run: git add packages/flutter-styles/pubspec.yaml
+      - name: Commit pubspec file
+        run: "git commit --allow-empty -m \"chore(flutter-styles): bump package version [skip ci]\""
+      - name: Push up-to-date pubspec file
+        run: git push
 
   publish-npm:
     needs: build
@@ -79,7 +87,7 @@ jobs:
     - name: Print Dart SDK version
       run: dart --version
     - name: Install dependencies
-      run: dart pub get
+      run: flutter pub get
       working-directory: ${{env.working-directory}}
     - name: Verify formatting
       run: dart format --output=none --set-exit-if-changed .
