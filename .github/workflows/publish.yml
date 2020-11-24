@@ -92,9 +92,6 @@ jobs:
         EOF
     - name: Print Dart SDK version
       run: dart --version
-    - name: Install dependencies
-      run: flutter pub get
-      working-directory: ${{env.working-directory}}
     - name: Verify formatting
       run: dart format --output=none --set-exit-if-changed .
       working-directory: ${{env.working-directory}}
