@@ -5,6 +5,9 @@ export default config({
   browser,
   directories,
   displayName,
+  globals: {
+    react: "React",
+  },
   module,
   source,
 });
