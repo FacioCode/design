@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/FacioCode/design/compare/v0.10.0...v0.11.0) (2020-11-24)
+
+
+### Bug Fixes
+
+* **flutter-styles:** add missing const to color values ([e5d8078](https://github.com/FacioCode/design/commit/e5d80784a202425d4e81ddfeee901e62dfdbdab2))
+* **flutter-styles:** convert typography and base sizes to double ([f86eba5](https://github.com/FacioCode/design/commit/f86eba53dc09d125974275e801a4576efe63a385))
+* **flutter-styles:** fix color palette syntax and const use ([c66f897](https://github.com/FacioCode/design/commit/c66f897cbda4e9a5a64ab31bfa4bcae6d83754ee))
+
+
+
+# [0.9.0](https://github.com/FacioCode/design/compare/v0.8.0...v0.9.0) (2020-11-24)
+
+
+### Bug Fixes
+
+* **flutter-styles:** add missing const, replace lineHeight by height ([376e11f](https://github.com/FacioCode/design/commit/376e11f647eb96afbd53f50c21e2415eeefe5867))
+* **flutter-styles:** import missing material and painting ([0a2bd9f](https://github.com/FacioCode/design/commit/0a2bd9f87a9b08276e7ded286c1c1feeb4092a80))
+
+
+
+# [0.8.0](https://github.com/FacioCode/design/compare/v0.7.6...v0.8.0) (2020-11-24)
+
+
+
+## [0.7.6](https://github.com/FacioCode/design/compare/v0.7.5...v0.7.6) (2020-11-24)
+
+
+
+
+
 # [0.10.0](https://github.com/FacioCode/design/compare/v0.9.0...v0.10.0) (2020-11-24)
 
 
