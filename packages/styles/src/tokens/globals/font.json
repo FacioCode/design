@@ -1,10 +1,5 @@
 {
   "font": {
-    "family": {
-      "base": {
-        "value": "{asset.font.opensans.name.value}"
-      }
-    },
     "weight": {
       "regular": { "value": 400 },
       "bold": { "value": 700 },

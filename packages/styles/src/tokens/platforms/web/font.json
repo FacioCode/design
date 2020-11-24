@@ -1,0 +1,15 @@
+{
+  "font": {
+    "family": {
+      "base": {
+        "value": "{asset.font.opensans.name.value}, {font.family.fallback.value}"
+      },
+      "fallback": {
+        "value": "sans-serif"
+      },
+      "native": {
+        "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+      }
+    }
+  }
+}
