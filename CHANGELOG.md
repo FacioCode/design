@@ -3,6 +3,112 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.4](https://github.com/FacioCode/design/compare/v0.11.3...v0.11.4) (2020-11-24)
+
+
+
+## [0.11.2](https://github.com/FacioCode/design/compare/v0.11.1...v0.11.2) (2020-11-24)
+
+
+
+## [0.11.1](https://github.com/FacioCode/design/compare/v0.11.0...v0.11.1) (2020-11-24)
+
+
+
+# [0.11.0](https://github.com/FacioCode/design/compare/v0.10.0...v0.11.0) (2020-11-24)
+
+
+### Bug Fixes
+
+* **flutter-styles:** add missing const to color values ([e5d8078](https://github.com/FacioCode/design/commit/e5d80784a202425d4e81ddfeee901e62dfdbdab2))
+* **styles:** add missing const to color values ([b91aee7](https://github.com/FacioCode/design/commit/b91aee7883d0fe368d2ea0c7728b282deb1abbf1))
+
+
+
+# [0.10.0](https://github.com/FacioCode/design/compare/v0.9.0...v0.10.0) (2020-11-24)
+
+
+### Bug Fixes
+
+* **flutter-styles:** convert typography and base sizes to double ([f86eba5](https://github.com/FacioCode/design/commit/f86eba53dc09d125974275e801a4576efe63a385))
+* **flutter-styles:** fix color palette syntax and const use ([c66f897](https://github.com/FacioCode/design/commit/c66f897cbda4e9a5a64ab31bfa4bcae6d83754ee))
+* **styles:** adopt size/flutter/toDouble transform for base sizes ([eea5825](https://github.com/FacioCode/design/commit/eea5825e8a27b0ae8d1c38407cf534fcdae23c13))
+* **styles:** convert typography and base sizes to double ([5eb316b](https://github.com/FacioCode/design/commit/5eb316b633e3d6702562ec1ea7d0483f18dbc739))
+* **styles:** only add name and value prefixes if category is color ([0ddb910](https://github.com/FacioCode/design/commit/0ddb9105151bce8c5224212cd38060924ee4bfc9))
+
+
+### Features
+
+* **styles:** add isLetterSpacing matcher ([121a872](https://github.com/FacioCode/design/commit/121a87201fe4c9fa97d0270966b9a110e5088c46))
+* **styles:** add size/flutter/toDouble transform ([e3d8ba1](https://github.com/FacioCode/design/commit/e3d8ba1b4fca81867f324ff440145be27c6c74be))
+
+
+
+# [0.9.0](https://github.com/FacioCode/design/compare/v0.8.0...v0.9.0) (2020-11-24)
+
+
+### Bug Fixes
+
+* **flutter-styles:** add missing const, replace lineHeight by height ([376e11f](https://github.com/FacioCode/design/commit/376e11f647eb96afbd53f50c21e2415eeefe5867))
+* **flutter-styles:** import missing material and painting ([0a2bd9f](https://github.com/FacioCode/design/commit/0a2bd9f87a9b08276e7ded286c1c1feeb4092a80))
+* **styles:** add missing const, replace lineHeight by height ([ddc57e6](https://github.com/FacioCode/design/commit/ddc57e6d85e5a0bcb3ab3ecbdecbff7298ffba3c))
+
+
+### Features
+
+* **styles:** import material and painting at flutter template ([da62040](https://github.com/FacioCode/design/commit/da6204053fb34ff759dd3a5fc8d489832bfa161c))
+
+
+
+# [0.8.0](https://github.com/FacioCode/design/compare/v0.7.6...v0.8.0) (2020-11-24)
+
+
+### Features
+
+* **button base:** add classes and className properties ([48e430e](https://github.com/FacioCode/design/commit/48e430e6c10f2e1c8084e482961d314f04290066))
+
+
+
+## [0.7.6](https://github.com/FacioCode/design/compare/v0.7.5...v0.7.6) (2020-11-24)
+
+
+### Bug Fixes
+
+* **styles:** generate correct version for flutter-styles ([5fd3c4a](https://github.com/FacioCode/design/commit/5fd3c4a0724365b9e6fc5e79cb91db6248c6c7a2))
+
+
+
+## [0.7.5](https://github.com/FacioCode/design/compare/v0.7.4...v0.7.5) (2020-11-24)
+
+
+
+## [0.7.4](https://github.com/FacioCode/design/compare/v0.7.3...v0.7.4) (2020-11-24)
+
+
+
+## [0.7.3](https://github.com/FacioCode/design/compare/v0.7.2...v0.7.3) (2020-11-24)
+
+
+
+## [0.7.2](https://github.com/FacioCode/design/compare/v0.7.1...v0.7.2) (2020-11-24)
+
+
+### Bug Fixes
+
+* **deps:** upgrade types/react to 17.0.0 ([dea2bef](https://github.com/FacioCode/design/commit/dea2bef8043533bea3f48fcaa529eb25b4ec96ad))
+
+
+
+## [0.7.1](https://github.com/FacioCode/design/compare/v0.7.0...v0.7.1) (2020-11-24)
+
+
+
+# 0.7.0 (2020-11-24)
+
+
+
+
+
 ## [0.11.3](https://github.com/FacioCode/design/compare/v0.11.2...v0.11.3) (2020-11-24)
 
 
