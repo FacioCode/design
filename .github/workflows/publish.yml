@@ -14,16 +14,20 @@ jobs:
           node-version: 12
       - name: Install dependencies
         run: npm ci
-      - name: Set git commit user
-        run: sh ./.github/scripts/configure-git.sh
       - name: Build and run tests
         run: npm test
       - name: Prepare Flutter pubspec file to commit
         run: git add packages/flutter-styles/pubspec.yaml
+      - name: Fetch git branches
+        run: git fetch
+      - name: Checkout main branch
+        run: git checkout main
+      - name: Set git commit user
+        run: sh ./.github/scripts/configure-git.sh
       - name: Commit pubspec file
         run: "git commit --allow-empty -m \"chore(flutter-styles): bump package version [skip ci]\""
       - name: Push up-to-date pubspec file
-        run: git push
+        run: git push origin
 
   publish-npm:
     needs: build
