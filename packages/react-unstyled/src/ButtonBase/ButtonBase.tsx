@@ -3,7 +3,7 @@
  * @body Remove React import when TypeScript 4.1 is released
  */
 import * as React from "react";
-import type { Props } from "./Props";
+import type { Element, Props } from "./ButtonBase.types";
 
 const render = (props: Props, ref: Props["ref"]) => {
   const {
@@ -14,5 +14,5 @@ const render = (props: Props, ref: Props["ref"]) => {
   return <Component ref={ref} {...otherProps} />;
 };
 
-export const ButtonBase = React.forwardRef<HTMLButtonElement | HTMLElement, Props>(render);
+export const ButtonBase = React.forwardRef<Element, Props>(render);
 ButtonBase.displayName = "ButtonBase";

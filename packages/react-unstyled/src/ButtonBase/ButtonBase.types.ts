@@ -1,5 +1,7 @@
 import type { ElementType, Ref } from "react";
 
+export type Element = HTMLButtonElement | HTMLElement
+
 export type Props = {
 
   /**
@@ -16,5 +18,5 @@ export type Props = {
    * @optional
    * @type ref
    */
-  ref?: Ref<HTMLButtonElement>
+  ref?: Ref<Element>
 }
