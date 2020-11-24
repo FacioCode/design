@@ -48,11 +48,17 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "peerDependencies": {
+    "@material-ui/styles": "5.0.0-alpha.15",
+    "@types/react": "17.0.0",
+    "lodash": "4.17.20",
     "react": "16.14.0 || 17.0.1",
-    "react-dom": "16.14.0 || 17.0.1"
+    "react-dom": "16.14.0 || 17.0.1",
+    "prop-types": "15.7.2"
   },
   "dependencies": {
-    "@faciocode/react-unstyled": "^0.7.0"
+    "@faciocode/react-unstyled": "^0.7.0",
+    "@faciocode/styles": "^0.7.0",
+    "@material-ui/styles": "5.0.0-alpha.15"
   },
   "publishConfig": {
     "access": "public"
