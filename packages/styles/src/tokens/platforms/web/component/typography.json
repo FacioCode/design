@@ -1,6 +1,9 @@
 {
   "component": {
     "typography": {
+      "root": {
+        "margin": { "value": "{size.base.none.value}" }
+      },
       "headline1": {
         "marginBottom": { "value": 0.8852459 },
         "marginTop": { "value": 0.44262295 }
@@ -27,6 +30,18 @@
       },
       "bodyText1": {
         "marginBottom": { "value": 1.5 }
+      },
+      "alignLeft": {
+        "comment": "Styles applied to the root element if align is left",
+        "textAlign": { "value": "left" }
+      },
+      "alignCenter": {
+        "comment": "Styled applied to the root element if align is center",
+        "textAlign": { "value": "center" }
+      },
+      "alignRight": {
+        "comment": "Styled applied to the root element if align is right",
+        "textAlign": { "value": "right" }
       }
     }
   }
