@@ -3,7 +3,7 @@
  * @body Remove React import when TypeScript 4.1 is released
  */
 import * as React from "react";
-import { Props } from "./Props";
+import { Element, Props } from "./InputBase.types";
 import clsx from "clsx";
 
 const render = (props: Props, ref: Props["ref"]) => {
@@ -15,13 +15,15 @@ const render = (props: Props, ref: Props["ref"]) => {
   } = props;
 
   return (
-    <InputComponent
-      className={clsx(classes.input, inputProps.className)}
-      ref={ref}
-      {...otherProps}
-    />
+    <div className={classes.root}>
+      <InputComponent
+        className={clsx(classes.input, inputProps.className)}
+        ref={ref}
+        {...otherProps}
+      />
+    </div>
   );
 };
 
-export const InputBase = React.forwardRef<HTMLInputElement, Props>(render);
+export const InputBase = React.forwardRef<Element, Props>(render);
 InputBase.displayName = "InputBase";

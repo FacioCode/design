@@ -5,6 +5,8 @@ type Attributes = HTMLAttributes<HTMLInputElement>
 type ClassKey =
   | "input" | string;
 
+export type Element = HTMLInputElement;
+
 export interface Props {
 
   /**
@@ -40,5 +42,5 @@ export interface Props {
    * @optional
    * @type ref
    */
-  ref?: Ref<HTMLInputElement>
+  ref?: Ref<Element>
 }

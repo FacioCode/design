@@ -1,2 +1,2 @@
 export { InputBase } from "./InputBase";
-export type { Props as InputBaseProps } from "./Props";
+export type { Element as InputBaseElement, Props as InputBaseProps } from "./InputBase.types";
