@@ -14,9 +14,9 @@ const plugins = [
   }),
 ];
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export default ({ browser, directories, displayName, source }) => [
+export default ({ browser, displayName, globals = {}, source }) => [
   {
+    external: Object.keys(globals),
     input: source,
     manualChunks,
     output: {
@@ -27,6 +27,7 @@ export default ({ browser, directories, displayName, source }) => [
     plugins,
   },
   {
+    external: Object.keys(globals),
     input: source,
     manualChunks,
     output: {
@@ -37,13 +38,12 @@ export default ({ browser, directories, displayName, source }) => [
     plugins,
   },
   {
+    external: Object.keys(globals),
     input: source,
     output: {
       file: browser,
       format: "umd",
-      globals: {
-        "react": "React",
-      },
+      globals,
       name: displayName,
       sourcemap: true,
     },
