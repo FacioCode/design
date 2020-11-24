@@ -3,6 +3,51 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/FacioCode/design/compare/v0.7.6...v0.8.0) (2020-11-24)
+
+
+### Bug Fixes
+
+* **styles:** generate correct version for flutter-styles ([5fd3c4a](https://github.com/FacioCode/design/commit/5fd3c4a0724365b9e6fc5e79cb91db6248c6c7a2))
+
+
+### Features
+
+* **button base:** add classes and className properties ([48e430e](https://github.com/FacioCode/design/commit/48e430e6c10f2e1c8084e482961d314f04290066))
+
+
+
+## [0.7.5](https://github.com/FacioCode/design/compare/v0.7.4...v0.7.5) (2020-11-24)
+
+
+
+## [0.7.4](https://github.com/FacioCode/design/compare/v0.7.3...v0.7.4) (2020-11-24)
+
+
+
+## [0.7.3](https://github.com/FacioCode/design/compare/v0.7.2...v0.7.3) (2020-11-24)
+
+
+
+## [0.7.2](https://github.com/FacioCode/design/compare/v0.7.1...v0.7.2) (2020-11-24)
+
+
+### Bug Fixes
+
+* **deps:** upgrade types/react to 17.0.0 ([dea2bef](https://github.com/FacioCode/design/commit/dea2bef8043533bea3f48fcaa529eb25b4ec96ad))
+
+
+
+## [0.7.1](https://github.com/FacioCode/design/compare/v0.7.0...v0.7.1) (2020-11-24)
+
+
+
+# 0.7.0 (2020-11-24)
+
+
+
+
+
 ## [0.7.6](https://github.com/FacioCode/design/compare/v0.7.5...v0.7.6) (2020-11-24)
 
 

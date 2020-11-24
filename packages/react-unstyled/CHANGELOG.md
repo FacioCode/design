@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/FacioCode/design/compare/v0.7.6...v0.8.0) (2020-11-24)
+
+
+### Features
+
+* **button base:** add classes and className properties ([48e430e](https://github.com/FacioCode/design/commit/48e430e6c10f2e1c8084e482961d314f04290066))
+
+
+
+# 0.7.0 (2020-11-24)
+
+
+
+
+
 # [0.7.0](https://github.com/FacioCode/design/compare/v0.6.0...v0.7.0) (2020-11-24)
 
 
