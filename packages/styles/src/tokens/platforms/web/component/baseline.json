@@ -1,0 +1,28 @@
+{
+  "component": {
+    "baseline": {
+      "backdrop": {
+        "backgroundColor": { "value": "{color.background.backLayer.value}" }
+      },
+      "body": {
+        "backgroundColor": { "value": "{color.background.backLayer.value}"},
+        "color": { "value": "{color.font.default.value}" },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": { "value": "{size.font.base.fontSize.value}" },
+        "fontWeight": { "value": "{font.weight.regular.value}" },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" },
+        "margin": { "value": "{size.base.none.value}" }
+      },
+      "bold": {
+        "fontWeight": { "value": "{font.weight.bold.value}" }
+      },
+      "html": {
+        "fontSize": { "value": "{size.font.base.fontSize.value}" },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "mediaPrint": {
+        "color": { "value": "{color.base.white.value}" }
+      }
+    }
+  }
+}
