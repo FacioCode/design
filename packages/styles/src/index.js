@@ -11,6 +11,7 @@ const fontSizeToRem = require("./transforms/size/fontSizeToRem");
 const lineHeightToEm = require("./transforms/size/lineHeightToEm");
 const componentFlutterAlignment = require("./transforms/component/flutter/alignment");
 const componentFlutterFontWeight = require("./transforms/component/flutter/fontWeight");
+const sizeFlutterToDouble = require("./transforms/size/flutter/toDouble");
 
 const themes = ["light"];
 const platforms = ["flutter", "web"];
@@ -59,6 +60,7 @@ themes.map((theme) => {
     styleDictionary.registerTransform(componentFlutterFontWeight);
     styleDictionary.registerTransform(fontSizeToRem);
     styleDictionary.registerTransform(lineHeightToEm);
+    styleDictionary.registerTransform(sizeFlutterToDouble);
 
     styleDictionary.buildPlatform(platform);
     console.log("\nEnd processing");

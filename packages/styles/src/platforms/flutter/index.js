@@ -46,7 +46,7 @@ const flutter = {
     "attribute/cti",
     "name/ti/camel",
     "color/hex8flutter",
-    "size/flutter/remToDouble",
+    "size/flutter/toDouble",
     "content/flutter/literal",
     "asset/flutter/literal",
     "font/flutter/literal",
