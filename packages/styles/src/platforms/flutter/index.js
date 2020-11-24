@@ -41,7 +41,17 @@ const flutter = {
     repository: repository.url,
     version,
   },
-  transformGroup: "flutter-separate",
+  transforms: [
+    "attribute/cti",
+    "name/ti/camel",
+    "color/hex8flutter",
+    "size/flutter/remToDouble",
+    "content/flutter/literal",
+    "asset/flutter/literal",
+    "font/flutter/literal",
+    "component/flutter/alignment",
+    "component/flutter/fontWeight",
+  ],
 };
 
 module.exports = flutter;
