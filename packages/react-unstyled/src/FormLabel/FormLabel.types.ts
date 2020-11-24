@@ -1,6 +1,7 @@
 import type { ElementType, HTMLAttributes, ReactNode, Ref } from "react";
 
-type Attributes = HTMLAttributes<HTMLLabelElement | HTMLElement>
+export type Element = HTMLLabelElement | HTMLElement;
+type Attributes = HTMLAttributes<Element>
 
 type ClassKey =
   | "root" | string;
@@ -38,5 +39,5 @@ export interface Props {
    * @optional
    * @type ref
    */
-  ref?: Ref<HTMLLabelElement>
+  ref?: Ref<Element>
 }

@@ -3,7 +3,7 @@
  * @body Remove React import when TypeScript 4.1 is released
  */
 import * as React from "react";
-import type { Props } from "./Props";
+import type { Props } from "./FormLabel.types";
 import clsx from "clsx";
 
 const render = (props: Props, ref: Props["ref"]) => {
