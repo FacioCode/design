@@ -1,6 +1,28 @@
 {
   "component": {
     "input": {
+      "root": {
+        "lineHeight": {
+          "comment": "23px",
+          "value": 1.4375
+        }
+      },
+      "input": {
+        "borderWidth": { "value": "{size.border.width.none.value}" },
+        "height": {
+          "comment": "Reset 23px the native input line-height",
+          "value": 1.4375
+        },
+        "margin": { "value": "{size.base.none.value}" },
+        "minWidth": {
+          "comment": "Make the flex item shrink with Firefox",
+          "value": "{size.base.none.value}"
+        },
+        "paddingTop": { "value": "{size.base.half.value}" },
+        "paddingRight": { "value": "{size.base.none.value}" },
+        "paddingBottom": { "value": 5 },
+        "paddingLeft": { "value": "{size.base.none.value}" }
+      },
       "large": {
         "fontSize": {
           "comment": "At web, 1.75em = 28px (inspired on Flutter largeInput size)",
