@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/FacioCode/design/compare/v0.6.0...v0.7.0) (2020-11-24)
+
+
+### Bug Fixes
+
+* **flutter-styles:** use correct FontWeight class notation ([bd1a470](https://github.com/FacioCode/design/commit/bd1a4707d05b198544190673ba6d0114daf26aac))
+* **flutter-styles:** use correct FontWeight class notation at TextTheme ([7b13e02](https://github.com/FacioCode/design/commit/7b13e02cb72163be002d58299331ce6506224c5e))
+
+
+
+
+
 # [0.6.0](https://github.com/FacioCode/design/compare/v0.5.0...v0.6.0) (2020-11-23)
 
 **Note:** Version bump only for package facio_styles

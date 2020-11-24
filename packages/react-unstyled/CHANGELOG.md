@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/FacioCode/design/compare/v0.6.0...v0.7.0) (2020-11-24)
+
+
+### Features
+
+* **react-unstyled:** make *Element types available ([3fd07d5](https://github.com/FacioCode/design/commit/3fd07d5e81c5bc614fab67fbbae9507e9e19ea60))
+* **typography:** add support to variant and other props ([0ba7868](https://github.com/FacioCode/design/commit/0ba78683fce46b630b9f2c66fd16564e53f3f208))
+
+
+
+
+
 # [0.6.0](https://github.com/FacioCode/design/compare/v0.5.0...v0.6.0) (2020-11-23)
 
 **Note:** Version bump only for package @faciocode/react-unstyled

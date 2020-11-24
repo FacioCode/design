@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/FacioCode/design/compare/v0.6.0...v0.7.0) (2020-11-24)
+
+
+### Features
+
+* **styles:** add alignment transform for Flutter ([4a626bd](https://github.com/FacioCode/design/commit/4a626bdb5583c0196ee8045dfd3771112718359d))
+* **styles:** add fontSizeToRem transform ([01594d5](https://github.com/FacioCode/design/commit/01594d5e3d911f147d78e4dc2b875e01ff57f088))
+* **styles:** add fontWeight transform for Flutter ([025d712](https://github.com/FacioCode/design/commit/025d712e74170e070dd9ab585b96f931c6d50e3d))
+* **styles:** add lineHeightToEm transform ([fa439d7](https://github.com/FacioCode/design/commit/fa439d765d70851f736573ed9080582e829cd423))
+* **styles:** add separated matchers ([0e00117](https://github.com/FacioCode/design/commit/0e0011737f1ad6eee8b70c7be8900cb7f6c804fb))
+* **styles:** add size/fontSizeToRem and size/lineHeightToEm transforms ([801314f](https://github.com/FacioCode/design/commit/801314f2f2084f194f38ba307472987120bd521d))
+* **styles:** add support to alignment and fontWeight flutter transforms ([be8a497](https://github.com/FacioCode/design/commit/be8a4970ea7f572652e6d16ace343a99220ba1f6))
+* **styles:** add typography align tokens (for web platform) ([e8daf4b](https://github.com/FacioCode/design/commit/e8daf4bc2d2cd6676b6c428274ace289ec014ed0))
+* **styles:** add web-specific baseline component tokens ([9978717](https://github.com/FacioCode/design/commit/997871750fceac60d319fab5273724d332507983))
+* **styles:** add web-specific tokens for input component ([18014ce](https://github.com/FacioCode/design/commit/18014ce02810c965aeffde9b137f903433ec4b5d))
+* **styles:** set default color token for input component ([3c02f8d](https://github.com/FacioCode/design/commit/3c02f8dd78d643f2c2b17d43b2e6bc65c4c0bfdb))
+* **styles:** set font family tokens by platform, add fallback for web ([de55be0](https://github.com/FacioCode/design/commit/de55be0437f9c103a201e6ee933a340d5f9fb0b5))
+
+
+
+
+
 # [0.6.0](https://github.com/FacioCode/design/compare/v0.5.0...v0.6.0) (2020-11-23)
 
 **Note:** Version bump only for package @faciocode/styles
