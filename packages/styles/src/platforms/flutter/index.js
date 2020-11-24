@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const {
-  bugs, description, displayName: packageName, homepage, repository, version,
+  bugs, description, displayName: packageName, homepage, repository,
 } = require("../../../package.json");
+const { version } = require("../../../../flutter-styles/package.json");
 
 const colorPalette = require("./colorPalette");
 const sizes = require("./sizes");
