@@ -13,93 +13,93 @@ part of facio_styles;
 class TextStyles {
   TextStyles._();
 
-  static const TextStyle headline1 = TextStyle(
+  static const TextStyle headline1 = const TextStyle(
       color: Color(0xFF1F252E),
       fontFamily: "Open Sans",
       fontSize: 544.00,
       fontWeight: FontWeight.w800,
       letterSpacing: -8.00,
-      lineHeight: 640.00);
+      height: 640.00);
 
-  static const TextStyle headline2 = TextStyle(
+  static const TextStyle headline2 = const TextStyle(
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 448.00,
       fontWeight: FontWeight.w700,
       letterSpacing: -6.08,
-      lineHeight: 640.00);
+      height: 640.00);
 
-  static const TextStyle headline3 = TextStyle(
+  static const TextStyle headline3 = const TextStyle(
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 352.00,
       fontWeight: FontWeight.w700,
       letterSpacing: -4.16,
-      lineHeight: 512.00);
+      height: 512.00);
 
-  static const TextStyle headline4 = TextStyle(
+  static const TextStyle headline4 = const TextStyle(
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 320.00,
       fontWeight: FontWeight.w700,
       letterSpacing: -7.20,
-      lineHeight: 384.00);
+      height: 384.00);
 
-  static const TextStyle headline5 = TextStyle(
+  static const TextStyle headline5 = const TextStyle(
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 272.00,
       fontWeight: FontWeight.w700,
       letterSpacing: -6.88,
-      lineHeight: 384.00);
+      height: 384.00);
 
-  static const TextStyle bodyText1 = TextStyle(
+  static const TextStyle bodyText1 = const TextStyle(
       color: Color(0xFF424D5C),
       fontFamily: "Open Sans",
       fontSize: 272.00,
       fontWeight: FontWeight.w400,
       letterSpacing: -6.88,
-      lineHeight: 384.00);
+      height: 384.00);
 
-  static const TextStyle subtitle1 = TextStyle(
+  static const TextStyle subtitle1 = const TextStyle(
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 240.00,
       fontWeight: FontWeight.w400,
       letterSpacing: -3.68,
-      lineHeight: 384.00);
+      height: 384.00);
 
-  static const TextStyle subtitle2 = TextStyle(
+  static const TextStyle subtitle2 = const TextStyle(
       color: Color(0xFF424D5C),
       fontFamily: "Open Sans",
       fontSize: 240.00,
       fontWeight: FontWeight.w400,
       letterSpacing: -3.68,
-      lineHeight: 384.00);
+      height: 384.00);
 
-  static const TextStyle button = TextStyle(
+  static const TextStyle button = const TextStyle(
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 224.00,
       fontWeight: FontWeight.w400,
       letterSpacing: -2.40,
-      lineHeight: 384.00);
+      height: 384.00);
 
-  static const TextStyle bodyText2 = TextStyle(
+  static const TextStyle bodyText2 = const TextStyle(
       color: Color(0xFF424D5C),
       fontFamily: "Open Sans",
       fontSize: 224.00,
       fontWeight: FontWeight.w400,
       letterSpacing: -2.40,
-      lineHeight: 384.00);
+      height: 384.00);
 
-  static const TextStyle caption = TextStyle(
+  static const TextStyle caption = const TextStyle(
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 192.00,
       fontWeight: FontWeight.w400,
       letterSpacing: 0.00,
-      lineHeight: 256.00);
+      height: 256.00);
 
   static const TextTheme textTheme = TextTheme(
       headline1: TextStyles.headline1,
