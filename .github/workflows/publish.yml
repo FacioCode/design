@@ -95,7 +95,8 @@ jobs:
     - name: Print Dart SDK version
       run: dart --version
     - name: Install project dependencies
-      run: flutter pub get
+      run: dart pub get
+      working-directory: ${{env.working-directory}}
     - name: Verify formatting
       run: dart format --output=none --set-exit-if-changed .
       working-directory: ${{env.working-directory}}
