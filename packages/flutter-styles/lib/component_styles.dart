@@ -4,7 +4,7 @@ class AppBarStyles {
   AppBarStyles._();
 
   /// height for root
-  static const appBarRootHeight = 896.00;
+  static const appBarRootHeight = 56.00;
 
   /// backgroundColor for colorDefault
   static const appBarColorDefaultBackgroundColor = Color(0xFFFFFFFF);
@@ -14,7 +14,7 @@ class ButtonStyles {
   ButtonStyles._();
 
   /// borderRadius for root
-  static const buttonRootBorderRadius = 128.00;
+  static const buttonRootBorderRadius = 8.00;
 
   /// borderWidth for contained
   static const buttonContainedBorderWidth = 0.00;
@@ -23,35 +23,35 @@ class ButtonStyles {
   static const buttonLabelColor = Color(0xFF303846);
 
   /// Default button font size can vary depending on platform.
-  static const buttonLabelFontSize = 224.00;
+  static const buttonLabelFontSize = 14.00;
 
   /// height for sizeMedium
-  static const buttonSizeMediumHeight = 512.00;
+  static const buttonSizeMediumHeight = 32.00;
 
   /// label for sizeMedium
-  static const buttonSizeMediumLabelPaddingBottom = 64.00;
+  static const buttonSizeMediumLabelPaddingBottom = 4.00;
 
   /// label for sizeMedium
-  static const buttonSizeMediumLabelPaddingTop = 64.00;
+  static const buttonSizeMediumLabelPaddingTop = 4.00;
 
   /// height for sizeLarge
-  static const buttonSizeLargeHeight = 768.00;
+  static const buttonSizeLargeHeight = 48.00;
 
   /// label for sizeLarge
-  static const buttonSizeLargeLabelPaddingBottom = 192.00;
+  static const buttonSizeLargeLabelPaddingBottom = 12.00;
 
   /// label for sizeLarge
-  static const buttonSizeLargeLabelPaddingTop = 192.00;
+  static const buttonSizeLargeLabelPaddingTop = 12.00;
 }
 
 class ChipStyles {
   ChipStyles._();
 
   /// borderRadius for root
-  static const chipRootBorderRadius = 256.00;
+  static const chipRootBorderRadius = 16.00;
 
   /// borderWidth for root
-  static const chipRootBorderWidth = 16.00;
+  static const chipRootBorderWidth = 1.00;
 }
 
 class InputStyles {
@@ -61,20 +61,20 @@ class InputStyles {
   static const inputRootColor = Color(0xFF424D5C);
 
   /// Font size is the same of headline, formerly headline.
-  static const inputMediumFontSize = 272.00;
+  static const inputMediumFontSize = 17.00;
 
   /// Font size is the same of headline2, formerly title1.
-  static const inputLargeFontSize = 448.00;
+  static const inputLargeFontSize = 28.00;
 }
 
 class LabelStyles {
   LabelStyles._();
 
   /// Font size is the same of subtitle1, formerly subhead.
-  static const labelLargeFontSize = 240.00;
+  static const labelLargeFontSize = 15.00;
 
   /// Font size is the same of caption.
-  static const labelMediumFontSize = 192.00;
+  static const labelMediumFontSize = 12.00;
 }
 
 class TypographyStyles {
@@ -87,16 +87,16 @@ class TypographyStyles {
   static const typographyHeadline1FontFamily = "Open Sans";
 
   /// Extremely large text. It is the most prominent element in the interface.
-  static const typographyHeadline1FontSize = 544.00;
+  static const typographyHeadline1FontSize = 34.00;
 
   /// We use extra bold everytime we want to show monetary info.
   static const typographyHeadline1FontWeight = FontWeight.w800;
 
   /// letterSpacing for headline1
-  static const typographyHeadline1LetterSpacing = -8.00;
+  static const typographyHeadline1LetterSpacing = -0.50;
 
   /// lineHeight for headline1
-  static const typographyHeadline1LineHeight = 640.00;
+  static const typographyHeadline1LineHeight = 40.00;
 
   /// color for headline2
   static const typographyHeadline2Color = Color(0xFF303846);
@@ -105,16 +105,16 @@ class TypographyStyles {
   static const typographyHeadline2FontFamily = "Open Sans";
 
   /// Very, very large text
-  static const typographyHeadline2FontSize = 448.00;
+  static const typographyHeadline2FontSize = 28.00;
 
   /// fontWeight for headline2
   static const typographyHeadline2FontWeight = FontWeight.w700;
 
   /// letterSpacing for headline2
-  static const typographyHeadline2LetterSpacing = -6.08;
+  static const typographyHeadline2LetterSpacing = -0.38;
 
   /// lineHeight for headline2
-  static const typographyHeadline2LineHeight = 640.00;
+  static const typographyHeadline2LineHeight = 40.00;
 
   /// color for headline3
   static const typographyHeadline3Color = Color(0xFF303846);
@@ -123,16 +123,16 @@ class TypographyStyles {
   static const typographyHeadline3FontFamily = "Open Sans";
 
   /// Very large text
-  static const typographyHeadline3FontSize = 352.00;
+  static const typographyHeadline3FontSize = 22.00;
 
   /// fontWeight for headline3
   static const typographyHeadline3FontWeight = FontWeight.w700;
 
   /// letterSpacing for headline3
-  static const typographyHeadline3LetterSpacing = -4.16;
+  static const typographyHeadline3LetterSpacing = -0.26;
 
   /// lineHeight for headline3
-  static const typographyHeadline3LineHeight = 512.00;
+  static const typographyHeadline3LineHeight = 32.00;
 
   /// color for headline4
   static const typographyHeadline4Color = Color(0xFF303846);
@@ -141,16 +141,16 @@ class TypographyStyles {
   static const typographyHeadline4FontFamily = "Open Sans";
 
   /// Large text
-  static const typographyHeadline4FontSize = 320.00;
+  static const typographyHeadline4FontSize = 20.00;
 
   /// fontWeight for headline4
   static const typographyHeadline4FontWeight = FontWeight.w700;
 
   /// letterSpacing for headline4
-  static const typographyHeadline4LetterSpacing = -7.20;
+  static const typographyHeadline4LetterSpacing = -0.45;
 
   /// lineHeight for headline4
-  static const typographyHeadline4LineHeight = 384.00;
+  static const typographyHeadline4LineHeight = 24.00;
 
   /// color for headline5
   static const typographyHeadline5Color = Color(0xFF303846);
@@ -159,16 +159,16 @@ class TypographyStyles {
   static const typographyHeadline5FontFamily = "Open Sans";
 
   /// Recommended for large text in dialogs.
-  static const typographyHeadline5FontSize = 272.00;
+  static const typographyHeadline5FontSize = 17.00;
 
   /// fontWeight for headline5
   static const typographyHeadline5FontWeight = FontWeight.w700;
 
   /// letterSpacing for headline5
-  static const typographyHeadline5LetterSpacing = -6.88;
+  static const typographyHeadline5LetterSpacing = -0.43;
 
   /// lineHeight for headline5
-  static const typographyHeadline5LineHeight = 384.00;
+  static const typographyHeadline5LineHeight = 24.00;
 
   /// color for bodyText1
   static const typographyBodyText1Color = Color(0xFF424D5C);
@@ -177,16 +177,16 @@ class TypographyStyles {
   static const typographyBodyText1FontFamily = "Open Sans";
 
   /// fontSize for bodyText1
-  static const typographyBodyText1FontSize = 272.00;
+  static const typographyBodyText1FontSize = 17.00;
 
   /// fontWeight for bodyText1
   static const typographyBodyText1FontWeight = FontWeight.w400;
 
   /// letterSpacing for bodyText1
-  static const typographyBodyText1LetterSpacing = -6.88;
+  static const typographyBodyText1LetterSpacing = -0.43;
 
   /// lineHeight for bodyText1
-  static const typographyBodyText1LineHeight = 384.00;
+  static const typographyBodyText1LineHeight = 24.00;
 
   /// color for subtitle1
   static const typographySubtitle1Color = Color(0xFF303846);
@@ -195,16 +195,16 @@ class TypographyStyles {
   static const typographySubtitle1FontFamily = "Open Sans";
 
   /// A little smaller than headline5.
-  static const typographySubtitle1FontSize = 240.00;
+  static const typographySubtitle1FontSize = 15.00;
 
   /// fontWeight for subtitle1
   static const typographySubtitle1FontWeight = FontWeight.w400;
 
   /// letterSpacing for subtitle1
-  static const typographySubtitle1LetterSpacing = -3.68;
+  static const typographySubtitle1LetterSpacing = -0.23;
 
   /// lineHeight for subtitle1
-  static const typographySubtitle1LineHeight = 384.00;
+  static const typographySubtitle1LineHeight = 24.00;
 
   /// color for subtitle2
   static const typographySubtitle2Color = Color(0xFF424D5C);
@@ -213,16 +213,16 @@ class TypographyStyles {
   static const typographySubtitle2FontFamily = "Open Sans";
 
   /// fontSize for subtitle2
-  static const typographySubtitle2FontSizeFontSize = 240.00;
+  static const typographySubtitle2FontSizeFontSize = 15.00;
 
   /// fontWeight for subtitle2
   static const typographySubtitle2FontWeight = FontWeight.w400;
 
   /// letterSpacing for subtitle2
-  static const typographySubtitle2LetterSpacing = -3.68;
+  static const typographySubtitle2LetterSpacing = -0.23;
 
   /// lineHeight for subtitle2
-  static const typographySubtitle2LineHeight = 384.00;
+  static const typographySubtitle2LineHeight = 24.00;
 
   /// Button color is secondary (probably grey-80) by default
   static const typographyButtonColor = Color(0xFF303846);
@@ -231,16 +231,16 @@ class TypographyStyles {
   static const typographyButtonFontFamily = "Open Sans";
 
   /// fontSize for button
-  static const typographyButtonFontSize = 224.00;
+  static const typographyButtonFontSize = 14.00;
 
   /// Button labels will have regular font weight by default but they can be bold.
   static const typographyButtonFontWeight = FontWeight.w400;
 
   /// letterSpacing for button
-  static const typographyButtonLetterSpacing = -2.40;
+  static const typographyButtonLetterSpacing = -0.15;
 
   /// lineHeight for button
-  static const typographyButtonLineHeight = 384.00;
+  static const typographyButtonLineHeight = 24.00;
 
   /// color for bodyText2
   static const typographyBodyText2Color = Color(0xFF424D5C);
@@ -249,16 +249,16 @@ class TypographyStyles {
   static const typographyBodyText2FontFamily = "Open Sans";
 
   /// Low emphasis, useful for very small blocks
-  static const typographyBodyText2FontSize = 224.00;
+  static const typographyBodyText2FontSize = 14.00;
 
   /// fontWeight for bodyText2
   static const typographyBodyText2FontWeight = FontWeight.w400;
 
   /// letterSpacing for bodyText2
-  static const typographyBodyText2LetterSpacing = -2.40;
+  static const typographyBodyText2LetterSpacing = -0.15;
 
   /// lineHeight for bodyText2
-  static const typographyBodyText2LineHeight = 384.00;
+  static const typographyBodyText2LineHeight = 24.00;
 
   /// Caption color is secondary (probably grey-80) by default
   static const typographyCaptionColor = Color(0xFF303846);
@@ -267,7 +267,7 @@ class TypographyStyles {
   static const typographyCaptionFontFamily = "Open Sans";
 
   /// The smallest font size.
-  static const typographyCaptionFontSize = 192.00;
+  static const typographyCaptionFontSize = 12.00;
 
   /// fontWeight for caption
   static const typographyCaptionFontWeight = FontWeight.w400;
@@ -276,5 +276,5 @@ class TypographyStyles {
   static const typographyCaptionLetterSpacing = 0.00;
 
   /// lineHeight for caption
-  static const typographyCaptionLineHeight = 256.00;
+  static const typographyCaptionLineHeight = 16.00;
 }
