@@ -28,10 +28,8 @@ jobs:
       run: npm install --global --loglevel=error lerna
     - name: Install project dependencies
       run: npm ci
-    - name: Set commit author email
-      run: git config --global user.email "technology+opensource@facio.com"
-    - name: Set commit author name
-      run: git config --global user.name "Facio"
+    - name: Set git commit user
+      run: sh ./.github/scripts/configure-git.sh
     - name: Bump versions and create release
       run: lerna version --conventional-commits --create-release github --yes
       env:
