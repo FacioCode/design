@@ -76,11 +76,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       working-directory: ./packages/flutter-styles
-    container:
-      image: google/dart:latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: subosito/flutter-action@v1
+    - name: Pull all commits
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: "0"
+    - name: Install Flutter SDK
+      uses: subosito/flutter-action@v1
       with:
         flutter-version: "1.22.0"
     - name: Setup pub credentials
