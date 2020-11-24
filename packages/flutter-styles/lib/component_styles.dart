@@ -7,7 +7,7 @@ class AppBarStyles {
   static const appBarRootHeight = 56.00;
 
   /// backgroundColor for colorDefault
-  static const appBarColorDefaultBackgroundColor = Color(0xFFFFFFFF);
+  static const appBarColorDefaultBackgroundColor = const Color(0xFFFFFFFF);
 }
 
 class ButtonStyles {
@@ -20,7 +20,7 @@ class ButtonStyles {
   static const buttonContainedBorderWidth = 0.00;
 
   /// color for label
-  static const buttonLabelColor = Color(0xFF303846);
+  static const buttonLabelColor = const Color(0xFF303846);
 
   /// Default button font size can vary depending on platform.
   static const buttonLabelFontSize = 14.00;
@@ -58,7 +58,7 @@ class InputStyles {
   InputStyles._();
 
   /// color for root
-  static const inputRootColor = Color(0xFF424D5C);
+  static const inputRootColor = const Color(0xFF424D5C);
 
   /// Font size is the same of headline, formerly headline.
   static const inputMediumFontSize = 17.00;
@@ -81,7 +81,7 @@ class TypographyStyles {
   TypographyStyles._();
 
   /// color for headline1
-  static const typographyHeadline1Color = Color(0xFF1F252E);
+  static const typographyHeadline1Color = const Color(0xFF1F252E);
 
   /// fontFamily for headline1
   static const typographyHeadline1FontFamily = "Open Sans";
@@ -99,7 +99,7 @@ class TypographyStyles {
   static const typographyHeadline1LineHeight = 40.00;
 
   /// color for headline2
-  static const typographyHeadline2Color = Color(0xFF303846);
+  static const typographyHeadline2Color = const Color(0xFF303846);
 
   /// fontFamily for headline2
   static const typographyHeadline2FontFamily = "Open Sans";
@@ -117,7 +117,7 @@ class TypographyStyles {
   static const typographyHeadline2LineHeight = 40.00;
 
   /// color for headline3
-  static const typographyHeadline3Color = Color(0xFF303846);
+  static const typographyHeadline3Color = const Color(0xFF303846);
 
   /// fontFamily for headline3
   static const typographyHeadline3FontFamily = "Open Sans";
@@ -135,7 +135,7 @@ class TypographyStyles {
   static const typographyHeadline3LineHeight = 32.00;
 
   /// color for headline4
-  static const typographyHeadline4Color = Color(0xFF303846);
+  static const typographyHeadline4Color = const Color(0xFF303846);
 
   /// fontFamily for headline4
   static const typographyHeadline4FontFamily = "Open Sans";
@@ -153,7 +153,7 @@ class TypographyStyles {
   static const typographyHeadline4LineHeight = 24.00;
 
   /// color for headline5
-  static const typographyHeadline5Color = Color(0xFF303846);
+  static const typographyHeadline5Color = const Color(0xFF303846);
 
   /// fontFamily for headline5
   static const typographyHeadline5FontFamily = "Open Sans";
@@ -171,7 +171,7 @@ class TypographyStyles {
   static const typographyHeadline5LineHeight = 24.00;
 
   /// color for bodyText1
-  static const typographyBodyText1Color = Color(0xFF424D5C);
+  static const typographyBodyText1Color = const Color(0xFF424D5C);
 
   /// fontFamily for bodyText1
   static const typographyBodyText1FontFamily = "Open Sans";
@@ -189,7 +189,7 @@ class TypographyStyles {
   static const typographyBodyText1LineHeight = 24.00;
 
   /// color for subtitle1
-  static const typographySubtitle1Color = Color(0xFF303846);
+  static const typographySubtitle1Color = const Color(0xFF303846);
 
   /// fontFamily for subtitle1
   static const typographySubtitle1FontFamily = "Open Sans";
@@ -207,7 +207,7 @@ class TypographyStyles {
   static const typographySubtitle1LineHeight = 24.00;
 
   /// color for subtitle2
-  static const typographySubtitle2Color = Color(0xFF424D5C);
+  static const typographySubtitle2Color = const Color(0xFF424D5C);
 
   /// fontFamily for subtitle2
   static const typographySubtitle2FontFamily = "Open Sans";
@@ -225,7 +225,7 @@ class TypographyStyles {
   static const typographySubtitle2LineHeight = 24.00;
 
   /// Button color is secondary (probably grey-80) by default
-  static const typographyButtonColor = Color(0xFF303846);
+  static const typographyButtonColor = const Color(0xFF303846);
 
   /// fontFamily for button
   static const typographyButtonFontFamily = "Open Sans";
@@ -243,7 +243,7 @@ class TypographyStyles {
   static const typographyButtonLineHeight = 24.00;
 
   /// color for bodyText2
-  static const typographyBodyText2Color = Color(0xFF424D5C);
+  static const typographyBodyText2Color = const Color(0xFF424D5C);
 
   /// fontFamily for bodyText2
   static const typographyBodyText2FontFamily = "Open Sans";
@@ -261,7 +261,7 @@ class TypographyStyles {
   static const typographyBodyText2LineHeight = 24.00;
 
   /// Caption color is secondary (probably grey-80) by default
-  static const typographyCaptionColor = Color(0xFF303846);
+  static const typographyCaptionColor = const Color(0xFF303846);
 
   /// fontFamily for caption
   static const typographyCaptionFontFamily = "Open Sans";
