@@ -17,7 +17,7 @@ class TextStyles {
       color: Color(0xFF1F252E),
       fontFamily: "Open Sans",
       fontSize: 544.00,
-      fontWeight: "800",
+      fontWeight: FontWeight.w800,
       letterSpacing: -8.00,
       lineHeight: 640.00);
 
@@ -25,7 +25,7 @@ class TextStyles {
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 448.00,
-      fontWeight: "700",
+      fontWeight: FontWeight.w700,
       letterSpacing: -6.08,
       lineHeight: 640.00);
 
@@ -33,7 +33,7 @@ class TextStyles {
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 352.00,
-      fontWeight: "700",
+      fontWeight: FontWeight.w700,
       letterSpacing: -4.16,
       lineHeight: 512.00);
 
@@ -41,7 +41,7 @@ class TextStyles {
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 320.00,
-      fontWeight: "700",
+      fontWeight: FontWeight.w700,
       letterSpacing: -7.20,
       lineHeight: 384.00);
 
@@ -49,7 +49,7 @@ class TextStyles {
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 272.00,
-      fontWeight: "700",
+      fontWeight: FontWeight.w700,
       letterSpacing: -6.88,
       lineHeight: 384.00);
 
@@ -57,7 +57,7 @@ class TextStyles {
       color: Color(0xFF424D5C),
       fontFamily: "Open Sans",
       fontSize: 272.00,
-      fontWeight: "400",
+      fontWeight: FontWeight.w400,
       letterSpacing: -6.88,
       lineHeight: 384.00);
 
@@ -65,7 +65,7 @@ class TextStyles {
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 240.00,
-      fontWeight: "400",
+      fontWeight: FontWeight.w400,
       letterSpacing: -3.68,
       lineHeight: 384.00);
 
@@ -73,7 +73,7 @@ class TextStyles {
       color: Color(0xFF424D5C),
       fontFamily: "Open Sans",
       fontSize: 240.00,
-      fontWeight: "400",
+      fontWeight: FontWeight.w400,
       letterSpacing: -3.68,
       lineHeight: 384.00);
 
@@ -81,7 +81,7 @@ class TextStyles {
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 224.00,
-      fontWeight: "400",
+      fontWeight: FontWeight.w400,
       letterSpacing: -2.40,
       lineHeight: 384.00);
 
@@ -89,7 +89,7 @@ class TextStyles {
       color: Color(0xFF424D5C),
       fontFamily: "Open Sans",
       fontSize: 224.00,
-      fontWeight: "400",
+      fontWeight: FontWeight.w400,
       letterSpacing: -2.40,
       lineHeight: 384.00);
 
@@ -97,7 +97,7 @@ class TextStyles {
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 192.00,
-      fontWeight: "400",
+      fontWeight: FontWeight.w400,
       letterSpacing: 0.00,
       lineHeight: 256.00);
 
