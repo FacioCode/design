@@ -1,3 +1,4 @@
-export { ButtonBase, ButtonBaseProps } from "./ButtonBase";
-export { FormLabel, FormLabelProps } from "./FormLabel";
-export { InputBase, InputBaseProps } from "./InputBase";
+export { ButtonBase, ButtonBaseElement, ButtonBaseProps } from "./ButtonBase";
+export { FormLabel, FormLabelElement, FormLabelProps } from "./FormLabel";
+export { InputBase, InputBaseElement, InputBaseProps } from "./InputBase";
+export { Typography, TypographyElement, TypographyProps } from "./Typography";
