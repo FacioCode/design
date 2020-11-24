@@ -12,7 +12,16 @@ module.exports = {
   ],
   overrides: [
     {
-      files: "packages/*react*/**/*.{ts,tsx}",
+      files: "packages/**/*.js",
+      rules: {
+        "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+    {
+      files: "packages/**/*.styles.{js,jsx,ts,tsx}",
+      rules: {
+        "sort-keys": "off",
+      },
     },
   ],
   parser: "@typescript-eslint/parser",
