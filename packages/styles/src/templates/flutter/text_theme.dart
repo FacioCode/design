@@ -1,6 +1,7 @@
 <%
 var props = _.chain(allProperties).groupBy("attributes.item").map((value, key) => ( { key, value } )).value();
-var textStyleMapper = style => style.attributes.subitem && `\n      ${style.attributes.subitem}: ${style.value || null}`;
+var getAttribute = (value) => value === "lineHeight" ? "height" : value;
+var textStyleMapper = style => style.attributes.subitem && `\n      ${getAttribute(style.attributes.subitem)}: ${style.value || null}`;
 var textThemeMapper = prop => `\n      ${prop.key}: ${this.className}.${prop.key}`;
 %>part of <%= this.packageName %>;
 
@@ -21,7 +22,7 @@ class <%= this.className %> {
   const mappedStyles = _.map(prop.value, textStyleMapper);
 
   return `
-  static const TextStyle ${prop.key} = TextStyle(${mappedStyles});
+  static const TextStyle ${prop.key} = const TextStyle(${mappedStyles});
 `;
 
 }).join('') %>
