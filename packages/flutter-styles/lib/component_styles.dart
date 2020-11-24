@@ -57,6 +57,9 @@ class ChipStyles {
 class InputStyles {
   InputStyles._();
 
+  /// color for root
+  static const inputRootColor = Color(0xFF424D5C);
+
   /// Font size is the same of headline, formerly headline.
   static const inputMediumFontSize = 272.00;
 
@@ -87,7 +90,7 @@ class TypographyStyles {
   static const typographyHeadline1FontSize = 544.00;
 
   /// We use extra bold everytime we want to show monetary info.
-  static const typographyHeadline1FontWeight = "800";
+  static const typographyHeadline1FontWeight = FontWeight.w800;
 
   /// letterSpacing for headline1
   static const typographyHeadline1LetterSpacing = -8.00;
@@ -105,7 +108,7 @@ class TypographyStyles {
   static const typographyHeadline2FontSize = 448.00;
 
   /// fontWeight for headline2
-  static const typographyHeadline2FontWeight = "700";
+  static const typographyHeadline2FontWeight = FontWeight.w700;
 
   /// letterSpacing for headline2
   static const typographyHeadline2LetterSpacing = -6.08;
@@ -123,7 +126,7 @@ class TypographyStyles {
   static const typographyHeadline3FontSize = 352.00;
 
   /// fontWeight for headline3
-  static const typographyHeadline3FontWeight = "700";
+  static const typographyHeadline3FontWeight = FontWeight.w700;
 
   /// letterSpacing for headline3
   static const typographyHeadline3LetterSpacing = -4.16;
@@ -141,7 +144,7 @@ class TypographyStyles {
   static const typographyHeadline4FontSize = 320.00;
 
   /// fontWeight for headline4
-  static const typographyHeadline4FontWeight = "700";
+  static const typographyHeadline4FontWeight = FontWeight.w700;
 
   /// letterSpacing for headline4
   static const typographyHeadline4LetterSpacing = -7.20;
@@ -159,7 +162,7 @@ class TypographyStyles {
   static const typographyHeadline5FontSize = 272.00;
 
   /// fontWeight for headline5
-  static const typographyHeadline5FontWeight = "700";
+  static const typographyHeadline5FontWeight = FontWeight.w700;
 
   /// letterSpacing for headline5
   static const typographyHeadline5LetterSpacing = -6.88;
@@ -177,7 +180,7 @@ class TypographyStyles {
   static const typographyBodyText1FontSize = 272.00;
 
   /// fontWeight for bodyText1
-  static const typographyBodyText1FontWeight = "400";
+  static const typographyBodyText1FontWeight = FontWeight.w400;
 
   /// letterSpacing for bodyText1
   static const typographyBodyText1LetterSpacing = -6.88;
@@ -195,7 +198,7 @@ class TypographyStyles {
   static const typographySubtitle1FontSize = 240.00;
 
   /// fontWeight for subtitle1
-  static const typographySubtitle1FontWeight = "400";
+  static const typographySubtitle1FontWeight = FontWeight.w400;
 
   /// letterSpacing for subtitle1
   static const typographySubtitle1LetterSpacing = -3.68;
@@ -213,7 +216,7 @@ class TypographyStyles {
   static const typographySubtitle2FontSizeFontSize = 240.00;
 
   /// fontWeight for subtitle2
-  static const typographySubtitle2FontWeight = "400";
+  static const typographySubtitle2FontWeight = FontWeight.w400;
 
   /// letterSpacing for subtitle2
   static const typographySubtitle2LetterSpacing = -3.68;
@@ -231,7 +234,7 @@ class TypographyStyles {
   static const typographyButtonFontSize = 224.00;
 
   /// Button labels will have regular font weight by default but they can be bold.
-  static const typographyButtonFontWeight = "400";
+  static const typographyButtonFontWeight = FontWeight.w400;
 
   /// letterSpacing for button
   static const typographyButtonLetterSpacing = -2.40;
@@ -249,7 +252,7 @@ class TypographyStyles {
   static const typographyBodyText2FontSize = 224.00;
 
   /// fontWeight for bodyText2
-  static const typographyBodyText2FontWeight = "400";
+  static const typographyBodyText2FontWeight = FontWeight.w400;
 
   /// letterSpacing for bodyText2
   static const typographyBodyText2LetterSpacing = -2.40;
@@ -267,7 +270,7 @@ class TypographyStyles {
   static const typographyCaptionFontSize = 192.00;
 
   /// fontWeight for caption
-  static const typographyCaptionFontWeight = "400";
+  static const typographyCaptionFontWeight = FontWeight.w400;
 
   /// letterSpacing for caption
   static const typographyCaptionLetterSpacing = 0.00;
