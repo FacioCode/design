@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/FacioCode/design/compare/v0.13.0...v0.14.0) (2020-11-25)
+
+
+### Features
+
+* **flutter-styles:** add example project in dart ([cae7d4d](https://github.com/FacioCode/design/commit/cae7d4dee923a2bdc45094a93d7b4ffbe1ef8a3d))
+* **flutter-styles:** add example project support files for Android ([3cd6a24](https://github.com/FacioCode/design/commit/3cd6a2482f79842e63af8f331e79db82978ce7f5))
+* **flutter-styles:** add example project support files for iOS ([321296a](https://github.com/FacioCode/design/commit/321296ae0aa45ba5d934e3e6527cb19eaf64ff42))
+
+
+
+## [0.12.3](https://github.com/FacioCode/design/compare/v0.12.2...v0.12.3) (2020-11-25)
+
+
+
+## [0.12.2](https://github.com/FacioCode/design/compare/v0.12.1...v0.12.2) (2020-11-25)
+
+
+
+
+
 # [0.13.0](https://github.com/FacioCode/design/compare/v0.12.3...v0.13.0) (2020-11-25)
 
 
