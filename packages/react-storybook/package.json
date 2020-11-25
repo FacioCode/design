@@ -35,8 +35,5 @@
   },
   "bugs": {
     "url": "https://github.com/FacioCode/design/issues"
-  },
-  "devDependencies": {
-    "@faciocode/react": "^0.6.0"
   }
 }
