@@ -14,24 +14,24 @@ jobs:
         node-version: [14.x]
 
     steps:
-    - name: Pull all commits for Lerna semantic release
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: "0"
-    - name: Pull all tags for Lerna semantic release
-      run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install Lerna globally
-      run: npm install --global --loglevel=error lerna
-    - name: Install project dependencies
-      run: npm ci
-    - name: Set git commit user
-      run: sh ./.github/scripts/configure-git.sh
-    - name: Bump versions and create release
-      run: lerna version --conventional-commits --create-release github --force-publish --yes
-      env:
-        GH_TOKEN: ${{secrets.gh_token}}
-        GH_AUTH_TOKEN: ${{secrets.gh_auth_token}}
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: "0"
+      - name: Pull all tags for Lerna semantic release
+        run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install Lerna globally
+        run: npm install --global --loglevel=error lerna
+      - name: Install project dependencies
+        run: npm ci
+      - name: Set git commit user
+        run: sh ./.github/scripts/configure-git.sh
+      - name: Bump versions and create release
+        run: lerna version --conventional-commits --create-release github --force-publish --yes
+        env:
+          GH_TOKEN: ${{secrets.gh_token}}
+          GH_AUTH_TOKEN: ${{secrets.gh_auth_token}}
