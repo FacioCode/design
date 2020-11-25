@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.11.6](https://github.com/FacioCode/design/compare/v0.11.5...v0.11.6) (2020-11-25)
 
-
+## [0.11.5](https://github.com/FacioCode/design/compare/v0.11.4...v0.11.5) (2020-11-24)
 
 ## [0.11.4](https://github.com/FacioCode/design/compare/v0.11.3...v0.11.4) (2020-11-24)
 
