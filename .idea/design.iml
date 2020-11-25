@@ -6,6 +6,8 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react-storybook/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react-unstyled/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
