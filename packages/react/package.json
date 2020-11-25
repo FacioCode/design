@@ -13,7 +13,7 @@
     "name": "Facio",
     "url": "https://github.com/FacioCode"
   },
-  "homepage": "https://github.com/FacioCode/design/tree/master/packages/react#readme",
+  "homepage": "https://github.com/FacioCode/design/tree/main/packages/react#readme",
   "license": "ISC",
   "directories": {
     "lib": "dist"
