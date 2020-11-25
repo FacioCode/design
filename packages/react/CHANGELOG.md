@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/FacioCode/design/compare/v0.11.6...v0.12.0) (2020-11-25)
+
+
+### Features
+
+* **react:** add CssBaseline component ([bc1d150](https://github.com/FacioCode/design/commit/bc1d1504dcc90fd2f6ecde1c943fb336593571d0))
+* **react:** add styles for InputBase component ([f91711e](https://github.com/FacioCode/design/commit/f91711edc5c16e51868a8aaff04374d9f939016f))
+* **react:** add Typography component ([a1a7f0e](https://github.com/FacioCode/design/commit/a1a7f0eaea9f9559a946c8fb00514f9127e5c26f))
+* **react:** make CssBaseline component ([b3edb51](https://github.com/FacioCode/design/commit/b3edb511f923c4f7687dfd70f0d3a65f3e8a8e04))
+
+
+
+
+
 ## [0.11.6](https://github.com/FacioCode/design/compare/v0.11.5...v0.11.6) (2020-11-25)
 
 ## [0.11.5](https://github.com/FacioCode/design/compare/v0.11.4...v0.11.5) (2020-11-24)
