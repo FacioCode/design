@@ -31,7 +31,7 @@ jobs:
     - name: Set git commit user
       run: sh ./.github/scripts/configure-git.sh
     - name: Bump versions and create release
-      run: lerna version --conventional-commits --create-release github --yes
+      run: lerna version --conventional-commits --create-release github --force-publish --yes
       env:
         GH_TOKEN: ${{secrets.gh_token}}
         GH_AUTH_TOKEN: ${{secrets.gh_auth_token}}
