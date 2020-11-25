@@ -2,7 +2,6 @@ part of <%= packageName %>;
 <%
 var getValuePrefix = ({attributes}) => {
   const { subitem } = attributes;
-  console.log(subitem)
   if(subitem === "backgroundColor" || subitem === "color") {
     return "const ";
   }
