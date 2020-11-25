@@ -2,6 +2,7 @@
   "name": "@faciocode/react",
   "displayName": "FacioReact",
   "version": "0.12.0",
+  "private": false,
   "description": "React styled components for Facio",
   "keywords": [
     "react",
