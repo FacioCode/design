@@ -15,7 +15,7 @@
     "email": "technology@facio.com",
     "name": "Facio"
   },
-  "homepage": "https://github.com/FacioCode/design/tree/master/packages/react-storybook#readme",
+  "homepage": "https://github.com/FacioCode/design/tree/main/packages/react-storybook#readme",
   "license": "ISC",
   "directories": {
     "source": "./src"
