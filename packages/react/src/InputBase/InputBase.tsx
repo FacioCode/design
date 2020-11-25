@@ -1,11 +1,11 @@
 import * as React from "react";
 import { InputBaseProps, InputBase as UnstyledInputBase } from "@faciocode/react-unstyled";
-import classes from "./InputBase.module.css";
+import { useStyles } from "./InputBase.styles";
 
 export { InputBaseProps } from "@faciocode/react-unstyled";
 
 const render = (props: InputBaseProps, ref: InputBaseProps["ref"]) => (
-  <UnstyledInputBase {...props} classes={classes} ref={ref} />
+  <UnstyledInputBase {...props} classes={useStyles()} ref={ref} />
 );
 
 /**
