@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@faciocode/react-unstyled": "^0.14.9",
-    "@faciocode/styles": "^0.14.9",
+    "@faciocode/styles": "^0.14.7",
     "@material-ui/styles": "5.0.0-alpha.15"
   },
   "publishConfig": {
