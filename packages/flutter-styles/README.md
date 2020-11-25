@@ -1,51 +1,36 @@
 # Facio Styles for Flutter
 
-Facio Design System style package for use in Flutter applications.
+The `facio_styles` for Flutter allows you to easily use styles from Facio Design System
+in your Flutter app.
 
-The styles in this package are consumed by the UI components of Facio applications built on Flutter.
+## Getting started
 
-## Install
+First, add the `facio_styles` package to your [pubspec dependencies](https://pub.dev/packages/facio_styles/install).
 
-Open your project `pubspec.yaml` and, at `dependencies`, add `facio_styles`. Example:
+To import `facio_styles`:
 
-```yaml
-dependencies:
- flutter: ^0.12.2
-   sdk: flutter
- facio_styles
-```
 
-Then run `flutter pub get`.
-
-The following success message must appear:
-
-```
-Running "flutter pub get" in example...
-Process finished with exit code 0
-```
-
-## Import
-
-In your dart file, add the following import:
 ```dart
 import 'package:facio_styles/main.dart';
 ```
 
-## Usage
-
-Now you are ready to use some component tokens like these:
+To use some `facio_styles` component tokens, for example, a color from `AppBarStyles`:
 
 ```dart
 AppBarStyles.appBarColorDefaultBackgroundColor
 ```
 
-You can also use some `ColorPalette` base tokens:
+To use a color base token from `ColorPalette`:
 
 ```dart
 ColorPalette.baseAquamarine90
+```
 
+or
+
+```dart
 ColorPalette.fontDefault
 ```
 
-Can check our [API Reference](https://pub.dev/documentation/facio_styles/latest/facio_styles/facio_styles-library.html)
-for more examples.
+You can check our [API Reference](https://pub.dev/documentation/facio_styles/latest/facio_styles/facio_styles-library.html)
+or [example file](https://pub.dev/packages/google_fonts/example) for more usage examples.
