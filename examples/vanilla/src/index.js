@@ -1,5 +1,5 @@
 import "@faciocode/styles/dist/index.css";
-import "./styles.css";
+import "./index.css";
 
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
