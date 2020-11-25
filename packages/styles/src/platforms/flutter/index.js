@@ -33,6 +33,11 @@ const flutter = {
       format: "flutter/component_styles.dart",
       packageName,
     },
+
+    /**
+     * @todo Generate color swatches too
+     * @see https://stackoverflow.com/a/50214259
+     */
     colorPalette({ packageName }),
     sizes({ packageName }),
     textTheme({ packageName }),
