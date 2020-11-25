@@ -1,3 +1,4 @@
 {
+  "packages": ["packages/react", "packages/react-unstyled", "packages/styles"],
   "sandboxes": ["new", "vanilla"]
 }
