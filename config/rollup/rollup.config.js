@@ -14,6 +14,7 @@ const plugins = [
   }),
 ];
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default ({ browser, displayName, globals = {}, source }) => [
   {
     external: Object.keys(globals),
