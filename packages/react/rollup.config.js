@@ -5,6 +5,12 @@ export default config({
   browser,
   directories,
   displayName,
+  globals: {
+    "@faciocode/react-unstyled": "FacioReactUnstyled",
+    "@faciocode/styles/dist/index.css": "FacioStyles",
+    "@material-ui/styles": "MaterialUiStyles",
+    react: "React",
+  },
   module,
   source,
 });
