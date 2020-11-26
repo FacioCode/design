@@ -1,22 +1,10 @@
-import { ElementType, HTMLAttributes, Ref } from "react";
+import { HTMLAttributes } from "react";
+import { UnstyledComponent } from "../UnstyledComponent";
 
-type Attributes = HTMLAttributes<HTMLInputElement>
+export type ClassKey = "input" | "root";
+export type Element = HTMLInputElement
 
-type ClassKey =
-  | "input" | string;
-
-export type Element = HTMLInputElement;
-
-export interface Props {
-
-  /**
-   * Override or extend the styled applied to the component.
-   *
-   * @optional
-   * @see ClassKey
-   * @type object
-   */
-  classes?: Record<ClassKey, Attributes["className"]>
+export interface Props extends UnstyledComponent<ClassKey, Element> {
 
   /**
    * The component used for the `input` element.
@@ -27,7 +15,7 @@ export interface Props {
    * @optional
    * @type element
    */
-  inputComponent?: ElementType
+  inputComponent?: UnstyledComponent<ClassKey, Element>["component"]
 
   /**
    * Attributes applied to the `input` element
@@ -36,11 +24,6 @@ export interface Props {
    * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes
    * @type object
    */
-  inputProps?: Attributes
+  inputProps?: HTMLAttributes<Element>
 
-  /**
-   * @optional
-   * @type ref
-   */
-  ref?: Ref<Element>
 }
