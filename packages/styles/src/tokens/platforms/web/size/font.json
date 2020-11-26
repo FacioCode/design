@@ -6,79 +6,52 @@
           "comment": "1em = 16px in default browsers",
           "value": 1
         },
-        "letterSpacing": {
-          "value": 0
-        },
-        "lineHeight": {
-          "value": 1.5
-        }
+        "letterSpacing": { "value": 0 },
+        "lineHeight": { "value": 1.5 }
       },
       "headline1": {
-        "fontSize": {
-          "value": 3.38888889
-        },
-        "letterSpacing": {
-          "value": -4
-        },
-        "lineHeight": {
-          "value": 1.32786885
-        }
+        "fontSize": { "value": 3.38888889 },
+        "letterSpacing": { "value": -4 },
+        "lineHeight": { "value": 1.32786885 },
+        "marginBottom": { "value": 0.8852459 },
+        "marginTop": { "value": 0.44262295 }
       },
       "headline2": {
-        "fontSize": {
-          "value": 2.27777778
-        },
-        "letterSpacing": {
-          "value": -2
-        },
-        "lineHeight": {
-          "value": 1.31707317
-        }
+        "fontSize": { "value": 2.27777778 },
+        "letterSpacing": { "value": -2 },
+        "lineHeight": { "value": 1.31707317 },
+        "marginBottom": { "value": 1 },
+        "marginTop": { "value": 1 }
       },
       "headline3": {
-        "fontSize": {
-          "value": 1.5
-        },
-        "letterSpacing": {
-          "value": -1
-        },
-        "lineHeight": {
-          "value": 1
-        }
+        "fontSize": { "value": 1.5 },
+        "letterSpacing": { "value": -1 },
+        "lineHeight": { "value": 1 },
+        "marginBottom": { "value": 1 },
+        "marginTop": { "value": 1 }
       },
       "headline4": {
-        "fontSize": {
-          "value": "{size.font.base.fontSize.value}"
-        },
-        "letterSpacing": {
-          "value": 0.25
-        },
-        "lineHeight": {
-          "value": "{size.font.base.lineHeight.value}"
-        }
+        "fontSize": { "value": "{size.font.base.fontSize.value}" },
+        "letterSpacing": { "value": 0.25 },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" },
+        "marginBottom": { "value": 0 },
+        "marginTop": { "value": 1 }
       },
       "headline5": {
-        "fontSize": {
-          "value": "{size.font.base.fontSize.value}"
-        },
-        "letterSpacing": {
-          "value": "{size.font.base.letterSpacing.value}"
-        },
-        "lineHeight": {
-          "value": "{size.font.base.lineHeight.value}"
-        }
+        "fontSize": { "value": "{size.font.base.fontSize.value}" },
+        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
+        "lineHeight": { "value": "{size.font.base.lineHeight.value}" },
+        "marginBottom": { "value": 0 },
+        "marginTop": { "value": 1.5 }
       },
       "bodyText1": {
-        "fontSize": {
-          "value": "{size.font.base.fontSize.value}"
-        },
-        "letterSpacing": {
-          "value": "{size.font.base.letterSpacing.value}"
-        },
+        "fontSize": { "value": "{size.font.base.fontSize.value}" },
+        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
         "lineHeight": {
           "comment": "On web, line height for body text should be 1.5rem",
           "value": "{size.font.base.lineHeight.value}"
-        }
+        },
+        "marginBottom": { "value": 1.5 }
       },
       "subtitle": {
         "comment": "Can be represented by an <h6> element at HTML",
@@ -115,6 +88,12 @@
         "fontSize": { "value": 0.75 },
         "letterSpacing": { "value": 0 },
         "lineHeight": { "value": 1 }
+      },
+      "input": {
+        "lineHeight": { "value": 1.4375 }
+      },
+      "inputLarge": {
+        "lineHeight": { "value": 1.75 }
       }
     }
   }
