@@ -1,0 +1,10 @@
+{
+  "size": {
+    "base": {
+      "halfPlusOne": {
+        "comment": "Reserved for input padding for web (4+1)",
+        "value": 5
+      }
+    }
+  }
+}
