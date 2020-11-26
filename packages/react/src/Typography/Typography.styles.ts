@@ -1,37 +1,40 @@
 import { CSSProperties, createStyles, makeStyles } from "@material-ui/styles";
+import { Property } from "csstype";
 import { TypographyProps } from "./Typography";
-import { kebabCase } from "lodash";
+import { getCssVarName } from "../utils/getCssVarName";
 
-const getStyleByVariant = (variant: TypographyProps["variant"]) => {
-  const key = kebabCase(variant);
+const component = "Typography";
 
+type Args = {
+  variant: TypographyProps["variant"]
+}
+type GetStyleByVariant = ({ variant }: Args) => CSSProperties;
 
-  return {
-    color: `var(--component-typography-${key}-color)`,
-    fontFamily: `var(--component-typography-${key}-font-family)`,
-    fontSize: `var(--component-typography-${key}-font-size)`,
-    fontWeight: `var(--component-typography-${key}-font-weight)`,
-    letterSpacing: `var(--component-typography-${key}-letter-spacing)`,
-    lineHeight: `var(--component-typography-${key}-line-height)`,
-    marginBottom: `var(--component-typography-${key}-margin-bottom)`,
-    marginTop: `var(--component-typography-${key}-margin-top)`,
-  } as CSSProperties;
-};
+const getStyleByVariant : GetStyleByVariant = ({ variant: classKey }) => ({
+  color: getCssVarName({ component, classKey, property: "color" }),
+  fontFamily: getCssVarName({ component, classKey, property: "fontFamily" }),
+  fontSize: getCssVarName({ component, classKey, property: "fontSize" }),
+  fontWeight: getCssVarName({ component, classKey, property: "fontWeight" }) as Property.FontWeight,
+  letterSpacing: getCssVarName({ component, classKey, property: "letterSpacing" }),
+  lineHeight: getCssVarName({ component, classKey, property: "lineHeight" }),
+  marginBottom: getCssVarName({ component, classKey, property: "marginBottom" }),
+  marginTop: getCssVarName({ component, classKey, property: "marginTop" }),
+});
 
 export const styles = createStyles({
   root: {
     margin: "var(--component-typography-root-margin)",
   },
-  headline1: getStyleByVariant("headline1"),
-  headline2: getStyleByVariant("headline2"),
-  headline3: getStyleByVariant("headline3"),
-  headline4: getStyleByVariant("headline4"),
-  headline5: getStyleByVariant("headline5"),
-  subtitle1: getStyleByVariant("subtitle1"),
-  subtitle2: getStyleByVariant("subtitle2"),
-  bodyText1: getStyleByVariant("bodyText1"),
-  bodyText2: getStyleByVariant("bodyText2"),
-  caption: getStyleByVariant("caption"),
+  headline1: getStyleByVariant({ variant: "headline1" }),
+  headline2: getStyleByVariant({ variant: "headline2" }),
+  headline3: getStyleByVariant({ variant: "headline3" }),
+  headline4: getStyleByVariant({ variant: "headline4" }),
+  headline5: getStyleByVariant({ variant: "headline5" }),
+  subtitle1: getStyleByVariant({ variant: "subtitle1" }),
+  subtitle2: getStyleByVariant({ variant: "subtitle2" }),
+  bodyText1: getStyleByVariant({ variant: "bodyText1" }),
+  bodyText2: getStyleByVariant({ variant: "bodyText2" }),
+  caption: getStyleByVariant({ variant: "caption" }),
 });
 
 export const useStyles = makeStyles(styles, { name: "FacioTypography" });
