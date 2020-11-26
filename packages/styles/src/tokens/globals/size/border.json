@@ -3,8 +3,7 @@
     "border": {
       "radius": {
         "none": { "value": "{size.base.none.value}" },
-        "single": { "value": "{size.base.single.value}" },
-        "double": { "value": "{size.base.double.value}" }
+        "single": { "value": "{size.base.single.value}" }
       },
       "width": {
         "none": { "value": "{size.base.none.value}" },

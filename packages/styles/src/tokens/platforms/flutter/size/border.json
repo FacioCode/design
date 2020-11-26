@@ -1,0 +1,9 @@
+{
+  "size": {
+    "border": {
+      "radius": {
+        "double": { "value": "{size.base.triple.value}" }
+      }
+    }
+  }
+}
