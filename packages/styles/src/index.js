@@ -12,6 +12,7 @@ const lineHeightToEm = require("./transforms/size/lineHeightToEm");
 const componentFlutterAlignment = require("./transforms/component/flutter/alignment");
 const componentFlutterFontWeight = require("./transforms/component/flutter/fontWeight");
 const sizeFlutterToDouble = require("./transforms/size/flutter/toDouble");
+const sizeWebPx = require("./transforms/size/web/px");
 
 const themes = ["light"];
 const platforms = ["flutter", "web"];
@@ -27,8 +28,6 @@ const config = ({ platform, theme }) => ({
 
 themes.map((theme) => {
   platforms.map((platform) => {
-    console.log(`\nProcessing: [${platform}] [${theme}]`);
-
     const styleDictionary = StyleDictionary.extend(config({ platform, theme }));
 
     styleDictionary.registerFormat({
@@ -61,7 +60,9 @@ themes.map((theme) => {
     styleDictionary.registerTransform(fontSizeToRem);
     styleDictionary.registerTransform(lineHeightToEm);
     styleDictionary.registerTransform(sizeFlutterToDouble);
+    styleDictionary.registerTransform(sizeWebPx);
 
+    console.log(`\nProcessing: [${platform}] [${theme}]`);
     styleDictionary.buildPlatform(platform);
     console.log("\nEnd processing");
 
