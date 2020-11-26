@@ -9,6 +9,7 @@ export default config({
     "@faciocode/react-unstyled": "FacioReactUnstyled",
     "@faciocode/styles/dist/index.css": "FacioStyles",
     "@material-ui/styles": "MaterialUiStyles",
+    lodash: "_",
     react: "React",
   },
   module,
