@@ -3,6 +3,45 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/FacioCode/design/compare/v0.14.9...v0.15.0) (2020-11-26)
+
+
+### Bug Fixes
+
+* **styles:** adopt correct line heights for flutter ([9943d20](https://github.com/FacioCode/design/commit/9943d208711324d28874923f91c50b5fda6dcb8e))
+* **styles:** convert typography margins to `em` on `lineHeightToEm` transform ([99860dc](https://github.com/FacioCode/design/commit/99860dc53e4f3abf201199ea0ae97331b7dd2418))
+* **styles:** fix font weight for typography variants ([87c1dc5](https://github.com/FacioCode/design/commit/87c1dc531b9a70affa2192dc6c3698a9c2a44837))
+
+
+### Code Refactoring
+
+* **styles:** add semantic background colors, change inverse bgcolor path ([6cd4a08](https://github.com/FacioCode/design/commit/6cd4a08b6d6601501edf4aefbfe00ff908badfc2))
+
+
+### Features
+
+* **styles:** add card component tokens ([dbf76a4](https://github.com/FacioCode/design/commit/dbf76a4f29c8886e0b00e764ff0314cf793b9c01))
+* **styles:** add lineHeight for input, add margins for typography variants ([8f37f8a](https://github.com/FacioCode/design/commit/8f37f8afe00c12bdb0991622a06f9da830e53889))
+* **styles:** add margin styles for typography component token ([3e30bf6](https://github.com/FacioCode/design/commit/3e30bf61e8f701ac2a53c50d990ea8d3b5c0d43c))
+* **styles:** add size/web/px transformer ([25809b9](https://github.com/FacioCode/design/commit/25809b99e9a9659da4fbb31ca570ab5a92354169))
+* **styles:** add support to semiBold font weight ([e023c01](https://github.com/FacioCode/design/commit/e023c01f3a666930414cf3fe51722dccc5bb830d))
+* **styles:** adopt `size/web/px` transform for web platform ([553b1d2](https://github.com/FacioCode/design/commit/553b1d299d790e893677ba257abed87e9ffcf5a8))
+* **styles:** consider letterSpacing also as base size ([0f442a3](https://github.com/FacioCode/design/commit/0f442a3f987595ce0517348e88535018e7ca84ef))
+* **styles:** create `halfPlusOne` base size token for web platform ([2b0c13d](https://github.com/FacioCode/design/commit/2b0c13d4a9c5a1354ed85db9cfc735d27b02cc59))
+* **styles:** create new isTypographyMargin matcher ([79b7c87](https://github.com/FacioCode/design/commit/79b7c87f9021619d510c1e8041c6bb15840eda7d))
+* **styles:** set specific border radius and font weight for buttons ([8a465c6](https://github.com/FacioCode/design/commit/8a465c683cad5ca7356eef07d26231ef0ed223d1))
+
+
+### BREAKING CHANGES
+
+* **styles:** `{size.font.button.lineHeight}` token is not available anymore. If needed, you must override it for a specific platform.
+* **styles:** `{component.button.root.borderRadius}` token is not available anymore. Please use `{component.button.sizeMedium.borderRadius}` for medium buttons and `{component.button.sizeLarge.borderRadius}` for large buttons.
+* **styles:** inverse background color now is referenced as `{color.background.inverse.value}` instead of `{color.background.inverse.base.value}`
+
+
+
+
+
 ## [0.14.9](https://github.com/FacioCode/design/compare/v0.14.8...v0.14.9) (2020-11-25)
 
 **Note:** Version bump only for package @faciocode/styles

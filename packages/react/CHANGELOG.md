@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/FacioCode/design/compare/v0.14.9...v0.15.0) (2020-11-26)
+
+
+### Features
+
+* **react:** add new Card component ([75a79ae](https://github.com/FacioCode/design/commit/75a79ae0dc5fabaa7cc582af71c3268eb0b48cc7))
+* **react:** create cssVarName util for consuming styles ([3e14a14](https://github.com/FacioCode/design/commit/3e14a145af8fba3e9e60a731c8f642bf783f3597))
+
+
+
+
+
 ## [0.14.9](https://github.com/FacioCode/design/compare/v0.14.8...v0.14.9) (2020-11-25)
 
 **Note:** Version bump only for package @faciocode/react

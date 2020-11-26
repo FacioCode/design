@@ -1,6 +1,6 @@
 {
   "name": "vanilla",
-  "version": "0.14.9",
+  "version": "0.15.0",
   "private": true,
   "description": "JavaScript example starter project",
   "main": "index.html",
@@ -13,7 +13,7 @@
     "parcel-bundler": "^1.3.1"
   },
   "dependencies": {
-    "@faciocode/styles": "^0.14.9"
+    "@faciocode/styles": "^0.15.0"
   },
   "keywords": [
     "javascript",

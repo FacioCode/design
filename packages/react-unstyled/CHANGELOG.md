@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/FacioCode/design/compare/v0.14.9...v0.15.0) (2020-11-26)
+
+
+### Features
+
+* **react-unstyled:** add new Card component ([37dd75f](https://github.com/FacioCode/design/commit/37dd75fc0fe3e4ea4b45c0733486f530455989d3))
+* **react-unstyled:** add UnstyledComponent type ([d2aa0a4](https://github.com/FacioCode/design/commit/d2aa0a4a61d43f601644e4da1e9d95b32e9d103d))
+
+
+
+
+
 ## [0.14.9](https://github.com/FacioCode/design/compare/v0.14.8...v0.14.9) (2020-11-25)
 
 **Note:** Version bump only for package @faciocode/react-unstyled

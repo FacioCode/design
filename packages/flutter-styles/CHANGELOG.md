@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/FacioCode/design/compare/v0.14.9...v0.15.0) (2020-11-26)
+
+
+### Bug Fixes
+
+* **flutter-styles:** set correct line height for fonts, remove button line height ([c5d9b81](https://github.com/FacioCode/design/commit/c5d9b8152c9c79b36a7e1089dd9b7975ae769869))
+* **flutter-styles:** update base border radius and line heights ([938fdfd](https://github.com/FacioCode/design/commit/938fdfd103604857c96ef374f54785992c4ec1b6))
+* **flutter-styles:** update ButtonStyles ([348e2e9](https://github.com/FacioCode/design/commit/348e2e94fe53a5fd486b42107d0cddb3e68bcd35))
+
+
+### Features
+
+* **flutter-styles:** add semantic background colors to ColorPalette class ([f88aa65](https://github.com/FacioCode/design/commit/f88aa65fc724565a2e968e2a9c3abfc899dcdf7b))
+* **flutter-styles:** add styles for Card ([ef36e08](https://github.com/FacioCode/design/commit/ef36e08a4ca726817fbccddf8e61963e2d504a68))
+
+
+### BREAKING CHANGES
+
+* **flutter-styles:** button line height is not provided anymore. Flutter will calculate it, or you can provide it directly on your application.
+* **flutter-styles:** Because `ButtonStyles.buttonRootBorderRadius` was splitted for medium and large button sizes, `ButtonStyles.buttonRootBorderRadius` is not a valid static constant anymore. You must use `buttonSizeMediumBorderRadius` or `buttonSizeLargeBorderRadius` constants.
+
+
+
+
+
 ## [0.14.9](https://github.com/FacioCode/design/compare/v0.14.8...v0.14.9) (2020-11-25)
 
 **Note:** Version bump only for package facio_styles
