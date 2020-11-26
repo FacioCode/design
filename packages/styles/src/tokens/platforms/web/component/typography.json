@@ -5,31 +5,37 @@
         "margin": { "value": "{size.base.none.value}" }
       },
       "headline1": {
-        "marginBottom": { "value": 0.8852459 },
-        "marginTop": { "value": 0.44262295 }
+        "marginBottom": { "value": "{size.font.headline1.marginBottom.value}" },
+        "marginTop": { "value": "{size.font.headline1.marginTop.value}" }
       },
       "headline2": {
-        "marginBottom": { "value": 1 },
-        "marginTop": { "value": 1 }
+        "marginBottom": { "value": "{size.font.headline2.marginBottom.value}" },
+        "marginTop": { "value": "{size.font.headline2.marginTop.value}" }
       },
       "headline3": {
-        "marginBottom": { "value": 1 },
-        "marginTop": { "value": 1 }
+        "marginBottom": { "value": "{size.font.headline3.marginBottom.value}" },
+        "marginTop": { "value": "{size.font.headline3.marginTop.value}" }
       },
       "headline4": {
-        "marginBottom": { "value": 0 },
-        "marginTop": { "value": 1 }
+        "marginBottom": { "value": "{size.font.headline4.marginBottom.value}" },
+        "marginTop": { "value": "{size.font.headline4.marginTop.value}" }
       },
       "headline5": {
-        "marginBottom": { "value": 0 },
-        "marginTop": { "value": 1.5 }
+        "marginBottom": { "value": "{size.font.headline5.marginBottom.value}" },
+        "marginTop": { "value": "{size.font.headline5.marginTop.value}" }
       },
       "headline6": {
-        "marginBottom": { "value": 0 },
-        "marginTop": { "value": 1.5 }
+        "marginBottom": {
+          "comment": "Reuse margin bottom from headline5",
+          "value": "{size.font.headline5.marginBottom.value}"
+        },
+        "marginTop": {
+          "comment": "Reuse margin top from headline5",
+          "value": "{size.font.headline5.marginTop.value}"
+        }
       },
       "bodyText1": {
-        "marginBottom": { "value": 1.5 }
+        "marginBottom": { "value": "{size.font.bodyText1.marginBottom.value}" }
       },
       "alignLeft": {
         "comment": "Styles applied to the root element if align is left",
