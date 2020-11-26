@@ -21,7 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  facio_styles: 0.12.2
+  facio_styles:
+    path: ..
   flutter:
     sdk: flutter
 
