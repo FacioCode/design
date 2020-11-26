@@ -4,14 +4,14 @@
       "root": {
         "lineHeight": {
           "comment": "23px",
-          "value": 1.4375
+          "value": "{size.font.input.lineHeight.value}"
         }
       },
       "input": {
         "borderWidth": { "value": "{size.border.width.none.value}" },
         "height": {
           "comment": "Reset 23px the native input line-height",
-          "value": 1.4375
+          "value": "{size.font.input.lineHeight.value}"
         },
         "margin": { "value": "{size.base.none.value}" },
         "minWidth": {
@@ -20,13 +20,13 @@
         },
         "paddingTop": { "value": "{size.base.half.value}" },
         "paddingRight": { "value": "{size.base.none.value}" },
-        "paddingBottom": { "value": 5 },
+        "paddingBottom": { "value": "{size.base.halfPlusOne.value}" },
         "paddingLeft": { "value": "{size.base.none.value}" }
       },
       "large": {
         "fontSize": {
           "comment": "At web, 1.75em = 28px (inspired on Flutter largeInput size)",
-          "value": 1.75
+          "value": "{size.font.inputLarge.lineHeight.value}"
         }
       }
     }
