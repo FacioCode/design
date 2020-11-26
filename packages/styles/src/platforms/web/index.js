@@ -14,6 +14,7 @@ const web = {
     "attribute/cti",
     "name/cti/kebab",
     "color/css",
+    "size/web/px",
     "size/fontSizeToRem",
     "size/lineHeightToEm",
   ],
