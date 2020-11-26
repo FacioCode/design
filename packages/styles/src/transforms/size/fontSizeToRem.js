@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const isFontSize = require("../../matchers/isFontSize");
 
 const fontSizeToRem = {
