@@ -56,7 +56,8 @@
   "dependencies": {
     "@faciocode/react-unstyled": "^0.14.9",
     "@faciocode/styles": "^0.14.9",
-    "@material-ui/styles": "5.0.0-alpha.15"
+    "@material-ui/styles": "5.0.0-alpha.15",
+    "lodash": "4.17.20"
   },
   "publishConfig": {
     "access": "public"
