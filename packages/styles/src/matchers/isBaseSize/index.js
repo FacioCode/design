@@ -1,8 +1,11 @@
 const isComponent = ({ attributes }) => {
-  const { category, type } = attributes;
+  const { category, subitem, type } = attributes;
 
+  if (category === "size" && type === "base") {
+    return true;
+  }
 
-  return category === "size" && type === "base";
+  return subitem === "letterSpacing";
 };
 
 module.exports = isComponent;
