@@ -1,8 +1,8 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const isLineHeight = require("../../matchers/isLineHeight");
+const isTypographyMargin = require("../../matchers/isTypographyMargin");
 
 const lineHeightToEm = {
-  matcher: isLineHeight,
+  matcher: (prop) => isLineHeight(prop) || isTypographyMargin(prop),
   name: "size/lineHeightToEm",
   transformer: ({ value }) => `${value}em`,
   type: "value",
