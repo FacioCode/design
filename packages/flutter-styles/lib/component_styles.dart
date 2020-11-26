@@ -13,9 +13,6 @@ class AppBarStyles {
 class ButtonStyles {
   ButtonStyles._();
 
-  /// borderRadius for root
-  static const buttonRootBorderRadius = 8.00;
-
   /// borderWidth for contained
   static const buttonContainedBorderWidth = 0.00;
 
@@ -25,6 +22,12 @@ class ButtonStyles {
   /// Default button font size can vary depending on platform.
   static const buttonLabelFontSize = 14.00;
 
+  /// borderRadius for sizeMedium
+  static const buttonSizeMediumBorderRadius = 24.00;
+
+  /// Medium button labels have semi bold font weight
+  static const buttonSizeMediumFontWeight = FontWeight.w600;
+
   /// height for sizeMedium
   static const buttonSizeMediumHeight = 32.00;
 
@@ -33,6 +36,12 @@ class ButtonStyles {
 
   /// label for sizeMedium
   static const buttonSizeMediumLabelPaddingTop = 4.00;
+
+  /// borderRadius for sizeLarge
+  static const buttonSizeLargeBorderRadius = 8.00;
+
+  /// Large button labels have bold font weight
+  static const buttonSizeLargeFontWeight = FontWeight.w700;
 
   /// height for sizeLarge
   static const buttonSizeLargeHeight = 48.00;
@@ -67,7 +76,7 @@ class ChipStyles {
   ChipStyles._();
 
   /// borderRadius for root
-  static const chipRootBorderRadius = 16.00;
+  static const chipRootBorderRadius = 24.00;
 
   /// borderWidth for root
   static const chipRootBorderWidth = 1.00;
@@ -115,7 +124,7 @@ class TypographyStyles {
   static const typographyHeadline1LetterSpacing = -0.50;
 
   /// lineHeight for headline1
-  static const typographyHeadline1LineHeight = 40.00;
+  static const typographyHeadline1LineHeight = 1.17647058824;
 
   /// color for headline2
   static const typographyHeadline2Color = const Color(0xFF303846);
@@ -133,7 +142,7 @@ class TypographyStyles {
   static const typographyHeadline2LetterSpacing = -0.38;
 
   /// lineHeight for headline2
-  static const typographyHeadline2LineHeight = 40.00;
+  static const typographyHeadline2LineHeight = 1.42857142857;
 
   /// color for headline3
   static const typographyHeadline3Color = const Color(0xFF303846);
@@ -151,7 +160,7 @@ class TypographyStyles {
   static const typographyHeadline3LetterSpacing = -0.26;
 
   /// lineHeight for headline3
-  static const typographyHeadline3LineHeight = 32.00;
+  static const typographyHeadline3LineHeight = 1.45454545455;
 
   /// color for headline4
   static const typographyHeadline4Color = const Color(0xFF303846);
@@ -169,7 +178,7 @@ class TypographyStyles {
   static const typographyHeadline4LetterSpacing = -0.45;
 
   /// lineHeight for headline4
-  static const typographyHeadline4LineHeight = 24.00;
+  static const typographyHeadline4LineHeight = 1.2;
 
   /// color for headline5
   static const typographyHeadline5Color = const Color(0xFF303846);
@@ -187,7 +196,7 @@ class TypographyStyles {
   static const typographyHeadline5LetterSpacing = -0.43;
 
   /// lineHeight for headline5
-  static const typographyHeadline5LineHeight = 24.00;
+  static const typographyHeadline5LineHeight = 1.41176470588;
 
   /// color for bodyText1
   static const typographyBodyText1Color = const Color(0xFF424D5C);
@@ -205,7 +214,7 @@ class TypographyStyles {
   static const typographyBodyText1LetterSpacing = -0.43;
 
   /// lineHeight for bodyText1
-  static const typographyBodyText1LineHeight = 24.00;
+  static const typographyBodyText1LineHeight = 1.41176470588;
 
   /// color for subtitle1
   static const typographySubtitle1Color = const Color(0xFF303846);
@@ -217,13 +226,13 @@ class TypographyStyles {
   static const typographySubtitle1FontSize = 15.00;
 
   /// fontWeight for subtitle1
-  static const typographySubtitle1FontWeight = FontWeight.w400;
+  static const typographySubtitle1FontWeight = FontWeight.w700;
 
   /// letterSpacing for subtitle1
   static const typographySubtitle1LetterSpacing = -0.23;
 
   /// lineHeight for subtitle1
-  static const typographySubtitle1LineHeight = 24.00;
+  static const typographySubtitle1LineHeight = 1.6;
 
   /// color for subtitle2
   static const typographySubtitle2Color = const Color(0xFF424D5C);
@@ -241,7 +250,7 @@ class TypographyStyles {
   static const typographySubtitle2LetterSpacing = -0.23;
 
   /// lineHeight for subtitle2
-  static const typographySubtitle2LineHeight = 24.00;
+  static const typographySubtitle2LineHeight = 1.6;
 
   /// Button color is secondary (probably grey-80) by default
   static const typographyButtonColor = const Color(0xFF303846);
@@ -252,14 +261,8 @@ class TypographyStyles {
   /// fontSize for button
   static const typographyButtonFontSize = 14.00;
 
-  /// Button labels will have regular font weight by default but they can be bold.
-  static const typographyButtonFontWeight = FontWeight.w400;
-
   /// letterSpacing for button
   static const typographyButtonLetterSpacing = -0.15;
-
-  /// lineHeight for button
-  static const typographyButtonLineHeight = 24.00;
 
   /// color for bodyText2
   static const typographyBodyText2Color = const Color(0xFF424D5C);
@@ -277,7 +280,7 @@ class TypographyStyles {
   static const typographyBodyText2LetterSpacing = -0.15;
 
   /// lineHeight for bodyText2
-  static const typographyBodyText2LineHeight = 24.00;
+  static const typographyBodyText2LineHeight = 1.71428571429;
 
   /// Caption color is secondary (probably grey-80) by default
   static const typographyCaptionColor = const Color(0xFF303846);
@@ -295,5 +298,5 @@ class TypographyStyles {
   static const typographyCaptionLetterSpacing = 0.00;
 
   /// lineHeight for caption
-  static const typographyCaptionLineHeight = 16.00;
+  static const typographyCaptionLineHeight = 1.33333333333;
 }
