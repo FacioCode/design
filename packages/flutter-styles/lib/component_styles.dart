@@ -44,6 +44,25 @@ class ButtonStyles {
   static const buttonSizeLargeLabelPaddingTop = 12.00;
 }
 
+class CardStyles {
+  CardStyles._();
+
+  /// borderRadius for root
+  static const cardRootBorderRadius = 8.00;
+
+  /// color for root
+  static const cardRootColor = const Color(0xFF424D5C);
+
+  /// padding for root
+  static const cardRootPadding = 16.00;
+
+  /// backgroundColor for default
+  static const cardDefaultBackgroundColor = const Color(0xFFFFFFFF);
+
+  /// backgroundColor for info
+  static const cardInfoBackgroundColor = const Color(0xFFB3CCFF);
+}
+
 class ChipStyles {
   ChipStyles._();
 
