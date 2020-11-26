@@ -81,7 +81,7 @@
           "comment": "A little smaller than headline5.",
           "value": "{size.font.subtitle.fontSize.value}"
         },
-        "fontWeight": { "value": "{font.weight.regular.value}"},
+        "fontWeight": { "value": "{font.weight.bold.value}"},
         "letterSpacing": { "value": "{size.font.subtitle.letterSpacing.value}" },
         "lineHeight": { "value": "{size.font.subtitle.lineHeight.value}" }
       },
@@ -104,12 +104,7 @@
         },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": { "value": "{size.font.button.fontSize.value}" },
-        "fontWeight": {
-          "comment": "Button labels will have regular font weight by default but they can be bold.",
-          "value": "{font.weight.regular.value}"
-        },
-        "letterSpacing": { "value": "{size.font.button.letterSpacing.value}" },
-        "lineHeight": { "value": "{size.font.button.lineHeight.value}" }
+        "letterSpacing": { "value": "{size.font.button.letterSpacing.value}" }
       },
       "bodyText2": {
         "comment": "Formerly footnote. Useful for optional text content, like card content text.",
