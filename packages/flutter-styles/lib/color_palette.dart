@@ -4,8 +4,12 @@ class ColorPalette {
   ColorPalette._();
 
   static const Color backgroundBackLayer = const Color(0xFFFFFFFF);
+  static const Color backgroundBase = const Color(0xFFFFFFFF);
   static const Color backgroundFrontLayer = const Color(0xFFF2F2F3);
-  static const Color backgroundInverseBase = const Color(0xFF1F252E);
+  static const Color backgroundInfo = const Color(0xFFB3CCFF);
+  static const Color backgroundInverse = const Color(0xFF1F252E);
+  static const Color backgroundSuccess = const Color(0xFF3FE1B6);
+  static const Color backgroundWarning = const Color(0xFFFFD588);
   static const Color baseAquamarine05 = const Color(0xFFE3FFF4);
   static const Color baseAquamarine10 = const Color(0xFFD0FFEF);
   static const Color baseAquamarine20 = const Color(0xFFB3FFE6);
