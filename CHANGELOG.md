@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.16.0](https://github.com/FacioCode/design/compare/v0.15.0...v0.16.0) (2020-11-27)
+
+
+### Bug Fixes
+
+* **styles:** don't add file header to JS main source file ([900d80c](https://github.com/FacioCode/design/commit/900d80c0d3deb5ffb792dcfb7baa169ef675af7d))
+
+
+### Features
+
+* add CommonJS, ES module, UMD and type definition ([7919f46](https://github.com/FacioCode/design/commit/7919f461536fab48fd3f1c4956a2de7eebcd7dbf))
+
+
+
+
+
 # [0.15.0](https://github.com/FacioCode/design/compare/v0.14.9...v0.15.0) (2020-11-26)
 
 
