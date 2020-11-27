@@ -31,6 +31,14 @@ jobs:
         run: "git commit --allow-empty -m \"chore(flutter-styles): bump package version [skip ci]\""
       - name: Push up-to-date pubspec file
         run: git push origin
+      - name: Cache generated files
+        uses: actions/cache@v2
+        id: cache
+        with: |
+          packages/react/dist
+          packages/react-unstyled/dist
+          packages/styles/dist
+        key: ${{ runner.os }}-publish-outputs
 
   publish-npm:
     needs: build
@@ -38,6 +46,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+      - name: Restore cached output
+        uses: actions/cache@v2
+        with:
+          path: |
+            packages/react/dist
+            packages/react-unstyled/dist
+            packages/styles/dist
+          restore-keys: |
+            ${{ runner.os }}-publish-outputs
       - uses: actions/setup-node@v1
         with:
           node-version: 12
