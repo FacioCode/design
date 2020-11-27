@@ -107,3 +107,5 @@ dist
 # IDEA workspace file
 .idea/workspace.xml
 
+# macOS files
+packages/**/.DS_Store
