@@ -29,8 +29,9 @@
     "lib"
   ],
   "repository": {
+    "directory": "packages/styles",
     "type": "git",
-    "url": "git+https://github.com/FacioCode/design.git"
+    "url": "https://github.com/FacioCode/design"
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
