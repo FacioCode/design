@@ -34,10 +34,11 @@ jobs:
       - name: Cache generated files
         uses: actions/cache@v2
         id: cache
-        with: |
-          packages/react/dist
-          packages/react-unstyled/dist
-          packages/styles/dist
+        with:
+          path: |
+            packages/react/dist
+            packages/react-unstyled/dist
+            packages/styles/dist
         key: ${{ runner.os }}-publish-outputs
 
   publish-npm:
