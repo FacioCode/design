@@ -4,4 +4,7 @@ const lodash = require("lodash");
 const templateFile = fs.readFileSync("./src/templates/flutter/text_theme.dart");
 const textThemeFormatter = lodash.template(templateFile);
 
-module.exports = textThemeFormatter;
+module.exports = {
+  formatter: textThemeFormatter,
+  name: "flutter/text_theme.dart",
+};

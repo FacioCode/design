@@ -1,9 +1,7 @@
-# `@faciocode/styles`
+# Facio Styles
 
-Styles for Facio Design System.
+CSS and JavaScript styles for Facio Design System.
 
-## Importing
+## Other platforms
 
-```dart
-import 'package:faciostyles/main.dart';
-```
+* [Flutter](https://github.com/FacioCode/design/tree/main/packages/flutter-styles#readme)

@@ -8,4 +8,7 @@ const pubspecYamlFormatter = (dictionary, { metadata }) => template({
   ...metadata,
 });
 
-module.exports = pubspecYamlFormatter;
+module.exports = {
+  formatter: pubspecYamlFormatter,
+  name: "flutter/pubspec.yaml",
+};

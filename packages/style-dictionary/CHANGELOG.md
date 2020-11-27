@@ -401,7 +401,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * **styles:** now buttonBorderRadius is buttonRootBorderRadius. now buttonBorderWidth is buttonContainedBorderWidth. now buttonSmall is butttonSizeMedium, and buttonMedium is buttonSizeLarge.
 * **styles:** now chipBorderRadius is chipRootBorderRadius. Now chipBorderWidth is chipRootBorderWidth
-* **styles:** Pixel units were removed from CSS file inside dist. `index.js` will not be available.
+* **styles:** Pixel units were removed from CSS file inside dist.
 * **styles:** you must replace "appbar" to "appBar" reference in some places in your application
 
 

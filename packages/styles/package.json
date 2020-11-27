@@ -3,40 +3,44 @@
   "displayName": "FacioStyles",
   "private": false,
   "version": "0.15.0",
-  "description": "Styles and assets for Facio Design System",
+  "description": "Styles and assets for Facio Design System in CSS and JavaScript",
   "keywords": [
     "styles",
     "facio",
     "design",
-    "ds"
+    "ds",
+    "assets",
+    "designsystem",
+    "css",
+    "js"
   ],
-  "author": {
-    "name": "Facio",
-    "url": "https://github.com/FacioCode"
-  },
-  "homepage": "https://github.com/FacioCode/design/tree/main/packages/styles#readme",
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "directories": {
-    "lib": "dist"
-  },
+  "author": "Jimmy Andrade <contato@jimmyandrade.com>",
+  "homepage": "https://github.com/FacioCode/design/tree/master/packages/styles#readme",
+  "license": "ISC",
+  "browser": "dist/umd/index.js",
   "main": "dist/index.js",
-  "source": "src/index.js",
-  "repository": {
-    "directory": "packages/styles",
-    "type": "git",
-    "url": "https://github.com/FacioCode/design"
+  "module": "dist/es/index.js",
+  "source": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
   },
-  "bugs": {
-    "url": "https://github.com/FacioCode/design/issues"
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacioCode/design.git"
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
-    "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ../flutter-styles/lib",
-    "compile": "style-dictionary build --config ./src/index.js",
-    "test": "echo \"Todo: implement tests\" && exit 0"
+    "clean": "rm -rf dist/index.js",
+    "compile": "npm run rollup && npm run emitDeclaration",
+    "emitDeclaration": "tsc --declaration --declarationDir dist --emitDeclarationOnly",
+    "rollup": "rollup -c"
+  },
+  "bugs": {
+    "url": "https://github.com/FacioCode/design/issues"
   },
   "publishConfig": {
     "access": "public"

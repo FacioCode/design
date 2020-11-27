@@ -1,0 +1,41 @@
+{
+  "name": "@faciocode/style-dictionary",
+  "displayName": "FacioStyleDictionary",
+  "private": true,
+  "version": "0.15.0",
+  "description": "Styles and assets for Facio Design System",
+  "keywords": [
+    "styles",
+    "facio",
+    "design",
+    "ds"
+  ],
+  "author": {
+    "name": "Facio",
+    "url": "https://github.com/FacioCode"
+  },
+  "homepage": "https://github.com/FacioCode/design/tree/main/packages/styles#readme",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "directories": {
+    "lib": "dist"
+  },
+  "main": "src/index.js",
+  "source": "src/index.js",
+  "repository": {
+    "directory": "packages/style-dictionary",
+    "type": "git",
+    "url": "https://github.com/FacioCode/design"
+  },
+  "bugs": {
+    "url": "https://github.com/FacioCode/design/issues"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ../flutter-styles/lib",
+    "compile": "style-dictionary build --config ./src/index.js",
+    "test": "echo \"Todo: implement tests\" && exit 0"
+  }
+}

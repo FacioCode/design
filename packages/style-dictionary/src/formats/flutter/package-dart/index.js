@@ -8,4 +8,7 @@ const packageDartFormatter = (dictionary, { metadata }) => template({
   ...metadata,
 });
 
-module.exports = packageDartFormatter;
+module.exports = {
+  formatter: packageDartFormatter,
+  name: "flutter/package.dart",
+};

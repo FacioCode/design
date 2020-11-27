@@ -19,4 +19,7 @@ const componentStylesFormatter = (dictionary, options) => {
   return compiled({ packageName, props });
 };
 
-module.exports = componentStylesFormatter;
+module.exports = {
+  formatter: componentStylesFormatter,
+  name: "flutter/component_styles.dart",
+};
