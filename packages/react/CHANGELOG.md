@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.18.0](https://github.com/FacioCode/design/compare/v0.17.4...v0.18.0) (2020-11-27)
+
+
+### Features
+
+* **react:** make Typography component available as named export ([3ae3064](https://github.com/FacioCode/design/commit/3ae3064389a8e993852d49a6336be4615ce905c6))
+
+
+
+
+
 ## [0.17.4](https://github.com/FacioCode/design/compare/v0.17.3...v0.17.4) (2020-11-27)
 
 **Note:** Version bump only for package @faciocode/react
