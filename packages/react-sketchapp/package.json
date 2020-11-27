@@ -1,7 +1,7 @@
 {
   "name": "@faciocode/react-sketchapp",
   "private": true,
-  "version": "0.17.3",
+  "version": "0.17.4",
   "description": "Render Facio React components to Sketch",
   "skpm": {
     "main": "dist/facio-components.sketchplugin",
