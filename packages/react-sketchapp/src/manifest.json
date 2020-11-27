@@ -1,0 +1,17 @@
+{
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "identifier": "main",
+      "name": "Facio Components for Sketch",
+      "script": "./index.js"
+    }
+  ],
+  "compatibleVersion": 3,
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "main"
+    ]
+  }
+}
