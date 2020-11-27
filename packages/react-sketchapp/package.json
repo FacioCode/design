@@ -1,0 +1,51 @@
+{
+  "name": "@faciocode/react-sketchapp",
+  "private": true,
+  "version": "0.15.0",
+  "description": "Render Facio React components to Sketch",
+  "skpm": {
+    "main": "dist/facio-components.sketchplugin",
+    "manifest": "src/manifest.json"
+  },
+  "keywords": [
+    "react",
+    "sketch",
+    "sketchapp",
+    "facio",
+    "faciocode",
+    "components"
+  ],
+  "author": {
+    "name": "Facio",
+    "url": "https://github.com/FacioCode"
+  },
+  "homepage": "https://github.com/FacioCode/design/tree/master/packages/react-sketchapp#readme",
+  "main": "lib/react-sketchapp.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacioCode/design.git"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "postinstall": "npm run build && skpm-link",
+    "render": "npm run watch -- --run",
+    "render-once": "npm run build -- --run",
+    "watch": "npm run build -- --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/FacioCode/design/issues"
+  },
+  "devDependencies": {
+    "@skpm/builder": "0.7.11"
+  },
+  "dependencies": {
+    "react-sketchapp": "3.2.6"
+  }
+}
