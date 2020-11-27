@@ -8,6 +8,9 @@ const webJsPlatform = {
       destination: "index.ts",
       filter: (prop) => isComponent(prop),
       format: "javascript/es6",
+      options: {
+        showFileHeader: false,
+      },
     },
   ],
   transformGroup: "web/js",
