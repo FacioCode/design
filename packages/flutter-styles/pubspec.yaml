@@ -1,7 +1,7 @@
 ---
 name: facio_styles
 description: Facio Design System style package for use in Flutter applications. The styles in this package are consumed by the UI components of Facio applications built on Flutter.
-version: 0.15.0
+version: 0.16.0
 homepage: https://github.com/FacioCode/design/tree/main/packages/flutter-styles#readme
 repository: https://github.com/FacioCode/design
 issue_tracker: https://github.com/FacioCode/design/issues
