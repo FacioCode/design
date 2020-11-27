@@ -28,8 +28,8 @@
     "typescript": "4.1.2"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap --ignore=@faciocode/react-sketchapp",
+    "build": "lerna run build --ignore=@faciocode/react-sketchapp",
     "clean": "lerna clean",
     "postinstall": "npm run bootstrap",
     "pretest": "npm run build",
