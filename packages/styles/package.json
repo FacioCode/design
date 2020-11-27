@@ -17,17 +17,23 @@
   "author": "Jimmy Andrade <contato@jimmyandrade.com>",
   "homepage": "https://github.com/FacioCode/design/tree/master/packages/styles#readme",
   "license": "ISC",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist"
+  ],
   "browser": "dist/umd/index.js",
+  "esmodule": "dist/es/index.js",
+  "jsdelivr": "dist/umd/index.min.js",
+  "jsnext:main": "dist/es/index.js",
   "main": "dist/index.js",
   "module": "dist/es/index.js",
   "source": "src/index.ts",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "umd:main": "dist/umd/index.js",
+  "unpkg": "dist/umd/index.min.js",
   "repository": {
     "directory": "packages/styles",
     "type": "git",
