@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.1](https://github.com/FacioCode/design/compare/v0.17.0...v0.17.1) (2020-11-27)
+
+
+### Bug Fixes
+
+* generate valid /dist for packages ([6f43dce](https://github.com/FacioCode/design/commit/6f43dcee9ff5edfff6bfd9817f64fc0526009f60))
+
+
+
+
+
 # [0.17.0](https://github.com/FacioCode/design/compare/v0.16.0...v0.17.0) (2020-11-27)
 
 
