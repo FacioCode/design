@@ -39,7 +39,7 @@ jobs:
             packages/react/dist
             packages/react-unstyled/dist
             packages/styles/dist
-        key: ${{ runner.os }}-publish-outputs
+          key: ${{ runner.os }}-publish-outputs
 
   publish-npm:
     needs: build
