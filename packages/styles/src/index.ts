@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Fri, 27 Nov 2020 15:35:07 GMT
- */
-
 export const appBarRootHeight = "56px";
 export const appBarColorDefaultBackgroundColor = "#ffffff";
 export const buttonContainedBorderWidth = "0px";
