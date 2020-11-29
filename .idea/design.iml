@@ -11,6 +11,8 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/react-storybook/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react-unstyled/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/styles/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/styles/sketch" />
       <excludeFolder url="file://$MODULE_DIR$/packages/styles/src/templates/flutter/.pub" />
