@@ -50,8 +50,8 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "peerDependencies": {
-    "react": "16.14.0 || 17.0.1",
-    "react-dom": "16.14.0 || 17.0.1"
+    "react": "^16.14.0 || ^17.0.1",
+    "react-dom": "^16.14.0 || ^17.0.1"
   },
   "dependencies": {
     "clsx": "1.1.1"
