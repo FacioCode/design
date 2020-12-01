@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Element, Props } from "./Card.types";
+import { Paper } from "../Paper";
 import clsx from "clsx";
 
 const render = (props: Props, ref: Props["ref"]) => {
@@ -12,9 +13,11 @@ const render = (props: Props, ref: Props["ref"]) => {
   } = props;
 
 
-  return <Component
+  return <Paper
     className={clsx(classes.root, classes[color], className)}
+    component={Component}
     ref={ref}
+    variant={"rounded"}
     {...otherProps} />;
 };
 
