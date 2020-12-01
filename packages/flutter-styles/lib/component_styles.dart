@@ -59,14 +59,14 @@ class CardStyles {
   /// borderRadius for root
   static const cardRootBorderRadius = 8.00;
 
-  /// color for root
-  static const cardRootColor = const Color(0xFF424D5C);
-
   /// padding for root
   static const cardRootPadding = 16.00;
 
   /// backgroundColor for default
   static const cardDefaultBackgroundColor = const Color(0xFFFFFFFF);
+
+  /// color for default
+  static const cardDefaultColor = const Color(0xFF424D5C);
 
   /// backgroundColor for info
   static const cardInfoBackgroundColor = const Color(0xFFB3CCFF);
@@ -103,6 +103,16 @@ class LabelStyles {
 
   /// Font size is the same of caption.
   static const labelMediumFontSize = 12.00;
+}
+
+class PaperStyles {
+  PaperStyles._();
+
+  /// backgroundColor for root
+  static const paperRootBackgroundColor = const Color(0xFFFFFFFF);
+
+  /// color for root
+  static const paperRootColor = const Color(0xFF424D5C);
 }
 
 class TypographyStyles {
