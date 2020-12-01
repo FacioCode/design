@@ -7,13 +7,11 @@ const component = "Card";
 const styles = createStyles({
   root: {
     ...typographyStyles.bodyText2,
-    borderRadius: getCssVarName({ classKey: "root", component, property: "borderRadius" }),
-    color: getCssVarName({ classKey: "root", component, property: "color" }),
     overflow: "hidden",
     padding: getCssVarName({ classKey: "root", component, property: "padding" }),
   },
   default: {
-    backgroundColor: getCssVarName({ classKey: "default", component, property: "backgroundColor" }),
+
   },
   info: {
     backgroundColor: getCssVarName({ classKey: "info", component, property: "backgroundColor" }),
