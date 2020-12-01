@@ -1,7 +1,3 @@
-/**
- * @todo Remove React import from InputBase
- * @body Remove React import when TypeScript 4.1 is released
- */
 import * as React from "react";
 import { Element, Props } from "./InputBase.types";
 import clsx from "clsx";
