@@ -3,7 +3,7 @@
     "font": {
       "base": {
         "fontSize": {
-          "comment": "1em = 16px in default browsers",
+          "comment": "1rem = 16px in default browsers",
           "value": 1
         },
         "letterSpacing": { "value": 0 },
@@ -11,35 +11,49 @@
       },
       "headline1": {
         "fontSize": { "value": 3.38888889 },
-        "letterSpacing": { "value": -4 },
+        "letterSpacing": {
+          "comment": "-4px",
+          "value": -4
+        },
         "lineHeight": { "value": 1.32786885 },
         "marginBottom": { "value": 0.8852459 },
         "marginTop": { "value": 0.44262295 }
       },
       "headline2": {
         "fontSize": { "value": 2.27777778 },
-        "letterSpacing": { "value": -2 },
+        "letterSpacing": {
+          "comment": "-2px",
+          "value": -2
+        },
         "lineHeight": { "value": 1.31707317 },
         "marginBottom": { "value": 1 },
         "marginTop": { "value": 1 }
       },
       "headline3": {
         "fontSize": { "value": 1.5 },
-        "letterSpacing": { "value": -1 },
+        "letterSpacing": {
+          "comment": "-1px",
+          "value": -1
+        },
         "lineHeight": { "value": 1 },
         "marginBottom": { "value": 1 },
         "marginTop": { "value": 1 }
       },
       "headline4": {
         "fontSize": { "value": "{size.font.base.fontSize.value}" },
-        "letterSpacing": { "value": 0.25 },
+        "letterSpacing": {
+          "comment": "-0.25px",
+          "value": 0.25
+        },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" },
         "marginBottom": { "value": 0 },
         "marginTop": { "value": 1 }
       },
       "headline5": {
         "fontSize": { "value": "{size.font.base.fontSize.value}" },
-        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
+        "letterSpacing": {
+          "value": "{size.font.base.letterSpacing.value}"
+        },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" },
         "marginBottom": { "value": 0 },
         "marginTop": { "value": 1.5 }
@@ -79,7 +93,10 @@
       },
       "bodyText2": {
         "comment": "Todo: check these values",
-        "fontSize": { "value": 0.875 },
+        "fontSize": {
+          "comment": "0.875rem = 14px",
+          "value": 0.875
+        },
         "letterSpacing": { "value": -0.15 },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
       },
