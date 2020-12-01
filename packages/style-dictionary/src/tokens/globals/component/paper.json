@@ -1,0 +1,16 @@
+{
+  "component": {
+    "paper": {
+      "root": {
+        "backgroundColor": { "value": "{color.background.base.value}" },
+        "color": { "value": "{color.font.default.value}" }
+      },
+      "rounded": {
+        "borderRadius": { "value": "{size.border.radius.single.value}" }
+      },
+      "square": {
+        "borderRadius": { "value": "{size.border.radius.none.value}" }
+      }
+    }
+  }
+}
