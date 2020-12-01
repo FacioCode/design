@@ -1,7 +1,3 @@
-/**
- * @todo Remove React import from ButtonBase
- * @body Remove React import when TypeScript 4.1 is released
- */
 import * as React from "react";
 import type { Element, Props } from "./ButtonBase.types";
 
