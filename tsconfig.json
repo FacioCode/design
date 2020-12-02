@@ -4,6 +4,7 @@
     "jsx": "react",
     "moduleResolution": "Node",
     "noImplicitAny": true,
+    "resolveJsonModule": true,
     "skipLibCheck": false
   },
   "exclude": [
