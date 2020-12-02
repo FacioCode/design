@@ -1,1 +1,1 @@
-export type StyledProps<P> = Omit<P, "classes" | "className">
+export type StyledProps<P> = Omit<P, "style">
