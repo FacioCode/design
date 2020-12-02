@@ -23,6 +23,15 @@ module.exports = {
         "sort-keys": "off",
       },
     },
+    {
+      files: "packages/styles/src/index.ts",
+      rules: {
+        "eol-last": "off",
+        "line-comment-position": "off",
+        "max-len": ["error", 135],
+        "no-inline-comments": "off",
+      },
+    },
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
