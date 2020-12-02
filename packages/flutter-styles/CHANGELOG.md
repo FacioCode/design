@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.19.0](https://github.com/FacioCode/design/compare/v0.18.0...v0.19.0) (2020-12-02)
+
+
+### Features
+
+* **flutter-styles:** add border radius values for Paper ([71fad25](https://github.com/FacioCode/design/commit/71fad2512d8b00dfeaf472a4f48e5b107364c500))
+* **flutter-styles:** add PaperStyles ([e99df1f](https://github.com/FacioCode/design/commit/e99df1fb3a91a2f32f3dd3689355c9206b4ef7ec))
+
+
+### BREAKING CHANGES
+
+* **flutter-styles:** `CardStyles.cardRootColor` was renamed to `CardStyles.cardDefaultColor`
+
+
+
+
+
 # [0.18.0](https://github.com/FacioCode/design/compare/v0.17.4...v0.18.0) (2020-11-27)
 
 **Note:** Version bump only for package facio_styles

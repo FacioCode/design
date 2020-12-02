@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.19.0](https://github.com/FacioCode/design/compare/v0.18.0...v0.19.0) (2020-12-02)
+
+
+### Features
+
+* **react-unstyled:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
+* **react-unstyled:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
+* **react-unstyled:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
+
+
+
+
+
 # [0.18.0](https://github.com/FacioCode/design/compare/v0.17.4...v0.18.0) (2020-11-27)
 
 **Note:** Version bump only for package @faciocode/react-unstyled

@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.19.0](https://github.com/FacioCode/design/compare/v0.18.0...v0.19.0) (2020-12-02)
+
+
+### Features
+
+* **styles:** add backgroundColor and color for Paper component ([d49dc03](https://github.com/FacioCode/design/commit/d49dc03c63849502b8c4eb2a37240b0561711bfb))
+* **styles:** add border radius values for Paper ([346d5fb](https://github.com/FacioCode/design/commit/346d5fbaf66a8238508c4bb7b745265cfaeed698))
+
+
+### BREAKING CHANGES
+
+* **styles:** `cardRootColor` JS const now is `cardDefaultColor`.
+
+
+
+
+
 # [0.18.0](https://github.com/FacioCode/design/compare/v0.17.4...v0.18.0) (2020-11-27)
 
 **Note:** Version bump only for package @faciocode/styles
