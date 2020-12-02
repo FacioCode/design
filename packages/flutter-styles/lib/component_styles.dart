@@ -113,6 +113,12 @@ class PaperStyles {
 
   /// color for root
   static const paperRootColor = const Color(0xFF424D5C);
+
+  /// borderRadius for rounded
+  static const paperRoundedBorderRadius = 8.00;
+
+  /// borderRadius for square
+  static const paperSquareBorderRadius = 0.00;
 }
 
 class TypographyStyles {
