@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Storybook Debug",
+            "breakOnLoad": true,
+            "url": "http://localhost:9009",
+            "sourceMaps": true,
+            "webRoot": "${workspaceFolder}/packages/react-storybook",
+            "sourceMapPathOverrides": {
+              "webpack:///./*": "${webRoot}/*",
+              "webpack:///src/*": "${webRoot}/*",
+              "webpack:///*": "*",
+              "webpack:///./~/*": "${webRoot}/node_modules/*",
+              "meteor://💻app/*": "${webRoot}/*"
+            },
+            "runtimeExecutable": "canary"
+        }
+    ]
+}
