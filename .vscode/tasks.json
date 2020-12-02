@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "packages/react-storybook/",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"label": "Start Storybook",
+			"detail": "start-storybook -c ./src -p 9009"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "packages/react-unstyled/",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build",
+			"label": "Build @faciocode/react-unstyled",
+			"detail": "npm run clean && npm run compile"
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "packages/react/",
+      "problemMatcher": [
+        "$tsc"
+      ],
+      "group": "build",
+      "label": "Build @faciocode/react",
+      "detail": "npm run clean && npm run compile"
+    }
+	]
+}
