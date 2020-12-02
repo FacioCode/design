@@ -9,11 +9,14 @@ import { useStyles } from "./Paper.styles";
 
 export type PaperProps = StyledProps<Props>;
 
-const renderer = (props: PaperProps, ref: PaperProps["ref"]) => (
-  <UnstyledPaper {...props} ref={ref} classes={useStyles()} />
-);
+const render = (props: PaperProps, ref: PaperProps["ref"]) => {
+  const classes = useStyles();
 
-export const Paper = React.forwardRef<PaperElement, PaperProps>(renderer);
+
+  return <UnstyledPaper {...props} ref={ref} classes={classes} />;
+};
+
+export const Paper = React.forwardRef<PaperElement, PaperProps>(render);
 Paper.displayName = "Paper";
 
 export default Paper;
