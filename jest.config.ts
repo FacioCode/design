@@ -16,4 +16,5 @@ export default {
     "<rootDir>/packages/react-storybook",
   ],
   testPathIgnorePatterns: ignorePatterns,
+  verbose: true,
 };
