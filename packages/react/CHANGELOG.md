@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.20.0](https://github.com/FacioCode/design/compare/v0.19.0...v0.20.0) (2020-12-03)
+
+
+### Bug Fixes
+
+* **react:** prevent type error with fontWeight style property ([abe3149](https://github.com/FacioCode/design/commit/abe3149593fd21ca59896e1c37cddddede169408))
+* **react:** prevent type errors for Typography fontWeight ([776e67a](https://github.com/FacioCode/design/commit/776e67a436711dcfc423bc704f7fcb0b1a6564ee))
+
+
+### Features
+
+* **react:** add Paper component ([5875bc0](https://github.com/FacioCode/design/commit/5875bc025826688ff467f7dfd888c4cf15f969d2))
+* **react:** add StyledProps type ([e652ce0](https://github.com/FacioCode/design/commit/e652ce09b34b3821acc5dd434d2b427a75f584d0))
+* **react:** add styles and displayName for Card ([8ff26bc](https://github.com/FacioCode/design/commit/8ff26bc39cd6dd95eeb6a2bdb388ea074a9c592c))
+* **react:** add support to `classes` and `className` properties ([da624c2](https://github.com/FacioCode/design/commit/da624c25f0047150ccf16239bb9d10a546be7e95))
+
+
+
+# 0.18.0 (2020-11-27)
+
+
+
+
+
 # [0.19.0](https://github.com/FacioCode/design/compare/v0.18.0...v0.19.0) (2020-12-02)
 
 

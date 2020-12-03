@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.20.0](https://github.com/FacioCode/design/compare/v0.19.0...v0.20.0) (2020-12-03)
+
+
+### Code Refactoring
+
+* **style-dictionary:** move card color from `root` item to `default` ([3ebe96b](https://github.com/FacioCode/design/commit/3ebe96bde59a7231e7db607015fae847bbfebcdf))
+
+
+### Features
+
+* **style-dictionary:** add paper component tokens ([64c1618](https://github.com/FacioCode/design/commit/64c1618f29a4615593eb8d4b36bced7aeea2ab40))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `{component.card.root.color}` now is `{component.card.default.color}`.
+
+
+
+# 0.18.0 (2020-11-27)
+
+
+
+
+
 # [0.19.0](https://github.com/FacioCode/design/compare/v0.18.0...v0.19.0) (2020-12-02)
 
 
