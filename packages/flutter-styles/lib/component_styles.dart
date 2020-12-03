@@ -3,9 +3,6 @@ part of facio_styles;
 class AppBarStyles {
   AppBarStyles._();
 
-  /// height for root
-  static const appBarRootHeight = 56.00;
-
   /// backgroundColor for colorDefault
   static const appBarColorDefaultBackgroundColor = const Color(0xFFFFFFFF);
 }
