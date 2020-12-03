@@ -12,7 +12,7 @@
     "packages/styles"
   ],
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "10.0.0",
+    "@rollup/plugin-node-resolve": "11.0.0",
     "@rollup/plugin-typescript": "6.1.0",
     "@storybook/addon-docs": "6.1.9",
     "@storybook/react": "6.1.9",
