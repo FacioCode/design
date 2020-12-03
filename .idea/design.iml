@@ -20,6 +20,12 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/styles/src/templates/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/android/app/src/main/java" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/ios/Flutter/App.framework" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/ios/Flutter/Flutter.framework" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/coverage" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
