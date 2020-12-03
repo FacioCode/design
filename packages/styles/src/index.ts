@@ -1,5 +1,5 @@
-export const appBarRootHeight = "56px";
 export const appBarColorDefaultBackgroundColor = "#ffffff";
+export const appBarRootHeight = "56px"; // Specific AppBar height for web
 export const buttonContainedBorderWidth = "0px";
 export const buttonLabelColor = "#303846";
 export const buttonLabelFontSize = "1rem"; // Default button font size can vary depending on platform.
