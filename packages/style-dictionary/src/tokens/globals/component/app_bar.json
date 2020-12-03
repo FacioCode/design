@@ -2,11 +2,6 @@
   "component": {
     "appBar": {
       "comment": "Styles applied to the root element.",
-      "root": {
-        "height": {
-          "value": "{size.base.sevenfold.value}"
-        }
-      },
       "colorDefault": {
         "comment": "Styles applied to the root element if color is default.",
         "backgroundColor": {
