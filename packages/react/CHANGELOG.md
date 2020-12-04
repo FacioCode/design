@@ -42,6 +42,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **react:** add StyledProps type ([e652ce0](https://github.com/FacioCode/design/commit/e652ce09b34b3821acc5dd434d2b427a75f584d0))
 * **react:** add styles and displayName for Card ([8ff26bc](https://github.com/FacioCode/design/commit/8ff26bc39cd6dd95eeb6a2bdb388ea074a9c592c))
 * **react:** add support to `classes` and `className` properties ([da624c2](https://github.com/FacioCode/design/commit/da624c25f0047150ccf16239bb9d10a546be7e95))
+* **react:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
+* **react:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
+* **react:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
 
 
 
@@ -113,6 +116,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * **react:** add new Card component ([75a79ae](https://github.com/FacioCode/design/commit/75a79ae0dc5fabaa7cc582af71c3268eb0b48cc7))
 * **react:** create cssVarName util for consuming styles ([3e14a14](https://github.com/FacioCode/design/commit/3e14a145af8fba3e9e60a731c8f642bf783f3597))
+* **react:** add new Card component ([37dd75f](https://github.com/FacioCode/design/commit/37dd75fc0fe3e4ea4b45c0733486f530455989d3))
+* **react:** add Component type ([d2aa0a4](https://github.com/FacioCode/design/commit/d2aa0a4a61d43f601644e4da1e9d95b32e9d103d))
 
 
 
@@ -307,7 +312,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.8.0](https://github.com/FacioCode/design/compare/v0.7.6...v0.8.0) (2020-11-24)
 
-**Note:** Version bump only for package @faciocode/react
+### Features
+
+* **button base:** add classes and className properties ([48e430e](https://github.com/FacioCode/design/commit/48e430e6c10f2e1c8084e482961d314f04290066))
 
 
 
@@ -359,7 +366,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.7.0](https://github.com/FacioCode/design/compare/v0.6.0...v0.7.0) (2020-11-24)
 
-**Note:** Version bump only for package @faciocode/react
+### Features
+
+* **react:** make *Element types available ([3fd07d5](https://github.com/FacioCode/design/commit/3fd07d5e81c5bc614fab67fbbae9507e9e19ea60))
+* **typography:** add support to variant and other props ([0ba7868](https://github.com/FacioCode/design/commit/0ba78683fce46b630b9f2c66fd16564e53f3f208))
 
 
 
@@ -373,3 +383,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **react:** add FormLabel component ([dc1a162](https://github.com/FacioCode/design/commit/dc1a16215ea38cae6b73a6525d35de657dc8901a))
 * **react:** add InputBase component ([370c29a](https://github.com/FacioCode/design/commit/370c29af634d4ecaaf076c499882c3a01f40c623))
 * **react:** make FormLabel and InputBase components available ([9cd72dc](https://github.com/FacioCode/design/commit/9cd72dcfafe3f5f1c0c13620e707fcba71bb0f28))
+
+# [0.5.0](https://github.com/FacioCode/design/compare/v0.4.4...v0.5.0) (2020-11-23)
+
+
+### Features
+
+* **react:** add ButtonBase component ([b13068c](https://github.com/FacioCode/design/commit/b13068c3de811b97756f000c6f88f7894f6c300b))
+* **react:** add FormLabel component ([a1d9bbb](https://github.com/FacioCode/design/commit/a1d9bbb94bf7b32b2d2823e2f44f1acf36773be9))
+* **react:** add InputBase component ([70bd2b6](https://github.com/FacioCode/design/commit/70bd2b6d4a4e700f69c166616864948c115a726a))
+* **react:** make components available ([d0cc855](https://github.com/FacioCode/design/commit/d0cc8556c8b1abdf586d0b94ca155ae7522e7c4f))
