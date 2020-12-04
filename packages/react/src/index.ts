@@ -1,5 +1,8 @@
-export { Card, CardProps } from "./Card";
+export { Button, ButtonElement, ButtonProps } from "./Button";
+export { ButtonBase, ButtonBaseElement, ButtonBaseProps } from "./ButtonBase";
+export { Card, CardElement, CardProps } from "./Card";
 export { CssBaseline, CssBaselineProps } from "./CssBaseline";
-export { FormLabel, FormLabelProps } from "./FormLabel";
-export { InputBase, InputBaseProps } from "./InputBase";
-export { Typography, TypographyProps } from "./Typography";
+export { FormLabel, FormLabelElement, FormLabelProps } from "./FormLabel";
+export { InputBase, InputBaseElement, InputBaseProps } from "./InputBase";
+export { Paper, PaperElement, PaperProps } from "./Paper";
+export { Typography, TypographyElement, TypographyProps } from "./Typography";
