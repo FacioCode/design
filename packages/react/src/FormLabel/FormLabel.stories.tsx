@@ -1,14 +1,15 @@
 import * as React from "react";
-import { FormLabel, FormLabelProps } from "./FormLabel";
 import { Meta, Story } from "@storybook/react";
+import { FormLabel } from "./FormLabel";
+import type { Props } from "./FormLabel.types";
 
 export default {
   component: FormLabel,
   title: "Components/Form Label",
 } as Meta;
 
-const Template : Story<FormLabelProps> = (args: FormLabelProps) => (
-  <FormLabel {...args} />
+const Template : Story<Props> = (props: Props) => (
+  <FormLabel {...props} />
 );
 
-export const Playground : Story<FormLabelProps> = Template.bind({});
+export const Playground : Story<Props> = Template.bind({});

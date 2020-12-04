@@ -1,16 +1,23 @@
 import * as React from "react";
-import {
-  FormLabelElement,
-  FormLabelProps as Props,
-  FormLabel as UnstyledFormLabel,
-} from "@faciocode/react-unstyled";
+import type { Element, Props } from "./FormLabel.types";
+import clsx from "clsx";
 import { useStyles } from "./FormLabel.styles";
 
-export type FormLabelProps = Omit<Props, "className" | "classes">;
+const render = (props: Props, ref: Props["ref"]) => {
+  const {
+    className,
+    component: Component = "label",
+    ...otherProps
+  } = props;
 
-const render = (props: FormLabelProps, ref: FormLabelProps["ref"]) => (
-  <UnstyledFormLabel {...props} classes={useStyles()} ref={ref} />
-);
+  const classes = useStyles();
+
+  return <Component
+    className={clsx(classes.root, className)}
+    ref={ref}
+    {...otherProps}
+  />;
+};
 
 /**
  * ## Import
@@ -19,8 +26,7 @@ const render = (props: FormLabelProps, ref: FormLabelProps["ref"]) => (
  * import { FormLabel } from "@faciocode/react";
  * ```
  */
-export const FormLabel = React.forwardRef<FormLabelElement, FormLabelProps>(render);
-
+export const FormLabel = React.forwardRef<Element, Props>(render);
 FormLabel.displayName = "FormLabel";
 
 export default FormLabel;
