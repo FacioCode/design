@@ -6,7 +6,6 @@ export default config({
   directories,
   displayName,
   globals: {
-    "@faciocode/react-unstyled": "FacioReactUnstyled",
     "@faciocode/styles/dist/index.css": "FacioStyles",
     "@material-ui/styles": "MaterialUiStyles",
     lodash: "_",
