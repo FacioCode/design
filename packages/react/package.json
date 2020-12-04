@@ -1,7 +1,7 @@
 {
   "name": "@faciocode/react",
   "displayName": "FacioReact",
-  "version": "0.20.0",
+  "version": "0.20.2",
   "private": false,
   "description": "React styled components for Facio",
   "keywords": [
@@ -55,9 +55,9 @@
     "react-dom": "^16.14.0 || ^17.0.1"
   },
   "dependencies": {
-    "clsx": "1.1.1",
-    "@faciocode/styles": "^0.20.0",
+    "@faciocode/styles": "^0.20.2",
     "@material-ui/styles": "4.11.2",
+    "clsx": "1.1.1",
     "lodash": "4.17.20"
   },
   "publishConfig": {
