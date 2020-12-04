@@ -1,12 +1,12 @@
 import { CSSProperties, createStyles, makeStyles } from "@material-ui/styles";
-import { Property } from "csstype";
-import { TypographyProps } from "./Typography";
+import { FontWeightProperty } from "csstype";
+import type { Props } from "./Typography.types";
 import { getCssVarName } from "../utils/getCssVarName";
 
 const component = "Typography";
 
 type Args = {
-  variant: TypographyProps["variant"]
+  variant: Props["variant"]
 }
 type GetStyleByVariant = ({ variant }: Args) => CSSProperties;
 
@@ -14,7 +14,7 @@ const getStyleByVariant : GetStyleByVariant = ({ variant: classKey }) => ({
   color: getCssVarName({ component, classKey, property: "color" }),
   fontFamily: getCssVarName({ component, classKey, property: "fontFamily" }),
   fontSize: getCssVarName({ component, classKey, property: "fontSize" }),
-  fontWeight: getCssVarName({ component, classKey, property: "fontWeight" }) as Property.FontWeight,
+  fontWeight: getCssVarName({ component, classKey, property: "fontWeight" }) as FontWeightProperty,
   letterSpacing: getCssVarName({ component, classKey, property: "letterSpacing" }),
   lineHeight: getCssVarName({ component, classKey, property: "lineHeight" }),
   marginBottom: getCssVarName({ component, classKey, property: "marginBottom" }),
