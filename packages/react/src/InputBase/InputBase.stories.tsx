@@ -1,14 +1,15 @@
 import * as React from "react";
-import { InputBase, InputBaseProps } from "./InputBase";
 import { Meta, Story } from "@storybook/react";
+import { InputBase } from "./InputBase";
+import type { Props } from "./InputBase.types";
 
 export default {
   component: InputBase,
   title: "Components/Input Base",
 } as Meta;
 
-const Template : Story<InputBaseProps> = (args: InputBaseProps) => (
-  <InputBase {...args} />
+const Template : Story<Props> = (props: Props) => (
+  <InputBase {...props} />
 );
 
-export const Playground : Story<InputBaseProps> = Template.bind({});
+export const Playground : Story<Props> = Template.bind({});

@@ -1,12 +1,27 @@
 import * as React from "react";
-import { InputBaseProps, InputBase as UnstyledInputBase } from "@faciocode/react-unstyled";
+import { Element, Props } from "./InputBase.types";
+import clsx from "clsx";
 import { useStyles } from "./InputBase.styles";
 
-export { InputBaseProps } from "@faciocode/react-unstyled";
+const render = (props: Props, ref: Props["ref"]) => {
+  const {
+    inputComponent: InputComponent = "input",
+    inputProps = {},
+    ...otherProps
+  } = props;
 
-const render = (props: InputBaseProps, ref: InputBaseProps["ref"]) => (
-  <UnstyledInputBase {...props} classes={useStyles()} ref={ref} />
-);
+  const classes = useStyles();
+
+  return (
+    <div className={classes.root}>
+      <InputComponent
+        className={clsx(classes.input, inputProps.className)}
+        ref={ref}
+        {...otherProps}
+      />
+    </div>
+  );
+};
 
 /**
  * ## Import
@@ -15,8 +30,7 @@ const render = (props: InputBaseProps, ref: InputBaseProps["ref"]) => (
  * import { InputBase } from "@faciocode/react;
  * ```
  */
-export const InputBase = React.forwardRef<HTMLInputElement, InputBaseProps>(render);
-
+export const InputBase = React.forwardRef<Element, Props>(render);
 InputBase.displayName = "InputBase";
 
 export default InputBase;
