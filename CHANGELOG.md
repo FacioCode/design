@@ -3,6 +3,88 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.21.0](https://github.com/FacioCode/design/compare/v0.20.2...v0.21.0) (2020-12-04)
+
+
+### Bug Fixes
+
+* **react:** fix style and type errors with Card/Paper ([a57d9cd](https://github.com/FacioCode/design/commit/a57d9cd9b04d5ae11fa02f0d7ec3f16255878c42))
+
+
+### Code Refactoring
+
+* **react-unstyled:** delete package ([b6f5279](https://github.com/FacioCode/design/commit/b6f527945ddf7224bc9e0abb17e3a9d2629c274f))
+
+
+### Features
+
+* **react:** make Button, ButtonBase and Paper components available [WIP] ([6dc6419](https://github.com/FacioCode/design/commit/6dc6419ac5467ef1983018049dc1663c6cede3c9))
+
+
+### BREAKING CHANGES
+
+* **react-unstyled:** `@faciocode/react-unstyled` package will not be published anymore. Please use `@faciocode/react`.
+
+
+
+# [0.20.0](https://github.com/FacioCode/design/compare/v0.19.0...v0.20.0) (2020-12-03)
+
+
+### Code Refactoring
+
+* **flutter-styles:** remove appBarRootHeight constant ([5c34e42](https://github.com/FacioCode/design/commit/5c34e42446eb0b34108d7d0c8f49bd2aa7c9525d))
+
+
+### BREAKING CHANGES
+
+* **flutter-styles:** `AppBarStyles.appBarRootHeight` is not available. You should use default AppBar height from Material
+
+
+
+# [0.19.0](https://github.com/FacioCode/design/compare/v0.18.0...v0.19.0) (2020-12-02)
+
+
+### Bug Fixes
+
+* **react:** prevent type error with fontWeight style property ([abe3149](https://github.com/FacioCode/design/commit/abe3149593fd21ca59896e1c37cddddede169408))
+* **react:** prevent type errors for Typography fontWeight ([776e67a](https://github.com/FacioCode/design/commit/776e67a436711dcfc423bc704f7fcb0b1a6564ee))
+
+
+### Code Refactoring
+
+* **style-dictionary:** move card color from `root` item to `default` ([3ebe96b](https://github.com/FacioCode/design/commit/3ebe96bde59a7231e7db607015fae847bbfebcdf))
+
+
+### Features
+
+* **flutter-styles:** add border radius values for Paper ([71fad25](https://github.com/FacioCode/design/commit/71fad2512d8b00dfeaf472a4f48e5b107364c500))
+* **flutter-styles:** add PaperStyles ([e99df1f](https://github.com/FacioCode/design/commit/e99df1fb3a91a2f32f3dd3689355c9206b4ef7ec))
+* **react:** add Paper component ([5875bc0](https://github.com/FacioCode/design/commit/5875bc025826688ff467f7dfd888c4cf15f969d2))
+* **react:** add StyledProps type ([e652ce0](https://github.com/FacioCode/design/commit/e652ce09b34b3821acc5dd434d2b427a75f584d0))
+* **react:** add styles and displayName for Card ([8ff26bc](https://github.com/FacioCode/design/commit/8ff26bc39cd6dd95eeb6a2bdb388ea074a9c592c))
+* **react:** add support to `classes` and `className` properties ([da624c2](https://github.com/FacioCode/design/commit/da624c25f0047150ccf16239bb9d10a546be7e95))
+* **react-unstyled:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
+* **react-unstyled:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
+* **react-unstyled:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
+* **style-dictionary:** add paper component tokens ([64c1618](https://github.com/FacioCode/design/commit/64c1618f29a4615593eb8d4b36bced7aeea2ab40))
+* **styles:** add backgroundColor and color for Paper component ([d49dc03](https://github.com/FacioCode/design/commit/d49dc03c63849502b8c4eb2a37240b0561711bfb))
+* **styles:** add border radius values for Paper ([346d5fb](https://github.com/FacioCode/design/commit/346d5fbaf66a8238508c4bb7b745265cfaeed698))
+
+
+### BREAKING CHANGES
+
+* **styles:** `cardRootColor` JS const now is `cardDefaultColor`.
+* **style-dictionary:** `{component.card.root.color}` now is `{component.card.default.color}`.
+* **flutter-styles:** `CardStyles.cardRootColor` was renamed to `CardStyles.cardDefaultColor`
+
+
+
+# 0.18.0 (2020-11-27)
+
+
+
+
+
 ## [0.20.2](https://github.com/FacioCode/design/compare/v0.20.1...v0.20.2) (2020-12-03)
 
 **Note:** Version bump only for package @faciocode/design

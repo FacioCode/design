@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.21.0](https://github.com/FacioCode/design/compare/v0.20.2...v0.21.0) (2020-12-04)
+
+
+### Bug Fixes
+
+* **react:** fix style and type errors with Card/Paper ([a57d9cd](https://github.com/FacioCode/design/commit/a57d9cd9b04d5ae11fa02f0d7ec3f16255878c42))
+
+
+### Features
+
+* **react:** make Button, ButtonBase and Paper components available [WIP] ([6dc6419](https://github.com/FacioCode/design/commit/6dc6419ac5467ef1983018049dc1663c6cede3c9))
+
+
+
+# [0.20.0](https://github.com/FacioCode/design/compare/v0.19.0...v0.20.0) (2020-12-03)
+
+
+
+
+
 ## [0.20.2](https://github.com/FacioCode/design/compare/v0.20.1...v0.20.2) (2020-12-03)
 
 **Note:** Version bump only for package @faciocode/react
