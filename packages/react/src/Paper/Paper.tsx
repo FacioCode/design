@@ -1,22 +1,27 @@
 import * as React from "react";
-import {
-  PaperElement,
-  PaperProps as Props,
-  Paper as UnstyledPaper,
-} from "@faciocode/react-unstyled";
-import { StyledProps } from "../StyledProps";
+import { Element, Props } from "./Paper.types";
+import clsx from "clsx";
 import { useStyles } from "./Paper.styles";
 
-export type PaperProps = StyledProps<Props>;
+const render = (props: Props, ref: Props["ref"]) => {
+  const {
+    className,
+    component: Component = "div",
+    variant = "square",
+    ...otherProps
+  } = props;
 
-const render = (props: PaperProps, ref: PaperProps["ref"]) => {
   const classes = useStyles();
 
-
-  return <UnstyledPaper {...props} ref={ref} classes={classes} />;
+  return <Component
+    className={clsx(classes.root, classes[variant], className)}
+    ref={ref}
+    {...otherProps}
+  />;
 };
 
-export const Paper = React.forwardRef<PaperElement, PaperProps>(render);
+export const Paper = React.forwardRef<Element, Props>(render);
+
 Paper.displayName = "Paper";
 
 export default Paper;

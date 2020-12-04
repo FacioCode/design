@@ -1,6 +1,7 @@
 import * as React from "react";
-import { Card, CardProps } from "./Card";
 import { Meta, Story } from "@storybook/react";
+import { Card } from "./Card";
+import type { Props } from "./Card.types";
 import { Typography } from "../Typography";
 
 export default {
@@ -8,17 +9,19 @@ export default {
   title: "Components/Card",
 } as Meta;
 
-const Template : Story<CardProps> = (args: CardProps) => (
-  <Card {...args} />
+const Template : Story<Props> = (props: Props) => (
+  <Card {...props} />
 );
 
-export const Playground : Story<CardProps> = Template.bind({});
+export const Playground : Story<Props> = Template.bind({});
 
-export const Info : Story<CardProps> = Template.bind({});
+export const Info : Story<Props> = Template.bind({});
 Info.args = {
   children: [
     <Typography key={"title"} variant={"subtitle1"}>Your registration is under review</Typography>,
-    <Typography key={"body"} variant={"bodyText2"}>Soon, you will have access to the services available for your credit profile.</Typography>,
+    <Typography key={"body"} variant={"bodyText2"}>
+      Soon, you will have access to the services available for your credit profile.
+    </Typography>,
   ],
   color: "info",
 };

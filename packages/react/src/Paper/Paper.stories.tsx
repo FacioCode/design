@@ -1,12 +1,13 @@
 import * as React from "react";
-import { Paper, PaperProps } from "./Paper";
 import { Meta, Story } from "@storybook/react";
+import { Paper } from "./Paper";
+import type { Props } from "./Paper.types";
 
 export default {
   component: Paper,
   title: "Components/Paper",
 } as Meta;
 
-const Template : Story<PaperProps> = (args: PaperProps) => <Paper {...args} />;
+const Template : Story<Props> = (props: Props) => <Paper {...props} />;
 
-export const Playground : Story<PaperProps> = Template.bind({});
+export const Playground : Story<Props> = Template.bind({});

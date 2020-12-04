@@ -1,23 +1,28 @@
 import * as React from "react";
-import {
-  CardElement,
-  CardProps as Props,
-  Card as UnstyledCard,
-} from "@faciocode/react-unstyled";
+import { Element, Props } from "./Card.types";
 import { Paper } from "../Paper";
-import type { StyledProps } from "../StyledProps";
+import clsx from "clsx";
 import { useStyles } from "./Card.styles";
 
-export type CardProps = StyledProps<Props>;
+const render = (props: Props, ref: Props["ref"]) => {
+  const {
+    className,
+    color = "default",
+    component: Component = "div",
+    ...otherProps
+  } = props;
 
-const renderer = (props: CardProps, ref: CardProps["ref"]) => {
   const classes = useStyles();
 
-
-  return <UnstyledCard {...props} component={Paper} ref={ref} classes={classes} />;
+  return <Paper
+    className={clsx(classes.root, classes[color], className)}
+    component={Component}
+    ref={ref}
+    variant={"rounded"}
+    {...otherProps} />;
 };
 
-export const Card = React.forwardRef<CardElement, CardProps>(renderer);
+export const Card = React.forwardRef<Element, Props>(render);
 Card.displayName = "Card";
 
 export default Card;
