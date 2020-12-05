@@ -109,6 +109,8 @@ dist
 
 # IDEA workspace file
 .idea/workspace.xml
+.idea/libraries/Dart_Packages.xml
+.idea/libraries/Dart_SDK.xml
 
 # macOS files
 **/.DS_Store
