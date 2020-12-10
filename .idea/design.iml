@@ -26,9 +26,15 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/coverage" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/react/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/libraries" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/mui-styles/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/mui-themes/dist" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
