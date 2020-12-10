@@ -23,15 +23,6 @@ module.exports = {
         "sort-keys": "off",
       },
     },
-    {
-      files: "packages/styles/src/index.ts",
-      rules: {
-        "eol-last": "off",
-        "line-comment-position": "off",
-        "max-len": ["error", 135],
-        "no-inline-comments": "off",
-      },
-    },
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -82,7 +73,7 @@ module.exports = {
     "func-names": "error",
     "func-style": "error",
     "function-call-argument-newline": "off",
-    "function-paren-newline": "error",
+    "function-paren-newline": "off",
     "generator-star-spacing": "error",
     "global-require": "error",
     "grouped-accessor-pairs": "error",
