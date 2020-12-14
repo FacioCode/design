@@ -4,6 +4,7 @@ class Sizes {
   Sizes._();
 
   static const baseDouble = 16.00;
+  static const baseEightfold = 64.00;
   static const baseFivefold = 40.00;
   static const baseHalf = 4.00;
   static const baseNone = 0.00;
@@ -18,6 +19,7 @@ class Sizes {
   static const borderRadiusDouble = 24.00;
   static const borderRadiusNone = 0.00;
   static const borderRadiusSingle = 8.00;
+  static const borderWidthDouble = 2.00;
   static const borderWidthNone = 0.00;
   static const borderWidthSingle = 1.00;
   static const fontBaseFontSize = 17.00;
