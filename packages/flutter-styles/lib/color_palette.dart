@@ -3,13 +3,10 @@ part of facio_styles;
 class ColorPalette {
   ColorPalette._();
 
-  static const Color backgroundBackLayer = const Color(0xFFFFFFFF);
-  static const Color backgroundBase = const Color(0xFFFFFFFF);
-  static const Color backgroundFrontLayer = const Color(0xFFF2F2F3);
-  static const Color backgroundInfo = const Color(0xFFB3CCFF);
-  static const Color backgroundInverse = const Color(0xFF1F252E);
-  static const Color backgroundSuccess = const Color(0xFF3FE1B6);
-  static const Color backgroundWarning = const Color(0xFFFFD588);
+  static const Color backgroundAlertStandardInfo = const Color(0xFFB3CCFF);
+  static const Color backgroundDefault = const Color(0xFFF2F2F3);
+  static const Color backgroundInfo = const Color(0xFF066089);
+  static const Color backgroundPaper = const Color(0xFFFFFFFF);
   static const Color baseAquamarine05 = const Color(0xFFE3FFF4);
   static const Color baseAquamarine10 = const Color(0xFFD0FFEF);
   static const Color baseAquamarine20 = const Color(0xFFB3FFE6);
@@ -21,6 +18,7 @@ class ColorPalette {
   static const Color baseAquamarine80 = const Color(0xFF005C5E);
   static const Color baseAquamarine90 = const Color(0xFF083F39);
   static const Color baseBlack = const Color(0xFF1F252E);
+  static const Color baseErrorMain = const Color(0xFFE13F6A);
   static const Color baseGoldenrod05 = const Color(0xFFFFF4E3);
   static const Color baseGoldenrod10 = const Color(0xFFFFEFD0);
   static const Color baseGoldenrod20 = const Color(0xFFFFE6B3);
@@ -51,6 +49,9 @@ class ColorPalette {
   static const Color baseIndianRed70 = const Color(0xFF890606);
   static const Color baseIndianRed80 = const Color(0xFF5E0000);
   static const Color baseIndianRed90 = const Color(0xFF3F080E);
+  static const Color baseInfoMain = const Color(0xFF066089);
+  static const Color basePrimaryDark = const Color(0xFF2BC4A8);
+  static const Color basePrimaryMain = const Color(0xFF3FE1B6);
   static const Color baseRoyalBlue05 = const Color(0xFFE3EEFF);
   static const Color baseRoyalBlue10 = const Color(0xFFD0E0FF);
   static const Color baseRoyalBlue20 = const Color(0xFFB3CCFF);
@@ -61,6 +62,8 @@ class ColorPalette {
   static const Color baseRoyalBlue70 = const Color(0xFF0A0689);
   static const Color baseRoyalBlue80 = const Color(0xFF02005E);
   static const Color baseRoyalBlue90 = const Color(0xFF080E3F);
+  static const Color baseSecondaryDark = const Color(0xFF303846);
+  static const Color baseSecondaryMain = const Color(0xFF424D5C);
   static const Color baseSkyBlue05 = const Color(0xFFE3FCFF);
   static const Color baseSkyBlue10 = const Color(0xFFD0F8FF);
   static const Color baseSkyBlue20 = const Color(0xFFB3F2FF);
@@ -71,12 +74,16 @@ class ColorPalette {
   static const Color baseSkyBlue70 = const Color(0xFF066089);
   static const Color baseSkyBlue80 = const Color(0xFF002C5E);
   static const Color baseSkyBlue90 = const Color(0xFF082A3F);
+  static const Color baseSuccessMain = const Color(0xFF068589);
+  static const Color baseWarningMain = const Color(0xFFE1B63F);
   static const Color baseWhite = const Color(0xFFFFFFFF);
-  static const Color fontDefault = const Color(0xFF424D5C);
+  static const Color borderButtonOutlined = const Color(0xFFE2E3E4);
+  static const Color borderUnderline = const Color(0xFF303846);
   static const Color fontDisabled = const Color(0xFFAFB4BB);
-  static const Color fontHighlight = const Color(0xFF068589);
+  static const Color fontHeadline1 = const Color(0xFF1F252E);
   static const Color fontHint = const Color(0xFF828C9B);
   static const Color fontInverse = const Color(0xFFFFFFFF);
-  static const Color fontPrimary = const Color(0xFF1F252E);
+  static const Color fontLink = const Color(0xFF068589);
+  static const Color fontPrimary = const Color(0xFF424D5C);
   static const Color fontSecondary = const Color(0xFF303846);
 }
