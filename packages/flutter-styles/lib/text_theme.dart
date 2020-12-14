@@ -65,7 +65,7 @@ class TextStyles {
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
       fontSize: 15.00,
-      fontWeight: FontWeight.w700,
+      fontWeight: FontWeight.w600,
       letterSpacing: -0.23,
       height: 1.6);
 
@@ -78,9 +78,10 @@ class TextStyles {
       height: 1.6);
 
   static const TextStyle button = const TextStyle(
-      color: Color(0xFF303846),
+      color: Color(0xFF424D5C),
       fontFamily: "Open Sans",
       fontSize: 14.00,
+      fontWeight: FontWeight.w600,
       letterSpacing: -0.15);
 
   static const TextStyle bodyText2 = const TextStyle(
