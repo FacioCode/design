@@ -7,7 +7,8 @@ export default config({
   displayName,
   globals: {
     "@faciocode/styles/dist/index.css": "FacioStyles",
-    "@material-ui/styles": "MaterialUiStyles",
+    "@material-ui/core": "MuiCore",
+    "@material-ui/core/styles": "MuiCoreStyles",
     lodash: "_",
     react: "React",
   },
