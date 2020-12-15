@@ -1,39 +1,14 @@
 import { colorTokens, customProperties } from "@faciocode/styles";
-import { ThemeOptions } from "@material-ui/core";
+import type { ThemeOptions } from "@material-ui/core";
+import { overrides } from "./overrides";
 import { typography } from "./typography";
 
 export const themeOptions : ThemeOptions = {
   overrides: {
+    ...overrides,
     MuiAlert: {
       root: customProperties.alertStyles.root,
       standardInfo: customProperties.alertStyles.standardInfo,
-    },
-    MuiButton: {
-      contained: customProperties.buttonStyles.contained,
-      label: customProperties.buttonStyles.label,
-      outlined: customProperties.buttonStyles.outlined,
-      outlinedSizeSmall: customProperties.buttonStyles.outlinedSizeSmall,
-      root: {
-        ...customProperties.buttonStyles.root,
-        ...customProperties.buttonStyles.sizeMedium,
-      },
-      sizeSmall: customProperties.buttonStyles.sizeSmall,
-    },
-    MuiButtonBase: {
-      root: customProperties.buttonBaseStyles.root,
-    },
-    MuiCard: {
-      root: customProperties.cardStyles.root,
-    },
-    MuiCardContent: {
-      root: customProperties.cardContentStyles.root,
-    },
-    MuiPaper: {
-      root: {
-        ...customProperties.paperStyles.root,
-        ...customProperties.paperStyles.square,
-      },
-      rounded: customProperties.paperStyles.rounded,
     },
   },
   palette: {
@@ -93,6 +68,9 @@ export const themeOptions : ThemeOptions = {
     },
     MuiCard: {
       elevation: 0,
+    },
+    MuiInput: {
+      disableUnderline: true,
     },
     MuiPaper: {
       elevation: 0,
