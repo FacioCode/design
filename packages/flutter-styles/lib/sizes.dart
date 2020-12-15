@@ -19,6 +19,7 @@ class Sizes {
   static const borderRadiusDouble = 24.00;
   static const borderRadiusNone = 0.00;
   static const borderRadiusSingle = 8.00;
+  static const borderRadiusTriple = 24.00;
   static const borderWidthDouble = 2.00;
   static const borderWidthNone = 0.00;
   static const borderWidthSingle = 1.00;
