@@ -18,6 +18,7 @@ class ColorPalette {
   static const Color baseAquamarine80 = const Color(0xFF005C5E);
   static const Color baseAquamarine90 = const Color(0xFF083F39);
   static const Color baseBlack = const Color(0xFF1F252E);
+  static const Color baseErrorDark = const Color(0xFFC42B47);
   static const Color baseErrorMain = const Color(0xFFE13F6A);
   static const Color baseGoldenrod05 = const Color(0xFFFFF4E3);
   static const Color baseGoldenrod10 = const Color(0xFFFFEFD0);
@@ -49,6 +50,7 @@ class ColorPalette {
   static const Color baseIndianRed70 = const Color(0xFF890606);
   static const Color baseIndianRed80 = const Color(0xFF5E0000);
   static const Color baseIndianRed90 = const Color(0xFF3F080E);
+  static const Color baseInfoDark = const Color(0xFF002C5E);
   static const Color baseInfoMain = const Color(0xFF066089);
   static const Color basePrimaryDark = const Color(0xFF2BC4A8);
   static const Color basePrimaryMain = const Color(0xFF3FE1B6);
@@ -74,7 +76,9 @@ class ColorPalette {
   static const Color baseSkyBlue70 = const Color(0xFF066089);
   static const Color baseSkyBlue80 = const Color(0xFF002C5E);
   static const Color baseSkyBlue90 = const Color(0xFF082A3F);
+  static const Color baseSuccessDark = const Color(0xFF005C5E);
   static const Color baseSuccessMain = const Color(0xFF068589);
+  static const Color baseWarningDark = const Color(0xFFC4A82B);
   static const Color baseWarningMain = const Color(0xFFE1B63F);
   static const Color baseWhite = const Color(0xFFFFFFFF);
   static const Color borderButtonOutlined = const Color(0xFFE2E3E4);
