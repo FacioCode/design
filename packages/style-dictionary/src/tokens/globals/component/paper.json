@@ -2,8 +2,8 @@
   "component": {
     "paper": {
       "root": {
-        "backgroundColor": { "value": "{color.background.base.value}" },
-        "color": { "value": "{color.font.default.value}" }
+        "backgroundColor": { "value": "{color.background.paper.value}" },
+        "color": { "value": "{color.font.primary.value}" }
       },
       "rounded": {
         "borderRadius": { "value": "{size.border.radius.single.value}" }
