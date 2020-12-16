@@ -79,18 +79,6 @@
           "value": "{size.font.base.lineHeight.value}"
         }
       },
-      "button": {
-        "fontSize": {
-          "comment": "For web, default button font size is 1em = 16px in default browsers",
-          "value": "{size.font.base.fontSize.value}"
-        },
-        "letterSpacing": {
-          "value": "{size.font.base.letterSpacing.value}"
-        },
-        "lineHeight": {
-          "value": "{size.font.base.lineHeight.value}"
-        }
-      },
       "bodyText2": {
         "comment": "Todo: check these values",
         "fontSize": {
@@ -99,6 +87,18 @@
         },
         "letterSpacing": { "value": -0.15 },
         "lineHeight": { "value": "{size.font.base.lineHeight.value}" }
+      },
+      "button": {
+        "fontSize": {
+          "comment": "For web, default button font size is 1em = 16px in default browsers",
+          "value": "{size.font.bodyText2.fontSize.value}"
+        },
+        "letterSpacing": {
+          "value": "{size.font.base.letterSpacing.value}"
+        },
+        "lineHeight": {
+          "value": "{size.font.base.lineHeight.value}"
+        }
       },
       "caption": {
         "comment": "Todo: check these values",
@@ -111,6 +111,9 @@
       },
       "inputLarge": {
         "lineHeight": { "value": 1.75 }
+      },
+      "formLabel": {
+        "lineHeight": { "value": 1 }
       }
     }
   }
