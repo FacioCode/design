@@ -2,15 +2,9 @@
   "component": {
     "card": {
       "root": {
-        "borderRadius": { "value": "{size.border.radius.single.value}" },
-        "padding": { "value": "{size.base.double.value}" }
-      },
-      "default": {
         "backgroundColor": { "value": "{component.paper.root.backgroundColor.value}" },
+        "borderRadius": { "value": "{size.border.radius.single.value}" },
         "color": { "value": "{component.paper.root.color.value}" }
-      },
-      "info": {
-        "backgroundColor": { "value": "{color.background.info.value}" }
       }
     }
   }
