@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.23.0](https://github.com/FacioCode/design/compare/v0.22.3...v0.23.0) (2020-12-16)
+
+
+### Features
+
+* **react:** add Facio theme as default one for ThemeProvider ([388bb6f](https://github.com/FacioCode/design/commit/388bb6f7e3b901ecf24f9d7f961bc277ac6c0244))
+
+
+
+## 0.22.2 (2020-12-16)
+
+
+
+
+
 ## [0.22.3](https://github.com/FacioCode/design/compare/v0.22.2...v0.22.3) (2020-12-16)
 
 **Note:** Version bump only for package @faciocode/react
