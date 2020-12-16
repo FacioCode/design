@@ -1,0 +1,9 @@
+{
+  "component": {
+    "cardContent": {
+      "root": {
+        "padding": { "value": "{size.base.double.value}" }
+      }
+    }
+  }
+}
