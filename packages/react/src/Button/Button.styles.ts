@@ -1,26 +1,47 @@
-import { createStyles, makeStyles } from "@material-ui/styles";
+import { createStyles, makeStyles } from "@material-ui/core";
+import { customProperties } from "@faciocode/styles";
 
 const styles = createStyles({
-  root: {
-    boxSizing: "border-box",
-    "&:hover": {
-      textDecoration: "none",
-      "@media (hover:none)": {
-        backgroundColor: "transparent",
-      },
-      "&$disabled": {
-        backgroundColor: "transparent",
-      },
-    },
+
+  /**
+   * Styles applied to the root element if `variant="contained"` and `color="danger"`
+   */
+  containedDanger: {
+    ...customProperties.containedButtonStyles.danger,
+    "&:hover": customProperties.containedButtonStyles.dangerHover,
+
+    /**
+     * Active must always be after hover
+     */
+    "&:active": customProperties.containedButtonStyles.dangerPressed,
   },
-  label: {
-    alignItems: "inherit",
-    display: "inherit",
-    justifyContent: "inherit",
-    width: "100%",
+
+  /**
+   * Styles applied to the root element if `variant="
+   */
+  containedSuccess: {
+    ...customProperties.containedButtonStyles.success,
+    "&:hover": customProperties.containedButtonStyles.successHover,
+
+    /**
+     * Active must always be after hover
+     */
+    "&:active": customProperties.containedButtonStyles.successPressed,
+  },
+
+  /**
+   * Styles applied to the root element if `variant="contained"` and `color="warning"`
+   */
+  containedWarning: {
+    ...customProperties.containedButtonStyles.warning,
+    "&:hover": customProperties.containedButtonStyles.warningHover,
+
+    /**
+     * Active must always be after hover
+     */
+    "&:active": customProperties.containedButtonStyles.warningPressed,
   },
 });
 
 export const useStyles = makeStyles(styles, { name: "FacioButton" });
-
 export default useStyles;

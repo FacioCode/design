@@ -1,31 +1,53 @@
 import * as React from "react";
-import { Element, Props } from "./Button.types";
-import { ButtonBase } from "../ButtonBase";
+import { ButtonProps, ColorMapping, VariantMapping } from "./Button.types";
+import { Button as MaterialButton } from "@material-ui/core";
 import clsx from "clsx";
-import { useStyles } from "./Button.styles";
+import useStyles from "./Button.styles";
 
-const render = (props: Props, ref: Props["ref"]) => {
+type Render = (props: ButtonProps, ref: ButtonProps["ref"]) => JSX.Element;
+
+const render: Render = (props, ref) => {
   const {
-    children,
     className,
-    component: Component = "button",
+    color = "default",
+    variant = "outlined",
     ...otherProps
   } = props;
 
-  const classes = useStyles();
+  const colorMapping : ColorMapping = {
+    brand: "primary",
+    danger: "default",
+    default: "default",
+    success: "default",
+    warning: "default",
+  };
 
-  return <ButtonBase
-    className={clsx(classes.root, className)}
-    component={Component}
+  const variantMapping : VariantMapping = {
+    contained: "contained",
+    link: "text",
+    outlined: "outlined",
+  };
+
+  const { containedDanger, containedSuccess, containedWarning } = useStyles();
+
+  const classNames = clsx({
+    [containedDanger]: color === "danger" && variant === "contained",
+    [containedSuccess]: color === "success" && variant === "contained",
+    [containedWarning]: color === "warning" && variant === "contained",
+    // eslint-disable-next-line sort-keys
+    className,
+  });
+
+  return <MaterialButton
+    className={classNames}
+    color={colorMapping[color]}
     ref={ref}
-    {...otherProps}>
-    <span className={clsx(classes.label)}>
-      {children}
-    </span>
-  </ButtonBase>;
+    variant={variantMapping[variant]}
+    {...otherProps}
+  />;
 };
 
-export const Button = React.forwardRef<Element, Props>(render);
+export const Button = React.forwardRef<unknown, ButtonProps>(render);
 Button.displayName = "Button";
 
 export default Button;
