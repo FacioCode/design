@@ -1,0 +1,15 @@
+{
+  "color": {
+    "border": {
+      "button": {
+        "outlined": {
+          "comment": "Border color commonly used for button with outlined variant.",
+          "value": "{color.base.grey.30.value}"
+        }
+      },
+      "underline": {
+        "value": "{color.base.grey.80.value}"
+      }
+    }
+  }
+}
