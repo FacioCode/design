@@ -2,7 +2,11 @@
   "size": {
     "border": {
       "radius": {
-        "double": { "value": "{size.base.triple.value}" }
+        "double": { "value": "{size.base.triple.value}" },
+        "triple": {
+          "comment": "TODO: check if triple value works for Flutter medium button",
+          "value": "{size.base.triple.value}"
+        }
       }
     }
   }
