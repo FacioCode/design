@@ -1,0 +1,76 @@
+{
+  "component": {
+    "containedButton": {
+      "root": {
+        "comment": "Styles applied to the root element if component is a contained button.",
+        "borderWidth": { "value": "{size.border.width.none.value}" }
+      },
+      "hover": {
+        "boxShadow": { "value": "{shadow.hover.color}" }
+      },
+      "brand": {
+        "backgroundColor": { "value": "{color.base.primary.main.value}" },
+        "color": { "value": "{color.font.primary.value}" }
+      },
+      "brandHover": {
+        "backgroundColor": { "value": "{color.base.primary.main.value}" },
+        "color": { "value": "{color.font.primary.value}" }
+      },
+      "brandPressed": {
+        "backgroundColor": { "value": "{color.base.primary.dark.value}" },
+        "color": { "value": "{color.font.primary.value}" }
+      },
+      "danger": {
+        "backgroundColor": { "value": "{color.base.error.main.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "dangerHover": {
+        "backgroundColor": { "value": "{component.containedButton.danger.backgroundColor.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "dangerPressed": {
+        "backgroundColor": { "value": "{color.base.error.dark.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "default": {
+        "backgroundColor": { "value": "{color.base.secondary.main.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "defaultHover": {
+        "backgroundColor": { "value": "{component.containedButton.default.backgroundColor.value}" },
+        "color": { "value": "{component.containedButton.default.color.value}" }
+      },
+      "defaultPressed": {
+        "backgroundColor": { "value": "{color.base.secondary.dark.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "sizeSmall": {
+        "borderRadius": { "value": "{size.border.radius.double.value}" }
+      },
+      "success": {
+        "backgroundColor": { "value": "{color.base.success.main.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "successHover": {
+        "backgroundColor": { "value": "{color.base.success.main.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "successPressed": {
+        "backgroundColor": { "value": "{color.base.success.dark.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "warning": {
+        "backgroundColor": { "value": "{color.base.warning.main.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "warningHover": {
+        "backgroundColor": { "value": "{color.base.warning.main.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "warningPressed": {
+        "backgroundColor": { "value": "{color.base.warning.dark.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      }
+    }
+  }
+}

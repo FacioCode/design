@@ -1,0 +1,13 @@
+{
+  "component": {
+    "linkButton": {
+      "default": {
+        "comment": "Styles applied to the root element if variant is link",
+        "color": { "value": "{color.font.link.value}" }
+      },
+      "sizeSmall": {
+        "borderRadius": { "value": "{size.border.radius.single.value}" }
+      }
+    }
+  }
+}

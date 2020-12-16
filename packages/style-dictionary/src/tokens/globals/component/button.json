@@ -4,49 +4,41 @@
       "root": {
         "comment": "Styles applied to the root element."
       },
-      "contained": {
-        "comment": "Styles applied to the root element if variant is contained.",
-        "borderWidth": { "value": "{size.border.width.none.value}" }
+      "fullWidth": {
+        "borderRadius": { "value": "{size.border.radius.single.value}" }
       },
       "label": {
         "comment": "Styles applied to the element that wraps the button children.",
-        "color": { "value": "{component.typography.button.color.value}" },
         "fontSize": {
           "comment": "Default button font size can vary depending on platform.",
-          "value": "{size.font.button.fontSize.value}"
+          "value": "{component.typography.button.fontSize.value}"
+        },
+        "fontWeight": {
+          "comment": "Medium button labels have semi bold font weight",
+          "value": "{component.typography.button.fontWeight.value}"
         }
+      },
+      "sizeSmall": {
+        "comment": "Styles applied to small buttons. Border radius should not be defined here.",
+        "height": { "value": "{size.base.quadruple.value}" },
+        "paddingBottom": { "value": "{size.base.half.value}" },
+        "paddingLeft": {
+          "comment": "All small buttons have left padding equivalent to 4 logical pixels",
+          "value": "{size.base.singleHalf.value}"
+        },
+        "paddingRight": {
+          "comment": "All small buttons have right padding equivalent to 4 logical pixels",
+          "value": "{size.base.singleHalf.value}"
+        },
+        "paddingTop": { "value": "{size.base.half.value}" }
       },
       "sizeMedium": {
         "comment": "Styles applied to the root element if size is medium.",
-        "borderRadius": { "value": "{size.border.radius.double.value}" },
-        "fontWeight": {
-          "comment": "Medium button labels have semi bold font weight",
-          "value": "{font.weight.semiBold.value}"
-        },
-        "height": { "value": "{size.base.quadruple.value}" },
-        "label": {
-          "padding": {
-            "bottom": { "value": "{size.base.half.value}" },
-            "top": { "value": "{size.base.half.value}" }
-          }
-        }
-      },
-      "sizeLarge": {
-        "comment": "Styles applied to the root element if size is large.",
-        "borderRadius": { "value": "{size.border.radius.single.value}" },
-        "fontWeight": {
-          "comment": "Large button labels have bold font weight",
-          "value": "{font.weight.bold.value}"
-        },
+        "borderRadius": { "value": "{size.border.radius.triple.value}" },
         "height": { "value": "{size.base.sixfold.value}" },
-        "label": {
-          "padding": {
-            "bottom": { "value": "{size.base.singleHalf.value}" },
-            "top": { "value": "{size.base.singleHalf.value}" }
-          }
-        }
+        "paddingBottom": { "value": "{size.base.singleHalf.value}" },
+        "paddingTop": { "value": "{size.base.singleHalf.value}" }
       }
-
     }
   }
 }
