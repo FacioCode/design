@@ -24,6 +24,10 @@
       "sevenfold": {
         "comment": "Commonly used for app bar height",
         "value": 56
+      },
+      "eightfold": {
+        "comment": "Commonly used for button min height",
+        "value": 64
       }
     }
   }
