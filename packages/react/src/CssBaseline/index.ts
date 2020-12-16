@@ -1,1 +1,1 @@
-export { CssBaseline, CssBaselineProps } from "./CssBaseline";
+export { CssBaseline } from "./CssBaseline";
