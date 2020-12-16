@@ -32,15 +32,12 @@ jobs:
       - name: Push up-to-date pubspec file
         run: git push origin
       - name: Cache generated files
+        id: cache-generated-files
         uses: actions/cache@v2
-        id: cache
         with:
           path: |
+            */*/dist
             packages/flutter-styles
-            packages/mui-themes/dist
-            packages/react/dist
-            packages/react-unstyled/dist
-            packages/styles/dist
           key: ${{ runner.os }}-publish-outputs
 
   publish-npm:
@@ -53,13 +50,8 @@ jobs:
         uses: actions/cache@v2
         with:
           path: |
-            packages/mui-themes/dist
-            packages/react/dist
-            packages/react-unstyled/dist
-            packages/styles/dist
+            */*/dist
           key: ${{ runner.os }}-publish-outputs
-          restore-keys: |
-            ${{ runner.os }}-publish-outputs
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -87,13 +79,8 @@ jobs:
         uses: actions/cache@v2
         with:
           path: |
-            packages/mui-themes/dist
-            packages/react/dist
-            packages/react-unstyled/dist
-            packages/styles/dist
+            */*/dist
           key: ${{ runner.os }}-publish-outputs
-          restore-keys: |
-            ${{ runner.os }}-publish-outputs
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -123,8 +110,6 @@ jobs:
           path: |
             packages/flutter-styles
           key: ${{ runner.os }}-publish-outputs
-          restore-keys: |
-            ${{ runner.os }}-publish-outputs
       - name: Install Flutter SDK
         uses: subosito/flutter-action@v1
         with:
