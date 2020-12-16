@@ -1,28 +1,14 @@
 import * as React from "react";
-import { Element, Props } from "./Card.types";
-import { Paper } from "../Paper";
-import clsx from "clsx";
-import { useStyles } from "./Card.styles";
+import type { CardProps } from "./Card.types";
+import { Card as MaterialCard } from "@material-ui/core";
 
-const render = (props: Props, ref: Props["ref"]) => {
-  const {
-    className,
-    color = "default",
-    component: Component = "div",
-    ...otherProps
-  } = props;
+type Render = (props: CardProps, ref: CardProps["ref"]) => JSX.Element;
 
-  const classes = useStyles();
+const render : Render = (props, ref) => (
+  <MaterialCard ref={ref} {...props} />
+);
 
-  return <Paper
-    className={clsx(classes.root, classes[color], className)}
-    component={Component}
-    ref={ref}
-    variant={"rounded"}
-    {...otherProps} />;
-};
-
-export const Card = React.forwardRef<Element, Props>(render);
+export const Card = React.forwardRef<unknown, CardProps>(render);
 Card.displayName = "Card";
 
 export default Card;
