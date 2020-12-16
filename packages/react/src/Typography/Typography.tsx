@@ -1,59 +1,47 @@
 import * as React from "react";
-import { Element, Props } from "./Typography.types";
-import clsx from "clsx";
-import { useStyles } from "./Typography.styles";
+import { MaterialTypographyVariant, TypographyProps } from "./Typography.types";
+import { Typography as MaterialTypography } from "@material-ui/core";
+import { componentMapping } from "./componentMapping";
+import { variantMapping } from "./variantMapping";
 
-const render = (props: Props, ref: Props["ref"]) => {
+type Render = (props: TypographyProps, ref: TypographyProps["ref"]) => JSX.Element;
+
+const defaultComponent : TypographyProps["component"] = "span";
+
+const render: Render = (props, ref) => {
   const {
-    children,
-    className,
     component,
-    paragraph = false,
+    paragraph,
     variant = "bodyText1",
     ...otherProps
   } = props;
 
-  const variantMapping : Record<Props["variant"], string> = {
-    headline1: "h1",
-    headline2: "h2",
-    headline3: "h3",
-    headline4: "h4",
-    headline5: "h5",
-    subtitle1: "h6",
-    subtitle2: "h6",
-    // eslint-disable-next-line sort-keys
-    bodyText1: "p",
-    bodyText2: "p",
-    caption: "figcaption",
-  };
+  const mappedVariant : MaterialTypographyVariant = variantMapping[variant];
 
   const getComponent = () => {
     if (component) {
       return component;
     }
     if (paragraph) {
-      return "p";
+      return "p" as TypographyProps["component"];
     }
-    if (variantMapping[variant]) {
-      return variantMapping[variant];
+    if (componentMapping[variant]) {
+      return componentMapping[variant];
     }
 
-    return "span";
+    return defaultComponent;
   };
 
-  const Component = getComponent();
-
-  const classes = useStyles();
-
-  return <Component
-    className={clsx(classes.root, classes[variant], className)}
+  return <MaterialTypography
+    component={getComponent()}
+    paragraph={paragraph}
     ref={ref}
-    {...otherProps}>
-    {children}
-  </Component>;
+    variant={mappedVariant}
+    {...otherProps}
+  />;
 };
 
-export const Typography = React.forwardRef<Element, Props>(render);
+export const Typography = React.forwardRef<unknown, TypographyProps>(render);
 Typography.displayName = "Typography";
 
 export default Typography;

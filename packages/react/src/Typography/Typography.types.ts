@@ -1,38 +1,39 @@
-import type { ElementType, ReactNode, Ref } from "react";
-import { Component } from "../Component";
+import type { ElementType } from "react";
+import { TypographyProps as MaterialTypographyProps } from "@material-ui/core/Typography";
 
+export type MaterialTypographyVariant = MaterialTypographyProps["variant"];
 type TypographyVariant = |
+  "bodyText1" |
+  "bodyText2" |
+  "button" |
+  "caption" |
   "headline1" |
   "headline2" |
   "headline3" |
   "headline4" |
   "headline5" |
-  "bodyText1" |
-  "bodyText2" |
+  "inherit" |
+  "srOnly" |
   "subtitle1" |
-  "subtitle2" |
-  "caption";
+  "subtitle2";
 
-export type TypographyClassKey = "root" | TypographyVariant;
-export type Element = HTMLHeadingElement | HTMLParagraphElement | HTMLSpanElement | HTMLElement;
+export type ComponentMapping = Record<TypographyVariant, ElementType>;
+export type VariantMapping = Record<TypographyVariant, MaterialTypographyVariant>;
 
-export interface Props extends Component<Element> {
-
-  /**
-   * If `true`, the text will have a bottom margin.
-   * @default false
-   */
-  paragraph?: boolean;
+export type OmittedProps = "variant" | "variantMapping";
+export interface TypographyProps extends Omit<MaterialTypographyProps, OmittedProps> {
 
   /**
    * @optional
-   * @type ref
+   * @type element
    */
-  ref: Ref<Element>
+  component?: React.ElementType;
 
   /**
    * Applies the theme typography styles.
+   *
    * @default "bodyText1"
+   * @optional
    */
-  variant?: TypographyVariant
+  variant?: TypographyVariant;
 }
