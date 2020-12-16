@@ -1,6 +1,6 @@
 {
   "component": {
-    "input": {
+    "inputBase": {
       "root": {
         "lineHeight": {
           "comment": "23px",
@@ -8,7 +8,7 @@
         }
       },
       "input": {
-        "borderWidth": { "value": "{size.border.width.none.value}" },
+        "border": { "value": "{size.border.width.none.value}" },
         "height": {
           "comment": "Reset 23px the native input line-height",
           "value": "{size.font.input.lineHeight.value}"
