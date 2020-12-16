@@ -71,9 +71,9 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        backgroundColor: AppBarStyles.appBarColorDefaultBackgroundColor,
+        backgroundColor: AppBarStyles.colorDefaultBackgroundColor,
         title: Text(widget.title,
-            style: TextStyle(color: ColorPalette.fontDefault)),
+            style: TextStyle(color: ColorPalette.fontPrimary)),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
