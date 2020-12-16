@@ -1,0 +1,14 @@
+{
+  "component": {
+    "formLabel": {
+      "root": {
+        "lineHeight": {
+          "value": "{size.font.formLabel.lineHeight.value}"
+        },
+        "padding": {
+          "value": "{size.base.none.value}"
+        }
+      }
+    }
+  }
+}
