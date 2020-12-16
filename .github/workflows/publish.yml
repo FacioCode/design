@@ -58,7 +58,12 @@ jobs:
         with:
           path: |
             */*/dist
+            packages/flutter-styles
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -89,7 +94,12 @@ jobs:
         with:
           path: |
             */*/dist
+            packages/flutter-styles
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -115,10 +125,17 @@ jobs:
           fetch-depth: "0"
       - name: Restore cached output
         uses: actions/cache@v2
+        env:
+          cache-name: cache-build-outputs
         with:
           path: |
+            */*/dist
             packages/flutter-styles
-          key: ${{ runner.os }}-publish-outputs
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}
       - name: Install Flutter SDK
         uses: subosito/flutter-action@v1
         with:
