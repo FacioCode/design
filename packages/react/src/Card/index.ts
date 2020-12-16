@@ -1,2 +1,3 @@
 export { Card } from "./Card";
-export type { Element as CardElement, Props as CardProps } from "./Card.types";
+export { CardContent } from "./CardContent";
+export type { CardProps } from "./Card.types";
