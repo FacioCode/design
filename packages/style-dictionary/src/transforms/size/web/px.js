@@ -6,7 +6,7 @@ const throwSizeError = (name, value, unitType) => {
   throw new Error(message);
 };
 
-const px = {
+const sizeBasePx = {
   matcher: isBaseSize,
   name: "size/web/px",
   transformer: (prop) => {
@@ -22,4 +22,4 @@ const px = {
   type: "value",
 };
 
-module.exports = px;
+module.exports = sizeBasePx;
