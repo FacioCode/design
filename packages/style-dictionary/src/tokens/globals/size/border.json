@@ -2,12 +2,20 @@
   "size": {
     "border": {
       "radius": {
-        "none": { "value": "{size.base.none.value}" },
-        "single": { "value": "{size.base.single.value}" }
+        "none": {
+          "comment": "Equivalent to 0px for web",
+          "value": "{size.base.none.value}"
+        },
+        "single": {
+          "comment": "Equivalent to 8px for web",
+          "value": "{size.base.single.value}"
+        },
+        "comment": "Double and triple border radius are defined separately for each platform."
       },
       "width": {
         "none": { "value": "{size.base.none.value}" },
-        "single": { "value": "{size.base.one.value}" }
+        "single": { "value": "{size.base.one.value}" },
+        "double": { "value": "{size.base.quarter.value}" }
       }
     }
   }
