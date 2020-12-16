@@ -33,9 +33,7 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "scripts": {
-    "build": "npm run clean && npm run compile && npm run build-styles && npm run build-mui-themes",
-    "build-mui-themes": "cd ../mui-themes && npm run build",
-    "build-styles": "cd ../styles && npm run build",
+    "build": "npm run clean && npm run compile",
     "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ../flutter-styles/lib",
     "compile": "style-dictionary build --config ./src/index.js",
     "test": "echo \"Todo: implement tests\" && exit 0"
