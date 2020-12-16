@@ -21,6 +21,8 @@ jobs:
         run: npm ci
       - name: Build and run tests
         run: npm test
+      - name: List dist/ folders
+        run: ls packages/*/dist
       - name: Set git commit user
         run: sh ./.github/scripts/configure-git.sh
       - name: Commit pubspec file
@@ -31,9 +33,9 @@ jobs:
           cache-name: cache-build-outputs
         with:
           path: |
-            */*/dist
+            packages/*/dist
             packages/flutter-styles
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
@@ -51,9 +53,9 @@ jobs:
           cache-name: cache-build-outputs
         with:
           path: |
-            */*/dist
+            packages/*/dist
             packages/flutter-styles
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
@@ -87,9 +89,9 @@ jobs:
           cache-name: cache-build-outputs
         with:
           path: |
-            */*/dist
+            packages/*/dist
             packages/flutter-styles
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
@@ -123,9 +125,9 @@ jobs:
           cache-name: cache-build-outputs
         with:
           path: |
-            */*/dist
+            packages/*/dist
             packages/flutter-styles
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
