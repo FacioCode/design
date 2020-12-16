@@ -3,7 +3,7 @@
     "typography": {
       "headline1": {
         "comment": "Formerly largeTitle. Useful for showing Poupe Facio balance, for example.",
-        "color": { "value": "{color.font.primary.value}" },
+        "color": { "value": "{color.font.headline1.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "Extremely large text. It is the most prominent element in the interface.",
@@ -66,7 +66,7 @@
       },
       "bodyText1": {
         "comment": "Formerly body. Also known as body1. Most common than bodyText2.",
-        "color": { "value": "{color.font.default.value}" },
+        "color": { "value": "{color.font.primary.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": { "value": "{size.font.bodyText1.fontSize.value}" },
         "fontWeight": { "value": "{font.weight.regular.value}"},
@@ -81,13 +81,13 @@
           "comment": "A little smaller than headline5.",
           "value": "{size.font.subtitle.fontSize.value}"
         },
-        "fontWeight": { "value": "{font.weight.bold.value}"},
+        "fontWeight": { "value": "{font.weight.semiBold.value}"},
         "letterSpacing": { "value": "{size.font.subtitle.letterSpacing.value}" },
         "lineHeight": { "value": "{size.font.subtitle.lineHeight.value}" }
       },
       "subtitle2": {
         "comment": "For medium emphasis text.",
-        "color": { "value": "{color.font.default.value}" },
+        "color": { "value": "{color.font.primary.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "A little smaller than headline5.",
@@ -100,15 +100,16 @@
       "button": {
         "color": {
           "comment": "Button color is secondary (probably grey-80) by default",
-          "value": "{color.font.secondary.value}"
+          "value": "{color.font.primary.value}"
         },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": { "value": "{size.font.button.fontSize.value}" },
+        "fontWeight": { "value": "{font.weight.semiBold.value}" },
         "letterSpacing": { "value": "{size.font.button.letterSpacing.value}" }
       },
       "bodyText2": {
         "comment": "Formerly footnote. Useful for optional text content, like card content text.",
-        "color": { "value": "{color.font.default.value}" },
+        "color": { "value": "{color.font.primary.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "Low emphasis, useful for very small blocks",
