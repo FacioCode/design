@@ -51,5 +51,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@faciocode/style-dictionary": "^0.23.0"
   }
 }
