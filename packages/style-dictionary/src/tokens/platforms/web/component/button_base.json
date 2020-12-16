@@ -1,0 +1,19 @@
+{
+  "component": {
+    "buttonBase": {
+      "root": {
+        "borderRadius": { "value": "{size.border.radius.none.value}" },
+        "borderWidth": { "value": "{size.border.width.none.value}" },
+        "margin": {
+          "comment": "Remove the margin in Safari",
+          "value": "{size.base.none.value}"
+        },
+        "outline": {
+          "comment": "Outline CSS prop. Disable the focus ring for mouse, touch and keyboard users",
+          "value": "{size.outline.none.value}"
+        },
+        "padding": { "value": "{size.base.none.value}" }
+      }
+    }
+  }
+}
