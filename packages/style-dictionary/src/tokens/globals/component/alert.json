@@ -1,0 +1,12 @@
+{
+  "component": {
+    "alert": {
+      "root": {
+        "borderRadius": { "value": "{size.border.radius.single.value}" }
+      },
+      "standardInfo": {
+        "backgroundColor": { "value": "{color.background.alert.standardInfo.value}" }
+      }
+    }
+  }
+}
