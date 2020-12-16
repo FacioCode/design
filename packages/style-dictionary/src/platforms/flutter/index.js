@@ -25,10 +25,10 @@ const flutter = {
     },
     {
       destination: "lib/component_styles.dart",
-      filter: {
-        attributes: {
-          category: "component",
-        },
+      filter: ({ attributes }) => {
+        const { category, type } = attributes;
+
+        return category === "component" && type !== "typography";
       },
       format: "flutter/component_styles.dart",
       packageName,
