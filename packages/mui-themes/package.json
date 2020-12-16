@@ -1,7 +1,7 @@
 {
   "name": "@faciocode/mui-themes",
   "displayName": "FacioMuiThemes",
-  "version": "0.23.1",
+  "version": "0.23.2",
   "private": false,
   "description": "Material UI themes for Facio Design System",
   "keywords": [
@@ -52,11 +52,11 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "peerDependencies": {
-    "@material-ui/core": "^4.11.2",
-    "@faciocode/style-dictionary": "^0.23.0"
+    "@faciocode/style-dictionary": "^0.23.0",
+    "@material-ui/core": "^4.11.2"
   },
   "dependencies": {
-    "@faciocode/styles": "^0.23.1",
+    "@faciocode/styles": "^0.23.2",
     "@material-ui/core": "^4.11.2"
   },
   "publishConfig": {
