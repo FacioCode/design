@@ -1,18 +1,3 @@
-import { Component } from "../Component";
+import { PaperProps as MaterialPaperProps } from "@material-ui/core/Paper";
 
-type Variant = "rounded" | "square";
-export type ClassKey = "root" | Variant;
-export type Element = HTMLDivElement | HTMLElement;
-
-export interface Props extends Component<Element> {
-
-  /**
-   * The variant to use.
-   *
-   * If `rounded`, rounded corners are enabled.
-   *
-   * @default "square"
-   * @type "rounded" | "square"
-   */
-  variant?: Variant
-}
+export type PaperProps = Omit<MaterialPaperProps, "elevation">;
