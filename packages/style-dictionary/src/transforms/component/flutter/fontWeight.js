@@ -4,6 +4,7 @@ const componentFlutterFontWeight = {
   matcher: isFontWeight,
   name: "component/flutter/fontWeight",
   transformer: ({ value }) => {
+
     /**
      * @see https://stackoverflow.com/questions/10003683/extract-a-number-from-a-string-javascript
      */
