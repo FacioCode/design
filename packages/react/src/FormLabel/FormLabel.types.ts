@@ -1,5 +1,3 @@
-import { Component } from "../Component";
+import { FormLabelProps as MaterialFormLabelProps } from "@material-ui/core";
 
-export type ClassKey = "root";
-export type Element = HTMLLabelElement | HTMLElement;
-export type Props = Component<Element>
+export type FormLabelProps = MaterialFormLabelProps;

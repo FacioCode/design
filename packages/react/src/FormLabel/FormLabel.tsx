@@ -1,23 +1,12 @@
 import * as React from "react";
-import type { Element, Props } from "./FormLabel.types";
-import clsx from "clsx";
-import { useStyles } from "./FormLabel.styles";
+import type { FormLabelProps } from "./FormLabel.types";
+import { FormLabel as MaterialFormLabel } from "@material-ui/core";
 
-const render = (props: Props, ref: Props["ref"]) => {
-  const {
-    className,
-    component: Component = "label",
-    ...otherProps
-  } = props;
+type Render = (props: FormLabelProps, ref: FormLabelProps["ref"]) => JSX.Element;
 
-  const classes = useStyles();
-
-  return <Component
-    className={clsx(classes.root, className)}
-    ref={ref}
-    {...otherProps}
-  />;
-};
+const render : Render = (props, ref) => (
+  <MaterialFormLabel {...props} ref={ref} />
+);
 
 /**
  * ## Import
@@ -26,7 +15,7 @@ const render = (props: Props, ref: Props["ref"]) => {
  * import { FormLabel } from "@faciocode/react";
  * ```
  */
-export const FormLabel = React.forwardRef<Element, Props>(render);
+export const FormLabel = React.forwardRef<unknown, FormLabelProps>(render);
 FormLabel.displayName = "FormLabel";
 
 export default FormLabel;
