@@ -1,8 +1,9 @@
-export { Button, ButtonElement, ButtonProps } from "./Button";
-export { ButtonBase, ButtonBaseElement, ButtonBaseProps } from "./ButtonBase";
-export { Card, CardElement, CardProps } from "./Card";
-export { CssBaseline, CssBaselineProps } from "./CssBaseline";
-export { FormLabel, FormLabelElement, FormLabelProps } from "./FormLabel";
-export { InputBase, InputBaseElement, InputBaseProps } from "./InputBase";
-export { Paper, PaperElement, PaperProps } from "./Paper";
-export { Typography, TypographyElement, TypographyProps } from "./Typography";
+export { Alert, AlertProps } from "./Alert";
+export { Button, ButtonProps } from "./Button";
+export { Card, CardContent, CardProps } from "./Card";
+export { CssBaseline } from "./CssBaseline";
+export { FormLabel, FormLabelProps } from "./FormLabel";
+export { InputBase, InputBaseProps } from "./InputBase";
+export { Paper, PaperProps } from "./Paper";
+export { ThemeProvider, ThemeProviderProps } from "./ThemeProvider";
+export { Typography, TypographyProps } from "./Typography";
