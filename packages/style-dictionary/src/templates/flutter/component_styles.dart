@@ -12,9 +12,12 @@ class <%- className %> {
   <%- className %>._();
 <% _.forEach(prop.value, (componentStyle) => {%>
 <%
+const { item, subitem, type } = componentStyle.attributes;
+const name = _.camelCase(`${item === "root" ? "" : item} ${subitem}`);
 if(componentStyle.comment) { %>  /// <%= componentStyle.comment %><%}
 else {
-%>  /// <%= componentStyle.attributes.subitem %> for <%= componentStyle.attributes.item %><% } %>
-  static const <%= componentStyle.name %> = <%= getValuePrefix(componentStyle) %><%= componentStyle.value %>;
+
+%>  /// <%= _.startCase(subitem) %> for <%= _.startCase(item === "root" ? type : item) %><% } %>
+  static const <%= name %> = <%= getValuePrefix(componentStyle) %><%= componentStyle.value %>;
 <% }); %>}
 <% }); %>
