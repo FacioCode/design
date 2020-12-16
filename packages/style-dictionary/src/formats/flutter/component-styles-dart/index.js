@@ -1,25 +1,26 @@
 /* eslint-disable @typescript-eslint/no-var-requires,no-sync */
 const fs = require("fs");
 // eslint-disable-next-line id-length
-const _ = require("lodash");
+const { template } = require("lodash");
+const getAllPropertiesByAttributeType = require("../../../utils/getAllPropertiesByAttributeType");
 const templateFile = fs.readFileSync("./src/templates/flutter/component_styles.dart");
-const componentStylesFormatter = (dictionary, options) => {
+const flutterComponentStylesFormatter = (dictionary, options) => {
   const { allProperties } = dictionary;
   const { packageName } = options.metadata;
 
-  const props = _.chain(allProperties).groupBy("attributes.type").
-    map((value, key) => ({ key, value })).
-    value();
+  const props = getAllPropertiesByAttributeType(allProperties);
+  const templateContent = templateFile.toString();
 
   /**
    * @type {TemplateExecutor}
    */
-  const compiled = _.template(templateFile.toString());
+  const compiled = template(templateContent);
+
 
   return compiled({ packageName, props });
 };
 
 module.exports = {
-  formatter: componentStylesFormatter,
+  formatter: flutterComponentStylesFormatter,
   name: "flutter/component_styles.dart",
 };
