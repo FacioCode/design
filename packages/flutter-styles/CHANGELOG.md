@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.22.0](https://github.com/FacioCode/design/compare/v0.21.0...v0.22.0) (2020-12-16)
+
+
+### Bug Fixes
+
+* **flutter-styles:** remove invalid value for FAB backgroundColor at example ([c14be28](https://github.com/FacioCode/design/commit/c14be288ce9a17d83a4a299cb792428d8f9ca4e5))
+* **flutter-styles:** set fontWeight for button and change button color ([da7c739](https://github.com/FacioCode/design/commit/da7c7394e98c90217e34ccff7656d594845624af))
+
+
+### Code Refactoring
+
+* **flutter-styles:** separate styles for button variants ([5684134](https://github.com/FacioCode/design/commit/56841340bd516190cc202f5d3423cda989d9d33a))
+
+
+### Features
+
+* **flutter-styles:** add `baseEightfold` and `borderWidthDouble` size tokens ([c6b2a08](https://github.com/FacioCode/design/commit/c6b2a0825880310ad29d4f409ccfc01452d233f0))
+* **flutter-styles:** add `borderRadiusTriple` size constant ([4c97bf4](https://github.com/FacioCode/design/commit/4c97bf4ab768ba4337681278a6e999613496c996))
+* **flutter-styles:** add semantic base colors to `ColorPalette` ([ea52736](https://github.com/FacioCode/design/commit/ea527363cfe307d25b3132c50cc772e90e40fda2))
+* **flutter-styles:** add/remove colors for ColorPalette ([f388b72](https://github.com/FacioCode/design/commit/f388b72e22ebad8d462f097704b2f4b57b2bb9fe))
+* **flutter-styles:** refactor and add new component styles ([181b876](https://github.com/FacioCode/design/commit/181b876c0056e8493bae6426328232299c6a1fa7))
+
+
+### BREAKING CHANGES
+
+* **flutter-styles:** Many constants from `ButtonStyles` were moved to `ContainedButtonStyles`, `LinkButtonStyles` and `OutlinedButtonStyles`. `InputStyles` class was removed, since underline inputs will not be used anymore.
+* **flutter-styles:** all component token constants were rename. `TypographyStyles` are rendundant with `TextThemes`, so `TypographyStyles` was removed too.
+* **flutter-styles:** The colors `backgroundBackLayer` or `backgroundBase` are not available anymore. Please use `backgroundPaper` instead. The color `backgroundFrontLayer` is not available anymore. Please use `backgroundDefault` instead. The color `backgroundInfo` is not available anymore. Please use `backgroundAlertStandardInfo` instead. `backgroundInverse`, `backgroundSuccess` and `backgroundWarning` colors are not available anymore. Color `fontDefault` is not available anymore. Please use `fontPrimary`. Color `fontHighlight` is not available anymore, please use `fontLink`. Old `fontPrimary` color now is `fontHeadline1`.
+
+
+
+
+
 # [0.21.0](https://github.com/FacioCode/design/compare/v0.20.2...v0.21.0) (2020-12-04)
 
 **Note:** Version bump only for package facio_styles

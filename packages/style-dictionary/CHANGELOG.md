@@ -3,6 +3,74 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.22.0](https://github.com/FacioCode/design/compare/v0.21.0...v0.22.0) (2020-12-16)
+
+
+### Bug Fixes
+
+* **style-dictionary:** change AppBar background color ([7781143](https://github.com/FacioCode/design/commit/77811433b9fc263b62fead0470fecc1877d4b736))
+* **style-dictionary:** don't generate TypographyStyles anymore ([1439721](https://github.com/FacioCode/design/commit/143972146091176edaea0889464a7758725a4b45))
+* **style-dictionary:** set correct CSS property for media print at web baseline component token ([988b6ee](https://github.com/FacioCode/design/commit/988b6eee33265bf7443ce826e175d04af621fd90))
+* **style-dictionary:** update font weight for Typography component token ([54c0212](https://github.com/FacioCode/design/commit/54c0212e6089b7ac1f7ae55e9a75091acb1f3c78))
+
+
+### Code Refactoring
+
+* **style-dictionary:** change constant names, improve doc comment ([1841d30](https://github.com/FacioCode/design/commit/1841d3066343b3cc51b45d83c1c3a24d877a4e1e))
+* **style-dictionary:** remove default and info keys from card component tokens ([83ad7d3](https://github.com/FacioCode/design/commit/83ad7d3fdb3e422f9cef4510933b744738f9a91c))
+* **style-dictionary:** remove Input component tokens ([f4960c7](https://github.com/FacioCode/design/commit/f4960c7dfc9948c87162a0402b10cc31bbc37e0f))
+* **style-dictionary:** remove specific input component tokens for Flutter ([d1ba2f0](https://github.com/FacioCode/design/commit/d1ba2f02c85db67f18d2445aa55e993fa019ba41))
+* **style-dictionary:** rewrite base colors for light theme ([0535a09](https://github.com/FacioCode/design/commit/0535a09ba2f2a0f2900bf85528fab06d18d51be3))
+* move getCssVarName function to `style-dictionary` package ([a83b7f4](https://github.com/FacioCode/design/commit/a83b7f4441568c933639a78d02a32f064aac6998))
+
+
+### Features
+
+* **style-dictionary:** add Alert component tokens ([fb8cf7f](https://github.com/FacioCode/design/commit/fb8cf7f91f340eec51a8c12c42e7fa1cbb16915d))
+* **style-dictionary:** add base colors for light theme ([82e4a12](https://github.com/FacioCode/design/commit/82e4a12918f7380c8eeea7cd30cca0cf5cbe5353))
+* **style-dictionary:** add border colors for light theme ([439edf8](https://github.com/FacioCode/design/commit/439edf8d66afc2ff0d9a024e7b5fb7e00149646b))
+* **style-dictionary:** add ButtonBase component tokens ([97bfa92](https://github.com/FacioCode/design/commit/97bfa921afe83a11f8e22b1b970a4b71641ebd93))
+* **style-dictionary:** add CardContent component tokens ([5686919](https://github.com/FacioCode/design/commit/56869190426c616965e48f34b79fb74e8ea6bf95))
+* **style-dictionary:** add double as border width token ([b16406a](https://github.com/FacioCode/design/commit/b16406aafb032a74f101704de63fe09ba3b3e2f2))
+* **style-dictionary:** add eightfold size token ([4b572b0](https://github.com/FacioCode/design/commit/4b572b0ec5e3180143330e75187e86dcb6e8d7a4))
+* **style-dictionary:** add fontFamily to Typography component tokens ([c89eeb0](https://github.com/FacioCode/design/commit/c89eeb08ff236a06658c2179fc3e4d13928c5a3e))
+* **style-dictionary:** add FormLabel component tokens ([fcbdc3c](https://github.com/FacioCode/design/commit/fcbdc3c169df77ecd95e7ed997de5c80e33b54b4))
+* **style-dictionary:** add InputBase component tokens ([1fec5a2](https://github.com/FacioCode/design/commit/1fec5a21f0c9deaa6439cd26164199565cb5d11b))
+* **style-dictionary:** add new component styles template for web/js ([08f6fc9](https://github.com/FacioCode/design/commit/08f6fc92428918c4858762d5856ce6930e7d0ca0))
+* **style-dictionary:** add new formatter component styles for web ([0532bb8](https://github.com/FacioCode/design/commit/0532bb8208fff101fc83b12e88f0919487cb6e32))
+* **style-dictionary:** add outline tokens ([1625ce1](https://github.com/FacioCode/design/commit/1625ce1bd9566185d9385dbf9c583a1949b4e16c))
+* **style-dictionary:** add raw icons ([e1f49f9](https://github.com/FacioCode/design/commit/e1f49f947a3e5f4b53d0277a72777da6461303f6))
+* **style-dictionary:** add shadow tokens ([d0c46e9](https://github.com/FacioCode/design/commit/d0c46e92fb81db692ad76bab9d2bcab4257d8c66))
+* **style-dictionary:** add shadowCss transform ([d24a3c7](https://github.com/FacioCode/design/commit/d24a3c71029095bccc193cd697d222dd9c06b990))
+* **style-dictionary:** add shadowCss transform to web transform group ([27ea6be](https://github.com/FacioCode/design/commit/27ea6be8c73c7610555b6eed81a5f76b109c545b))
+* **style-dictionary:** add specific Button component tokens for web ([95d5d17](https://github.com/FacioCode/design/commit/95d5d1737b570ab7da79f4f7bca4e2952f3a3744))
+* **style-dictionary:** add specific component tokens for InputBase for Flutter ([98488c5](https://github.com/FacioCode/design/commit/98488c5f3d35ed1365dcf99180e2c49462de4744))
+* **style-dictionary:** add triple border radius token ([d7db06c](https://github.com/FacioCode/design/commit/d7db06c3921352303e358b2710bf47fcfaaa6c3a))
+* **style-dictionary:** add triple border radius token for web ([ac5a453](https://github.com/FacioCode/design/commit/ac5a45362ec2a79870ddf1e9181ac9806bf0a9d0))
+* **style-dictionary:** add utils for prop grouping and CSS var generation ([f18a8be](https://github.com/FacioCode/design/commit/f18a8be01b608258a38a3a719fb200b846bf847e))
+* **style-dictionary:** generate custom properties and color tokens ([fbaf4e4](https://github.com/FacioCode/design/commit/fbaf4e420027c5dce6fff0b980faeac38b6558c2))
+* **style-dictionary:** register Flutter component styles format ([73e7c7b](https://github.com/FacioCode/design/commit/73e7c7b5de51357ccf68b2c6406c58727d5d1dd6))
+
+
+### rewrite
+
+* **style-dictionary:** rewrite background colors ([f44af02](https://github.com/FacioCode/design/commit/f44af02e31a6705c998b94a565cd77f4ccf9362d))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** all Flutter component token names have changed.
+* **style-dictionary:** `{component.input.large}` token is not defined anymore.
+* **style-dictionary:** base, backLayer, frontLayer, inverse, success and warning background colors were removed.
+* **style-dictionary:** primary token now is headline1. default token now is primary. highlight token now is link.
+* **style-dictionary:** `{component.input}` tokens are not available anymore.
+* **style-dictionary:** "{component.card.root}" and "{component.card.info}" tokens are not available anymore.
+* `getCssVarName` was removed from `react` package and is not available anymore. It will be used internally at `style-dictionary` package
+
+
+
+
+
 # [0.21.0](https://github.com/FacioCode/design/compare/v0.20.2...v0.21.0) (2020-12-04)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

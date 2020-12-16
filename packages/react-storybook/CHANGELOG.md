@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.22.0](https://github.com/FacioCode/design/compare/v0.21.0...v0.22.0) (2020-12-16)
+
+
+### Bug Fixes
+
+* **react-storybook:** add missing 600 font weight for Open Sans ([0143136](https://github.com/FacioCode/design/commit/0143136a9ca9a2338127cc2b0297029d7de9d02e))
+
+
+### Features
+
+* **react-storybook:** add ThemeProvider to decorator ([ba23a98](https://github.com/FacioCode/design/commit/ba23a98b5c54c28a91d53b08e39cae0cf563af25))
+
+
+
+
+
 # [0.21.0](https://github.com/FacioCode/design/compare/v0.20.2...v0.21.0) (2020-12-04)
 
 **Note:** Version bump only for package @faciocode/react-storybook

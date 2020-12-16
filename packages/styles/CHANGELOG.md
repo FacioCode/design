@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.22.0](https://github.com/FacioCode/design/compare/v0.21.0...v0.22.0) (2020-12-16)
+
+
+### Features
+
+* **styles:** add color tokens ([9f8b6c4](https://github.com/FacioCode/design/commit/9f8b6c4395c7a6a883e6ff490c662b825f445753))
+* **styles:** add custom properties ([80b4f8e](https://github.com/FacioCode/design/commit/80b4f8e04adab55eeb1ed09211db8eb0697d0c3b))
+* **styles:** add new component tokens ([b498e8e](https://github.com/FacioCode/design/commit/b498e8e146043643105fc4fe5121474a1c8931fe))
+
+
+### BREAKING CHANGES
+
+* **styles:** some component token names were changed. Please check componentTokens file to see all changes.
+
+
+
+
+
 # [0.21.0](https://github.com/FacioCode/design/compare/v0.20.2...v0.21.0) (2020-12-04)
 
 **Note:** Version bump only for package @faciocode/styles

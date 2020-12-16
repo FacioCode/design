@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.22.0](https://github.com/FacioCode/design/compare/v0.21.0...v0.22.0) (2020-12-16)
+
+
+### Bug Fixes
+
+* **react:** prevent hook error because of browser packing ([e4c30c2](https://github.com/FacioCode/design/commit/e4c30c28e26237e4b32e523ff9d0a040e0247a56))
+
+
+### Code Refactoring
+
+* move getCssVarName function to `style-dictionary` package ([a83b7f4](https://github.com/FacioCode/design/commit/a83b7f4441568c933639a78d02a32f064aac6998))
+* **card:** remove support to colors, use base from Material UI ([c808d73](https://github.com/FacioCode/design/commit/c808d73e076ec5418cc905d197615f5b159beb7d))
+* **react:** remove Component type ([55c5c7a](https://github.com/FacioCode/design/commit/55c5c7aad36f7a9cb32459d4f7569eb8f86d4964))
+* **react:** rewrite Paper component to use Material UI as base ([091371a](https://github.com/FacioCode/design/commit/091371a0f970bf9866ed2535e8ffe763696c3276))
+
+
+### Features
+
+* **react:** add Alert React component ([59a9ab6](https://github.com/FacioCode/design/commit/59a9ab68cff9c7498cfc2978456e9086d391af18))
+* **react:** add CardContent component ([6fe59fd](https://github.com/FacioCode/design/commit/6fe59fd74ffcaf84cc26b4e52582af098462ce13))
+* **react:** add Input component ([74f5800](https://github.com/FacioCode/design/commit/74f5800f5d85d688b531dd8487e4c6c47d17fae5))
+* **react:** add support to more colors and state for Buttons ([08d8b79](https://github.com/FacioCode/design/commit/08d8b79bea68df1d88693f23878e84a3b2a0d8eb))
+* **react:** add ThemeProvider component ([2e99e92](https://github.com/FacioCode/design/commit/2e99e924d064f059f878b2456b4a1b724e81743c))
+* **react:** make Alert and ThemeProvider components available ([449d5bf](https://github.com/FacioCode/design/commit/449d5bf4b3c412f9fae67fcaba77077bd7cf0d43))
+* **react:** make CardContent available via Card ([3c32708](https://github.com/FacioCode/design/commit/3c327084a11a9ff69fc3bf54e8d5b20bf4ffbba9))
+
+
+### BREAKING CHANGES
+
+* `getCssVarName` was removed from `react` package and is not available anymore. It will be used internally at `style-dictionary` package
+* **react:** `Component` type will not available anymore. We are building components from Material UI.
+* **react:** `variant` property is not available anymore. Please use `square` property (false for rounded, true for square).
+* **card:** `color` property was removed.
+
+
+
+
+
 # [0.21.0](https://github.com/FacioCode/design/compare/v0.20.2...v0.21.0) (2020-12-04)
 
 

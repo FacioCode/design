@@ -1,6 +1,6 @@
 {
   "name": "facio_styles",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "description": "Facio Design System style package for use in Flutter applications. The styles in this package are consumed by the UI components of Facio applications built on Flutter.",
   "private": true,
   "repository": {
