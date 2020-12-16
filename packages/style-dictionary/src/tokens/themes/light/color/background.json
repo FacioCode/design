@@ -1,13 +1,12 @@
 {
   "color": {
     "background": {
-      "base": { "value": "{color.base.white.value}" },
-      "backLayer": { "value": "{color.background.base.value}" },
-      "frontLayer": { "value": "{color.base.grey.10.value}" },
-      "info": { "value": "{color.base.royalBlue.20.value}" },
-      "inverse": { "value": "{color.base.grey.90.value}" },
-      "success": { "value": "{color.base.aquamarine.50.value}" },
-      "warning": { "value": "{color.base.goldenrod.30.value}" }
+      "default": { "value": "{color.base.grey.10.value}" },
+      "info": { "value": "{color.base.info.main.value}" },
+      "paper": { "value": "{color.base.white.value}" },
+      "alert": {
+        "standardInfo": { "value": "{color.base.royalBlue.20.value}" }
+      }
     }
   }
 }
