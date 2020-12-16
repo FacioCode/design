@@ -54,6 +54,10 @@
   "peerDependencies": {
     "@material-ui/core": "^4.11.2"
   },
+  "dependencies": {
+    "@faciocode/styles": "^0.21.0",
+    "@material-ui/core": "^4.11.2"
+  },
   "publishConfig": {
     "access": "public"
   }

@@ -6,6 +6,7 @@ export default config({
   directories,
   displayName,
   globals: {
+    "@faciocode/styles": "FacioStyles",
     "@material-ui/core": "MuiCore",
   },
   module,
