@@ -2,6 +2,7 @@
   "component": {
     "typography": {
       "root": {
+        "fontFamily": { "value": "{font.family.base.value}" },
         "margin": { "value": "{size.base.none.value}" }
       },
       "headline1": {
