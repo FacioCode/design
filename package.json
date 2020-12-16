@@ -5,6 +5,7 @@
   "private": true,
   "workspaces": [
     "packages/flutter-styles",
+    "packages/mui-themes",
     "packages/react",
     "packages/react-storybook",
     "packages/react-unstyled",
