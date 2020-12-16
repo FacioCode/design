@@ -1,27 +1,12 @@
 import * as React from "react";
-import { Element, Props } from "./InputBase.types";
-import clsx from "clsx";
-import { useStyles } from "./InputBase.styles";
+import type { InputBaseProps } from "./InputBase.types";
+import { InputBase as MaterialInputBase } from "@material-ui/core";
 
-const render = (props: Props, ref: Props["ref"]) => {
-  const {
-    inputComponent: InputComponent = "input",
-    inputProps = {},
-    ...otherProps
-  } = props;
+type Render = (props: InputBaseProps, ref: InputBaseProps["ref"]) => JSX.Element;
 
-  const classes = useStyles();
-
-  return (
-    <div className={classes.root}>
-      <InputComponent
-        className={clsx(classes.input, inputProps.className)}
-        ref={ref}
-        {...otherProps}
-      />
-    </div>
-  );
-};
+const render : Render = (props, ref) => (
+  <MaterialInputBase {...props} ref={ref} />
+);
 
 /**
  * ## Import
@@ -30,7 +15,5 @@ const render = (props: Props, ref: Props["ref"]) => {
  * import { InputBase } from "@faciocode/react;
  * ```
  */
-export const InputBase = React.forwardRef<Element, Props>(render);
-InputBase.displayName = "InputBase";
-
+export const InputBase = React.forwardRef<unknown, InputBaseProps>(render);
 export default InputBase;
