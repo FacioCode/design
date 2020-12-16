@@ -1,0 +1,32 @@
+{
+  "color": {
+    "base": {
+      "primary": {
+        "main": { "value": "{color.base.aquamarine.50.value}" },
+        "dark": { "value": "{color.base.aquamarine.60.value}" }
+      },
+      "secondary": {
+        "main": { "value": "{color.base.grey.70.value}" },
+        "dark": { "value": "{color.base.grey.80.value}" }
+      },
+      "error": {
+        "comment": "Also known as danger",
+        "main": { "value": "{color.base.indianRed.50.value}" },
+        "dark": { "value": "{color.base.indianRed.60.value}" }
+      },
+      "warning": {
+        "main": { "value": "{color.base.goldenrod.50.value}" },
+        "dark": { "value": "{color.base.goldenrod.60.value}" }
+      },
+      "info": {
+        "main": { "value": "{color.base.skyBlue.70.value}" },
+        "dark": { "value": "{color.base.skyBlue.80.value}" }
+      },
+      "success": {
+        "comment": "Success colors are NOT the same from primary (brand) colors",
+        "main": { "value": "{color.base.aquamarine.70.value}" },
+        "dark": { "value": "{color.base.aquamarine.80.value}" }
+      }
+    }
+  }
+}
