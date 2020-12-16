@@ -21,16 +21,10 @@ jobs:
         run: npm ci
       - name: Build and run tests
         run: npm test
-      - name: Get git status for changes
-        run: git status
-      - name: Prepare Flutter pubspec file to commit
-        run: git add ./packages/flutter-styles/pubspec.yaml
       - name: Set git commit user
         run: sh ./.github/scripts/configure-git.sh
       - name: Commit pubspec file
-        run: "git commit --allow-empty -m \"chore(flutter-styles): bump package version [skip ci]\""
-      - name: Push up-to-date pubspec file
-        run: git push origin
+        run: sh ./.github/scripts/commit-pubspec.sh
       - name: Cache generated files
         uses: actions/cache@v2
         env:
