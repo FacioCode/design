@@ -2,7 +2,14 @@
   "size": {
     "border": {
       "radius": {
-        "double": { "value": "{size.base.double.value}" }
+        "double": {
+          "comment": "Equivalent to 16px for web. Commonly used for small buttons",
+          "value": "{size.base.double.value}"
+        },
+        "triple": {
+          "comment": "Equivalent to 24px for web. Commonly used for CTA (medium buttons)",
+          "value": "{size.base.triple.value}"
+        }
       }
     }
   }
