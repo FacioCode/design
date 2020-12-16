@@ -32,13 +32,18 @@ jobs:
       - name: Push up-to-date pubspec file
         run: git push origin
       - name: Cache generated files
-        id: cache-generated-files
         uses: actions/cache@v2
+        env:
+          cache-name: cache-build-outputs
         with:
           path: |
             */*/dist
             packages/flutter-styles
-          key: ${{ runner.os }}-publish-outputs
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}
 
   publish-npm:
     needs: build
@@ -48,10 +53,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Restore cached output
         uses: actions/cache@v2
+        env:
+          cache-name: cache-build-outputs
         with:
           path: |
             */*/dist
-          key: ${{ runner.os }}-publish-outputs
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -77,10 +84,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Restore cached output
         uses: actions/cache@v2
+        env:
+          cache-name: cache-build-outputs
         with:
           path: |
             */*/dist
-          key: ${{ runner.os }}-publish-outputs
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('*/*/dist/index.js') }}
       - uses: actions/setup-node@v1
         with:
           node-version: 12
