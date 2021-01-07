@@ -3,7 +3,8 @@
     "chip": {
       "root": {
         "borderRadius": { "value": "{size.border.radius.double.value}" },
-        "borderWidth": { "value": "{size.border.width.single.value}" }
+        "borderWidth": { "value": "{size.border.width.single.value}" },
+        "height": { "value": "{size.base.quadruple.value}" }
       }
     }
   }
