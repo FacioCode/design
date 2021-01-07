@@ -2,7 +2,8 @@
   "component": {
     "button": {
       "root": {
-        "comment": "Styles applied to the root element."
+        "comment": "Styles applied to the root element.",
+        "maxWidth": { "value": "{size.breakpoint.tabletPortrait.value}" }
       },
       "fullWidth": {
         "borderRadius": { "value": "{size.border.radius.single.value}" }
