@@ -4,9 +4,11 @@ class ColorPalette {
   ColorPalette._();
 
   static const Color backgroundAlertStandardInfo = const Color(0xFFB3CCFF);
+  static const Color backgroundBrand = const Color(0xFF3FE1B6);
   static const Color backgroundDefault = const Color(0xFFF2F2F3);
   static const Color backgroundInfo = const Color(0xFF066089);
-  static const Color backgroundPaper = const Color(0xFFFFFFFF);
+  static const Color backgroundPaper = const Color(0xFFFAFAFA);
+  static const Color backgroundSelected = const Color(0xFFE3FCFF);
   static const Color baseAquamarine05 = const Color(0xFFE3FFF4);
   static const Color baseAquamarine10 = const Color(0xFFD0FFEF);
   static const Color baseAquamarine20 = const Color(0xFFB3FFE6);
@@ -76,13 +78,12 @@ class ColorPalette {
   static const Color baseSkyBlue70 = const Color(0xFF066089);
   static const Color baseSkyBlue80 = const Color(0xFF002C5E);
   static const Color baseSkyBlue90 = const Color(0xFF082A3F);
-  static const Color baseSuccessDark = const Color(0xFF005C5E);
-  static const Color baseSuccessMain = const Color(0xFF068589);
   static const Color baseWarningDark = const Color(0xFFC4A82B);
   static const Color baseWarningMain = const Color(0xFFE1B63F);
   static const Color baseWhite = const Color(0xFFFFFFFF);
-  static const Color borderButtonOutlined = const Color(0xFFE2E3E4);
-  static const Color borderUnderline = const Color(0xFF303846);
+  static const Color borderDivider = const Color(0xFFE2E3E4);
+  static const Color borderOutlinedButton = const Color(0xFFE2E3E4);
+  static const Color borderOutlinedButtonPressed = const Color(0xFF2BC4A8);
   static const Color fontDisabled = const Color(0xFFAFB4BB);
   static const Color fontHeadline1 = const Color(0xFF1F252E);
   static const Color fontHint = const Color(0xFF828C9B);
@@ -90,4 +91,7 @@ class ColorPalette {
   static const Color fontLink = const Color(0xFF068589);
   static const Color fontPrimary = const Color(0xFF424D5C);
   static const Color fontSecondary = const Color(0xFF303846);
+  static const Color inputChecked = const Color(0xFF424D5C);
+  static const Color inputDefault = const Color(0xFF828C9B);
+  static const Color inputDisabled = const Color(0xFFAFB4BB);
 }
