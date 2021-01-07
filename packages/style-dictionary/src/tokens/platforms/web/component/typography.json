@@ -37,18 +37,6 @@
       },
       "bodyText1": {
         "marginBottom": { "value": "{size.font.bodyText1.marginBottom.value}" }
-      },
-      "alignLeft": {
-        "comment": "Styles applied to the root element if align is left",
-        "textAlign": { "value": "left" }
-      },
-      "alignCenter": {
-        "comment": "Styled applied to the root element if align is center",
-        "textAlign": { "value": "center" }
-      },
-      "alignRight": {
-        "comment": "Styled applied to the root element if align is right",
-        "textAlign": { "value": "right" }
       }
     }
   }
