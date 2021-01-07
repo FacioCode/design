@@ -47,18 +47,6 @@
       "sizeSmall": {
         "borderRadius": { "value": "{size.border.radius.double.value}" }
       },
-      "success": {
-        "backgroundColor": { "value": "{color.base.success.main.value}" },
-        "color": { "value": "{color.font.inverse.value}" }
-      },
-      "successHover": {
-        "backgroundColor": { "value": "{color.base.success.main.value}" },
-        "color": { "value": "{color.font.inverse.value}" }
-      },
-      "successPressed": {
-        "backgroundColor": { "value": "{color.base.success.dark.value}" },
-        "color": { "value": "{color.font.inverse.value}" }
-      },
       "warning": {
         "backgroundColor": { "value": "{color.base.warning.main.value}" },
         "color": { "value": "{color.font.inverse.value}" }
