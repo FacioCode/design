@@ -8,6 +8,9 @@ class AlertStyles {
 
   /// Background Color for Standard Info
   static const standardInfoBackgroundColor = const Color(0xFFB3CCFF);
+
+  /// Background Color for Standard Brand
+  static const standardBrandBackgroundColor = const Color(0xFF3FE1B6);
 }
 
 class AppBarStyles {
@@ -19,6 +22,9 @@ class AppBarStyles {
 
 class ButtonStyles {
   ButtonStyles._();
+
+  /// Max Width for Button
+  static const maxWidth = 600;
 
   /// Border Radius for Full Width
   static const fullWidthBorderRadius = 8.00;
@@ -68,13 +74,26 @@ class CardStyles {
   CardStyles._();
 
   /// Background Color for Card
-  static const backgroundColor = const Color(0xFFFFFFFF);
+  static const backgroundColor = const Color(0xFFFAFAFA);
 
   /// Border Radius for Card
   static const borderRadius = 8.00;
 
   /// Color for Card
   static const color = const Color(0xFF424D5C);
+}
+
+class CheckboxStyles {
+  CheckboxStyles._();
+
+  /// Color for Checkbox
+  static const color = const Color(0xFF828C9B);
+
+  /// Color for Checked
+  static const checkedColor = const Color(0xFF424D5C);
+
+  /// Color for Disabled
+  static const disabledColor = const Color(0xFFAFB4BB);
 }
 
 class ChipStyles {
@@ -85,6 +104,9 @@ class ChipStyles {
 
   /// Border Width for Chip
   static const borderWidth = 1.00;
+
+  /// Height for Chip
+  static const height = 32.00;
 }
 
 class ContainedButtonStyles {
@@ -153,24 +175,6 @@ class ContainedButtonStyles {
   /// Border Radius for Size Small
   static const sizeSmallBorderRadius = 24.00;
 
-  /// Background Color for Success
-  static const successBackgroundColor = const Color(0xFF068589);
-
-  /// Color for Success
-  static const successColor = const Color(0xFFFFFFFF);
-
-  /// Background Color for Success Hover
-  static const successHoverBackgroundColor = const Color(0xFF068589);
-
-  /// Color for Success Hover
-  static const successHoverColor = const Color(0xFFFFFFFF);
-
-  /// Background Color for Success Pressed
-  static const successPressedBackgroundColor = const Color(0xFF005C5E);
-
-  /// Color for Success Pressed
-  static const successPressedColor = const Color(0xFFFFFFFF);
-
   /// Background Color for Warning
   static const warningBackgroundColor = const Color(0xFFE1B63F);
 
@@ -235,14 +239,14 @@ class OutlinedButtonStyles {
   /// Color for Default
   static const defaultColor = const Color(0xFF424D5C);
 
-  /// Border Color for Brand
-  static const brandBorderColor = Color(0xFFE2E3E4);
+  /// Border Color for Pressed
+  static const pressedBorderColor = Color(0xFF2BC4A8);
 
-  /// Color for Brand
-  static const brandColor = const Color(0xFF424D5C);
+  /// Color for Pressed
+  static const pressedColor = const Color(0xFF424D5C);
 
-  /// Border Color for Brand Hover
-  static const brandHoverBorderColor = Color(0xFF3FE1B6);
+  /// Border Color for Hover
+  static const hoverBorderColor = Color(0xFF3FE1B6);
 
   /// Border Radius for Size Small
   static const sizeSmallBorderRadius = 24.00;
@@ -252,13 +256,16 @@ class OutlinedButtonStyles {
 
   /// Padding Top for Size Small
   static const sizeSmallPaddingTop = 2.00;
+
+  /// Border Radius for Size Medium
+  static const sizeMediumBorderRadius = 8.00;
 }
 
 class PaperStyles {
   PaperStyles._();
 
   /// Background Color for Paper
-  static const backgroundColor = const Color(0xFFFFFFFF);
+  static const backgroundColor = const Color(0xFFFAFAFA);
 
   /// Color for Paper
   static const color = const Color(0xFF424D5C);
