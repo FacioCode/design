@@ -1,0 +1,56 @@
+import type { OverridableComponent, OverrideProps } from "@material-ui/core/OverridableComponent";
+
+// eslint-disable-next-line @typescript-eslint/ban-types
+interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
+  classKey: "FacioCurrency";
+  defaultComponent: D;
+  props: P & {
+
+    /**
+     * Currency amount is required.
+     *
+     * @example 100
+     * @required
+     * @type number
+     */
+    // eslint-disable-next-line no-magic-numbers
+    children: 0 | number | string;
+
+    /**
+     * The component used for the root node. Either a `string` to use a DOM element or a component.
+     *
+     * @default "data"
+     * @optional
+     * @type element
+     */
+    component?: "data" | React.ElementType;
+
+    /**
+     * Currency code is required for currency style.
+     *
+     * @example "BRL"
+     * @required
+     * @type string
+     */
+    code: "BRL" | string;
+
+    /**
+     * Defaults to current browser locale(s).
+     *
+     * @example "pt-BR"
+     * @optional
+     * @type string | string[]
+     */
+    locales?: "pt-BR" | string | string[];
+  };
+}
+
+export type Currency = OverridableComponent<CurrencyTypeMap>;
+
+export type CurrencyProps<
+  D extends React.ElementType = CurrencyTypeMap["defaultComponent"],
+  // eslint-disable-next-line @typescript-eslint/ban-types
+  P = {}
+> = OverrideProps<CurrencyTypeMap<P, D>, D>;
+
+export default Currency;

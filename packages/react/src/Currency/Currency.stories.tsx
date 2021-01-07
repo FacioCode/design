@@ -1,0 +1,19 @@
+import * as React from "react";
+import type { Meta, Story } from "@storybook/react";
+import { Currency } from "./Currency";
+import type { CurrencyProps } from "./Currency.types";
+
+export default {
+  component: Currency,
+  title: "Components/Currency",
+} as Meta;
+
+const Template : Story<CurrencyProps> = (props: CurrencyProps) => (
+  <Currency {...props}>{props.children}</Currency>
+);
+
+export const Playground : Story<CurrencyProps> = Template.bind({});
+Playground.args = {
+  children: 100,
+  code: "BRL",
+};
