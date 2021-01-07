@@ -1,12 +1,14 @@
 {
   "color": {
     "background": {
-      "default": { "value": "{color.base.grey.10.value}" },
-      "info": { "value": "{color.base.info.main.value}" },
-      "paper": { "value": "{color.base.white.value}" },
       "alert": {
         "standardInfo": { "value": "{color.base.royalBlue.20.value}" }
-      }
+      },
+      "brand": { "value": "{color.base.primary.main.value}" },
+      "default": { "value": "{color.base.grey.10.value}" },
+      "info": { "value": "{color.base.info.main.value}" },
+      "paper": { "value": "{color.base.grey.05.value}" },
+      "selected": { "value": "{color.base.skyBlue.05.value}" }
     }
   }
 }
