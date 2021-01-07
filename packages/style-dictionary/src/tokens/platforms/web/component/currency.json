@@ -1,0 +1,9 @@
+{
+  "component": {
+    "currency": {
+      "root": {
+        "fontFamily": { "value": "{font.family.system.monospace.value}" }
+      }
+    }
+  }
+}

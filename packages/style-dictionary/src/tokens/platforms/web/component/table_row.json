@@ -1,0 +1,9 @@
+{
+  "component": {
+    "tableRow": {
+      "selected": {
+        "backgroundColor": { "value": "{color.background.selected.value}" }
+      }
+    }
+  }
+}

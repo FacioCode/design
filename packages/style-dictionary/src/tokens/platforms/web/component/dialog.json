@@ -1,0 +1,34 @@
+{
+  "component": {
+    "dialog": {
+      "actions": {
+        "paddingBottom": { "value": "{size.base.sixfold.value}" },
+        "paddingLeft": { "value": "{size.base.quadruple.value}" },
+        "paddingRight": { "value": "{size.base.quadruple.value}" },
+        "paddingTop": { "value": "{size.base.single.value}" }
+      },
+      "actionsSpacingChildren": {
+        "marginLeft": { "value": "{size.base.singleHalf.value}" }
+      },
+      "content": {
+        "paddingBottom": { "value": "{size.base.single.value}" },
+        "paddingLeft": { "value": "{size.base.quadruple.value}" },
+        "paddingRight": { "value": "{size.base.quadruple.value}" }
+      },
+      "contentText": {
+        "marginBottom": { "value": "{size.base.singleHalf.value}" }
+      },
+      "paper": {
+        "backgroundColor": { "value": "{color.background.paper.value}" },
+        "borderRadius": { "value": "{size.border.radius.single.value}" }
+      },
+      "paperWidthSm": {
+        "maxWidth": { "value": "{size.breakpoint.tabletPortrait.value}" }
+      },
+      "title": {
+        "paddingLeft": { "value": "{size.base.quadruple.value}" },
+        "paddingRight": { "value": "{size.base.quadruple.value}" }
+      }
+    }
+  }
+}

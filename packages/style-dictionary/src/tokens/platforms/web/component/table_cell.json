@@ -1,0 +1,10 @@
+{
+  "component": {
+    "tableCell": {
+      "root": {
+        "borderBottomColor": { "value": "{color.border.divider.value}" },
+        "borderBottomWidth": { "value": "{size.border.width.single.value}" }
+      }
+    }
+  }
+}
