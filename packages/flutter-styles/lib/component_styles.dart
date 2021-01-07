@@ -276,4 +276,3 @@ class PaperStyles {
   /// Border Radius for Square
   static const squareBorderRadius = 0.00;
 }
-
