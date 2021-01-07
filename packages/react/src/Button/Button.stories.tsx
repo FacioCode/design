@@ -95,10 +95,10 @@ ContainedDangerSmall.args = {
   variant: "contained",
 };
 
-export const ContainedSuccessSmall : Story<ButtonProps> = Template.bind({});
-ContainedSuccessSmall.args = {
-  ...Playground.args,
-  color: "success",
-  size: "small",
-  variant: "contained",
-};
+export const TwoMediumButtons : Story<ButtonProps> = (props: ButtonProps) => (
+  <>
+    <Button fullWidth={true} size={"medium"} variant={"contained"}>Sign in</Button>
+    <br />
+    <Button fullWidth={true} size={"medium"} variant={"link"}>Need help?</Button>
+  </>
+);
