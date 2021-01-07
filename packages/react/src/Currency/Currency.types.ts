@@ -1,7 +1,7 @@
-import type { OverridableComponent, OverrideProps } from "@material-ui/core/OverridableComponent";
+import type { OverrideProps } from "@material-ui/core/OverridableComponent";
 
 // eslint-disable-next-line @typescript-eslint/ban-types
-interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
+export interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
   classKey: "FacioCurrency";
   defaultComponent: D;
   props: P & {
@@ -45,12 +45,8 @@ interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
   };
 }
 
-export type Currency = OverridableComponent<CurrencyTypeMap>;
-
 export type CurrencyProps<
   D extends React.ElementType = CurrencyTypeMap["defaultComponent"],
   // eslint-disable-next-line @typescript-eslint/ban-types
   P = {}
 > = OverrideProps<CurrencyTypeMap<P, D>, D>;
-
-export default Currency;
