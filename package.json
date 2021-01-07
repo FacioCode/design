@@ -8,7 +8,6 @@
     "packages/mui-themes",
     "packages/react",
     "packages/react-storybook",
-    "packages/react-unstyled",
     "packages/style-dictionary",
     "packages/styles"
   ],
