@@ -18,7 +18,6 @@ const render: Render = (props, ref) => {
     brand: "primary",
     danger: "default",
     default: "default",
-    success: "default",
     warning: "default",
   };
 
@@ -28,11 +27,10 @@ const render: Render = (props, ref) => {
     outlined: "outlined",
   };
 
-  const { containedDanger, containedSuccess, containedWarning } = useStyles();
+  const { containedDanger, containedWarning } = useStyles();
 
   const classNames = clsx({
     [containedDanger]: color === "danger" && variant === "contained",
-    [containedSuccess]: color === "success" && variant === "contained",
     [containedWarning]: color === "warning" && variant === "contained",
     // eslint-disable-next-line sort-keys
     className,
@@ -47,6 +45,9 @@ const render: Render = (props, ref) => {
   />;
 };
 
+/**
+ * @todo create ContainedButton, LinkButton, OutlinedButton
+ */
 export const Button = React.forwardRef<unknown, ButtonProps>(render);
 Button.displayName = "Button";
 

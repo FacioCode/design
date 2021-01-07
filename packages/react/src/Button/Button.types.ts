@@ -1,6 +1,7 @@
 import { ButtonProps as MaterialButtonProps } from "@material-ui/core/Button";
 
-type ButtonColor = "default" | "brand" | "warning" | "danger" | "success";
+type ButtonColor = "default" | "brand" | "warning" | "danger";
+type ButtonSize = "small" | "medium";
 type ButtonVariant = "contained" | "link" | "outlined"
 
 type OmittedProps =
@@ -10,6 +11,7 @@ type OmittedProps =
   | "disableFocusRipple"
   | "disableRipple"
   | "disableTouchRipple"
+  | "size"
   | "focusRipple"
   | "TouchRippleProps"
   | "variant"
@@ -25,6 +27,12 @@ export interface ButtonProps extends Omit<MaterialButtonProps, OmittedProps> {
    * @optional
    */
   color?: ButtonColor
+
+  /**
+   * @default "small"
+   * @optional
+   */
+  size?: ButtonSize
 
   /**
    * @default "outlined"

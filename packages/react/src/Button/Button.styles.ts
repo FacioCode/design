@@ -17,19 +17,6 @@ const styles = createStyles({
   },
 
   /**
-   * Styles applied to the root element if `variant="
-   */
-  containedSuccess: {
-    ...customProperties.containedButtonStyles.success,
-    "&:hover": customProperties.containedButtonStyles.successHover,
-
-    /**
-     * Active must always be after hover
-     */
-    "&:active": customProperties.containedButtonStyles.successPressed,
-  },
-
-  /**
    * Styles applied to the root element if `variant="contained"` and `color="warning"`
    */
   containedWarning: {
