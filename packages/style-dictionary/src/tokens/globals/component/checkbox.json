@@ -1,0 +1,15 @@
+{
+  "component": {
+    "checkbox": {
+      "root": {
+        "color": { "value": "{color.input.default.value}" }
+      },
+      "checked": {
+        "color": { "value": "{color.input.checked.value}" }
+      },
+      "disabled": {
+        "color": { "value": "{color.input.disabled.value}" }
+      }
+    }
+  }
+}
