@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/FacioCode/design/compare/v0.23.6...v0.24.0) (2021-01-07)
+
+
+### Features
+
+* **styles:** add component styles ([f29e6f6](https://github.com/FacioCode/design/commit/f29e6f66ffc86b09f3690619c23272ff2c068585))
+* **styles:** add new background colors ([47941c7](https://github.com/FacioCode/design/commit/47941c770f5a7e4eae2b1e82fea8e218d5431aad))
+
+
+* Update componentTokens.ts ([7c2fc9c](https://github.com/FacioCode/design/commit/7c2fc9c720a72b659c6339aee4959ba013f14119))
+
+
+### BREAKING CHANGES
+
+* **styles:** constants `baseSuccessDark`, `baseSuccessMain`, `borderUnderline` were removed. `borderButtonOutlined` was renamed to `borderOutlinedButton`.
+* some component tokens were renamed/removed.
+* **styles:** some constants were renamed/removed.
+
+
+
+
+
 ## [0.23.6](https://github.com/FacioCode/design/compare/v0.23.5...v0.23.6) (2020-12-16)
 
 **Note:** Version bump only for package @faciocode/styles

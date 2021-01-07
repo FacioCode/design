@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/FacioCode/design/compare/v0.23.6...v0.24.0) (2021-01-07)
+
+
+### Features
+
+* **mui-themes:** add overrides for components ([8bcd7ac](https://github.com/FacioCode/design/commit/8bcd7ac34aff1cb91966e9ca5524201d1efce506))
+
+
+
+
+
 ## [0.23.6](https://github.com/FacioCode/design/compare/v0.23.5...v0.23.6) (2020-12-16)
 
 **Note:** Version bump only for package @faciocode/mui-themes

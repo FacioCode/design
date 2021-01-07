@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/FacioCode/design/compare/v0.23.6...v0.24.0) (2021-01-07)
+
+
+### Code Refactoring
+
+* **react:** remove `success` color prop and `large` size prop for Button ([a6c2d65](https://github.com/FacioCode/design/commit/a6c2d653eb78968c3d084bee283a1bbb6ab02909))
+
+
+### Features
+
+* **react:** add `Checkbox` component ([1444d95](https://github.com/FacioCode/design/commit/1444d951fbe851fcd61ba2aa0ac2ad4f0bb225c6))
+* **react:** add `Chip` component ([5871a51](https://github.com/FacioCode/design/commit/5871a51b00939b3016d2e9a2f7c82bb84bafc67d))
+* **react:** add `Currency` component ([68a8e63](https://github.com/FacioCode/design/commit/68a8e630ede383f3ab43fdbd5bb209459594d392))
+* **react:** add `Dialog` components ([7a2a4c4](https://github.com/FacioCode/design/commit/7a2a4c42094221774811c2414b2e75fee899e133))
+* **react:** add `Divider` component ([f86bfad](https://github.com/FacioCode/design/commit/f86bfadb7645813164c022a02ba431ce656c3950))
+* **react:** add `IconButton` component ([aadff46](https://github.com/FacioCode/design/commit/aadff461a4ca936306029610019c2e30eeae84c6))
+* **react:** add `Table` components ([5059492](https://github.com/FacioCode/design/commit/5059492047f2fac7c2c5e0810662db057c4afa44))
+* **react:** make `Checkbox` component importable ([e74baff](https://github.com/FacioCode/design/commit/e74baff16f85707b00e5a1b5912031115473c2a1))
+* **react:** make `Checkbox`, `Dialog` and `Table` components importable ([f06a8ff](https://github.com/FacioCode/design/commit/f06a8ff2e38d0c249801f392013a57232c497d80))
+* **react:** make `Dialog` component importable ([2392889](https://github.com/FacioCode/design/commit/2392889a8d1dba596018b459de0207861f79837d))
+
+
+### BREAKING CHANGES
+
+* **react:** `"success"` value for Button `color` property was removed. Please use `"brand"` value instead. `"large"` value for Button `size` property was removed. Please use `"medium"` instead.
+
+
+
+
+
 ## [0.23.6](https://github.com/FacioCode/design/compare/v0.23.5...v0.23.6) (2020-12-16)
 
 **Note:** Version bump only for package @faciocode/react
