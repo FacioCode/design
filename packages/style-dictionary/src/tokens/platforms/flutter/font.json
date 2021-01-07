@@ -2,7 +2,7 @@
   "font": {
     "family": {
       "base": {
-        "value": "{asset.font.opensans.name.value}"
+        "value": "{asset.font.openSans.name.value}"
       }
     }
   }
