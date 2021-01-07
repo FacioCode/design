@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.25.0](https://github.com/FacioCode/design/compare/v0.24.0...v0.25.0) (2021-01-07)
+
+
+### Features
+
+* **flutter-styles:** add breakpoint values ([c8c3530](https://github.com/FacioCode/design/commit/c8c35308f82236087515e19a451818ac2d375084))
+* **flutter-styles:** add new background colors ([cebc106](https://github.com/FacioCode/design/commit/cebc1069e61d6009650c883371ec0668b68dc728))
+* **flutter-styles:** add/remove component tokens ([437e783](https://github.com/FacioCode/design/commit/437e783364ca62ce01b296950f3494b80d0cb42f))
+
+
+### BREAKING CHANGES
+
+* **flutter-styles:** all constants from `ContainedButtonStyles` starting with `success` (e.g. `successBackgroundColor`) were removed. Please use `brand` instead (e.g. `brandBackgroundColor`). `brandBorderColor` constant was also removed. Some constants at `OutlinedButtonStyles` were renamed/removed.
+* **flutter-styles:** constants `baseSuccessDark`, `baseSuccessMain`, `borderUnderline` were removed. `borderButtonOutlined` was renamed to `borderOutlinedButton`.
+
+
+
+## 0.23.6 (2020-12-16)
+
+
+
+
+
 # [0.24.0](https://github.com/FacioCode/design/compare/v0.23.6...v0.24.0) (2021-01-07)
 
 

@@ -3,6 +3,53 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.25.0](https://github.com/FacioCode/design/compare/v0.24.0...v0.25.0) (2021-01-07)
+
+
+### Bug Fixes
+
+* **style-dictionary:** improve wrong syntax checking for values ([190f09b](https://github.com/FacioCode/design/commit/190f09b9c150868908209d72e03e34c302186059))
+* **style-dictionary:** remove empty eol of component_styles file ([59e02a8](https://github.com/FacioCode/design/commit/59e02a8499179253ba6a3b93de68ad81c9eabef1))
+
+
+### Code Refactoring
+
+* **style-dictionary:** change token names/references ([8a8a00e](https://github.com/FacioCode/design/commit/8a8a00e251809e7a73e242d215010d8e9b468b0a))
+* **style-dictionary:** remove align typography tokens ([1acbdf8](https://github.com/FacioCode/design/commit/1acbdf82e78faefe0b2ef0f5d1e8740b4b86c3f4))
+* **style-dictionary:** remove success color base tokens ([88dacc0](https://github.com/FacioCode/design/commit/88dacc0c680311899560937d4ec76751fd51374c))
+* **style-dictionary:** rename Open Sans key ([4e64fba](https://github.com/FacioCode/design/commit/4e64fba731fab335cd975098bf445596f542ac9d))
+
+
+### Features
+
+* **style-dictionary:** add `brand` and `selected` background color tokens ([84132bb](https://github.com/FacioCode/design/commit/84132bb0e15a6d7bbfd38bbf43a5413c3f1a8600))
+* **style-dictionary:** add `standardBrand` styles for `alert` ([67bd007](https://github.com/FacioCode/design/commit/67bd0071b88945e17ae800d9f500d95c8bb390b0))
+* **style-dictionary:** add breakpoint size tokens ([2b137c7](https://github.com/FacioCode/design/commit/2b137c7159d4d97798af039ed35cba804c4b4109))
+* **style-dictionary:** add checkbox component tokens ([c4d9383](https://github.com/FacioCode/design/commit/c4d93835b4bae59c8f8d0dcac6eeec37b835201c))
+* **style-dictionary:** add chip component tokens ([4d044b7](https://github.com/FacioCode/design/commit/4d044b76b4054227cd1768f75fb3be6101119a94))
+* **style-dictionary:** add currency, dialog, tableCell and tableRow component tokens ([b9e8ae8](https://github.com/FacioCode/design/commit/b9e8ae8db5a3b0aeb9424f0c7c0591af7ff25f63))
+* **style-dictionary:** add input theme tokens ([c9c2b57](https://github.com/FacioCode/design/commit/c9c2b575a9fb4a860db66b1324934b6819b0bcb8))
+* **style-dictionary:** add max width for button ([81f1b5c](https://github.com/FacioCode/design/commit/81f1b5c144d519b5342075581e11734eb1935a83))
+* **style-dictionary:** add system fonts, rename `native` to `system` ([5629749](https://github.com/FacioCode/design/commit/5629749178cce486ae425003b9d1b0c86f73095e))
+* **style-dictionary:** add/rename tokens ([13b855a](https://github.com/FacioCode/design/commit/13b855ae59c51394c02bda68b38e13b420d51de1))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `brandHover` was renamed to `hover`.
+* **style-dictionary:** `{color.border.button.outlined}` was renamed to `{color.border.outlinedButton}`. `{color.border.underline}` was removed.
+* **style-dictionary:** `success` item was removed. Please use `primary`.
+* **style-dictionary:** `alignLeft`, `alignCenter` and `alignRight` typography tokens are not available anymore.
+* **style-dictionary:** `opensans` now was renamed to `openSans`.
+
+
+
+## 0.23.6 (2020-12-16)
+
+
+
+
+
 # [0.24.0](https://github.com/FacioCode/design/compare/v0.23.6...v0.24.0) (2021-01-07)
 
 

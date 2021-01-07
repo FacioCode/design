@@ -3,6 +3,79 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.25.0](https://github.com/FacioCode/design/compare/v0.24.0...v0.25.0) (2021-01-07)
+
+
+### Bug Fixes
+
+* **style-dictionary:** improve wrong syntax checking for values ([190f09b](https://github.com/FacioCode/design/commit/190f09b9c150868908209d72e03e34c302186059))
+* **style-dictionary:** remove empty eol of component_styles file ([59e02a8](https://github.com/FacioCode/design/commit/59e02a8499179253ba6a3b93de68ad81c9eabef1))
+
+
+### Code Refactoring
+
+* **react:** remove `success` color prop and `large` size prop for Button ([a6c2d65](https://github.com/FacioCode/design/commit/a6c2d653eb78968c3d084bee283a1bbb6ab02909))
+* **style-dictionary:** change token names/references ([8a8a00e](https://github.com/FacioCode/design/commit/8a8a00e251809e7a73e242d215010d8e9b468b0a))
+* **style-dictionary:** remove align typography tokens ([1acbdf8](https://github.com/FacioCode/design/commit/1acbdf82e78faefe0b2ef0f5d1e8740b4b86c3f4))
+* **style-dictionary:** remove success color base tokens ([88dacc0](https://github.com/FacioCode/design/commit/88dacc0c680311899560937d4ec76751fd51374c))
+* **style-dictionary:** rename Open Sans key ([4e64fba](https://github.com/FacioCode/design/commit/4e64fba731fab335cd975098bf445596f542ac9d))
+
+
+### Features
+
+* **flutter-styles:** add breakpoint values ([c8c3530](https://github.com/FacioCode/design/commit/c8c35308f82236087515e19a451818ac2d375084))
+* **flutter-styles:** add new background colors ([cebc106](https://github.com/FacioCode/design/commit/cebc1069e61d6009650c883371ec0668b68dc728))
+* **flutter-styles:** add/remove component tokens ([437e783](https://github.com/FacioCode/design/commit/437e783364ca62ce01b296950f3494b80d0cb42f))
+* **mui-themes:** add overrides for components ([8bcd7ac](https://github.com/FacioCode/design/commit/8bcd7ac34aff1cb91966e9ca5524201d1efce506))
+* **react:** add `Checkbox` component ([1444d95](https://github.com/FacioCode/design/commit/1444d951fbe851fcd61ba2aa0ac2ad4f0bb225c6))
+* **react:** add `Chip` component ([5871a51](https://github.com/FacioCode/design/commit/5871a51b00939b3016d2e9a2f7c82bb84bafc67d))
+* **react:** add `Currency` component ([68a8e63](https://github.com/FacioCode/design/commit/68a8e630ede383f3ab43fdbd5bb209459594d392))
+* **react:** add `Dialog` components ([7a2a4c4](https://github.com/FacioCode/design/commit/7a2a4c42094221774811c2414b2e75fee899e133))
+* **react:** add `Divider` component ([f86bfad](https://github.com/FacioCode/design/commit/f86bfadb7645813164c022a02ba431ce656c3950))
+* **react:** add `IconButton` component ([aadff46](https://github.com/FacioCode/design/commit/aadff461a4ca936306029610019c2e30eeae84c6))
+* **react:** add `Table` components ([5059492](https://github.com/FacioCode/design/commit/5059492047f2fac7c2c5e0810662db057c4afa44))
+* **react:** make `Checkbox` component importable ([e74baff](https://github.com/FacioCode/design/commit/e74baff16f85707b00e5a1b5912031115473c2a1))
+* **react:** make `Checkbox`, `Dialog` and `Table` components importable ([f06a8ff](https://github.com/FacioCode/design/commit/f06a8ff2e38d0c249801f392013a57232c497d80))
+* **react:** make `Dialog` component importable ([2392889](https://github.com/FacioCode/design/commit/2392889a8d1dba596018b459de0207861f79837d))
+* **style-dictionary:** add `brand` and `selected` background color tokens ([84132bb](https://github.com/FacioCode/design/commit/84132bb0e15a6d7bbfd38bbf43a5413c3f1a8600))
+* **style-dictionary:** add `standardBrand` styles for `alert` ([67bd007](https://github.com/FacioCode/design/commit/67bd0071b88945e17ae800d9f500d95c8bb390b0))
+* **style-dictionary:** add breakpoint size tokens ([2b137c7](https://github.com/FacioCode/design/commit/2b137c7159d4d97798af039ed35cba804c4b4109))
+* **style-dictionary:** add checkbox component tokens ([c4d9383](https://github.com/FacioCode/design/commit/c4d93835b4bae59c8f8d0dcac6eeec37b835201c))
+* **style-dictionary:** add chip component tokens ([4d044b7](https://github.com/FacioCode/design/commit/4d044b76b4054227cd1768f75fb3be6101119a94))
+* **style-dictionary:** add currency, dialog, tableCell and tableRow component tokens ([b9e8ae8](https://github.com/FacioCode/design/commit/b9e8ae8db5a3b0aeb9424f0c7c0591af7ff25f63))
+* **style-dictionary:** add input theme tokens ([c9c2b57](https://github.com/FacioCode/design/commit/c9c2b575a9fb4a860db66b1324934b6819b0bcb8))
+* **style-dictionary:** add max width for button ([81f1b5c](https://github.com/FacioCode/design/commit/81f1b5c144d519b5342075581e11734eb1935a83))
+* **style-dictionary:** add system fonts, rename `native` to `system` ([5629749](https://github.com/FacioCode/design/commit/5629749178cce486ae425003b9d1b0c86f73095e))
+* **style-dictionary:** add/rename tokens ([13b855a](https://github.com/FacioCode/design/commit/13b855ae59c51394c02bda68b38e13b420d51de1))
+* **styles:** add component styles ([f29e6f6](https://github.com/FacioCode/design/commit/f29e6f66ffc86b09f3690619c23272ff2c068585))
+* **styles:** add new background colors ([47941c7](https://github.com/FacioCode/design/commit/47941c770f5a7e4eae2b1e82fea8e218d5431aad))
+
+
+* Update componentTokens.ts ([7c2fc9c](https://github.com/FacioCode/design/commit/7c2fc9c720a72b659c6339aee4959ba013f14119))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `brandHover` was renamed to `hover`.
+* **style-dictionary:** `{color.border.button.outlined}` was renamed to `{color.border.outlinedButton}`. `{color.border.underline}` was removed.
+* **style-dictionary:** `success` item was removed. Please use `primary`.
+* **style-dictionary:** `alignLeft`, `alignCenter` and `alignRight` typography tokens are not available anymore.
+* **style-dictionary:** `opensans` now was renamed to `openSans`.
+* **react:** `"success"` value for Button `color` property was removed. Please use `"brand"` value instead. `"large"` value for Button `size` property was removed. Please use `"medium"` instead.
+* **styles:** constants `baseSuccessDark`, `baseSuccessMain`, `borderUnderline` were removed. `borderButtonOutlined` was renamed to `borderOutlinedButton`.
+* some component tokens were renamed/removed.
+* **styles:** some constants were renamed/removed.
+* **flutter-styles:** all constants from `ContainedButtonStyles` starting with `success` (e.g. `successBackgroundColor`) were removed. Please use `brand` instead (e.g. `brandBackgroundColor`). `brandBorderColor` constant was also removed. Some constants at `OutlinedButtonStyles` were renamed/removed.
+* **flutter-styles:** constants `baseSuccessDark`, `baseSuccessMain`, `borderUnderline` were removed. `borderButtonOutlined` was renamed to `borderOutlinedButton`.
+
+
+
+## 0.23.6 (2020-12-16)
+
+
+
+
+
 # [0.24.0](https://github.com/FacioCode/design/compare/v0.23.6...v0.24.0) (2021-01-07)
 
 
