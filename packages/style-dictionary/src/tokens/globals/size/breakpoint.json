@@ -1,0 +1,11 @@
+{
+  "size": {
+    "breakpoint": {
+      "phone": { "value": 0 },
+      "tabletPortrait": { "value": 600 },
+      "tabletLandscape": { "value": 900 },
+      "desktop": { "value": 1200 },
+      "bigDesktop": { "value": 1800 }
+    }
+  }
+}
