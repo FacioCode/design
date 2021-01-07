@@ -36,8 +36,12 @@ export const overrides : ThemeOptions["overrides"] = {
       ...customProperties.outlinedButtonStyles.default,
     },
     outlinedPrimary: {
-      ...customProperties.outlinedButtonStyles.brand,
-      "&:hover": customProperties.outlinedButtonStyles.brandHover,
+      ...customProperties.outlinedButtonStyles.default,
+      "&:hover": customProperties.outlinedButtonStyles.hover,
+    },
+    outlinedSecondary: {
+      ...customProperties.outlinedButtonStyles.default,
+      "&:hover": customProperties.outlinedButtonStyles.hover,
     },
     outlinedSizeSmall: customProperties.outlinedButtonStyles.sizeSmall,
     root: {
@@ -57,6 +61,28 @@ export const overrides : ThemeOptions["overrides"] = {
   },
   MuiCardContent: {
     root: customProperties.cardContentStyles.root,
+  },
+  MuiCheckbox: {
+    root: {
+      ...customProperties.checkboxStyles.root,
+
+      /**
+       * The `MuiCheckbox` component increases the CSS specificity of the `checked` internal state.
+       *
+       * So we are using the `$ruleName` syntax.
+       */
+      "&$checked": customProperties.checkboxStyles.checked,
+
+      /**
+       * The `MuiCheckbox` component increases the CSS specificity of the `disabled` internal state.
+       *
+       * So we are using the `$ruleName` syntax.
+       */
+      "&$disabled": customProperties.checkboxStyles.disabled,
+    },
+  },
+  MuiChip: {
+    root: customProperties.chipStyles.root,
   },
   MuiCssBaseline: {
     "@global": {
@@ -81,6 +107,31 @@ export const overrides : ThemeOptions["overrides"] = {
       "strong, b": customProperties.baselineStyles.bold,
     },
   },
+  MuiDialog: {
+    paper: customProperties.dialogStyles.paper,
+    paperWidthSm: customProperties.dialogStyles.paperWidthSm,
+  },
+  MuiDialogActions: {
+    root: customProperties.dialogStyles.actions,
+    spacing: {
+      "& > :not(:first-child)": customProperties.dialogStyles.actionsSpacingChildren,
+    },
+  },
+  MuiDialogContent: {
+    root: customProperties.dialogStyles.content,
+  },
+  MuiDialogContentText: {
+    root: {
+      ...customProperties.dialogStyles.contentText,
+      textAlign: "center",
+    },
+  },
+  MuiDialogTitle: {
+    root: {
+      ...customProperties.dialogStyles.title,
+      textAlign: "center",
+    },
+  },
 
   /**
    * @todo Check styles for FormLabel
@@ -101,6 +152,12 @@ export const overrides : ThemeOptions["overrides"] = {
       ...customProperties.paperStyles.square,
     },
     rounded: customProperties.paperStyles.rounded,
+  },
+  MuiTableCell: customProperties.tableCellStyles,
+  MuiTableRow: {
+    root: {
+      "&$selected, &$selected:hover": customProperties.tableRowStyles.selected,
+    },
   },
 };
 
