@@ -1,0 +1,15 @@
+{
+  "color": {
+    "input": {
+      "checked": {
+        "value": "{color.base.grey.70.value}"
+      },
+      "default": {
+        "value": "{color.base.grey.60.value}"
+      },
+      "disabled": {
+        "value": "{color.base.grey.50.value}"
+      }
+    }
+  }
+}
