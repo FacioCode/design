@@ -20,6 +20,15 @@ export const alertStyles = {
 
   },
 
+  standardBrand: {
+
+    /**
+     * Background Color for Alert Standard Brand
+     */
+    backgroundColor: "var(--component-alert-standard-brand-background-color, #3fe1b6)",
+
+  },
+
 };
 
 export const appBarStyles = {
@@ -47,6 +56,12 @@ export const appBarStyles = {
 export const buttonStyles = {
 
   root: {
+
+    /**
+     * Max Width for Button Root
+     */
+    maxWidth: "var(--component-button-root-max-width, 600)",
+
 
     /**
      * Min Width for Button Root
@@ -161,7 +176,7 @@ export const cardStyles = {
     /**
      * Background Color for Card Root
      */
-    backgroundColor: "var(--component-card-root-background-color, #ffffff)",
+    backgroundColor: "var(--component-card-root-background-color, #fafafa)",
 
 
     /**
@@ -174,6 +189,37 @@ export const cardStyles = {
      * Color for Card Root
      */
     color: "var(--component-card-root-color, #424d5c)",
+
+  },
+
+};
+
+export const checkboxStyles = {
+
+  root: {
+
+    /**
+     * Color for Checkbox Root
+     */
+    color: "var(--component-checkbox-root-color, #828c9b)",
+
+  },
+
+  checked: {
+
+    /**
+     * Color for Checkbox Checked
+     */
+    color: "var(--component-checkbox-checked-color, #424d5c)",
+
+  },
+
+  disabled: {
+
+    /**
+     * Color for Checkbox Disabled
+     */
+    color: "var(--component-checkbox-disabled-color, #afb4bb)",
 
   },
 
@@ -193,6 +239,12 @@ export const chipStyles = {
      * Border Width for Chip Root
      */
     borderWidth: "var(--component-chip-root-border-width, 1px)",
+
+
+    /**
+     * Height for Chip Root
+     */
+    height: "var(--component-chip-root-height, 32px)",
 
   },
 
@@ -359,51 +411,6 @@ export const containedButtonStyles = {
      * Border Radius for Contained Button Size Small
      */
     borderRadius: "var(--component-contained-button-size-small-border-radius, 16px)",
-
-  },
-
-  success: {
-
-    /**
-     * Background Color for Contained Button Success
-     */
-    backgroundColor: "var(--component-contained-button-success-background-color, #068589)",
-
-
-    /**
-     * Color for Contained Button Success
-     */
-    color: "var(--component-contained-button-success-color, #ffffff)",
-
-  },
-
-  successHover: {
-
-    /**
-     * Background Color for Contained Button Success Hover
-     */
-    backgroundColor: "var(--component-contained-button-success-hover-background-color, #068589)",
-
-
-    /**
-     * Color for Contained Button Success Hover
-     */
-    color: "var(--component-contained-button-success-hover-color, #ffffff)",
-
-  },
-
-  successPressed: {
-
-    /**
-     * Background Color for Contained Button Success Pressed
-     */
-    backgroundColor: "var(--component-contained-button-success-pressed-background-color, #005c5e)",
-
-
-    /**
-     * Color for Contained Button Success Pressed
-     */
-    color: "var(--component-contained-button-success-pressed-color, #ffffff)",
 
   },
 
@@ -612,27 +619,27 @@ export const outlinedButtonStyles = {
 
   },
 
-  brand: {
+  pressed: {
 
     /**
-     * Border Color for Outlined Button Brand
+     * Border Color for Outlined Button Pressed
      */
-    borderColor: "var(--component-outlined-button-brand-border-color, #e2e3e4)",
+    borderColor: "var(--component-outlined-button-pressed-border-color, #2bc4a8)",
 
 
     /**
-     * Color for Outlined Button Brand
+     * Color for Outlined Button Pressed
      */
-    color: "var(--component-outlined-button-brand-color, #424d5c)",
+    color: "var(--component-outlined-button-pressed-color, #424d5c)",
 
   },
 
-  brandHover: {
+  hover: {
 
     /**
-     * Border Color for Outlined Button Brand Hover
+     * Border Color for Outlined Button Hover
      */
-    borderColor: "var(--component-outlined-button-brand-hover-border-color, #3fe1b6)",
+    borderColor: "var(--component-outlined-button-hover-border-color, #3fe1b6)",
 
   },
 
@@ -657,6 +664,15 @@ export const outlinedButtonStyles = {
 
   },
 
+  sizeMedium: {
+
+    /**
+     * Border Radius for Outlined Button Size Medium
+     */
+    borderRadius: "var(--component-outlined-button-size-medium-border-radius, 8px)",
+
+  },
+
 };
 
 export const paperStyles = {
@@ -666,7 +682,7 @@ export const paperStyles = {
     /**
      * Background Color for Paper Root
      */
-    backgroundColor: "var(--component-paper-root-background-color, #ffffff)",
+    backgroundColor: "var(--component-paper-root-background-color, #fafafa)",
 
 
     /**
@@ -1217,33 +1233,6 @@ export const typographyStyles = {
 
   },
 
-  alignLeft: {
-
-    /**
-     * Text Align for Typography Align Left
-     */
-    textAlign: "var(--component-typography-align-left-text-align, leftem)",
-
-  },
-
-  alignCenter: {
-
-    /**
-     * Text Align for Typography Align Center
-     */
-    textAlign: "var(--component-typography-align-center-text-align, centerem)",
-
-  },
-
-  alignRight: {
-
-    /**
-     * Text Align for Typography Align Right
-     */
-    textAlign: "var(--component-typography-align-right-text-align, rightem)",
-
-  },
-
 };
 
 export const baselineStyles = {
@@ -1374,6 +1363,128 @@ export const buttonBaseStyles = {
 
 };
 
+export const currencyStyles = {
+
+  root: {
+
+    /**
+     * Font Family for Currency Root
+     */
+    fontFamily: "var(--component-currency-root-font-family, 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace)",
+
+  },
+
+};
+
+export const dialogStyles = {
+
+  actions: {
+
+    /**
+     * Padding Bottom for Dialog Actions
+     */
+    paddingBottom: "var(--component-dialog-actions-padding-bottom, 48px)",
+
+
+    /**
+     * Padding Left for Dialog Actions
+     */
+    paddingLeft: "var(--component-dialog-actions-padding-left, 32px)",
+
+
+    /**
+     * Padding Right for Dialog Actions
+     */
+    paddingRight: "var(--component-dialog-actions-padding-right, 32px)",
+
+
+    /**
+     * Padding Top for Dialog Actions
+     */
+    paddingTop: "var(--component-dialog-actions-padding-top, 8px)",
+
+  },
+
+  actionsSpacingChildren: {
+
+    /**
+     * Margin Left for Dialog Actions Spacing Children
+     */
+    marginLeft: "var(--component-dialog-actions-spacing-children-margin-left, 12px)",
+
+  },
+
+  content: {
+
+    /**
+     * Padding Bottom for Dialog Content
+     */
+    paddingBottom: "var(--component-dialog-content-padding-bottom, 8px)",
+
+
+    /**
+     * Padding Left for Dialog Content
+     */
+    paddingLeft: "var(--component-dialog-content-padding-left, 32px)",
+
+
+    /**
+     * Padding Right for Dialog Content
+     */
+    paddingRight: "var(--component-dialog-content-padding-right, 32px)",
+
+  },
+
+  contentText: {
+
+    /**
+     * Margin Bottom for Dialog Content Text
+     */
+    marginBottom: "var(--component-dialog-content-text-margin-bottom, 12px)",
+
+  },
+
+  paper: {
+
+    /**
+     * Background Color for Dialog Paper
+     */
+    backgroundColor: "var(--component-dialog-paper-background-color, #fafafa)",
+
+
+    /**
+     * Border Radius for Dialog Paper
+     */
+    borderRadius: "var(--component-dialog-paper-border-radius, 8px)",
+
+  },
+
+  paperWidthSm: {
+
+    /**
+     * Max Width for Dialog Paper Width Sm
+     */
+    maxWidth: "var(--component-dialog-paper-width-sm-max-width, 600)",
+
+  },
+
+  title: {
+
+    /**
+     * Padding Left for Dialog Title
+     */
+    paddingLeft: "var(--component-dialog-title-padding-left, 32px)",
+
+
+    /**
+     * Padding Right for Dialog Title
+     */
+    paddingRight: "var(--component-dialog-title-padding-right, 32px)",
+
+  },
+
+};
+
 export const formLabelStyles = {
 
   root: {
@@ -1388,6 +1499,38 @@ export const formLabelStyles = {
      * Padding for Form Label Root
      */
     padding: "var(--component-form-label-root-padding, 0px)",
+
+  },
+
+};
+
+export const tableCellStyles = {
+
+  root: {
+
+    /**
+     * Border Bottom Color for Table Cell Root
+     */
+    borderBottomColor: "var(--component-table-cell-root-border-bottom-color, #e2e3e4)",
+
+
+    /**
+     * Border Bottom Width for Table Cell Root
+     */
+    borderBottomWidth: "var(--component-table-cell-root-border-bottom-width, 1px)",
+
+  },
+
+};
+
+export const tableRowStyles = {
+
+  selected: {
+
+    /**
+     * Background Color for Table Row Selected
+     */
+    backgroundColor: "var(--component-table-row-selected-background-color, #e3fcff)",
 
   },
 
