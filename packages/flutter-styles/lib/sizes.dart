@@ -23,6 +23,11 @@ class Sizes {
   static const borderWidthDouble = 2.00;
   static const borderWidthNone = 0.00;
   static const borderWidthSingle = 1.00;
+  static const breakpointBigDesktop = 1800;
+  static const breakpointDesktop = 1200;
+  static const breakpointPhone = 0;
+  static const breakpointTabletLandscape = 900;
+  static const breakpointTabletPortrait = 600;
   static const fontBaseFontSize = 17.00;
   static const fontBaseLetterSpacing = -0.43;
   static const fontBaseLineHeight = 24.00;
