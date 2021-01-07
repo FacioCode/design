@@ -1,19 +1,20 @@
 {
   "component": {
     "outlinedButton": {
+      "comment": "There are no color variations for outlined button.",
       "root": {
         "comment": "Styles applied to the root element if variant is outlined",
         "borderWidth": { "value": "{size.border.width.single.value}" }
       },
       "default": {
-        "borderColor": { "value": "{color.border.button.outlined.value}" },
+        "borderColor": { "value": "{color.border.outlinedButton.value}" },
         "color": { "value": "{color.font.primary.value}" }
       },
-      "brand": {
-        "borderColor": { "value": "{component.outlinedButton.default.borderColor.value}" },
+      "pressed": {
+        "borderColor": { "value": "{color.border.outlinedButtonPressed.value}" },
         "color": { "value": "{component.outlinedButton.default.color.value}" }
       },
-      "brandHover": {
+      "hover": {
         "borderColor": { "value": "{color.base.primary.main.value}" }
       },
       "sizeSmall": {
@@ -21,6 +22,9 @@
         "borderRadius": { "value": "{size.border.radius.double.value}" },
         "paddingBottom": { "value": "{size.base.quarter.value}" },
         "paddingTop": { "value": "{size.base.quarter.value}" }
+      },
+      "sizeMedium": {
+        "borderRadius": { "value": "{size.border.radius.single.value}" }
       }
     }
   }
