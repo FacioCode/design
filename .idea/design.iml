@@ -31,6 +31,7 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
