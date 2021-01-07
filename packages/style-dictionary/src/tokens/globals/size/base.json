@@ -7,7 +7,7 @@
       "half": { "value": 4 },
       "single": { "value": 8 },
       "singleHalf": {
-        "comment": "Commonly used for medium button vertical padding",
+        "comment": "Commonly used for medium button vertical padding or dialog content text margin",
         "value": 12
       },
       "double": {
