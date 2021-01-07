@@ -6,6 +6,9 @@
       },
       "standardInfo": {
         "backgroundColor": { "value": "{color.background.alert.standardInfo.value}" }
+      },
+      "standardBrand": {
+        "backgroundColor": { "value": "{color.background.brand.value}" }
       }
     }
   }
