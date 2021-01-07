@@ -1,9 +1,12 @@
 export { Alert, AlertProps } from "./Alert";
 export { Button, ButtonProps } from "./Button";
 export { Card, CardContent, CardProps } from "./Card";
+export { Checkbox, CheckboxProps } from "./Checkbox";
 export { CssBaseline } from "./CssBaseline";
+export * from "./Dialog";
 export { FormLabel, FormLabelProps } from "./FormLabel";
 export { InputBase, InputBaseProps } from "./InputBase";
 export { Paper, PaperProps } from "./Paper";
+export * from "./Table";
 export { ThemeProvider, ThemeProviderProps } from "./ThemeProvider";
 export { Typography, TypographyProps } from "./Typography";
