@@ -1,14 +1,16 @@
 {
   "color": {
     "border": {
-      "button": {
-        "outlined": {
-          "comment": "Border color commonly used for button with outlined variant.",
-          "value": "{color.base.grey.30.value}"
-        }
+      "outlinedButton": {
+        "comment": "Border color commonly used for button with outlined variant.",
+        "value": "{color.base.grey.30.value}"
       },
-      "underline": {
-        "value": "{color.base.grey.80.value}"
+      "outlinedButtonPressed": {
+        "value": "{color.base.aquamarine.60.value}"
+      },
+      "divider": {
+        "comment": "It must be a value that offers good/sufficient contrast for white backgrounds",
+        "value": "{color.base.grey.30.value}"
       }
     }
   }
