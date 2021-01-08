@@ -1,6 +1,9 @@
 {
   "component": {
     "alert": {
+      "icon": {
+        "marginRight": { "value": "{size.base.single.value}" }
+      },
       "root": {
         "borderRadius": { "value": "{size.border.radius.single.value}" }
       },
