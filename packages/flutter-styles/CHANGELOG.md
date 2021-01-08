@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.26.0](https://github.com/FacioCode/design/compare/v0.25.5...v0.26.0) (2021-01-08)
+
+
+### Features
+
+* **flutter-styles:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
+
+
+
+
+
 ## [0.25.5](https://github.com/FacioCode/design/compare/v0.25.4...v0.25.5) (2021-01-08)
 
 **Note:** Version bump only for package facio_styles

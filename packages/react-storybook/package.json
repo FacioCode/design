@@ -1,6 +1,6 @@
 {
   "name": "@faciocode/react-storybook",
-  "version": "0.25.5",
+  "version": "0.26.0",
   "private": true,
   "description": "Storybook for Facio Design System React components",
   "keywords": [
@@ -37,6 +37,6 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "devDependencies": {
-    "@faciocode/react": "^0.25.5"
+    "@faciocode/react": "^0.26.0"
   }
 }
