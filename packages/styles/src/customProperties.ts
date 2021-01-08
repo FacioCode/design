@@ -658,9 +658,9 @@ export const outlinedButtonStyles = {
   disabled: {
 
     /**
-     * Border Color for Outlined Button Disabled
+     * Color for Outlined Button Disabled
      */
-    borderColor: "var(--component-outlined-button-disabled-border-color, #afb4bb)",
+    color: "var(--component-outlined-button-disabled-color, #afb4bb)",
 
   },
 
