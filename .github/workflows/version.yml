@@ -35,7 +35,3 @@ jobs:
         env:
           GH_TOKEN: ${{secrets.gh_token}}
           GH_AUTH_TOKEN: ${{secrets.gh_auth_token}}
-      - name: Rebuild all packages
-        run: npm run build
-      - name: Bump pubspec version
-        run: sh ./.github/scripts/bump-pubspec.sh

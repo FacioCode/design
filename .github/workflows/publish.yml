@@ -21,6 +21,8 @@ jobs:
         run: npm ci
       - name: Build and run tests
         run: npm test
+      - name: Bump pubspec version
+        run: sh ./.github/scripts/bump-pubspec.sh
       - name: List dist/ folders
         run: ls packages/*/dist
       - name: Cache generated files
@@ -60,14 +62,14 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - name: Install lerna globally
-        run: npm install --global --loglevel=error lerna
       - name: Install project dependencies
         run: npm ci
       - name: Checking npm credentials
         run: npm whoami
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      - name: Bump pubspec version
+        run: sh ./.github/scripts/bump-pubspec.sh
       - name: Publishing to npm
         run: lerna publish from-git --ignore-prepublish --yes
         env:
@@ -96,8 +98,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - name: Install lerna globally
-        run: npm install --global --loglevel=error lerna
+      - name: Bump pubspec version
+        run: sh ./.github/scripts/bump-pubspec.sh
       - name: Install project dependencies
         run: npm ci
       - name: Publishing to GitHub packages
