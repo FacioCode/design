@@ -314,6 +314,9 @@ class RefreshIndicatorStyles {
   /// Padding Top for Refresh Indicator
   static const paddingTop = 0.00;
 
+  /// Displacement for Is Loading
+  static const isLoadingDisplacement = 8.00;
+
   /// Padding Top for Is Loading
   static const isLoadingPaddingTop = 40.00;
 }

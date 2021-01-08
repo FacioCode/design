@@ -5,6 +5,7 @@
         "paddingTop": { "value": "{size.base.none.value}" }
       },
       "isLoading": {
+        "displacement": { "value": "{size.base.single.value}" },
         "paddingTop": { "value": "{size.base.fivefold.value}" }
       }
     }
