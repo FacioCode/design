@@ -190,6 +190,30 @@ export const cardStyles = {
      */
     color: "var(--component-card-root-color, #424d5c)",
 
+
+    /**
+     * Margin Bottom for Card Root
+     */
+    marginBottom: "var(--component-card-root-margin-bottom, 24px)",
+
+
+    /**
+     * Margin Left for Card Root
+     */
+    marginLeft: "var(--component-card-root-margin-left, 16px)",
+
+
+    /**
+     * Margin Right for Card Root
+     */
+    marginRight: "var(--component-card-root-margin-right, 16px)",
+
+
+    /**
+     * Margin Top for Card Root
+     */
+    marginTop: "var(--component-card-root-margin-top, 0px)",
+
   },
 
 };
