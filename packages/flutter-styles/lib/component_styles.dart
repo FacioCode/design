@@ -307,3 +307,13 @@ class PaperStyles {
   /// Border Radius for Square
   static const squareBorderRadius = 0.00;
 }
+
+class RefreshIndicatorStyles {
+  RefreshIndicatorStyles._();
+
+  /// Padding Top for Refresh Indicator
+  static const paddingTop = 0.00;
+
+  /// Padding Top for Is Loading
+  static const isLoadingPaddingTop = 40.00;
+}
