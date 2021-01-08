@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.28.0](https://github.com/FacioCode/design/compare/v0.27.0...v0.28.0) (2021-01-08)
+
+
+### Bug Fixes
+
+* **style-dictionary:** fix refresh indicator component tokens syntax ([23e9f98](https://github.com/FacioCode/design/commit/23e9f98600db6aa5826b0426a1f3587b45172247))
+
+
+### Features
+
+* add/remove margin tokens, add circular progress color for primary ([94609c7](https://github.com/FacioCode/design/commit/94609c7c2b1e21a840d3d251345aec576c69f13f))
+
+
+
+
+
 # [0.27.0](https://github.com/FacioCode/design/compare/v0.26.0...v0.27.0) (2021-01-08)
 
 

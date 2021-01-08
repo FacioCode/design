@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.28.0](https://github.com/FacioCode/design/compare/v0.27.0...v0.28.0) (2021-01-08)
+
+
+### Code Refactoring
+
+* **styles:** remove `borderOutlinedButtonDisabled` color token ([cd19231](https://github.com/FacioCode/design/commit/cd19231bc92b7a900ee0810facf2f98d2fcddaa5))
+* **styles:** rename outlined button disabled color token ([9ffdcf4](https://github.com/FacioCode/design/commit/9ffdcf4874bf0d2612252989642ad0872a405693))
+* **styles:** rename outlined disabled button color token ([3db1502](https://github.com/FacioCode/design/commit/3db1502b8ae07bf6ed6d09ee8903640145259c24))
+
+
+### Features
+
+* add/remove margin tokens, add circular progress color for primary ([94609c7](https://github.com/FacioCode/design/commit/94609c7c2b1e21a840d3d251345aec576c69f13f))
+* **styles:** add border color for disabled outlined button ([84c18b4](https://github.com/FacioCode/design/commit/84c18b44cabbea71b84777bb8e16fc1909250eee))
+* **styles:** add/rename tokens ([2f77621](https://github.com/FacioCode/design/commit/2f7762101e82576a87ace2c7b1021cf3fc9e7a63))
+* **styles:** add/rename tokens ([3de5faf](https://github.com/FacioCode/design/commit/3de5fafaf6c5e3a668248dd90300ade38de05745))
+
+
+### BREAKING CHANGES
+
+* **styles:** `outlinedButtonStyles.disabled.borderColor` was renamed to `outlinedButtonStyles.disabled.color`
+* **styles:** `outlinedButtonDisabledBorderColor` component token was renamed to `outlinedButtonDisabledColor`.
+* **styles:** `borderOutlinedButtonDisabled` is not available anymore
+* **styles:** `buttonSizeMediumBorderRadius` (`buttonStyles.sizeMedium.borderRadius`) now is `containedButtonSizeMediumBorderRadius` (`containedButtonStyles.sizeMedium.borderRadius`)
+* **styles:** `buttonSizeMediumBorderRadius` (`buttonStyles.sizeMedium.borderRadius`) now is `containedButtonSizeMediumBorderRadius` (`containedButtonStyles.sizeMedium.borderRadius`)
+
+
+
+# [0.26.0](https://github.com/FacioCode/design/compare/v0.25.5...v0.26.0) (2021-01-08)
+
+
+### Features
+
+* **styles:** add card margin tokens ([3a44650](https://github.com/FacioCode/design/commit/3a446505ea859b6fb1c95ca046dc77f5e46e9add))
+
+
+
+## 0.25.5 (2021-01-08)
+
+
+
+
+
 # [0.27.0](https://github.com/FacioCode/design/compare/v0.26.0...v0.27.0) (2021-01-08)
 
 
