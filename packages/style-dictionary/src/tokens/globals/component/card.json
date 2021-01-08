@@ -4,7 +4,11 @@
       "root": {
         "backgroundColor": { "value": "{component.paper.root.backgroundColor.value}" },
         "borderRadius": { "value": "{size.border.radius.single.value}" },
-        "color": { "value": "{component.paper.root.color.value}" }
+        "color": { "value": "{component.paper.root.color.value}" },
+        "marginBottom": { "value": "{size.base.triple.value}" },
+        "marginLeft": { "value": "{size.base.double.value}" },
+        "marginRight": { "value": "{size.base.double.value}" },
+        "marginTop": { "value": "{size.base.none.value}" }
       }
     }
   }
