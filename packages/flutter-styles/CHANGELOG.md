@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.0](https://github.com/FacioCode/design/compare/v0.26.0...v0.27.0) (2021-01-08)
+
+
+### Features
+
+* **flutter-styles:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
+* **flutter-styles:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
+* **flutter-styles:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
+* **flutter-styles:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
+
+
+
+## 0.25.5 (2021-01-08)
+
+
+
+
+
 # [0.26.0](https://github.com/FacioCode/design/compare/v0.25.5...v0.26.0) (2021-01-08)
 
 

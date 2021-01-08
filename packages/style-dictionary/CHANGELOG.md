@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.0](https://github.com/FacioCode/design/compare/v0.26.0...v0.27.0) (2021-01-08)
+
+
+### Code Refactoring
+
+* **style-dictionary:** change borderRadius from medium button ([b03c7f6](https://github.com/FacioCode/design/commit/b03c7f6c0709169f351113ee4ba8e6375e826cbc))
+
+
+### Features
+
+* **style-dictionary:** add border color for disabled outlined button ([e1e1d5d](https://github.com/FacioCode/design/commit/e1e1d5d528445e6a4e048d5aa49552cb18bd6b8a))
+* **style-dictionary:** add card margin tokens ([9bae44f](https://github.com/FacioCode/design/commit/9bae44f3a53d206f64f3a6ca912feb1b037c11c0))
+* **style-dictionary:** add icon marginRight token for alert ([cd88602](https://github.com/FacioCode/design/commit/cd88602d9f07827e0b4477b02ce4ca50fdbac0de))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `{component.button.sizeMedium.borderRadius.value}` now is `{component.containedButton.sizeMedium.borderRadius.value}`
+
+
+
+## 0.25.5 (2021-01-08)
+
+
+
+
+
 # [0.26.0](https://github.com/FacioCode/design/compare/v0.25.5...v0.26.0) (2021-01-08)
 
 
