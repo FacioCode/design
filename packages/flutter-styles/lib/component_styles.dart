@@ -81,6 +81,18 @@ class CardStyles {
 
   /// Color for Card
   static const color = const Color(0xFF424D5C);
+
+  /// Margin Bottom for Card
+  static const marginBottom = 24.00;
+
+  /// Margin Left for Card
+  static const marginLeft = 16.00;
+
+  /// Margin Right for Card
+  static const marginRight = 16.00;
+
+  /// Margin Top for Card
+  static const marginTop = 0.00;
 }
 
 class CheckboxStyles {
