@@ -254,6 +254,9 @@ class OutlinedButtonStyles {
   /// Color for Default
   static const defaultColor = const Color(0xFF424D5C);
 
+  /// Border Color for Disabled
+  static const disabledBorderColor = Color(0xFFAFB4BB);
+
   /// Border Color for Pressed
   static const pressedBorderColor = Color(0xFF2BC4A8);
 
