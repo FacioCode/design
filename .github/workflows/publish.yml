@@ -21,6 +21,8 @@ jobs:
         run: npm ci
       - name: Build and run tests
         run: npm test
+      - name: Set git author identity
+        run: sh ./.github/scripts/configure-git.sh
       - name: Bump pubspec version
         run: sh ./.github/scripts/bump-pubspec.sh
       - name: List dist/ folders
@@ -68,6 +70,8 @@ jobs:
         run: npm whoami
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      - name: Set git author identity
+        run: sh ./.github/scripts/configure-git.sh
       - name: Bump pubspec version
         run: sh ./.github/scripts/bump-pubspec.sh
       - name: Publishing to npm
@@ -98,6 +102,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+      - name: Set git author identity
+        run: sh ./.github/scripts/configure-git.sh
       - name: Bump pubspec version
         run: sh ./.github/scripts/bump-pubspec.sh
       - name: Install project dependencies

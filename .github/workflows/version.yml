@@ -28,7 +28,7 @@ jobs:
         run: npm install --global --loglevel=error lerna
       - name: Install project dependencies
         run: npm ci
-      - name: Set git commit user
+      - name: Set git author identity
         run: sh ./.github/scripts/configure-git.sh
       - name: Bump versions and create release
         run: lerna version --conventional-commits --create-release github --force-publish --yes
