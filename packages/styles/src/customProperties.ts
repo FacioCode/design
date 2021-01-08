@@ -2,6 +2,15 @@
 
 export const alertStyles = {
 
+  icon: {
+
+    /**
+     * Margin Right for Alert Icon
+     */
+    marginRight: "var(--component-alert-icon-margin-right, 8px)",
+
+  },
+
   root: {
 
     /**
@@ -128,12 +137,6 @@ export const buttonStyles = {
   },
 
   sizeMedium: {
-
-    /**
-     * Border Radius for Button Size Medium
-     */
-    borderRadius: "var(--component-button-size-medium-border-radius, 24px)",
-
 
     /**
      * Height for Button Size Medium
@@ -429,6 +432,15 @@ export const containedButtonStyles = {
 
   },
 
+  sizeMedium: {
+
+    /**
+     * Border Radius for Contained Button Size Medium
+     */
+    borderRadius: "var(--component-contained-button-size-medium-border-radius, 24px)",
+
+  },
+
   sizeSmall: {
 
     /**
@@ -640,6 +652,15 @@ export const outlinedButtonStyles = {
      * Color for Outlined Button Default
      */
     color: "var(--component-outlined-button-default-color, #424d5c)",
+
+  },
+
+  disabled: {
+
+    /**
+     * Border Color for Outlined Button Disabled
+     */
+    borderColor: "var(--component-outlined-button-disabled-border-color, #afb4bb)",
 
   },
 
