@@ -35,7 +35,6 @@
       },
       "sizeMedium": {
         "comment": "Styles applied to the root element if size is medium.",
-        "borderRadius": { "value": "{size.border.radius.triple.value}" },
         "height": { "value": "{size.base.sixfold.value}" },
         "paddingBottom": { "value": "{size.base.singleHalf.value}" },
         "paddingTop": { "value": "{size.base.singleHalf.value}" }

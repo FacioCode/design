@@ -44,6 +44,9 @@
         "backgroundColor": { "value": "{color.base.secondary.dark.value}" },
         "color": { "value": "{color.font.inverse.value}" }
       },
+      "sizeMedium": {
+        "borderRadius": { "value": "{size.border.radius.triple.value}" }
+      },
       "sizeSmall": {
         "borderRadius": { "value": "{size.border.radius.double.value}" }
       },
