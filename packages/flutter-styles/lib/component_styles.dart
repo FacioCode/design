@@ -3,6 +3,9 @@ part of facio_styles;
 class AlertStyles {
   AlertStyles._();
 
+  /// Margin Right for Icon
+  static const iconMarginRight = 8.00;
+
   /// Border Radius for Alert
   static const borderRadius = 8.00;
 
@@ -49,9 +52,6 @@ class ButtonStyles {
 
   /// Padding Top for Size Small
   static const sizeSmallPaddingTop = 4.00;
-
-  /// Border Radius for Size Medium
-  static const sizeMediumBorderRadius = 24.00;
 
   /// Height for Size Medium
   static const sizeMediumHeight = 48.00;
@@ -183,6 +183,9 @@ class ContainedButtonStyles {
 
   /// Color for Default Pressed
   static const defaultPressedColor = const Color(0xFFFFFFFF);
+
+  /// Border Radius for Size Medium
+  static const sizeMediumBorderRadius = 24.00;
 
   /// Border Radius for Size Small
   static const sizeSmallBorderRadius = 24.00;
