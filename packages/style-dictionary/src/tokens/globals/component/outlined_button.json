@@ -10,6 +10,9 @@
         "borderColor": { "value": "{color.border.outlinedButton.value}" },
         "color": { "value": "{color.font.primary.value}" }
       },
+      "disabled": {
+        "borderColor": { "value": "{color.border.outlinedButtonDisabled.value}" }
+      },
       "pressed": {
         "borderColor": { "value": "{color.border.outlinedButtonPressed.value}" },
         "color": { "value": "{component.outlinedButton.default.color.value}" }
