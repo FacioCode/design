@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.26.0](https://github.com/FacioCode/design/compare/v0.25.5...v0.26.0) (2021-01-08)
+
+
+### Features
+
+* **style-dictionary:** add card margin tokens ([9bae44f](https://github.com/FacioCode/design/commit/9bae44f3a53d206f64f3a6ca912feb1b037c11c0))
+
+
+
+
+
 ## [0.25.5](https://github.com/FacioCode/design/compare/v0.25.4...v0.25.5) (2021-01-08)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
