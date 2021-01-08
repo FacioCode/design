@@ -64,8 +64,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - name: Install project dependencies
-        run: npm ci
+      - name: Install Lerna globally
+        run: npm install -g lerna
       - name: Checking npm credentials
         run: npm whoami
         env:
@@ -102,8 +102,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - name: Set git author identity
         run: sh ./.github/scripts/configure-git.sh
-      - name: Install project dependencies
-        run: npm ci
+      - name: Install Lerna globally
+        run: npm install -g lerna
       - name: Publishing to GitHub packages
         run: lerna publish from-git --ignore-prepublish --registry https://npm.pkg.github.com/ --yes
         env:
