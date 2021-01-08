@@ -78,6 +78,7 @@ export const baseWhite = "#ffffff";
 export const baseBlack = "#1f252e";
 export const borderOutlinedButton = "#e2e3e4"; // Border color commonly used for button with outlined variant.
 export const borderOutlinedButtonPressed = "#2bc4a8";
+export const borderOutlinedButtonDisabled = "#afb4bb";
 export const borderDivider = "#e2e3e4"; // It must be a value that offers good/sufficient contrast for white backgrounds
 export const fontDisabled = "#afb4bb"; // For checkboxes, please use color.input.disabled.value
 export const fontHeadline1 = "#1f252e";
