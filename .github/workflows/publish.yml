@@ -72,8 +72,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
       - name: Set git author identity
         run: sh ./.github/scripts/configure-git.sh
-      - name: Bump pubspec version
-        run: sh ./.github/scripts/bump-pubspec.sh
       - name: Publishing to npm
         run: lerna publish from-git --ignore-prepublish --yes
         env:
@@ -104,8 +102,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - name: Set git author identity
         run: sh ./.github/scripts/configure-git.sh
-      - name: Bump pubspec version
-        run: sh ./.github/scripts/bump-pubspec.sh
       - name: Install project dependencies
         run: npm ci
       - name: Publishing to GitHub packages
