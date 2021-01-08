@@ -83,7 +83,6 @@ class ColorPalette {
   static const Color baseWhite = const Color(0xFFFFFFFF);
   static const Color borderDivider = const Color(0xFFE2E3E4);
   static const Color borderOutlinedButton = const Color(0xFFE2E3E4);
-  static const Color borderOutlinedButtonDisabled = const Color(0xFFAFB4BB);
   static const Color borderOutlinedButtonPressed = const Color(0xFF2BC4A8);
   static const Color fontDisabled = const Color(0xFFAFB4BB);
   static const Color fontHeadline1 = const Color(0xFF1F252E);
