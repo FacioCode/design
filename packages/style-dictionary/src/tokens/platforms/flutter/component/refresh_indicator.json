@@ -1,0 +1,12 @@
+{
+  "component": {
+    "refreshIndicator": {
+      "root": {
+        "paddingTop": "{size.base.none.value}"
+      },
+      "isLoading": {
+        "paddingTop": "{size.base.fivefold.value}"
+      }
+    }
+  }
+}

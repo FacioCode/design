@@ -11,7 +11,7 @@
         "color": { "value": "{color.font.primary.value}" }
       },
       "disabled": {
-        "borderColor": { "value": "{color.border.outlinedButtonDisabled.value}" }
+        "color": { "value": "{color.font.disabled.value}" }
       },
       "pressed": {
         "borderColor": { "value": "{color.border.outlinedButtonPressed.value}" },

@@ -18,6 +18,30 @@ export const alertStyles = {
      */
     borderRadius: "var(--component-alert-root-border-radius, 8px)",
 
+
+    /**
+     * Margin Bottom for Alert Root
+     */
+    marginBottom: "var(--component-alert-root-margin-bottom, 24px)",
+
+
+    /**
+     * Margin Left for Alert Root
+     */
+    marginLeft: "var(--component-alert-root-margin-left, 16px)",
+
+
+    /**
+     * Margin Right for Alert Root
+     */
+    marginRight: "var(--component-alert-root-margin-right, 16px)",
+
+
+    /**
+     * Margin Top for Alert Root
+     */
+    marginTop: "var(--component-alert-root-margin-top, 4px)",
+
   },
 
   standardInfo: {
@@ -197,19 +221,7 @@ export const cardStyles = {
     /**
      * Margin Bottom for Card Root
      */
-    marginBottom: "var(--component-card-root-margin-bottom, 24px)",
-
-
-    /**
-     * Margin Left for Card Root
-     */
-    marginLeft: "var(--component-card-root-margin-left, 16px)",
-
-
-    /**
-     * Margin Right for Card Root
-     */
-    marginRight: "var(--component-card-root-margin-right, 16px)",
+    marginBottom: "var(--component-card-root-margin-bottom, 16px)",
 
 
     /**
@@ -272,6 +284,19 @@ export const chipStyles = {
      * Height for Chip Root
      */
     height: "var(--component-chip-root-height, 32px)",
+
+  },
+
+};
+
+export const circularProgressStyles = {
+
+  colorPrimary: {
+
+    /**
+     * Color for Circular Progress Color Primary
+     */
+    color: "var(--component-circular-progress-color-primary-color, #2bc4a8)",
 
   },
 

@@ -1,0 +1,9 @@
+{
+  "component": {
+    "circularProgress": {
+      "colorPrimary": {
+        "color": { "value": "{color.base.primary.dark.value}" }
+      }
+    }
+  }
+}

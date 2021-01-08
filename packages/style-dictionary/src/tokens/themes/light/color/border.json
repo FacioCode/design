@@ -8,9 +8,6 @@
       "outlinedButtonPressed": {
         "value": "{color.base.aquamarine.60.value}"
       },
-      "outlinedButtonDisabled": {
-        "value": "{color.font.disabled.value}"
-      },
       "divider": {
         "comment": "It must be a value that offers good/sufficient contrast for white backgrounds",
         "value": "{color.base.grey.30.value}"

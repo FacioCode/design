@@ -5,7 +5,11 @@
         "marginRight": { "value": "{size.base.single.value}" }
       },
       "root": {
-        "borderRadius": { "value": "{size.border.radius.single.value}" }
+        "borderRadius": { "value": "{size.border.radius.single.value}" },
+        "marginBottom": { "value": "{size.base.triple.value}" },
+        "marginLeft": { "value": "{size.base.double.value}" },
+        "marginRight": { "value": "{size.base.double.value}" },
+        "marginTop": { "value": "{size.base.half.value}" }
       },
       "standardInfo": {
         "backgroundColor": { "value": "{color.background.alert.standardInfo.value}" }

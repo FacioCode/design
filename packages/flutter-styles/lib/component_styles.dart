@@ -9,6 +9,18 @@ class AlertStyles {
   /// Border Radius for Alert
   static const borderRadius = 8.00;
 
+  /// Margin Bottom for Alert
+  static const marginBottom = 24.00;
+
+  /// Margin Left for Alert
+  static const marginLeft = 16.00;
+
+  /// Margin Right for Alert
+  static const marginRight = 16.00;
+
+  /// Margin Top for Alert
+  static const marginTop = 4.00;
+
   /// Background Color for Standard Info
   static const standardInfoBackgroundColor = const Color(0xFFB3CCFF);
 
@@ -83,13 +95,7 @@ class CardStyles {
   static const color = const Color(0xFF424D5C);
 
   /// Margin Bottom for Card
-  static const marginBottom = 24.00;
-
-  /// Margin Left for Card
-  static const marginLeft = 16.00;
-
-  /// Margin Right for Card
-  static const marginRight = 16.00;
+  static const marginBottom = 16.00;
 
   /// Margin Top for Card
   static const marginTop = 0.00;
@@ -119,6 +125,13 @@ class ChipStyles {
 
   /// Height for Chip
   static const height = 32.00;
+}
+
+class CircularProgressStyles {
+  CircularProgressStyles._();
+
+  /// Color for Color Primary
+  static const colorPrimaryColor = const Color(0xFF2BC4A8);
 }
 
 class ContainedButtonStyles {
