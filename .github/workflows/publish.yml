@@ -23,10 +23,6 @@ jobs:
         run: npm test
       - name: List dist/ folders
         run: ls packages/*/dist
-      - name: Set git commit user
-        run: sh ./.github/scripts/configure-git.sh
-      - name: Commit pubspec file
-        run: sh ./.github/scripts/commit-pubspec.sh
       - name: Cache generated files
         uses: actions/cache@v2
         env:
