@@ -3,6 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.29.0](https://github.com/FacioCode/design/compare/v0.28.0...v0.29.0) (2021-01-08)
+
+
+### Bug Fixes
+
+* **flutter-styles:** fix typo on `disabledColor` token ([078bbf8](https://github.com/FacioCode/design/commit/078bbf8cf600e9ce2599535622841505686a91d9))
+
+
+### Code Refactoring
+
+* **flutter-styles:** remove `borderOutlinedButtonDisabled` from ColorPalette ([ea2bcc3](https://github.com/FacioCode/design/commit/ea2bcc3427c2e764cb7dad200da7421f613e40a7))
+
+
+### Features
+
+* **flutter-styles:** add `RefreshIndicatorStyles` class ([a4e760e](https://github.com/FacioCode/design/commit/a4e760ec0a1806f7d4dd7f7fa72750fe5042d50a))
+* **flutter-styles:** add displacement for loading circular progress ([36b5ded](https://github.com/FacioCode/design/commit/36b5ded7e215d860e16591ae3ed7e1e7ad297522))
+* add/remove margin tokens, add circular progress color for primary ([94609c7](https://github.com/FacioCode/design/commit/94609c7c2b1e21a840d3d251345aec576c69f13f))
+
+
+### BREAKING CHANGES
+
+* **flutter-styles:** `disabledBorderColor` was renamed to `disabledColor` on `OutlinedButtonStyles`.
+* **flutter-styles:** `ColorPalette.borderOutlinedButtonDisabled` was removed.
+
+
+
+# [0.27.0](https://github.com/FacioCode/design/compare/v0.26.0...v0.27.0) (2021-01-08)
+
+
+### Features
+
+* **flutter-styles:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
+* **flutter-styles:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
+* **flutter-styles:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
+
+
+
+# [0.26.0](https://github.com/FacioCode/design/compare/v0.25.5...v0.26.0) (2021-01-08)
+
+
+### Features
+
+* **flutter-styles:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
+
+
+
+## 0.25.5 (2021-01-08)
+
+
+
+
+
 # [0.28.0](https://github.com/FacioCode/design/compare/v0.27.0...v0.28.0) (2021-01-08)
 
 
