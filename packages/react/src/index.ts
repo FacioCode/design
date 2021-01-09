@@ -1,5 +1,5 @@
 export { Alert, AlertProps } from "./Alert";
-export { Button, ButtonProps } from "./Button";
+export * from "./Button";
 export { Card, CardContent, CardProps } from "./Card";
 export { Checkbox, CheckboxProps } from "./Checkbox";
 export { CssBaseline } from "./CssBaseline";

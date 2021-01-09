@@ -1,104 +1,35 @@
 import * as React from "react";
-import { Meta, Story } from "@storybook/react";
-import { Button } from "./Button";
+import type { Meta, Story } from "@storybook/react";
 import type { ButtonProps } from "./Button.types";
+import { ContainedButton } from "./ContainedButton";
+import { LinkButton } from "./LinkButton";
+import { OutlinedButton } from "./OutlinedButton";
 
 export default {
-  component: Button,
-  title: "Components/Button",
+  subcomponents: { ContainedButton, LinkButton, OutlinedButton },
+  title: "Components/Buttons",
 } as Meta;
 
-const Template : Story<ButtonProps> = (props: ButtonProps) => (
-  <Button {...props} />
-);
-
-export const Playground : Story<ButtonProps> = Template.bind({});
-Playground.args = {
-  children: "Button text",
-};
-
-export const ContainedBrandMedium : Story<ButtonProps> = Template.bind({});
-ContainedBrandMedium.args = {
-  ...Playground.args,
-  color: "brand",
-  size: "medium",
-  variant: "contained",
-};
-
-export const ContainedDefaultMedium: Story<ButtonProps> = Template.bind({});
-ContainedDefaultMedium.args = {
-  ...Playground.args,
-  size: "medium",
-  variant: "contained",
-};
-
-export const ContainedBrandMediumFullWidth : Story<ButtonProps> = Template.bind({});
-ContainedBrandMediumFullWidth.args = {
-  ...ContainedBrandMedium.args,
-  fullWidth: true,
-};
-
-export const OutlinedBrandMediumFullWidth : Story<ButtonProps> = Template.bind({});
-OutlinedBrandMediumFullWidth.args = {
-  ...Playground.args,
-  color: "brand",
-  fullWidth: true,
-  size: "medium",
-  variant: "outlined",
-};
-
-export const ContainedDefaultSmall : Story<ButtonProps> = Template.bind({});
-ContainedDefaultSmall.args = {
-  ...Playground.args,
-  color: "default",
-  size: "small",
-  variant: "contained",
-};
-
-export const OutlinedDefaultSmall : Story<ButtonProps> = Template.bind({});
-OutlinedDefaultSmall.args = {
-  ...Playground.args,
-  color: "default",
-  size: "small",
-  variant: "outlined",
-};
-
-export const LinkDefaultSmall : Story<ButtonProps> = Template.bind({});
-LinkDefaultSmall.args = {
-  ...Playground.args,
-  color: "default",
-  size: "small",
-  variant: "link",
-};
-
-export const ContainedBrandSmall : Story<ButtonProps> = Template.bind({});
-ContainedBrandSmall.args = {
-  ...Playground.args,
-  color: "brand",
-  size: "small",
-  variant: "contained",
-};
-
-export const ContainedWarningSmall : Story<ButtonProps> = Template.bind({});
-ContainedWarningSmall.args = {
-  ...Playground.args,
-  color: "warning",
-  size: "small",
-  variant: "contained",
-};
-
-export const ContainedDangerSmall : Story<ButtonProps> = Template.bind({});
-ContainedDangerSmall.args = {
-  ...Playground.args,
-  color: "danger",
-  size: "small",
-  variant: "contained",
-};
-
-export const TwoMediumButtons : Story<ButtonProps> = (props: ButtonProps) => (
+export const Playground : Story<ButtonProps> = (props: ButtonProps) => (
   <>
-    <Button fullWidth={true} size={"medium"} variant={"contained"}>Sign in</Button>
-    <br />
-    <Button fullWidth={true} size={"medium"} variant={"link"}>Need help?</Button>
+    <ContainedButton {...props} />
+    <OutlinedButton {...props} />
+    <LinkButton {...props} />
   </>
 );
+Playground.args = {
+  children: "Button label",
+};
+
+export const TwoFullWidthMediumButtons : Story<ButtonProps> = (props: ButtonProps) => (
+  <>
+    <ContainedButton {...props}>Sign in</ContainedButton>
+    <br />
+    <LinkButton {...props}>Need help?</LinkButton>
+  </>
+);
+TwoFullWidthMediumButtons.args = {
+  ...Playground.args,
+  fullWidth: true,
+  size: "medium",
+};

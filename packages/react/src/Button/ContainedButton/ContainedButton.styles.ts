@@ -4,7 +4,7 @@ import { customProperties } from "@faciocode/styles";
 const styles = createStyles({
 
   /**
-   * Styles applied to the root element if `variant="contained"` and `color="danger"`
+   * Styles applied to the root element if `color="danger"`
    */
   containedDanger: {
     ...customProperties.containedButtonStyles.danger,
@@ -17,7 +17,7 @@ const styles = createStyles({
   },
 
   /**
-   * Styles applied to the root element if `variant="contained"` and `color="warning"`
+   * Styles applied to the root element if `color="warning"`
    */
   containedWarning: {
     ...customProperties.containedButtonStyles.warning,
@@ -30,5 +30,5 @@ const styles = createStyles({
   },
 });
 
-export const useStyles = makeStyles(styles, { name: "FacioButton" });
+export const useStyles = makeStyles(styles, { name: "FacioContainedButton" });
 export default useStyles;

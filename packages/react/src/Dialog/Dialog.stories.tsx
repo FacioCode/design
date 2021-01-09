@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { Meta, Story } from "@storybook/react";
-import { Button } from "../Button";
+import { ContainedButton } from "../Button";
 import { Dialog } from "./Dialog";
 import { DialogActions } from "./DialogActions";
 import { DialogContent } from "./DialogContent";
@@ -22,12 +22,12 @@ const Template : Story<DialogProps> = (props : DialogProps) => {
 
   return (
     <div>
-      <Button onClick={handleClickOpen}>Open dialog</Button>
+      <ContainedButton onClick={handleClickOpen}>Open dialog</ContainedButton>
       <Dialog {...props} open={open}>
         {props.children}
         <DialogActions>
-          <Button onClick={handleClose}>Not now</Button>
-          <Button color={"brand"} onClick={handleClose} variant={"contained"}>Approve</Button>
+          <ContainedButton onClick={handleClose}>Not now</ContainedButton>
+          <ContainedButton color={"brand"} onClick={handleClose}>Approve</ContainedButton>
         </DialogActions>
       </Dialog>
     </div>
