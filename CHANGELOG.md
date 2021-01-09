@@ -3,6 +3,103 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.30.0](https://github.com/FacioCode/design/compare/v0.29.0...v0.30.0) (2021-01-09)
+
+
+### Code Refactoring
+
+* **react:** separate Button components ([76a2564](https://github.com/FacioCode/design/commit/76a25649dd52163b3dd16d5e78fcb689b7db59ab))
+
+
+### Features
+
+* **flutter-styles:** add displacement for loading circular progress ([36b5ded](https://github.com/FacioCode/design/commit/36b5ded7e215d860e16591ae3ed7e1e7ad297522))
+
+
+### BREAKING CHANGES
+
+* **react:** `Button` component does not exist anymore. Please use `ContainedButton`, `LinkButton` or `OutlinedButton`.
+
+
+
+# [0.28.0](https://github.com/FacioCode/design/compare/v0.27.0...v0.28.0) (2021-01-08)
+
+
+### Bug Fixes
+
+* **flutter-styles:** fix typo on `disabledColor` token ([078bbf8](https://github.com/FacioCode/design/commit/078bbf8cf600e9ce2599535622841505686a91d9))
+* **style-dictionary:** fix refresh indicator component tokens syntax ([23e9f98](https://github.com/FacioCode/design/commit/23e9f98600db6aa5826b0426a1f3587b45172247))
+
+
+### Code Refactoring
+
+* **flutter-styles:** remove `borderOutlinedButtonDisabled` from ColorPalette ([ea2bcc3](https://github.com/FacioCode/design/commit/ea2bcc3427c2e764cb7dad200da7421f613e40a7))
+* **styles:** remove `borderOutlinedButtonDisabled` color token ([cd19231](https://github.com/FacioCode/design/commit/cd19231bc92b7a900ee0810facf2f98d2fcddaa5))
+* **styles:** rename outlined button disabled color token ([9ffdcf4](https://github.com/FacioCode/design/commit/9ffdcf4874bf0d2612252989642ad0872a405693))
+* **styles:** rename outlined disabled button color token ([3db1502](https://github.com/FacioCode/design/commit/3db1502b8ae07bf6ed6d09ee8903640145259c24))
+
+
+### Features
+
+* **flutter-styles:** add `RefreshIndicatorStyles` class ([a4e760e](https://github.com/FacioCode/design/commit/a4e760ec0a1806f7d4dd7f7fa72750fe5042d50a))
+* add/remove margin tokens, add circular progress color for primary ([94609c7](https://github.com/FacioCode/design/commit/94609c7c2b1e21a840d3d251345aec576c69f13f))
+
+
+### BREAKING CHANGES
+
+* **styles:** `outlinedButtonStyles.disabled.borderColor` was renamed to `outlinedButtonStyles.disabled.color`
+* **styles:** `outlinedButtonDisabledBorderColor` component token was renamed to `outlinedButtonDisabledColor`.
+* **styles:** `borderOutlinedButtonDisabled` is not available anymore
+* **flutter-styles:** `disabledBorderColor` was renamed to `disabledColor` on `OutlinedButtonStyles`.
+* **flutter-styles:** `ColorPalette.borderOutlinedButtonDisabled` was removed.
+
+
+
+# [0.27.0](https://github.com/FacioCode/design/compare/v0.26.0...v0.27.0) (2021-01-08)
+
+
+### Code Refactoring
+
+* **style-dictionary:** change borderRadius from medium button ([b03c7f6](https://github.com/FacioCode/design/commit/b03c7f6c0709169f351113ee4ba8e6375e826cbc))
+
+
+### Features
+
+* **flutter-styles:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
+* **flutter-styles:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
+* **flutter-styles:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
+* **style-dictionary:** add border color for disabled outlined button ([e1e1d5d](https://github.com/FacioCode/design/commit/e1e1d5d528445e6a4e048d5aa49552cb18bd6b8a))
+* **style-dictionary:** add icon marginRight token for alert ([cd88602](https://github.com/FacioCode/design/commit/cd88602d9f07827e0b4477b02ce4ca50fdbac0de))
+* **styles:** add border color for disabled outlined button ([84c18b4](https://github.com/FacioCode/design/commit/84c18b44cabbea71b84777bb8e16fc1909250eee))
+* **styles:** add/rename tokens ([2f77621](https://github.com/FacioCode/design/commit/2f7762101e82576a87ace2c7b1021cf3fc9e7a63))
+* **styles:** add/rename tokens ([3de5faf](https://github.com/FacioCode/design/commit/3de5fafaf6c5e3a668248dd90300ade38de05745))
+
+
+### BREAKING CHANGES
+
+* **styles:** `buttonSizeMediumBorderRadius` (`buttonStyles.sizeMedium.borderRadius`) now is `containedButtonSizeMediumBorderRadius` (`containedButtonStyles.sizeMedium.borderRadius`)
+* **styles:** `buttonSizeMediumBorderRadius` (`buttonStyles.sizeMedium.borderRadius`) now is `containedButtonSizeMediumBorderRadius` (`containedButtonStyles.sizeMedium.borderRadius`)
+* **style-dictionary:** `{component.button.sizeMedium.borderRadius.value}` now is `{component.containedButton.sizeMedium.borderRadius.value}`
+
+
+
+# [0.26.0](https://github.com/FacioCode/design/compare/v0.25.5...v0.26.0) (2021-01-08)
+
+
+### Features
+
+* **flutter-styles:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
+* **style-dictionary:** add card margin tokens ([9bae44f](https://github.com/FacioCode/design/commit/9bae44f3a53d206f64f3a6ca912feb1b037c11c0))
+* **styles:** add card margin tokens ([3a44650](https://github.com/FacioCode/design/commit/3a446505ea859b6fb1c95ca046dc77f5e46e9add))
+
+
+
+## 0.25.5 (2021-01-08)
+
+
+
+
+
 # [0.29.0](https://github.com/FacioCode/design/compare/v0.28.0...v0.29.0) (2021-01-08)
 
 

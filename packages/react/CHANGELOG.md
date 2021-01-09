@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.30.0](https://github.com/FacioCode/design/compare/v0.29.0...v0.30.0) (2021-01-09)
+
+
+### Code Refactoring
+
+* **react:** separate Button components ([76a2564](https://github.com/FacioCode/design/commit/76a25649dd52163b3dd16d5e78fcb689b7db59ab))
+
+
+### BREAKING CHANGES
+
+* **react:** `Button` component does not exist anymore. Please use `ContainedButton`, `LinkButton` or `OutlinedButton`.
+
+
+
+# [0.28.0](https://github.com/FacioCode/design/compare/v0.27.0...v0.28.0) (2021-01-08)
+
+
+
+
+
 # [0.29.0](https://github.com/FacioCode/design/compare/v0.28.0...v0.29.0) (2021-01-08)
 
 **Note:** Version bump only for package @faciocode/react
