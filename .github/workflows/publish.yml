@@ -54,7 +54,6 @@ jobs:
         with:
           path: |
             packages/*/dist
-            packages/flutter-styles
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
@@ -90,7 +89,6 @@ jobs:
         with:
           path: |
             packages/*/dist
-            packages/flutter-styles
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
