@@ -27,19 +27,26 @@ jobs:
         run: sh ./.github/scripts/bump-pubspec.sh
       - name: List dist/ folders
         run: ls packages/*/dist
-      - name: Cache generated files
+      - name: Cache dist/ folders
         uses: actions/cache@v2
         env:
-          cache-name: cache-build-outputs
+          cache-name: cache-dist-folders
         with:
           path: |
             packages/*/dist
-            packages/flutter-styles
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}
+      - name: Cache pubspec file
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-pubspec-file
+        with:
+          path: |
+            packages/flutter-styles/pubspec.yaml
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/flutter-styles/pubspec.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
 
   publish-npm:
     needs: build
@@ -50,15 +57,15 @@ jobs:
       - name: Restore cached output
         uses: actions/cache@v2
         env:
-          cache-name: cache-build-outputs
+          cache-name: cache-dist-folders
         with:
           path: |
             packages/*/dist
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}
+      - name: List dist/ folders
+        run: ls packages/*/dist
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -92,8 +99,8 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}
+      - name: List dist/ folders
+        run: ls packages/*/dist
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -120,16 +127,13 @@ jobs:
       - name: Restore cached output
         uses: actions/cache@v2
         env:
-          cache-name: cache-build-outputs
+          cache-name: cache-pubspec-file
         with:
           path: |
-            packages/*/dist
-            packages/flutter-styles
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
+            packages/flutter-styles/pubspec.yaml
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/flutter-styles/pubspec.yaml') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}
       - name: Install Flutter SDK
         uses: subosito/flutter-action@v1
         with:
