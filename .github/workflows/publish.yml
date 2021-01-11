@@ -92,7 +92,7 @@ jobs:
       - name: Restore cached output
         uses: actions/cache@v2
         env:
-          cache-name: cache-build-outputs
+          cache-name: cache-dist-folders
         with:
           path: |
             packages/*/dist
