@@ -2,7 +2,7 @@
   "name": "@faciocode/styles",
   "displayName": "FacioStyles",
   "private": false,
-  "version": "0.30.0",
+  "version": "0.30.1",
   "description": "Styles and assets for Facio Design System in CSS and JavaScript",
   "keywords": [
     "styles",
@@ -53,6 +53,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "@faciocode/style-dictionary": "^0.30.0"
+    "@faciocode/style-dictionary": "^0.30.1"
   }
 }
