@@ -32,6 +32,7 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/coverage" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
