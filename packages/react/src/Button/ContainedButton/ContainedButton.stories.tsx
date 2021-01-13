@@ -24,6 +24,12 @@ BrandMedium.args = {
   size: "medium",
 };
 
+export const DisabledBrandMedium : Story<ContainedButtonProps> = Template.bind({});
+DisabledBrandMedium.args = {
+  ...BrandMedium.args,
+  disabled: true,
+};
+
 export const DefaultMedium: Story<ContainedButtonProps> = Template.bind({});
 DefaultMedium.args = {
   ...Playground.args,
