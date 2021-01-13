@@ -4,7 +4,7 @@
   "description": "Facio Design System components package for use in Flutter applications. The components in this package are consumed by Facio applications built on Flutter.",
   "private": true,
   "repository": {
-    "directory": "packages/flutter-components",
+    "directory": "packages/flutter",
     "type": "git",
     "url": "https://github.com/FacioCode/design"
   },
@@ -17,7 +17,7 @@
     "url": "https://github.com/FacioCode"
   },
   "license": "ISC",
-  "homepage": "https://github.com/FacioCode/design/tree/main/packages/flutter-components#readme",
+  "homepage": "https://github.com/FacioCode/design/tree/main/packages/flutter#readme",
   "bugs": {
     "url": "https://github.com/FacioCode/design/issues"
   }
