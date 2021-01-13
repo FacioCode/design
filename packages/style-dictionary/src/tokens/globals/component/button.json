@@ -3,7 +3,8 @@
     "button": {
       "root": {
         "comment": "Styles applied to the root element.",
-        "maxWidth": { "value": "{size.breakpoint.tabletPortrait.value}" }
+        "maxWidth": { "value": "{size.base.thirtyOneFold.value}" },
+        "minWidth": { "value": "{size.base.eightfold.value}" }
       },
       "fullWidth": {
         "borderRadius": { "value": "{size.border.radius.single.value}" }

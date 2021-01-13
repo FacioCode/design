@@ -11,6 +11,7 @@
         "dark": { "value": "{color.base.skyBlue.80.value}" }
       },
       "primary": {
+        "lighter": { "value": "{color.base.aquamarine.10.value}" },
         "main": { "value": "{color.base.aquamarine.50.value}" },
         "dark": { "value": "{color.base.aquamarine.60.value}" }
       },

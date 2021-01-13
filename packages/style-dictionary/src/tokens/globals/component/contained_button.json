@@ -12,6 +12,13 @@
         "backgroundColor": { "value": "{color.base.primary.main.value}" },
         "color": { "value": "{color.font.primary.value}" }
       },
+      "brandDisabled": {
+        "backgroundColor": { "value": "{color.base.primary.lighter.value}" },
+        "color": {
+          "comment": "Todo: check if we will use grey.50 or grey.60",
+          "value": "{color.font.disabled.value}"
+        }
+      },
       "brandHover": {
         "backgroundColor": { "value": "{color.base.primary.main.value}" },
         "color": { "value": "{color.font.primary.value}" }

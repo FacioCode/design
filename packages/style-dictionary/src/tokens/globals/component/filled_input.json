@@ -1,0 +1,13 @@
+{
+  "component": {
+    "filledInput": {
+      "root": {
+        "backgroundColor": { "value": "{color.background.default.value}" },
+        "borderBottomLeftRadius": { "value": "{size.border.radius.single.value}" },
+        "borderBottomRightRadius": { "value": "{size.border.radius.single.value}" },
+        "borderTopLeftRadius": { "value": "{size.border.radius.single.value}" },
+        "borderTopRightRadius": { "value": "{size.border.radius.single.value}" }
+      }
+    }
+  }
+}

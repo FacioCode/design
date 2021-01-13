@@ -5,7 +5,7 @@
       "colorDefault": {
         "comment": "Styles applied to the root element if color is default.",
         "backgroundColor": {
-          "value": "{color.background.default.value}"
+          "value": "{color.background.paper.value}"
         }
       }
     }

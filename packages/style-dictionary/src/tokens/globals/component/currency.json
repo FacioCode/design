@@ -1,0 +1,9 @@
+{
+  "component": {
+    "currency": {
+      "root": {
+        "fontWeight": { "value": "{font.weight.extraBold.value}" }
+      }
+    }
+  }
+}
