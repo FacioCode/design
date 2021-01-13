@@ -1,14 +1,23 @@
-# components
+# Facio Components for Flutter
 
-A new Flutter package project.
+The `facio_components` for Flutter allows you to easily use customized components from Facio Design System
+in your Flutter app.
 
-## Getting Started
+## Getting started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+First, add the `facio_components` package to your [pubspec dependencies](https://pub.dev/packages/facio_components/install).
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+To import `facio_components`:
+
+```dart
+import 'package:facio_components/components.dart';
+```
+
+To use some `facio_components` component, for example, `PrimaryButtonContained`:
+
+```dart
+PrimaryButtonContained(title: 'details', onPressed: () => {})
+```
+
+
+You can check our [API Reference](https://pub.dev/documentation/facio_components/latest/facio_components/facio_components-library.html).

@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - Initial creation of Facio's components
 
-* TODO: Describe initial release.
+* Initial creation of Facio's components.

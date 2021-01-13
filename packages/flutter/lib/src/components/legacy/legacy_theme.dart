@@ -3,17 +3,12 @@ import 'package:flutter/widgets.dart';
 
 // ignore: avoid_classes_with_only_static_members
 class LegacyTheme {
+  static final String packageName = 'components';
+
   static final Image logoAppBar = Image.asset(
-    'assets/images/facio-logo-appbar.png',
+    'assets/images/facio_logo_appbar.png',
     width: 57,
     height: 18,
-    fit: BoxFit.fill,
-  );
-
-  static final Image logoSplashScreen = Image.asset(
-    'assets/images/facio-logo-splashscreen.png',
-    width: 136,
-    height: 43,
     fit: BoxFit.fill,
   );
 
@@ -107,6 +102,7 @@ class LegacyTheme {
           fontSize: display4FontSize,
           fontWeight: blackFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
           letterSpacing: -1.25,
         ),
         headline2: TextStyle(
@@ -114,24 +110,28 @@ class LegacyTheme {
           fontSize: display3FontSize,
           fontWeight: regularFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
         ),
         headline3: TextStyle(
           color: LegacyColorPalette.charcoalGreyTwo,
           fontSize: display2FontSize,
           fontWeight: boldFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
         ),
         headline4: TextStyle(
           color: LegacyColorPalette.charcoalGreyTwo,
           fontSize: display1FontSize,
           fontWeight: semiBoldFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
         ),
         headline5: TextStyle(
           color: LegacyColorPalette.steelGrey,
           fontSize: headlineFontSize,
           fontWeight: regularFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
           letterSpacing: 0.15,
         ),
         headline6: TextStyle(
@@ -139,12 +139,14 @@ class LegacyTheme {
           fontSize: titleFontSize,
           fontWeight: boldFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
         ),
         bodyText2: TextStyle(
           color: LegacyColorPalette.charcoalGreyTwo,
           fontSize: body1FontSize,
           fontWeight: regularFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
           letterSpacing: 0.5,
         ),
         bodyText1: TextStyle(
@@ -152,6 +154,7 @@ class LegacyTheme {
           fontSize: bodyText1FontSize,
           fontWeight: regularFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
           letterSpacing: 0.25,
         ),
         button: TextStyle(
@@ -159,6 +162,7 @@ class LegacyTheme {
           fontSize: buttonFontSize,
           fontWeight: boldFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
           letterSpacing: 1.25,
         ),
         caption: TextStyle(
@@ -166,6 +170,7 @@ class LegacyTheme {
           fontSize: captionFontSize,
           fontWeight: semiBoldFont,
           fontFamily: defaultFamilyFont,
+          package: packageName,
         ),
       );
 }
