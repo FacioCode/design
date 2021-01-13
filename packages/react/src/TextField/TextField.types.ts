@@ -1,10 +1,9 @@
 import type { TextFieldProps as MaterialTextFieldProps } from "@material-ui/core/TextField";
 
-type TextFieldVariant = "filled" | "underline";
 export type MaterialTextFieldVariant = MaterialTextFieldProps["variant"];
-export type VariantMapping = Record<TextFieldVariant, MaterialTextFieldVariant>;
-
 type OmittedProps = "hiddenLabel" | "size" | "variant";
+type TextFieldVariant = "filled" | "underline";
+
 export interface TextFieldProps extends Omit<MaterialTextFieldProps, OmittedProps> {
 
   /**
@@ -12,5 +11,5 @@ export interface TextFieldProps extends Omit<MaterialTextFieldProps, OmittedProp
    * @optional
    * @type "filled" | "underline"
    */
-  variant: TextFieldVariant;
+  variant?: TextFieldVariant;
 }
