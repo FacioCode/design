@@ -46,5 +46,6 @@ export {
   TableRow,
   TableRowProps,
 } from "./Table";
+export { TextField, TextFieldProps } from "./TextField";
 export { ThemeProvider, ThemeProviderProps } from "./ThemeProvider";
 export { Typography, TypographyProps } from "./Typography";
