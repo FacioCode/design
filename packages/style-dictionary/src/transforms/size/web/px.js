@@ -1,4 +1,5 @@
 const isBaseSize = require("../../../matchers/isBaseSize");
+const isBreakpointSize = require("../../../matchers/isBreakpointSize");
 
 const throwSizeError = (name, value, unitType) => {
   const message = `'${name}: ${value}' is not a valid number, cannot transform to '${unitType}' \n`;
@@ -7,7 +8,7 @@ const throwSizeError = (name, value, unitType) => {
 };
 
 const sizeBasePx = {
-  matcher: isBaseSize,
+  matcher: (prop) => isBaseSize(prop) || isBreakpointSize(prop),
   name: "size/web/px",
   transformer: (prop) => {
     const unitType = "px";
