@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.32.1](https://github.com/FacioCode/design/compare/v0.32.0...v0.32.1) (2021-01-13)
+
+
+### Bug Fixes
+
+* **react:** fix TypeScript errors with TextField ([e6994c4](https://github.com/FacioCode/design/commit/e6994c4dd4f4752926f2582f215e5c5601de5af3))
+
+
+
+
+
 # [0.32.0](https://github.com/FacioCode/design/compare/v0.31.0...v0.32.0) (2021-01-13)
 
 
