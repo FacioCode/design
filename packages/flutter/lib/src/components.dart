@@ -17,6 +17,7 @@ export 'components/legacy/text_bullet.dart';
 export 'components/legacy/video_thumb.dart';
 export 'components/name_field.dart';
 export 'components/primary_button_contained.dart';
+export 'components/progress_widget.dart';
 export 'components/scroll_view.dart';
 export 'components/tertiary_button_link.dart';
 export 'components/tertiary_button_outlined.dart';

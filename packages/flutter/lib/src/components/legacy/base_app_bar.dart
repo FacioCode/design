@@ -20,16 +20,6 @@ class BaseAppBarButton {
   final Key key;
 }
 
-class AppBarButtonLogout extends BaseAppBarButton {
-  AppBarButtonLogout({@required final VoidCallback onPressed, final Key key})
-      : assert(onPressed != null),
-        super(
-          title: 'Sair',
-          onPressed: onPressed,
-          key: key,
-        );
-}
-
 class BaseAppBar extends AppBar {
   BaseAppBar(
     final BuildContext context, {
