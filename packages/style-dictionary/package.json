@@ -36,6 +36,6 @@
     "build": "npm run clean && npm run compile",
     "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ../flutter-styles/lib",
     "compile": "style-dictionary build --config ./src/index.js",
-    "test": "echo \"Todo: implement tests\" && exit 0"
+    "test": "jest"
   }
 }
