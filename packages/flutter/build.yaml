@@ -1,0 +1,8 @@
+targets:
+  $default:
+    sources:
+      exclude: ["test/**"]
+    builders:
+      json_serializable:
+        options:
+          explicit_to_json: true

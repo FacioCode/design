@@ -1,0 +1,27 @@
+
+---
+name: components
+description: Facio Design System UI components of Facio applications built on Flutter.
+version: 0.0.1
+homepage: https://github.com/FacioCode/design/tree/main/packages/flutter-components#readme
+repository: https://github.com/FacioCode/design
+issue_tracker: https://github.com/FacioCode/design/issues
+documentation: https://github.com/FacioCode/design/tree/main/packages/flutter-components#readme
+
+environment:
+  sdk: ">=2.10.4 <3.0.0"
+  flutter: ">=1.22.5 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  facio_styles:
+    path: ../flutter-styles
+  flutter_svg: ^0.19.1
+  url_launcher: ^5.7.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter: ~
