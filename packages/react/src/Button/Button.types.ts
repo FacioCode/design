@@ -5,6 +5,7 @@ type ButtonSize = "small" | "medium";
 export type ButtonOmittedProps =
   | "centerRipple"
   | "color"
+  | "css"
   | "disableElevation"
   | "disableFocusRipple"
   | "disableRipple"
@@ -15,6 +16,8 @@ export type ButtonOmittedProps =
   | "variant";
 
 export interface ButtonProps extends Omit<MaterialButtonProps, ButtonOmittedProps> {
+
+    css?: never;
 
     /**
      * @default "small"
