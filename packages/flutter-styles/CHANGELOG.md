@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/FacioCode/design/compare/v0.30.3...v0.31.0) (2021-01-13)
+
+
+### Features
+
+* **flutter-styles:** add baseThirtyOneFold base size ([a545f85](https://github.com/FacioCode/design/commit/a545f85736c603f06d2a2799aa8824631dd8772d))
+* **flutter-styles:** add ColorPalette tokens ([3759b33](https://github.com/FacioCode/design/commit/3759b331d589a9bb3348fac179e744783357a9d5))
+* **flutter-styles:** add/update component tokens ([ae9e88b](https://github.com/FacioCode/design/commit/ae9e88b46fb56a5de54f11347d73d9bf739e1fe2))
+
+
+
+
+
 ## [0.30.3](https://github.com/FacioCode/design/compare/v0.30.2...v0.30.3) (2021-01-11)
 
 **Note:** Version bump only for package facio_styles

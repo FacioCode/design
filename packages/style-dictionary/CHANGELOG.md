@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/FacioCode/design/compare/v0.30.3...v0.31.0) (2021-01-13)
+
+
+### Bug Fixes
+
+* **style-dictionary:** add `isBreakpointSize` matcher to `size/web/px` transform ([1f25fac](https://github.com/FacioCode/design/commit/1f25fac01afb86e3cc23ae60ff06a4f099e4302b))
+
+
+### Features
+
+* **style-dictionary:** add `isBreakpointSize` matcher ([4cdaa96](https://github.com/FacioCode/design/commit/4cdaa96089fb388cc4976dcfc6e39bb1da6323d7))
+* **style-dictionary:** update tokens ([fb38487](https://github.com/FacioCode/design/commit/fb38487c94b06b4eec150ef322947f9418d2ab3c))
+
+
+
+
+
 ## [0.30.3](https://github.com/FacioCode/design/compare/v0.30.2...v0.30.3) (2021-01-11)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

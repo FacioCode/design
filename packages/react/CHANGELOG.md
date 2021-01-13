@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/FacioCode/design/compare/v0.30.3...v0.31.0) (2021-01-13)
+
+
+### Features
+
+* **react:** add TextField component ([3181e38](https://github.com/FacioCode/design/commit/3181e381e0c98cc34547257cd13a3c75202ff0ac))
+* **react:** make *Button, Dialog*, IconButton, Input and Table* components available ([e0f26aa](https://github.com/FacioCode/design/commit/e0f26aa28ebd4bc7334ac916b07e1bd9cad29760))
+* **react:** make IconButton available ([76e986c](https://github.com/FacioCode/design/commit/76e986cfed382598c478ce27473bf226b5f6ec27))
+* **react:** make Input component available ([6133a9c](https://github.com/FacioCode/design/commit/6133a9c3137bb5beab3e74d6a56f8330494ccecb))
+
+
+
+## [0.30.2](https://github.com/FacioCode/design/compare/v0.30.1...v0.30.2) (2021-01-11)
+
+
+
+
+
 ## [0.30.3](https://github.com/FacioCode/design/compare/v0.30.2...v0.30.3) (2021-01-11)
 
 **Note:** Version bump only for package @faciocode/react

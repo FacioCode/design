@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/FacioCode/design/compare/v0.30.3...v0.31.0) (2021-01-13)
+
+
+### Bug Fixes
+
+* **style-dictionary:** add `isBreakpointSize` matcher to `size/web/px` transform ([1f25fac](https://github.com/FacioCode/design/commit/1f25fac01afb86e3cc23ae60ff06a4f099e4302b))
+
+
+### Features
+
+* **flutter-styles:** add baseThirtyOneFold base size ([a545f85](https://github.com/FacioCode/design/commit/a545f85736c603f06d2a2799aa8824631dd8772d))
+* **flutter-styles:** add ColorPalette tokens ([3759b33](https://github.com/FacioCode/design/commit/3759b331d589a9bb3348fac179e744783357a9d5))
+* **flutter-styles:** add/update component tokens ([ae9e88b](https://github.com/FacioCode/design/commit/ae9e88b46fb56a5de54f11347d73d9bf739e1fe2))
+* **mui-themes:** add theme overrides ([6cbd2a0](https://github.com/FacioCode/design/commit/6cbd2a0e0985283aa699efc7895be69f5517b6ff))
+* **mui-themes:** add theme overrides for text input fields ([023a412](https://github.com/FacioCode/design/commit/023a412ebd380a4a3fedab794a7b082c016fd9ca))
+* **react:** add TextField component ([3181e38](https://github.com/FacioCode/design/commit/3181e381e0c98cc34547257cd13a3c75202ff0ac))
+* **react:** make *Button, Dialog*, IconButton, Input and Table* components available ([e0f26aa](https://github.com/FacioCode/design/commit/e0f26aa28ebd4bc7334ac916b07e1bd9cad29760))
+* **react:** make IconButton available ([76e986c](https://github.com/FacioCode/design/commit/76e986cfed382598c478ce27473bf226b5f6ec27))
+* **react:** make Input component available ([6133a9c](https://github.com/FacioCode/design/commit/6133a9c3137bb5beab3e74d6a56f8330494ccecb))
+* **style-dictionary:** add `isBreakpointSize` matcher ([4cdaa96](https://github.com/FacioCode/design/commit/4cdaa96089fb388cc4976dcfc6e39bb1da6323d7))
+* **style-dictionary:** update tokens ([fb38487](https://github.com/FacioCode/design/commit/fb38487c94b06b4eec150ef322947f9418d2ab3c))
+* **styles:** add color tokens ([8277867](https://github.com/FacioCode/design/commit/8277867e0899bd9b6b307b8ff699db254a096542))
+* **styles:** add/update custom properties ([60940af](https://github.com/FacioCode/design/commit/60940af145561a6b67c685bacd83ddc7931703dd))
+* **styles:** add/update tokens ([1b572ed](https://github.com/FacioCode/design/commit/1b572ede0612d79e7e39507f9081331b33b382f8))
+
+
+
+## [0.30.2](https://github.com/FacioCode/design/compare/v0.30.1...v0.30.2) (2021-01-11)
+
+
+
+## 0.30.1 (2021-01-11)
+
+
+
+
+
 ## [0.30.3](https://github.com/FacioCode/design/compare/v0.30.2...v0.30.3) (2021-01-11)
 
 
