@@ -117,3 +117,6 @@ dist
 
 # stryker temp files
 .stryker-tmp
+
+# Dart files
+.dart_tool
