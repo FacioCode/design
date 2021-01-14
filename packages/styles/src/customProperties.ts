@@ -11,6 +11,21 @@ export const alertStyles = {
 
   },
 
+  gutters: {
+
+    /**
+     * Margin Left for Alert Gutters
+     */
+    marginLeft: "var(--component-alert-gutters-margin-left, 16px)",
+
+
+    /**
+     * Margin Right for Alert Gutters
+     */
+    marginRight: "var(--component-alert-gutters-margin-right, 16px)",
+
+  },
+
   root: {
 
     /**
@@ -23,18 +38,6 @@ export const alertStyles = {
      * Margin Bottom for Alert Root
      */
     marginBottom: "var(--component-alert-root-margin-bottom, 24px)",
-
-
-    /**
-     * Margin Left for Alert Root
-     */
-    marginLeft: "var(--component-alert-root-margin-left, 16px)",
-
-
-    /**
-     * Margin Right for Alert Root
-     */
-    marginRight: "var(--component-alert-root-margin-right, 16px)",
 
 
     /**
@@ -71,7 +74,7 @@ export const appBarStyles = {
     /**
      * Background Color for App Bar Color Default
      */
-    backgroundColor: "var(--component-app-bar-color-default-background-color, #f2f2f3)",
+    backgroundColor: "var(--component-app-bar-color-default-background-color, #fafafa)",
 
   },
 
@@ -93,7 +96,7 @@ export const buttonStyles = {
     /**
      * Max Width for Button Root
      */
-    maxWidth: "var(--component-button-root-max-width, 600)",
+    maxWidth: "var(--component-button-root-max-width, 248px)",
 
 
     /**
@@ -337,6 +340,21 @@ export const containedButtonStyles = {
 
   },
 
+  brandDisabled: {
+
+    /**
+     * Background Color for Contained Button Brand Disabled
+     */
+    backgroundColor: "var(--component-contained-button-brand-disabled-background-color, #d0ffef)",
+
+
+    /**
+     * Todo: check if we will use grey.50 or grey.60
+     */
+    color: "var(--component-contained-button-brand-disabled-color, #afb4bb)",
+
+  },
+
   brandHover: {
 
     /**
@@ -522,6 +540,84 @@ export const containedButtonStyles = {
 
 };
 
+export const currencyStyles = {
+
+  root: {
+
+    /**
+     * Font Weight for Currency Root
+     */
+    fontWeight: "var(--component-currency-root-font-weight, 800)",
+
+  },
+
+};
+
+export const filledInputStyles = {
+
+  root: {
+
+    /**
+     * Background Color for Filled Input Root
+     */
+    backgroundColor: "var(--component-filled-input-root-background-color, #f2f2f3)",
+
+
+    /**
+     * Border Bottom Left Radius for Filled Input Root
+     */
+    borderBottomLeftRadius: "var(--component-filled-input-root-border-bottom-left-radius, 8px)",
+
+
+    /**
+     * Border Bottom Right Radius for Filled Input Root
+     */
+    borderBottomRightRadius: "var(--component-filled-input-root-border-bottom-right-radius, 8px)",
+
+
+    /**
+     * Border Top Left Radius for Filled Input Root
+     */
+    borderTopLeftRadius: "var(--component-filled-input-root-border-top-left-radius, 8px)",
+
+
+    /**
+     * Border Top Right Radius for Filled Input Root
+     */
+    borderTopRightRadius: "var(--component-filled-input-root-border-top-right-radius, 8px)",
+
+  },
+
+};
+
+export const formLabelStyles = {
+
+  focused: {
+
+    /**
+     * Color for Form Label Focused
+     */
+    color: "var(--component-form-label-focused-color, #068589)",
+
+  },
+
+  root: {
+
+    /**
+     * Line Height for Form Label Root
+     */
+    lineHeight: "var(--component-form-label-root-line-height, 1em)",
+
+
+    /**
+     * Padding for Form Label Root
+     */
+    padding: "var(--component-form-label-root-padding, 0px)",
+
+  },
+
+};
+
 export const inputBaseStyles = {
 
   root: {
@@ -536,6 +632,21 @@ export const inputBaseStyles = {
      * 23px
      */
     lineHeight: "var(--component-input-base-root-line-height, 1.4375em)",
+
+  },
+
+  placeholder: {
+
+    /**
+     * Color for Input Base Placeholder
+     */
+    color: "var(--component-input-base-placeholder-color, #afb4bb)",
+
+
+    /**
+     * Opacity for Input Base Placeholder
+     */
+    opacity: "var(--component-input-base-placeholder-opacity, 1)",
 
   },
 
@@ -1433,19 +1544,6 @@ export const buttonBaseStyles = {
 
 };
 
-export const currencyStyles = {
-
-  root: {
-
-    /**
-     * Font Family for Currency Root
-     */
-    fontFamily: "var(--component-currency-root-font-family, 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace)",
-
-  },
-
-};
-
 export const dialogStyles = {
 
   actions: {
@@ -1534,7 +1632,7 @@ export const dialogStyles = {
     /**
      * Max Width for Dialog Paper Width Sm
      */
-    maxWidth: "var(--component-dialog-paper-width-sm-max-width, 600)",
+    maxWidth: "var(--component-dialog-paper-width-sm-max-width, 600px)",
 
   },
 
@@ -1550,25 +1648,6 @@ export const dialogStyles = {
      * Padding Right for Dialog Title
      */
     paddingRight: "var(--component-dialog-title-padding-right, 32px)",
-
-  },
-
-};
-
-export const formLabelStyles = {
-
-  root: {
-
-    /**
-     * Line Height for Form Label Root
-     */
-    lineHeight: "var(--component-form-label-root-line-height, 1em)",
-
-
-    /**
-     * Padding for Form Label Root
-     */
-    padding: "var(--component-form-label-root-padding, 0px)",
 
   },
 

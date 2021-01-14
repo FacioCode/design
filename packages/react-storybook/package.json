@@ -1,6 +1,6 @@
 {
   "name": "@faciocode/react-storybook",
-  "version": "0.30.3",
+  "version": "0.33.2",
   "private": true,
   "description": "Storybook for Facio Design System React components",
   "keywords": [
@@ -30,6 +30,7 @@
     "url": "git+https://github.com/FacioCode/design.git"
   },
   "scripts": {
+    "build": "build-storybook -c ./src --quiet -o ./dist",
     "start": "start-storybook -c ./src -p 9009",
     "test": "echo \"Todo: write tests\" && exit 0"
   },
@@ -37,6 +38,6 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "devDependencies": {
-    "@faciocode/react": "^0.30.3"
+    "@faciocode/react": "^0.33.2"
   }
 }

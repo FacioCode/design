@@ -1,6 +1,10 @@
+/* eslint-disable sort-keys */
+
 import type { CSSProperties } from "@material-ui/styles";
 import type { ThemeOptions } from "@material-ui/core";
 import { customProperties } from "@faciocode/styles";
+
+const { placeholder } = customProperties.inputBaseStyles;
 
 export const overrides : ThemeOptions["overrides"] = {
   MuiButton: {
@@ -20,8 +24,11 @@ export const overrides : ThemeOptions["overrides"] = {
     containedPrimary: {
       ...customProperties.containedButtonStyles.brand,
       "&:hover": customProperties.containedButtonStyles.brandHover,
-      // eslint-disable-next-line sort-keys
       "&:active": customProperties.containedButtonStyles.brandPressed,
+      "&$disabled": {
+        ...customProperties.containedButtonStyles.brandDisabled,
+        "&:hover": customProperties.containedButtonStyles.brandDisabled,
+      },
     },
     containedSizeSmall: customProperties.containedButtonStyles.sizeSmall,
     disableElevation: {
@@ -47,6 +54,10 @@ export const overrides : ThemeOptions["overrides"] = {
     root: {
       ...customProperties.buttonStyles.root,
       ...customProperties.buttonStyles.sizeMedium,
+      "&$disabled": {
+        cursor: "not-allowed",
+        pointerEvents: "auto",
+      },
     },
     sizeSmall: customProperties.buttonStyles.sizeSmall,
     text: customProperties.linkButtonStyles.default,
@@ -132,19 +143,35 @@ export const overrides : ThemeOptions["overrides"] = {
       textAlign: "center",
     },
   },
+  MuiFilledInput: {
+    root: customProperties.filledInputStyles.root,
+  },
 
   /**
    * @todo Check styles for FormLabel
    */
   MuiFormLabel: {
     root: {
-      ...customProperties.typographyStyles.bodyText1 as CSSProperties,
+      fontSize: customProperties.typographyStyles.headline5.fontSize,
       ...customProperties.formLabelStyles.root,
+      "&$focused": customProperties.formLabelStyles.focused,
     },
   },
   MuiInputBase: {
-    input: customProperties.inputBaseStyles.input,
+    input: {
+      fontSize: customProperties.typographyStyles.bodyText1.fontSize,
+      ...customProperties.inputBaseStyles.input,
+      "&:-ms-input-placeholder": placeholder,
+      "&::-moz-placeholder": placeholder,
+      "&::-ms-input-placeholder": placeholder,
+      "&::-webkit-input-placeholder": placeholder,
+    },
     root: customProperties.inputBaseStyles.root,
+  },
+  MuiInputLabel: {
+    root: {
+      "&$focused": customProperties.formLabelStyles.focused,
+    },
   },
   MuiPaper: {
     root: {

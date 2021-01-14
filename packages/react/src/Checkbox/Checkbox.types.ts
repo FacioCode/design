@@ -3,6 +3,7 @@ import type { CheckboxProps as MaterialCheckboxProps } from "@material-ui/core/C
 type OmittedProps = |
   "centerRipple" |
   "color" |
+  "css" |
   "disableFocusRipple" |
   "disableTouchRipple" |
   "focusRipple" |

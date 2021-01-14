@@ -2,7 +2,7 @@
   "name": "@faciocode/style-dictionary",
   "displayName": "FacioStyleDictionary",
   "private": true,
-  "version": "0.30.3",
+  "version": "0.33.2",
   "description": "Styles and assets for Facio Design System",
   "keywords": [
     "styles",
@@ -39,6 +39,6 @@
     "build": "npm run clean && npm run compile",
     "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ../flutter/lib/src/generated",
     "compile": "style-dictionary build --config ./src/index.js",
-    "test": "echo \"Todo: implement tests\" && exit 0"
+    "test": "jest"
   }
 }

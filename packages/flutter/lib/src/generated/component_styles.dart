@@ -11,17 +11,17 @@ class AlertStyles {
   /// Margin Right for Icon
   static const iconMarginRight = 8.00;
 
+  /// Margin Left for Gutters
+  static const guttersMarginLeft = 16.00;
+
+  /// Margin Right for Gutters
+  static const guttersMarginRight = 16.00;
+
   /// Border Radius for Alert
   static const borderRadius = 8.00;
 
   /// Margin Bottom for Alert
   static const marginBottom = 24.00;
-
-  /// Margin Left for Alert
-  static const marginLeft = 16.00;
-
-  /// Margin Right for Alert
-  static const marginRight = 16.00;
 
   /// Margin Top for Alert
   static const marginTop = 4.00;
@@ -37,14 +37,17 @@ class AppBarStyles {
   AppBarStyles._();
 
   /// Background Color for Color Default
-  static const colorDefaultBackgroundColor = const Color(0xFFF2F2F3);
+  static const colorDefaultBackgroundColor = const Color(0xFFFAFAFA);
 }
 
 class ButtonStyles {
   ButtonStyles._();
 
   /// Max Width for Button
-  static const maxWidth = 600;
+  static const maxWidth = 248.00;
+
+  /// Min Width for Button
+  static const minWidth = 64.00;
 
   /// Border Radius for Full Width
   static const fullWidthBorderRadius = 8.00;
@@ -154,6 +157,12 @@ class ContainedButtonStyles {
   /// Color for Brand
   static const brandColor = const Color(0xFF424D5C);
 
+  /// Background Color for Brand Disabled
+  static const brandDisabledBackgroundColor = const Color(0xFFD0FFEF);
+
+  /// Todo: check if we will use grey.50 or grey.60
+  static const brandDisabledColor = const Color(0xFFAFB4BB);
+
   /// Background Color for Brand Hover
   static const brandHoverBackgroundColor = const Color(0xFF3FE1B6);
 
@@ -227,11 +236,50 @@ class ContainedButtonStyles {
   static const warningPressedColor = const Color(0xFFFFFFFF);
 }
 
+class CurrencyStyles {
+  CurrencyStyles._();
+
+  /// Font Weight for Currency
+  static const fontWeight = FontWeight.w800;
+}
+
+class FilledInputStyles {
+  FilledInputStyles._();
+
+  /// Background Color for Filled Input
+  static const backgroundColor = const Color(0xFFF2F2F3);
+
+  /// Border Bottom Left Radius for Filled Input
+  static const borderBottomLeftRadius = 8.00;
+
+  /// Border Bottom Right Radius for Filled Input
+  static const borderBottomRightRadius = 8.00;
+
+  /// Border Top Left Radius for Filled Input
+  static const borderTopLeftRadius = 8.00;
+
+  /// Border Top Right Radius for Filled Input
+  static const borderTopRightRadius = 8.00;
+}
+
+class FormLabelStyles {
+  FormLabelStyles._();
+
+  /// Color for Focused
+  static const focusedColor = const Color(0xFF068589);
+}
+
 class InputBaseStyles {
   InputBaseStyles._();
 
   /// Color for Input Base
   static const color = const Color(0xFF424D5C);
+
+  /// Color for Placeholder
+  static const placeholderColor = const Color(0xFFAFB4BB);
+
+  /// Opacity for Placeholder
+  static const placeholderOpacity = 1;
 
   /// Font size is the same of headline, formerly headline.
   static const mediumFontSize = 17.00;

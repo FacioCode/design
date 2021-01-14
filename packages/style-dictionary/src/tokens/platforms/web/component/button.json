@@ -1,9 +1,0 @@
-{
-  "component": {
-    "button": {
-      "root": {
-        "minWidth": { "value": "{size.base.eightfold.value}" }
-      }
-    }
-  }
-}

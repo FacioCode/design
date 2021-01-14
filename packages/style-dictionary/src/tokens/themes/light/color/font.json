@@ -2,16 +2,20 @@
   "color": {
     "font": {
       "disabled": {
-        "comment": "For checkboxes, please use color.input.disabled.value",
+        "comment": "Useful for disabled buttons. For checkboxes, use color.input.disabled.value",
         "value": "{color.base.grey.50.value}"
       },
       "headline1": { "value": "{color.base.grey.90.value}" },
       "hint": {
         "comment": "This token is not yet in use",
-        "value": "{color.base.grey.60.value}"
+        "value": "{color.base.grey.50.value}"
       },
       "inverse": { "value": "{color.base.white.value}" },
       "link": { "value": "{color.base.aquamarine.70.value}" },
+      "placeholder": {
+        "comment": "Useful for text field placeholders",
+        "value": "{color.base.grey.50.value}"
+      },
       "primary": {
         "comment": "Color for label, card, input base, paper, body text and another typographies",
         "value": "{color.base.grey.70.value}"

@@ -3,6 +3,106 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.33.2](https://github.com/FacioCode/design/compare/v0.33.1...v0.33.2) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [0.33.1](https://github.com/FacioCode/design/compare/v0.33.0...v0.33.1) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+# [0.33.0](https://github.com/FacioCode/design/compare/v0.32.7...v0.33.0) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [0.32.7](https://github.com/FacioCode/design/compare/v0.32.6...v0.32.7) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [0.32.6](https://github.com/FacioCode/design/compare/v0.32.5...v0.32.6) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [0.32.5](https://github.com/FacioCode/design/compare/v0.32.4...v0.32.5) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [0.32.4](https://github.com/FacioCode/design/compare/v0.32.3...v0.32.4) (2021-01-13)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [0.32.3](https://github.com/FacioCode/design/compare/v0.32.2...v0.32.3) (2021-01-13)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [0.32.2](https://github.com/FacioCode/design/compare/v0.32.1...v0.32.2) (2021-01-13)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [0.32.1](https://github.com/FacioCode/design/compare/v0.32.0...v0.32.1) (2021-01-13)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+# [0.32.0](https://github.com/FacioCode/design/compare/v0.31.0...v0.32.0) (2021-01-13)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+# [0.31.0](https://github.com/FacioCode/design/compare/v0.30.3...v0.31.0) (2021-01-13)
+
+
+### Features
+
+* **mui-themes:** add theme overrides ([6cbd2a0](https://github.com/FacioCode/design/commit/6cbd2a0e0985283aa699efc7895be69f5517b6ff))
+* **mui-themes:** add theme overrides for text input fields ([023a412](https://github.com/FacioCode/design/commit/023a412ebd380a4a3fedab794a7b082c016fd9ca))
+
+
+
+
+
 ## [0.30.3](https://github.com/FacioCode/design/compare/v0.30.2...v0.30.3) (2021-01-11)
 
 **Note:** Version bump only for package @faciocode/mui-themes

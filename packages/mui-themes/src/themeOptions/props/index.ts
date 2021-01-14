@@ -6,6 +6,14 @@ const MuiButtonBase = {
   focusRipple: false,
 };
 
+const MuiInput = {
+  disableUnderline: true,
+};
+
+const MuiInputLabel = {
+  shrink: true,
+};
+
 export const props : ComponentsProps = {
   MuiButton: {
     ...MuiButtonBase,
@@ -28,12 +36,16 @@ export const props : ComponentsProps = {
     dividers: false,
   },
   MuiIconButton: MuiButtonBase,
-  MuiInput: {
-    disableUnderline: true,
-  },
+  MuiInput,
+  MuiInputLabel,
   MuiPaper: {
     elevation: 0,
     square: true,
+  },
+  MuiTextField: {
+    InputLabelProps: MuiInputLabel,
+    InputProps: MuiInput,
+    variant: "filled",
   },
 };
 

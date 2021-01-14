@@ -1,4 +1,4 @@
-const isComponent = ({ attributes }) => {
+const isBaseSize = ({ attributes }) => {
   const { category, subitem, type } = attributes;
 
   if (category === "size" && type === "base") {
@@ -8,4 +8,4 @@ const isComponent = ({ attributes }) => {
   return subitem === "letterSpacing";
 };
 
-module.exports = isComponent;
+module.exports = isBaseSize;

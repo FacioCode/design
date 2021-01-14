@@ -20,7 +20,7 @@ type TypographyVariant = |
 export type ComponentMapping = Record<TypographyVariant, ElementType>;
 export type VariantMapping = Record<TypographyVariant, MaterialTypographyVariant>;
 
-export type OmittedProps = "variant" | "variantMapping";
+export type OmittedProps = "css" | "variant" | "variantMapping";
 export interface TypographyProps extends Omit<MaterialTypographyProps, OmittedProps> {
 
   /**

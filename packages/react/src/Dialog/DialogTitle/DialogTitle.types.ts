@@ -1,2 +1,2 @@
 import type { DialogTitleProps as MaterialDialogTitleProps } from "@material-ui/core/DialogTitle";
-export type DialogTitleProps = MaterialDialogTitleProps;
+export type DialogTitleProps = Omit<MaterialDialogTitleProps, "css">;

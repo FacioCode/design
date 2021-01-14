@@ -3,6 +3,182 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.33.2](https://github.com/FacioCode/design/compare/v0.33.1...v0.33.2) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [0.33.1](https://github.com/FacioCode/design/compare/v0.33.0...v0.33.1) (2021-01-14)
+
+
+### Bug Fixes
+
+* **react:** add missing font weight style to Currency ([337b25b](https://github.com/FacioCode/design/commit/337b25b4216b6eb5c114e5d5d2d4c12c33e1b830))
+* **react:** prevent TypeScript error because of missing `css` property ([f08e015](https://github.com/FacioCode/design/commit/f08e01505ff1a1e3b3c209d0ac8f281f181f02ad))
+
+
+
+
+
+# [0.33.0](https://github.com/FacioCode/design/compare/v0.32.7...v0.33.0) (2021-01-14)
+
+
+### Features
+
+* **react:** add `gutters` property to `Alert` ([145c577](https://github.com/FacioCode/design/commit/145c5771e5709274f45f77efb7d92c635e2082ef))
+
+
+
+
+
+## [0.32.7](https://github.com/FacioCode/design/compare/v0.32.6...v0.32.7) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [0.32.6](https://github.com/FacioCode/design/compare/v0.32.5...v0.32.6) (2021-01-14)
+
+
+### Bug Fixes
+
+* **react:** prevent TypeScript `css` property error for `Alert` ([66e28d3](https://github.com/FacioCode/design/commit/66e28d3c9205b877f0b77597474aa26e8911d13f))
+
+
+
+
+
+## [0.32.5](https://github.com/FacioCode/design/compare/v0.32.4...v0.32.5) (2021-01-14)
+
+
+### Bug Fixes
+
+* **react:** prevent TypeScript `css` property error for `Typography` ([12f2f5a](https://github.com/FacioCode/design/commit/12f2f5a2a2cc06fe7ac4a49d87fa7dda23b58a3a))
+
+
+
+
+
+## [0.32.4](https://github.com/FacioCode/design/compare/v0.32.3...v0.32.4) (2021-01-13)
+
+
+### Bug Fixes
+
+* **react:** make ThemeProvider `theme` property optional ([0bbde7d](https://github.com/FacioCode/design/commit/0bbde7dab94359e88a813567bbe2d2abdf47119e))
+* **react:** prevent TypeScript `css` property error ([3e35cd5](https://github.com/FacioCode/design/commit/3e35cd58ddc84a234bd9f9cbfbc65816acb335e0))
+
+
+
+## [0.32.2](https://github.com/FacioCode/design/compare/v0.32.1...v0.32.2) (2021-01-13)
+
+
+### Bug Fixes
+
+* **react:** prevent TypeScript error because of missing `css` prop on `TextField` ([b312902](https://github.com/FacioCode/design/commit/b312902447ac90148866e3d4bf09f46520c86070))
+
+
+
+## [0.32.1](https://github.com/FacioCode/design/compare/v0.32.0...v0.32.1) (2021-01-13)
+
+
+### Bug Fixes
+
+* **react:** fix TypeScript errors with TextField ([e6994c4](https://github.com/FacioCode/design/commit/e6994c4dd4f4752926f2582f215e5c5601de5af3))
+
+
+
+# 0.32.0 (2021-01-13)
+
+
+
+
+
+## [0.32.3](https://github.com/FacioCode/design/compare/v0.32.2...v0.32.3) (2021-01-13)
+
+
+### Bug Fixes
+
+* **react:** make ThemeProvider `theme` property optional ([0bbde7d](https://github.com/FacioCode/design/commit/0bbde7dab94359e88a813567bbe2d2abdf47119e))
+* **react:** prevent TypeScript error because of missing `css` prop on `TextField` ([b312902](https://github.com/FacioCode/design/commit/b312902447ac90148866e3d4bf09f46520c86070))
+
+
+
+## [0.32.1](https://github.com/FacioCode/design/compare/v0.32.0...v0.32.1) (2021-01-13)
+
+
+### Bug Fixes
+
+* **react:** fix TypeScript errors with TextField ([e6994c4](https://github.com/FacioCode/design/commit/e6994c4dd4f4752926f2582f215e5c5601de5af3))
+
+
+
+# 0.32.0 (2021-01-13)
+
+
+
+
+
+## [0.32.2](https://github.com/FacioCode/design/compare/v0.32.1...v0.32.2) (2021-01-13)
+
+
+### Bug Fixes
+
+* **react:** fix TypeScript errors with TextField ([e6994c4](https://github.com/FacioCode/design/commit/e6994c4dd4f4752926f2582f215e5c5601de5af3))
+* **react:** prevent TypeScript error because of missing `css` prop on `TextField` ([b312902](https://github.com/FacioCode/design/commit/b312902447ac90148866e3d4bf09f46520c86070))
+
+
+
+# 0.32.0 (2021-01-13)
+
+
+
+
+
+## [0.32.1](https://github.com/FacioCode/design/compare/v0.32.0...v0.32.1) (2021-01-13)
+
+
+### Bug Fixes
+
+* **react:** fix TypeScript errors with TextField ([e6994c4](https://github.com/FacioCode/design/commit/e6994c4dd4f4752926f2582f215e5c5601de5af3))
+
+
+
+
+
+# [0.32.0](https://github.com/FacioCode/design/compare/v0.31.0...v0.32.0) (2021-01-13)
+
+
+### Features
+
+* **react:** make TextField available ([c33c5d1](https://github.com/FacioCode/design/commit/c33c5d188c3df2083989c9cd9d7429c27ecc14fa))
+
+
+
+
+
+# [0.31.0](https://github.com/FacioCode/design/compare/v0.30.3...v0.31.0) (2021-01-13)
+
+
+### Features
+
+* **react:** add TextField component ([3181e38](https://github.com/FacioCode/design/commit/3181e381e0c98cc34547257cd13a3c75202ff0ac))
+* **react:** make *Button, Dialog*, IconButton, Input and Table* components available ([e0f26aa](https://github.com/FacioCode/design/commit/e0f26aa28ebd4bc7334ac916b07e1bd9cad29760))
+* **react:** make IconButton available ([76e986c](https://github.com/FacioCode/design/commit/76e986cfed382598c478ce27473bf226b5f6ec27))
+* **react:** make Input component available ([6133a9c](https://github.com/FacioCode/design/commit/6133a9c3137bb5beab3e74d6a56f8330494ccecb))
+
+
+
+## [0.30.2](https://github.com/FacioCode/design/compare/v0.30.1...v0.30.2) (2021-01-11)
+
+
+
+
+
 ## [0.30.3](https://github.com/FacioCode/design/compare/v0.30.2...v0.30.3) (2021-01-11)
 
 **Note:** Version bump only for package @faciocode/react

@@ -1,0 +1,9 @@
+{
+  "component": {
+    "formLabel": {
+      "focused": {
+        "color": { "value": "{color.font.link.value}" }
+      }
+    }
+  }
+}

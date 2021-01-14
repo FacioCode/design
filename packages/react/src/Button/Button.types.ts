@@ -5,6 +5,7 @@ type ButtonSize = "small" | "medium";
 export type ButtonOmittedProps =
   | "centerRipple"
   | "color"
+  | "css"
   | "disableElevation"
   | "disableFocusRipple"
   | "disableRipple"

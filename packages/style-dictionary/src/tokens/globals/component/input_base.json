@@ -4,6 +4,10 @@
       "root": {
         "color": { "value": "{color.font.primary.value}" }
       },
+      "placeholder": {
+        "color": { "value": "{color.font.placeholder.value}" },
+        "opacity": { "value": "{opacity.base.opaque.value}" }
+      },
       "medium": {
         "comment": "Useful when user is checking/editing info, with two or more inputs per screen.",
         "fontSize": {

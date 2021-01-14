@@ -28,6 +28,10 @@
       "eightfold": {
         "comment": "Commonly used for button min height",
         "value": 64
+      },
+      "thirtyOneFold": {
+        "comment": "Button max width",
+        "value": 248
       }
     }
   }
