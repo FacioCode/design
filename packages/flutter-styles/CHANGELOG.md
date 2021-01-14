@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.33.0](https://github.com/FacioCode/design/compare/v0.32.7...v0.33.0) (2021-01-14)
+
+
+### Code Refactoring
+
+* **flutter-styles:** rename `Alert` component tokens ([ef9932a](https://github.com/FacioCode/design/commit/ef9932a190fbdcf85c388a4510097f7c01c7c160))
+
+
+### BREAKING CHANGES
+
+* **flutter-styles:** `AlertStyles.marginLeft` was renamed to `AlertStyles.guttersMarginLeft`. `AlertStyles.marginRight` was renamed to `AlertStyles.guttersMarginRight`.
+
+
+
+
+
 ## [0.32.7](https://github.com/FacioCode/design/compare/v0.32.6...v0.32.7) (2021-01-14)
 
 **Note:** Version bump only for package facio_styles

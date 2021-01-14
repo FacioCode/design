@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.33.0](https://github.com/FacioCode/design/compare/v0.32.7...v0.33.0) (2021-01-14)
+
+
+### Code Refactoring
+
+* **styles:** move Alert margin tokens to gutters ([0ad11e7](https://github.com/FacioCode/design/commit/0ad11e7ba45d5c945d707d0238e5c40d2ba1cb98))
+* **styles:** rename alert component tokens ([e1f62db](https://github.com/FacioCode/design/commit/e1f62dbd4d093d003b2ce476b0d3192ecba489ae))
+
+
+### BREAKING CHANGES
+
+* **styles:** `customProperties.alertStyles.root.marginLeft` was renamed to `customProperties.alertStyles.gutters.marginLeft`. `customProperties.alertStyles.root.marginRight` was renamed to `customProperties.alertStyles.gutters.marginRight`.
+* **styles:** rename `alertRootMarginLeft` to `alertGuttersMarginLeft`. Rename `alertRootMarginRight` to `alertGuttersMarginRight`.
+
+
+
+
+
 ## [0.32.7](https://github.com/FacioCode/design/compare/v0.32.6...v0.32.7) (2021-01-14)
 
 **Note:** Version bump only for package @faciocode/styles

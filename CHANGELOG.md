@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.33.0](https://github.com/FacioCode/design/compare/v0.32.7...v0.33.0) (2021-01-14)
+
+
+### Code Refactoring
+
+* **flutter-styles:** rename `Alert` component tokens ([ef9932a](https://github.com/FacioCode/design/commit/ef9932a190fbdcf85c388a4510097f7c01c7c160))
+* **style-dictionary:** move alert margin tokens from `root` to `gutters` ([51385e6](https://github.com/FacioCode/design/commit/51385e65960346b556229f871525fc98c951b5f2))
+* **styles:** move Alert margin tokens to gutters ([0ad11e7](https://github.com/FacioCode/design/commit/0ad11e7ba45d5c945d707d0238e5c40d2ba1cb98))
+* **styles:** rename alert component tokens ([e1f62db](https://github.com/FacioCode/design/commit/e1f62dbd4d093d003b2ce476b0d3192ecba489ae))
+
+
+### Features
+
+* **react:** add `gutters` property to `Alert` ([145c577](https://github.com/FacioCode/design/commit/145c5771e5709274f45f77efb7d92c635e2082ef))
+
+
+### BREAKING CHANGES
+
+* **styles:** `customProperties.alertStyles.root.marginLeft` was renamed to `customProperties.alertStyles.gutters.marginLeft`. `customProperties.alertStyles.root.marginRight` was renamed to `customProperties.alertStyles.gutters.marginRight`.
+* **styles:** rename `alertRootMarginLeft` to `alertGuttersMarginLeft`. Rename `alertRootMarginRight` to `alertGuttersMarginRight`.
+* **style-dictionary:** `{component.alert.root.marginLeft}` was renamed to `{component.alert.gutters.marginLeft}`. `{component.alert.root.marginRight}` was renamed to `{component.alert.gutters.marginRight}`
+* **flutter-styles:** `AlertStyles.marginLeft` was renamed to `AlertStyles.guttersMarginLeft`. `AlertStyles.marginRight` was renamed to `AlertStyles.guttersMarginRight`.
+
+
+
+
+
 ## [0.32.7](https://github.com/FacioCode/design/compare/v0.32.6...v0.32.7) (2021-01-14)
 
 **Note:** Version bump only for package @faciocode/design

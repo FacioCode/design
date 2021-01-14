@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.33.0](https://github.com/FacioCode/design/compare/v0.32.7...v0.33.0) (2021-01-14)
+
+
+### Features
+
+* **react:** add `gutters` property to `Alert` ([145c577](https://github.com/FacioCode/design/commit/145c5771e5709274f45f77efb7d92c635e2082ef))
+
+
+
+
+
 ## [0.32.7](https://github.com/FacioCode/design/compare/v0.32.6...v0.32.7) (2021-01-14)
 
 **Note:** Version bump only for package @faciocode/react

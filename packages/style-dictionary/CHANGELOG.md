@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.33.0](https://github.com/FacioCode/design/compare/v0.32.7...v0.33.0) (2021-01-14)
+
+
+### Code Refactoring
+
+* **style-dictionary:** move alert margin tokens from `root` to `gutters` ([51385e6](https://github.com/FacioCode/design/commit/51385e65960346b556229f871525fc98c951b5f2))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `{component.alert.root.marginLeft}` was renamed to `{component.alert.gutters.marginLeft}`. `{component.alert.root.marginRight}` was renamed to `{component.alert.gutters.marginRight}`
+
+
+
+
+
 ## [0.32.7](https://github.com/FacioCode/design/compare/v0.32.6...v0.32.7) (2021-01-14)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
