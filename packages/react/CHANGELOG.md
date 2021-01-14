@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.33.1](https://github.com/FacioCode/design/compare/v0.33.0...v0.33.1) (2021-01-14)
+
+
+### Bug Fixes
+
+* **react:** add missing font weight style to Currency ([337b25b](https://github.com/FacioCode/design/commit/337b25b4216b6eb5c114e5d5d2d4c12c33e1b830))
+* **react:** prevent TypeScript error because of missing `css` property ([f08e015](https://github.com/FacioCode/design/commit/f08e01505ff1a1e3b3c209d0ac8f281f181f02ad))
+
+
+
+
+
 # [0.33.0](https://github.com/FacioCode/design/compare/v0.32.7...v0.33.0) (2021-01-14)
 
 
