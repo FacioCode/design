@@ -4,7 +4,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-
 <%
 var getValuePrefix = ({attributes}) => {
   const { subitem } = attributes;
