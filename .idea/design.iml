@@ -37,6 +37,7 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/android/app/src/main/java" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
