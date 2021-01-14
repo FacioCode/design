@@ -1,6 +1,6 @@
-const colorPalette = ({ packageName }) => ({
+const colorPalette = ({ destination, packageName }) => ({
   className: "ColorPalette",
-  destination: "lib/color_palette.dart",
+  destination,
   filter: {
     attributes: {
       category: "color",

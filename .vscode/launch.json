@@ -2,15 +2,8 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Flutter Components Example",
+            "name": "Flutter Design System Example",
             "program": "packages/flutter/example/lib/main.dart",
-            "request": "launch",
-            "flutterMode": "debug",
-            "type": "dart"
-        },
-        {
-            "name": "Flutter Style Example",
-            "program": "packages/flutter-styles/example/lib/main.dart",
             "request": "launch",
             "flutterMode": "debug",
             "type": "dart"

@@ -3,7 +3,9 @@ var props = _.chain(allProperties).groupBy("attributes.item").map((value, key) =
 var getAttribute = (value) => value === "lineHeight" ? "height" : value;
 var textStyleMapper = style => style.attributes.subitem && `\n      ${getAttribute(style.attributes.subitem)}: ${style.value || null}`;
 var textThemeMapper = prop => `\n      ${prop.key}: ${this.className}.${prop.key}`;
-%>part of <%= this.packageName %>;
+%>import 'dart:ui';
+import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 /// # Text styles and theme for <%= this.packageName %>
 ///

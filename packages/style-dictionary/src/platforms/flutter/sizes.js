@@ -1,6 +1,6 @@
-const sizes = ({ packageName }) => ({
+const sizes = ({ destination, packageName }) => ({
   className: "Sizes",
-  destination: "lib/sizes.dart",
+  destination,
   filter: {
     attributes: {
       category: "size",

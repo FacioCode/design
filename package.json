@@ -4,7 +4,7 @@
   "description": "Root package for Design System for Facio",
   "private": true,
   "workspaces": [
-    "packages/flutter-styles",
+    "packages/flutter",
     "packages/mui-themes",
     "packages/react",
     "packages/react-storybook",

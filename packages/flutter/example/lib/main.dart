@@ -1,4 +1,4 @@
-import 'package:components/components.dart';
+import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,14 +25,14 @@ class MyHomePage extends StatelessWidget {
     return FDSCanvas(
         appBarColor: Colors.white,
         hasAppBarLogo: true,
-        appBarLogoutOnPressed: () => {},
+        appBarLogoutOnPressed: () => null,
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              PrimaryButtonContained(title: 'details', onPressed: () => {}),
-              TertiaryButtonLink(title: 'details', onPressed: () => {}),
-              TertiaryButtonOutlined(title: 'details', onPressed: () => {}),
+              PrimaryButtonContained(title: 'details', onPressed: () => null),
+              TertiaryButtonLink(title: 'details', onPressed: () => null),
+              TertiaryButtonOutlined(title: 'details', onPressed: () => null),
             ],
           ),
         ));

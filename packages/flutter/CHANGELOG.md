@@ -40,25 +40,25 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** fix typo on `disabledColor` token ([078bbf8](https://github.com/FacioCode/design/commit/078bbf8cf600e9ce2599535622841505686a91d9))
+* **flutter:** fix typo on `disabledColor` token ([078bbf8](https://github.com/FacioCode/design/commit/078bbf8cf600e9ce2599535622841505686a91d9))
 
 
 ### Code Refactoring
 
-* **flutter-styles:** remove `borderOutlinedButtonDisabled` from ColorPalette ([ea2bcc3](https://github.com/FacioCode/design/commit/ea2bcc3427c2e764cb7dad200da7421f613e40a7))
+* **flutter:** remove `borderOutlinedButtonDisabled` from ColorPalette ([ea2bcc3](https://github.com/FacioCode/design/commit/ea2bcc3427c2e764cb7dad200da7421f613e40a7))
 
 
 ### Features
 
-* **flutter-styles:** add `RefreshIndicatorStyles` class ([a4e760e](https://github.com/FacioCode/design/commit/a4e760ec0a1806f7d4dd7f7fa72750fe5042d50a))
-* **flutter-styles:** add displacement for loading circular progress ([36b5ded](https://github.com/FacioCode/design/commit/36b5ded7e215d860e16591ae3ed7e1e7ad297522))
+* **flutter:** add `RefreshIndicatorStyles` class ([a4e760e](https://github.com/FacioCode/design/commit/a4e760ec0a1806f7d4dd7f7fa72750fe5042d50a))
+* **flutter:** add displacement for loading circular progress ([36b5ded](https://github.com/FacioCode/design/commit/36b5ded7e215d860e16591ae3ed7e1e7ad297522))
 * add/remove margin tokens, add circular progress color for primary ([94609c7](https://github.com/FacioCode/design/commit/94609c7c2b1e21a840d3d251345aec576c69f13f))
 
 
 ### BREAKING CHANGES
 
-* **flutter-styles:** `disabledBorderColor` was renamed to `disabledColor` on `OutlinedButtonStyles`.
-* **flutter-styles:** `ColorPalette.borderOutlinedButtonDisabled` was removed.
+* **flutter:** `disabledBorderColor` was renamed to `disabledColor` on `OutlinedButtonStyles`.
+* **flutter:** `ColorPalette.borderOutlinedButtonDisabled` was removed.
 
 
 
@@ -67,9 +67,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
-* **flutter-styles:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
-* **flutter-styles:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
+* **flutter:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
+* **flutter:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
+* **flutter:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
 
 
 
@@ -78,7 +78,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
+* **flutter:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
 
 
 
@@ -93,27 +93,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** fix typo on `disabledColor` token ([078bbf8](https://github.com/FacioCode/design/commit/078bbf8cf600e9ce2599535622841505686a91d9))
+* **flutter:** fix typo on `disabledColor` token ([078bbf8](https://github.com/FacioCode/design/commit/078bbf8cf600e9ce2599535622841505686a91d9))
 
 
 ### Code Refactoring
 
-* **flutter-styles:** remove `borderOutlinedButtonDisabled` from ColorPalette ([ea2bcc3](https://github.com/FacioCode/design/commit/ea2bcc3427c2e764cb7dad200da7421f613e40a7))
+* **flutter:** remove `borderOutlinedButtonDisabled` from ColorPalette ([ea2bcc3](https://github.com/FacioCode/design/commit/ea2bcc3427c2e764cb7dad200da7421f613e40a7))
 
 
 ### Features
 
-* **flutter-styles:** add `RefreshIndicatorStyles` class ([a4e760e](https://github.com/FacioCode/design/commit/a4e760ec0a1806f7d4dd7f7fa72750fe5042d50a))
+* **flutter:** add `RefreshIndicatorStyles` class ([a4e760e](https://github.com/FacioCode/design/commit/a4e760ec0a1806f7d4dd7f7fa72750fe5042d50a))
 * add/remove margin tokens, add circular progress color for primary ([94609c7](https://github.com/FacioCode/design/commit/94609c7c2b1e21a840d3d251345aec576c69f13f))
-* **flutter-styles:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
-* **flutter-styles:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
-* **flutter-styles:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
+* **flutter:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
+* **flutter:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
+* **flutter:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
 
 
 ### BREAKING CHANGES
 
-* **flutter-styles:** `disabledBorderColor` was renamed to `disabledColor` on `OutlinedButtonStyles`.
-* **flutter-styles:** `ColorPalette.borderOutlinedButtonDisabled` was removed.
+* **flutter:** `disabledBorderColor` was renamed to `disabledColor` on `OutlinedButtonStyles`.
+* **flutter:** `ColorPalette.borderOutlinedButtonDisabled` was removed.
 
 
 
@@ -122,7 +122,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
+* **flutter:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
 
 
 
@@ -137,10 +137,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
-* **flutter-styles:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
-* **flutter-styles:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
-* **flutter-styles:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
+* **flutter:** add border color for disabled outlined button ([97fc4de](https://github.com/FacioCode/design/commit/97fc4ded64101481c1ef3cf8a764ebaab00cdb4f))
+* **flutter:** add border color for disabled outlined button ([b1dfd84](https://github.com/FacioCode/design/commit/b1dfd849510fc287a1d5ef30c5ab2ea10d17f481))
+* **flutter:** add iconMarginRight token for AlertStyles ([a21de01](https://github.com/FacioCode/design/commit/a21de01ea511db16e07a40bfbc23d263e7fe0269))
+* **flutter:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
 
 
 
@@ -155,7 +155,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
+* **flutter:** add margin for `CardStyles` ([d90b33a](https://github.com/FacioCode/design/commit/d90b33ac7075072def19d8d5a9ff9bde0a172700))
 
 
 
@@ -206,15 +206,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add breakpoint values ([c8c3530](https://github.com/FacioCode/design/commit/c8c35308f82236087515e19a451818ac2d375084))
-* **flutter-styles:** add new background colors ([cebc106](https://github.com/FacioCode/design/commit/cebc1069e61d6009650c883371ec0668b68dc728))
-* **flutter-styles:** add/remove component tokens ([437e783](https://github.com/FacioCode/design/commit/437e783364ca62ce01b296950f3494b80d0cb42f))
+* **flutter:** add breakpoint values ([c8c3530](https://github.com/FacioCode/design/commit/c8c35308f82236087515e19a451818ac2d375084))
+* **flutter:** add new background colors ([cebc106](https://github.com/FacioCode/design/commit/cebc1069e61d6009650c883371ec0668b68dc728))
+* **flutter:** add/remove component tokens ([437e783](https://github.com/FacioCode/design/commit/437e783364ca62ce01b296950f3494b80d0cb42f))
 
 
 ### BREAKING CHANGES
 
-* **flutter-styles:** all constants from `ContainedButtonStyles` starting with `success` (e.g. `successBackgroundColor`) were removed. Please use `brand` instead (e.g. `brandBackgroundColor`). `brandBorderColor` constant was also removed. Some constants at `OutlinedButtonStyles` were renamed/removed.
-* **flutter-styles:** constants `baseSuccessDark`, `baseSuccessMain`, `borderUnderline` were removed. `borderButtonOutlined` was renamed to `borderOutlinedButton`.
+* **flutter:** all constants from `ContainedButtonStyles` starting with `success` (e.g. `successBackgroundColor`) were removed. Please use `brand` instead (e.g. `brandBackgroundColor`). `brandBorderColor` constant was also removed. Some constants at `OutlinedButtonStyles` were renamed/removed.
+* **flutter:** constants `baseSuccessDark`, `baseSuccessMain`, `borderUnderline` were removed. `borderButtonOutlined` was renamed to `borderOutlinedButton`.
 
 
 
@@ -229,15 +229,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add breakpoint values ([c8c3530](https://github.com/FacioCode/design/commit/c8c35308f82236087515e19a451818ac2d375084))
-* **flutter-styles:** add new background colors ([cebc106](https://github.com/FacioCode/design/commit/cebc1069e61d6009650c883371ec0668b68dc728))
-* **flutter-styles:** add/remove component tokens ([437e783](https://github.com/FacioCode/design/commit/437e783364ca62ce01b296950f3494b80d0cb42f))
+* **flutter:** add breakpoint values ([c8c3530](https://github.com/FacioCode/design/commit/c8c35308f82236087515e19a451818ac2d375084))
+* **flutter:** add new background colors ([cebc106](https://github.com/FacioCode/design/commit/cebc1069e61d6009650c883371ec0668b68dc728))
+* **flutter:** add/remove component tokens ([437e783](https://github.com/FacioCode/design/commit/437e783364ca62ce01b296950f3494b80d0cb42f))
 
 
 ### BREAKING CHANGES
 
-* **flutter-styles:** all constants from `ContainedButtonStyles` starting with `success` (e.g. `successBackgroundColor`) were removed. Please use `brand` instead (e.g. `brandBackgroundColor`). `brandBorderColor` constant was also removed. Some constants at `OutlinedButtonStyles` were renamed/removed.
-* **flutter-styles:** constants `baseSuccessDark`, `baseSuccessMain`, `borderUnderline` were removed. `borderButtonOutlined` was renamed to `borderOutlinedButton`.
+* **flutter:** all constants from `ContainedButtonStyles` starting with `success` (e.g. `successBackgroundColor`) were removed. Please use `brand` instead (e.g. `brandBackgroundColor`). `brandBorderColor` constant was also removed. Some constants at `OutlinedButtonStyles` were renamed/removed.
+* **flutter:** constants `baseSuccessDark`, `baseSuccessMain`, `borderUnderline` were removed. `borderButtonOutlined` was renamed to `borderOutlinedButton`.
 
 
 
@@ -332,29 +332,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** remove invalid value for FAB backgroundColor at example ([c14be28](https://github.com/FacioCode/design/commit/c14be288ce9a17d83a4a299cb792428d8f9ca4e5))
-* **flutter-styles:** set fontWeight for button and change button color ([da7c739](https://github.com/FacioCode/design/commit/da7c7394e98c90217e34ccff7656d594845624af))
+* **flutter:** remove invalid value for FAB backgroundColor at example ([c14be28](https://github.com/FacioCode/design/commit/c14be288ce9a17d83a4a299cb792428d8f9ca4e5))
+* **flutter:** set fontWeight for button and change button color ([da7c739](https://github.com/FacioCode/design/commit/da7c7394e98c90217e34ccff7656d594845624af))
 
 
 ### Code Refactoring
 
-* **flutter-styles:** separate styles for button variants ([5684134](https://github.com/FacioCode/design/commit/56841340bd516190cc202f5d3423cda989d9d33a))
+* **flutter:** separate styles for button variants ([5684134](https://github.com/FacioCode/design/commit/56841340bd516190cc202f5d3423cda989d9d33a))
 
 
 ### Features
 
-* **flutter-styles:** add `baseEightfold` and `borderWidthDouble` size tokens ([c6b2a08](https://github.com/FacioCode/design/commit/c6b2a0825880310ad29d4f409ccfc01452d233f0))
-* **flutter-styles:** add `borderRadiusTriple` size constant ([4c97bf4](https://github.com/FacioCode/design/commit/4c97bf4ab768ba4337681278a6e999613496c996))
-* **flutter-styles:** add semantic base colors to `ColorPalette` ([ea52736](https://github.com/FacioCode/design/commit/ea527363cfe307d25b3132c50cc772e90e40fda2))
-* **flutter-styles:** add/remove colors for ColorPalette ([f388b72](https://github.com/FacioCode/design/commit/f388b72e22ebad8d462f097704b2f4b57b2bb9fe))
-* **flutter-styles:** refactor and add new component styles ([181b876](https://github.com/FacioCode/design/commit/181b876c0056e8493bae6426328232299c6a1fa7))
+* **flutter:** add `baseEightfold` and `borderWidthDouble` size tokens ([c6b2a08](https://github.com/FacioCode/design/commit/c6b2a0825880310ad29d4f409ccfc01452d233f0))
+* **flutter:** add `borderRadiusTriple` size constant ([4c97bf4](https://github.com/FacioCode/design/commit/4c97bf4ab768ba4337681278a6e999613496c996))
+* **flutter:** add semantic base colors to `ColorPalette` ([ea52736](https://github.com/FacioCode/design/commit/ea527363cfe307d25b3132c50cc772e90e40fda2))
+* **flutter:** add/remove colors for ColorPalette ([f388b72](https://github.com/FacioCode/design/commit/f388b72e22ebad8d462f097704b2f4b57b2bb9fe))
+* **flutter:** refactor and add new component styles ([181b876](https://github.com/FacioCode/design/commit/181b876c0056e8493bae6426328232299c6a1fa7))
 
 
 ### BREAKING CHANGES
 
-* **flutter-styles:** Many constants from `ButtonStyles` were moved to `ContainedButtonStyles`, `LinkButtonStyles` and `OutlinedButtonStyles`. `InputStyles` class was removed, since underline inputs will not be used anymore.
-* **flutter-styles:** all component token constants were rename. `TypographyStyles` are rendundant with `TextThemes`, so `TypographyStyles` was removed too.
-* **flutter-styles:** The colors `backgroundBackLayer` or `backgroundBase` are not available anymore. Please use `backgroundPaper` instead. The color `backgroundFrontLayer` is not available anymore. Please use `backgroundDefault` instead. The color `backgroundInfo` is not available anymore. Please use `backgroundAlertStandardInfo` instead. `backgroundInverse`, `backgroundSuccess` and `backgroundWarning` colors are not available anymore. Color `fontDefault` is not available anymore. Please use `fontPrimary`. Color `fontHighlight` is not available anymore, please use `fontLink`. Old `fontPrimary` color now is `fontHeadline1`.
+* **flutter:** Many constants from `ButtonStyles` were moved to `ContainedButtonStyles`, `LinkButtonStyles` and `OutlinedButtonStyles`. `InputStyles` class was removed, since underline inputs will not be used anymore.
+* **flutter:** all component token constants were rename. `TypographyStyles` are rendundant with `TextThemes`, so `TypographyStyles` was removed too.
+* **flutter:** The colors `backgroundBackLayer` or `backgroundBase` are not available anymore. Please use `backgroundPaper` instead. The color `backgroundFrontLayer` is not available anymore. Please use `backgroundDefault` instead. The color `backgroundInfo` is not available anymore. Please use `backgroundAlertStandardInfo` instead. `backgroundInverse`, `backgroundSuccess` and `backgroundWarning` colors are not available anymore. Color `fontDefault` is not available anymore. Please use `fontPrimary`. Color `fontHighlight` is not available anymore, please use `fontLink`. Old `fontPrimary` color now is `fontHeadline1`.
 
 
 
@@ -389,19 +389,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Code Refactoring
 
-* **flutter-styles:** remove appBarRootHeight constant ([5c34e42](https://github.com/FacioCode/design/commit/5c34e42446eb0b34108d7d0c8f49bd2aa7c9525d))
+* **flutter:** remove appBarRootHeight constant ([5c34e42](https://github.com/FacioCode/design/commit/5c34e42446eb0b34108d7d0c8f49bd2aa7c9525d))
 
 
 ### Features
 
-* **flutter-styles:** add border radius values for Paper ([71fad25](https://github.com/FacioCode/design/commit/71fad2512d8b00dfeaf472a4f48e5b107364c500))
-* **flutter-styles:** add PaperStyles ([e99df1f](https://github.com/FacioCode/design/commit/e99df1fb3a91a2f32f3dd3689355c9206b4ef7ec))
+* **flutter:** add border radius values for Paper ([71fad25](https://github.com/FacioCode/design/commit/71fad2512d8b00dfeaf472a4f48e5b107364c500))
+* **flutter:** add PaperStyles ([e99df1f](https://github.com/FacioCode/design/commit/e99df1fb3a91a2f32f3dd3689355c9206b4ef7ec))
 
 
 ### BREAKING CHANGES
 
-* **flutter-styles:** `AppBarStyles.appBarRootHeight` is not available. You should use default AppBar height from Material
-* **flutter-styles:** `CardStyles.cardRootColor` was renamed to `CardStyles.cardDefaultColor`
+* **flutter:** `AppBarStyles.appBarRootHeight` is not available. You should use default AppBar height from Material
+* **flutter:** `CardStyles.cardRootColor` was renamed to `CardStyles.cardDefaultColor`
 
 
 
@@ -416,13 +416,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add border radius values for Paper ([71fad25](https://github.com/FacioCode/design/commit/71fad2512d8b00dfeaf472a4f48e5b107364c500))
-* **flutter-styles:** add PaperStyles ([e99df1f](https://github.com/FacioCode/design/commit/e99df1fb3a91a2f32f3dd3689355c9206b4ef7ec))
+* **flutter:** add border radius values for Paper ([71fad25](https://github.com/FacioCode/design/commit/71fad2512d8b00dfeaf472a4f48e5b107364c500))
+* **flutter:** add PaperStyles ([e99df1f](https://github.com/FacioCode/design/commit/e99df1fb3a91a2f32f3dd3689355c9206b4ef7ec))
 
 
 ### BREAKING CHANGES
 
-* **flutter-styles:** `CardStyles.cardRootColor` was renamed to `CardStyles.cardDefaultColor`
+* **flutter:** `CardStyles.cardRootColor` was renamed to `CardStyles.cardDefaultColor`
 
 
 
@@ -489,21 +489,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** set correct line height for fonts, remove button line height ([c5d9b81](https://github.com/FacioCode/design/commit/c5d9b8152c9c79b36a7e1089dd9b7975ae769869))
-* **flutter-styles:** update base border radius and line heights ([938fdfd](https://github.com/FacioCode/design/commit/938fdfd103604857c96ef374f54785992c4ec1b6))
-* **flutter-styles:** update ButtonStyles ([348e2e9](https://github.com/FacioCode/design/commit/348e2e94fe53a5fd486b42107d0cddb3e68bcd35))
+* **flutter:** set correct line height for fonts, remove button line height ([c5d9b81](https://github.com/FacioCode/design/commit/c5d9b8152c9c79b36a7e1089dd9b7975ae769869))
+* **flutter:** update base border radius and line heights ([938fdfd](https://github.com/FacioCode/design/commit/938fdfd103604857c96ef374f54785992c4ec1b6))
+* **flutter:** update ButtonStyles ([348e2e9](https://github.com/FacioCode/design/commit/348e2e94fe53a5fd486b42107d0cddb3e68bcd35))
 
 
 ### Features
 
-* **flutter-styles:** add semantic background colors to ColorPalette class ([f88aa65](https://github.com/FacioCode/design/commit/f88aa65fc724565a2e968e2a9c3abfc899dcdf7b))
-* **flutter-styles:** add styles for Card ([ef36e08](https://github.com/FacioCode/design/commit/ef36e08a4ca726817fbccddf8e61963e2d504a68))
+* **flutter:** add semantic background colors to ColorPalette class ([f88aa65](https://github.com/FacioCode/design/commit/f88aa65fc724565a2e968e2a9c3abfc899dcdf7b))
+* **flutter:** add styles for Card ([ef36e08](https://github.com/FacioCode/design/commit/ef36e08a4ca726817fbccddf8e61963e2d504a68))
 
 
 ### BREAKING CHANGES
 
-* **flutter-styles:** button line height is not provided anymore. Flutter will calculate it, or you can provide it directly on your application.
-* **flutter-styles:** Because `ButtonStyles.buttonRootBorderRadius` was splitted for medium and large button sizes, `ButtonStyles.buttonRootBorderRadius` is not a valid static constant anymore. You must use `buttonSizeMediumBorderRadius` or `buttonSizeLargeBorderRadius` constants.
+* **flutter:** button line height is not provided anymore. Flutter will calculate it, or you can provide it directly on your application.
+* **flutter:** Because `ButtonStyles.buttonRootBorderRadius` was splitted for medium and large button sizes, `ButtonStyles.buttonRootBorderRadius` is not a valid static constant anymore. You must use `buttonSizeMediumBorderRadius` or `buttonSizeLargeBorderRadius` constants.
 
 
 
@@ -586,9 +586,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add example project in dart ([cae7d4d](https://github.com/FacioCode/design/commit/cae7d4dee923a2bdc45094a93d7b4ffbe1ef8a3d))
-* **flutter-styles:** add example project support files for Android ([3cd6a24](https://github.com/FacioCode/design/commit/3cd6a2482f79842e63af8f331e79db82978ce7f5))
-* **flutter-styles:** add example project support files for iOS ([321296a](https://github.com/FacioCode/design/commit/321296ae0aa45ba5d934e3e6527cb19eaf64ff42))
+* **flutter:** add example project in dart ([cae7d4d](https://github.com/FacioCode/design/commit/cae7d4dee923a2bdc45094a93d7b4ffbe1ef8a3d))
+* **flutter:** add example project support files for Android ([3cd6a24](https://github.com/FacioCode/design/commit/3cd6a2482f79842e63af8f331e79db82978ce7f5))
+* **flutter:** add example project support files for iOS ([321296a](https://github.com/FacioCode/design/commit/321296ae0aa45ba5d934e3e6527cb19eaf64ff42))
 
 
 
@@ -607,9 +607,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add example project in dart ([cae7d4d](https://github.com/FacioCode/design/commit/cae7d4dee923a2bdc45094a93d7b4ffbe1ef8a3d))
-* **flutter-styles:** add example project support files for Android ([3cd6a24](https://github.com/FacioCode/design/commit/3cd6a2482f79842e63af8f331e79db82978ce7f5))
-* **flutter-styles:** add example project support files for iOS ([321296a](https://github.com/FacioCode/design/commit/321296ae0aa45ba5d934e3e6527cb19eaf64ff42))
+* **flutter:** add example project in dart ([cae7d4d](https://github.com/FacioCode/design/commit/cae7d4dee923a2bdc45094a93d7b4ffbe1ef8a3d))
+* **flutter:** add example project support files for Android ([3cd6a24](https://github.com/FacioCode/design/commit/3cd6a2482f79842e63af8f331e79db82978ce7f5))
+* **flutter:** add example project support files for iOS ([321296a](https://github.com/FacioCode/design/commit/321296ae0aa45ba5d934e3e6527cb19eaf64ff42))
 
 
 
@@ -708,9 +708,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** add missing const to color values ([e5d8078](https://github.com/FacioCode/design/commit/e5d80784a202425d4e81ddfeee901e62dfdbdab2))
-* **flutter-styles:** convert typography and base sizes to double ([f86eba5](https://github.com/FacioCode/design/commit/f86eba53dc09d125974275e801a4576efe63a385))
-* **flutter-styles:** fix color palette syntax and const use ([c66f897](https://github.com/FacioCode/design/commit/c66f897cbda4e9a5a64ab31bfa4bcae6d83754ee))
+* **flutter:** add missing const to color values ([e5d8078](https://github.com/FacioCode/design/commit/e5d80784a202425d4e81ddfeee901e62dfdbdab2))
+* **flutter:** convert typography and base sizes to double ([f86eba5](https://github.com/FacioCode/design/commit/f86eba53dc09d125974275e801a4576efe63a385))
+* **flutter:** fix color palette syntax and const use ([c66f897](https://github.com/FacioCode/design/commit/c66f897cbda4e9a5a64ab31bfa4bcae6d83754ee))
 
 
 
@@ -719,8 +719,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** add missing const, replace lineHeight by height ([376e11f](https://github.com/FacioCode/design/commit/376e11f647eb96afbd53f50c21e2415eeefe5867))
-* **flutter-styles:** import missing material and painting ([0a2bd9f](https://github.com/FacioCode/design/commit/0a2bd9f87a9b08276e7ded286c1c1feeb4092a80))
+* **flutter:** add missing const, replace lineHeight by height ([376e11f](https://github.com/FacioCode/design/commit/376e11f647eb96afbd53f50c21e2415eeefe5867))
+* **flutter:** import missing material and painting ([0a2bd9f](https://github.com/FacioCode/design/commit/0a2bd9f87a9b08276e7ded286c1c1feeb4092a80))
 
 
 
@@ -739,10 +739,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** add missing const, replace lineHeight by height ([376e11f](https://github.com/FacioCode/design/commit/376e11f647eb96afbd53f50c21e2415eeefe5867))
-* **flutter-styles:** convert typography and base sizes to double ([f86eba5](https://github.com/FacioCode/design/commit/f86eba53dc09d125974275e801a4576efe63a385))
-* **flutter-styles:** fix color palette syntax and const use ([c66f897](https://github.com/FacioCode/design/commit/c66f897cbda4e9a5a64ab31bfa4bcae6d83754ee))
-* **flutter-styles:** import missing material and painting ([0a2bd9f](https://github.com/FacioCode/design/commit/0a2bd9f87a9b08276e7ded286c1c1feeb4092a80))
+* **flutter:** add missing const, replace lineHeight by height ([376e11f](https://github.com/FacioCode/design/commit/376e11f647eb96afbd53f50c21e2415eeefe5867))
+* **flutter:** convert typography and base sizes to double ([f86eba5](https://github.com/FacioCode/design/commit/f86eba53dc09d125974275e801a4576efe63a385))
+* **flutter:** fix color palette syntax and const use ([c66f897](https://github.com/FacioCode/design/commit/c66f897cbda4e9a5a64ab31bfa4bcae6d83754ee))
+* **flutter:** import missing material and painting ([0a2bd9f](https://github.com/FacioCode/design/commit/0a2bd9f87a9b08276e7ded286c1c1feeb4092a80))
 
 
 
@@ -761,8 +761,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** add missing const, replace lineHeight by height ([376e11f](https://github.com/FacioCode/design/commit/376e11f647eb96afbd53f50c21e2415eeefe5867))
-* **flutter-styles:** import missing material and painting ([0a2bd9f](https://github.com/FacioCode/design/commit/0a2bd9f87a9b08276e7ded286c1c1feeb4092a80))
+* **flutter:** add missing const, replace lineHeight by height ([376e11f](https://github.com/FacioCode/design/commit/376e11f647eb96afbd53f50c21e2415eeefe5867))
+* **flutter:** import missing material and painting ([0a2bd9f](https://github.com/FacioCode/design/commit/0a2bd9f87a9b08276e7ded286c1c1feeb4092a80))
 
 
 
@@ -837,8 +837,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** use correct FontWeight class notation ([bd1a470](https://github.com/FacioCode/design/commit/bd1a4707d05b198544190673ba6d0114daf26aac))
-* **flutter-styles:** use correct FontWeight class notation at TextTheme ([7b13e02](https://github.com/FacioCode/design/commit/7b13e02cb72163be002d58299331ce6506224c5e))
+* **flutter:** use correct FontWeight class notation ([bd1a470](https://github.com/FacioCode/design/commit/bd1a4707d05b198544190673ba6d0114daf26aac))
+* **flutter:** use correct FontWeight class notation at TextTheme ([7b13e02](https://github.com/FacioCode/design/commit/7b13e02cb72163be002d58299331ce6506224c5e))
 
 
 
@@ -877,12 +877,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **flutter-styles:** add missing constructor for component styles classes ([c4cd2e4](https://github.com/FacioCode/design/commit/c4cd2e44a3ce5ff051c41c111fe5a6c20ea43dfb))
+* **flutter:** add missing constructor for component styles classes ([c4cd2e4](https://github.com/FacioCode/design/commit/c4cd2e44a3ce5ff051c41c111fe5a6c20ea43dfb))
 
 
 ### Features
 
-* **flutter-styles:** add component styles to main lib file ([47cac68](https://github.com/FacioCode/design/commit/47cac681b8381a515d44eab753f490456eb01b34))
+* **flutter:** add component styles to main lib file ([47cac68](https://github.com/FacioCode/design/commit/47cac681b8381a515d44eab753f490456eb01b34))
 
 
 
@@ -891,8 +891,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add component styles classes ([8862576](https://github.com/FacioCode/design/commit/88625766481ab45aecbb5acd4d969f631f543933))
-* **flutter-styles:** add lineHeight style to `TextStyles`s ([7b0ce4d](https://github.com/FacioCode/design/commit/7b0ce4dc7532d3a83336098db7d344f57c72bad6))
+* **flutter:** add component styles classes ([8862576](https://github.com/FacioCode/design/commit/88625766481ab45aecbb5acd4d969f631f543933))
+* **flutter:** add lineHeight style to `TextStyles`s ([7b0ce4d](https://github.com/FacioCode/design/commit/7b0ce4dc7532d3a83336098db7d344f57c72bad6))
 
 
 
@@ -910,7 +910,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* The FontSizes and Fonts classes were removed from flutter-styles. If you need some
+* The FontSizes and Fonts classes were removed from flutter. If you need some
 text/typography style, please use TextTheme.textTheme. The text style names also has changed.
 
 
@@ -920,15 +920,15 @@ text/typography style, please use TextTheme.textTheme. The text style names also
 
 ### Bug Fixes
 
-* **flutter-styles:** fix base black color ([f332551](https://github.com/FacioCode/design/commit/f33255192f16405a57829f776b6baefbe21e1b00))
+* **flutter:** fix base black color ([f332551](https://github.com/FacioCode/design/commit/f33255192f16405a57829f776b6baefbe21e1b00))
 
 
 ### Features
 
-* **flutter-styles:** add background, black, white and font colors ([e909e2e](https://github.com/FacioCode/design/commit/e909e2e30da110be0a6295ba9c642f93bbcbd3f1))
-* **flutter-styles:** add colors to base colors palette ([4a8c5f2](https://github.com/FacioCode/design/commit/4a8c5f25925c12fff944435377c9472071bfb634))
-* **flutter-styles:** add font large input font size ([7c1f2b0](https://github.com/FacioCode/design/commit/7c1f2b07305d6016773008e854c6b9d81c0569ff))
-* **flutter-styles:** add font weight to fonts.dart ([8eca809](https://github.com/FacioCode/design/commit/8eca80956128690c55aa56b93030f46bad568c80))
-* **flutter-styles:** add more font sizing definitions ([b5d8610](https://github.com/FacioCode/design/commit/b5d861018c47b2ba67dda1805f3cd1c9c7ab9782))
-* **flutter-styles:** add sizes constants ([8bb0f5c](https://github.com/FacioCode/design/commit/8bb0f5ce108d02dcfcff00248559c84ce62d0727))
-* **flutter-styles:** expose sizes and wip text_theme classes ([fc596bf](https://github.com/FacioCode/design/commit/fc596bfcd86d68971ec0ffdd72677cb6945bf4e3))
+* **flutter:** add background, black, white and font colors ([e909e2e](https://github.com/FacioCode/design/commit/e909e2e30da110be0a6295ba9c642f93bbcbd3f1))
+* **flutter:** add colors to base colors palette ([4a8c5f2](https://github.com/FacioCode/design/commit/4a8c5f25925c12fff944435377c9472071bfb634))
+* **flutter:** add font large input font size ([7c1f2b0](https://github.com/FacioCode/design/commit/7c1f2b07305d6016773008e854c6b9d81c0569ff))
+* **flutter:** add font weight to fonts.dart ([8eca809](https://github.com/FacioCode/design/commit/8eca80956128690c55aa56b93030f46bad568c80))
+* **flutter:** add more font sizing definitions ([b5d8610](https://github.com/FacioCode/design/commit/b5d861018c47b2ba67dda1805f3cd1c9c7ab9782))
+* **flutter:** add sizes constants ([8bb0f5c](https://github.com/FacioCode/design/commit/8bb0f5ce108d02dcfcff00248559c84ce62d0727))
+* **flutter:** expose sizes and wip text_theme classes ([fc596bf](https://github.com/FacioCode/design/commit/fc596bfcd86d68971ec0ffdd72677cb6945bf4e3))

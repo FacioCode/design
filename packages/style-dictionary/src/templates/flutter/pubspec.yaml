@@ -8,11 +8,13 @@ issue_tracker: {{issueTracker}}
 documentation: {{documentation}}
 
 environment:
-  sdk: '>=2.10.0 <3.0.0'
+  sdk: ">=2.10.4 <3.0.0"
+  flutter: ">=1.22.4 <2.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^0.19.1
 
 dev_dependencies:
   flutter_test:
@@ -20,4 +22,35 @@ dev_dependencies:
   pedantic: ^1.9.2
 
 # The following section is specific to Flutter.
-flutter: ~
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/OpenSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-RegularItalic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/OpenSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic

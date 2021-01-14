@@ -6,25 +6,27 @@ const {
   name: packageName,
   repository,
   version,
-} = require("../../../../flutter-styles/package.json");
+} = require("../../../../flutter/package.json");
 
 const colorPalette = require("./colorPalette");
 const sizes = require("./sizes");
 const textTheme = require("./textTheme");
 
+const generatedFilesPath = "lib/src/generated";
+
 const flutter = {
-  buildPath: "../flutter-styles/",
+  buildPath: "../flutter/",
   files: [
     {
       destination: "pubspec.yaml",
       format: "flutter/pubspec.yaml",
     },
     {
-      destination: "lib/facio_styles.dart",
+      destination: "lib/styles.dart",
       format: "flutter/package.dart",
     },
     {
-      destination: "lib/component_styles.dart",
+      destination: `${generatedFilesPath}/component_styles.dart`,
       filter: ({ attributes }) => {
         const { category, type } = attributes;
 
@@ -38,9 +40,18 @@ const flutter = {
      * @todo Generate color swatches too
      * @see https://stackoverflow.com/a/50214259
      */
-    colorPalette({ packageName }),
-    sizes({ packageName }),
-    textTheme({ packageName }),
+    colorPalette({
+      destination: `${generatedFilesPath}/color_palette.dart`,
+      packageName,
+    }),
+    sizes({
+      destination: `${generatedFilesPath}/sizes.dart`,
+      packageName,
+    }),
+    textTheme({
+      destination: `${generatedFilesPath}/text_theme.dart`,
+      packageName,
+    }),
   ],
   metadata: {
     description,

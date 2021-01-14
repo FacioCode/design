@@ -1,7 +1,6 @@
 import 'dart:ui';
 
-import 'package:components/components.dart';
-import 'package:facio_styles/facio_styles.dart';
+import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:meta/meta.dart';

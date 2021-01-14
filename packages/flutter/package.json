@@ -1,7 +1,7 @@
 {
-  "name": "facio_components",
+  "name": "facio_design_system",
   "version": "0.30.3",
-  "description": "Facio Design System components package for use in Flutter applications. The components in this package are consumed by Facio applications built on Flutter.",
+  "description": "Facio Design System style tokens and UI components for Facio applications built on Flutter.",
   "private": true,
   "repository": {
     "directory": "packages/flutter",

@@ -1,4 +1,4 @@
-import 'package:components/components.dart';
+import 'package:facio_design_system/components.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter/widgets.dart';
 
