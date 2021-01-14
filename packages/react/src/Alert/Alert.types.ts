@@ -7,6 +7,16 @@ export interface AlertProps extends Omit<MaterialAlertProps, "css" | "severity">
    *
    * @default "info"
    * @optional
+   * @type "error" | "info" | "success" | "warning"
    */
   color?: MaterialAlertProps["color"];
+
+  /**
+   * If `true`, enables horizontal gutters.
+   *
+   * @default false
+   * @optional
+   * @type bool
+   */
+  gutters?: boolean;
 }
