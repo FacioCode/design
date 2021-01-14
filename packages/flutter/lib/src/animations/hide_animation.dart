@@ -4,8 +4,10 @@ class HideAnimation {
   HideAnimation() {
     focusNode.addListener(() {
       if (focusNode.hasFocus) {
-        Future<void>.delayed(const Duration(milliseconds: 100),
-            () => _focusOnComponent(keyAppBar, keyInputFocus, scrollController, 200));
+        Future<void>.delayed(
+            const Duration(milliseconds: 100),
+            () => _focusOnComponent(
+                keyAppBar, keyInputFocus, scrollController, 200));
       } else {
         _focusOnComponent(keyAppBar, keyInputFocus, scrollController, 1);
       }
@@ -17,16 +19,20 @@ class HideAnimation {
   final GlobalKey keyInputFocus = GlobalKey();
   final FocusNode focusNode = FocusNode();
 
-  void _focusOnComponent(
-      GlobalKey keyAppBar, GlobalKey keyInputAmount, ScrollController scrollController, int animationMS) {
-    final renderBoxAppBar = keyAppBar.currentContext.findRenderObject() as RenderBox;
+  void _focusOnComponent(GlobalKey keyAppBar, GlobalKey keyInputAmount,
+      ScrollController scrollController, int animationMS) {
+    final renderBoxAppBar =
+        keyAppBar.currentContext.findRenderObject() as RenderBox;
     final sizeAppBar = renderBoxAppBar.size;
 
-    final renderBoxInputInstallments = keyInputAmount.currentContext.findRenderObject() as RenderBox;
-    final positionInputInstallments = renderBoxInputInstallments.localToGlobal(Offset.zero);
+    final renderBoxInputInstallments =
+        keyInputAmount.currentContext.findRenderObject() as RenderBox;
+    final positionInputInstallments =
+        renderBoxInputInstallments.localToGlobal(Offset.zero);
 
     final offset = positionInputInstallments.dy - sizeAppBar.height - 16;
 
-    scrollController.animateTo(offset, curve: Curves.linear, duration: Duration(milliseconds: animationMS));
+    scrollController.animateTo(offset,
+        curve: Curves.linear, duration: Duration(milliseconds: animationMS));
   }
 }

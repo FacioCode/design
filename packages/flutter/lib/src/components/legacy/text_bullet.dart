@@ -15,7 +15,9 @@ class TextBullet extends StatelessWidget {
       height: _size,
       decoration: BoxDecoration(
         borderRadius: _border,
-        color: _checked ? LegacyColorPalette.aquaMarine : LegacyColorPalette.charcoalGrey,
+        color: _checked
+            ? LegacyColorPalette.aquaMarine
+            : LegacyColorPalette.charcoalGrey,
       ),
     );
   }

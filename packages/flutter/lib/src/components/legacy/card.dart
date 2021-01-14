@@ -6,7 +6,8 @@ import 'package:meta/meta.dart';
 class BaseCard extends StatelessWidget {
   const BaseCard({
     @required final Widget child,
-    final EdgeInsets innerPadding = const EdgeInsets.all(CardContentStyles.padding),
+    final EdgeInsets innerPadding =
+        const EdgeInsets.all(CardContentStyles.padding),
     final EdgeInsets margin = LegacyTheme.defaultSpacing,
     final VoidCallback onTap,
     final double elevation = 3,
@@ -26,7 +27,8 @@ class BaseCard extends StatelessWidget {
   final double _elevation;
   final Color _color;
 
-  static const BorderRadius _defaultRadius = BorderRadius.all(Radius.circular(8.0));
+  static const BorderRadius _defaultRadius =
+      BorderRadius.all(Radius.circular(8.0));
 
   @override
   Widget build(BuildContext context) => Card(

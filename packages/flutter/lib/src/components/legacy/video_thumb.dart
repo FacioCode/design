@@ -48,7 +48,8 @@ class VideoThumb extends StatelessWidget {
                     color: Colors.black12,
                     child: Image.network(
                       _thumbUrl,
-                      errorBuilder: (BuildContext context, Object exception, StackTrace stackTrace) {
+                      errorBuilder: (BuildContext context, Object exception,
+                          StackTrace stackTrace) {
                         return Container();
                       },
                       fit: BoxFit.cover,
@@ -69,7 +70,10 @@ class VideoThumb extends StatelessWidget {
                         style: (_textSize == VideoThumbTextSize.large
                                 ? Theme.of(context).textTheme.headline5
                                 : Theme.of(context).textTheme.bodyText1)
-                            .copyWith(color: Colors.white, height: 1.2, fontWeight: FontWeight.bold),
+                            .copyWith(
+                                color: Colors.white,
+                                height: 1.2,
+                                fontWeight: FontWeight.bold),
                       ),
                     ),
                     if (_lengthText != null)
@@ -85,7 +89,9 @@ class VideoThumb extends StatelessWidget {
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyText1
-                                  .copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                                  .copyWith(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),

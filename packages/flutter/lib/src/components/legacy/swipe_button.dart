@@ -29,7 +29,8 @@ class SwipeButton extends StatefulWidget {
   State<SwipeButton> createState() => SwipeButtonState();
 }
 
-class SwipeButtonState extends State<SwipeButton> with SingleTickerProviderStateMixin {
+class SwipeButtonState extends State<SwipeButton>
+    with SingleTickerProviderStateMixin {
   final GlobalKey _containerKey = GlobalKey();
   final GlobalKey _positionedKey = GlobalKey();
 
@@ -37,16 +38,18 @@ class SwipeButtonState extends State<SwipeButton> with SingleTickerProviderState
   Animation<double> _contentAnimation;
   Offset _start = Offset.zero;
 
-  RenderBox get _positioned => _positionedKey.currentContext.findRenderObject() as RenderBox;
+  RenderBox get _positioned =>
+      _positionedKey.currentContext.findRenderObject() as RenderBox;
 
-  RenderBox get _container => _containerKey.currentContext.findRenderObject() as RenderBox;
+  RenderBox get _container =>
+      _containerKey.currentContext.findRenderObject() as RenderBox;
 
   @override
   void initState() {
     super.initState();
     _controller = AnimationController.unbounded(vsync: this);
-    _contentAnimation =
-        Tween<double>(begin: 1.0, end: 0.0).animate(CurvedAnimation(parent: _controller, curve: Curves.easeOut));
+    _contentAnimation = Tween<double>(begin: 1.0, end: 0.0)
+        .animate(CurvedAnimation(parent: _controller, curve: Curves.easeOut));
     if (widget.initialPosition == SwipePosition.swipeRight) {
       _controller.value = 1.0;
     }
@@ -168,7 +171,8 @@ enum SwipePosition {
 }
 
 class _SwipeSimulation extends GravitySimulation {
-  _SwipeSimulation(double acceleration, double distance, double endDistance, double velocity)
+  _SwipeSimulation(
+      double acceleration, double distance, double endDistance, double velocity)
       : super(acceleration, distance, endDistance, velocity);
 
   @override
