@@ -6,17 +6,17 @@ class AlertStyles {
   /// Margin Right for Icon
   static const iconMarginRight = 8.00;
 
+  /// Margin Left for Gutters
+  static const guttersMarginLeft = 16.00;
+
+  /// Margin Right for Gutters
+  static const guttersMarginRight = 16.00;
+
   /// Border Radius for Alert
   static const borderRadius = 8.00;
 
   /// Margin Bottom for Alert
   static const marginBottom = 24.00;
-
-  /// Margin Left for Alert
-  static const marginLeft = 16.00;
-
-  /// Margin Right for Alert
-  static const marginRight = 16.00;
 
   /// Margin Top for Alert
   static const marginTop = 4.00;
