@@ -1,3 +1,3 @@
 import type { TableHeadProps as MaterialTableHeadProps } from "@material-ui/core/TableHead";
 
-export type TableHeadProps = MaterialTableHeadProps;
+export type TableHeadProps = Omit<MaterialTableHeadProps, "css">;

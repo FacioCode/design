@@ -2,6 +2,7 @@ import { IconButtonProps as MaterialIconButtonProps } from "@material-ui/core";
 
 type OmittedProps =
   "centerRipple" |
+  "css" |
   "disableRipple" |
   "disableFocusRipple" |
   "disableTouchRipple" |

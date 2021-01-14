@@ -1,3 +1,3 @@
 import { CardProps as MaterialCardProps } from "@material-ui/core";
 
-export type CardProps = Omit<MaterialCardProps, "elevation" | "raised">;
+export type CardProps = Omit<MaterialCardProps, "css" | "elevation" | "raised">;
