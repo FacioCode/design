@@ -9,6 +9,4 @@ export interface AlertProps extends Omit<MaterialAlertProps, "css" | "severity">
    * @optional
    */
   color?: MaterialAlertProps["color"];
-
-  css?: never
 }

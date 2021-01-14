@@ -17,8 +17,6 @@ export type ButtonOmittedProps =
 
 export interface ButtonProps extends Omit<MaterialButtonProps, ButtonOmittedProps> {
 
-    css?: never;
-
     /**
      * @default "small"
      * @optional

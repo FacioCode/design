@@ -29,8 +29,6 @@ export interface TypographyProps extends Omit<MaterialTypographyProps, OmittedPr
    */
   component?: React.ElementType;
 
-  css?: never;
-
   /**
    * Applies the theme typography styles.
    *

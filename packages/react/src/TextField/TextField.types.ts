@@ -6,8 +6,6 @@ type TextFieldVariant = "filled" | "underline";
 
 export interface TextFieldProps extends Omit<MaterialTextFieldProps, OmittedProps> {
 
-  css?: never;
-
   /**
    * @default "filled"
    * @optional
