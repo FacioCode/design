@@ -11,6 +11,21 @@ export const alertStyles = {
 
   },
 
+  gutters: {
+
+    /**
+     * Margin Left for Alert Gutters
+     */
+    marginLeft: "var(--component-alert-gutters-margin-left, 16px)",
+
+
+    /**
+     * Margin Right for Alert Gutters
+     */
+    marginRight: "var(--component-alert-gutters-margin-right, 16px)",
+
+  },
+
   root: {
 
     /**
@@ -23,18 +38,6 @@ export const alertStyles = {
      * Margin Bottom for Alert Root
      */
     marginBottom: "var(--component-alert-root-margin-bottom, 24px)",
-
-
-    /**
-     * Margin Left for Alert Root
-     */
-    marginLeft: "var(--component-alert-root-margin-left, 16px)",
-
-
-    /**
-     * Margin Right for Alert Root
-     */
-    marginRight: "var(--component-alert-root-margin-right, 16px)",
 
 
     /**
