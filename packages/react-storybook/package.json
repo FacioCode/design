@@ -30,6 +30,7 @@
     "url": "git+https://github.com/FacioCode/design.git"
   },
   "scripts": {
+    "build": "build-storybook -c ./src -o ./dist",
     "start": "start-storybook -c ./src -p 9009",
     "test": "echo \"Todo: write tests\" && exit 0"
   },
