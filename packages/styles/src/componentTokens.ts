@@ -1,8 +1,8 @@
 export const alertIconMarginRight = "8px";
+export const alertGuttersMarginLeft = "16px";
+export const alertGuttersMarginRight = "16px";
 export const alertRootBorderRadius = "8px";
 export const alertRootMarginBottom = "24px";
-export const alertRootMarginLeft = "16px";
-export const alertRootMarginRight = "16px";
 export const alertRootMarginTop = "4px";
 export const alertStandardInfoBackgroundColor = "#b3ccff";
 export const alertStandardBrandBackgroundColor = "#3fe1b6";
