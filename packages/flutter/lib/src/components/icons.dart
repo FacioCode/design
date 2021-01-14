@@ -2,7 +2,7 @@ import 'package:flutter_svg/svg.dart';
 
 // ignore: avoid_classes_with_only_static_members
 class FDSIcons {
-  static final String packageName = 'components';
+  static final String packageName = 'facio_design_system';
   static final bigPig = SvgPicture.asset('assets/images/big_pig.svg', package: packageName);
   static final deposit = SvgPicture.asset('assets/images/deposit.svg', package: packageName);
   static final eyeOpen = SvgPicture.asset('assets/images/eye_open.svg', package: packageName);
