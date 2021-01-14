@@ -7,14 +7,14 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.5.0-nullsafety.2"
+    version: "2.5.0-nullsafety.1"
   boolean_selector:
     dependency: transitive
     description:
       name: boolean_selector
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0-nullsafety.2"
+    version: "2.1.0-nullsafety.1"
   characters:
     dependency: transitive
     description:
@@ -28,7 +28,7 @@ packages:
       name: charcode
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.0-nullsafety.2"
+    version: "1.2.0-nullsafety.1"
   clock:
     dependency: transitive
     description:
@@ -50,13 +50,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
-  facio_styles:
-    dependency: "direct main"
-    description:
-      name: facio_styles
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.30.3"
   fake_async:
     dependency: transitive
     description:
@@ -87,7 +80,7 @@ packages:
       name: matcher
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.10-nullsafety.2"
+    version: "0.12.10-nullsafety.1"
   meta:
     dependency: transitive
     description:
@@ -116,6 +109,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.4"
+  pedantic:
+    dependency: "direct dev"
+    description:
+      name: pedantic
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.9.2"
   petitparser:
     dependency: transitive
     description:
@@ -148,7 +148,7 @@ packages:
       name: stream_channel
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0-nullsafety.2"
+    version: "2.1.0-nullsafety.1"
   string_scanner:
     dependency: transitive
     description:
@@ -162,7 +162,7 @@ packages:
       name: term_glyph
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.0-nullsafety.2"
+    version: "1.2.0-nullsafety.1"
   test_api:
     dependency: transitive
     description:
@@ -193,4 +193,4 @@ packages:
     version: "4.5.1"
 sdks:
   dart: ">=2.10.4 <2.11.0"
-  flutter: ">=1.22.5 <2.0.0"
+  flutter: ">=1.22.4 <2.0.0"
