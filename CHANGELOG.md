@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.34.0](https://github.com/FacioCode/design/compare/v0.33.2...v0.34.0) (2021-01-14)
+
+
+### Code Refactoring
+
+* **flutter:** change all references from `flutter-styles` to `flutter` ([4c2190d](https://github.com/FacioCode/design/commit/4c2190dbce5eec00eccacd7d92df5b66514802dc))
+
+
+### Features
+
+* **flutter:** brings Facio's components to Design System project ([a7fd0c4](https://github.com/FacioCode/design/commit/a7fd0c48aca68f9a769de2d78bee7b485835642d))
+
+
+### BREAKING CHANGES
+
+* **flutter:** Now `facio_components` Flutter package will be named `facio_design_system`. Folder `flutter-styles` was renamed to `flutter`
+
+
+
+## 0.30.3 (2021-01-11)
+
+
+
+
+
 ## [0.33.2](https://github.com/FacioCode/design/compare/v0.33.1...v0.33.2) (2021-01-14)
 
 
