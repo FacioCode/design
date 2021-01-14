@@ -1,6 +1,6 @@
-const textTheme = ({ packageName }) => ({
+const textTheme = ({ destination, packageName }) => ({
   className: "TextStyles",
-  destination: "lib/text_theme.dart",
+  destination,
   filter: {
     attributes: {
       category: "component",

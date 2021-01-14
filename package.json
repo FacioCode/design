@@ -4,7 +4,7 @@
   "description": "Root package for Design System for Facio",
   "private": true,
   "workspaces": [
-    "packages/flutter-styles",
+    "packages/flutter",
     "packages/mui-themes",
     "packages/react",
     "packages/react-storybook",
@@ -36,7 +36,6 @@
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-postcss": "3.1.8",
     "rollup-plugin-terser": "7.0.2",
-    "style-dictionary": "2.10.2",
     "svgo": "1.3.2",
     "ts-node": "9.0.0",
     "typescript": "4.1.2",

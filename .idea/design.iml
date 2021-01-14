@@ -4,11 +4,9 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.stryker-tmp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react-storybook/dist" />
       <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/react-unstyled/dist" />
       <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/react/dist" />
@@ -21,8 +19,7 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/android/app/src/main/java" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/ios/Flutter/App.framework" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/ios/Flutter/Flutter.framework" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/coverage" />
       <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/react/dist" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/libraries" />
@@ -32,7 +29,14 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

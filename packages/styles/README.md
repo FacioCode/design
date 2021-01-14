@@ -4,4 +4,4 @@ CSS and JavaScript styles for Facio Design System.
 
 ## Other platforms
 
-* [Flutter](https://github.com/FacioCode/design/tree/main/packages/flutter-styles#readme)
+* [Flutter](https://github.com/FacioCode/design/tree/main/packages/flutter#readme)

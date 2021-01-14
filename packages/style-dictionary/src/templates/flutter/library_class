@@ -3,7 +3,12 @@ var props = _.sortBy(allProperties, item => item.attributes.category + item.name
 var getNamePrefix = (category) => category === "color" ? "Color " : "";
 var getValuePrefix = (category) => category === "color" ? "const ": "";
 
-%>part of <%= this.packageName %>;
+%>// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: unused_import
+
+import 'dart:ui';
+import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 class <%= this.className %> {
   <%= this.className %>._();

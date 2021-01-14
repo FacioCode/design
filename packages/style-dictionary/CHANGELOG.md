@@ -158,7 +158,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add displacement for loading circular progress ([36b5ded](https://github.com/FacioCode/design/commit/36b5ded7e215d860e16591ae3ed7e1e7ad297522))
+* **flutter:** add displacement for loading circular progress ([36b5ded](https://github.com/FacioCode/design/commit/36b5ded7e215d860e16591ae3ed7e1e7ad297522))
 * add/remove margin tokens, add circular progress color for primary ([94609c7](https://github.com/FacioCode/design/commit/94609c7c2b1e21a840d3d251345aec576c69f13f))
 
 
@@ -937,7 +937,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **styles:** generate correct version for flutter-styles ([5fd3c4a](https://github.com/FacioCode/design/commit/5fd3c4a0724365b9e6fc5e79cb91db6248c6c7a2))
+* **styles:** generate correct version for flutter ([5fd3c4a](https://github.com/FacioCode/design/commit/5fd3c4a0724365b9e6fc5e79cb91db6248c6c7a2))
 
 
 
@@ -1026,7 +1026,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **flutter-styles:** add component styles classes ([8862576](https://github.com/FacioCode/design/commit/88625766481ab45aecbb5acd4d969f631f543933))
+* **flutter:** add component styles classes ([8862576](https://github.com/FacioCode/design/commit/88625766481ab45aecbb5acd4d969f631f543933))
 * **styles:** add component styles generator for Flutter ([2650412](https://github.com/FacioCode/design/commit/26504127e93b8c656bd8b5882bd086526cc586c2))
 * **styles:** add lineHeight style for typography component tokens ([d5ffcbe](https://github.com/FacioCode/design/commit/d5ffcbe0e717c5fbe06389b40ad4212f30d9cfa6))
 * **styles:** add web-specific typography margin tokens ([b7236f4](https://github.com/FacioCode/design/commit/b7236f4cec19f96b9d1967df8a89bfba7e3ff1af))
@@ -1066,7 +1066,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### BREAKING CHANGES
 
 * **styles:** Now largeTitle is called headline1. Now title1 is called headline2. Now title2 is called headline3. Now title3 is called headline4. Now headline is called headline5. Now body is called bodyText1. Now subhead is called subtitle*. Now footnote is called bodyText2. Now input and largeInput are not typography styles anymore, since they were turned into component tokens.
-* The FontSizes and Fonts classes were removed from flutter-styles. If you need some
+* The FontSizes and Fonts classes were removed from flutter. If you need some
 text/typography style, please use TextTheme.textTheme. The text style names also has changed.
 
 
@@ -1081,7 +1081,7 @@ text/typography style, please use TextTheme.textTheme. The text style names also
 
 ### Features
 
-* **flutter-styles:** expose sizes and wip text_theme classes ([fc596bf](https://github.com/FacioCode/design/commit/fc596bfcd86d68971ec0ffdd72677cb6945bf4e3))
+* **flutter:** expose sizes and wip text_theme classes ([fc596bf](https://github.com/FacioCode/design/commit/fc596bfcd86d68971ec0ffdd72677cb6945bf4e3))
 * **styles:**  add typography definitions for flutter ([94ede9c](https://github.com/FacioCode/design/commit/94ede9c8a5281396cffc255bbd5d06e9e7062ae3))
 * **styles:** add "regular" and "bold" font weight tokens ([69e12f1](https://github.com/FacioCode/design/commit/69e12f1cf8b59c3f97a172ce3d7e3ad13107602e))
 * **styles:** add "sevenfold" base size token ([5ed4398](https://github.com/FacioCode/design/commit/5ed43988b8028684d6cdd579c5ca5d9565bc07ac))

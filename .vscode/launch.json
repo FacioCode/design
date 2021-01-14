@@ -2,6 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Flutter Design System Example",
+            "program": "packages/flutter/example/lib/main.dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "type": "dart"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Storybook Debug",
@@ -10,11 +17,11 @@
             "sourceMaps": true,
             "webRoot": "${workspaceFolder}/packages/react-storybook",
             "sourceMapPathOverrides": {
-              "webpack:///./*": "${webRoot}/*",
-              "webpack:///src/*": "${webRoot}/*",
-              "webpack:///*": "*",
-              "webpack:///./~/*": "${webRoot}/node_modules/*",
-              "meteor://💻app/*": "${webRoot}/*"
+                "webpack:///./*": "${webRoot}/*",
+                "webpack:///src/*": "${webRoot}/*",
+                "webpack:///*": "*",
+                "webpack:///./~/*": "${webRoot}/node_modules/*",
+                "meteor://💻app/*": "${webRoot}/*"
             },
             "runtimeExecutable": "canary"
         }
