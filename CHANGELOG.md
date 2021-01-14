@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.32.5](https://github.com/FacioCode/design/compare/v0.32.4...v0.32.5) (2021-01-14)
+
+
+### Bug Fixes
+
+* **react:** prevent TypeScript `css` property error for `Typography` ([12f2f5a](https://github.com/FacioCode/design/commit/12f2f5a2a2cc06fe7ac4a49d87fa7dda23b58a3a))
+
+
+
+
+
 ## [0.32.4](https://github.com/FacioCode/design/compare/v0.32.3...v0.32.4) (2021-01-13)
 
 

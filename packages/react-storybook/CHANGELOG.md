@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.32.5](https://github.com/FacioCode/design/compare/v0.32.4...v0.32.5) (2021-01-14)
+
+**Note:** Version bump only for package @faciocode/react-storybook
+
+
+
+
+
 ## [0.32.4](https://github.com/FacioCode/design/compare/v0.32.3...v0.32.4) (2021-01-13)
 
 **Note:** Version bump only for package @faciocode/react-storybook
