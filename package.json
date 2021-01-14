@@ -16,7 +16,7 @@
     "@rollup/plugin-node-resolve": "11.0.0",
     "@rollup/plugin-typescript": "8.0.0",
     "@storybook/addon-docs": "6.1.10",
-    "@storybook/react": "6.1.10",
+    "@storybook/react": "6.1.14",
     "@stryker-mutator/core": "4.1.2",
     "@stryker-mutator/jest-runner": "^4.1.2",
     "@types/lodash": "4.14.165",
