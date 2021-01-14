@@ -32,6 +32,9 @@
   "bugs": {
     "url": "https://github.com/FacioCode/design/issues"
   },
+  "devDependencies": {
+    "style-dictionary": "2.10.2"
+  },
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ../flutter/lib/src/generated",
