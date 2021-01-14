@@ -1,0 +1,4 @@
+packages/flutter/**/*.dart            @gustavogamino @paulononaka
+packages/flutter-styles/**/*.dart     @gustavogamino @paulononaka
+packages/style-dictionary/**/*.json   @marciobda
+packages/styles/**/*.ts               @jimmyandrade
