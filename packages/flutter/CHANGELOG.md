@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.34.3](https://github.com/FacioCode/design/compare/v0.34.2...v0.34.3) (2021-01-15)
+
+
+### Bug Fixes
+
+* **pipeline:** remove unecessary 'meta' dependency ([a89ba85](https://github.com/FacioCode/design/commit/a89ba85d37a39d8be6b5757d404c06ebd099d3c3))
+
+
+
+
+
 ## [0.34.2](https://github.com/FacioCode/design/compare/v0.34.1...v0.34.2) (2021-01-15)
 
 
