@@ -154,7 +154,7 @@ jobs:
         run: flutter pub get
         working-directory: ${{env.working-directory}}
       - name: Verify formatting
-        run: dart format --output=none --set-exit-if-changed .
+        run: dart format -l 120 --output=none --set-exit-if-changed .
         working-directory: ${{env.working-directory}}
       - name: Analyze project source
         run: dart analyze --fatal-infos
