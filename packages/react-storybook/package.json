@@ -38,6 +38,6 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "devDependencies": {
-    "@faciocode/react": "^0.34.5"
+    "@faciocode/react": "^0.34.4"
   }
 }
