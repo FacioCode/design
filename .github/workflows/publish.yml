@@ -159,6 +159,9 @@ jobs:
       - name: Analyze project source
         run: dart analyze --fatal-infos
         working-directory: ${{env.working-directory}}
+      - name: Ensure Example builds
+        run: flutter build appbundle -t lib/main.dart
+        working-directory: ${{env.working-directory}}/example
       - name: Publish package
         run: pub publish -f
         working-directory: ${{env.working-directory}}
