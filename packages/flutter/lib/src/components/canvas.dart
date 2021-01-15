@@ -26,8 +26,7 @@ class FDSCanvas extends StatelessWidget {
         assert(canvasPadding != null),
         assert(keyboardPushScreen != null),
         assert(elevation != null),
-        assert((hasAppBarLogo && appBarTitle == null) ||
-            (!hasAppBarLogo && appBarTitle != null)),
+        assert((hasAppBarLogo && appBarTitle == null) || (!hasAppBarLogo && appBarTitle != null)),
         _child = child,
         _appBarActions = appBarActions,
         _hasBackButton = hasBackButton,

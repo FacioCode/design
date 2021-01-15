@@ -1,7 +1,6 @@
 import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:meta/meta.dart';
 
 class ExpandedButton extends StatelessWidget {
   const ExpandedButton({
@@ -57,8 +56,7 @@ class GradientButton {
   static const double flatButtonHeight = 48.0;
   static const double flatButtonWidth = 300.0;
   static const double flatButtonRadius = 8.0;
-  static final BorderRadiusGeometry flatBorderRadius =
-      BorderRadius.circular(flatButtonRadius);
+  static final BorderRadiusGeometry flatBorderRadius = BorderRadius.circular(flatButtonRadius);
 
   final BuildContext _context;
 
@@ -89,8 +87,7 @@ class GradientButton {
   Widget rounded(final String text, final Function onPressed) {
     return OutlineButton(
       onPressed: () => onPressed,
-      borderSide:
-          const BorderSide(color: LegacyColorPalette.charcoalGrey, width: 2.0),
+      borderSide: const BorderSide(color: LegacyColorPalette.charcoalGrey, width: 2.0),
       textColor: LegacyColorPalette.charcoalGrey,
       highlightedBorderColor: LegacyColorPalette.charcoalGrey,
       shape: RoundedRectangleBorder(
@@ -103,10 +100,7 @@ class GradientButton {
           child: Text(
             text,
             textAlign: TextAlign.center,
-            style: Theme.of(_context)
-                .textTheme
-                .bodyText1
-                .copyWith(color: LegacyColorPalette.charcoalGrey),
+            style: Theme.of(_context).textTheme.bodyText1.copyWith(color: LegacyColorPalette.charcoalGrey),
           ),
         ),
       ),
@@ -234,9 +228,7 @@ class BaseOutlineButton extends StatelessWidget {
           _title,
           textAlign: TextAlign.center,
           style: TextStyles.button.copyWith(
-            color: _onPressed == null
-                ? LegacyColorPalette.silver
-                : LegacyColorPalette.charcoalGrey,
+            color: _onPressed == null ? LegacyColorPalette.silver : LegacyColorPalette.charcoalGrey,
           ),
         ),
       ),

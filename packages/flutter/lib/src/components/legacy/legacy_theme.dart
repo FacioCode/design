@@ -18,16 +18,12 @@ class LegacyTheme {
 
   static const EdgeInsets defaultPadding = EdgeInsets.all(16.0);
   static const EdgeInsets defaultSpacing = EdgeInsets.only(bottom: 24.0);
-  static const EdgeInsets defaultBottomButtonPadding =
-      EdgeInsets.fromLTRB(24, 0, 24, 24);
+  static const EdgeInsets defaultBottomButtonPadding = EdgeInsets.fromLTRB(24, 0, 24, 24);
 
   static const LinearGradient buttonGradientGreen = LinearGradient(
     begin: Alignment.bottomLeft,
     end: Alignment.topRight,
-    colors: <Color>[
-      LegacyColorPalette.aquaMarine,
-      LegacyColorPalette.greenBlue
-    ],
+    colors: <Color>[LegacyColorPalette.aquaMarine, LegacyColorPalette.greenBlue],
   );
 
   static const LinearGradient welcomeBackgroundGradient = LinearGradient(

@@ -3,7 +3,6 @@ import 'dart:ui';
 import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:meta/meta.dart';
 
 class BaseAppBarButton {
   BaseAppBarButton({
@@ -69,10 +68,7 @@ class BaseAppBar extends AppBar {
           ),
         );
       } else {
-        actions.add(TertiaryButtonLink(
-            onPressed: barButton.onPressed,
-            title: barButton.title,
-            key: barButton.key));
+        actions.add(TertiaryButtonLink(onPressed: barButton.onPressed, title: barButton.title, key: barButton.key));
       }
     }
     return actions;

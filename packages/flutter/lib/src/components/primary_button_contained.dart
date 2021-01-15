@@ -34,18 +34,15 @@ class PrimaryButtonContained extends StatelessWidget {
         width: double.infinity,
         decoration: BoxDecoration(
           color: ContainedButtonStyles.brandBackgroundColor,
-          borderRadius: BorderRadius.circular(
-              ContainedButtonStyles.sizeMediumBorderRadius),
+          borderRadius: BorderRadius.circular(ContainedButtonStyles.sizeMediumBorderRadius),
         ),
         child: FlatButton(
           key: _key,
           onPressed: _isEnabled ? _onPressed : null,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(
-                ContainedButtonStyles.sizeMediumBorderRadius),
+            borderRadius: BorderRadius.circular(ContainedButtonStyles.sizeMediumBorderRadius),
           ),
-          child: Text(_title,
-              textAlign: TextAlign.center, style: TextStyles.button),
+          child: Text(_title, textAlign: TextAlign.center, style: TextStyles.button),
         ),
       ),
     );
