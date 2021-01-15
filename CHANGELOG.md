@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.34.2](https://github.com/FacioCode/design/compare/v0.34.1...v0.34.2) (2021-01-15)
+
+
+### Bug Fixes
+
+* **pipeline:** add dependency required to publish the lib ([d69be9c](https://github.com/FacioCode/design/commit/d69be9cf9b22fb45b551e4f1be0467772c446ace))
+
+
+
+
+
 ## [0.34.1](https://github.com/FacioCode/design/compare/v0.34.0...v0.34.1) (2021-01-14)
 
 
