@@ -1,5 +1,6 @@
 {
   "name": "@faciocode/design",
+  "version": "0.0.0",
   "displayName": "Root",
   "description": "Root package for Design System for Facio",
   "private": true,
