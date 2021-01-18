@@ -1,0 +1,4 @@
+[build]
+  base = "/"
+  publish = "packages/react/dist-storybook"
+  command = "sh ./.netlify/scripts/build.sh"
