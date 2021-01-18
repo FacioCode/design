@@ -18,7 +18,7 @@ jobs:
       - name: Checkout main branch
         run: git checkout main
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --no-optional
       - name: Build and run tests
         run: npm test
       - name: Set git author identity

@@ -27,7 +27,7 @@ jobs:
       - name: Install Lerna globally
         run: npm install --global --loglevel=error lerna
       - name: Install project dependencies
-        run: npm ci
+        run: npm ci --no-optional
       - name: Set git author identity
         run: sh ./.github/scripts/configure-git.sh
       - name: Bump versions and create release
