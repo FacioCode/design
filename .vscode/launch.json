@@ -15,7 +15,7 @@
             "breakOnLoad": true,
             "url": "http://localhost:9009",
             "sourceMaps": true,
-            "webRoot": "${workspaceFolder}/packages/react-storybook",
+            "webRoot": "${workspaceFolder}/packages/react",
             "sourceMapPathOverrides": {
                 "webpack:///./*": "${webRoot}/*",
                 "webpack:///src/*": "${webRoot}/*",

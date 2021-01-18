@@ -4,7 +4,7 @@
 		{
 			"type": "npm",
 			"script": "start",
-			"path": "packages/react-storybook/",
+			"path": "packages/react/",
 			"problemMatcher": [
 				"$tsc"
 			],
