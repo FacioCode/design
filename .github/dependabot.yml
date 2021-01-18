@@ -5,7 +5,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "npm"
-    directory: "examples/vanilla"
+    directory: "packages/mui-themes"
     schedule:
       interval: "daily"
   - package-ecosystem: "npm"
@@ -13,11 +13,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "npm"
-    directory: "packages/react-storybook"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "packages/react-unstyled"
+    directory: "packages/style-dictionary"
     schedule:
       interval: "daily"
   - package-ecosystem: "npm"
