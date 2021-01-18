@@ -20,5 +20,8 @@
   "homepage": "https://github.com/FacioCode/design/tree/main/packages/flutter#readme",
   "bugs": {
     "url": "https://github.com/FacioCode/design/issues"
+  },
+  "devDependencies": {
+    "@faciocode/style-dictionary": "^1.0.0"
   }
 }
