@@ -7,6 +7,5 @@ export default {
   projects: [
     "<rootDir>",
     "<rootDir>/packages/react",
-    "<rootDir>/packages/react-storybook",
   ],
 };
