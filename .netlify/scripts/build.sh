@@ -6,4 +6,4 @@ npm ci --no-optional
 lerna bootstrap
 npm run build
 cd packages/react
-npm run build
+npm run build-storybook
