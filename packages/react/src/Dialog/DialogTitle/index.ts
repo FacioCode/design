@@ -1,2 +1,2 @@
 export { DialogTitle } from "./DialogTitle";
-export type { DialogTitleProps } from "./DialogTitle.types";
+export { DialogTitleProps } from "./DialogTitle.types";

@@ -1,2 +1,2 @@
 export { Currency } from "./Currency";
-export type { CurrencyProps } from "./Currency.types";
+export { CurrencyProps } from "./Currency.types";

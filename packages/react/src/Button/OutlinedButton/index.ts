@@ -1,2 +1,2 @@
 export { OutlinedButton } from "./OutlinedButton";
-export type { OutlinedButtonProps } from "./OutlinedButton.types";
+export { OutlinedButtonProps } from "./OutlinedButton.types";

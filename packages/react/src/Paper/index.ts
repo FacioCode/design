@@ -1,2 +1,2 @@
 export { Paper } from "./Paper";
-export type { PaperProps } from "./Paper.types";
+export { PaperProps } from "./Paper.types";

@@ -1,2 +1,2 @@
 export { LinkButton } from "./LinkButton";
-export type { LinkButtonProps } from "./LinkButton.types";
+export { LinkButtonProps } from "./LinkButton.types";

@@ -1,2 +1,2 @@
 export { DialogActions } from "./DialogActions";
-export type { DialogActionsProps } from "./DialogActions.types";
+export { DialogActionsProps } from "./DialogActions.types";

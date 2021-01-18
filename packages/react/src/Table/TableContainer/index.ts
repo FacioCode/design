@@ -1,2 +1,2 @@
 export { TableContainer } from "./TableContainer";
-export type { TableContainerProps } from "./TableContainer.types";
+export { TableContainerProps } from "./TableContainer.types";

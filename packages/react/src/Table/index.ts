@@ -5,4 +5,4 @@ export * from "./TableFooter";
 export * from "./TableHead";
 export * from "./TableRow";
 export { Table } from "./Table";
-export type { TableProps } from "./Table.types";
+export { TableProps } from "./Table.types";

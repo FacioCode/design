@@ -1,2 +1,2 @@
 export { TableFooter } from "./TableFooter";
-export type { TableFooterProps } from "./TableFooter.types";
+export { TableFooterProps } from "./TableFooter.types";

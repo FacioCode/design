@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Button as MaterialButton } from "@material-ui/core";
-import type { OutlinedButtonProps } from "./OutlinedButton.types";
+import { OutlinedButtonProps } from "./OutlinedButton.types";
 
 type Render = (props: OutlinedButtonProps, ref: OutlinedButtonProps["ref"]) => JSX.Element;
 

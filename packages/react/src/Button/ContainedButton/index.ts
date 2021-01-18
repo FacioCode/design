@@ -1,2 +1,2 @@
 export { ContainedButton } from "./ContainedButton";
-export type { ContainedButtonProps } from "./ContainedButton.types";
+export { ContainedButtonProps } from "./ContainedButton.types";
