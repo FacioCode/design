@@ -29,6 +29,7 @@ export { FormLabel, FormLabelProps } from "./FormLabel";
 export { IconButton, IconButtonProps } from "./IconButton";
 export { Input, InputProps } from "./Input";
 export { InputBase, InputBaseProps } from "./InputBase";
+export { Link, LinkProps } from "./Link";
 export { Paper, PaperProps } from "./Paper";
 export {
   Table,
