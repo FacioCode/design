@@ -5,9 +5,36 @@
   href="https://fonts.googleapis.com"
   rel="preconnect" />
 <link
+  href="https://cdn.jsdelivr.net"
+  rel="preconnect" />
+<link
+  href="https://cdn.jsdelivr.net/npm/@faciocode/styles/dist/index.css"
+  rel="stylesheet" />
+<link
   href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
   rel="stylesheet" />
 <style>
+  html {
+    font-size: var(--component-baseline-html-font-size);
+    line-height: var(--component-baseline-html-line-height);
+  }
+  body {
+    background-color: var(--component-baseline-body-background-color);
+    color: var(--component-baseline-body-color);
+    font-family: var(--component-baseline-body-font-family);
+    font-size: var(--component-baseline-body-font-size);
+    font-weight: var(--component-baseline-body-font-weight);
+    line-height: var(--component-baseline-body-line-height);
+    margin: var(--component-baseline-body-margin);
+  }
+  @media print {
+    body {
+      background-color: var(--component-baseline-media-print-background-color);
+    }
+  }
+  b, strong {
+    font-weight: var(--component-baseline-bold-font-weight);
+  }
   .sbdocs-title {
     color: var(--component-typography-headline-1-color);
     font-family: var(--component-typography-headline-1-font-family);

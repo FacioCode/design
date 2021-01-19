@@ -1,4 +1,14 @@
 module.exports = {
-  addons: ["@storybook/addon-docs"],
-  stories: ["../src/**/*.stories.@(js|jsx|mdx|ts|tsx)"],
+  addons: [
+    {
+      name: "@storybook/addon-docs",
+      options: { transcludeMarkdown: true },
+    },
+    {
+      name: "@storybook/addon-a11y"
+    }],
+  stories: [
+    "../src/**/*.stories.@(mdx)",
+    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+  ],
 };
