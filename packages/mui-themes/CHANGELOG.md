@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/FacioCode/design/compare/v1.0.4...v1.1.0) (2021-01-19)
+
+
+### Features
+
+* **mui-themes:** add Link override ([459ebe9](https://github.com/FacioCode/design/commit/459ebe962d95e50cbb01affcf695021ae1149721))
+
+
+
+
+
 ## [1.0.4](https://github.com/FacioCode/design/compare/v1.0.3...v1.0.4) (2021-01-18)
 
 **Note:** Version bump only for package @faciocode/mui-themes
