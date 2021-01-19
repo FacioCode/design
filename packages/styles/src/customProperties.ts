@@ -576,6 +576,12 @@ export const filledInputStyles = {
 
 
     /**
+     * A single value for all border corners
+     */
+    borderRadius: "var(--component-filled-input-root-border-radius, 8px)",
+
+
+    /**
      * Border Top Left Radius for Filled Input Root
      */
     borderTopLeftRadius: "var(--component-filled-input-root-border-top-left-radius, 8px)",
@@ -760,6 +766,19 @@ export const linkButtonStyles = {
      * Border Radius for Link Button Size Small
      */
     borderRadius: "var(--component-link-button-size-small-border-radius, 8px)",
+
+  },
+
+};
+
+export const linkStyles = {
+
+  root: {
+
+    /**
+     * Color for Link Root
+     */
+    color: "var(--component-link-root-color, #068589)",
 
   },
 
