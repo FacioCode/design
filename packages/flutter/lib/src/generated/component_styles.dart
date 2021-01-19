@@ -255,6 +255,9 @@ class FilledInputStyles {
   /// Border Bottom Right Radius for Filled Input
   static const borderBottomRightRadius = 8.00;
 
+  /// A single value for all border corners
+  static const borderRadius = 8.00;
+
   /// Border Top Left Radius for Filled Input
   static const borderTopLeftRadius = 8.00;
 
@@ -306,6 +309,13 @@ class LinkButtonStyles {
 
   /// Border Radius for Size Small
   static const sizeSmallBorderRadius = 8.00;
+}
+
+class LinkStyles {
+  LinkStyles._();
+
+  /// Color for Link
+  static const color = const Color(0xFF068589);
 }
 
 class OutlinedButtonStyles {
