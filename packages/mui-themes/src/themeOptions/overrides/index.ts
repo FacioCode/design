@@ -173,6 +173,9 @@ export const overrides : ThemeOptions["overrides"] = {
       "&$focused": customProperties.formLabelStyles.focused,
     },
   },
+  MuiLink: {
+    root: customProperties.linkStyles.root,
+  },
   MuiPaper: {
     root: {
       ...customProperties.paperStyles.root,
