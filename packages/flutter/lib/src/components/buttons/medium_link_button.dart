@@ -2,8 +2,8 @@ import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class TertiaryButtonLink extends StatelessWidget {
-  const TertiaryButtonLink({
+class MediumLinkButton extends StatelessWidget {
+  const MediumLinkButton({
     final Key key,
     @required final String title,
     @required final VoidCallback onPressed,
@@ -26,7 +26,6 @@ class TertiaryButtonLink extends StatelessWidget {
     return FlatButton(
       key: _key,
       onPressed: _onPressed,
-      splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
       child: Text(
         _title,

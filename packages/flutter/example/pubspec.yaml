@@ -1,6 +1,6 @@
 ---
-name: example
-description: A new Flutter project.
+name: FlutterComponentsExample
+description: A sample project to show how to use the components.
 
 publish_to: 'none'
 

@@ -2,15 +2,15 @@ import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class PrimaryButtonContained extends StatelessWidget {
-  const PrimaryButtonContained({
+class MediumContainedButton extends StatelessWidget {
+  const MediumContainedButton({
     final Key key,
     @required final String title,
-    @required final VoidCallback onPressed,
+    final VoidCallback onPressed,
     final bool isEnabled = true,
-    final EdgeInsets padding = const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 8.0),
+    final EdgeInsets padding =
+        const EdgeInsets.fromLTRB(Sizes.baseDouble, Sizes.baseNone, Sizes.baseDouble, Sizes.baseSingle),
   })  : assert(title != null),
-        assert(onPressed != null),
         assert(isEnabled != null),
         assert(padding != null),
         _key = key,
@@ -31,7 +31,6 @@ class PrimaryButtonContained extends StatelessWidget {
       padding: _padding,
       child: Container(
         height: ButtonStyles.sizeMediumHeight,
-        width: double.infinity,
         decoration: BoxDecoration(
           color: ContainedButtonStyles.brandBackgroundColor,
           borderRadius: BorderRadius.circular(ContainedButtonStyles.sizeMediumBorderRadius),

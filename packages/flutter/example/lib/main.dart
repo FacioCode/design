@@ -30,9 +30,15 @@ class MyHomePage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              PrimaryButtonContained(title: 'details', onPressed: () => null),
-              TertiaryButtonLink(title: 'details', onPressed: () => null),
-              TertiaryButtonOutlined(title: 'details', onPressed: () => null),
+              MediumContainedButton(title: 'medium/contained', onPressed: () => null),
+              SizedBox(height: Sizes.baseSingle),
+              MediumOutlinedButton(title: 'medium/outlined', onPressed: () => null),
+              SizedBox(height: Sizes.baseSingle),
+              MediumLinkButton(title: 'medium/link', onPressed: () => null),
+              SizedBox(height: Sizes.baseSingle),
+              LargeOutlinedButton(title: 'large/outlined', onPressed: () => null),
+              SizedBox(height: Sizes.baseSingle),
+              LargeContainedButton(title: 'large/contained', onPressed: () => null),
             ],
           ),
         ));

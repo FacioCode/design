@@ -2,14 +2,13 @@ import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class TertiaryButtonOutlined extends StatelessWidget {
-  const TertiaryButtonOutlined({
+class LargeOutlinedButton extends StatelessWidget {
+  const LargeOutlinedButton({
     final Key key,
     @required final String title,
-    @required final VoidCallback onPressed,
+    final VoidCallback onPressed,
     final bool isEnabled = true,
   })  : assert(title != null),
-        assert(onPressed != null),
         assert(isEnabled != null),
         _isEnabled = isEnabled,
         _key = key,
@@ -23,8 +22,9 @@ class TertiaryButtonOutlined extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: Sizes.baseSingle),
+    return Container(
+      height: Sizes.baseSixfold,
+      width: Sizes.baseSingle * 35,
       child: OutlineButton(
         key: _key,
         onPressed: _isEnabled ? _onPressed : null,
@@ -36,7 +36,7 @@ class TertiaryButtonOutlined extends StatelessWidget {
         highlightColor: Colors.transparent,
         highlightedBorderColor: OutlinedButtonStyles.pressedBorderColor,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(OutlinedButtonStyles.sizeSmallBorderRadius),
+          borderRadius: BorderRadius.circular(OutlinedButtonStyles.sizeMediumBorderRadius),
         ),
         child: Text(
           _title,

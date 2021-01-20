@@ -78,20 +78,7 @@ class FDSCanvas extends StatelessWidget {
               )
             : _appBarLeading,
         actions: _appBarLogoutOnPressed != null
-            ? [
-                FlatButton(
-                  padding: const EdgeInsets.all(0.0),
-                  onPressed: _appBarLogoutOnPressed,
-                  child: Text(
-                    'Sair',
-                    style: TextStyles.button.copyWith(
-                      fontWeight: FontWeight.w700,
-                      color: ColorPalette.baseAquamarine70,
-                    ),
-                    textAlign: TextAlign.right,
-                  ),
-                ),
-              ]
+            ? [MediumLinkButton(title: 'Sair', onPressed: _appBarLogoutOnPressed)]
             : _appBarActions,
       ),
       body: SafeArea(
