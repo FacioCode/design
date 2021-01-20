@@ -6,5 +6,4 @@ export const colorMapping : ColorMapping = {
   initial: "initial",
   inverse: "initial",
   textPrimary: "textPrimary",
-  textSecondary: "textSecondary",
 };
