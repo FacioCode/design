@@ -29,6 +29,14 @@ const webJsPlatform = {
         showFileHeader: false,
       },
     },
+    {
+      destination: "sizeTokens.ts",
+      filter: ({ attributes }) => attributes.category === "size" && attributes.type === "base",
+      format: "javascript/es6",
+      options: {
+        showFileHeader: false,
+      },
+    },
   ],
   transformGroup: "web/js",
 };
