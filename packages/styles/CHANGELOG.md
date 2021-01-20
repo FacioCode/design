@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/FacioCode/design/compare/v1.4.0...v1.5.0) (2021-01-20)
+
+
+### Features
+
+* **styles:** add new color tokens, accessibility fixes for some colors ([5490e9c](https://github.com/FacioCode/design/commit/5490e9c97a28fbea550fd6a60b060541d5f29584))
+* **styles:** add new component tokens, accessibility fixes ([60b7e41](https://github.com/FacioCode/design/commit/60b7e41ae7d10ae1e6cf70cf2f6911330dfb75be))
+* **styles:** add size tokens ([7a90567](https://github.com/FacioCode/design/commit/7a905670fcce31432a841aa6b2ed407e75d3eb58))
+* **styles:** make size tokens importable ([4c0445b](https://github.com/FacioCode/design/commit/4c0445b194adf9a98ba4550660a7e2ed0b4d8b6b))
+
+
+
+
+
 # [1.4.0](https://github.com/FacioCode/design/compare/v1.2.0...v1.4.0) (2021-01-20)
 
 **Note:** Version bump only for package @faciocode/styles

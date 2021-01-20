@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/FacioCode/design/compare/v1.4.0...v1.5.0) (2021-01-20)
+
+
+### Bug Fixes
+
+* **style-dictionary:** improve error color contrast ([97dfe0c](https://github.com/FacioCode/design/commit/97dfe0c39ce2c0b316200f306cebc8b9b2f8e2ca))
+
+
+### Features
+
+* **flutter:** add new color tokens, accessibility fixes for some colors ([67c1e83](https://github.com/FacioCode/design/commit/67c1e83aa49d9d7f6de502947e80525b916a043d))
+* **flutter:** add new component tokens, accessibility fixes for some colors ([4ffa920](https://github.com/FacioCode/design/commit/4ffa920738c6b89ba8492950a876137afae0f12d))
+* **flutter:** add primary hight contrast color to ColorPalette ([171bbee](https://github.com/FacioCode/design/commit/171bbee0bb0533418552c8bb27118ae05cdcb16b))
+* **mui-themes:** add overrides for `MuiAlert` and `MuiAlertTitle` ([a21bd61](https://github.com/FacioCode/design/commit/a21bd61191fbe3c385c28e9686025375926a741b))
+* **mui-themes:** add root and color-specific overrides for MuiTypography ([33b09ba](https://github.com/FacioCode/design/commit/33b09bae4b71c074973e018f2f212d3f99f7a8cf))
+* **mui-themes:** add text definitions to theme palette ([dc8e198](https://github.com/FacioCode/design/commit/dc8e1981995dddde386023d02a065c30c6ce31df))
+* **react:** add AlertTitle component ([4c773fb](https://github.com/FacioCode/design/commit/4c773fb8aee875b97b0175b25c145776c35da170))
+* **react:** add support to `inverse` color on `Typography` color prop ([060ef26](https://github.com/FacioCode/design/commit/060ef2659894ac59bc4f754e4aa12e595c370f21))
+* **react storybook:** add and configure backgrounds addon ([dd68b09](https://github.com/FacioCode/design/commit/dd68b09c35efb08877fc0272ef2a74101cff5a0b))
+* **style-dictionary:** add background color token for warning alert ([976dfd8](https://github.com/FacioCode/design/commit/976dfd8aa685989143ff11951495ca58e2c6afaf))
+* **style-dictionary:** add color tokens for alert title ([c70bdcf](https://github.com/FacioCode/design/commit/c70bdcf355a45931be266cfb4394ee95c281ff49))
+* **style-dictionary:** add new class keys for typography (only web) ([d28e54a](https://github.com/FacioCode/design/commit/d28e54a16b5dcae1c8ac7751e0c9063050551e78))
+* **style-dictionary:** add size tokens generation for web platform ([e39f79d](https://github.com/FacioCode/design/commit/e39f79d5976bfeda8b57457011a1ff1d08e39724))
+* **style-dictionary:** add tokens for alert message and warning color ([d5f59b3](https://github.com/FacioCode/design/commit/d5f59b3e6c1f8cbd423f41817b77c0e30be212a2))
+* **style-dictionary:** add transparent color tokens, improve contrast for `aquamarine.70` ([9a25e05](https://github.com/FacioCode/design/commit/9a25e050fac42c7497c74caf3c3f9290da7b3215))
+* **style-dictionary:** create `primaryHighContrast` and `secondary` color font tokens ([e0620be](https://github.com/FacioCode/design/commit/e0620bed2657f5b91c4bb80344748fe93a354c40))
+* **styles:** add new color tokens, accessibility fixes for some colors ([5490e9c](https://github.com/FacioCode/design/commit/5490e9c97a28fbea550fd6a60b060541d5f29584))
+* **styles:** add new component tokens, accessibility fixes ([60b7e41](https://github.com/FacioCode/design/commit/60b7e41ae7d10ae1e6cf70cf2f6911330dfb75be))
+* **styles:** add size tokens ([7a90567](https://github.com/FacioCode/design/commit/7a905670fcce31432a841aa6b2ed407e75d3eb58))
+* **styles:** make size tokens importable ([4c0445b](https://github.com/FacioCode/design/commit/4c0445b194adf9a98ba4550660a7e2ed0b4d8b6b))
+
+
+
+
+
 # [1.4.0](https://github.com/FacioCode/design/compare/v1.2.0...v1.4.0) (2021-01-20)
 
 

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/FacioCode/design/compare/v1.4.0...v1.5.0) (2021-01-20)
+
+
+### Features
+
+* **flutter:** add new color tokens, accessibility fixes for some colors ([67c1e83](https://github.com/FacioCode/design/commit/67c1e83aa49d9d7f6de502947e80525b916a043d))
+* **flutter:** add new component tokens, accessibility fixes for some colors ([4ffa920](https://github.com/FacioCode/design/commit/4ffa920738c6b89ba8492950a876137afae0f12d))
+* **flutter:** add primary hight contrast color to ColorPalette ([171bbee](https://github.com/FacioCode/design/commit/171bbee0bb0533418552c8bb27118ae05cdcb16b))
+
+
+
+
+
 # [1.4.0](https://github.com/FacioCode/design/compare/v1.2.0...v1.4.0) (2021-01-20)
 
 
