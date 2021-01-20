@@ -1,6 +1,11 @@
 {
   "color": {
     "base": {
+      "transparent": {
+        "05": { "value": "rgba(16, 22, 21, 0.02)" },
+        "30": { "value": "rgba(33, 38, 49, 0.13)" },
+        "70": { "value": "rgba(0, 15, 35, 0.74)" }
+      },
       "grey": {
         "90": { "value": "#1f252e" },
         "80": { "value": "#303846" },
@@ -16,7 +21,10 @@
       "aquamarine": {
         "90": { "value": "#083f39" },
         "80": { "value": "#005c5e" },
-        "70": { "value": "#068589" },
+        "70": {
+          "comment": "Updated since 1.1.1",
+          "value": "#05797D"
+        },
         "60": { "value": "#2bc4a8" },
         "50": { "value": "#3fe1b6" },
         "40": { "value": "#53fec5" },
