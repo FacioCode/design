@@ -3,9 +3,11 @@ import { Meta, Story } from "@storybook/react";
 import { Alert } from "./Alert";
 import type { AlertProps } from "./Alert.types";
 import { Typography } from "../Typography";
+import { AlertTitle } from "./AlertTitle";
 
 export default {
   component: Alert,
+  subcomponents: { AlertTitle },
   title: "Components/Alert",
 } as Meta;
 
@@ -19,10 +21,22 @@ Playground.args = {
 export const Info : Story<AlertProps> = Template.bind({});
 Info.args = {
   children: [
-    <Typography key={"title"} variant={"subtitle1"}>Your registration is under review</Typography>,
+    <AlertTitle key={"title"}>Cadastro em revisão</AlertTitle>,
     <Typography key={"body"} variant={"bodyText2"}>
-      Soon, you will have access to the services available for your credit profile.
+      Em breve você terá acesso aos serviços disponíveis para o seu perfil
     </Typography>,
   ],
   color: "info",
+};
+
+export const Warning : Story<AlertProps> = Template.bind({});
+Warning.args = {
+  children: [
+    <AlertTitle key={"title"}>Depósito indisponível</AlertTitle>,
+    <Typography key={"body"} variant={"bodyText2"}>
+      O seu limite para desconto em folha já foi utilizado neste mês.
+      Por isso não é possível agendar um depósito para a Poupe Facio.
+    </Typography>,
+  ],
+  color: "warning",
 };
