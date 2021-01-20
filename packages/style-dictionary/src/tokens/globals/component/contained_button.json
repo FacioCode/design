@@ -59,15 +59,15 @@
       },
       "warning": {
         "backgroundColor": { "value": "{color.base.warning.main.value}" },
-        "color": { "value": "{color.font.inverse.value}" }
+        "color": { "value": "{color.font.primaryHighContrast.value}" }
       },
       "warningHover": {
         "backgroundColor": { "value": "{color.base.warning.main.value}" },
-        "color": { "value": "{color.font.inverse.value}" }
+        "color": { "value": "{color.font.primaryHighContrast.value}" }
       },
       "warningPressed": {
         "backgroundColor": { "value": "{color.base.warning.dark.value}" },
-        "color": { "value": "{color.font.inverse.value}" }
+        "color": { "value": "{color.font.primaryHighContrast.value}" }
       }
     }
   }

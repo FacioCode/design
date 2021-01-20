@@ -18,7 +18,7 @@
       },
       "headline2": {
         "comment": "Formerly title1. Todo: define its use.",
-        "color": { "value": "{color.font.secondary.value}" },
+        "color": { "value": "{color.font.primaryHighContrast.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "Very, very large text",
@@ -30,7 +30,7 @@
       },
       "headline3": {
         "comment": "Formerly title2. Useful for title text when we show messages with emoji and title text",
-        "color": { "value": "{color.font.secondary.value}" },
+        "color": { "value": "{color.font.primaryHighContrast.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "Very large text",
@@ -42,7 +42,7 @@
       },
       "headline4": {
         "comment": "Formerly title3. Todo: define its use.",
-        "color": { "value": "{color.font.secondary.value}" },
+        "color": { "value": "{color.font.primaryHighContrast.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "Large text",
@@ -54,7 +54,7 @@
       },
       "headline5": {
         "comment": "Formerly headline. Can be used for primary text in app bars and dialogs.",
-        "color": { "value": "{color.font.secondary.value}" },
+        "color": { "value": "{color.font.primaryHighContrast.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "Recommended for large text in dialogs.",
@@ -75,7 +75,7 @@
       },
       "subtitle1": {
         "comment": "Formerly subhead. Used for primary text for list titles.",
-        "color": { "value": "{color.font.secondary.value}" },
+        "color": { "value": "{color.font.primaryHighContrast.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "A little smaller than headline5.",
@@ -99,7 +99,7 @@
       },
       "button": {
         "color": {
-          "comment": "Button color is secondary (probably grey-80) by default",
+          "comment": "Button color is primary (probably grey-70) by default",
           "value": "{color.font.primary.value}"
         },
         "fontFamily": { "value": "{font.family.base.value}" },
@@ -122,8 +122,8 @@
       "caption": {
         "comment": "Useful as auxiliary text for describing figures, like images or tables.",
         "color": {
-          "comment": "Caption color is secondary (probably grey-80) by default",
-          "value": "{color.font.secondary.value}"
+          "comment": "Caption color is high contrast primary (probably grey-80) by default",
+          "value": "{color.font.primaryHighContrast.value}"
         },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
