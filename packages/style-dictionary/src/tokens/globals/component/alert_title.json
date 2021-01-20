@@ -1,0 +1,16 @@
+{
+  "component": {
+    "alertTitle": {
+      "root": {
+        "comment": "Alert title is equivalent to typography subtitle1 variant",
+        "color": { "value": "{component.typography.subtitle1.color.value}" },
+        "fontFamily": { "value": "{component.typography.subtitle1.fontFamily.value}" },
+        "fontSize": { "value": "{component.typography.subtitle1.fontSize.value}" },
+        "fontWeight": { "value": "{component.typography.subtitle1.fontWeight.value}" },
+        "letterSpacing": { "value": "{component.typography.subtitle1.letterSpacing.value}" },
+        "lineHeight": { "value": "{component.typography.subtitle1.lineHeight.value}" },
+        "marginBottom": { "value": "{size.base.none.value}" }
+      }
+    }
+  }
+}
