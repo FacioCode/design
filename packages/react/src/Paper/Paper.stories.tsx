@@ -5,7 +5,7 @@ import type { PaperProps } from "./Paper.types";
 
 export default {
   component: Paper,
-  title: "Utilities/Paper",
+  title: "Components/Paper",
 } as Meta;
 
 const Template : Story<PaperProps> = (props: PaperProps) => <Paper {...props} />;
