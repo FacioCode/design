@@ -9,6 +9,7 @@ class ColorPalette {
   ColorPalette._();
 
   static const Color backgroundAlertStandardInfo = const Color(0xFFB3CCFF);
+  static const Color backgroundAlertStandardWarning = const Color(0xFFFFE6B3);
   static const Color backgroundBrand = const Color(0xFF3FE1B6);
   static const Color backgroundDefault = const Color(0xFFF2F2F3);
   static const Color backgroundInfo = const Color(0xFF066089);
@@ -21,12 +22,12 @@ class ColorPalette {
   static const Color baseAquamarine40 = const Color(0xFF53FEC5);
   static const Color baseAquamarine50 = const Color(0xFF3FE1B6);
   static const Color baseAquamarine60 = const Color(0xFF2BC4A8);
-  static const Color baseAquamarine70 = const Color(0xFF068589);
+  static const Color baseAquamarine70 = const Color(0xFF05797D);
   static const Color baseAquamarine80 = const Color(0xFF005C5E);
   static const Color baseAquamarine90 = const Color(0xFF083F39);
   static const Color baseBlack = const Color(0xFF1F252E);
-  static const Color baseErrorDark = const Color(0xFFC42B47);
-  static const Color baseErrorMain = const Color(0xFFE13F6A);
+  static const Color baseErrorDark = const Color(0xFF890606);
+  static const Color baseErrorMain = const Color(0xFFC42B47);
   static const Color baseGoldenrod05 = const Color(0xFFFFF4E3);
   static const Color baseGoldenrod10 = const Color(0xFFFFEFD0);
   static const Color baseGoldenrod20 = const Color(0xFFFFE6B3);
@@ -84,6 +85,9 @@ class ColorPalette {
   static const Color baseSkyBlue70 = const Color(0xFF066089);
   static const Color baseSkyBlue80 = const Color(0xFF002C5E);
   static const Color baseSkyBlue90 = const Color(0xFF082A3F);
+  static const Color baseTransparent05 = const Color(0x05101615);
+  static const Color baseTransparent30 = const Color(0x21212631);
+  static const Color baseTransparent70 = const Color(0xBD000F23);
   static const Color baseWarningDark = const Color(0xFFC4A82B);
   static const Color baseWarningMain = const Color(0xFFE1B63F);
   static const Color baseWhite = const Color(0xFFFFFFFF);
@@ -91,10 +95,11 @@ class ColorPalette {
   static const Color borderOutlinedButton = const Color(0xFFE2E3E4);
   static const Color borderOutlinedButtonPressed = const Color(0xFF2BC4A8);
   static const Color fontDisabled = const Color(0xFFAFB4BB);
+  static const Color fontError = const Color(0xFFC42B47);
   static const Color fontHeadline1 = const Color(0xFF1F252E);
   static const Color fontHint = const Color(0xFFAFB4BB);
   static const Color fontInverse = const Color(0xFFFFFFFF);
-  static const Color fontLink = const Color(0xFF068589);
+  static const Color fontLink = const Color(0xFF05797D);
   static const Color fontPlaceholder = const Color(0xFFAFB4BB);
   static const Color fontPrimary = const Color(0xFF424D5C);
   static const Color fontSecondary = const Color(0xFF303846);
