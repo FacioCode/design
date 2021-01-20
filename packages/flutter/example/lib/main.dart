@@ -27,19 +27,21 @@ class MyHomePage extends StatelessWidget {
         hasAppBarLogo: true,
         appBarLogoutOnPressed: () => null,
         child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              MediumContainedButton(title: 'medium/contained', onPressed: () => null),
-              SizedBox(height: Sizes.baseSingle),
-              MediumOutlinedButton(title: 'medium/outlined', onPressed: () => null),
-              SizedBox(height: Sizes.baseSingle),
-              MediumLinkButton(title: 'medium/link', onPressed: () => null),
-              SizedBox(height: Sizes.baseSingle),
-              LargeOutlinedButton(title: 'large/outlined', onPressed: () => null),
-              SizedBox(height: Sizes.baseSingle),
-              LargeContainedButton(title: 'large/contained', onPressed: () => null),
-            ],
+          child: BaseCard(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                MediumContainedButton(title: 'medium/contained', onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                MediumOutlinedButton(title: 'medium/outlined', onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                MediumLinkButton(title: 'medium/link', onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                LargeOutlinedButton(title: 'large/outlined', onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                LargeContainedButton(title: 'large/contained', onPressed: () => null),
+              ],
+            ),
           ),
         ));
   }
