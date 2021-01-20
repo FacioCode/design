@@ -10,13 +10,15 @@ class BaseCard extends StatelessWidget {
     final VoidCallback onTap,
     final double elevation = 0,
     final Color color = ColorPalette.baseWhite,
+    final Color borderColor = Colors.transparent,
   })  : assert(child != null),
         _child = child,
         _padding = innerPadding,
         _margin = margin,
         _onTap = onTap,
         _elevation = elevation,
-        _color = color;
+        _color = color,
+        _borderColor = borderColor;
 
   final Widget _child;
   final EdgeInsets _padding;
@@ -24,6 +26,7 @@ class BaseCard extends StatelessWidget {
   final VoidCallback _onTap;
   final double _elevation;
   final Color _color;
+  final Color _borderColor;
 
   static const BorderRadius _defaultRadius = BorderRadius.all(Radius.circular(PaperStyles.roundedBorderRadius));
 
@@ -34,7 +37,7 @@ class BaseCard extends StatelessWidget {
         color: _color,
         shape: RoundedRectangleBorder(
           borderRadius: _defaultRadius,
-          side: BorderSide(color: ColorPalette.baseGrey30),
+          side: BorderSide(color: _borderColor),
         ),
         child: _clickableWrapper(
           clickable: _onTap != null,
