@@ -10,7 +10,7 @@ class BaseCard extends StatelessWidget {
     final VoidCallback onTap,
     final double elevation = 0,
     final Color color = ColorPalette.baseWhite,
-    final Color borderColor = Colors.transparent,
+    final Color borderColor = ColorPalette.baseGrey30,
   })  : assert(child != null),
         _child = child,
         _padding = innerPadding,
