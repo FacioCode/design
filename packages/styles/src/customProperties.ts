@@ -1,30 +1,55 @@
 /* eslint-disable max-lines,sort-keys */
 
+export const alertTitleStyles = {
+
+  root: {
+
+    /**
+     * Color for Alert Title Root
+     */
+    color: "var(--component-alert-title-root-color, #303846)",
+
+
+    /**
+     * Font Family for Alert Title Root
+     */
+    fontFamily: "var(--component-alert-title-root-font-family, Open Sans, sans-serif)",
+
+
+    /**
+     * Font Size for Alert Title Root
+     */
+    fontSize: "var(--component-alert-title-root-font-size, 1rem)",
+
+
+    /**
+     * Font Weight for Alert Title Root
+     */
+    fontWeight: "var(--component-alert-title-root-font-weight, 600)",
+
+
+    /**
+     * Letter Spacing for Alert Title Root
+     */
+    letterSpacing: "var(--component-alert-title-root-letter-spacing, 0px)",
+
+
+    /**
+     * Line Height for Alert Title Root
+     */
+    lineHeight: "var(--component-alert-title-root-line-height, 1.5em)",
+
+
+    /**
+     * Margin Bottom for Alert Title Root
+     */
+    marginBottom: "var(--component-alert-title-root-margin-bottom, 0px)",
+
+  },
+
+};
+
 export const alertStyles = {
-
-  icon: {
-
-    /**
-     * Margin Right for Alert Icon
-     */
-    marginRight: "var(--component-alert-icon-margin-right, 8px)",
-
-  },
-
-  gutters: {
-
-    /**
-     * Margin Left for Alert Gutters
-     */
-    marginLeft: "var(--component-alert-gutters-margin-left, 16px)",
-
-
-    /**
-     * Margin Right for Alert Gutters
-     */
-    marginRight: "var(--component-alert-gutters-margin-right, 16px)",
-
-  },
 
   root: {
 
@@ -47,12 +72,66 @@ export const alertStyles = {
 
   },
 
-  standardInfo: {
+  icon: {
 
     /**
-     * Background Color for Alert Standard Info
+     * Margin Right for Alert Icon
      */
-    backgroundColor: "var(--component-alert-standard-info-background-color, #b3ccff)",
+    marginRight: "var(--component-alert-icon-margin-right, 8px)",
+
+  },
+
+  message: {
+
+    /**
+     * Color for Alert Message
+     */
+    color: "var(--component-alert-message-color, #424d5c)",
+
+
+    /**
+     * Font Family for Alert Message
+     */
+    fontFamily: "var(--component-alert-message-font-family, Open Sans, sans-serif)",
+
+
+    /**
+     * Font Size for Alert Message
+     */
+    fontSize: "var(--component-alert-message-font-size, 0.875rem)",
+
+
+    /**
+     * Font Weight for Alert Message
+     */
+    fontWeight: "var(--component-alert-message-font-weight, 400)",
+
+
+    /**
+     * Letter Spacing for Alert Message
+     */
+    letterSpacing: "var(--component-alert-message-letter-spacing, -0.15px)",
+
+
+    /**
+     * Line Height for Alert Message
+     */
+    lineHeight: "var(--component-alert-message-line-height, 1.5em)",
+
+  },
+
+  gutters: {
+
+    /**
+     * Margin Left for Alert Gutters
+     */
+    marginLeft: "var(--component-alert-gutters-margin-left, 16px)",
+
+
+    /**
+     * Margin Right for Alert Gutters
+     */
+    marginRight: "var(--component-alert-gutters-margin-right, 16px)",
 
   },
 
@@ -62,6 +141,36 @@ export const alertStyles = {
      * Background Color for Alert Standard Brand
      */
     backgroundColor: "var(--component-alert-standard-brand-background-color, #3fe1b6)",
+
+  },
+
+  standardInfo: {
+
+    /**
+     * Background Color for Alert Standard Info
+     */
+    backgroundColor: "var(--component-alert-standard-info-background-color, #b3ccff)",
+
+
+    /**
+     * Color for Alert Standard Info
+     */
+    color: "var(--component-alert-standard-info-color, #424d5c)",
+
+  },
+
+  standardWarning: {
+
+    /**
+     * Background Color for Alert Standard Warning
+     */
+    backgroundColor: "var(--component-alert-standard-warning-background-color, #ffe6b3)",
+
+
+    /**
+     * Color for Alert Standard Warning
+     */
+    color: "var(--component-alert-standard-warning-color, #424d5c)",
 
   },
 
@@ -390,7 +499,7 @@ export const containedButtonStyles = {
     /**
      * Background Color for Contained Button Danger
      */
-    backgroundColor: "var(--component-contained-button-danger-background-color, #e13f6a)",
+    backgroundColor: "var(--component-contained-button-danger-background-color, #c42b47)",
 
 
     /**
@@ -405,7 +514,7 @@ export const containedButtonStyles = {
     /**
      * Background Color for Contained Button Danger Hover
      */
-    backgroundColor: "var(--component-contained-button-danger-hover-background-color, #e13f6a)",
+    backgroundColor: "var(--component-contained-button-danger-hover-background-color, #c42b47)",
 
 
     /**
@@ -420,7 +529,7 @@ export const containedButtonStyles = {
     /**
      * Background Color for Contained Button Danger Pressed
      */
-    backgroundColor: "var(--component-contained-button-danger-pressed-background-color, #c42b47)",
+    backgroundColor: "var(--component-contained-button-danger-pressed-background-color, #890606)",
 
 
     /**
@@ -504,7 +613,7 @@ export const containedButtonStyles = {
     /**
      * Color for Contained Button Warning
      */
-    color: "var(--component-contained-button-warning-color, #ffffff)",
+    color: "var(--component-contained-button-warning-color, #303846)",
 
   },
 
@@ -519,7 +628,7 @@ export const containedButtonStyles = {
     /**
      * Color for Contained Button Warning Hover
      */
-    color: "var(--component-contained-button-warning-hover-color, #ffffff)",
+    color: "var(--component-contained-button-warning-hover-color, #303846)",
 
   },
 
@@ -534,7 +643,7 @@ export const containedButtonStyles = {
     /**
      * Color for Contained Button Warning Pressed
      */
-    color: "var(--component-contained-button-warning-pressed-color, #ffffff)",
+    color: "var(--component-contained-button-warning-pressed-color, #303846)",
 
   },
 
@@ -603,7 +712,7 @@ export const formLabelStyles = {
     /**
      * Color for Form Label Focused
      */
-    color: "var(--component-form-label-focused-color, #068589)",
+    color: "var(--component-form-label-focused-color, #05797d)",
 
   },
 
@@ -756,7 +865,7 @@ export const linkButtonStyles = {
     /**
      * Color for Link Button Default
      */
-    color: "var(--component-link-button-default-color, #068589)",
+    color: "var(--component-link-button-default-color, #05797d)",
 
   },
 
@@ -778,7 +887,7 @@ export const linkStyles = {
     /**
      * Color for Link Root
      */
-    color: "var(--component-link-root-color, #068589)",
+    color: "var(--component-link-root-color, #05797d)",
 
   },
 
@@ -1295,7 +1404,7 @@ export const typographyStyles = {
   button: {
 
     /**
-     * Button color is secondary (probably grey-80) by default
+     * Button color is primary (probably grey-70) by default
      */
     color: "var(--component-typography-button-color, #424d5c)",
 
@@ -1367,7 +1476,7 @@ export const typographyStyles = {
   caption: {
 
     /**
-     * Caption color is secondary (probably grey-80) by default
+     * Caption color is high contrast primary (probably grey-80) by default
      */
     color: "var(--component-typography-caption-color, #303846)",
 
@@ -1430,6 +1539,33 @@ export const typographyStyles = {
      * Reuse margin top from headline5
      */
     marginTop: "var(--component-typography-headline-6-margin-top, 1.5em)",
+
+  },
+
+  colorError: {
+
+    /**
+     * Color for Typography Color Error
+     */
+    color: "var(--component-typography-color-error-color, #c42b47)",
+
+  },
+
+  colorInverse: {
+
+    /**
+     * Color for Typography Color Inverse
+     */
+    color: "var(--component-typography-color-inverse-color, #ffffff)",
+
+  },
+
+  colorTextPrimary: {
+
+    /**
+     * Color for Typography Color Text Primary
+     */
+    color: "var(--component-typography-color-text-primary-color, #424d5c)",
 
   },
 
