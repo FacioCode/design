@@ -102,7 +102,8 @@ class ColorPalette {
   static const Color fontLink = const Color(0xFF05797D);
   static const Color fontPlaceholder = const Color(0xFFAFB4BB);
   static const Color fontPrimary = const Color(0xFF424D5C);
-  static const Color fontSecondary = const Color(0xFF303846);
+  static const Color fontPrimaryHighContrast = const Color(0xFF303846);
+  static const Color fontSecondary = const Color(0xFF828C9B);
   static const Color inputChecked = const Color(0xFF424D5C);
   static const Color inputDefault = const Color(0xFF828C9B);
   static const Color inputDisabled = const Color(0xFFAFB4BB);
