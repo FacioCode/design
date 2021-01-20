@@ -12,7 +12,7 @@ export 'components/legacy/base_app_bar.dart';
 export 'components/legacy/chips.dart';
 export 'components/legacy/legacy_theme.dart';
 export 'components/legacy/swipe_button.dart';
-export 'components/legacy/text_bullet.dart';
 export 'components/legacy/video_thumb.dart';
 export 'components/name_field.dart';
 export 'components/progress_widget.dart';
+export 'components/text_bullet.dart';
