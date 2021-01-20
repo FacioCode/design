@@ -4,7 +4,7 @@ import { colorTokens, componentTokens } from "@faciocode/styles";
 const themeOptions = {
   base: "light",
 
-  colorPrimary: "#3fe1b6",
+  colorPrimary: colorTokens.basePrimaryMain,
   colorSecondary: colorTokens.baseSecondaryMain,
 
   // UI
