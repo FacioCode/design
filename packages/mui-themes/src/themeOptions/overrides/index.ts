@@ -189,6 +189,12 @@ export const overrides : ThemeOptions["overrides"] = {
       "&$selected, &$selected:hover": customProperties.tableRowStyles.selected,
     },
   },
+  MuiTypography: {
+    colorError: customProperties.typographyStyles.colorError,
+    colorTextPrimary: customProperties.typographyStyles.colorTextPrimary,
+    colorTextSecondary: customProperties.typographyStyles.colorTextSecondary,
+    root: customProperties.typographyStyles.root,
+  },
 };
 
 export default overrides;
