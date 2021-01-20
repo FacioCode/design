@@ -23,7 +23,6 @@ type TypographyColor = |
   "error" |
   "inherit" |
   "textPrimary" |
-  "textSecondary" |
   "initial" |
   "inverse";
 
