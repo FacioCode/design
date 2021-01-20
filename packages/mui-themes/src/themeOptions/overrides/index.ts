@@ -192,7 +192,6 @@ export const overrides : ThemeOptions["overrides"] = {
   MuiTypography: {
     colorError: customProperties.typographyStyles.colorError,
     colorTextPrimary: customProperties.typographyStyles.colorTextPrimary,
-    colorTextSecondary: customProperties.typographyStyles.colorTextSecondary,
     root: customProperties.typographyStyles.root,
   },
 };
