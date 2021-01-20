@@ -37,6 +37,15 @@
       },
       "bodyText1": {
         "marginBottom": { "value": "{size.font.bodyText1.marginBottom.value}" }
+      },
+      "colorError": {
+        "color": { "value": "{color.font.error.value}" }
+      },
+      "colorInverse": {
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "colorTextPrimary": {
+        "color": { "value": "{color.font.primary.value}" }
       }
     }
   }
