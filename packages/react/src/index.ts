@@ -1,4 +1,9 @@
-export { Alert, AlertProps } from "./Alert";
+export {
+  Alert,
+  AlertProps,
+  AlertTitle,
+  AlertTitleProps,
+} from "./Alert";
 export {
   ContainedButton,
   ContainedButtonProps,
