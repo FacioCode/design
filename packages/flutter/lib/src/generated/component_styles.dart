@@ -5,17 +5,33 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 
+class AlertTitleStyles {
+  AlertTitleStyles._();
+
+  /// Color for Alert Title
+  static const color = const Color(0xFF303846);
+
+  /// Font Family for Alert Title
+  static const fontFamily = "Open Sans";
+
+  /// Font Size for Alert Title
+  static const fontSize = 15.00;
+
+  /// Font Weight for Alert Title
+  static const fontWeight = FontWeight.w600;
+
+  /// Letter Spacing for Alert Title
+  static const letterSpacing = -0.23;
+
+  /// Line Height for Alert Title
+  static const lineHeight = 1.6;
+
+  /// Margin Bottom for Alert Title
+  static const marginBottom = 0.00;
+}
+
 class AlertStyles {
   AlertStyles._();
-
-  /// Margin Right for Icon
-  static const iconMarginRight = 8.00;
-
-  /// Margin Left for Gutters
-  static const guttersMarginLeft = 16.00;
-
-  /// Margin Right for Gutters
-  static const guttersMarginRight = 16.00;
 
   /// Border Radius for Alert
   static const borderRadius = 8.00;
@@ -26,11 +42,47 @@ class AlertStyles {
   /// Margin Top for Alert
   static const marginTop = 4.00;
 
-  /// Background Color for Standard Info
-  static const standardInfoBackgroundColor = const Color(0xFFB3CCFF);
+  /// Margin Right for Icon
+  static const iconMarginRight = 8.00;
+
+  /// Color for Message
+  static const messageColor = const Color(0xFF424D5C);
+
+  /// Font Family for Message
+  static const messageFontFamily = "Open Sans";
+
+  /// Font Size for Message
+  static const messageFontSize = 14.00;
+
+  /// Font Weight for Message
+  static const messageFontWeight = FontWeight.w400;
+
+  /// Letter Spacing for Message
+  static const messageLetterSpacing = -0.15;
+
+  /// Line Height for Message
+  static const messageLineHeight = 1.71428571429;
+
+  /// Margin Left for Gutters
+  static const guttersMarginLeft = 16.00;
+
+  /// Margin Right for Gutters
+  static const guttersMarginRight = 16.00;
 
   /// Background Color for Standard Brand
   static const standardBrandBackgroundColor = const Color(0xFF3FE1B6);
+
+  /// Background Color for Standard Info
+  static const standardInfoBackgroundColor = const Color(0xFFB3CCFF);
+
+  /// Color for Standard Info
+  static const standardInfoColor = const Color(0xFF424D5C);
+
+  /// Background Color for Standard Warning
+  static const standardWarningBackgroundColor = const Color(0xFFFFE6B3);
+
+  /// Color for Standard Warning
+  static const standardWarningColor = const Color(0xFF424D5C);
 }
 
 class AppBarStyles {
@@ -176,19 +228,19 @@ class ContainedButtonStyles {
   static const brandPressedColor = const Color(0xFF424D5C);
 
   /// Background Color for Danger
-  static const dangerBackgroundColor = const Color(0xFFE13F6A);
+  static const dangerBackgroundColor = const Color(0xFFC42B47);
 
   /// Color for Danger
   static const dangerColor = const Color(0xFFFFFFFF);
 
   /// Background Color for Danger Hover
-  static const dangerHoverBackgroundColor = const Color(0xFFE13F6A);
+  static const dangerHoverBackgroundColor = const Color(0xFFC42B47);
 
   /// Color for Danger Hover
   static const dangerHoverColor = const Color(0xFFFFFFFF);
 
   /// Background Color for Danger Pressed
-  static const dangerPressedBackgroundColor = const Color(0xFFC42B47);
+  static const dangerPressedBackgroundColor = const Color(0xFF890606);
 
   /// Color for Danger Pressed
   static const dangerPressedColor = const Color(0xFFFFFFFF);
@@ -221,19 +273,19 @@ class ContainedButtonStyles {
   static const warningBackgroundColor = const Color(0xFFE1B63F);
 
   /// Color for Warning
-  static const warningColor = const Color(0xFFFFFFFF);
+  static const warningColor = const Color(0xFF303846);
 
   /// Background Color for Warning Hover
   static const warningHoverBackgroundColor = const Color(0xFFE1B63F);
 
   /// Color for Warning Hover
-  static const warningHoverColor = const Color(0xFFFFFFFF);
+  static const warningHoverColor = const Color(0xFF303846);
 
   /// Background Color for Warning Pressed
   static const warningPressedBackgroundColor = const Color(0xFFC4A82B);
 
   /// Color for Warning Pressed
-  static const warningPressedColor = const Color(0xFFFFFFFF);
+  static const warningPressedColor = const Color(0xFF303846);
 }
 
 class CurrencyStyles {
@@ -269,7 +321,7 @@ class FormLabelStyles {
   FormLabelStyles._();
 
   /// Color for Focused
-  static const focusedColor = const Color(0xFF068589);
+  static const focusedColor = const Color(0xFF05797D);
 }
 
 class InputBaseStyles {
@@ -305,7 +357,7 @@ class LinkButtonStyles {
   LinkButtonStyles._();
 
   /// Color for Default
-  static const defaultColor = const Color(0xFF068589);
+  static const defaultColor = const Color(0xFF05797D);
 
   /// Border Radius for Size Small
   static const sizeSmallBorderRadius = 8.00;
@@ -315,7 +367,7 @@ class LinkStyles {
   LinkStyles._();
 
   /// Color for Link
-  static const color = const Color(0xFF068589);
+  static const color = const Color(0xFF05797D);
 }
 
 class OutlinedButtonStyles {
