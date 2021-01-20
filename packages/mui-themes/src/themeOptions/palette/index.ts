@@ -44,6 +44,12 @@ export const palette : PaletteOptions = {
     dark: colorTokens.basePrimaryDark,
     main: colorTokens.basePrimaryMain,
   },
+  text: {
+    disabled: colorTokens.fontDisabled,
+    hint: colorTokens.fontHint,
+    primary: colorTokens.fontPrimary,
+    secondary: colorTokens.fontSecondary,
+  },
   type: "light",
   warning: {
     main: colorTokens.baseWarningMain,
