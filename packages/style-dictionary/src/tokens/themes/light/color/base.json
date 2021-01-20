@@ -3,8 +3,8 @@
     "base": {
       "error": {
         "comment": "Also known as danger",
-        "main": { "value": "{color.base.indianRed.50.value}" },
-        "dark": { "value": "{color.base.indianRed.60.value}" }
+        "main": { "value": "{color.base.indianRed.60.value}" },
+        "dark": { "value": "{color.base.indianRed.70.value}" }
       },
       "info": {
         "main": { "value": "{color.base.skyBlue.70.value}" },
