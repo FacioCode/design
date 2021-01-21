@@ -1,37 +1,38 @@
 {
   "color": {
     "font": {
-      "error": {
-        "comment": "Useful for error/danger messages",
-        "value": "{color.base.error.main.value}"
-      },
-      "disabled": {
-        "comment": "Useful for disabled buttons. For checkboxes, use color.input.disabled.value",
-        "value": "{color.base.grey.50.value}"
-      },
       "headline1": { "value": "{color.base.grey.90.value}" },
-      "hint": {
-        "comment": "This token is not yet in use",
-        "value": "{color.base.grey.50.value}"
-      },
-      "inverse": { "value": "{color.base.white.value}" },
-      "link": { "value": "{color.base.aquamarine.70.value}" },
-      "placeholder": {
-        "comment": "Useful for text field placeholders",
-        "value": "{color.base.grey.50.value}"
-      },
-      "secondary": {
-        "comment": "Not being actively used, but the same color is a default for input",
-        "value": "{color.base.grey.60.value}"
+      "primaryHighContrast": {
+        "comment": "Font color for warning button and some typography variants",
+        "value": "{color.base.grey.80.value}"
       },
       "primary": {
         "comment": "Color for label, card, input base, paper, body text and another typographies",
         "value": "{color.base.grey.70.value}"
       },
-      "primaryHighContrast": {
-        "comment": "Font color for warning button and some typography variants",
-        "value": "{color.base.grey.80.value}"
-      }
+      "secondary": {
+        "comment": "Font color for disabled contained button font. Better for contrast.",
+        "value": "{color.base.grey.60.value}"
+      },
+      "disabled": {
+        "comment": "Font color for disabled outlined button, disabled link button.",
+        "value": "{color.base.grey.50.value}"
+      },
+      "placeholder": {
+        "comment": "Useful for text field placeholders",
+        "value": "{color.base.grey.50.value}"
+      },
+      "hint": {
+        "comment": "This token is not yet in use",
+        "value": "{color.base.grey.50.value}"
+      },
+      "inverse": { "value": "{color.base.white.value}" },
+      "error": {
+        "comment": "Useful for error/danger messages",
+        "value": "{color.base.error.main.value}"
+      },
+      "link": { "value": "{color.base.aquamarine.70.value}" },
+      "linkPressed": { "value": "{color.base.aquamarine.80.value}" }
     }
   }
 }
