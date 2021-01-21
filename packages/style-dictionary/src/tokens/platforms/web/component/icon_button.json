@@ -1,0 +1,15 @@
+{
+  "component": {
+    "iconButton": {
+      "root": {
+        "boxShadow": { "value": "{shadow.none.value}" }
+      },
+      "focusVisible": {
+        "boxShadow": { "value": "{shadow.linkButtonFocusVisible.value}" }
+      },
+      "pressed": {
+        "boxShadow": { "value": "{shadow.none.value}" }
+      }
+    }
+  }
+}

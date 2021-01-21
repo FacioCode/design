@@ -1,0 +1,12 @@
+{
+  "component": {
+    "containedButton": {
+      "focusVisible": {
+        "boxShadow": { "value": "{shadow.containedButtonFocusVisible.value}" }
+      },
+      "hover": {
+        "boxShadow": { "value": "{shadow.containedButtonHover.value}" }
+      }
+    }
+  }
+}
