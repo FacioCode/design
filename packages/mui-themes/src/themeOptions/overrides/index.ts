@@ -2,6 +2,7 @@
 import { MuiButton } from "./MuiButton";
 import type { ThemeOptions } from "@material-ui/core";
 import { customProperties } from "@faciocode/styles";
+import { MuiLink } from "./MuiLink";
 
 const { placeholder } = customProperties.inputBaseStyles;
 
@@ -142,24 +143,7 @@ export const overrides : ThemeOptions["overrides"] = {
       "&$focused": customProperties.formLabelStyles.focused,
     },
   },
-  MuiLink: {
-    root: {
-      "&:hover": {
-        ...customProperties.linkButtonStyles.hover,
-        textDecoration: "underline",
-      },
-      "&:focus-visible": customProperties.linkButtonStyles.focusVisible,
-      "&:active": {
-        textDecoration: "none",
-      },
-      "&:disabled": customProperties.linkButtonStyles.disabled,
-    },
-    underlineHover: {
-      "&:active": {
-        textDecoration: "none",
-      },
-    },
-  },
+  MuiLink,
   MuiPaper: {
     root: {
       ...customProperties.paperStyles.root,
