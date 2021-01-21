@@ -5,9 +5,6 @@
         "comment": "Styles applied to the root element if component is a contained button.",
         "borderWidth": { "value": "{size.border.width.none.value}" }
       },
-      "hover": {
-        "boxShadow": { "value": "{shadow.hover.color}" }
-      },
       "brand": {
         "backgroundColor": { "value": "{color.base.primary.main.value}" },
         "color": { "value": "{color.font.primary.value}" }
@@ -15,8 +12,8 @@
       "brandDisabled": {
         "backgroundColor": { "value": "{color.base.primary.lighter.value}" },
         "color": {
-          "comment": "Todo: check if we will use grey.50 or grey.60",
-          "value": "{color.font.disabled.value}"
+          "comment": "Font color for disabled contained buttons uses secondary instead of disabled",
+          "value": "{color.font.secondary.value}"
         }
       },
       "brandHover": {
@@ -51,11 +48,8 @@
         "backgroundColor": { "value": "{color.base.secondary.dark.value}" },
         "color": { "value": "{color.font.inverse.value}" }
       },
-      "sizeMedium": {
-        "borderRadius": { "value": "{size.border.radius.triple.value}" }
-      },
-      "sizeSmall": {
-        "borderRadius": { "value": "{size.border.radius.double.value}" }
+      "focusVisible": {
+        "outlineWidth": { "value": "{size.base.none.value}" }
       },
       "warning": {
         "backgroundColor": { "value": "{color.base.warning.main.value}" },
