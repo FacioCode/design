@@ -110,20 +110,26 @@ class ButtonStyles {
   /// Medium button labels have semi bold font weight
   static const labelFontWeight = FontWeight.w600;
 
-  /// Height for Size Small
-  static const sizeSmallHeight = 32.00;
+  /// Border radius for small size now uses doubleQuarter (18 logical pixels)
+  static const sizeSmallBorderRadius = 18.00;
 
-  /// Padding Bottom for Size Small
-  static const sizeSmallPaddingBottom = 4.00;
+  /// Small button height is explicitly defined to avoid content vertical overflow
+  static const sizeSmallHeight = 36.00;
 
-  /// All small buttons have left padding equivalent to 4 logical pixels
-  static const sizeSmallPaddingLeft = 12.00;
+  /// All small buttons now have left padding equivalent to 16 logical pixels
+  static const sizeSmallPaddingLeft = 16.00;
 
-  /// All small buttons have right padding equivalent to 4 logical pixels
-  static const sizeSmallPaddingRight = 12.00;
+  /// All small buttons now have right padding equivalent to 16 logical pixels
+  static const sizeSmallPaddingRight = 16.00;
 
-  /// Padding Top for Size Small
-  static const sizeSmallPaddingTop = 4.00;
+  /// All small buttons now have top padding equivalent to 6 logical pixels
+  static const sizeSmallPaddingBottom = 6.00;
+
+  /// All small buttons now have top padding equivalent to 6 logical pixels
+  static const sizeSmallPaddingTop = 6.00;
+
+  /// Border Radius for Size Medium
+  static const sizeMediumBorderRadius = 8.00;
 
   /// Height for Size Medium
   static const sizeMediumHeight = 48.00;
@@ -200,9 +206,6 @@ class ContainedButtonStyles {
   /// Border Width for Contained Button
   static const borderWidth = 0.00;
 
-  /// Box Shadow for Hover
-  static const hoverBoxShadow = Color(0xFFD1D3D6);
-
   /// Background Color for Brand
   static const brandBackgroundColor = const Color(0xFF3FE1B6);
 
@@ -212,8 +215,8 @@ class ContainedButtonStyles {
   /// Background Color for Brand Disabled
   static const brandDisabledBackgroundColor = const Color(0xFFD0FFEF);
 
-  /// Todo: check if we will use grey.50 or grey.60
-  static const brandDisabledColor = const Color(0xFFAFB4BB);
+  /// Font color for disabled contained buttons uses secondary instead of disabled
+  static const brandDisabledColor = const Color(0xFF828C9B);
 
   /// Background Color for Brand Hover
   static const brandHoverBackgroundColor = const Color(0xFF3FE1B6);
@@ -263,11 +266,8 @@ class ContainedButtonStyles {
   /// Color for Default Pressed
   static const defaultPressedColor = const Color(0xFFFFFFFF);
 
-  /// Border Radius for Size Medium
-  static const sizeMediumBorderRadius = 24.00;
-
-  /// Border Radius for Size Small
-  static const sizeSmallBorderRadius = 24.00;
+  /// Outline Width for Focus Visible
+  static const focusVisibleOutlineWidth = 0.00;
 
   /// Background Color for Warning
   static const warningBackgroundColor = const Color(0xFFE1B63F);
@@ -324,6 +324,49 @@ class FormLabelStyles {
   static const focusedColor = const Color(0xFF05797D);
 }
 
+class IconButtonStyles {
+  IconButtonStyles._();
+
+  /// Color for Icon Button
+  static const color = const Color(0xFF303846);
+
+  /// Font Size for Icon Button
+  static const fontSize = 24.00;
+
+  /// Color for Disabled
+  static const disabledColor = const Color(0xFFAFB4BB);
+
+  /// Outline Width for Focus Visible
+  static const focusVisibleOutlineWidth = 0.00;
+
+  /// Background Color for Hover
+  static const hoverBackgroundColor = const Color(0x00FFFFFF);
+
+  /// Color for Hover
+  static const hoverColor = const Color(0xFF05797D);
+
+  /// Max Width for Label
+  static const labelMaxWidth = 24.00;
+
+  /// Min Width for Label
+  static const labelMinWidth = 24.00;
+
+  /// Color for Pressed
+  static const pressedColor = const Color(0xFF005C5E);
+
+  /// Height for Size Small
+  static const sizeSmallHeight = 36.00;
+
+  /// Padding for Size Small
+  static const sizeSmallPadding = 6.00;
+
+  /// Height for Size Medium
+  static const sizeMediumHeight = 48.00;
+
+  /// Padding for Size Medium
+  static const sizeMediumPadding = 12.00;
+}
+
 class InputBaseStyles {
   InputBaseStyles._();
 
@@ -359,15 +402,20 @@ class LinkButtonStyles {
   /// Color for Default
   static const defaultColor = const Color(0xFF05797D);
 
-  /// Border Radius for Size Small
-  static const sizeSmallBorderRadius = 8.00;
-}
+  /// Color for Disabled
+  static const disabledColor = const Color(0xFFAFB4BB);
 
-class LinkStyles {
-  LinkStyles._();
+  /// Outline Width for Focus Visible
+  static const focusVisibleOutlineWidth = 0.00;
 
-  /// Color for Link
-  static const color = const Color(0xFF05797D);
+  /// Background Color for Hover
+  static const hoverBackgroundColor = const Color(0x00FFFFFF);
+
+  /// Background Color for Pressed
+  static const pressedBackgroundColor = const Color(0x00FFFFFF);
+
+  /// Color for Pressed
+  static const pressedColor = const Color(0xFF005C5E);
 }
 
 class OutlinedButtonStyles {
@@ -376,35 +424,44 @@ class OutlinedButtonStyles {
   /// Border Width for Outlined Button
   static const borderWidth = 1.00;
 
+  /// Background Color for Default
+  static const defaultBackgroundColor = const Color(0x00FFFFFF);
+
   /// Border Color for Default
   static const defaultBorderColor = Color(0xFFE2E3E4);
 
   /// Color for Default
-  static const defaultColor = const Color(0xFF424D5C);
+  static const defaultColor = const Color(0xFF303846);
 
-  /// Color for Disabled
+  /// Background Color for Disabled
+  static const disabledBackgroundColor = const Color(0x00FFFFFF);
+
+  /// Font color for outlined disabled buttons follows theme disabled font color
   static const disabledColor = const Color(0xFFAFB4BB);
+
+  /// Background Color for Focus Visible
+  static const focusVisibleBackgroundColor = const Color(0x00FFFFFF);
+
+  /// Border Color for Focus Visible
+  static const focusVisibleBorderColor = Color(0xFFE2E3E4);
+
+  /// Outline Width for Focus Visible
+  static const focusVisibleOutlineWidth = 0.00;
+
+  /// Background Color for Pressed
+  static const pressedBackgroundColor = const Color(0x05101615);
 
   /// Border Color for Pressed
   static const pressedBorderColor = Color(0xFF2BC4A8);
 
   /// Color for Pressed
-  static const pressedColor = const Color(0xFF424D5C);
+  static const pressedColor = const Color(0xFF303846);
+
+  /// Background Color for Hover
+  static const hoverBackgroundColor = const Color(0x00FFFFFF);
 
   /// Border Color for Hover
-  static const hoverBorderColor = Color(0xFF3FE1B6);
-
-  /// Border Radius for Size Small
-  static const sizeSmallBorderRadius = 24.00;
-
-  /// Padding Bottom for Size Small
-  static const sizeSmallPaddingBottom = 2.00;
-
-  /// Padding Top for Size Small
-  static const sizeSmallPaddingTop = 2.00;
-
-  /// Border Radius for Size Medium
-  static const sizeMediumBorderRadius = 8.00;
+  static const hoverBorderColor = Color(0xFF2BC4A8);
 }
 
 class PaperStyles {
