@@ -35,9 +35,15 @@ export const props : ComponentsProps = {
   MuiDialogContent: {
     dividers: false,
   },
-  MuiIconButton: MuiButtonBase,
+  MuiIconButton: {
+    ...MuiButtonBase,
+    size: "small",
+  },
   MuiInput,
   MuiInputLabel,
+  MuiLink: {
+    underline: "hover",
+  },
   MuiPaper: {
     elevation: 0,
     square: true,
