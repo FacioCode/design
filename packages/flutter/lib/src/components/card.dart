@@ -5,8 +5,7 @@ import 'package:flutter/widgets.dart';
 class BaseCard extends StatelessWidget {
   const BaseCard({
     @required final Widget child,
-    final EdgeInsets innerPadding =
-        const EdgeInsets.all(CardContentStyles.padding),
+    final EdgeInsets innerPadding = const EdgeInsets.all(CardContentStyles.padding),
     final EdgeInsets margin = const EdgeInsets.only(bottom: Sizes.baseTriple),
     final VoidCallback onTap,
     final double elevation = 0,
@@ -29,8 +28,7 @@ class BaseCard extends StatelessWidget {
   final Color _color;
   final Color _borderColor;
 
-  static const BorderRadius _defaultRadius =
-      BorderRadius.all(Radius.circular(PaperStyles.roundedBorderRadius));
+  static const BorderRadius _defaultRadius = BorderRadius.all(Radius.circular(PaperStyles.roundedBorderRadius));
 
   @override
   Widget build(BuildContext context) => Card(
