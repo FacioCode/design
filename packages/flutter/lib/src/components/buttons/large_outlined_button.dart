@@ -36,12 +36,16 @@ class LargeOutlinedButton extends StatelessWidget {
         highlightColor: Colors.transparent,
         highlightedBorderColor: OutlinedButtonStyles.pressedBorderColor,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
+          borderRadius:
+              BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
         ),
         child: Text(
           _title,
           textAlign: TextAlign.center,
-          style: _isEnabled ? TextStyles.button : TextStyles.button.copyWith(color: OutlinedButtonStyles.disabledColor),
+          style: _isEnabled
+              ? TextStyles.button
+              : TextStyles.button
+                  .copyWith(color: OutlinedButtonStyles.disabledColor),
         ),
       ),
     );

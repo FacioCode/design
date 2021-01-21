@@ -30,7 +30,10 @@ class LargeContainedButton extends StatelessWidget {
           gradient: const LinearGradient(
             begin: Alignment.bottomLeft,
             end: Alignment.topRight,
-            colors: <Color>[ColorPalette.baseAquamarine50, ColorPalette.baseAquamarine60],
+            colors: <Color>[
+              ColorPalette.baseAquamarine50,
+              ColorPalette.baseAquamarine60
+            ],
           ),
           borderRadius: BorderRadius.circular(Sizes.baseSingle),
         ),

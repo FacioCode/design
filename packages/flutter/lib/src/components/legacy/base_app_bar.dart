@@ -69,7 +69,10 @@ class BaseAppBar extends AppBar {
           ),
         );
       } else {
-        actions.add(MediumLinkButton(onPressed: barButton.onPressed, title: barButton.title, key: barButton.key));
+        actions.add(MediumLinkButton(
+            onPressed: barButton.onPressed,
+            title: barButton.title,
+            key: barButton.key));
       }
     }
     return actions;

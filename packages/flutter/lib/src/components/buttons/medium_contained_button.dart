@@ -8,8 +8,8 @@ class MediumContainedButton extends StatelessWidget {
     @required final String title,
     final VoidCallback onPressed,
     final bool isEnabled = true,
-    final EdgeInsets padding =
-        const EdgeInsets.fromLTRB(Sizes.baseDouble, Sizes.baseNone, Sizes.baseDouble, Sizes.baseSingle),
+    final EdgeInsets padding = const EdgeInsets.fromLTRB(
+        Sizes.baseDouble, Sizes.baseNone, Sizes.baseDouble, Sizes.baseSingle),
   })  : assert(title != null),
         assert(isEnabled != null),
         assert(padding != null),
@@ -33,15 +33,18 @@ class MediumContainedButton extends StatelessWidget {
         height: ButtonStyles.sizeMediumHeight,
         decoration: BoxDecoration(
           color: ContainedButtonStyles.brandBackgroundColor,
-          borderRadius: BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
+          borderRadius:
+              BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
         ),
         child: FlatButton(
           key: _key,
           onPressed: _isEnabled ? _onPressed : null,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
+            borderRadius:
+                BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
           ),
-          child: Text(_title, textAlign: TextAlign.center, style: TextStyles.button),
+          child: Text(_title,
+              textAlign: TextAlign.center, style: TextStyles.button),
         ),
       ),
     );
