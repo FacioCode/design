@@ -3,8 +3,12 @@
     "border": {
       "radius": {
         "double": {
-          "comment": "Equivalent to 16px for web. Commonly used for small buttons",
+          "comment": "Equivalent to 16px for web. Formerly used for small buttons",
           "value": "{size.base.double.value}"
+        },
+        "doubleQuarter": {
+          "comment": "Equivalent to 18px for web. Now it is used for small buttons",
+          "value": "{size.base.doubleQuarter.value}"
         },
         "triple": {
           "comment": "Equivalent to 24px for web. Commonly used for CTA (medium buttons)",
