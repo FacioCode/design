@@ -35,7 +35,7 @@ class MediumOutlinedButton extends StatelessWidget {
         highlightColor: Colors.transparent,
         highlightedBorderColor: OutlinedButtonStyles.pressedBorderColor,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(OutlinedButtonStyles.sizeSmallBorderRadius),
+          borderRadius: BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
         ),
         child: Text(
           _title,

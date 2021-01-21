@@ -36,7 +36,7 @@ class LargeOutlinedButton extends StatelessWidget {
         highlightColor: Colors.transparent,
         highlightedBorderColor: OutlinedButtonStyles.pressedBorderColor,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(OutlinedButtonStyles.sizeMediumBorderRadius),
+          borderRadius: BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
         ),
         child: Text(
           _title,
