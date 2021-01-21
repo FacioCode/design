@@ -31,8 +31,7 @@ class MediumLinkButton extends StatelessWidget {
         _title,
         style: _isEnabled
             ? TextStyles.button.copyWith(color: LinkButtonStyles.defaultColor)
-            : TextStyles.button
-                .copyWith(color: OutlinedButtonStyles.disabledColor),
+            : TextStyles.button.copyWith(color: OutlinedButtonStyles.disabledColor),
       ),
     );
   }

@@ -66,8 +66,7 @@ class FDSNameField extends StatelessWidget {
       decoration: InputDecoration(
         hintText: _hintText,
         hintStyle: _hasHint
-            ? TextStyles.bodyText1.copyWith(
-                height: 1.25, fontSize: 22.0, color: ColorPalette.baseGrey50)
+            ? TextStyles.bodyText1.copyWith(height: 1.25, fontSize: 22.0, color: ColorPalette.baseGrey50)
             : null,
         filled: false,
         border: InputBorder.none,
@@ -75,8 +74,7 @@ class FDSNameField extends StatelessWidget {
         enabledBorder: InputBorder.none,
         errorBorder: InputBorder.none,
         disabledBorder: InputBorder.none,
-        contentPadding:
-            const EdgeInsets.only(left: 15, bottom: 11, top: 11, right: 15),
+        contentPadding: const EdgeInsets.only(left: 15, bottom: 11, top: 11, right: 15),
       ),
       textAlign: TextAlign.left,
       style: TextStyles.bodyText1.copyWith(height: 1.25, fontSize: 22.0),

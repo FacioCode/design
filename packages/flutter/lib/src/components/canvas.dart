@@ -26,8 +26,7 @@ class FDSCanvas extends StatelessWidget {
         assert(canvasPadding != null),
         assert(keyboardPushScreen != null),
         assert(elevation != null),
-        assert((hasAppBarLogo && appBarTitle == null) ||
-            (!hasAppBarLogo && appBarTitle != null)),
+        assert((hasAppBarLogo && appBarTitle == null) || (!hasAppBarLogo && appBarTitle != null)),
         _child = child,
         _appBarActions = appBarActions,
         _hasBackButton = hasBackButton,
@@ -79,10 +78,7 @@ class FDSCanvas extends StatelessWidget {
               )
             : _appBarLeading,
         actions: _appBarLogoutOnPressed != null
-            ? [
-                MediumLinkButton(
-                    title: 'Sair', onPressed: _appBarLogoutOnPressed)
-              ]
+            ? [MediumLinkButton(title: 'Sair', onPressed: _appBarLogoutOnPressed)]
             : _appBarActions,
       ),
       body: SafeArea(
