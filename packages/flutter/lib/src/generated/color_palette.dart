@@ -85,6 +85,7 @@ class ColorPalette {
   static const Color baseSkyBlue70 = const Color(0xFF066089);
   static const Color baseSkyBlue80 = const Color(0xFF002C5E);
   static const Color baseSkyBlue90 = const Color(0xFF082A3F);
+  static const Color baseTransparent00 = const Color(0x00FFFFFF);
   static const Color baseTransparent05 = const Color(0x05101615);
   static const Color baseTransparent30 = const Color(0x21212631);
   static const Color baseTransparent70 = const Color(0xBD000F23);
@@ -92,7 +93,10 @@ class ColorPalette {
   static const Color baseWarningMain = const Color(0xFFE1B63F);
   static const Color baseWhite = const Color(0xFFFFFFFF);
   static const Color borderDivider = const Color(0xFFE2E3E4);
+  static const Color borderFocus = const Color(0xFF53E2FE);
   static const Color borderOutlinedButton = const Color(0xFFE2E3E4);
+  static const Color borderOutlinedButtonFocus = const Color(0xFF3FBBE1);
+  static const Color borderOutlinedButtonHover = const Color(0xFF3FE1B6);
   static const Color borderOutlinedButtonPressed = const Color(0xFF2BC4A8);
   static const Color fontDisabled = const Color(0xFFAFB4BB);
   static const Color fontError = const Color(0xFFC42B47);
@@ -100,6 +104,7 @@ class ColorPalette {
   static const Color fontHint = const Color(0xFFAFB4BB);
   static const Color fontInverse = const Color(0xFFFFFFFF);
   static const Color fontLink = const Color(0xFF05797D);
+  static const Color fontLinkPressed = const Color(0xFF005C5E);
   static const Color fontPlaceholder = const Color(0xFFAFB4BB);
   static const Color fontPrimary = const Color(0xFF424D5C);
   static const Color fontPrimaryHighContrast = const Color(0xFF303846);
