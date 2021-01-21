@@ -1,0 +1,35 @@
+{
+  "component": {
+    "iconButton": {
+      "root": {
+        "color": { "value": "{color.font.primaryHighContrast.value}" },
+        "fontSize": { "value": "{size.base.triple.value}" }
+      },
+      "disabled": {
+        "color": { "value": "{color.font.disabled.value}" }
+      },
+      "focusVisible": {
+        "outlineWidth": { "value": "{size.base.none.value}" }
+      },
+      "hover": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
+        "color": { "value": "{color.font.link.value}" }
+      },
+      "label": {
+        "maxWidth": { "value": "{size.base.triple.value}" },
+        "minWidth": { "value": "{size.base.triple.value}" }
+      },
+      "pressed": {
+        "color": { "value": "{color.font.linkPressed.value}" }
+      },
+      "sizeSmall": {
+        "height": { "value": "{size.base.quadrupleHalf.value}" },
+        "padding": { "value": "{size.base.halfQuarter.value}" }
+      },
+      "sizeMedium": {
+        "height": { "value": "{size.base.sixfold.value}" },
+        "padding": { "value": "{size.base.singleHalf.value}" }
+      }
+    }
+  }
+}
