@@ -7,27 +7,30 @@
         "borderWidth": { "value": "{size.border.width.single.value}" }
       },
       "default": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
         "borderColor": { "value": "{color.border.outlinedButton.value}" },
-        "color": { "value": "{color.font.primary.value}" }
+        "color": { "value": "{color.font.primaryHighContrast.value}" }
       },
       "disabled": {
-        "color": { "value": "{color.font.disabled.value}" }
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
+        "color": {
+          "comment": "Font color for outlined disabled buttons follows theme disabled font color",
+          "value": "{color.font.disabled.value}"
+        }
+      },
+      "focusVisible": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
+        "borderColor": { "value": "{component.outlinedButton.default.borderColor.value}" },
+        "outlineWidth": { "value": "{size.base.none.value}" }
       },
       "pressed": {
+        "backgroundColor": { "value": "{color.base.transparent.05.value}" },
         "borderColor": { "value": "{color.border.outlinedButtonPressed.value}" },
         "color": { "value": "{component.outlinedButton.default.color.value}" }
       },
       "hover": {
-        "borderColor": { "value": "{color.base.primary.main.value}" }
-      },
-      "sizeSmall": {
-        "comment": "Styles applied to the root element if size is small and variant is outlined.",
-        "borderRadius": { "value": "{size.border.radius.double.value}" },
-        "paddingBottom": { "value": "{size.base.quarter.value}" },
-        "paddingTop": { "value": "{size.base.quarter.value}" }
-      },
-      "sizeMedium": {
-        "borderRadius": { "value": "{size.border.radius.single.value}" }
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
+        "borderColor": { "value": "{color.border.outlinedButtonPressed.value}" }
       }
     }
   }
