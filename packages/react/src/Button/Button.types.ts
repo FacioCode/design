@@ -10,8 +10,9 @@ export type ButtonOmittedProps =
   | "disableFocusRipple"
   | "disableRipple"
   | "disableTouchRipple"
-  | "size"
   | "focusRipple"
+  | "focusVisibleClassName"
+  | "size"
   | "TouchRippleProps"
   | "variant";
 
