@@ -4,7 +4,12 @@
       "none": { "value": 0 },
       "one": { "value": 1 },
       "quarter": { "value": 2 },
+      "focus": { "value": 3 },
       "half": { "value": 4 },
+      "halfQuarter": {
+        "comment": "Commonly used for small button vertical padding",
+        "value": 6
+      },
       "single": { "value": 8 },
       "singleHalf": {
         "comment": "Commonly used for medium button vertical padding or dialog content text margin",
@@ -14,11 +19,22 @@
         "comment": "Twice the base value (8) = 16",
         "value": 16
       },
+      "doubleQuarter": {
+        "comment": "New border radius for small buttons",
+        "value": 18
+      },
       "triple": {
         "comment": "Commonly used for button label height",
         "value": 24
       },
-      "quadruple": { "value": 32 },
+      "quadruple": {
+        "comment": "Formerly used for small button height.",
+        "value": 32
+      },
+      "quadrupleHalf": {
+        "comment": "After some experiments, this is the new small button size",
+        "value": 36
+      },
       "fivefold": { "value": 40 },
       "sixfold": { "value": 48 },
       "sevenfold": {
