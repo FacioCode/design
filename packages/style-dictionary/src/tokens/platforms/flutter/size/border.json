@@ -3,6 +3,10 @@
     "border": {
       "radius": {
         "double": { "value": "{size.base.triple.value}" },
+        "doubleQuarter": {
+          "comment": "TODO: check if value will work for Flutter",
+          "value": "{size.base.doubleQuarter.value}"
+        },
         "triple": {
           "comment": "TODO: check if triple value works for Flutter medium button",
           "value": "{size.base.triple.value}"
