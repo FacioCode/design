@@ -1,69 +1,12 @@
 /* eslint-disable sort-keys */
-
-import type { CSSProperties } from "@material-ui/styles";
+import { MuiButton } from "./MuiButton";
 import type { ThemeOptions } from "@material-ui/core";
 import { customProperties } from "@faciocode/styles";
 
 const { placeholder } = customProperties.inputBaseStyles;
 
 export const overrides : ThemeOptions["overrides"] = {
-  MuiButton: {
-    contained: {
-      ...customProperties.containedButtonStyles.root,
-      ...customProperties.containedButtonStyles.default,
-      "&:active": customProperties.containedButtonStyles.defaultPressed,
-      "&:hover": {
-        ...customProperties.containedButtonStyles.defaultHover,
-
-        /**
-         * @todo Use token from style-dictionary for contained button box shadow
-         */
-        boxShadow: `${customProperties.containedButtonStyles.hover.boxShadow} 0px 2px 4px 0px`,
-      },
-    },
-    containedPrimary: {
-      ...customProperties.containedButtonStyles.brand,
-      "&:hover": customProperties.containedButtonStyles.brandHover,
-      "&:active": customProperties.containedButtonStyles.brandPressed,
-      "&$disabled": {
-        ...customProperties.containedButtonStyles.brandDisabled,
-        "&:hover": customProperties.containedButtonStyles.brandDisabled,
-      },
-    },
-    containedSizeSmall: customProperties.containedButtonStyles.sizeSmall,
-    disableElevation: {
-      "&:hover": {
-        boxShadow: null,
-      },
-    },
-    fullWidth: customProperties.buttonStyles.fullWidth,
-    label: customProperties.buttonStyles.label as CSSProperties,
-    outlined: {
-      ...customProperties.outlinedButtonStyles.root,
-      ...customProperties.outlinedButtonStyles.default,
-    },
-    outlinedPrimary: {
-      ...customProperties.outlinedButtonStyles.default,
-      "&:hover": customProperties.outlinedButtonStyles.hover,
-    },
-    outlinedSecondary: {
-      ...customProperties.outlinedButtonStyles.default,
-      "&:hover": customProperties.outlinedButtonStyles.hover,
-    },
-    outlinedSizeSmall: customProperties.outlinedButtonStyles.sizeSmall,
-    root: {
-      ...customProperties.buttonStyles.root,
-      ...customProperties.buttonStyles.sizeMedium,
-      "&$disabled": {
-        cursor: "not-allowed",
-        pointerEvents: "auto",
-      },
-    },
-    sizeSmall: customProperties.buttonStyles.sizeSmall,
-    text: customProperties.linkButtonStyles.default,
-    textPrimary: customProperties.linkButtonStyles.default,
-    textSizeSmall: customProperties.linkButtonStyles.sizeSmall,
-  },
+  MuiButton,
   MuiButtonBase: {
     root: customProperties.buttonBaseStyles.root,
   },
@@ -157,6 +100,32 @@ export const overrides : ThemeOptions["overrides"] = {
       "&$focused": customProperties.formLabelStyles.focused,
     },
   },
+  MuiIconButton: {
+    root: {
+      ...customProperties.iconButtonStyles.root,
+      ...customProperties.iconButtonStyles.sizeMedium,
+      "&:hover": {
+        ...customProperties.iconButtonStyles.hover,
+        "& path": {
+          fill: customProperties.iconButtonStyles.hover.color,
+        },
+      },
+      "&:active": {
+        ...customProperties.iconButtonStyles.pressed,
+        "& path": {
+          fill: customProperties.iconButtonStyles.pressed.color,
+        },
+      },
+      "&$disabled": {
+        ...customProperties.iconButtonStyles.disabled,
+        "& path": {
+          fill: customProperties.iconButtonStyles.disabled.color,
+        },
+      },
+    },
+    sizeSmall: customProperties.iconButtonStyles.sizeSmall,
+    label: customProperties.iconButtonStyles.label,
+  },
   MuiInputBase: {
     input: {
       fontSize: customProperties.typographyStyles.bodyText1.fontSize,
@@ -174,7 +143,22 @@ export const overrides : ThemeOptions["overrides"] = {
     },
   },
   MuiLink: {
-    root: customProperties.linkStyles.root,
+    root: {
+      "&:hover": {
+        ...customProperties.linkButtonStyles.hover,
+        textDecoration: "underline",
+      },
+      "&:focus-visible": customProperties.linkButtonStyles.focusVisible,
+      "&:active": {
+        textDecoration: "none",
+      },
+      "&:disabled": customProperties.linkButtonStyles.disabled,
+    },
+    underlineHover: {
+      "&:active": {
+        textDecoration: "none",
+      },
+    },
   },
   MuiPaper: {
     root: {
