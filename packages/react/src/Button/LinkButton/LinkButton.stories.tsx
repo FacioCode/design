@@ -23,6 +23,12 @@ Small.args = {
   size: "small",
 };
 
+export const SmallDisabled : Story<LinkButtonProps> = Template.bind({});
+SmallDisabled.args = {
+  ...Small.args,
+  disabled: true,
+};
+
 export const Medium : Story<LinkButtonProps> = Template.bind({});
 Medium.args = {
   ...Playground.args,
