@@ -1,4 +1,5 @@
 import { LinkProps as MaterialLinkProps } from "@material-ui/core/Link";
+import * as React from "react";
 
 type LinkColor = "default" | "initial" | "inherit";
 export type MaterialLinkColor = MaterialLinkProps["color"];
@@ -13,4 +14,11 @@ export interface LinkProps extends Omit<MaterialLinkProps, OmittedProps> {
    * @type "default" | "initial" | "inherit"
    */
   color?: LinkColor
+
+  /**
+   * @default "a"
+   * @optional
+   * @type element
+   */
+  component?: React.ElementType
 }
