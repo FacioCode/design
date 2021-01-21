@@ -22,20 +22,34 @@
       },
       "sizeSmall": {
         "comment": "Styles applied to small buttons. Border radius should not be defined here.",
-        "height": { "value": "{size.base.quadruple.value}" },
-        "paddingBottom": { "value": "{size.base.half.value}" },
+        "borderRadius": {
+          "comment": "Border radius for small size now uses doubleQuarter (18 logical pixels)",
+          "value": "{size.border.radius.doubleQuarter.value}"
+        },
+        "height": {
+          "comment": "Small button height is explicitly defined to avoid content vertical overflow",
+          "value": "{size.base.quadrupleHalf.value}"
+        },
         "paddingLeft": {
-          "comment": "All small buttons have left padding equivalent to 4 logical pixels",
-          "value": "{size.base.singleHalf.value}"
+          "comment": "All small buttons now have left padding equivalent to 16 logical pixels",
+          "value": "{size.base.double.value}"
         },
         "paddingRight": {
-          "comment": "All small buttons have right padding equivalent to 4 logical pixels",
-          "value": "{size.base.singleHalf.value}"
+          "comment": "All small buttons now have right padding equivalent to 16 logical pixels",
+          "value": "{size.base.double.value}"
         },
-        "paddingTop": { "value": "{size.base.half.value}" }
+        "paddingBottom": {
+          "comment": "All small buttons now have top padding equivalent to 6 logical pixels",
+          "value": "{size.base.halfQuarter.value}"
+        },
+        "paddingTop": {
+          "comment": "All small buttons now have top padding equivalent to 6 logical pixels",
+          "value": "{size.base.halfQuarter.value}"
+        }
       },
       "sizeMedium": {
         "comment": "Styles applied to the root element if size is medium.",
+        "borderRadius": { "value": "{size.border.radius.single.value}" },
         "height": { "value": "{size.base.sixfold.value}" },
         "paddingBottom": { "value": "{size.base.singleHalf.value}" },
         "paddingTop": { "value": "{size.base.singleHalf.value}" }
