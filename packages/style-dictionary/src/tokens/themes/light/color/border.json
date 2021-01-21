@@ -8,6 +8,17 @@
       "outlinedButtonPressed": {
         "value": "{color.base.aquamarine.60.value}"
       },
+      "outlinedButtonFocus": {
+        "comment": "Useful for focused contained button",
+        "value": "{color.base.skyBlue.50.value}"
+      },
+      "outlinedButtonHover": {
+        "value": "{color.base.aquamarine.50.value}"
+      },
+      "focus": {
+        "comment": "Useful for outlined and link button",
+        "value": "{color.base.skyBlue.40.value}"
+      },
       "divider": {
         "comment": "It must be a value that offers good/sufficient contrast for white backgrounds",
         "value": "{color.base.grey.30.value}"
