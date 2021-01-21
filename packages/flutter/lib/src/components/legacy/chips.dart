@@ -24,7 +24,8 @@ class BaseChips extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: _last ? const EdgeInsets.all(0.0) : const EdgeInsets.only(right: 8.0),
+      padding:
+          _last ? const EdgeInsets.all(0.0) : const EdgeInsets.only(right: 8.0),
       child: MaterialButton(
         elevation: 0,
         padding: const EdgeInsets.all(0.0),
@@ -32,8 +33,11 @@ class BaseChips extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: _selected ? LegacyColorPalette.charcoalGreyTwo : LegacyColorPalette.whiteTwo,
-        textColor: _selected ? Colors.white : LegacyColorPalette.charcoalGreyTwo,
+        color: _selected
+            ? LegacyColorPalette.charcoalGreyTwo
+            : LegacyColorPalette.whiteTwo,
+        textColor:
+            _selected ? Colors.white : LegacyColorPalette.charcoalGreyTwo,
         child: Text(
           _title.toUpperCase(),
         ),

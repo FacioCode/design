@@ -6,7 +6,8 @@ class TextBullet extends StatelessWidget {
 
   final bool _checked;
   static const double _size = 10.0;
-  static const BorderRadius _border = BorderRadius.all(Radius.circular(Sizes.baseSingle));
+  static const BorderRadius _border =
+      BorderRadius.all(Radius.circular(Sizes.baseSingle));
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +16,8 @@ class TextBullet extends StatelessWidget {
       height: _size,
       decoration: BoxDecoration(
         borderRadius: _border,
-        color: _checked ? ColorPalette.baseAquamarine40 : ColorPalette.baseGrey80,
+        color:
+            _checked ? ColorPalette.baseAquamarine40 : ColorPalette.baseGrey80,
       ),
     );
   }
