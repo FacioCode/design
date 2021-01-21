@@ -15,4 +15,8 @@ const Template : Story<LinkProps> = (props: LinkProps) => (
 export const Playground : Story<LinkProps> = Template.bind({});
 Playground.args = {
   children: "Link text",
+  href: "#",
+  onClick: (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+  },
 };
