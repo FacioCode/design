@@ -242,37 +242,49 @@ export const buttonStyles = {
   sizeSmall: {
 
     /**
-     * Height for Button Size Small
+     * Border radius for small size now uses doubleQuarter (18 logical pixels)
      */
-    height: "var(--component-button-size-small-height, 32px)",
+    borderRadius: "var(--component-button-size-small-border-radius, 18px)",
 
 
     /**
-     * Padding Bottom for Button Size Small
+     * Small button height is explicitly defined to avoid content vertical overflow
      */
-    paddingBottom: "var(--component-button-size-small-padding-bottom, 4px)",
+    height: "var(--component-button-size-small-height, 36px)",
 
 
     /**
-     * All small buttons have left padding equivalent to 4 logical pixels
+     * All small buttons now have left padding equivalent to 16 logical pixels
      */
-    paddingLeft: "var(--component-button-size-small-padding-left, 12px)",
+    paddingLeft: "var(--component-button-size-small-padding-left, 16px)",
 
 
     /**
-     * All small buttons have right padding equivalent to 4 logical pixels
+     * All small buttons now have right padding equivalent to 16 logical pixels
      */
-    paddingRight: "var(--component-button-size-small-padding-right, 12px)",
+    paddingRight: "var(--component-button-size-small-padding-right, 16px)",
 
 
     /**
-     * Padding Top for Button Size Small
+     * All small buttons now have top padding equivalent to 6 logical pixels
      */
-    paddingTop: "var(--component-button-size-small-padding-top, 4px)",
+    paddingBottom: "var(--component-button-size-small-padding-bottom, 6px)",
+
+
+    /**
+     * All small buttons now have top padding equivalent to 6 logical pixels
+     */
+    paddingTop: "var(--component-button-size-small-padding-top, 6px)",
 
   },
 
   sizeMedium: {
+
+    /**
+     * Border Radius for Button Size Medium
+     */
+    borderRadius: "var(--component-button-size-medium-border-radius, 8px)",
+
 
     /**
      * Height for Button Size Medium
@@ -425,15 +437,6 @@ export const containedButtonStyles = {
 
   },
 
-  hover: {
-
-    /**
-     * Box Shadow for Contained Button Hover
-     */
-    boxShadow: "var(--component-contained-button-hover-box-shadow, #d1d3d6)",
-
-  },
-
   brand: {
 
     /**
@@ -458,9 +461,9 @@ export const containedButtonStyles = {
 
 
     /**
-     * Todo: check if we will use grey.50 or grey.60
+     * Font color for disabled contained buttons uses secondary instead of disabled
      */
-    color: "var(--component-contained-button-brand-disabled-color, #afb4bb)",
+    color: "var(--component-contained-button-brand-disabled-color, #828c9b)",
 
   },
 
@@ -584,21 +587,18 @@ export const containedButtonStyles = {
 
   },
 
-  sizeMedium: {
+  focusVisible: {
 
     /**
-     * Border Radius for Contained Button Size Medium
+     * Outline Width for Contained Button Focus Visible
      */
-    borderRadius: "var(--component-contained-button-size-medium-border-radius, 24px)",
+    outlineWidth: "var(--component-contained-button-focus-visible-outline-width, 0px)",
 
-  },
-
-  sizeSmall: {
 
     /**
-     * Border Radius for Contained Button Size Small
+     * Box Shadow for Contained Button Focus Visible
      */
-    borderRadius: "var(--component-contained-button-size-small-border-radius, 16px)",
+    boxShadow: "var(--component-contained-button-focus-visible-box-shadow, 0 0 0 3px #3fbbe1)",
 
   },
 
@@ -644,6 +644,15 @@ export const containedButtonStyles = {
      * Color for Contained Button Warning Pressed
      */
     color: "var(--component-contained-button-warning-pressed-color, #303846)",
+
+  },
+
+  hover: {
+
+    /**
+     * Box Shadow for Contained Button Hover
+     */
+    boxShadow: "var(--component-contained-button-hover-box-shadow, 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24))",
 
   },
 
@@ -728,6 +737,130 @@ export const formLabelStyles = {
      * Padding for Form Label Root
      */
     padding: "var(--component-form-label-root-padding, 0px)",
+
+  },
+
+};
+
+export const iconButtonStyles = {
+
+  root: {
+
+    /**
+     * Color for Icon Button Root
+     */
+    color: "var(--component-icon-button-root-color, #303846)",
+
+
+    /**
+     * Font Size for Icon Button Root
+     */
+    fontSize: "var(--component-icon-button-root-font-size, 24px)",
+
+
+    /**
+     * Box Shadow for Icon Button Root
+     */
+    boxShadow: "var(--component-icon-button-root-box-shadow, 0 0 0 0 rgba(0, 0, 0, 0))",
+
+  },
+
+  disabled: {
+
+    /**
+     * Color for Icon Button Disabled
+     */
+    color: "var(--component-icon-button-disabled-color, #afb4bb)",
+
+  },
+
+  focusVisible: {
+
+    /**
+     * Outline Width for Icon Button Focus Visible
+     */
+    outlineWidth: "var(--component-icon-button-focus-visible-outline-width, 0px)",
+
+
+    /**
+     * Box Shadow for Icon Button Focus Visible
+     */
+    boxShadow: "var(--component-icon-button-focus-visible-box-shadow, 0 0 0 3px #53e2fe)",
+
+  },
+
+  hover: {
+
+    /**
+     * Background Color for Icon Button Hover
+     */
+    backgroundColor: "var(--component-icon-button-hover-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
+     * Color for Icon Button Hover
+     */
+    color: "var(--component-icon-button-hover-color, #05797d)",
+
+  },
+
+  label: {
+
+    /**
+     * Max Width for Icon Button Label
+     */
+    maxWidth: "var(--component-icon-button-label-max-width, 24px)",
+
+
+    /**
+     * Min Width for Icon Button Label
+     */
+    minWidth: "var(--component-icon-button-label-min-width, 24px)",
+
+  },
+
+  pressed: {
+
+    /**
+     * Color for Icon Button Pressed
+     */
+    color: "var(--component-icon-button-pressed-color, #005c5e)",
+
+
+    /**
+     * Box Shadow for Icon Button Pressed
+     */
+    boxShadow: "var(--component-icon-button-pressed-box-shadow, 0 0 0 0 rgba(0, 0, 0, 0))",
+
+  },
+
+  sizeSmall: {
+
+    /**
+     * Height for Icon Button Size Small
+     */
+    height: "var(--component-icon-button-size-small-height, 36px)",
+
+
+    /**
+     * Padding for Icon Button Size Small
+     */
+    padding: "var(--component-icon-button-size-small-padding, 6px)",
+
+  },
+
+  sizeMedium: {
+
+    /**
+     * Height for Icon Button Size Medium
+     */
+    height: "var(--component-icon-button-size-medium-height, 48px)",
+
+
+    /**
+     * Padding for Icon Button Size Medium
+     */
+    padding: "var(--component-icon-button-size-medium-padding, 12px)",
 
   },
 
@@ -869,25 +1002,51 @@ export const linkButtonStyles = {
 
   },
 
-  sizeSmall: {
+  disabled: {
 
     /**
-     * Border Radius for Link Button Size Small
+     * Color for Link Button Disabled
      */
-    borderRadius: "var(--component-link-button-size-small-border-radius, 8px)",
+    color: "var(--component-link-button-disabled-color, #afb4bb)",
 
   },
 
-};
-
-export const linkStyles = {
-
-  root: {
+  focusVisible: {
 
     /**
-     * Color for Link Root
+     * Outline Width for Link Button Focus Visible
      */
-    color: "var(--component-link-root-color, #05797d)",
+    outlineWidth: "var(--component-link-button-focus-visible-outline-width, 0px)",
+
+
+    /**
+     * Box Shadow for Link Button Focus Visible
+     */
+    boxShadow: "var(--component-link-button-focus-visible-box-shadow, 0 0 0 3px #53e2fe)",
+
+  },
+
+  hover: {
+
+    /**
+     * Background Color for Link Button Hover
+     */
+    backgroundColor: "var(--component-link-button-hover-background-color, rgba(255, 255, 255, 0))",
+
+  },
+
+  pressed: {
+
+    /**
+     * Background Color for Link Button Pressed
+     */
+    backgroundColor: "var(--component-link-button-pressed-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
+     * Color for Link Button Pressed
+     */
+    color: "var(--component-link-button-pressed-color, #005c5e)",
 
   },
 
@@ -907,6 +1066,12 @@ export const outlinedButtonStyles = {
   default: {
 
     /**
+     * Background Color for Outlined Button Default
+     */
+    backgroundColor: "var(--component-outlined-button-default-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
      * Border Color for Outlined Button Default
      */
     borderColor: "var(--component-outlined-button-default-border-color, #e2e3e4)",
@@ -915,20 +1080,59 @@ export const outlinedButtonStyles = {
     /**
      * Color for Outlined Button Default
      */
-    color: "var(--component-outlined-button-default-color, #424d5c)",
+    color: "var(--component-outlined-button-default-color, #303846)",
 
   },
 
   disabled: {
 
     /**
-     * Color for Outlined Button Disabled
+     * Background Color for Outlined Button Disabled
+     */
+    backgroundColor: "var(--component-outlined-button-disabled-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
+     * Font color for outlined disabled buttons follows theme disabled font color
      */
     color: "var(--component-outlined-button-disabled-color, #afb4bb)",
 
   },
 
+  focusVisible: {
+
+    /**
+     * Background Color for Outlined Button Focus Visible
+     */
+    backgroundColor: "var(--component-outlined-button-focus-visible-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
+     * Border Color for Outlined Button Focus Visible
+     */
+    borderColor: "var(--component-outlined-button-focus-visible-border-color, #e2e3e4)",
+
+
+    /**
+     * Outline Width for Outlined Button Focus Visible
+     */
+    outlineWidth: "var(--component-outlined-button-focus-visible-outline-width, 0px)",
+
+
+    /**
+     * Box Shadow for Outlined Button Focus Visible
+     */
+    boxShadow: "var(--component-outlined-button-focus-visible-box-shadow, 0 0 0 3px #53e2fe)",
+
+  },
+
   pressed: {
+
+    /**
+     * Background Color for Outlined Button Pressed
+     */
+    backgroundColor: "var(--component-outlined-button-pressed-background-color, rgba(16, 22, 21, 0.02))",
+
 
     /**
      * Border Color for Outlined Button Pressed
@@ -939,46 +1143,22 @@ export const outlinedButtonStyles = {
     /**
      * Color for Outlined Button Pressed
      */
-    color: "var(--component-outlined-button-pressed-color, #424d5c)",
+    color: "var(--component-outlined-button-pressed-color, #303846)",
 
   },
 
   hover: {
 
     /**
+     * Background Color for Outlined Button Hover
+     */
+    backgroundColor: "var(--component-outlined-button-hover-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
      * Border Color for Outlined Button Hover
      */
-    borderColor: "var(--component-outlined-button-hover-border-color, #3fe1b6)",
-
-  },
-
-  sizeSmall: {
-
-    /**
-     * Border Radius for Outlined Button Size Small
-     */
-    borderRadius: "var(--component-outlined-button-size-small-border-radius, 16px)",
-
-
-    /**
-     * Padding Bottom for Outlined Button Size Small
-     */
-    paddingBottom: "var(--component-outlined-button-size-small-padding-bottom, 2px)",
-
-
-    /**
-     * Padding Top for Outlined Button Size Small
-     */
-    paddingTop: "var(--component-outlined-button-size-small-padding-top, 2px)",
-
-  },
-
-  sizeMedium: {
-
-    /**
-     * Border Radius for Outlined Button Size Medium
-     */
-    borderRadius: "var(--component-outlined-button-size-medium-border-radius, 8px)",
+    borderColor: "var(--component-outlined-button-hover-border-color, #2bc4a8)",
 
   },
 
