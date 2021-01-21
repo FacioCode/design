@@ -5,8 +5,18 @@
         "comment": "Styles applied to the root element if variant is link",
         "color": { "value": "{color.font.link.value}" }
       },
-      "sizeSmall": {
-        "borderRadius": { "value": "{size.border.radius.single.value}" }
+      "disabled": {
+        "color": { "value": "{color.font.disabled.value}" }
+      },
+      "focusVisible": {
+        "outlineWidth": { "value": "{size.base.none.value}" }
+      },
+      "hover": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" }
+      },
+      "pressed": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
+        "color": { "value": "{color.font.linkPressed.value}" }
       }
     }
   }
