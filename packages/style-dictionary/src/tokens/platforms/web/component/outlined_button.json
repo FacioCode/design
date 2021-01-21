@@ -1,0 +1,9 @@
+{
+  "component": {
+    "outlinedButton": {
+      "focusVisible": {
+        "boxShadow": { "value": "{shadow.linkButtonFocusVisible.value}" }
+      }
+    }
+  }
+}
