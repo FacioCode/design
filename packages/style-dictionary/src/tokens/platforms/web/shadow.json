@@ -1,0 +1,18 @@
+{
+  "shadow": {
+    "none": {
+      "value": "0 0 0 0 rgba(0, 0, 0, 0)"
+    },
+    "containedButtonHover": {
+      "value": "0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)"
+    },
+    "containedButtonFocusVisible": {
+      "comment": "Uses color.base.skyblue.50",
+      "value": "0 0 0 3px #3fbbe1"
+    },
+    "linkButtonFocusVisible": {
+      "comment": "Uses color.base.skyblue.40",
+      "value": "0 0 0 3px #53e2fe"
+    }
+  }
+}
