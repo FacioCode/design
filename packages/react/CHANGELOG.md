@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/FacioCode/design/compare/v2.0.0...v2.0.1) (2021-01-21)
+
+
+### Bug Fixes
+
+* **react:** add missing `component` prop for `Link` ([9331860](https://github.com/FacioCode/design/commit/93318607669c0a50b164f11aea4d7dff3c763c61))
+
+
+
+
+
 # [2.0.0](https://github.com/FacioCode/design/compare/v1.5.0...v2.0.0) (2021-01-21)
 
 

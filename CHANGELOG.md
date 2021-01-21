@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/FacioCode/design/compare/v2.0.0...v2.0.1) (2021-01-21)
+
+
+### Bug Fixes
+
+* **mui-themes:** fix Link-button font size, align and focus visible outline ([8c25e93](https://github.com/FacioCode/design/commit/8c25e931ca3842c9a6839ac6b909888be56072a9))
+* **react:** add missing `component` prop for `Link` ([9331860](https://github.com/FacioCode/design/commit/93318607669c0a50b164f11aea4d7dff3c763c61))
+
+
+
+
+
 # [2.0.0](https://github.com/FacioCode/design/compare/v1.5.0...v2.0.0) (2021-01-21)
 
 
