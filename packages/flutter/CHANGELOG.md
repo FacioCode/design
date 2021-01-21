@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/FacioCode/design/compare/v1.5.0...v2.0.0) (2021-01-21)
+
+
+### Bug Fixes
+
+* **flutter:** use ButtonStyles class for button border radius ([41ff360](https://github.com/FacioCode/design/commit/41ff3607adc5d202913dbe76b1f863790176f801))
+
+
+### Features
+
+* **flutter:** add new base sizes for new button sizes ([a6bd76d](https://github.com/FacioCode/design/commit/a6bd76d64a04bf6e2f6f750608d8d0506993be84))
+* **flutter:** add new color tokens for buttons and links ([fc38b7d](https://github.com/FacioCode/design/commit/fc38b7d56ab55f371eb5a2eb10b575b0e5b03990))
+* **flutter:** add new tokens and update buttons height, border radius and paddings ([1920bfe](https://github.com/FacioCode/design/commit/1920bfe05a90813df40549a7851e4254e68290c9))
+
+
+### Reverts
+
+* **flutter:** undo flutter format with 100 lines ([c1d24b9](https://github.com/FacioCode/design/commit/c1d24b96486e83eab4689aafaa44f7faa573ef96))
+
+
+### BREAKING CHANGES
+
+* **flutter:** `sizeSmallBorderRadius` and `sizeMediumBorderRadius` were removed from `ContainedButtonStyles` and `OutlinedButtonStyles` and moved to `ButtonStyles`.
+
+
+
+
+
 # [1.5.0](https://github.com/FacioCode/design/compare/v1.4.0...v1.5.0) (2021-01-20)
 
 

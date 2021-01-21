@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/FacioCode/design/compare/v1.5.0...v2.0.0) (2021-01-21)
+
+
+### Features
+
+* **react:** add new `SvgIcon` component ([8b6caa3](https://github.com/FacioCode/design/commit/8b6caa325433b4f13014b916e8c88bea2b2722bc))
+* **react:** add new `WhatsAppIcon` component ([2263d00](https://github.com/FacioCode/design/commit/2263d006046e20f863a33eea2cf731a9660d79b0))
+* **react:** add styles to IconButton component ([b25a477](https://github.com/FacioCode/design/commit/b25a477c4d4951e1cd01c595d6f589c8df3b7395))
+* **react:** add support to color prop for `Link` component ([37ee55b](https://github.com/FacioCode/design/commit/37ee55b32cc04e37202b20edfcb2cd2fc00c7b95))
+
+
+
+
+
 # [1.5.0](https://github.com/FacioCode/design/compare/v1.4.0...v1.5.0) (2021-01-20)
 
 

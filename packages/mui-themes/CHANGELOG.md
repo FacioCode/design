@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/FacioCode/design/compare/v1.5.0...v2.0.0) (2021-01-21)
+
+
+### Features
+
+* **mui-themes:** add default props for `MuiIconButton` and `MuiLink` ([b017c2f](https://github.com/FacioCode/design/commit/b017c2f7341e1733c6507254876f83551e9e9f03))
+* **mui-themes:** add overrides for `MuiButton` ([ba04c44](https://github.com/FacioCode/design/commit/ba04c442982b26ad7d3c434f5060cc01f382943e))
+* **mui-themes:** add overrides for `MuiIconButton` and `MuiLink` ([ef3b36f](https://github.com/FacioCode/design/commit/ef3b36f2f4d795ab6527182b456f91c49f74eaf5))
+
+
+
+
+
 # [1.5.0](https://github.com/FacioCode/design/compare/v1.4.0...v1.5.0) (2021-01-20)
 
 

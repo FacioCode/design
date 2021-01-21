@@ -3,6 +3,66 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/FacioCode/design/compare/v1.5.0...v2.0.0) (2021-01-21)
+
+
+### Bug Fixes
+
+* **flutter:** use ButtonStyles class for button border radius ([41ff360](https://github.com/FacioCode/design/commit/41ff3607adc5d202913dbe76b1f863790176f801))
+
+
+### Code Refactoring
+
+* **style-dictionary:** remove `{component.link}` component token ([d3da173](https://github.com/FacioCode/design/commit/d3da1737b70741461ca22c35122a8f74ac0dc170))
+
+
+### Features
+
+* **flutter:** add new base sizes for new button sizes ([a6bd76d](https://github.com/FacioCode/design/commit/a6bd76d64a04bf6e2f6f750608d8d0506993be84))
+* **flutter:** add new color tokens for buttons and links ([fc38b7d](https://github.com/FacioCode/design/commit/fc38b7d56ab55f371eb5a2eb10b575b0e5b03990))
+* **flutter:** add new tokens and update buttons height, border radius and paddings ([1920bfe](https://github.com/FacioCode/design/commit/1920bfe05a90813df40549a7851e4254e68290c9))
+* **mui-themes:** add default props for `MuiIconButton` and `MuiLink` ([b017c2f](https://github.com/FacioCode/design/commit/b017c2f7341e1733c6507254876f83551e9e9f03))
+* **mui-themes:** add overrides for `MuiButton` ([ba04c44](https://github.com/FacioCode/design/commit/ba04c442982b26ad7d3c434f5060cc01f382943e))
+* **mui-themes:** add overrides for `MuiIconButton` and `MuiLink` ([ef3b36f](https://github.com/FacioCode/design/commit/ef3b36f2f4d795ab6527182b456f91c49f74eaf5))
+* **react:** add new `SvgIcon` component ([8b6caa3](https://github.com/FacioCode/design/commit/8b6caa325433b4f13014b916e8c88bea2b2722bc))
+* **react:** add new `WhatsAppIcon` component ([2263d00](https://github.com/FacioCode/design/commit/2263d006046e20f863a33eea2cf731a9660d79b0))
+* **react:** add styles to IconButton component ([b25a477](https://github.com/FacioCode/design/commit/b25a477c4d4951e1cd01c595d6f589c8df3b7395))
+* **react:** add support to color prop for `Link` component ([37ee55b](https://github.com/FacioCode/design/commit/37ee55b32cc04e37202b20edfcb2cd2fc00c7b95))
+* **style-dictionary:** add border color tokens for buttons ([8b340ef](https://github.com/FacioCode/design/commit/8b340ef31e091b2f0046ca48aab9d506015dd537))
+* **style-dictionary:** add boxShadow token to buttons and links ([97f3e1b](https://github.com/FacioCode/design/commit/97f3e1b53e658304607f406aa599600bb73c3408))
+* **style-dictionary:** add doubleQuarter border radius for Flutter platform ([cd1dea3](https://github.com/FacioCode/design/commit/cd1dea345f7786ce67938ffb4a86c63ceb20acb9))
+* **style-dictionary:** add doubleQuarter size for border radius ([434d094](https://github.com/FacioCode/design/commit/434d094f0bb97a74b01d873fea39b69a7cc230b8))
+* **style-dictionary:** add focusVisible for contained button, remove border radius ([bc9fc2a](https://github.com/FacioCode/design/commit/bc9fc2a3d1fe444d4836d4be667ac19dba1f6a3e))
+* **style-dictionary:** add new base size tokens ([5be0e34](https://github.com/FacioCode/design/commit/5be0e343509a2ff2c6348997686dda861f403cf3))
+* **style-dictionary:** add new transparent.00 token ([0d98353](https://github.com/FacioCode/design/commit/0d98353a3aed0fad5952f727d78b659b68189a06))
+* **style-dictionary:** add shadow tokens for web platform ([e28f026](https://github.com/FacioCode/design/commit/e28f026d5cfd8b10a5cc6e24aff5232cc2540183))
+* **style-dictionary:** add tokens for icon buttons ([c388db9](https://github.com/FacioCode/design/commit/c388db9103ab45901e024ba3e471a9b5a7bb7f53))
+* **style-dictionary:** add tokens for link and pressed link ([9543e27](https://github.com/FacioCode/design/commit/9543e278a140c9be742d272819c074f502904a09))
+* **style-dictionary:** add tokens for small and medium button sizes ([51f1398](https://github.com/FacioCode/design/commit/51f1398f5c740a588a892a94c1674bbc2a94931d))
+* **style-dictionary:** add tokens for states for outlined button ([33611d1](https://github.com/FacioCode/design/commit/33611d12f43972ba24c98626e86d45c62aa6a8f0))
+* **style-dictionary:** add tokens for states, remove border radius token ([8d49966](https://github.com/FacioCode/design/commit/8d49966a9a2e75f56a3d5733462565b16e5baef2))
+* **styles:** add base sizes for new button sizes ([283620f](https://github.com/FacioCode/design/commit/283620f7fdf00df4ccd804a4502f3ce35222810a))
+* **styles:** add color tokens for buttons and links ([b379395](https://github.com/FacioCode/design/commit/b379395a0a4a911b80f025fd0d4d702c19c3747c))
+* **styles:** add new tokens for buttons and links ([55a826f](https://github.com/FacioCode/design/commit/55a826fafa5ff1d979a8b7984c67d5b7fa071f2f))
+
+
+### Reverts
+
+* **flutter:** undo flutter format with 100 lines ([c1d24b9](https://github.com/FacioCode/design/commit/c1d24b96486e83eab4689aafaa44f7faa573ef96))
+
+
+### BREAKING CHANGES
+
+* **flutter:** `sizeSmallBorderRadius` and `sizeMediumBorderRadius` were removed from `ContainedButtonStyles` and `OutlinedButtonStyles` and moved to `ButtonStyles`.
+* **style-dictionary:** `{component.link}` was removed. Please use `{component.linkButton}` instead.
+* **style-dictionary:** `{component.outlinedButton.sizeSmall}` and `{component.outlinedButton.sizeMedium}` tokens were removed. Please use `{component.button.sizeSmall}` and `{component.button.sizeMedium}`.
+* **style-dictionary:** `{component.linkButton.sizeSmall.borderRadius}` token was removed. Please use `{component.button.sizeSmall.borderRadius}`.
+* **style-dictionary:** `{component.containedButton.sizeMedium.borderRadius}` was removed. Please use `{component.button.sizeMedium.borderRadius}`. `{component.containedButton.sizeSmall.borderRadius}` was removed. Please use `{component.button.sizeSmall.borderRadius}`. `{component.containedButton.hover.boxShadow}` was removed.
+
+
+
+
+
 # [1.5.0](https://github.com/FacioCode/design/compare/v1.4.0...v1.5.0) (2021-01-20)
 
 

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/FacioCode/design/compare/v1.5.0...v2.0.0) (2021-01-21)
+
+
+### Features
+
+* **styles:** add base sizes for new button sizes ([283620f](https://github.com/FacioCode/design/commit/283620f7fdf00df4ccd804a4502f3ce35222810a))
+* **styles:** add color tokens for buttons and links ([b379395](https://github.com/FacioCode/design/commit/b379395a0a4a911b80f025fd0d4d702c19c3747c))
+* **styles:** add new tokens for buttons and links ([55a826f](https://github.com/FacioCode/design/commit/55a826fafa5ff1d979a8b7984c67d5b7fa071f2f))
+
+
+
+
+
 # [1.5.0](https://github.com/FacioCode/design/compare/v1.4.0...v1.5.0) (2021-01-20)
 
 
