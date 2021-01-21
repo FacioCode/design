@@ -14,7 +14,7 @@ const Template : Story<ContainedButtonProps> = (props: ContainedButtonProps) => 
 
 export const Playground : Story<ContainedButtonProps> = Template.bind({});
 Playground.args = {
-  children: "Contained button",
+  children: "Detalhes",
 };
 
 export const BrandMedium : Story<ContainedButtonProps> = Template.bind({});
@@ -54,6 +54,12 @@ BrandSmall.args = {
   ...Playground.args,
   color: "brand",
   size: "small",
+};
+
+export const DisabledBrandSmall : Story<ContainedButtonProps> = Template.bind({});
+DisabledBrandSmall.args = {
+  ...BrandSmall.args,
+  disabled: true,
 };
 
 export const WarningSmall : Story<ContainedButtonProps> = Template.bind({});
