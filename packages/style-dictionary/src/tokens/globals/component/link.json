@@ -1,9 +1,0 @@
-{
-  "component": {
-    "link": {
-      "root": {
-        "color": { "value": "{color.font.link.value}" }
-      }
-    }
-  }
-}
