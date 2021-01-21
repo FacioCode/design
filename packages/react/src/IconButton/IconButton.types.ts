@@ -7,5 +7,6 @@ type OmittedProps =
   "disableFocusRipple" |
   "disableTouchRipple" |
   "focusRipple" |
+  "focusVisibleClassName" |
   "TouchRippleProps";
 export type IconButtonProps = Omit<MaterialIconButtonProps, OmittedProps>;
