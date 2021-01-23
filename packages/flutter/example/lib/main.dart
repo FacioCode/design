@@ -31,15 +31,55 @@ class MyHomePage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                MediumContainedButton(title: 'medium/contained', onPressed: () => null),
+                SmallContainedButton(
+                    title: 'small/contained/brand',
+                    color: ContainedButtonColor.brand,
+                    onPressed: () => null),
                 SizedBox(height: Sizes.baseSingle),
-                MediumOutlinedButton(title: 'medium/outlined', onPressed: () => null),
+                SmallContainedButton(
+                    title: 'small/contained/danger',
+                    color: ContainedButtonColor.danger,
+                    onPressed: () => null),
                 SizedBox(height: Sizes.baseSingle),
-                MediumLinkButton(title: 'medium/link', onPressed: () => null),
+                SmallContainedButton(
+                    title: 'small/contained/default',
+                    color: ContainedButtonColor.colorDefault,
+                    onPressed: () => null),
                 SizedBox(height: Sizes.baseSingle),
-                LargeOutlinedButton(title: 'large/outlined', onPressed: () => null),
+                SmallContainedButton(
+                    title: 'small/contained/warning',
+                    color: ContainedButtonColor.warning,
+                    onPressed: () => null),
                 SizedBox(height: Sizes.baseSingle),
-                LargeContainedButton(title: 'large/contained', onPressed: () => null),
+                SmallOutlinedButton(
+                    title: 'small/outlined', onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                SmallLinkButton(title: 'small/link', onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                MediumOutlinedButton(
+                    title: 'medium/outlined', onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                MediumContainedButton(
+                    title: 'medium/contained/brand',
+                    color: ContainedButtonColor.brand,
+                    onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                MediumContainedButton(
+                    title: 'medium/contained/danger',
+                    color: ContainedButtonColor.danger,
+                    onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                MediumContainedButton(
+                    title: 'medium/contained/default',
+                    color: ContainedButtonColor.colorDefault,
+                    onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                MediumContainedButton(
+                    title: 'medium/contained/warning',
+                    color: ContainedButtonColor.warning,
+                    onPressed: () => null),
+                SizedBox(height: Sizes.baseSingle),
+                MediumLinkButton(title: "medium/link", onPressed: () => null)
               ],
             ),
           ),
