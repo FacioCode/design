@@ -1,0 +1,16 @@
+{
+  "component": {
+    "bottomSheet": {
+      "root": {
+        "backgroundColor": { "value": "{color.background.default.value}" },
+        "bottom": { "value": "{size.base.none.value}" },
+        "left": { "value": "{size.base.none.value}" },
+        "right": { "value": "{size.base.none.value}" },
+        "paddingBottom": { "value": "{size.base.sevenfold.value}" },
+        "paddingLeft": { "value": "{size.base.double.value}" },
+        "paddingRight": { "value": "{size.base.double.value}" },
+        "paddingTop": { "value": "{size.base.triple.value}" }
+      }
+    }
+  }
+}
