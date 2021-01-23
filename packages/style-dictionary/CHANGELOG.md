@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/FacioCode/design/compare/v2.0.2...v2.1.0) (2021-01-23)
+
+
+### Bug Fixes
+
+* **style-dictionary:** update border radius tokens for flutter ([fc67c3e](https://github.com/FacioCode/design/commit/fc67c3e656b370b28208de4d066c46de2f1476bc))
+* **style-dictionary:** update filled input background color ([c098c6c](https://github.com/FacioCode/design/commit/c098c6c58bddd1afca7d283d219cc7fba2a21636))
+
+
+### Features
+
+* **style-dictionary:** add bgcolor for filled alerts & input; update default bgcolor ([f9321a1](https://github.com/FacioCode/design/commit/f9321a106441068bde92be7d7d649f7dbeb29544))
+* **style-dictionary:** add bottom sheet tokens ([0d4b352](https://github.com/FacioCode/design/commit/0d4b3528a5c3e6b9fbb7fb408ea625dc85bc1d68))
+* **style-dictionary:** add box shadow tokens for web ([d90c06e](https://github.com/FacioCode/design/commit/d90c06e2ead2d3ecbcee2b46ce179372025646e1))
+* **style-dictionary:** add shadow tokens generation for web ([b6abc88](https://github.com/FacioCode/design/commit/b6abc88a66f0bafb85a8d4d377b968e808dcfd2b))
+* **style-dictionary:** add support to filled variant for alerts ([da0e647](https://github.com/FacioCode/design/commit/da0e6475bd23795c0283684b885e284008ea1364))
+* **style-dictionary:** add typography root styles to form label ([29d0e6a](https://github.com/FacioCode/design/commit/29d0e6a00eee5ad33a2054c5686b2bac381db1b0))
+
+
+
+## [2.0.1](https://github.com/FacioCode/design/compare/v2.0.0...v2.0.1) (2021-01-21)
+
+
+
+
+
 ## [2.0.2](https://github.com/FacioCode/design/compare/v2.0.1...v2.0.2) (2021-01-21)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

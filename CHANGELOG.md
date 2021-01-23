@@ -3,6 +3,60 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/FacioCode/design/compare/v2.0.2...v2.1.0) (2021-01-23)
+
+
+### Bug Fixes
+
+* **flutter:** adjust border radius triple token size, remove unused token ([68cc4c5](https://github.com/FacioCode/design/commit/68cc4c542edef9e68f800d78367b8b2aba6e8045))
+* **mui-themes:** prevent type error with MuiFormLabel override ([9bd7e2c](https://github.com/FacioCode/design/commit/9bd7e2c3e56d850c614c0e8cd02a1f6d5a8be20b))
+* **style-dictionary:** update border radius tokens for flutter ([fc67c3e](https://github.com/FacioCode/design/commit/fc67c3e656b370b28208de4d066c46de2f1476bc))
+* **style-dictionary:** update filled input background color ([c098c6c](https://github.com/FacioCode/design/commit/c098c6c58bddd1afca7d283d219cc7fba2a21636))
+
+
+### Features
+
+* **flutter:** add new color tokens for standard/filled alerts ([f952e14](https://github.com/FacioCode/design/commit/f952e1467442154797e2a398a8747bf8640bbe5c))
+* **flutter:** add/update tokens for alerts, bottom sheets, buttons and inputs ([e6b6650](https://github.com/FacioCode/design/commit/e6b665034daa69ff9b0677d8395bbff3a9d39493))
+* **flutter:** formalize small/medium sizes, add support to color on ContainedButton ([663dac5](https://github.com/FacioCode/design/commit/663dac5e01d669a4e1bfe1e15b9ee69ca6bb17cd))
+* **mui-themes:** add default props for snackbar components ([fcd8b95](https://github.com/FacioCode/design/commit/fcd8b9556170c369dcf449395329a5cd989abb02))
+* **mui-themes:** add shadows for web: 0, 2, 4 & 6 ([fb9300c](https://github.com/FacioCode/design/commit/fb9300cf3b4ecdf7e06df2256cf08278acda3fd9))
+* **mui-themes:** add support to filled variant for `MuiAlert` ([d66e266](https://github.com/FacioCode/design/commit/d66e266387ec3eee4785fbe45ac2b08f64f5d83e))
+* **mui-themes:** improve support to active and disabled states for MuiButton ([9e374c6](https://github.com/FacioCode/design/commit/9e374c6863cab6213e9394a9865b7c8ca69fd654))
+* **react:** add `BottomSheet` component ([70d6b83](https://github.com/FacioCode/design/commit/70d6b83198927402096eb9609eed8288aa731321))
+* **react:** add `elevation` and `variant` props for `Alert` ([b1981db](https://github.com/FacioCode/design/commit/b1981dba6151e7e76b317e4d679267c1be224187))
+* **react:** add `elevation` property to `Paper` utility component ([8b9fe2b](https://github.com/FacioCode/design/commit/8b9fe2b4adff17b8fadde9d4936fb532719bbf85))
+* **react:** add Snackbar component ([2dbc0c3](https://github.com/FacioCode/design/commit/2dbc0c372911c885a5f0336fa62317c3823893ba))
+* **react:** add support to `color` variant for `LinkButton` ([b6d54b8](https://github.com/FacioCode/design/commit/b6d54b82cfc464e2f6119208c95d14fc07067cdc))
+* **react:** make `BottomSheet` and `Snackbar` components importable ([509a3e4](https://github.com/FacioCode/design/commit/509a3e4ab70c0345caaaed203a01ba4f96883bef))
+* **style-dictionary:** add bgcolor for filled alerts & input; update default bgcolor ([f9321a1](https://github.com/FacioCode/design/commit/f9321a106441068bde92be7d7d649f7dbeb29544))
+* **style-dictionary:** add bottom sheet tokens ([0d4b352](https://github.com/FacioCode/design/commit/0d4b3528a5c3e6b9fbb7fb408ea625dc85bc1d68))
+* **style-dictionary:** add box shadow tokens for web ([d90c06e](https://github.com/FacioCode/design/commit/d90c06e2ead2d3ecbcee2b46ce179372025646e1))
+* **style-dictionary:** add shadow tokens generation for web ([b6abc88](https://github.com/FacioCode/design/commit/b6abc88a66f0bafb85a8d4d377b968e808dcfd2b))
+* **style-dictionary:** add support to filled variant for alerts ([da0e647](https://github.com/FacioCode/design/commit/da0e6475bd23795c0283684b885e284008ea1364))
+* **style-dictionary:** add typography root styles to form label ([29d0e6a](https://github.com/FacioCode/design/commit/29d0e6a00eee5ad33a2054c5686b2bac381db1b0))
+* **styles:** add new color tokens for alert, change default background color token ([991ad39](https://github.com/FacioCode/design/commit/991ad39043d073f5f102f3ed6faac953e50b5e39))
+* **styles:** add new component tokens for alert, bottom sheet, buttons and input ([d09ad52](https://github.com/FacioCode/design/commit/d09ad52ecd3ab6a9fae6cbc974094b34c5f8f8d9))
+* **styles:** add shadow tokens ([f39246c](https://github.com/FacioCode/design/commit/f39246c32fb5bf36408f361671644dfe4b18079e))
+
+
+
+## [2.0.1](https://github.com/FacioCode/design/compare/v2.0.0...v2.0.1) (2021-01-21)
+
+
+### Bug Fixes
+
+* **mui-themes:** fix Link-button font size, align and focus visible outline ([8c25e93](https://github.com/FacioCode/design/commit/8c25e931ca3842c9a6839ac6b909888be56072a9))
+* **react:** add missing `component` prop for `Link` ([9331860](https://github.com/FacioCode/design/commit/93318607669c0a50b164f11aea4d7dff3c763c61))
+
+
+
+# 2.0.0 (2021-01-21)
+
+
+
+
+
 ## [2.0.2](https://github.com/FacioCode/design/compare/v2.0.1...v2.0.2) (2021-01-21)
 
 

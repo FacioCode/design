@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/FacioCode/design/compare/v2.0.2...v2.1.0) (2021-01-23)
+
+
+### Features
+
+* **react:** add `BottomSheet` component ([70d6b83](https://github.com/FacioCode/design/commit/70d6b83198927402096eb9609eed8288aa731321))
+* **react:** add `elevation` and `variant` props for `Alert` ([b1981db](https://github.com/FacioCode/design/commit/b1981dba6151e7e76b317e4d679267c1be224187))
+* **react:** add `elevation` property to `Paper` utility component ([8b9fe2b](https://github.com/FacioCode/design/commit/8b9fe2b4adff17b8fadde9d4936fb532719bbf85))
+* **react:** add Snackbar component ([2dbc0c3](https://github.com/FacioCode/design/commit/2dbc0c372911c885a5f0336fa62317c3823893ba))
+* **react:** add support to `color` variant for `LinkButton` ([b6d54b8](https://github.com/FacioCode/design/commit/b6d54b82cfc464e2f6119208c95d14fc07067cdc))
+* **react:** make `BottomSheet` and `Snackbar` components importable ([509a3e4](https://github.com/FacioCode/design/commit/509a3e4ab70c0345caaaed203a01ba4f96883bef))
+
+
+
+## [2.0.1](https://github.com/FacioCode/design/compare/v2.0.0...v2.0.1) (2021-01-21)
+
+
+### Bug Fixes
+
+* **react:** add missing `component` prop for `Link` ([9331860](https://github.com/FacioCode/design/commit/93318607669c0a50b164f11aea4d7dff3c763c61))
+
+
+
+# 2.0.0 (2021-01-21)
+
+
+
+
+
 ## [2.0.2](https://github.com/FacioCode/design/compare/v2.0.1...v2.0.2) (2021-01-21)
 
 

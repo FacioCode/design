@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/FacioCode/design/compare/v2.0.2...v2.1.0) (2021-01-23)
+
+
+### Bug Fixes
+
+* **flutter:** adjust border radius triple token size, remove unused token ([68cc4c5](https://github.com/FacioCode/design/commit/68cc4c542edef9e68f800d78367b8b2aba6e8045))
+
+
+### Features
+
+* **flutter:** add new color tokens for standard/filled alerts ([f952e14](https://github.com/FacioCode/design/commit/f952e1467442154797e2a398a8747bf8640bbe5c))
+* **flutter:** add/update tokens for alerts, bottom sheets, buttons and inputs ([e6b6650](https://github.com/FacioCode/design/commit/e6b665034daa69ff9b0677d8395bbff3a9d39493))
+* **flutter:** formalize small/medium sizes, add support to color on ContainedButton ([663dac5](https://github.com/FacioCode/design/commit/663dac5e01d669a4e1bfe1e15b9ee69ca6bb17cd))
+
+
+
+## [2.0.1](https://github.com/FacioCode/design/compare/v2.0.0...v2.0.1) (2021-01-21)
+
+
+
+# 2.0.0 (2021-01-21)
+
+
+
+
+
 ## [2.0.2](https://github.com/FacioCode/design/compare/v2.0.1...v2.0.2) (2021-01-21)
 
 

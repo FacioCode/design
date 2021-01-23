@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/FacioCode/design/compare/v2.0.2...v2.1.0) (2021-01-23)
+
+
+### Features
+
+* **styles:** add new color tokens for alert, change default background color token ([991ad39](https://github.com/FacioCode/design/commit/991ad39043d073f5f102f3ed6faac953e50b5e39))
+* **styles:** add new component tokens for alert, bottom sheet, buttons and input ([d09ad52](https://github.com/FacioCode/design/commit/d09ad52ecd3ab6a9fae6cbc974094b34c5f8f8d9))
+* **styles:** add shadow tokens ([f39246c](https://github.com/FacioCode/design/commit/f39246c32fb5bf36408f361671644dfe4b18079e))
+
+
+
+## [2.0.1](https://github.com/FacioCode/design/compare/v2.0.0...v2.0.1) (2021-01-21)
+
+
+
+
+
 ## [2.0.2](https://github.com/FacioCode/design/compare/v2.0.1...v2.0.2) (2021-01-21)
 
 **Note:** Version bump only for package @faciocode/styles

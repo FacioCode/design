@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/FacioCode/design/compare/v2.0.2...v2.1.0) (2021-01-23)
+
+
+### Bug Fixes
+
+* **mui-themes:** prevent type error with MuiFormLabel override ([9bd7e2c](https://github.com/FacioCode/design/commit/9bd7e2c3e56d850c614c0e8cd02a1f6d5a8be20b))
+
+
+### Features
+
+* **mui-themes:** add default props for snackbar components ([fcd8b95](https://github.com/FacioCode/design/commit/fcd8b9556170c369dcf449395329a5cd989abb02))
+* **mui-themes:** add shadows for web: 0, 2, 4 & 6 ([fb9300c](https://github.com/FacioCode/design/commit/fb9300cf3b4ecdf7e06df2256cf08278acda3fd9))
+* **mui-themes:** add support to filled variant for `MuiAlert` ([d66e266](https://github.com/FacioCode/design/commit/d66e266387ec3eee4785fbe45ac2b08f64f5d83e))
+* **mui-themes:** improve support to active and disabled states for MuiButton ([9e374c6](https://github.com/FacioCode/design/commit/9e374c6863cab6213e9394a9865b7c8ca69fd654))
+
+
+
+## [2.0.1](https://github.com/FacioCode/design/compare/v2.0.0...v2.0.1) (2021-01-21)
+
+
+### Bug Fixes
+
+* **mui-themes:** fix Link-button font size, align and focus visible outline ([8c25e93](https://github.com/FacioCode/design/commit/8c25e931ca3842c9a6839ac6b909888be56072a9))
+
+
+
+# 2.0.0 (2021-01-21)
+
+
+
+
+
 ## [2.0.2](https://github.com/FacioCode/design/compare/v2.0.1...v2.0.2) (2021-01-21)
 
 
