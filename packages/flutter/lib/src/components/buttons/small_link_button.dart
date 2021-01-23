@@ -2,8 +2,8 @@ import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class MediumLinkButton extends StatelessWidget {
-  const MediumLinkButton({
+class SmallLinkButton extends StatelessWidget {
+  const SmallLinkButton({
     final Key key,
     @required final String title,
     @required final VoidCallback onPressed,
@@ -27,12 +27,10 @@ class MediumLinkButton extends StatelessWidget {
       key: _key,
       onPressed: _onPressed,
       highlightColor: Colors.transparent,
-      height: ButtonStyles.sizeMediumHeight,
+      height: ButtonStyles.sizeSmallHeight,
       shape: RoundedRectangleBorder(
-        borderRadius:
-            BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
+        borderRadius: BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
       ),
-      minWidth: ButtonStyles.maxWidth,
       child: Text(
         _title,
         style: _isEnabled

@@ -4,44 +4,48 @@ import 'package:flutter/widgets.dart';
 
 class MediumContainedButton extends StatelessWidget {
   const MediumContainedButton({
-    final Key key,
     @required final String title,
     final VoidCallback onPressed,
     final bool isEnabled = true,
-    final EdgeInsets padding =
-        const EdgeInsets.fromLTRB(Sizes.baseDouble, Sizes.baseNone, Sizes.baseDouble, Sizes.baseSingle),
+    final Key key,
+    final ContainedButtonColor color = ContainedButtonColor.brand,
   })  : assert(title != null),
-        assert(isEnabled != null),
-        assert(padding != null),
-        _key = key,
+        assert(color != null),
         _title = title,
-        _padding = padding,
         _onPressed = onPressed,
-        _isEnabled = isEnabled;
+        _isEnabled = isEnabled,
+        _key = key,
+        _color = color;
 
-  final Key _key;
   final String _title;
   final VoidCallback _onPressed;
   final bool _isEnabled;
-  final EdgeInsets _padding;
+  final Key _key;
+  final ContainedButtonColor _color;
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: _padding,
+    return Opacity(
+      opacity: _isEnabled ? 1 : 0.5,
       child: Container(
-        height: ButtonStyles.sizeMediumHeight,
+        height: Sizes.baseSixfold,
+        width: ButtonStyles.maxWidth,
         decoration: BoxDecoration(
-          color: ContainedButtonStyles.brandBackgroundColor,
-          borderRadius: BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
+          color: _color.backgroundColor,
+          borderRadius: BorderRadius.circular(Sizes.baseSingle),
         ),
         child: FlatButton(
           key: _key,
           onPressed: _isEnabled ? _onPressed : null,
+          highlightColor: _color.pressedBackgroundColor,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
+            borderRadius: BorderRadius.circular(Sizes.baseSingle),
           ),
-          child: Text(_title, textAlign: TextAlign.center, style: TextStyles.button),
+          child: Text(
+            _title,
+            textAlign: TextAlign.center,
+            style: TextStyles.button.copyWith(color: _color.fontColor),
+          ),
         ),
       ),
     );

@@ -1,8 +1,10 @@
-export 'components/buttons/large_contained_button.dart';
-export 'components/buttons/large_outlined_button.dart';
+export 'components/buttons/contained_button_color.dart';
 export 'components/buttons/medium_contained_button.dart';
-export 'components/buttons/medium_link_button.dart';
 export 'components/buttons/medium_outlined_button.dart';
+export 'components/buttons/medium_link_button.dart';
+export 'components/buttons/small_contained_button.dart';
+export 'components/buttons/small_link_button.dart';
+export 'components/buttons/small_outlined_button.dart';
 export 'components/canvas.dart';
 export 'components/card.dart';
 export 'components/date_field.dart';
