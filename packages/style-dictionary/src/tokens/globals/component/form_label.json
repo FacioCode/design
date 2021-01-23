@@ -1,6 +1,19 @@
 {
   "component": {
     "formLabel": {
+      "root": {
+        "comment": "Form label uses the same styles from subtitle1",
+        "color": { "value": "{component.typography.subtitle1.color.value}" },
+        "fontFamily": { "value": "{component.typography.subtitle1.fontFamily.value}" },
+        "fontSize": { "value": "{component.typography.subtitle1.fontSize.value}" },
+        "fontWeight": { "value": "{component.typography.subtitle1.fontWeight.value}" },
+        "letterSpacing": { "value": "{component.typography.subtitle1.letterSpacing.value}" },
+        "lineHeight": { "value": "{component.typography.subtitle1.lineHeight.value}" },
+        "padding": { "value": "{size.base.none.value}" }
+      },
+      "disabled": {
+        "color": { "value": "{color.font.disabled.value}" }
+      },
       "focused": {
         "color": { "value": "{color.font.link.value}" }
       }
