@@ -2,12 +2,15 @@
   "color": {
     "background": {
       "alert": {
-        "standardInfo": { "value": "{color.base.royalBlue.20.value}" },
-        "standardWarning": { "value": "{color.base.goldenrod.20.value}" }
+        "filledInfo": { "value": "{color.base.royalBlue.20.value}" },
+        "filledWarning": { "value": "{color.base.goldenrod.20.value}" },
+        "standardInfo": { "value": "{color.base.royalBlue.05.value}" },
+        "standardWarning": { "value": "{color.base.goldenrod.05.value}" }
       },
       "brand": { "value": "{color.base.primary.main.value}" },
-      "default": { "value": "{color.base.grey.10.value}" },
+      "default": { "value": "{color.base.white.value}" },
       "info": { "value": "{color.base.info.main.value}" },
+      "input": { "value": "{color.base.grey.10.value}" },
       "paper": { "value": "{color.base.grey.05.value}" },
       "selected": { "value": "{color.base.skyBlue.05.value}" }
     }
