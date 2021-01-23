@@ -1,20 +1,16 @@
+import { MuiAlert } from "./overrides/MuiAlert";
 import type { ThemeOptions } from "@material-ui/core";
 import { customProperties } from "@faciocode/styles";
 import { overrides } from "./overrides";
 import { palette } from "./palette";
 import { props } from "./props";
+import { shadows } from "./shadows";
 import { typography } from "./typography";
 
 export const themeOptions : ThemeOptions = {
   overrides: {
     ...overrides,
-    MuiAlert: {
-      icon: customProperties.alertStyles.icon,
-      message: customProperties.alertStyles.message,
-      root: customProperties.alertStyles.root,
-      standardInfo: customProperties.alertStyles.standardInfo,
-      standardWarning: customProperties.alertStyles.standardWarning,
-    },
+    MuiAlert,
     MuiAlertTitle: customProperties.alertTitleStyles,
   },
   palette,
@@ -24,6 +20,7 @@ export const themeOptions : ThemeOptions = {
     },
     ...props,
   },
+  shadows,
   typography,
 } as ThemeOptions;
 
