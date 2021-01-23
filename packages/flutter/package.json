@@ -23,5 +23,9 @@
   },
   "devDependencies": {
     "@faciocode/style-dictionary": "^2.0.1"
+  },
+  "scripts": {
+    "format": "dartfmt -w .",
+    "lint": "dart format --output=none --set-exit-if-changed ."
   }
 }
