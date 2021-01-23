@@ -1,8 +1,9 @@
 /* eslint-disable sort-keys */
 import { MuiButton } from "./MuiButton";
+import { MuiLink } from "./MuiLink";
 import type { ThemeOptions } from "@material-ui/core";
 import { customProperties } from "@faciocode/styles";
-import { MuiLink } from "./MuiLink";
+import type { CSSProperties } from "@material-ui/styles";
 
 const { placeholder } = customProperties.inputBaseStyles;
 
@@ -90,16 +91,12 @@ export const overrides : ThemeOptions["overrides"] = {
   MuiFilledInput: {
     root: customProperties.filledInputStyles.root,
   },
-
-  /**
-   * @todo Check styles for FormLabel
-   */
   MuiFormLabel: {
     root: {
-      fontSize: customProperties.typographyStyles.headline5.fontSize,
       ...customProperties.formLabelStyles.root,
       "&$focused": customProperties.formLabelStyles.focused,
-    },
+      "&$disabled": customProperties.formLabelStyles.disabled,
+    } as CSSProperties,
   },
   MuiIconButton: {
     root: {
