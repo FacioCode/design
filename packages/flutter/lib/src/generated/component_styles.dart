@@ -63,6 +63,18 @@ class AlertStyles {
   /// Line Height for Message
   static const messageLineHeight = 1.71428571429;
 
+  /// Background Color for Filled Info
+  static const filledInfoBackgroundColor = const Color(0xFFB3CCFF);
+
+  /// Color for Filled Info
+  static const filledInfoColor = const Color(0xFF424D5C);
+
+  /// Background Color for Filled Warning
+  static const filledWarningBackgroundColor = const Color(0xFFFFE6B3);
+
+  /// Color for Filled Warning
+  static const filledWarningColor = const Color(0xFF424D5C);
+
   /// Margin Left for Gutters
   static const guttersMarginLeft = 16.00;
 
@@ -73,13 +85,13 @@ class AlertStyles {
   static const standardBrandBackgroundColor = const Color(0xFF3FE1B6);
 
   /// Background Color for Standard Info
-  static const standardInfoBackgroundColor = const Color(0xFFB3CCFF);
+  static const standardInfoBackgroundColor = const Color(0xFFE3EEFF);
 
   /// Color for Standard Info
   static const standardInfoColor = const Color(0xFF424D5C);
 
   /// Background Color for Standard Warning
-  static const standardWarningBackgroundColor = const Color(0xFFFFE6B3);
+  static const standardWarningBackgroundColor = const Color(0xFFFFF4E3);
 
   /// Color for Standard Warning
   static const standardWarningColor = const Color(0xFF424D5C);
@@ -90,6 +102,34 @@ class AppBarStyles {
 
   /// Background Color for Color Default
   static const colorDefaultBackgroundColor = const Color(0xFFFAFAFA);
+}
+
+class BottomSheetStyles {
+  BottomSheetStyles._();
+
+  /// Background Color for Bottom Sheet
+  static const backgroundColor = const Color(0xFFFFFFFF);
+
+  /// Bottom for Bottom Sheet
+  static const bottom = 0.00;
+
+  /// Left for Bottom Sheet
+  static const left = 0.00;
+
+  /// Right for Bottom Sheet
+  static const right = 0.00;
+
+  /// Padding Bottom for Bottom Sheet
+  static const paddingBottom = 56.00;
+
+  /// Padding Left for Bottom Sheet
+  static const paddingLeft = 16.00;
+
+  /// Padding Right for Bottom Sheet
+  static const paddingRight = 16.00;
+
+  /// Padding Top for Bottom Sheet
+  static const paddingTop = 24.00;
 }
 
 class ButtonStyles {
@@ -111,7 +151,7 @@ class ButtonStyles {
   static const labelFontWeight = FontWeight.w600;
 
   /// Border radius for small size now uses doubleQuarter (18 logical pixels)
-  static const sizeSmallBorderRadius = 18.00;
+  static const sizeSmallBorderRadius = 27.00;
 
   /// Small button height is explicitly defined to avoid content vertical overflow
   static const sizeSmallHeight = 36.00;
@@ -319,6 +359,30 @@ class FilledInputStyles {
 
 class FormLabelStyles {
   FormLabelStyles._();
+
+  /// Color for Form Label
+  static const color = const Color(0xFF303846);
+
+  /// Font Family for Form Label
+  static const fontFamily = "Open Sans";
+
+  /// Font Size for Form Label
+  static const fontSize = 15.00;
+
+  /// Font Weight for Form Label
+  static const fontWeight = FontWeight.w600;
+
+  /// Letter Spacing for Form Label
+  static const letterSpacing = -0.23;
+
+  /// Line Height for Form Label
+  static const lineHeight = 1.6;
+
+  /// Padding for Form Label
+  static const padding = 0.00;
+
+  /// Color for Disabled
+  static const disabledColor = const Color(0xFFAFB4BB);
 
   /// Color for Focused
   static const focusedColor = const Color(0xFF05797D);
