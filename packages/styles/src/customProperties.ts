@@ -120,6 +120,36 @@ export const alertStyles = {
 
   },
 
+  filledInfo: {
+
+    /**
+     * Background Color for Alert Filled Info
+     */
+    backgroundColor: "var(--component-alert-filled-info-background-color, #b3ccff)",
+
+
+    /**
+     * Color for Alert Filled Info
+     */
+    color: "var(--component-alert-filled-info-color, #424d5c)",
+
+  },
+
+  filledWarning: {
+
+    /**
+     * Background Color for Alert Filled Warning
+     */
+    backgroundColor: "var(--component-alert-filled-warning-background-color, #ffe6b3)",
+
+
+    /**
+     * Color for Alert Filled Warning
+     */
+    color: "var(--component-alert-filled-warning-color, #424d5c)",
+
+  },
+
   gutters: {
 
     /**
@@ -149,7 +179,7 @@ export const alertStyles = {
     /**
      * Background Color for Alert Standard Info
      */
-    backgroundColor: "var(--component-alert-standard-info-background-color, #b3ccff)",
+    backgroundColor: "var(--component-alert-standard-info-background-color, #e3eeff)",
 
 
     /**
@@ -164,7 +194,7 @@ export const alertStyles = {
     /**
      * Background Color for Alert Standard Warning
      */
-    backgroundColor: "var(--component-alert-standard-warning-background-color, #ffe6b3)",
+    backgroundColor: "var(--component-alert-standard-warning-background-color, #fff4e3)",
 
 
     /**
@@ -193,6 +223,61 @@ export const appBarStyles = {
      * Specific AppBar height for web
      */
     height: "var(--component-app-bar-root-height, 56px)",
+
+  },
+
+};
+
+export const bottomSheetStyles = {
+
+  root: {
+
+    /**
+     * Background Color for Bottom Sheet Root
+     */
+    backgroundColor: "var(--component-bottom-sheet-root-background-color, #ffffff)",
+
+
+    /**
+     * Bottom for Bottom Sheet Root
+     */
+    bottom: "var(--component-bottom-sheet-root-bottom, 0px)",
+
+
+    /**
+     * Left for Bottom Sheet Root
+     */
+    left: "var(--component-bottom-sheet-root-left, 0px)",
+
+
+    /**
+     * Right for Bottom Sheet Root
+     */
+    right: "var(--component-bottom-sheet-root-right, 0px)",
+
+
+    /**
+     * Padding Bottom for Bottom Sheet Root
+     */
+    paddingBottom: "var(--component-bottom-sheet-root-padding-bottom, 56px)",
+
+
+    /**
+     * Padding Left for Bottom Sheet Root
+     */
+    paddingLeft: "var(--component-bottom-sheet-root-padding-left, 16px)",
+
+
+    /**
+     * Padding Right for Bottom Sheet Root
+     */
+    paddingRight: "var(--component-bottom-sheet-root-padding-right, 16px)",
+
+
+    /**
+     * Padding Top for Bottom Sheet Root
+     */
+    paddingTop: "var(--component-bottom-sheet-root-padding-top, 24px)",
 
   },
 
@@ -598,7 +683,7 @@ export const containedButtonStyles = {
     /**
      * Box Shadow for Contained Button Focus Visible
      */
-    boxShadow: "var(--component-contained-button-focus-visible-box-shadow, 0 0 0 3px #3fbbe1)",
+    boxShadow: "var(--component-contained-button-focus-visible-box-shadow, 0px 0px 0px 3px #3fbbe1)",
 
   },
 
@@ -652,7 +737,7 @@ export const containedButtonStyles = {
     /**
      * Box Shadow for Contained Button Hover
      */
-    boxShadow: "var(--component-contained-button-hover-box-shadow, 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24))",
+    boxShadow: "var(--component-contained-button-hover-box-shadow, 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24))",
 
   },
 
@@ -716,27 +801,66 @@ export const filledInputStyles = {
 
 export const formLabelStyles = {
 
-  focused: {
+  root: {
 
     /**
-     * Color for Form Label Focused
+     * Color for Form Label Root
      */
-    color: "var(--component-form-label-focused-color, #05797d)",
+    color: "var(--component-form-label-root-color, #303846)",
 
-  },
 
-  root: {
+    /**
+     * Font Family for Form Label Root
+     */
+    fontFamily: "var(--component-form-label-root-font-family, Open Sans, sans-serif)",
+
+
+    /**
+     * Font Size for Form Label Root
+     */
+    fontSize: "var(--component-form-label-root-font-size, 1rem)",
+
+
+    /**
+     * Font Weight for Form Label Root
+     */
+    fontWeight: "var(--component-form-label-root-font-weight, 600)",
+
+
+    /**
+     * Letter Spacing for Form Label Root
+     */
+    letterSpacing: "var(--component-form-label-root-letter-spacing, 0px)",
+
 
     /**
      * Line Height for Form Label Root
      */
-    lineHeight: "var(--component-form-label-root-line-height, 1em)",
+    lineHeight: "var(--component-form-label-root-line-height, 1.5em)",
 
 
     /**
      * Padding for Form Label Root
      */
     padding: "var(--component-form-label-root-padding, 0px)",
+
+  },
+
+  disabled: {
+
+    /**
+     * Color for Form Label Disabled
+     */
+    color: "var(--component-form-label-disabled-color, #afb4bb)",
+
+  },
+
+  focused: {
+
+    /**
+     * Color for Form Label Focused
+     */
+    color: "var(--component-form-label-focused-color, #05797d)",
 
   },
 
@@ -761,7 +885,7 @@ export const iconButtonStyles = {
     /**
      * Box Shadow for Icon Button Root
      */
-    boxShadow: "var(--component-icon-button-root-box-shadow, 0 0 0 0 rgba(0, 0, 0, 0))",
+    boxShadow: "var(--component-icon-button-root-box-shadow, none)",
 
   },
 
@@ -785,7 +909,7 @@ export const iconButtonStyles = {
     /**
      * Box Shadow for Icon Button Focus Visible
      */
-    boxShadow: "var(--component-icon-button-focus-visible-box-shadow, 0 0 0 3px #53e2fe)",
+    boxShadow: "var(--component-icon-button-focus-visible-box-shadow, 0px 0px 0px 3px #53e2fe)",
 
   },
 
@@ -830,7 +954,7 @@ export const iconButtonStyles = {
     /**
      * Box Shadow for Icon Button Pressed
      */
-    boxShadow: "var(--component-icon-button-pressed-box-shadow, 0 0 0 0 rgba(0, 0, 0, 0))",
+    boxShadow: "var(--component-icon-button-pressed-box-shadow, none)",
 
   },
 
@@ -1022,7 +1146,7 @@ export const linkButtonStyles = {
     /**
      * Box Shadow for Link Button Focus Visible
      */
-    boxShadow: "var(--component-link-button-focus-visible-box-shadow, 0 0 0 3px #53e2fe)",
+    boxShadow: "var(--component-link-button-focus-visible-box-shadow, 0px 0px 0px 3px #53e2fe)",
 
   },
 
@@ -1122,7 +1246,7 @@ export const outlinedButtonStyles = {
     /**
      * Box Shadow for Outlined Button Focus Visible
      */
-    boxShadow: "var(--component-outlined-button-focus-visible-box-shadow, 0 0 0 3px #53e2fe)",
+    boxShadow: "var(--component-outlined-button-focus-visible-box-shadow, 0px 0px 0px 3px #53e2fe)",
 
   },
 
@@ -1758,7 +1882,7 @@ export const baselineStyles = {
     /**
      * Background Color for Baseline Backdrop
      */
-    backgroundColor: "var(--component-baseline-backdrop-background-color, #f2f2f3)",
+    backgroundColor: "var(--component-baseline-backdrop-background-color, #ffffff)",
 
   },
 
@@ -1767,7 +1891,7 @@ export const baselineStyles = {
     /**
      * Background Color for Baseline Body
      */
-    backgroundColor: "var(--component-baseline-body-background-color, #f2f2f3)",
+    backgroundColor: "var(--component-baseline-body-background-color, #ffffff)",
 
 
     /**
