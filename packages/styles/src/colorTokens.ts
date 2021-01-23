@@ -1,8 +1,11 @@
-export const backgroundAlertStandardInfo = "#b3ccff";
-export const backgroundAlertStandardWarning = "#ffe6b3";
+export const backgroundAlertFilledInfo = "#b3ccff";
+export const backgroundAlertFilledWarning = "#ffe6b3";
+export const backgroundAlertStandardInfo = "#e3eeff";
+export const backgroundAlertStandardWarning = "#fff4e3";
 export const backgroundBrand = "#3fe1b6";
-export const backgroundDefault = "#f2f2f3";
+export const backgroundDefault = "#ffffff";
 export const backgroundInfo = "#066089";
+export const backgroundInput = "#f2f2f3";
 export const backgroundPaper = "#fafafa";
 export const backgroundSelected = "#e3fcff";
 export const baseErrorMain = "#c42b47";
