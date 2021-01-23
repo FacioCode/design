@@ -4,6 +4,7 @@ export {
   AlertTitle,
   AlertTitleProps,
 } from "./Alert";
+export { BottomSheet, BottomSheetProps } from "./BottomSheet";
 export {
   ContainedButton,
   ContainedButtonProps,
@@ -36,6 +37,7 @@ export { Input, InputProps } from "./Input";
 export { InputBase, InputBaseProps } from "./InputBase";
 export { Link, LinkProps } from "./Link";
 export { Paper, PaperProps } from "./Paper";
+export { Snackbar, SnackbarProps } from "./Snackbar";
 export {
   Table,
   TableBody,
