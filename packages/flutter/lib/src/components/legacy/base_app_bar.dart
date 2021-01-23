@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:facio_design_system/components.dart';
-import 'package:facio_design_system/src/components/buttons/medium_link_button.dart';
+import 'package:facio_design_system/src/components/buttons/small_link_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -69,7 +69,10 @@ class BaseAppBar extends AppBar {
           ),
         );
       } else {
-        actions.add(MediumLinkButton(onPressed: barButton.onPressed, title: barButton.title, key: barButton.key));
+        actions.add(SmallLinkButton(
+            onPressed: barButton.onPressed,
+            title: barButton.title,
+            key: barButton.key));
       }
     }
     return actions;

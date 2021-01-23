@@ -30,7 +30,10 @@ class FDSGradientButton extends StatelessWidget {
           gradient: const LinearGradient(
             begin: Alignment.bottomLeft,
             end: Alignment.topRight,
-            colors: <Color>[ColorPalette.baseAquamarine50, ColorPalette.baseAquamarine60],
+            colors: <Color>[
+              ColorPalette.baseAquamarine50,
+              ColorPalette.baseAquamarine60
+            ],
           ),
           borderRadius: BorderRadius.circular(8.0),
         ),
@@ -43,7 +46,8 @@ class FDSGradientButton extends StatelessWidget {
           child: Text(
             _title,
             textAlign: TextAlign.center,
-            style: TextStyles.button.copyWith(height: 1.25, fontWeight: FontWeight.w700),
+            style: TextStyles.button
+                .copyWith(height: 1.25, fontWeight: FontWeight.w700),
           ),
         ),
       ),
