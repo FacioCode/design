@@ -4,6 +4,11 @@ import { CSSProperties } from "@material-ui/styles";
 import { customProperties } from "@faciocode/styles";
 
 export const MuiButton = {
+  colorInherit: {
+    "&:active": {
+      color: "inherit",
+    },
+  },
   contained: {
     ...customProperties.containedButtonStyles.root,
     ...customProperties.containedButtonStyles.default,
@@ -70,7 +75,12 @@ export const MuiButton = {
       ...customProperties.linkButtonStyles.pressed,
       textDecoration: "none",
     },
-    "&$disabled": customProperties.linkButtonStyles.disabled,
+    "&$disabled": {
+      ...customProperties.linkButtonStyles.disabled,
+      "&:hover": {
+        textDecoration: "none",
+      },
+    },
   },
   textPrimary: customProperties.linkButtonStyles.default,
   textSizeSmall: customProperties.buttonStyles.sizeSmall,
