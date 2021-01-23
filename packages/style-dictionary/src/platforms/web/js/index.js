@@ -30,6 +30,14 @@ const webJsPlatform = {
       },
     },
     {
+      destination: "shadowTokens.ts",
+      filter: ({ attributes }) => attributes.category === "shadow",
+      format: "javascript/es6",
+      options: {
+        showFileHeader: false,
+      },
+    },
+    {
       destination: "sizeTokens.ts",
       filter: ({ attributes }) => attributes.category === "size" && attributes.type === "base",
       format: "javascript/es6",
