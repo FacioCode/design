@@ -2,14 +2,14 @@
   "size": {
     "border": {
       "radius": {
-        "double": { "value": "{size.base.triple.value}" },
-        "doubleQuarter": {
-          "comment": "TODO: check if value will work for Flutter",
-          "value": "{size.base.doubleQuarter.value}"
-        },
-        "triple": {
-          "comment": "TODO: check if triple value works for Flutter medium button",
+        "comment": "This is a workaround to make border radius work properly in Flutter",
+        "double": {
+          "comment": "16.00 logical pixels * 1.5 = 24.00",
           "value": "{size.base.triple.value}"
+        },
+        "doubleQuarter": {
+          "comment": "18.00 logical pixels * 1.5 = 27.00",
+          "value": "27.00"
         }
       }
     }
