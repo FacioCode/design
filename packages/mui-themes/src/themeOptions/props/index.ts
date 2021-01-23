@@ -14,6 +14,10 @@ const MuiInputLabel = {
   shrink: true,
 };
 
+const MuiSnackbarContent = {
+  elevation: 4,
+};
+
 export const props : ComponentsProps = {
   MuiButton: {
     ...MuiButtonBase,
@@ -48,6 +52,10 @@ export const props : ComponentsProps = {
     elevation: 0,
     square: true,
   },
+  MuiSnackbar: {
+    ContentProps: MuiSnackbarContent,
+  },
+  MuiSnackbarContent,
   MuiTextField: {
     InputLabelProps: MuiInputLabel,
     InputProps: MuiInput,
