@@ -27,10 +27,9 @@ class Sizes {
   static const baseThirtyOneFold = 248.00;
   static const baseTriple = 24.00;
   static const borderRadiusDouble = 24.00;
-  static const borderRadiusDoubleQuarter = 18.00;
+  static const borderRadiusDoubleQuarter = 27.00;
   static const borderRadiusNone = 0.00;
   static const borderRadiusSingle = 8.00;
-  static const borderRadiusTriple = 24.00;
   static const borderWidthDouble = 2.00;
   static const borderWidthNone = 0.00;
   static const borderWidthSingle = 1.00;
