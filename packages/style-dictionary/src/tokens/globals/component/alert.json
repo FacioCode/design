@@ -18,6 +18,14 @@
         "letterSpacing": { "value": "{component.typography.bodyText2.letterSpacing.value}" },
         "lineHeight": { "value": "{component.typography.bodyText2.lineHeight.value}" }
       },
+      "filledInfo": {
+        "backgroundColor": { "value": "{color.background.alert.filledInfo.value}" },
+        "color": { "value": "{color.font.primary.value}" }
+      },
+      "filledWarning": {
+        "backgroundColor": { "value": "{color.background.alert.filledWarning.value}" },
+        "color": { "value": "{color.font.primary.value}" }
+      },
       "gutters": {
         "comment": "This class key does not exists on Material UI, implemented by @faciocode/react",
         "marginLeft": { "value": "{size.base.double.value}" },
