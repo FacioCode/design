@@ -2,7 +2,7 @@
   "component": {
     "outlinedButton": {
       "focusVisible": {
-        "boxShadow": { "value": "{shadow.linkButtonFocusVisible.value}" }
+        "boxShadow": { "value": "{shadow.focusVisible.button.value}" }
       }
     }
   }

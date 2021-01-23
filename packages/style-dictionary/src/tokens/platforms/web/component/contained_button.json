@@ -2,10 +2,12 @@
   "component": {
     "containedButton": {
       "focusVisible": {
-        "boxShadow": { "value": "{shadow.containedButtonFocusVisible.value}" }
+        "comment": "Must be different from hover box shadow",
+        "boxShadow": { "value": "{shadow.focusVisible.containedButton.value}" }
       },
       "hover": {
-        "boxShadow": { "value": "{shadow.containedButtonHover.value}" }
+        "comment": "Must be different from focusVisible box shadow",
+        "boxShadow": { "value": "{shadow.elevation.02.value}" }
       }
     }
   }

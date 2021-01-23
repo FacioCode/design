@@ -2,13 +2,13 @@
   "component": {
     "iconButton": {
       "root": {
-        "boxShadow": { "value": "{shadow.none.value}" }
+        "boxShadow": { "value": "{shadow.elevation.00.value}" }
       },
       "focusVisible": {
-        "boxShadow": { "value": "{shadow.linkButtonFocusVisible.value}" }
+        "boxShadow": { "value": "{shadow.focusVisible.button.value}" }
       },
       "pressed": {
-        "boxShadow": { "value": "{shadow.none.value}" }
+        "boxShadow": { "value": "{shadow.elevation.00.value}" }
       }
     }
   }

@@ -1,18 +1,32 @@
 {
   "shadow": {
-    "none": {
-      "value": "0 0 0 0 rgba(0, 0, 0, 0)"
+    "comment": "Format: offset-x | offset-y | blur-radius | spread-radius | color",
+    "elevation": {
+      "00": {
+        "value": "none"
+      },
+      "02": {
+        "comment": "Elevation for contained button on hover state",
+        "value": "0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)"
+      },
+      "04": {
+        "comment": "Elevation for snackbar content.",
+        "value": "0px 2px 4px 0px rgba(0, 0, 0, 0.2)"
+      },
+      "06": {
+        "comment": "Elevation for bottom sheet.",
+        "value": "0px 2px 5px 0px rgba(0, 0, 0, 0.25)"
+      }
     },
-    "containedButtonHover": {
-      "value": "0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)"
-    },
-    "containedButtonFocusVisible": {
-      "comment": "Uses color.base.skyblue.50",
-      "value": "0 0 0 3px #3fbbe1"
-    },
-    "linkButtonFocusVisible": {
-      "comment": "Uses color.base.skyblue.40",
-      "value": "0 0 0 3px #53e2fe"
+    "focusVisible": {
+      "button": {
+        "comment": "Uses color.base.skyblue.40",
+        "value": "0px 0px 0px 3px #53e2fe"
+      },
+      "containedButton": {
+        "comment": "Uses color.base.skyblue.50",
+        "value": "0px 0px 0px 3px #3fbbe1"
+      }
     }
   }
 }
