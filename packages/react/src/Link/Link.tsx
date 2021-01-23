@@ -11,7 +11,6 @@ const render : Render = (props, ref) => {
   const colorMapping : ColorMapping = {
     default: "inherit",
     inherit: "inherit",
-    initial: "initial",
   };
   let mappedColor : MaterialLinkColor = "inherit";
 

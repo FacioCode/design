@@ -1,2 +1,2 @@
 export { Link } from "./Link";
-export { LinkProps } from "./Link.types";
+export { LinkColor, LinkProps } from "./Link.types";
