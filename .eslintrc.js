@@ -29,7 +29,7 @@ module.exports = {
       rules: {
         "eol-last": "off",
         "line-comment-position": "off",
-        "max-len": ["error", 137],
+        "max-len": ["error", 145],
         "no-inline-comments": "off",
       },
     },
