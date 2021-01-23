@@ -2,7 +2,7 @@
   "component": {
     "filledInput": {
       "root": {
-        "backgroundColor": { "value": "{color.background.default.value}" },
+        "backgroundColor": { "value": "{color.background.input.value}" },
         "borderBottomLeftRadius": { "value": "{size.border.radius.single.value}" },
         "borderBottomRightRadius": { "value": "{size.border.radius.single.value}" },
         "borderRadius": {
