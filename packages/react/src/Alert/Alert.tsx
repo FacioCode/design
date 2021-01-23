@@ -7,7 +7,7 @@ import useStyles from "./Alert.styles";
 type Render = (props: AlertProps, ref: AlertProps["ref"]) => JSX.Element;
 
 const render : Render = (props, ref) => {
-  const { className, color, gutters, ...otherProps } = props;
+  const { className, color, elevation, gutters, ...otherProps } = props;
 
   const { gutters: guttersClassName } = useStyles();
 
@@ -17,9 +17,12 @@ const render : Render = (props, ref) => {
     className,
   });
 
+  const elevationValue = 4;
+
   return <MaterialAlert
     className={classNames}
     color={color}
+    elevation={elevation && elevationValue}
     ref={ref}
     severity={color}
     {...otherProps}
