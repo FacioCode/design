@@ -79,13 +79,21 @@ export const overrides : ThemeOptions["overrides"] = {
   MuiDialogContentText: {
     root: {
       ...customProperties.dialogStyles.contentText,
-      textAlign: "center",
+
+      /**
+       * Prevents dialog content text to be center-aligned
+       */
+      textAlign: "left",
     },
   },
   MuiDialogTitle: {
     root: {
       ...customProperties.dialogStyles.title,
-      textAlign: "center",
+
+      /**
+       * Prevents dialog title to be center-aligned
+       */
+      textAlign: "left",
     },
   },
   MuiFilledInput: {
