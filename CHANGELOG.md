@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/FacioCode/design/compare/v2.1.0...v2.1.1) (2021-01-24)
+
+
+### Bug Fixes
+
+* **mui-themes:** change Dialog content and title alignment to left ([1c12b4c](https://github.com/FacioCode/design/commit/1c12b4c9357ed074a1aa60ad210b9df876002cf7))
+* **mui-themes:** remove invalid props from `MuiChip` ([0ab224b](https://github.com/FacioCode/design/commit/0ab224b46befefae485c2517f78d5822a16bd63a))
+* **react:** prevent using ripple props on `Chip` ([b238e6b](https://github.com/FacioCode/design/commit/b238e6b1f57b32b946cd8d92d1fdb453d168719d))
+* **react:** remove invalid `xmlns:xlink` prop from `WhatsAppIcon` ([ac67336](https://github.com/FacioCode/design/commit/ac67336bee40e64a3ceaf7197a2e289e5de91d0b))
+
+
+
+
+
 # [2.1.0](https://github.com/FacioCode/design/compare/v2.0.2...v2.1.0) (2021-01-23)
 
 
