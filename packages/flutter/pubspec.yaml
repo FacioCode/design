@@ -9,7 +9,7 @@ documentation: https://github.com/FacioCode/design/tree/main/packages/flutter#re
 
 environment:
   sdk: ">=2.10.4 <3.0.0"
-  flutter: ">=1.22.4 <2.0.0"
+  flutter: ">=1.22.5 <2.0.0"
 
 dependencies:
   flutter:
@@ -21,35 +21,40 @@ dev_dependencies:
     sdk: flutter
   pedantic: ^1.9.2
 
-# The following section is specific to Flutter.
 flutter:
   assets:
+    - assets/icons/
     - assets/images/
   fonts:
-    - family: Open Sans
+    - family: "Open Sans"
       fonts:
-        - asset: assets/fonts/OpenSans-Light.ttf
-          weight: 300
-        - asset: assets/fonts/OpenSans-LightItalic.ttf
-          weight: 300
-          style: italic
-        - asset: assets/fonts/OpenSans-Regular.ttf
-          weight: 400
-        - asset: assets/fonts/OpenSans-RegularItalic.ttf
-          weight: 400
-          style: italic
-        - asset: assets/fonts/OpenSans-SemiBold.ttf
-          weight: 600
-        - asset: assets/fonts/OpenSans-SemiBoldItalic.ttf
-          weight: 600
-          style: italic
-        - asset: assets/fonts/OpenSans-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/OpenSans-BoldItalic.ttf
-          weight: 700
-          style: italic
-        - asset: assets/fonts/OpenSans-ExtraBold.ttf
-          weight: 800
-        - asset: assets/fonts/OpenSans-ExtraBoldItalic.ttf
-          weight: 800
-          style: italic
+        - asset: "assets/fonts/OpenSans-Light.ttf"
+          style: "normal"
+          weight: "300"
+        - asset: "assets/fonts/OpenSans-LightItalic.ttf"
+          style: "italic"
+          weight: "300"
+        - asset: "assets/font/OpenSans-Regular.ttf"
+          style: "normal"
+          weight: "400"
+        - asset: "assets/font/OpenSans-RegularItalic.ttf"
+          style: "italic"
+          weight: "400"
+        - asset: "assets/font/OpenSans-SemiBold.ttf"
+          style: "normal"
+          weight: "600"
+        - asset: "assets/font/OpenSans-SemiBoldItalic.ttf"
+          style: "italic"
+          weight: "600"
+        - asset: "assets/font/OpenSans-Bold.ttf"
+          style: "normal"
+          weight: "700"
+        - asset: "assets/font/OpenSans-BoldItalic.ttf"
+          style: "italic"
+          weight: "700"
+        - asset: "assets/font/OpenSans-ExtraBold.ttf"
+          style: "normal"
+          weight: "800"
+        - asset: "assets/font/OpenSans-ExtraBoldItalic.ttf"
+          style: "italic"
+          weight: "800"
