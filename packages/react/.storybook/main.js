@@ -9,6 +9,9 @@ module.exports = {
     },
     {
       name: "@storybook/addon-backgrounds"
+    },
+    {
+      name: "@storybook/addon-viewport"
     }
   ],
   stories: [
