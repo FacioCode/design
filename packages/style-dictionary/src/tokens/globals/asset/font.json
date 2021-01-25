@@ -1,13 +1,58 @@
 {
   "asset": {
     "font": {
-      "icon": {
-        "name": { "value": "FacioIcons" },
-        "ttf": { "value": "assets/fonts/FacioIcons.ttf" }
-      },
       "openSans": {
         "name": { "value": "Open Sans" },
-        "ttf": { "value": "assets/fonts/OpenSans-Regular.ttf" }
+        "light": {
+          "style": { "value": "normal" },
+          "ttf": { "value": "assets/fonts/OpenSans-Light.ttf" },
+          "weight": { "value": 300 }
+        },
+        "lightItalic": {
+          "style": { "value": "italic" },
+          "ttf": { "value": "assets/fonts/OpenSans-LightItalic.ttf" },
+          "weight": { "value": 300 }
+        },
+        "regular": {
+          "style": { "value": "normal" },
+          "ttf": { "value": "assets/font/OpenSans-Regular.ttf" },
+          "weight": { "value": 400 }
+        },
+        "regularItalic": {
+          "style": { "value": "italic" },
+          "ttf": { "value": "assets/font/OpenSans-RegularItalic.ttf" },
+          "weight": { "value": 400 }
+        },
+        "semiBold": {
+          "style": { "value": "normal" },
+          "ttf": { "value": "assets/font/OpenSans-SemiBold.ttf" },
+          "weight": { "value": 600 }
+        },
+        "semiBoldItalic": {
+          "style": { "value": "italic" },
+          "ttf": { "value": "assets/font/OpenSans-SemiBoldItalic.ttf" },
+          "weight": { "value": 600 }
+        },
+        "bold": {
+          "style": { "value": "normal" },
+          "ttf": { "value": "assets/font/OpenSans-Bold.ttf" },
+          "weight": { "value": 700 }
+        },
+        "boldItalic": {
+          "style": { "value": "italic" },
+          "ttf": { "value": "assets/font/OpenSans-BoldItalic.ttf" },
+          "weight": { "value": 700 }
+        },
+        "extraBold": {
+          "style": { "value": "normal" },
+          "ttf": { "value": "assets/font/OpenSans-ExtraBold.ttf" },
+          "weight": { "value": 800 }
+        },
+        "extraBoldItalic": {
+          "style": { "value": "italic" },
+          "ttf": { "value": "assets/font/OpenSans-ExtraBoldItalic.ttf" },
+          "weight": { "value": 800 }
+        }
       }
     }
   }
