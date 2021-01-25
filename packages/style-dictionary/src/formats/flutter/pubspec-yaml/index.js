@@ -1,12 +1,20 @@
 /* eslint-disable @typescript-eslint/no-var-requires,no-sync */
-const Handlebars = require("handlebars");
 const fs = require("fs");
-const templateFile = fs.readFileSync("./src/templates/flutter/pubspec_yaml");
-const template = Handlebars.compile(templateFile.toString());
+const { template: lodashTemplate } = require("lodash");
 
-const pubspecYamlFormatter = (dictionary, { metadata }) => template({
-  ...metadata,
-});
+const pubspecYamlFormatter = (dictionary, { metadata }) => {
+  const templateFile = fs.readFileSync("./src/templates/flutter/pubspec_yaml");
+  const templateContent = templateFile.toString();
+  const compiled = lodashTemplate(templateContent);
+  const { font } = dictionary.properties.asset;
+
+  console.log(font);
+
+  return compiled({
+    font,
+    metadata,
+  });
+};
 
 module.exports = {
   formatter: pubspecYamlFormatter,

@@ -1,15 +1,15 @@
 ---
-name: {{packageName}}
-description: {{description}}
-version: {{version}}
-homepage: {{homepage}}
-repository: {{repository}}
-issue_tracker: {{issueTracker}}
-documentation: {{documentation}}
+name: <%= metadata.packageName %>
+description: <%= metadata.description %>
+version: <%= metadata.version %>
+homepage: <%= metadata.homepage %>
+repository: <%= metadata.repository %>
+issue_tracker: <%= metadata.issueTracker %>
+documentation: <%= metadata.documentation %>
 
 environment:
   sdk: ">=2.10.4 <3.0.0"
-  flutter: ">=1.22.4 <2.0.0"
+  flutter: ">=1.22.5 <2.0.0"
 
 dependencies:
   flutter:
@@ -21,35 +21,20 @@ dev_dependencies:
     sdk: flutter
   pedantic: ^1.9.2
 
-# The following section is specific to Flutter.
 flutter:
   assets:
+    - assets/icons/
     - assets/images/
-  fonts:
-    - family: Open Sans
-      fonts:
-        - asset: assets/fonts/OpenSans-Light.ttf
-          weight: 300
-        - asset: assets/fonts/OpenSans-LightItalic.ttf
-          weight: 300
-          style: italic
-        - asset: assets/fonts/OpenSans-Regular.ttf
-          weight: 400
-        - asset: assets/fonts/OpenSans-RegularItalic.ttf
-          weight: 400
-          style: italic
-        - asset: assets/fonts/OpenSans-SemiBold.ttf
-          weight: 600
-        - asset: assets/fonts/OpenSans-SemiBoldItalic.ttf
-          weight: 600
-          style: italic
-        - asset: assets/fonts/OpenSans-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/OpenSans-BoldItalic.ttf
-          weight: 700
-          style: italic
-        - asset: assets/fonts/OpenSans-ExtraBold.ttf
-          weight: 800
-        - asset: assets/fonts/OpenSans-ExtraBoldItalic.ttf
-          weight: 800
-          style: italic
+  fonts:<%
+_.forEach(font, (fontFamily) => { %>
+    - family: <%= fontFamily.name.value %>
+      fonts:<%
+_.forEach(Object.keys(fontFamily), (fontStyle) => {
+const { style, ttf, weight } = fontFamily[fontStyle];
+if(typeof ttf === "undefined") { return null; }
+%>
+        - asset: <%= ttf && ttf.value %>
+          style: <%= style && style.value %>
+          weight: <%= weight && weight.value %><%
+}) // end forEach fontStyle
+}) // end forEach fontFamily %>
