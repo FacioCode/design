@@ -5,6 +5,7 @@
       "approval": { "value": "assets/icons/approval.svg" },
       "arrowRight": { "value": "assets/icons/arrow-right.svg" },
       "arrowUp": { "value": "assets/icons/arrow-up.svg" },
+      "bigPig": { "value": "assets/icons/big-pig.svg" },
       "calendar": { "value": "assets/icons/calendar.svg" },
       "close": { "value": "assets/icons/close.svg" },
       "contract": { "value": "assets/icons/contract.svg" },
@@ -41,6 +42,7 @@
         "comment": "Poupe Facio",
         "value": "assets/icons/pig.svg"
       },
+      "play": { "value": "assets/icons/play.svg" },
       "received": {
         "comment": "Crédito consignado",
         "value": "assets/icons/received.svg"
