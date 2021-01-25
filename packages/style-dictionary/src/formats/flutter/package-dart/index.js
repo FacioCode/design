@@ -1,12 +1,15 @@
 /* eslint-disable @typescript-eslint/no-var-requires,no-sync */
-const Handlebars = require("handlebars");
 const fs = require("fs");
-const templateFile = fs.readFileSync("./src/templates/flutter/package");
-const template = Handlebars.compile(templateFile.toString());
+const { template: lodashTemplate } = require("lodash");
 
-const packageDartFormatter = (dictionary, { metadata }) => template({
-  ...metadata,
-});
+const packageDartFormatter = () => {
+  const templateFile = fs.readFileSync("./src/templates/flutter/package");
+  const templateContent = templateFile.toString();
+  const compiled = lodashTemplate(templateContent);
+
+
+  return compiled();
+};
 
 module.exports = {
   formatter: packageDartFormatter,
