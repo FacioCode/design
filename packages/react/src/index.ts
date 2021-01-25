@@ -4,6 +4,7 @@ export {
   AlertTitle,
   AlertTitleProps,
 } from "./Alert";
+export { AppBar, AppBarProps } from "./AppBar";
 export { BottomSheet, BottomSheetProps } from "./BottomSheet";
 export {
   ContainedButton,
