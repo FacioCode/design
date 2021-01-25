@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>app</title>
+    <g id="app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16,3 L8,3 C7.44771525,3 7,3.44771525 7,4 L7,20 C7,20.5522847 7.44771525,21 8,21 L16,21 C16.5522847,21 17,20.5522847 17,20 L17,4 C17,3.44771525 16.5522847,3 16,3 Z M16,4 L16,20 L8,20 L8,4 L16,4 Z M12,17 C12.5522847,17 13,17.4477153 13,18 C13,18.5522847 12.5522847,19 12,19 C11.4477153,19 11,18.5522847 11,18 C11,17.4477153 11.4477153,17 12,17 Z" id="Rectangle" fill="#303846"></path>
+    </g>
+</svg>
