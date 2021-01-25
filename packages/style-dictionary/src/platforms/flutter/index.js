@@ -8,6 +8,8 @@ const {
   version,
 } = require("../../../../flutter/package.json");
 
+const path = require("path");
+
 const colorPalette = require("./colorPalette");
 const sizes = require("./sizes");
 const textTheme = require("./textTheme");
@@ -15,7 +17,8 @@ const textTheme = require("./textTheme");
 const generatedFilesPath = "lib/src/generated";
 
 const flutter = {
-  buildPath: "../flutter/",
+  actions: ["copy_assets"],
+  buildPath: path.join(__dirname, "..", "..", "..", "..", "flutter").concat("/"),
   files: [
     {
       destination: "pubspec.yaml",
