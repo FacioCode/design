@@ -33,6 +33,11 @@ export type VariantMapping = Record<TypographyVariant, MaterialTypographyVariant
 export type OmittedProps = "color" | "css" | "variant" | "variantMapping";
 export interface TypographyProps extends Omit<MaterialTypographyProps, OmittedProps> {
 
+  /**
+   * @default "textPrimary"
+   * @optional
+   * @type "error" | "inherit" | "textPrimary" | "initial" | "inverse"
+   */
   color?: TypographyColor;
 
   /**
@@ -40,6 +45,13 @@ export interface TypographyProps extends Omit<MaterialTypographyProps, OmittedPr
    * @type element
    */
   component?: React.ElementType;
+
+  /**
+   * @default false
+   * @optional
+   * @type boolean
+   */
+  flexGrow?: boolean;
 
   /**
    * Applies the theme typography styles.

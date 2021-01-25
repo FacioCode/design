@@ -18,8 +18,9 @@ const defaultComponent : TypographyProps["component"] = "span";
 const render: Render = (props, ref) => {
   const {
     className,
-    color,
+    color = "textPrimary",
     component,
+    flexGrow: flexGrowProp,
     paragraph,
     variant = "bodyText1",
     ...otherProps
@@ -42,10 +43,11 @@ const render: Render = (props, ref) => {
     return defaultComponent;
   };
 
-  const { colorInverse } = useStyles();
+  const { colorInverse, flexGrow } = useStyles();
 
   const classNames = {
     [colorInverse]: color === "inverse",
+    [flexGrow]: flexGrowProp === true,
     // eslint-disable-next-line sort-keys
     className,
   };
