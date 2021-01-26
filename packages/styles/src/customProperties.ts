@@ -217,21 +217,12 @@ export const appBarStyles = {
 
   },
 
-  toolbar: {
+  regularToolbar: {
 
     /**
      * Specific AppBar height for web
      */
-    height: "var(--component-app-bar-toolbar-height, 56px)",
-
-  },
-
-  colorTransparent: {
-
-    /**
-     * Color for App Bar Color Transparent
-     */
-    color: "var(--component-app-bar-color-transparent-color, rgba(255, 255, 255, 0))",
+    minHeight: "var(--component-app-bar-regular-toolbar-min-height, 56px)",
 
   },
 
