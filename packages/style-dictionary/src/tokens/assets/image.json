@@ -1,0 +1,10 @@
+{
+  "asset": {
+    "image": {
+      "logo": { "value": "assets/images/logo.svg" },
+      "logo57w": { "value": "assets/images/logo-57w.png" },
+      "logoDark": { "value": "assets/images/logo-dark.svg" },
+      "logoLight": { "value": "assets/images/logo-light.svg" }
+    }
+  }
+}
