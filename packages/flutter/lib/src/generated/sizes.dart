@@ -15,6 +15,7 @@ class Sizes {
   static const baseFocus = 3.00;
   static const baseHalf = 4.00;
   static const baseHalfQuarter = 6.00;
+  static const baseNinefold = 72.00;
   static const baseNone = 0.00;
   static const baseOne = 1.00;
   static const baseQuadruple = 32.00;
