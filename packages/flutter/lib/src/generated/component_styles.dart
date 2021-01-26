@@ -101,7 +101,10 @@ class AppBarStyles {
   AppBarStyles._();
 
   /// Background Color for Color Default
-  static const colorDefaultBackgroundColor = const Color(0xFFFAFAFA);
+  static const colorDefaultBackgroundColor = const Color(0xFFFFFFFF);
+
+  /// Specific AppBar height for web
+  static const toolbarHeight = 56.00;
 }
 
 class BottomSheetStyles {
@@ -113,6 +116,9 @@ class BottomSheetStyles {
   /// Bottom for Bottom Sheet
   static const bottom = 0.00;
 
+  /// Min Height for Bottom Sheet
+  static const minHeight = 72.00;
+
   /// Left for Bottom Sheet
   static const left = 0.00;
 
@@ -120,7 +126,7 @@ class BottomSheetStyles {
   static const right = 0.00;
 
   /// Padding Bottom for Bottom Sheet
-  static const paddingBottom = 56.00;
+  static const paddingBottom = 36.00;
 
   /// Padding Left for Bottom Sheet
   static const paddingLeft = 16.00;
@@ -192,7 +198,7 @@ class CardStyles {
   CardStyles._();
 
   /// Background Color for Card
-  static const backgroundColor = const Color(0xFFFAFAFA);
+  static const backgroundColor = const Color(0xFFFFFFFF);
 
   /// Border Radius for Card
   static const borderRadius = 8.00;
@@ -532,7 +538,7 @@ class PaperStyles {
   PaperStyles._();
 
   /// Background Color for Paper
-  static const backgroundColor = const Color(0xFFFAFAFA);
+  static const backgroundColor = const Color(0xFFFFFFFF);
 
   /// Color for Paper
   static const color = const Color(0xFF424D5C);
