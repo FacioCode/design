@@ -27,8 +27,6 @@ jobs:
         run: sh ./.github/scripts/configure-git.sh
       - name: Bump pubspec version
         run: sh ./.github/scripts/bump-pubspec.sh
-      - name: List dist/ folders
-        run: ls packages/*/dist
       - name: Cache dist/ folders
         uses: actions/cache@v2
         env:
@@ -42,13 +40,6 @@ jobs:
       - name: Build Storybook
         run: npm run build-storybook
         working-directory: ./packages/react
-      - name: Publish to Chromatic
-        uses: chromaui/action@v1
-        with:
-          exitZeroOnChanges: main
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: packages/react/dist-storybook
-          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Cache pubspec file
         uses: actions/cache@v2
         env:
