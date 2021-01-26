@@ -19,6 +19,10 @@ const MuiSnackbarContent = {
 };
 
 export const props : ComponentsProps = {
+  MuiAppBar: {
+    color: "default",
+    elevation: 0,
+  },
   MuiButton: {
     ...MuiButtonBase,
     disableElevation: true,
