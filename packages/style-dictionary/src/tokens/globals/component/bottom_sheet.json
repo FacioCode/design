@@ -4,9 +4,10 @@
       "root": {
         "backgroundColor": { "value": "{color.background.default.value}" },
         "bottom": { "value": "{size.base.none.value}" },
+        "minHeight": { "value": "{size.base.ninefold.value}" },
         "left": { "value": "{size.base.none.value}" },
         "right": { "value": "{size.base.none.value}" },
-        "paddingBottom": { "value": "{size.base.sevenfold.value}" },
+        "paddingBottom": { "value": "{size.base.quadrupleHalf.value}" },
         "paddingLeft": { "value": "{size.base.double.value}" },
         "paddingRight": { "value": "{size.base.double.value}" },
         "paddingTop": { "value": "{size.base.triple.value}" }
