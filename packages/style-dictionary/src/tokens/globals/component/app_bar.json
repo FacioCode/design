@@ -7,6 +7,12 @@
         "backgroundColor": {
           "value": "{color.background.paper.value}"
         }
+      },
+      "toolbar": {
+        "height": {
+          "comment": "Specific AppBar height for web",
+          "value": "{size.base.sevenfold.value}"
+        }
       }
     }
   }
