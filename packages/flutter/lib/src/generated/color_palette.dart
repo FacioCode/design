@@ -16,7 +16,7 @@ class ColorPalette {
   static const Color backgroundDefault = const Color(0xFFFFFFFF);
   static const Color backgroundInfo = const Color(0xFF066089);
   static const Color backgroundInput = const Color(0xFFF2F2F3);
-  static const Color backgroundPaper = const Color(0xFFFAFAFA);
+  static const Color backgroundPaper = const Color(0xFFFFFFFF);
   static const Color backgroundSelected = const Color(0xFFE3FCFF);
   static const Color baseAquamarine05 = const Color(0xFFE3FFF4);
   static const Color baseAquamarine10 = const Color(0xFFD0FFEF);
