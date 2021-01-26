@@ -25,7 +25,10 @@
     "@faciocode/style-dictionary": "^2.1.0"
   },
   "scripts": {
+    "clean": "flutter clean",
     "format": "dartfmt -w .",
-    "lint": "dart format --output=none --set-exit-if-changed ."
+    "lint": "dart format --output=none --set-exit-if-changed .",
+    "open-ios-simulator": "open -a Simulator",
+    "run-example": "cd example && flutter run"
   }
 }
