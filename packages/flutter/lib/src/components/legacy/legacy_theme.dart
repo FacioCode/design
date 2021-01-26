@@ -6,7 +6,7 @@ class LegacyTheme {
   static final String packageName = 'facio_design_system';
 
   static final Image logoAppBar = Image.asset(
-    'assets/images/facio_logo_appbar.png',
+    'assets/images/facio-57w.png',
     width: 57,
     height: 18,
     fit: BoxFit.fill,
