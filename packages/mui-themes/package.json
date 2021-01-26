@@ -41,6 +41,13 @@
 		"type": "git",
 		"url": "https://github.com/FacioCode/design"
 	},
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf dist/",
+    "compile": "npm run rollup && npm run emitDeclaration",
+    "emitDeclaration": "tsc --declaration --declarationDir dist --emitDeclarationOnly",
+    "rollup": "rollup -c"
+  },
 	"bugs": {
 		"url": "https://github.com/FacioCode/design/issues"
 	},
