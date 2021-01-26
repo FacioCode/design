@@ -15,4 +15,5 @@ const Template : Story<AppBarProps> = (props: AppBarProps) => (
 export const Playground : Story<AppBarProps> = Template.bind({});
 Playground.args = {
   children: "Facio",
+  position: "sticky",
 };
