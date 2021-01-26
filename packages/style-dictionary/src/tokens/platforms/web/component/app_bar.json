@@ -1,9 +1,0 @@
-{
-  "component": {
-    "appBar": {
-      "colorTransparent": {
-        "color": { "value": "{color.base.transparent.00.value}" }
-      }
-    }
-  }
-}
