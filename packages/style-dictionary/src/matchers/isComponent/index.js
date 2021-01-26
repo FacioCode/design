@@ -1,6 +1,6 @@
 const isComponent = (prop) => {
   if (typeof prop.attributes === "undefined") {
-    console.error(`Can not get category from property with value ${prop.value}`);
+    throw new Error(`Can not get category from property with value ${prop.value}`);
   }
 
   const { attributes } = prop;
