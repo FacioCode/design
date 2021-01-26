@@ -8,8 +8,6 @@ const pubspecYamlFormatter = (dictionary, { metadata }) => {
   const compiled = lodashTemplate(templateContent);
   const { font } = dictionary.properties.asset;
 
-  console.log(font);
-
   return compiled({
     font,
     metadata,
