@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/FacioCode/design/compare/v2.1.1...v3.0.0) (2021-01-26)
+
+
+### Bug Fixes
+
+* **styles:** fix background color token for AppBar, Card and Paper ([8d11835](https://github.com/FacioCode/design/commit/8d118353862de9d3496ebc2e398127eab067f7c8))
+* **styles:** set paper background to white on light theme ([148fc55](https://github.com/FacioCode/design/commit/148fc553858053bfae1a1abe5f0f444164e62fee))
+
+
+### Features
+
+* **styles:** add new `baseNinefold` size token ([156d2a7](https://github.com/FacioCode/design/commit/156d2a7d81603f9a5aed8a369d58e14190b97c77))
+
+
+
+# 2.1.0 (2021-01-23)
+
+
+
+
+
 ## [2.1.1](https://github.com/FacioCode/design/compare/v2.1.0...v2.1.1) (2021-01-24)
 
 **Note:** Version bump only for package @faciocode/styles

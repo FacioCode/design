@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/FacioCode/design/compare/v2.1.1...v3.0.0) (2021-01-26)
+
+
+### Bug Fixes
+
+* **react:** prevent using ripple props on `Chip` ([b238e6b](https://github.com/FacioCode/design/commit/b238e6b1f57b32b946cd8d92d1fdb453d168719d))
+* **react:** remove invalid `xmlns:xlink` prop from `WhatsAppIcon` ([ac67336](https://github.com/FacioCode/design/commit/ac67336bee40e64a3ceaf7197a2e289e5de91d0b))
+
+
+### Features
+
+* **react:** add `AppBar` component ([105a987](https://github.com/FacioCode/design/commit/105a9875ccaedb14140bc0886b25598132665ce8))
+* **react:** add support to `flexGrow` prop on `Typography` ([9572e84](https://github.com/FacioCode/design/commit/9572e84c3da517ceb5d8dc719708f9aeadd3948b))
+* **react storybook:** add support to changing viewport ([eb36b9f](https://github.com/FacioCode/design/commit/eb36b9f7cf3bf2b4446bcd93c791ca204d2875b9))
+
+
+
+# 2.1.0 (2021-01-23)
+
+
+
+
+
 ## [2.1.1](https://github.com/FacioCode/design/compare/v2.1.0...v2.1.1) (2021-01-24)
 
 

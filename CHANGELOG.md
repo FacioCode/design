@@ -3,6 +3,101 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/FacioCode/design/compare/v2.1.1...v3.0.0) (2021-01-26)
+
+
+### Bug Fixes
+
+* **flutter:** change paper background color token to white ([ffcc6cb](https://github.com/FacioCode/design/commit/ffcc6cbf83f787b3e27dc3e7bb748a40d3af9c84))
+* **flutter:** clean/optimize icon assets ([8330d02](https://github.com/FacioCode/design/commit/8330d02f70671a2fd95ba7de33e95ac2ee3025a8))
+* **flutter:** set font weight values to integer on pubspec file ([49ef731](https://github.com/FacioCode/design/commit/49ef73162b7319496e9b9482cdc3b7ee202900aa))
+* **flutter:** update legacy theme definitions with new reference to png image ([bc19a5a](https://github.com/FacioCode/design/commit/bc19a5a610bc2969aecc84bf0b3cf08fee9ba9ba))
+* **flutter:** update VideoThumb widget with new play icon reference ([64ce00e](https://github.com/FacioCode/design/commit/64ce00e50588190e0b075631d0337699283dcf8e))
+* **mui-themes:** change Dialog content and title alignment to left ([1c12b4c](https://github.com/FacioCode/design/commit/1c12b4c9357ed074a1aa60ad210b9df876002cf7))
+* **mui-themes:** remove invalid props from `MuiChip` ([0ab224b](https://github.com/FacioCode/design/commit/0ab224b46befefae485c2517f78d5822a16bd63a))
+* **react:** prevent using ripple props on `Chip` ([b238e6b](https://github.com/FacioCode/design/commit/b238e6b1f57b32b946cd8d92d1fdb453d168719d))
+* **react:** remove invalid `xmlns:xlink` prop from `WhatsAppIcon` ([ac67336](https://github.com/FacioCode/design/commit/ac67336bee40e64a3ceaf7197a2e289e5de91d0b))
+* **style-dictionary:** clean icon assets with svgo ([85b40dd](https://github.com/FacioCode/design/commit/85b40dd73ccdca0599a36d6a19e2f86d82a08bdc))
+* **style-dictionary:** fix SvgPicture classes generation ([b56b21d](https://github.com/FacioCode/design/commit/b56b21d15bb67087d5cd39f51754a0489f830126))
+* **style-dictionary:** remove quotes from font weight for flutter pubspec.yml ([2e7b88a](https://github.com/FacioCode/design/commit/2e7b88a3183325369353cef41da251283ff4ff8d))
+* **style-dictionary:** set paper background color to white on light theme ([c2b77eb](https://github.com/FacioCode/design/commit/c2b77ebebb285df2f8a3b5abebe5d40e589d8fe1))
+* **styles:** fix background color token for AppBar, Card and Paper ([8d11835](https://github.com/FacioCode/design/commit/8d118353862de9d3496ebc2e398127eab067f7c8))
+* **styles:** set paper background to white on light theme ([148fc55](https://github.com/FacioCode/design/commit/148fc553858053bfae1a1abe5f0f444164e62fee))
+
+
+### Code Refactoring
+
+* **flutter:** move `id.svg` to `icons` dir ([2cc9271](https://github.com/FacioCode/design/commit/2cc9271aa60c8306cae02924d2fbf922c88952de))
+* **flutter:** move `images/habit.svg` to `icons/wallet.svg` ([38d7f8d](https://github.com/FacioCode/design/commit/38d7f8d5c6fa56da9839f46092812d489c53686f))
+* **flutter:** move all logos to `FacioSvgImages` ([fdbb740](https://github.com/FacioCode/design/commit/fdbb740a7839f79a805aea41a00fde34c76e1029))
+* **flutter:** move and rename icons ([13027ad](https://github.com/FacioCode/design/commit/13027ad1dcaa76efc07fd47c8e43db2997d97040))
+* **flutter:** move icons from `images` to `icons` ([653039a](https://github.com/FacioCode/design/commit/653039aa5f5b839724e466c344072d5995856796))
+* **flutter:** remove `gradient_button.dart` ([ea31d89](https://github.com/FacioCode/design/commit/ea31d892ce4e71d2e6e2837e51a6f4e8c1b8f50f))
+* **flutter:** rename `facio_logo_appbar.png` to `logo-57w.png` ([6d182dc](https://github.com/FacioCode/design/commit/6d182dc339646fcb7f717bd244961ac0625059b2))
+* **flutter:** rename `FDSCanvas` to `FacioScaffold` ([dbd6166](https://github.com/FacioCode/design/commit/dbd6166ad6bdee59a666143a3685adcdf43755b7))
+* **flutter:** rename `FDSDateField` to `FacioDateField` ([45b0128](https://github.com/FacioCode/design/commit/45b0128df99207cb870f91b10bb0f3e15a9143be))
+* **flutter:** rename `FDSNameField` to `FacioNameField` ([964179b](https://github.com/FacioCode/design/commit/964179bbfdeff7e3b98b7750b03b8469c931343e))
+* **flutter:** rename `logo_primary.svg` to `logo-dark.svg` ([aeb3f0e](https://github.com/FacioCode/design/commit/aeb3f0e2741b8857b4e4c016e4b5adcaebeccd22))
+* **flutter:** rename `logo_secondary.svg` to `logo-light.svg` ([fc8cba3](https://github.com/FacioCode/design/commit/fc8cba31c8200b8332b0d27ebd6fa0c4eee15e4c))
+
+
+### Features
+
+* **flutter:** add `baseNinefold` size token ([f23ec9e](https://github.com/FacioCode/design/commit/f23ec9ebd80f84d24efbbeec9831d96d9b22ef7a))
+* **flutter:** add icon assets ([f8d8ab3](https://github.com/FacioCode/design/commit/f8d8ab341f3cdba265c71abe44746c755070228f))
+* **flutter:** add min height for app bar toolbar and bottom sheet, fix app bar and paper bgcolor ([f03819a](https://github.com/FacioCode/design/commit/f03819a76cae8cae7366d5ec72989afe960e356c))
+* **flutter:** add support to icon assets, improve fonts definition ([f32c6c0](https://github.com/FacioCode/design/commit/f32c6c06846113a605b06adf6cff80a4cdad43b2))
+* **flutter:** add svg logo to assets ([2c2b785](https://github.com/FacioCode/design/commit/2c2b7856f22d3fbe90803bcfafdbdba1ae407e96))
+* **flutter:** allow images and svg icons to be imported separatedly ([dbba115](https://github.com/FacioCode/design/commit/dbba115de4a737dd95e9c53cef3d9e26f789b2a9))
+* **flutter:** move existing icons to `FacioSvgIcons`, add new ones ([b0886a7](https://github.com/FacioCode/design/commit/b0886a735eb16c51619ebca29d03802d54bf88c3))
+* **react:** add `AppBar` component ([105a987](https://github.com/FacioCode/design/commit/105a9875ccaedb14140bc0886b25598132665ce8))
+* **react:** add support to `flexGrow` prop on `Typography` ([9572e84](https://github.com/FacioCode/design/commit/9572e84c3da517ceb5d8dc719708f9aeadd3948b))
+* **react storybook:** add support to changing viewport ([eb36b9f](https://github.com/FacioCode/design/commit/eb36b9f7cf3bf2b4446bcd93c791ca204d2875b9))
+* **style-dictionary:** add `bigPig` and `play` icons ([55a8169](https://github.com/FacioCode/design/commit/55a81691f4be664397cd4487559b8bb4df0a54c8))
+* **style-dictionary:** add `colorTransparent` class key for web platform ([9d4ba34](https://github.com/FacioCode/design/commit/9d4ba3416b2da57a885b7d83d5d4d29638909fb5))
+* **style-dictionary:** add `ninefold` size base token ([c16df18](https://github.com/FacioCode/design/commit/c16df18a2d910b96d156ecd0000bc80eb642fe62))
+* **style-dictionary:** add action for copying assets to flutter package ([58a20d3](https://github.com/FacioCode/design/commit/58a20d33e88928787e211af6ce70cf44147f6557))
+* **style-dictionary:** add action for icon font creation ([0a68432](https://github.com/FacioCode/design/commit/0a6843237171a29c02a575c127d6d4dfb7bfafae))
+* **style-dictionary:** add formatter for Svg* classes ([6fbbbab](https://github.com/FacioCode/design/commit/6fbbbab501649ea4b78587fcb6b6d55e101b55a3))
+* **style-dictionary:** add image asset tokens ([b4c71c6](https://github.com/FacioCode/design/commit/b4c71c63059918708209946c6399b6b4ca3221a5))
+* **style-dictionary:** add logo images to assets ([02a4550](https://github.com/FacioCode/design/commit/02a455090befc0a08332b9bfa36bcabf0191c3e2))
+* **style-dictionary:** add more Open Sans style/weight variants ([bf8ed86](https://github.com/FacioCode/design/commit/bf8ed86a0d085f12b25acccb578ac0f9efff5ea1))
+* **style-dictionary:** add new icons to assets list ([989b8fd](https://github.com/FacioCode/design/commit/989b8fd5e4a21b065c4ce8422af3289885569e62))
+* **style-dictionary:** add support to fonts section auto-generation on pubspec files ([8e6b7bc](https://github.com/FacioCode/design/commit/8e6b7bc50e8b6ffa423bc5237918b531697f1a2a))
+* **style-dictionary:** add SVG logo to assets ([a97ba3d](https://github.com/FacioCode/design/commit/a97ba3d52fd976ad52dc14384ef7fd3ee95c1ca3))
+* **style-dictionary:** add template for SvgPicture class format ([7ab39b3](https://github.com/FacioCode/design/commit/7ab39b313976e41e655df34eb7c24d156296f969))
+* **style-dictionary:** generate SvgPicture classes for imagens and icons on flutter ([f5d8c06](https://github.com/FacioCode/design/commit/f5d8c06699004c44a8c45ad50bb39720fa192666))
+* **style-dictionary:** register action for creating icon fonts ([e25552b](https://github.com/FacioCode/design/commit/e25552bf4c62a6e79b4443bcf2611ca828aac336))
+* **style-dictionary:** register formatter for SvgPicture classes ([ac89f27](https://github.com/FacioCode/design/commit/ac89f27a652bb37a380b1315866afcb03ac249dd))
+* **style-dictionary:** set height for toolbars ([847f51f](https://github.com/FacioCode/design/commit/847f51f4a27ab8bc9d2f725032c18285b5fbe356))
+* **style-dictionary:** set min height for bottom sheets, adjust bottom padding ([814fe85](https://github.com/FacioCode/design/commit/814fe856b4c2a5fd3ffdc86def010e1d96c7da9a))
+* **styles:** add new `baseNinefold` size token ([156d2a7](https://github.com/FacioCode/design/commit/156d2a7d81603f9a5aed8a369d58e14190b97c77))
+
+
+### BREAKING CHANGES
+
+* **flutter:** all logo SVG images were moved to `FacioSvgImages`. `logoPrimary` was renamed to `logoDark`. `logoSecondary` was renamed to `logoLight`. Please find and replace it in your application.
+* **flutter:** `FDSNameField` was renamed to `FacioNameField`. Please find and replace it in your application.
+* **flutter:** all existing icons from `FDSIcons` were moved `FacioSvgIcons`. Please find and replace it in your application.
+* **flutter:** `FDSGradientButton` was removed. Please use `MediumContainedButton` with `ContainedButtonColor.brand` color instead.
+* **flutter:** `FDSDateField` was renamed to `FacioDateField`. Please find and replace it in your application.
+* **flutter:** `FDSCanvas` was renamed to `FacioScaffold`. Please find and replace it in your application.
+* **flutter:** the icons `arrow_right`, `big_pig`, `eye_closed` and `eye_open` were moved to `icons` folder, and renamed to `arrow-right`, `big-pig`, `eye-closed` and `eye-open`.
+* **flutter:** The `deposit`, `growth`, `megaphone`, `pig`, `play` and `received` icons were moved from `assets/images` to `assets/icons`. Please update these referencies in your app.
+* **flutter:** now `images/habit.svg` is  `icons/wallet.svg`
+* **flutter:** `facio_logo_appbar.png` now is `logo-57w.png`
+* **flutter:** `id.svg` now is inside `icons` dir
+* **flutter:** `logo_secondary.svg` now is `logo-light.svg`
+* **flutter:** `logo_primary.svg` now is `logo-dark.svg`
+
+
+
+# 2.1.0 (2021-01-23)
+
+
+
+
+
 ## [2.1.1](https://github.com/FacioCode/design/compare/v2.1.0...v2.1.1) (2021-01-24)
 
 

@@ -3,6 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/FacioCode/design/compare/v2.1.1...v3.0.0) (2021-01-26)
+
+
+### Bug Fixes
+
+* **style-dictionary:** clean icon assets with svgo ([85b40dd](https://github.com/FacioCode/design/commit/85b40dd73ccdca0599a36d6a19e2f86d82a08bdc))
+* **style-dictionary:** fix SvgPicture classes generation ([b56b21d](https://github.com/FacioCode/design/commit/b56b21d15bb67087d5cd39f51754a0489f830126))
+* **style-dictionary:** remove quotes from font weight for flutter pubspec.yml ([2e7b88a](https://github.com/FacioCode/design/commit/2e7b88a3183325369353cef41da251283ff4ff8d))
+* **style-dictionary:** set paper background color to white on light theme ([c2b77eb](https://github.com/FacioCode/design/commit/c2b77ebebb285df2f8a3b5abebe5d40e589d8fe1))
+
+
+### Features
+
+* **style-dictionary:** add `bigPig` and `play` icons ([55a8169](https://github.com/FacioCode/design/commit/55a81691f4be664397cd4487559b8bb4df0a54c8))
+* **style-dictionary:** add `colorTransparent` class key for web platform ([9d4ba34](https://github.com/FacioCode/design/commit/9d4ba3416b2da57a885b7d83d5d4d29638909fb5))
+* **style-dictionary:** add `ninefold` size base token ([c16df18](https://github.com/FacioCode/design/commit/c16df18a2d910b96d156ecd0000bc80eb642fe62))
+* **style-dictionary:** add action for copying assets to flutter package ([58a20d3](https://github.com/FacioCode/design/commit/58a20d33e88928787e211af6ce70cf44147f6557))
+* **style-dictionary:** add action for icon font creation ([0a68432](https://github.com/FacioCode/design/commit/0a6843237171a29c02a575c127d6d4dfb7bfafae))
+* **style-dictionary:** add formatter for Svg* classes ([6fbbbab](https://github.com/FacioCode/design/commit/6fbbbab501649ea4b78587fcb6b6d55e101b55a3))
+* **style-dictionary:** add image asset tokens ([b4c71c6](https://github.com/FacioCode/design/commit/b4c71c63059918708209946c6399b6b4ca3221a5))
+* **style-dictionary:** add logo images to assets ([02a4550](https://github.com/FacioCode/design/commit/02a455090befc0a08332b9bfa36bcabf0191c3e2))
+* **style-dictionary:** add more Open Sans style/weight variants ([bf8ed86](https://github.com/FacioCode/design/commit/bf8ed86a0d085f12b25acccb578ac0f9efff5ea1))
+* **style-dictionary:** add new icons to assets list ([989b8fd](https://github.com/FacioCode/design/commit/989b8fd5e4a21b065c4ce8422af3289885569e62))
+* **style-dictionary:** add support to fonts section auto-generation on pubspec files ([8e6b7bc](https://github.com/FacioCode/design/commit/8e6b7bc50e8b6ffa423bc5237918b531697f1a2a))
+* **style-dictionary:** add SVG logo to assets ([a97ba3d](https://github.com/FacioCode/design/commit/a97ba3d52fd976ad52dc14384ef7fd3ee95c1ca3))
+* **style-dictionary:** add template for SvgPicture class format ([7ab39b3](https://github.com/FacioCode/design/commit/7ab39b313976e41e655df34eb7c24d156296f969))
+* **style-dictionary:** generate SvgPicture classes for imagens and icons on flutter ([f5d8c06](https://github.com/FacioCode/design/commit/f5d8c06699004c44a8c45ad50bb39720fa192666))
+* **style-dictionary:** register action for creating icon fonts ([e25552b](https://github.com/FacioCode/design/commit/e25552bf4c62a6e79b4443bcf2611ca828aac336))
+* **style-dictionary:** register formatter for SvgPicture classes ([ac89f27](https://github.com/FacioCode/design/commit/ac89f27a652bb37a380b1315866afcb03ac249dd))
+* **style-dictionary:** set height for toolbars ([847f51f](https://github.com/FacioCode/design/commit/847f51f4a27ab8bc9d2f725032c18285b5fbe356))
+* **style-dictionary:** set min height for bottom sheets, adjust bottom padding ([814fe85](https://github.com/FacioCode/design/commit/814fe856b4c2a5fd3ffdc86def010e1d96c7da9a))
+
+
+
+# 2.1.0 (2021-01-23)
+
+
+
+
+
 ## [2.1.1](https://github.com/FacioCode/design/compare/v2.1.0...v2.1.1) (2021-01-24)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

@@ -3,6 +3,69 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/FacioCode/design/compare/v2.1.1...v3.0.0) (2021-01-26)
+
+
+### Bug Fixes
+
+* **flutter:** change paper background color token to white ([ffcc6cb](https://github.com/FacioCode/design/commit/ffcc6cbf83f787b3e27dc3e7bb748a40d3af9c84))
+* **flutter:** clean/optimize icon assets ([8330d02](https://github.com/FacioCode/design/commit/8330d02f70671a2fd95ba7de33e95ac2ee3025a8))
+* **flutter:** set font weight values to integer on pubspec file ([49ef731](https://github.com/FacioCode/design/commit/49ef73162b7319496e9b9482cdc3b7ee202900aa))
+* **flutter:** update legacy theme definitions with new reference to png image ([bc19a5a](https://github.com/FacioCode/design/commit/bc19a5a610bc2969aecc84bf0b3cf08fee9ba9ba))
+* **flutter:** update VideoThumb widget with new play icon reference ([64ce00e](https://github.com/FacioCode/design/commit/64ce00e50588190e0b075631d0337699283dcf8e))
+
+
+### Code Refactoring
+
+* **flutter:** move `id.svg` to `icons` dir ([2cc9271](https://github.com/FacioCode/design/commit/2cc9271aa60c8306cae02924d2fbf922c88952de))
+* **flutter:** move `images/habit.svg` to `icons/wallet.svg` ([38d7f8d](https://github.com/FacioCode/design/commit/38d7f8d5c6fa56da9839f46092812d489c53686f))
+* **flutter:** move all logos to `FacioSvgImages` ([fdbb740](https://github.com/FacioCode/design/commit/fdbb740a7839f79a805aea41a00fde34c76e1029))
+* **flutter:** move and rename icons ([13027ad](https://github.com/FacioCode/design/commit/13027ad1dcaa76efc07fd47c8e43db2997d97040))
+* **flutter:** move icons from `images` to `icons` ([653039a](https://github.com/FacioCode/design/commit/653039aa5f5b839724e466c344072d5995856796))
+* **flutter:** remove `gradient_button.dart` ([ea31d89](https://github.com/FacioCode/design/commit/ea31d892ce4e71d2e6e2837e51a6f4e8c1b8f50f))
+* **flutter:** rename `facio_logo_appbar.png` to `logo-57w.png` ([6d182dc](https://github.com/FacioCode/design/commit/6d182dc339646fcb7f717bd244961ac0625059b2))
+* **flutter:** rename `FDSCanvas` to `FacioScaffold` ([dbd6166](https://github.com/FacioCode/design/commit/dbd6166ad6bdee59a666143a3685adcdf43755b7))
+* **flutter:** rename `FDSDateField` to `FacioDateField` ([45b0128](https://github.com/FacioCode/design/commit/45b0128df99207cb870f91b10bb0f3e15a9143be))
+* **flutter:** rename `FDSNameField` to `FacioNameField` ([964179b](https://github.com/FacioCode/design/commit/964179bbfdeff7e3b98b7750b03b8469c931343e))
+* **flutter:** rename `logo_primary.svg` to `logo-dark.svg` ([aeb3f0e](https://github.com/FacioCode/design/commit/aeb3f0e2741b8857b4e4c016e4b5adcaebeccd22))
+* **flutter:** rename `logo_secondary.svg` to `logo-light.svg` ([fc8cba3](https://github.com/FacioCode/design/commit/fc8cba31c8200b8332b0d27ebd6fa0c4eee15e4c))
+
+
+### Features
+
+* **flutter:** add `baseNinefold` size token ([f23ec9e](https://github.com/FacioCode/design/commit/f23ec9ebd80f84d24efbbeec9831d96d9b22ef7a))
+* **flutter:** add icon assets ([f8d8ab3](https://github.com/FacioCode/design/commit/f8d8ab341f3cdba265c71abe44746c755070228f))
+* **flutter:** add min height for app bar toolbar and bottom sheet, fix app bar and paper bgcolor ([f03819a](https://github.com/FacioCode/design/commit/f03819a76cae8cae7366d5ec72989afe960e356c))
+* **flutter:** add support to icon assets, improve fonts definition ([f32c6c0](https://github.com/FacioCode/design/commit/f32c6c06846113a605b06adf6cff80a4cdad43b2))
+* **flutter:** add svg logo to assets ([2c2b785](https://github.com/FacioCode/design/commit/2c2b7856f22d3fbe90803bcfafdbdba1ae407e96))
+* **flutter:** allow images and svg icons to be imported separatedly ([dbba115](https://github.com/FacioCode/design/commit/dbba115de4a737dd95e9c53cef3d9e26f789b2a9))
+* **flutter:** move existing icons to `FacioSvgIcons`, add new ones ([b0886a7](https://github.com/FacioCode/design/commit/b0886a735eb16c51619ebca29d03802d54bf88c3))
+
+
+### BREAKING CHANGES
+
+* **flutter:** all logo SVG images were moved to `FacioSvgImages`. `logoPrimary` was renamed to `logoDark`. `logoSecondary` was renamed to `logoLight`. Please find and replace it in your application.
+* **flutter:** `FDSNameField` was renamed to `FacioNameField`. Please find and replace it in your application.
+* **flutter:** all existing icons from `FDSIcons` were moved `FacioSvgIcons`. Please find and replace it in your application.
+* **flutter:** `FDSGradientButton` was removed. Please use `MediumContainedButton` with `ContainedButtonColor.brand` color instead.
+* **flutter:** `FDSDateField` was renamed to `FacioDateField`. Please find and replace it in your application.
+* **flutter:** `FDSCanvas` was renamed to `FacioScaffold`. Please find and replace it in your application.
+* **flutter:** the icons `arrow_right`, `big_pig`, `eye_closed` and `eye_open` were moved to `icons` folder, and renamed to `arrow-right`, `big-pig`, `eye-closed` and `eye-open`.
+* **flutter:** The `deposit`, `growth`, `megaphone`, `pig`, `play` and `received` icons were moved from `assets/images` to `assets/icons`. Please update these referencies in your app.
+* **flutter:** now `images/habit.svg` is  `icons/wallet.svg`
+* **flutter:** `facio_logo_appbar.png` now is `logo-57w.png`
+* **flutter:** `id.svg` now is inside `icons` dir
+* **flutter:** `logo_secondary.svg` now is `logo-light.svg`
+* **flutter:** `logo_primary.svg` now is `logo-dark.svg`
+
+
+
+# 2.1.0 (2021-01-23)
+
+
+
+
+
 ## [2.1.1](https://github.com/FacioCode/design/compare/v2.1.0...v2.1.1) (2021-01-24)
 
 **Note:** Version bump only for package facio_design_system
