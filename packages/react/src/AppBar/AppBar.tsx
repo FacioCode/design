@@ -9,7 +9,7 @@ const render : Render = (props, ref) => {
 
 
   return (
-    <MaterialAppBar {...otherProps} color={"transparent"} elevation={0} ref={ref}>
+    <MaterialAppBar {...otherProps} ref={ref}>
       <Toolbar>
         {children}
       </Toolbar>
