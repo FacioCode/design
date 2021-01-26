@@ -19,8 +19,8 @@ const config = ({ platform, theme }) => ({
   ],
 });
 
-themes.map((theme) => {
-  platformNames.map((platform) => {
+themes.forEach((theme) => {
+  platformNames.forEach((platform) => {
     const styleDictionary = StyleDictionary.extend(config({ platform, theme }));
 
     registerFormats(styleDictionary);
@@ -32,8 +32,6 @@ themes.map((theme) => {
     // eslint-disable-next-line no-console
     console.log(`\nProcessing: [${platform}] [${theme}]`);
     styleDictionary.buildPlatform(platform);
-    // eslint-disable-next-line no-console
-    console.log("\nEnd processing");
 
     return platform;
   });
