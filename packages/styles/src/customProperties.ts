@@ -213,16 +213,25 @@ export const appBarStyles = {
     /**
      * Background Color for App Bar Color Default
      */
-    backgroundColor: "var(--component-app-bar-color-default-background-color, #fafafa)",
+    backgroundColor: "var(--component-app-bar-color-default-background-color, #ffffff)",
 
   },
 
-  root: {
+  toolbar: {
 
     /**
      * Specific AppBar height for web
      */
-    height: "var(--component-app-bar-root-height, 56px)",
+    height: "var(--component-app-bar-toolbar-height, 56px)",
+
+  },
+
+  colorTransparent: {
+
+    /**
+     * Color for App Bar Color Transparent
+     */
+    color: "var(--component-app-bar-color-transparent-color, rgba(255, 255, 255, 0))",
 
   },
 
@@ -245,6 +254,12 @@ export const bottomSheetStyles = {
 
 
     /**
+     * Min Height for Bottom Sheet Root
+     */
+    minHeight: "var(--component-bottom-sheet-root-min-height, 72px)",
+
+
+    /**
      * Left for Bottom Sheet Root
      */
     left: "var(--component-bottom-sheet-root-left, 0px)",
@@ -259,7 +274,7 @@ export const bottomSheetStyles = {
     /**
      * Padding Bottom for Bottom Sheet Root
      */
-    paddingBottom: "var(--component-bottom-sheet-root-padding-bottom, 56px)",
+    paddingBottom: "var(--component-bottom-sheet-root-padding-bottom, 36px)",
 
 
     /**
@@ -412,7 +427,7 @@ export const cardStyles = {
     /**
      * Background Color for Card Root
      */
-    backgroundColor: "var(--component-card-root-background-color, #fafafa)",
+    backgroundColor: "var(--component-card-root-background-color, #ffffff)",
 
 
     /**
@@ -1295,7 +1310,7 @@ export const paperStyles = {
     /**
      * Background Color for Paper Root
      */
-    backgroundColor: "var(--component-paper-root-background-color, #fafafa)",
+    backgroundColor: "var(--component-paper-root-background-color, #ffffff)",
 
 
     /**
@@ -2076,7 +2091,7 @@ export const dialogStyles = {
     /**
      * Background Color for Dialog Paper
      */
-    backgroundColor: "var(--component-dialog-paper-background-color, #fafafa)",
+    backgroundColor: "var(--component-dialog-paper-background-color, #ffffff)",
 
 
     /**
