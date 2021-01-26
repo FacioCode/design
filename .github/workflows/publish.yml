@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -37,6 +39,16 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
+      - name: Build Storybook
+        run: npm run build-storybook
+        working-directory: ./packages/react
+      - name: Publish to Chromatic
+        uses: chromaui/action@v1
+        with:
+          exitZeroOnChanges: main
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          storybookBuildDir: packages/react/dist-storybook
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Cache pubspec file
         uses: actions/cache@v2
         env:
@@ -99,8 +111,6 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
-      - name: List dist/ folders
-        run: ls packages/*/dist
       - uses: actions/setup-node@v1
         with:
           node-version: 12
