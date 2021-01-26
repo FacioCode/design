@@ -15,5 +15,6 @@ export const baseFivefold = "40px";
 export const baseSixfold = "48px";
 export const baseSevenfold = "56px"; // Commonly used for app bar height
 export const baseEightfold = "64px"; // Commonly used for button min height
+export const baseNinefold = "72px"; // Commonly used for bottom sheet min height
 export const baseThirtyOneFold = "248px"; // Button max width
 export const baseHalfPlusOne = "5px"; // Reserved for input padding for web (4+1)
