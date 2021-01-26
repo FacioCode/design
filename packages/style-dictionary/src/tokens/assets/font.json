@@ -1,6 +1,14 @@
 {
   "asset": {
     "font": {
+      "facioIcons": {
+        "name": { "value": "Facio Icons" },
+        "regular": {
+          "style": { "value": "normal" },
+          "ttf": { "value": "assets/fonts/FacioIcons.ttf" },
+          "weight": { "value": 400 }
+        }
+      },
       "openSans": {
         "name": { "value": "Open Sans" },
         "light": {
@@ -15,42 +23,42 @@
         },
         "regular": {
           "style": { "value": "normal" },
-          "ttf": { "value": "assets/font/OpenSans-Regular.ttf" },
+          "ttf": { "value": "assets/fonts/OpenSans-Regular.ttf" },
           "weight": { "value": 400 }
         },
         "regularItalic": {
           "style": { "value": "italic" },
-          "ttf": { "value": "assets/font/OpenSans-RegularItalic.ttf" },
+          "ttf": { "value": "assets/fonts/OpenSans-RegularItalic.ttf" },
           "weight": { "value": 400 }
         },
         "semiBold": {
           "style": { "value": "normal" },
-          "ttf": { "value": "assets/font/OpenSans-SemiBold.ttf" },
+          "ttf": { "value": "assets/fonts/OpenSans-SemiBold.ttf" },
           "weight": { "value": 600 }
         },
         "semiBoldItalic": {
           "style": { "value": "italic" },
-          "ttf": { "value": "assets/font/OpenSans-SemiBoldItalic.ttf" },
+          "ttf": { "value": "assets/fonts/OpenSans-SemiBoldItalic.ttf" },
           "weight": { "value": 600 }
         },
         "bold": {
           "style": { "value": "normal" },
-          "ttf": { "value": "assets/font/OpenSans-Bold.ttf" },
+          "ttf": { "value": "assets/fonts/OpenSans-Bold.ttf" },
           "weight": { "value": 700 }
         },
         "boldItalic": {
           "style": { "value": "italic" },
-          "ttf": { "value": "assets/font/OpenSans-BoldItalic.ttf" },
+          "ttf": { "value": "assets/fonts/OpenSans-BoldItalic.ttf" },
           "weight": { "value": 700 }
         },
         "extraBold": {
           "style": { "value": "normal" },
-          "ttf": { "value": "assets/font/OpenSans-ExtraBold.ttf" },
+          "ttf": { "value": "assets/fonts/OpenSans-ExtraBold.ttf" },
           "weight": { "value": 800 }
         },
         "extraBoldItalic": {
           "style": { "value": "italic" },
-          "ttf": { "value": "assets/font/OpenSans-ExtraBoldItalic.ttf" },
+          "ttf": { "value": "assets/fonts/OpenSans-ExtraBoldItalic.ttf" },
           "weight": { "value": 800 }
         }
       }
