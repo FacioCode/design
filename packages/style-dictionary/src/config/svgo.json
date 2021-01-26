@@ -1,0 +1,13 @@
+{
+  "plugins": [{
+    "removeViewBox": false
+  }, {
+    "convertPathData": { "noSpaceAfterFlags": false }
+  }, {
+    "mergePaths": { "noSpaceAfterFlags": false }
+  }, {
+    "removeAttrs": { "attrs": "(stroke|fill)" }
+  }, {
+    "sortAttrs": true
+  }]
+}
