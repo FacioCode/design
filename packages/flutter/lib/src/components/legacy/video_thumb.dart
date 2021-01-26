@@ -106,7 +106,7 @@ class VideoThumb extends StatelessWidget {
                     alignment: Alignment.center,
                     child: Opacity(
                       opacity: 0.7,
-                      child: FDSIcons.play,
+                      child: FacioSvgIcons.play,
                     ),
                   ),
                 )
