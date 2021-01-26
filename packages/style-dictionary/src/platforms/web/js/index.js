@@ -2,6 +2,7 @@
 const isComponent = require("../../../matchers/isComponent");
 
 const webJsPlatform = {
+  actions: ["create_icon_font"],
   buildPath: "../styles/src/",
   files: [
     {
