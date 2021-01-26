@@ -1,13 +1,16 @@
 /* eslint-disable sort-keys */
+import type { CSSProperties } from "@material-ui/styles";
 import { MuiButton } from "./MuiButton";
 import { MuiLink } from "./MuiLink";
 import type { ThemeOptions } from "@material-ui/core";
 import { customProperties } from "@faciocode/styles";
-import type { CSSProperties } from "@material-ui/styles";
 
 const { placeholder } = customProperties.inputBaseStyles;
 
 export const overrides : ThemeOptions["overrides"] = {
+  MuiAppBar: {
+    colorDefault: customProperties.appBarStyles.colorDefault,
+  },
   MuiButton,
   MuiButtonBase: {
     root: customProperties.buttonBaseStyles.root,
@@ -161,6 +164,9 @@ export const overrides : ThemeOptions["overrides"] = {
     root: {
       "&$selected, &$selected:hover": customProperties.tableRowStyles.selected,
     },
+  },
+  MuiToolbar: {
+    regular: customProperties.appBarStyles.regularToolbar,
   },
   MuiTypography: {
     colorError: customProperties.typographyStyles.colorError,
