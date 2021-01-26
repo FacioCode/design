@@ -1,0 +1,25 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: unused_import
+
+import 'package:flutter_svg/svg.dart';
+
+<%
+_.forEach(Object.keys(asset), (assetType) => {
+const className = _.upperFirst(_.camelCase(`Facio SVG ${assetType}s`));
+%>// ignore: avoid_classes_with_only_static_members
+class <%= className %> {
+  static final String packageName = '<%= metadata.packageName %>';<%
+  const assets = asset[assetType];
+  _.forEach(Object.keys(assets), (assetItem) => {
+  const commentFromDictionary = assets[assetItem].comment;
+  const comment = commentFromDictionary ? commentFromDictionary : `${assetType} for ${assetItem}`;
+%>
+  /// <%= _.deburr(_.startCase(comment)) %>
+  static final <%= assetItem %> = SvgPicture.asset(
+    <%= assets[assetItem].value %>,
+    package: packageName
+  );<%
+  }); // end forEach imageAsset
+%>
+}
+<% }); // end forEach assetType %>
