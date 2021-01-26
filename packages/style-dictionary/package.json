@@ -39,7 +39,9 @@
     "build": "npm run clean && npm run compile",
     "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ../flutter/lib/src/generated",
     "compile": "style-dictionary build --config ./src/index.js",
-    "test": "jest"
+    "prebuild": "svgo -f assets/icons --config=./src/config/svgo.json --quiet",
+    "test": "jest",
+    "webfont": "webfont"
   },
   "publishConfig": {
     "access": "public"
