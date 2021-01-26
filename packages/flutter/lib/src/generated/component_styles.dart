@@ -104,7 +104,7 @@ class AppBarStyles {
   static const colorDefaultBackgroundColor = const Color(0xFFFFFFFF);
 
   /// Specific AppBar height for web
-  static const toolbarHeight = 56.00;
+  static const regularToolbarMinHeight = 56.00;
 }
 
 class BottomSheetStyles {
