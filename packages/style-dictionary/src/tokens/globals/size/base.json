@@ -45,6 +45,10 @@
         "comment": "Commonly used for button min height",
         "value": 64
       },
+      "ninefold": {
+        "comment": "Commonly used for bottom sheet min height",
+        "value": 72
+      },
       "thirtyOneFold": {
         "comment": "Button max width",
         "value": 248
