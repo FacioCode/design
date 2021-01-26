@@ -62,6 +62,8 @@
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"build-storybook": "build-storybook -c ./.storybook --quiet -o ./dist-storybook",
+    "chromatic": "chromatic --output-dir dist-storybook",
+    "chromatic-ci": "npm run chromatic --exit-once-uploaded",
 		"clean": "rm -rf dist/",
 		"compile": "npm run rollup && npm run emitDeclaration",
 		"emitDeclaration": "tsc --declaration --declarationDir dist --emitDeclarationOnly",
