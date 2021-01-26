@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-npm install -g
+npm install -g npm@latest
+npm install -g lerna
 npm ci --no-optional
 lerna bootstrap
 npm run build
