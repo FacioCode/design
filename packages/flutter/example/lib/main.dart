@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return FDSCanvas(
+    return FacioScaffold(
         appBarColor: Colors.white,
         hasAppBarLogo: true,
         appBarLogoutOnPressed: () => null,

@@ -2,8 +2,8 @@ import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class FDSCanvas extends StatelessWidget {
-  const FDSCanvas({
+class FacioScaffold extends StatelessWidget {
+  const FacioScaffold({
     final Key key,
     @required final Widget child,
     final List<Widget> appBarActions,
@@ -69,7 +69,7 @@ class FDSCanvas extends StatelessWidget {
         backgroundColor: _appBarColor,
         brightness: Brightness.light,
         elevation: _elevation,
-        title: _hasAppBarLogo ? FDSIcons.logoPrimary : _appBarTitle,
+        title: _hasAppBarLogo ? FacioSvgImages.logoDark : _appBarTitle,
         centerTitle: true,
         leading: _hasBackButton
             ? BackButton(
