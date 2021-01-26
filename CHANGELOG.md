@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/FacioCode/design/compare/v3.1.0...v3.1.1) (2021-01-26)
+
+**Note:** Version bump only for package @faciocode/design
+
+
+
+
+
+# [3.1.0](https://github.com/FacioCode/design/compare/v3.0.1...v3.1.0) (2021-01-26)
+
+
+### Features
+
+* **mui-themes:** set default props for `MuiAppBar` ([6b50f68](https://github.com/FacioCode/design/commit/6b50f685a9fc235981d2be0cc06b6cccc6fd6181))
+* **mui-themes:** set default props for `MuiAppBar` and `MuiToolbar` ([736322c](https://github.com/FacioCode/design/commit/736322c59774a2c37c6a8fc403397d2425a5f0e5))
+
+
+
+
+
 ## [3.0.1](https://github.com/FacioCode/design/compare/v3.0.0...v3.0.1) (2021-01-26)
 
 **Note:** Version bump only for package @faciocode/design
