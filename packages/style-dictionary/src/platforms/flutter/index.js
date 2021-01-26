@@ -17,8 +17,8 @@ const textTheme = require("./textTheme");
 const generatedFilesPath = "lib/src/generated";
 
 const flutter = {
-  actions: ["copy_assets"],
-  buildPath: path.join(__dirname, "..", "..", "..", "..", "flutter").concat("/"),
+  actions: ["copy_assets", "create_icon_font"],
+  buildPath: "../flutter/",
   files: [
     {
       destination: "pubspec.yaml",
@@ -36,6 +36,24 @@ const flutter = {
         return category === "component" && type !== "typography";
       },
       format: "flutter/component_styles.dart",
+      packageName,
+    },
+    {
+      destination: `${generatedFilesPath}/images.dart`,
+      filter: ({ attributes }) => attributes.category === "asset" && attributes.type === "image",
+      format: "flutter/svg_picture_class.dart",
+      options: {
+        className: "FacioImages",
+      },
+      packageName,
+    },
+    {
+      destination: `${generatedFilesPath}/svg_icons.dart`,
+      filter: ({ attributes }) => attributes.category === "asset" && attributes.type === "icon",
+      format: "flutter/svg_picture_class.dart",
+      options: {
+        className: "FacioSvgIcons",
+      },
       packageName,
     },
 
