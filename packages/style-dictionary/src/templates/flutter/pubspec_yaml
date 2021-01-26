@@ -35,6 +35,6 @@ if(typeof ttf === "undefined") { return null; }
 %>
         - asset: <%= ttf && ttf.value %>
           style: <%= style && style.value %>
-          weight: <%= weight && weight.value %><%
+          weight: <%= weight && _.trim(weight.value, "\"") %><%
 }) // end forEach fontStyle
 }) // end forEach fontFamily %>
