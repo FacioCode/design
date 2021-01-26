@@ -1,11 +1,8 @@
 {
   "component": {
     "appBar": {
-      "root": {
-        "height": {
-          "comment": "Specific AppBar height for web",
-          "value": "{size.base.sevenfold.value}"
-        }
+      "colorTransparent": {
+        "color": { "value": "{color.base.transparent.00.value}" }
       }
     }
   }
