@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/FacioCode/design/compare/v3.1.3...v3.2.0) (2021-01-27)
+
+
+### Features
+
+* **flutter:** add tokens for form helper text, add margin for filled input ([fbb2f91](https://github.com/FacioCode/design/commit/fbb2f917d7779ce4b68f7ce8c495e784bb16a70f))
+
+
+
+## [3.1.2](https://github.com/FacioCode/design/compare/v3.1.1...v3.1.2) (2021-01-26)
+
+
+
+
+
 ## [3.1.3](https://github.com/FacioCode/design/compare/v3.1.2...v3.1.3) (2021-01-26)
 
 **Note:** Version bump only for package facio_design_system

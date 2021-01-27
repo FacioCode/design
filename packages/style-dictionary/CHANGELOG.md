@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/FacioCode/design/compare/v3.1.3...v3.2.0) (2021-01-27)
+
+
+### Features
+
+* **style-dictionary:** add component tokens for form helper text ([49a2153](https://github.com/FacioCode/design/commit/49a2153754b36c89f6af7c1268c005af408cd474))
+* **style-dictionary:** add margin bottom token for filled input ([9e9cefd](https://github.com/FacioCode/design/commit/9e9cefd02424655e7b0717fc84e187ed0af78709))
+
+
+
+## [3.1.2](https://github.com/FacioCode/design/compare/v3.1.1...v3.1.2) (2021-01-26)
+
+
+
+
+
 ## [3.1.3](https://github.com/FacioCode/design/compare/v3.1.2...v3.1.3) (2021-01-26)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

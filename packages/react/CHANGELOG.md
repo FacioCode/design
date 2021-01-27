@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/FacioCode/design/compare/v3.1.3...v3.2.0) (2021-01-27)
+
+
+### Features
+
+* **react:** add new "large" `size` property for `TextField` ([b639f40](https://github.com/FacioCode/design/commit/b639f40b2c3ff86b516fca184c3948f76f5d6300))
+
+
+
+## [3.1.2](https://github.com/FacioCode/design/compare/v3.1.1...v3.1.2) (2021-01-26)
+
+
+
+
+
 ## [3.1.3](https://github.com/FacioCode/design/compare/v3.1.2...v3.1.3) (2021-01-26)
 
 **Note:** Version bump only for package @faciocode/react

@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/FacioCode/design/compare/v3.1.3...v3.2.0) (2021-01-27)
+
+
+### Features
+
+* **mui-themes:** add overrides for `MuiFormHelperText` ([e822e16](https://github.com/FacioCode/design/commit/e822e1693686fed2b50737703f36dd7f541cb0e2))
+
+
+
+## [3.1.2](https://github.com/FacioCode/design/compare/v3.1.1...v3.1.2) (2021-01-26)
+
+
+
+
+
 ## [3.1.3](https://github.com/FacioCode/design/compare/v3.1.2...v3.1.3) (2021-01-26)
 
 **Note:** Version bump only for package @faciocode/mui-themes
