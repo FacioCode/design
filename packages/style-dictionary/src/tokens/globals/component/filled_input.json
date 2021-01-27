@@ -10,7 +10,8 @@
           "value": "{size.border.radius.single.value}"
         },
         "borderTopLeftRadius": { "value": "{size.border.radius.single.value}" },
-        "borderTopRightRadius": { "value": "{size.border.radius.single.value}" }
+        "borderTopRightRadius": { "value": "{size.border.radius.single.value}" },
+        "marginBottom": { "value": "{size.base.single.value}" }
       }
     }
   }
