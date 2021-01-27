@@ -39,20 +39,6 @@ Placeholder.args = {
   placeholder: "Only numbers",
 };
 
-export const Email : Story<TextFieldProps> = Template.bind({});
-Email.args = {
-  id: "email",
-  label: "E-mail address",
-  type: "email",
-};
-
-export const Password : Story<TextFieldProps> = Template.bind({});
-Password.args = {
-  id: "password",
-  label: "Password",
-  type: "password",
-};
-
 export const Multiline : Story<TextFieldProps> = Template.bind({});
 Multiline.args = {
   id: "multiline",
@@ -77,4 +63,50 @@ CurrencyWithoutCents.args = {
   id: "currency",
   label: "Amount",
   type: "number",
+};
+
+export const LargeUnderline : Story<TextFieldProps> = Template.bind({});
+LargeUnderline.args = {
+  helperText: "Helper text for large with underline",
+  id: "large-underline",
+  label: "Large underline label",
+  size: "large",
+  variant: "underline",
+};
+
+export const LargeFilled : Story<TextFieldProps> = Template.bind({});
+LargeFilled.args = {
+  helperText: "Helper text for large input",
+  id: "large-filled",
+  label: "Large filled label",
+  size: "large",
+  variant: "filled",
+};
+
+export const DisabledLargeFilled : Story<TextFieldProps> = Template.bind({});
+DisabledLargeFilled.args = {
+  ...LargeFilled.args,
+  disabled: true,
+  id: "disabled-large-filled",
+};
+
+export const ErrorLargeFilled : Story<TextFieldProps> = Template.bind({});
+ErrorLargeFilled.args = {
+  ...LargeFilled.args,
+  error: true,
+  id: "error-large-filled",
+};
+
+export const FullWidthLargeFilled : Story<TextFieldProps> = Template.bind({});
+FullWidthLargeFilled.args = {
+  ...LargeFilled.args,
+  fullWidth: true,
+  id: "full-width-large-filled",
+};
+
+export const RequiredLargeFilled : Story<TextFieldProps> = Template.bind({});
+RequiredLargeFilled.args = {
+  ...LargeFilled.args,
+  id: "required-large-filled",
+  required: true,
 };
