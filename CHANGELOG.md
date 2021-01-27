@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/FacioCode/design/compare/v3.2.1...v4.0.0) (2021-01-27)
+
+
+### Features
+
+* **flutter:** add masks to FacioInputField and make it more generic ([01cc8bc](https://github.com/FacioCode/design/commit/01cc8bcdd94b015a0dd3fedcb3ee6b9b94a9a279))
+
+
+### BREAKING CHANGES
+
+* **flutter:** strictInput parameter has been changed to inputType enum in FacioInputField.
+
+
+
+
+
 ## [3.2.1](https://github.com/FacioCode/design/compare/v3.2.0...v3.2.1) (2021-01-27)
 
 
