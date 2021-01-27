@@ -37,9 +37,6 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
-      - name: Build Storybook
-        run: npm run build-storybook
-        working-directory: ./packages/react
       - name: Cache pubspec file
         uses: actions/cache@v2
         env:
