@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/FacioCode/design/compare/v3.1.3...v3.2.0) (2021-01-27)
+
+
+### Features
+
+* **flutter:** add tokens for form helper text, add margin for filled input ([fbb2f91](https://github.com/FacioCode/design/commit/fbb2f917d7779ce4b68f7ce8c495e784bb16a70f))
+* **mui-themes:** add overrides for `MuiFormHelperText` ([e822e16](https://github.com/FacioCode/design/commit/e822e1693686fed2b50737703f36dd7f541cb0e2))
+* **react:** add new "large" `size` property for `TextField` ([b639f40](https://github.com/FacioCode/design/commit/b639f40b2c3ff86b516fca184c3948f76f5d6300))
+* **style-dictionary:** add component tokens for form helper text ([49a2153](https://github.com/FacioCode/design/commit/49a2153754b36c89f6af7c1268c005af408cd474))
+* **style-dictionary:** add margin bottom token for filled input ([9e9cefd](https://github.com/FacioCode/design/commit/9e9cefd02424655e7b0717fc84e187ed0af78709))
+* **styles:** add component tokens for filled input and form helper text ([2081dc9](https://github.com/FacioCode/design/commit/2081dc9a3799199c7e813a14f8a1ec50ea3f673c))
+
+
+
+## [3.1.2](https://github.com/FacioCode/design/compare/v3.1.1...v3.1.2) (2021-01-26)
+
+
+
+## [3.1.1](https://github.com/FacioCode/design/compare/v3.0.1...v3.1.1) (2021-01-26)
+
+
+### Features
+
+* **mui-themes:** set default props for `MuiAppBar` ([6b50f68](https://github.com/FacioCode/design/commit/6b50f685a9fc235981d2be0cc06b6cccc6fd6181))
+* **mui-themes:** set default props for `MuiAppBar` and `MuiToolbar` ([736322c](https://github.com/FacioCode/design/commit/736322c59774a2c37c6a8fc403397d2425a5f0e5))
+
+
+
+## 3.0.1 (2021-01-26)
+
+
+
+
+
 ## [3.1.3](https://github.com/FacioCode/design/compare/v3.1.2...v3.1.3) (2021-01-26)
 
 
