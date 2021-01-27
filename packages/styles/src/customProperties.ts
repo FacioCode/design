@@ -801,6 +801,76 @@ export const filledInputStyles = {
      */
     borderTopRightRadius: "var(--component-filled-input-root-border-top-right-radius, 8px)",
 
+
+    /**
+     * Margin Bottom for Filled Input Root
+     */
+    marginBottom: "var(--component-filled-input-root-margin-bottom, 8px)",
+
+  },
+
+};
+
+export const formHelperTextStyles = {
+
+  root: {
+
+    /**
+     * Color for Form Helper Text Root
+     */
+    color: "var(--component-form-helper-text-root-color, #424d5c)",
+
+
+    /**
+     * Font Family for Form Helper Text Root
+     */
+    fontFamily: "var(--component-form-helper-text-root-font-family, Open Sans, sans-serif)",
+
+
+    /**
+     * Font Size for Form Helper Text Root
+     */
+    fontSize: "var(--component-form-helper-text-root-font-size, 0.875rem)",
+
+
+    /**
+     * Font Weight for Form Helper Text Root
+     */
+    fontWeight: "var(--component-form-helper-text-root-font-weight, 400)",
+
+
+    /**
+     * Letter Spacing for Form Helper Text Root
+     */
+    letterSpacing: "var(--component-form-helper-text-root-letter-spacing, -0.15px)",
+
+
+    /**
+     * Line Height for Form Helper Text Root
+     */
+    lineHeight: "var(--component-form-helper-text-root-line-height, 1.5em)",
+
+
+    /**
+     * Margin Top for Form Helper Text Root
+     */
+    marginTop: "var(--component-form-helper-text-root-margin-top, 0px)",
+
+  },
+
+  contained: {
+
+    /**
+     * Margin Left for Form Helper Text Contained
+     */
+    marginLeft: "var(--component-form-helper-text-contained-margin-left, 0px)",
+
+
+    /**
+     * Margin Right for Form Helper Text Contained
+     */
+    marginRight: "var(--component-form-helper-text-contained-margin-right, 0px)",
+
   },
 
 };
