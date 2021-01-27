@@ -36,7 +36,9 @@ class MyHomePage extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
-                        FacioInputField(hintText: 'FacioInputField'),
+                        FacioInputField(
+                            hintText: 'FacioInputField',
+                            inputType: InputType.currency),
                         SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
                             title: 'small/contained/brand',
