@@ -361,6 +361,40 @@ class FilledInputStyles {
 
   /// Border Top Right Radius for Filled Input
   static const borderTopRightRadius = 8.00;
+
+  /// Margin Bottom for Filled Input
+  static const marginBottom = 8.00;
+}
+
+class FormHelperTextStyles {
+  FormHelperTextStyles._();
+
+  /// Color for Form Helper Text
+  static const color = const Color(0xFF424D5C);
+
+  /// Font Family for Form Helper Text
+  static const fontFamily = "Open Sans";
+
+  /// Font Size for Form Helper Text
+  static const fontSize = 14.00;
+
+  /// Font Weight for Form Helper Text
+  static const fontWeight = FontWeight.w400;
+
+  /// Letter Spacing for Form Helper Text
+  static const letterSpacing = -0.15;
+
+  /// Line Height for Form Helper Text
+  static const lineHeight = 1.71428571429;
+
+  /// Margin Top for Form Helper Text
+  static const marginTop = 0.00;
+
+  /// Margin Left for Contained
+  static const containedMarginLeft = 0.00;
+
+  /// Margin Right for Contained
+  static const containedMarginRight = 0.00;
 }
 
 class FormLabelStyles {
