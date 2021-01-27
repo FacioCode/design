@@ -109,6 +109,10 @@ export const overrides : ThemeOptions["overrides"] = {
       "&$disabled": customProperties.formLabelStyles.disabled,
     } as CSSProperties,
   },
+  MuiFormHelperText: {
+    contained: customProperties.formHelperTextStyles.contained,
+    root: customProperties.formHelperTextStyles.root as CSSProperties,
+  },
   MuiIconButton: {
     root: {
       ...customProperties.iconButtonStyles.root,
