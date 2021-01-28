@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:facio_design_system/components.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +22,8 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
+  final StreamController<String> _stream = StreamController<String>.broadcast();
+
   @override
   Widget build(BuildContext context) {
     return FacioScaffold(
@@ -36,19 +40,27 @@ class MyHomePage extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
-                        FacioInputField(
-                            hintText: 'FacioInputField',
-                            inputType: InputType.currency),
+                        StreamBuilder<String>(
+                            stream: _stream.stream,
+                            builder: (context, snapshot) {
+                              return FacioInputField(
+                                  hintText: 'FacioInputField',
+                                  inputType: InputType.currency,
+                                  errorMessage: snapshot.data);
+                            }),
                         SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
                             title: 'small/contained/brand',
                             color: ContainedButtonColor.brand,
-                            onPressed: () => null),
+                            onPressed: () => {
+                                  _stream.add(
+                                      'Ops! Não encontramos um cadastro com esse número. Se ele estiver correto, entre em contato para atualiza-lo.')
+                                }),
                         SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
                             title: 'small/contained/danger',
                             color: ContainedButtonColor.danger,
-                            onPressed: () => null),
+                            onPressed: () => {_stream.add(null)}),
                         SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
                             title: 'small/contained/default',
