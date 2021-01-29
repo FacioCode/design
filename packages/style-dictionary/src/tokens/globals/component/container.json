@@ -1,0 +1,14 @@
+{
+  "component": {
+    "container": {
+      "root": {
+        "paddingLeft": { "value": "{size.base.double.value}" },
+        "paddingRight": { "value": "{size.base.double.value}" }
+      },
+      "disableGutters": {
+        "paddingLeft": { "value": "{size.base.none.value}" },
+        "paddingRight": { "value": "{size.base.none.value}" }
+      }
+    }
+  }
+}
