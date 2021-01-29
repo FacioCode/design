@@ -8,5 +8,5 @@ export interface ButtonGroupProps extends Omit<MaterialButtonGroupProps, ButtonO
    * @optional
    * @type "small" | "medium"
    */
-  size: ButtonSize
+  size?: ButtonSize
 }
