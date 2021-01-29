@@ -90,6 +90,9 @@
           "comment": "Line height is 16. Font size is 12. 16/12 = 1.33333333333",
           "value": 1.33333333333
         }
+      },
+      "inputLarge": {
+        "fontSize": { "value": "{size.font.headline2.fontSize.value}" }
       }
     }
   }

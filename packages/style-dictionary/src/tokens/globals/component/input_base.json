@@ -2,7 +2,18 @@
   "component": {
     "inputBase": {
       "root": {
-        "color": { "value": "{color.font.primary.value}" }
+        "comment": "Styles independent of input size",
+        "color": { "value": "{color.font.primary.value}" },
+        "marginBottom": { "value": "{size.base.single.value}" }
+      },
+      "input": {
+        "comment": "Height and padding must be set separately for medium and large inputs",
+        "border": { "value": "{size.border.width.none.value}" },
+        "margin": { "value": "{size.base.none.value}" },
+        "minWidth": {
+          "comment": "Make the flex item shrink with Firefox",
+          "value": "{size.base.none.value}"
+        }
       },
       "placeholder": {
         "color": { "value": "{color.font.placeholder.value}" },
@@ -11,9 +22,24 @@
       "medium": {
         "comment": "Useful when user is checking/editing info, with two or more inputs per screen.",
         "fontSize": {
-          "comment": "Font size is the same of headline, formerly headline.",
+          "comment": "Font size is the same of headline5",
           "value": "{component.typography.headline5.fontSize.value}"
         }
+      },
+      "inputMedium": {
+        "comment": "Font size is set at root level",
+        "height": { "value": "{size.base.triple.value}" },
+        "lineHeight": { "value": "{size.base.triple.value}" }
+      },
+      "large": {
+        "fontSize": {
+          "comment": "Large input font size must be 28 por Flutter and web",
+          "value": "{size.font.inputLarge.fontSize.value}"
+        }
+      },
+      "inputLarge": {
+        "height": { "value": "{size.base.fivefold.value}" },
+        "lineHeight": { "value": "{size.base.fivefold.value}" }
       }
     }
   }

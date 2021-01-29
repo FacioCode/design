@@ -106,14 +106,8 @@
         "letterSpacing": { "value": 0 },
         "lineHeight": { "value": 1 }
       },
-      "input": {
-        "lineHeight": { "value": 1.4375 }
-      },
       "inputLarge": {
-        "lineHeight": { "value": 1.75 }
-      },
-      "formLabel": {
-        "lineHeight": { "value": 1 }
+        "fontSize": { "value": "{size.base.tripleHalf.value}" }
       }
     }
   }
