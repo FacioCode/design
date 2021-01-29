@@ -27,6 +27,10 @@
         "comment": "Commonly used for button label height",
         "value": 24
       },
+      "tripleHalf": {
+        "comment": "Used for medium input top padding",
+        "value": 28
+      },
       "quadruple": {
         "comment": "Formerly used for small button height.",
         "value": 32
@@ -35,7 +39,10 @@
         "comment": "After some experiments, this is the new small button size",
         "value": 36
       },
-      "fivefold": { "value": 40 },
+      "fivefold": {
+        "comment": "Used for large input height",
+        "value": 40
+      },
       "sixfold": { "value": 48 },
       "sevenfold": {
         "comment": "Commonly used for app bar height",
