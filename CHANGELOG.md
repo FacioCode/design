@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.1](https://github.com/FacioCode/design/compare/v4.1.0...v4.1.1) (2021-01-29)
+
+
+### Bug Fixes
+
+* **react:** make `ButtonGroup` component importable ([569f876](https://github.com/FacioCode/design/commit/569f876f474da6b60e7ef48b5b33b55c938f5449))
+* **react:** make size property optional on `ButtonGroup` ([b768046](https://github.com/FacioCode/design/commit/b7680462886f4cfc78d2bd6cac6d3a72328d81ad))
+
+
+
+
+
 # [4.1.0](https://github.com/FacioCode/design/compare/v4.0.2...v4.1.0) (2021-01-29)
 
 
