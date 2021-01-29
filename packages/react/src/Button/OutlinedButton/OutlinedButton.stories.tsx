@@ -29,3 +29,9 @@ Small.args = {
   ...Playground.args,
   size: "small",
 };
+
+export const SmallDisabled : Story<OutlinedButtonProps> = Template.bind({});
+SmallDisabled.args = {
+  ...Small.args,
+  disabled: true,
+};
