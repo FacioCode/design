@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { CurrencyProps } from "./Currency.types";
-import useStyles from "./Currency.styles";
 import clsx from "clsx";
+import useStyles from "./Currency.styles";
 
 type Render = (props: CurrencyProps, ref: CurrencyProps["ref"]) => JSX.Element;
 
@@ -30,7 +30,6 @@ const render : Render = (props, ref) => {
 };
 
 export const Currency = React.forwardRef(render);
-
 Currency.displayName = "Currency";
 
 export default Currency;
