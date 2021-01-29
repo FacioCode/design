@@ -14,8 +14,24 @@ const Template : Story<TextFieldProps> = (props: TextFieldProps) => (
 
 export const Playground : Story<TextFieldProps> = Template.bind({});
 Playground.args = {
+  helperText: "Helper text",
   id: "playground",
   label: "Label",
+};
+
+export const Large : Story<TextFieldProps> = Template.bind({});
+Large.args = {
+  helperText: "Helper text for large input",
+  id: "large-playground",
+  label: "Large label",
+  size: "large",
+};
+Large.parameters = {
+  docs: {
+    description: {
+      story: "Large inputs are useful when we are asking for one information per time, one field per screen.",
+    },
+  },
 };
 
 export const Focused : Story<TextFieldProps> = Template.bind({});
@@ -54,6 +70,13 @@ Disabled.args = {
   label: "Disabled",
 };
 
+export const DisabledLarge : Story<TextFieldProps> = Template.bind({});
+DisabledLarge.args = {
+  ...Large.args,
+  disabled: true,
+  id: "disabled-large",
+};
+
 export const CurrencyWithoutCents : Story<TextFieldProps> = Template.bind({});
 CurrencyWithoutCents.args = {
   InputProps: {
@@ -65,48 +88,39 @@ CurrencyWithoutCents.args = {
   type: "number",
 };
 
+export const Error : Story<TextFieldProps> = Template.bind({});
+Error.args = {
+  ...Playground.args,
+  error: true,
+  id: "error",
+};
+
+export const ErrorLarge : Story<TextFieldProps> = Template.bind({});
+ErrorLarge.args = {
+  ...Large.args,
+  error: true,
+  id: "error-large",
+};
+
+export const FullWidthLarge : Story<TextFieldProps> = Template.bind({});
+FullWidthLarge.args = {
+  ...Large.args,
+  fullWidth: true,
+  id: "full-width-large",
+};
+
+export const RequiredLarge : Story<TextFieldProps> = Template.bind({});
+RequiredLarge.args = {
+  ...Large.args,
+  id: "required-large",
+  required: true,
+};
+
 export const LargeUnderline : Story<TextFieldProps> = Template.bind({});
 LargeUnderline.args = {
+  ...Large.args,
   helperText: "Helper text for large with underline",
   id: "large-underline",
   label: "Large underline label",
-  size: "large",
   variant: "underline",
-};
-
-export const LargeFilled : Story<TextFieldProps> = Template.bind({});
-LargeFilled.args = {
-  helperText: "Helper text for large input",
-  id: "large-filled",
-  label: "Large filled label",
-  size: "large",
-  variant: "filled",
-};
-
-export const DisabledLargeFilled : Story<TextFieldProps> = Template.bind({});
-DisabledLargeFilled.args = {
-  ...LargeFilled.args,
-  disabled: true,
-  id: "disabled-large-filled",
-};
-
-export const ErrorLargeFilled : Story<TextFieldProps> = Template.bind({});
-ErrorLargeFilled.args = {
-  ...LargeFilled.args,
-  error: true,
-  id: "error-large-filled",
-};
-
-export const FullWidthLargeFilled : Story<TextFieldProps> = Template.bind({});
-FullWidthLargeFilled.args = {
-  ...LargeFilled.args,
-  fullWidth: true,
-  id: "full-width-large-filled",
-};
-
-export const RequiredLargeFilled : Story<TextFieldProps> = Template.bind({});
-RequiredLargeFilled.args = {
-  ...LargeFilled.args,
-  id: "required-large-filled",
-  required: true,
 };

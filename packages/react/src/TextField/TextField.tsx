@@ -1,33 +1,15 @@
 import * as React from "react";
-import {
-  FilledInput,
-  FormControl, FormHelperText,
-  TextField as MaterialTextField,
-} from "@material-ui/core";
 import type { MaterialTextFieldVariant, TextFieldProps } from "./TextField.types";
-import { FormLabel } from "../FormLabel";
-import { Input } from "../Input";
+import { TextField as MaterialTextField } from "@material-ui/core";
+import clsx from "clsx";
+import { useStyles } from "./TextField.styles";
 
 type Render = (props: TextFieldProps, ref: TextFieldProps["ref"]) => JSX.Element;
 
-const variantComponent : Record<TextFieldProps["variant"], React.ElementType> = {
-  filled: FilledInput,
-  underline: Input,
-};
-
 const render : Render = (props, ref) => {
   const {
-    FormHelperTextProps,
-    InputLabelProps,
+    className,
     InputProps,
-    defaultValue,
-    helperText,
-    id,
-    label,
-    onBlur,
-    onChange,
-    onFocus,
-    required,
     size = "medium",
     variant = "filled",
     ...otherProps
@@ -39,72 +21,26 @@ const render : Render = (props, ref) => {
     mappedVariant = "standard";
   }
 
-  const additionalInputProps = { disableUnderline: variant === "filled" };
-  const finalInputProps = { ...InputProps, ...additionalInputProps };
+  const { labelLarge, large, inputLarge } = useStyles();
 
-  if (size === "large") {
-    const InputComponent = variantComponent[variant];
+  const additionalInputProps = {
+    className: clsx({ [large]: size === "large" }),
+    disableUnderline: variant === "filled",
+  };
 
-    let helperTextId = null;
-    let inputLabelId = null;
-
-    if (label && id) {
-      inputLabelId = `${id}-label`;
-    }
-
-    if (helperText && id) {
-      helperTextId = `${id}-helper-text`;
-    }
-
-    const InputElement: JSX.Element = (
-      <InputComponent
-        aria-describedby={helperTextId}
-        defaultValue={defaultValue}
-        id={id}
-        inputProps={{
-          "aria-labelledby": inputLabelId,
-        }}
-        onBlur={onBlur}
-        onChange={onChange}
-        onFocus={onFocus}
-        required={required}
-        {...otherProps}
-        {...finalInputProps}
-      />
-    );
-
-    return (
-      <FormControl required={required} variant={mappedVariant} {...otherProps}>
-        {label && (
-          <FormLabel htmlFor={id} id={inputLabelId} {...InputLabelProps}>
-            {label}
-          </FormLabel>
-        )}
-        {InputElement}
-        {helperText && (
-          <FormHelperText id={helperTextId} {...FormHelperTextProps}>
-            {helperText}
-          </FormHelperText>
-        )}
-      </FormControl>
-    );
-  }
+  const finalInputProps = {
+    ...InputProps,
+    ...additionalInputProps,
+  };
 
   return (
     <MaterialTextField
       {...otherProps}
-      FormHelperTextProps={FormHelperTextProps}
-      InputLabelProps={InputLabelProps}
+      className={className}
+      InputLabelProps={{ className: clsx({ [labelLarge]: size === "large" }) }}
       InputProps={finalInputProps}
-      defaultValue={defaultValue}
-      helperText={helperText}
-      id={id}
-      label={label}
-      onBlur={onBlur}
-      onChange={onChange}
-      onFocus={onFocus}
+      inputProps={{ className: clsx({ [inputLarge]: size === "large" }) }}
       ref={ref}
-      required={required}
       variant={mappedVariant}
     />
   );
