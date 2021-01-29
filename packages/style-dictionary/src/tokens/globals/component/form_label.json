@@ -9,6 +9,7 @@
         "fontWeight": { "value": "{component.typography.subtitle1.fontWeight.value}" },
         "letterSpacing": { "value": "{component.typography.subtitle1.letterSpacing.value}" },
         "lineHeight": { "value": "{component.typography.subtitle1.lineHeight.value}" },
+        "marginLeft": { "value": "{size.base.none.value}" },
         "padding": { "value": "{size.base.none.value}" }
       },
       "disabled": {
