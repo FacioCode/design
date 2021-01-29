@@ -1,0 +1,9 @@
+{
+  "component": {
+    "formLabel": {
+      "root": {
+        "marginBottom": { "value": "{size.base.single.value}" }
+      }
+    }
+  }
+}
