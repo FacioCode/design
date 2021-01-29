@@ -749,6 +749,40 @@ export const containedButtonStyles = {
 
 };
 
+export const containerStyles = {
+
+  root: {
+
+    /**
+     * Padding Left for Container Root
+     */
+    paddingLeft: "var(--component-container-root-padding-left, 16px)",
+
+
+    /**
+     * Padding Right for Container Root
+     */
+    paddingRight: "var(--component-container-root-padding-right, 16px)",
+
+  },
+
+  disableGutters: {
+
+    /**
+     * Padding Left for Container Disable Gutters
+     */
+    paddingLeft: "var(--component-container-disable-gutters-padding-left, 0px)",
+
+
+    /**
+     * Padding Right for Container Disable Gutters
+     */
+    paddingRight: "var(--component-container-disable-gutters-padding-right, 0px)",
+
+  },
+
+};
+
 export const currencyStyles = {
 
   root: {
@@ -806,6 +840,183 @@ export const filledInputStyles = {
      * Margin Bottom for Filled Input Root
      */
     marginBottom: "var(--component-filled-input-root-margin-bottom, 8px)",
+
+
+    /**
+     * Medium and large inputs has the same height
+     */
+    minHeight: "var(--component-filled-input-root-min-height, 64px)",
+
+  },
+
+  label: {
+
+    /**
+     * Color for Filled Input Label
+     */
+    color: "var(--component-filled-input-label-color, #303846)",
+
+
+    /**
+     * Font Family for Filled Input Label
+     */
+    fontFamily: "var(--component-filled-input-label-font-family, Open Sans, sans-serif)",
+
+
+    /**
+     * Font Size for Filled Input Label
+     */
+    fontSize: "var(--component-filled-input-label-font-size, 0.75rem)",
+
+
+    /**
+     * Font Weight for Filled Input Label
+     */
+    fontWeight: "var(--component-filled-input-label-font-weight, 400)",
+
+
+    /**
+     * Height for Filled Input Label
+     */
+    height: "var(--component-filled-input-label-height, 16px)",
+
+
+    /**
+     * Letter Spacing for Filled Input Label
+     */
+    letterSpacing: "var(--component-filled-input-label-letter-spacing, 0px)",
+
+
+    /**
+     * Line Height for Filled Input Label
+     */
+    lineHeight: "var(--component-filled-input-label-line-height, 1em)",
+
+
+    /**
+     * Margin Bottom for Filled Input Label
+     */
+    marginBottom: "var(--component-filled-input-label-margin-bottom, 4px)",
+
+
+    /**
+     * Margin Left for Filled Input Label
+     */
+    marginLeft: "var(--component-filled-input-label-margin-left, 16px)",
+
+
+    /**
+     * TODO: Check if we will use double or single for label margin top
+     */
+    marginTop: "var(--component-filled-input-label-margin-top, 8px)",
+
+  },
+
+  input: {
+
+    /**
+     * Padding Bottom for Filled Input Input
+     */
+    paddingBottom: "var(--component-filled-input-input-padding-bottom, 12px)",
+
+
+    /**
+     * Padding Left for Filled Input Input
+     */
+    paddingLeft: "var(--component-filled-input-input-padding-left, 16px)",
+
+
+    /**
+     * Padding Right for Filled Input Input
+     */
+    paddingRight: "var(--component-filled-input-input-padding-right, 16px)",
+
+
+    /**
+     * Padding Top for Filled Input Input
+     */
+    paddingTop: "var(--component-filled-input-input-padding-top, 28px)",
+
+  },
+
+  multiline: {
+
+    /**
+     * Padding Bottom for Filled Input Multiline
+     */
+    paddingBottom: "var(--component-filled-input-multiline-padding-bottom, 12px)",
+
+
+    /**
+     * Padding Left for Filled Input Multiline
+     */
+    paddingLeft: "var(--component-filled-input-multiline-padding-left, 16px)",
+
+
+    /**
+     * Padding Right for Filled Input Multiline
+     */
+    paddingRight: "var(--component-filled-input-multiline-padding-right, 16px)",
+
+
+    /**
+     * Padding Top for Filled Input Multiline
+     */
+    paddingTop: "var(--component-filled-input-multiline-padding-top, 28px)",
+
+  },
+
+  inputMultiline: {
+
+    /**
+     * Padding Bottom for Filled Input Input Multiline
+     */
+    paddingBottom: "var(--component-filled-input-input-multiline-padding-bottom, 0px)",
+
+
+    /**
+     * Padding Left for Filled Input Input Multiline
+     */
+    paddingLeft: "var(--component-filled-input-input-multiline-padding-left, 0px)",
+
+
+    /**
+     * Padding Right for Filled Input Input Multiline
+     */
+    paddingRight: "var(--component-filled-input-input-multiline-padding-right, 0px)",
+
+
+    /**
+     * Padding Top for Filled Input Input Multiline
+     */
+    paddingTop: "var(--component-filled-input-input-multiline-padding-top, 0px)",
+
+  },
+
+  inputLarge: {
+
+    /**
+     * Padding Bottom for Filled Input Input Large
+     */
+    paddingBottom: "var(--component-filled-input-input-large-padding-bottom, 12px)",
+
+
+    /**
+     * Padding Left for Filled Input Input Large
+     */
+    paddingLeft: "var(--component-filled-input-input-large-padding-left, 16px)",
+
+
+    /**
+     * Padding Right for Filled Input Input Large
+     */
+    paddingRight: "var(--component-filled-input-input-large-padding-right, 16px)",
+
+
+    /**
+     * Padding Top for Filled Input Input Large
+     */
+    paddingTop: "var(--component-filled-input-input-large-padding-top, 12px)",
 
   },
 
@@ -916,9 +1127,21 @@ export const formLabelStyles = {
 
 
     /**
+     * Margin Left for Form Label Root
+     */
+    marginLeft: "var(--component-form-label-root-margin-left, 0px)",
+
+
+    /**
      * Padding for Form Label Root
      */
     padding: "var(--component-form-label-root-padding, 0px)",
+
+
+    /**
+     * Margin Bottom for Form Label Root
+     */
+    marginBottom: "var(--component-form-label-root-margin-bottom, 16px)",
 
   },
 
@@ -1077,9 +1300,30 @@ export const inputBaseStyles = {
 
 
     /**
-     * 23px
+     * Margin Bottom for Input Base Root
      */
-    lineHeight: "var(--component-input-base-root-line-height, 1.4375em)",
+    marginBottom: "var(--component-input-base-root-margin-bottom, 8px)",
+
+  },
+
+  input: {
+
+    /**
+     * Border for Input Base Input
+     */
+    border: "var(--component-input-base-input-border, 0px)",
+
+
+    /**
+     * Margin for Input Base Input
+     */
+    margin: "var(--component-input-base-input-margin, 0px)",
+
+
+    /**
+     * Make the flex item shrink with Firefox
+     */
+    minWidth: "var(--component-input-base-input-min-width, 0px)",
 
   },
 
@@ -1101,69 +1345,48 @@ export const inputBaseStyles = {
   medium: {
 
     /**
-     * Font size is the same of headline, formerly headline.
+     * Font size is the same of headline5
      */
     fontSize: "var(--component-input-base-medium-font-size, 1rem)",
 
   },
 
-  input: {
+  inputMedium: {
 
     /**
-     * Border for Input Base Input
+     * Height for Input Base Input Medium
      */
-    border: "var(--component-input-base-input-border, 0px)",
-
-
-    /**
-     * Reset 23px the native input line-height
-     */
-    height: "var(--component-input-base-input-height, 1.4375em)",
+    height: "var(--component-input-base-input-medium-height, 24px)",
 
 
     /**
-     * Margin for Input Base Input
+     * Line Height for Input Base Input Medium
      */
-    margin: "var(--component-input-base-input-margin, 0px)",
-
-
-    /**
-     * Make the flex item shrink with Firefox
-     */
-    minWidth: "var(--component-input-base-input-min-width, 0px)",
-
-
-    /**
-     * Padding Top for Input Base Input
-     */
-    paddingTop: "var(--component-input-base-input-padding-top, 4px)",
-
-
-    /**
-     * Padding Right for Input Base Input
-     */
-    paddingRight: "var(--component-input-base-input-padding-right, 0px)",
-
-
-    /**
-     * Padding Bottom for Input Base Input
-     */
-    paddingBottom: "var(--component-input-base-input-padding-bottom, 5px)",
-
-
-    /**
-     * Padding Left for Input Base Input
-     */
-    paddingLeft: "var(--component-input-base-input-padding-left, 0px)",
+    lineHeight: "var(--component-input-base-input-medium-line-height, 24px)",
 
   },
 
   large: {
 
     /**
-     * At web, 1.75em = 28px (inspired on Flutter largeInput size)
+     * Large input font size must be 28 por Flutter and web
      */
-    fontSize: "var(--component-input-base-large-font-size, 1.75em)",
+    fontSize: "var(--component-input-base-large-font-size, 28px)",
+
+  },
+
+  inputLarge: {
+
+    /**
+     * Height for Input Base Input Large
+     */
+    height: "var(--component-input-base-input-large-height, 40px)",
+
+
+    /**
+     * Line Height for Input Base Input Large
+     */
+    lineHeight: "var(--component-input-base-input-large-line-height, 40px)",
 
   },
 
@@ -1290,6 +1513,12 @@ export const outlinedButtonStyles = {
      * Background Color for Outlined Button Disabled
      */
     backgroundColor: "var(--component-outlined-button-disabled-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
+     * Border Color for Outlined Button Disabled
+     */
+    borderColor: "var(--component-outlined-button-disabled-border-color, #e2e3e4)",
 
 
     /**
