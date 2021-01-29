@@ -334,6 +334,22 @@ class ContainedButtonStyles {
   static const warningPressedColor = const Color(0xFF303846);
 }
 
+class ContainerStyles {
+  ContainerStyles._();
+
+  /// Padding Left for Container
+  static const paddingLeft = 16.00;
+
+  /// Padding Right for Container
+  static const paddingRight = 16.00;
+
+  /// Padding Left for Disable Gutters
+  static const disableGuttersPaddingLeft = 0.00;
+
+  /// Padding Right for Disable Gutters
+  static const disableGuttersPaddingRight = 0.00;
+}
+
 class CurrencyStyles {
   CurrencyStyles._();
 
@@ -364,6 +380,87 @@ class FilledInputStyles {
 
   /// Margin Bottom for Filled Input
   static const marginBottom = 8.00;
+
+  /// Medium and large inputs has the same height
+  static const minHeight = 64.00;
+
+  /// Color for Label
+  static const labelColor = const Color(0xFF303846);
+
+  /// Font Family for Label
+  static const labelFontFamily = "Open Sans";
+
+  /// Font Size for Label
+  static const labelFontSize = 12.00;
+
+  /// Font Weight for Label
+  static const labelFontWeight = FontWeight.w400;
+
+  /// Height for Label
+  static const labelHeight = 16.00;
+
+  /// Letter Spacing for Label
+  static const labelLetterSpacing = 0.00;
+
+  /// Line Height for Label
+  static const labelLineHeight = 1.33333333333;
+
+  /// Margin Bottom for Label
+  static const labelMarginBottom = 4.00;
+
+  /// Margin Left for Label
+  static const labelMarginLeft = 16.00;
+
+  /// TODO: Check if we will use double or single for label margin top
+  static const labelMarginTop = 8.00;
+
+  /// Padding Bottom for Input
+  static const inputPaddingBottom = 12.00;
+
+  /// Padding Left for Input
+  static const inputPaddingLeft = 16.00;
+
+  /// Padding Right for Input
+  static const inputPaddingRight = 16.00;
+
+  /// Padding Top for Input
+  static const inputPaddingTop = 28.00;
+
+  /// Padding Bottom for Multiline
+  static const multilinePaddingBottom = 12.00;
+
+  /// Padding Left for Multiline
+  static const multilinePaddingLeft = 16.00;
+
+  /// Padding Right for Multiline
+  static const multilinePaddingRight = 16.00;
+
+  /// Padding Top for Multiline
+  static const multilinePaddingTop = 28.00;
+
+  /// Padding Bottom for Input Multiline
+  static const inputMultilinePaddingBottom = 0.00;
+
+  /// Padding Left for Input Multiline
+  static const inputMultilinePaddingLeft = 0.00;
+
+  /// Padding Right for Input Multiline
+  static const inputMultilinePaddingRight = 0.00;
+
+  /// Padding Top for Input Multiline
+  static const inputMultilinePaddingTop = 0.00;
+
+  /// Padding Bottom for Input Large
+  static const inputLargePaddingBottom = 12.00;
+
+  /// Padding Left for Input Large
+  static const inputLargePaddingLeft = 16.00;
+
+  /// Padding Right for Input Large
+  static const inputLargePaddingRight = 16.00;
+
+  /// Padding Top for Input Large
+  static const inputLargePaddingTop = 12.00;
 }
 
 class FormHelperTextStyles {
@@ -418,8 +515,14 @@ class FormLabelStyles {
   /// Line Height for Form Label
   static const lineHeight = 1.6;
 
+  /// Margin Left for Form Label
+  static const marginLeft = 0.00;
+
   /// Padding for Form Label
   static const padding = 0.00;
+
+  /// Margin Bottom for Form Label
+  static const marginBottom = 8.00;
 
   /// Color for Disabled
   static const disabledColor = const Color(0xFFAFB4BB);
@@ -477,17 +580,41 @@ class InputBaseStyles {
   /// Color for Input Base
   static const color = const Color(0xFF424D5C);
 
+  /// Margin Bottom for Input Base
+  static const marginBottom = 8.00;
+
+  /// Border for Input
+  static const inputBorder = 0.00;
+
+  /// Margin for Input
+  static const inputMargin = 0.00;
+
+  /// Make the flex item shrink with Firefox
+  static const inputMinWidth = 0.00;
+
   /// Color for Placeholder
   static const placeholderColor = const Color(0xFFAFB4BB);
 
   /// Opacity for Placeholder
   static const placeholderOpacity = 1;
 
-  /// Font size is the same of headline, formerly headline.
+  /// Font size is the same of headline5
   static const mediumFontSize = 17.00;
 
-  /// Font size is the same of headline2, formerly title1.
+  /// Height for Input Medium
+  static const inputMediumHeight = 24.00;
+
+  /// Line Height for Input Medium
+  static const inputMediumLineHeight = 24.00;
+
+  /// Large input font size must be 28 por Flutter and web
   static const largeFontSize = 28.00;
+
+  /// Height for Input Large
+  static const inputLargeHeight = 40.00;
+
+  /// Line Height for Input Large
+  static const inputLargeLineHeight = 40.00;
 }
 
 class LabelStyles {
@@ -539,6 +666,9 @@ class OutlinedButtonStyles {
 
   /// Background Color for Disabled
   static const disabledBackgroundColor = const Color(0x00FFFFFF);
+
+  /// Border Color for Disabled
+  static const disabledBorderColor = Color(0xFFE2E3E4);
 
   /// Font color for outlined disabled buttons follows theme disabled font color
   static const disabledColor = const Color(0xFFAFB4BB);
