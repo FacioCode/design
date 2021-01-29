@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.2](https://github.com/FacioCode/design/compare/v4.1.1...v4.1.2) (2021-01-29)
+
+
+### Bug Fixes
+
+* **flutter:** don't keep input masks as static members so that there is no need to clean it on disposing ([1d5e86d](https://github.com/FacioCode/design/commit/1d5e86dcbe08f59046e9b0bbedc6c851f5f57e56))
+
+
+
+
+
 ## [4.1.1](https://github.com/FacioCode/design/compare/v4.1.0...v4.1.1) (2021-01-29)
 
 **Note:** Version bump only for package facio_design_system
