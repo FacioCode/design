@@ -27,6 +27,7 @@ class Sizes {
   static const baseSixfold = 48.00;
   static const baseThirtyOneFold = 248.00;
   static const baseTriple = 24.00;
+  static const baseTripleHalf = 28.00;
   static const borderRadiusDouble = 24.00;
   static const borderRadiusDoubleQuarter = 27.00;
   static const borderRadiusNone = 0.00;
@@ -68,6 +69,7 @@ class Sizes {
   static const fontHeadline5FontSize = 17.00;
   static const fontHeadline5LetterSpacing = -0.43;
   static const fontHeadline5LineHeight = 1.41176470588;
+  static const fontInputLargeFontSize = 28.00;
   static const fontSubtitleFontSize = 15.00;
   static const fontSubtitleLetterSpacing = -0.23;
   static const fontSubtitleLineHeight = 1.6;
