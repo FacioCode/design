@@ -11,7 +11,53 @@
         },
         "borderTopLeftRadius": { "value": "{size.border.radius.single.value}" },
         "borderTopRightRadius": { "value": "{size.border.radius.single.value}" },
-        "marginBottom": { "value": "{size.base.single.value}" }
+        "marginBottom": { "value": "{size.base.single.value}" },
+        "minHeight": {
+          "comment": "Medium and large inputs has the same height",
+          "value": "{size.base.eightfold.value}"
+        }
+      },
+      "label": {
+        "comment": "Label for medium input. Label uses caption typography definitions",
+        "color": { "value": "{component.typography.caption.color.value}" },
+        "fontFamily": { "value": "{component.typography.caption.fontFamily.value}" },
+        "fontSize": { "value": "{component.typography.caption.fontSize.value}" },
+        "fontWeight": { "value": "{component.typography.caption.fontWeight.value}" },
+        "height": { "value": "{size.base.double.value}" },
+        "letterSpacing": { "value": "{component.typography.caption.letterSpacing.value}" },
+        "lineHeight": { "value": "{component.typography.caption.lineHeight.value}" },
+        "marginBottom": { "value": "{size.base.half.value}" },
+        "marginLeft": { "value":  "{size.base.double.value}" },
+        "marginTop": {
+          "comment": "TODO: Check if we will use double or single for label margin top",
+          "value": "{size.base.single.value}"
+        }
+      },
+      "input": {
+        "paddingBottom": { "value": "{size.base.singleHalf.value}" },
+        "paddingLeft": { "value":  "{size.base.double.value}" },
+        "paddingRight": { "value": "{size.base.double.value}" },
+        "paddingTop": { "value": "{size.base.tripleHalf.value}" }
+      },
+      "multiline": {
+        "comment": "Multiline wrapper",
+        "paddingBottom": { "value": "{size.base.singleHalf.value}" },
+        "paddingLeft": { "value":  "{size.base.double.value}" },
+        "paddingRight": { "value": "{size.base.double.value}" },
+        "paddingTop": { "value": "{size.base.tripleHalf.value}" }
+      },
+      "inputMultiline": {
+        "comment": "Multiline textarea",
+        "paddingBottom": { "value": "{size.base.none.value}" },
+        "paddingLeft": { "value":  "{size.base.none.value}" },
+        "paddingRight": { "value": "{size.base.none.value}" },
+        "paddingTop": { "value": "{size.base.none.value}" }
+      },
+      "inputLarge": {
+        "paddingBottom": { "value": "{size.base.singleHalf.value}" },
+        "paddingLeft": { "value":  "{size.base.double.value}" },
+        "paddingRight": { "value":  "{size.base.double.value}" },
+        "paddingTop": { "value":  "{size.base.singleHalf.value}" }
       }
     }
   }
