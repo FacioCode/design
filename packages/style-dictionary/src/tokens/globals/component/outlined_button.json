@@ -12,7 +12,8 @@
         "color": { "value": "{color.font.primaryHighContrast.value}" }
       },
       "disabled": {
-        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
+        "backgroundColor": { "value": "{component.outlinedButton.default.backgroundColor.value}" },
+        "borderColor": { "value": "{component.outlinedButton.default.borderColor.value}" },
         "color": {
           "comment": "Font color for outlined disabled buttons follows theme disabled font color",
           "value": "{color.font.disabled.value}"
