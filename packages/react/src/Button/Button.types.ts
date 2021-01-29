@@ -1,9 +1,10 @@
 import { ButtonProps as MaterialButtonProps } from "@material-ui/core/Button";
 
-type ButtonSize = "small" | "medium";
+export type ButtonSize = "small" | "medium";
 
 export type ButtonOmittedProps =
   | "centerRipple"
+  | "classes"
   | "color"
   | "css"
   | "disableElevation"
@@ -21,6 +22,7 @@ export interface ButtonProps extends Omit<MaterialButtonProps, ButtonOmittedProp
     /**
      * @default "small"
      * @optional
+     * @type "small" | "medium"
      */
     size?: ButtonSize
 }
