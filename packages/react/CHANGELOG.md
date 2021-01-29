@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/FacioCode/design/compare/v4.0.2...v4.1.0) (2021-01-29)
+
+
+### Bug Fixes
+
+* **react:** fix/improve styling for large `TextField`s ([88b0f7a](https://github.com/FacioCode/design/commit/88b0f7ab2213c78834efaea77da28d1a9e65d404))
+* **react:** prevent type error with `Currency` `css` prop ([2c7b730](https://github.com/FacioCode/design/commit/2c7b730394f73dab4cb4b9869e5e54fc25b9de7b))
+* **react:** prevent type errors with `TableContainer` `component` prop ([2184f11](https://github.com/FacioCode/design/commit/2184f11d32a8f42de1c27701617b0f57abf086ae))
+
+
+### Features
+
+* **react:** add `ButtonGroup` component ([5970157](https://github.com/FacioCode/design/commit/5970157412aaf66d2867ac057e5fdb994905d8c8))
+* **react:** add `Container` component ([3877ae2](https://github.com/FacioCode/design/commit/3877ae26401ede5bf66ff41766425044839bb0f4))
+* **react:** add `FormHelperText` component ([b8047c5](https://github.com/FacioCode/design/commit/b8047c59fe51204e97ed7605c3108e6db309fe52))
+* **react:** add `InputLabel` component ([2824bee](https://github.com/FacioCode/design/commit/2824beef7edccb2830cdfcba45f37a71018dd18c))
+* **react:** add `Time` component ([5e96d3a](https://github.com/FacioCode/design/commit/5e96d3aea81355ee3c402ea748800cef8230e8b4))
+* **react:** add support for `size` prop on `InputBase` ([191fd42](https://github.com/FacioCode/design/commit/191fd427739234e4ea65dae0a8ca4df657cf6dc9))
+* **react:** add support to `size` property on `InputBase` component ([f46b258](https://github.com/FacioCode/design/commit/f46b25840d1868d0f7a99c6a3d458bca1e545346))
+* **react:** add support to named import for some components ([c0769cd](https://github.com/FacioCode/design/commit/c0769cd86792f24018204d00858802410a3cf1b8))
+
+
+
+
+
 ## [4.0.2](https://github.com/FacioCode/design/compare/v4.0.1...v4.0.2) (2021-01-28)
 
 **Note:** Version bump only for package @faciocode/react

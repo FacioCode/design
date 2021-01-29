@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/FacioCode/design/compare/v4.0.2...v4.1.0) (2021-01-29)
+
+
+### Features
+
+* **mui-themes:** add overrides for `MuiContainer` and inputs ([9e5febe](https://github.com/FacioCode/design/commit/9e5febe99192befb330960564b91f9940fad3fd6))
+
+
+
+
+
 ## [4.0.2](https://github.com/FacioCode/design/compare/v4.0.1...v4.0.2) (2021-01-28)
 
 **Note:** Version bump only for package @faciocode/mui-themes

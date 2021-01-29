@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/FacioCode/design/compare/v4.0.2...v4.1.0) (2021-01-29)
+
+
+### Features
+
+* **flutter:** add new `baseTripleHalf` and `fontInputLargeFontSize` size tokens ([ccc3367](https://github.com/FacioCode/design/commit/ccc33674681066abf94a610c92e23e220d303cd0))
+* **flutter:** add new style tokens for `Container`, `FilledInput`, ` FormHelperText` and `Label` ([aee675d](https://github.com/FacioCode/design/commit/aee675daeb7a85be14ebf7471b933cdfc477d3f0))
+
+
+
+
+
 ## [4.0.2](https://github.com/FacioCode/design/compare/v4.0.1...v4.0.2) (2021-01-28)
 
 

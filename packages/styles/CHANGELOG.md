@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/FacioCode/design/compare/v4.0.2...v4.1.0) (2021-01-29)
+
+
+### Features
+
+* **styles:** add `baseTripleHalf` and `fontInputLargeFontSize` size tokens ([d39d745](https://github.com/FacioCode/design/commit/d39d74521b5481313b645bf0a55da01819a0834d))
+* **styles:** add new style tokens for `Container` and form components ([6be6c34](https://github.com/FacioCode/design/commit/6be6c3441761fe09d79c4afbcdadeb0e8d76b2bf))
+
+
+
+
+
 ## [4.0.2](https://github.com/FacioCode/design/compare/v4.0.1...v4.0.2) (2021-01-28)
 
 **Note:** Version bump only for package @faciocode/styles

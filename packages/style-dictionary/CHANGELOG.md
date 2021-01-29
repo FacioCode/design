@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/FacioCode/design/compare/v4.0.2...v4.1.0) (2021-01-29)
+
+
+### Bug Fixes
+
+* **style-dictionary:** add missing border color token for disabled hover outlined button ([046ce50](https://github.com/FacioCode/design/commit/046ce509890793fd5969743b7cb70071770aeeef))
+* **style-dictionary:** add missing margin left token for form label ([915a29d](https://github.com/FacioCode/design/commit/915a29d7d76b02baafbd14247f2554dab747d7ae))
+* **style-dictionary:** adjust label margin bottom for web platform ([85c63cc](https://github.com/FacioCode/design/commit/85c63cca0ccd2c048192c69be01710241c9abddb))
+
+
+### Features
+
+* **style-dictionary:** add new `tripleHalf` and `fivefold` base size tokens ([001b536](https://github.com/FacioCode/design/commit/001b53674eb46cee6d4eadfa27f2f7025b1e80c5))
+* **style-dictionary:** add new container padding tokens ([a873f3a](https://github.com/FacioCode/design/commit/a873f3af6589ecdb1a97ca922d698775ba50b01d))
+* **style-dictionary:** add new style tokens for `inputBase` ([1465017](https://github.com/FacioCode/design/commit/14650177a299381c1a8661f965423b14df64ba47))
+* **style-dictionary:** add new tokens, large size and multiline support for filled input label ([2f08808](https://github.com/FacioCode/design/commit/2f08808dacb61a065f032f031842e913dbf1fc49))
+
+
+
+
+
 ## [4.0.2](https://github.com/FacioCode/design/compare/v4.0.1...v4.0.2) (2021-01-28)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
