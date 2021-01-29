@@ -14,5 +14,5 @@ const Template : Story<InputBaseProps> = (props: InputBaseProps) => (
 
 export const Playground : Story<InputBaseProps> = Template.bind({});
 Playground.args = {
-  value: "Input value",
+  defaultValue: "Input value",
 };
