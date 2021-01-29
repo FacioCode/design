@@ -6,6 +6,7 @@ export {
 } from "./Alert";
 export { AppBar, AppBarProps } from "./AppBar";
 export { BottomSheet, BottomSheetProps } from "./BottomSheet";
+export { ButtonGroup, ButtonGroupProps } from "./Button";
 export {
   ContainedButton,
   ContainedButtonProps,
