@@ -5,7 +5,7 @@ import type { FormLabelProps } from "./FormLabel.types";
 
 export default {
   component: FormLabel,
-  title: "Components/Form Label",
+  title: "Utilities/Form Label",
 } as Meta;
 
 const Template : Story<FormLabelProps> = (props: FormLabelProps) => (
