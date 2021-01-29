@@ -42,7 +42,10 @@ export const MuiButton = {
   outlined: {
     ...customProperties.outlinedButtonStyles.root,
     ...customProperties.outlinedButtonStyles.default,
-    "&:hover": customProperties.outlinedButtonStyles.hover,
+    "&:hover": {
+      ...customProperties.outlinedButtonStyles.hover,
+      "&$disabled": customProperties.outlinedButtonStyles.disabled,
+    },
     "&$focusVisible": customProperties.outlinedButtonStyles.focusVisible,
     "&:active": customProperties.outlinedButtonStyles.pressed,
   },
