@@ -36,6 +36,19 @@ Elevation0.parameters = {
   },
 };
 
+export const Elevation1 : Story<PaperProps> = Template.bind({});
+Elevation1.args = {
+  ...Playground.args,
+  elevation: 1,
+};
+Elevation1.parameters = {
+  docs: {
+    description: {
+      story: "Components like `Switch` in thumb applies elevation `1`.",
+    },
+  },
+};
+
 export const Elevation2 : Story<PaperProps> = Template.bind({});
 Elevation2.args = {
   ...Playground.args,

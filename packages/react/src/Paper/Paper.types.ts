@@ -1,8 +1,8 @@
-import { PaperProps as MaterialPaperProps } from "@material-ui/core/Paper";
 import * as React from "react";
+import { PaperProps as MaterialPaperProps } from "@material-ui/core/Paper";
 
 // eslint-disable-next-line no-magic-numbers
-type PaperElevation = 0 | 2 | 4 | 6;
+type PaperElevation = 0 | 1 | 2 | 4 | 6;
 
 export interface PaperProps extends Omit<MaterialPaperProps, "css" | "elevation"> {
 
@@ -16,7 +16,7 @@ export interface PaperProps extends Omit<MaterialPaperProps, "css" | "elevation"
   /**
    * @default 0
    * @optional
-   * @type "0" | 2 | 4 | 6
+   * @type "0" | 1 | 2 | 4 | 6
    */
   elevation?: PaperElevation
 }
