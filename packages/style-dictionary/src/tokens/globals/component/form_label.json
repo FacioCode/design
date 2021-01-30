@@ -16,7 +16,7 @@
         "color": { "value": "{color.font.disabled.value}" }
       },
       "focused": {
-        "color": { "value": "{color.font.link.value}" }
+        "color": { "value": "{color.font.primaryHighContrast.value}" }
       }
     }
   }
