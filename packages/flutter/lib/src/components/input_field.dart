@@ -19,7 +19,6 @@ class FacioInputField extends StatelessWidget {
     final TextInputType keyboardType,
     final void Function(String) onChanged,
     final InputType inputType,
-    final FormFieldValidator<String> validator,
     final String errorMessage,
   })  : assert(autofocus != null),
         _key = key,
@@ -60,7 +59,7 @@ class FacioInputField extends StatelessWidget {
             borderRadius: BorderRadius.circular(Sizes.baseSingle),
           ),
           child: Center(
-            child: TextFormField(
+            child: TextField(
               key: _key,
               autofocus: _autofocus,
               focusNode: _focusNode,

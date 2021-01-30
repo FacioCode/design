@@ -36,12 +36,12 @@ class MaskInputField extends TextInputFormatter {
     '#': numbers
   };
 
-  static final TextInputFormatter cpf =
+  static TextInputFormatter get cpf =>
       MaskInputField(mask: _cpfMask, filter: _filterDigit);
-  static final TextInputFormatter phone =
+  static TextInputFormatter get phone =>
       MaskInputField(mask: _phoneMask, filter: _filterDigit);
-  static final TextInputFormatter currency = CurrencyTextInputFormatter();
-  static final TextInputFormatter onlyNumber =
+  static TextInputFormatter get currency => CurrencyTextInputFormatter();
+  static TextInputFormatter get onlyNumber =>
       MaskInputField(mask: _number, filter: _filterDigit);
 
   String _mask;
