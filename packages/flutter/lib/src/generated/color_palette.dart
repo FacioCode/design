@@ -64,6 +64,7 @@ class ColorPalette {
   static const Color baseInfoDark = const Color(0xFF002C5E);
   static const Color baseInfoMain = const Color(0xFF066089);
   static const Color basePrimaryDark = const Color(0xFF2BC4A8);
+  static const Color basePrimaryLight = const Color(0xFF53FEC5);
   static const Color basePrimaryLighter = const Color(0xFFD0FFEF);
   static const Color basePrimaryMain = const Color(0xFF3FE1B6);
   static const Color baseRoyalBlue05 = const Color(0xFFE3EEFF);
@@ -115,4 +116,6 @@ class ColorPalette {
   static const Color inputChecked = const Color(0xFF424D5C);
   static const Color inputDefault = const Color(0xFF828C9B);
   static const Color inputDisabled = const Color(0xFFAFB4BB);
+  static const Color inputSwitchBase = const Color(0xFFFAFAFA);
+  static const Color inputSwitchTrack = const Color(0xFFAFB4BB);
 }
