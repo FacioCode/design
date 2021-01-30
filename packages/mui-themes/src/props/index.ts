@@ -63,6 +63,11 @@ export const props : ComponentsProps = {
     ContentProps: MuiSnackbarContent,
   },
   MuiSnackbarContent,
+  MuiSwitch: {
+    color: "primary",
+    disableRipple: true,
+    size: "medium",
+  },
   MuiTextField: {
     InputLabelProps: MuiInputLabel,
     InputProps: MuiInput,
