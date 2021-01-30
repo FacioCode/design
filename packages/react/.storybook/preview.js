@@ -24,29 +24,33 @@ export const parameters = {
     },
     values: [
       {
-        name: "Alert info",
-        value: colorTokens.backgroundAlertStandardInfo,
-      },
-      {
-        name: "Alert warning",
-        value: colorTokens.backgroundAlertStandardWarning,
-      },
-      {
         name: "Brand",
-        value: colorTokens.backgroundBrand,
+        value: colorTokens.backgroundBrand
       },
       {
         name: "Default",
         value: colorTokens.backgroundDefault
       },
       {
-        name: "Paper",
-        value: colorTokens.backgroundPaper
+        name: "Info alert (filled)",
+        value: colorTokens.backgroundAlertFilledInfo,
+      },
+      {
+        name: "Info alert (standard)",
+        value: colorTokens.backgroundAlertStandardInfo,
       },
       {
         name: "Selected",
         value: colorTokens.backgroundSelected
-      }
+      },
+      {
+        name: "Warning alert (standard)",
+        value: colorTokens.backgroundAlertStandardWarning,
+      },
+      {
+        name: "Warning alert (warning)",
+        value: colorTokens.backgroundAlertFilledWarning,
+      },
     ]
   },
   docs: {
