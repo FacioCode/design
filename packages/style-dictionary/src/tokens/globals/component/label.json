@@ -2,18 +2,16 @@
   "component": {
     "label": {
       "large": {
-        "comment": "Todo: define letter-spacing and line-height.",
-        "fontSize": {
-          "comment": "Font size is the same of subtitle1, formerly subhead.",
-          "value": "{component.typography.subtitle1.fontSize.value}"
-        }
+        "comment": "Font size, letter spacing and line height are the same of subtitle1",
+        "fontSize": { "value": "{component.typography.subtitle1.fontSize.value}" },
+        "letterSpacing": { "value": "{component.typography.subtitle1.letterSpacing.value}" },
+        "lineHeight": { "value": "{component.typography.subtitle1.lineHeight.value}" }
       },
       "medium": {
-        "comment": "Todo: define letter-spacing and line-height.",
-        "fontSize": {
-          "comment": "Font size is the same of caption.",
-          "value": "{component.typography.caption.fontSize.value}"
-        }
+        "comment": "Font size, letter spacing and line height are the same of caption",
+        "fontSize": { "value": "{component.typography.caption.fontSize.value}" },
+        "letterSpacing": { "value": "{component.typography.caption.letterSpacing.value}" },
+        "lineHeight": { "value": "{component.typography.caption.lineHeight.value}" }
       }
     }
   }
