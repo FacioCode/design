@@ -849,6 +849,15 @@ export const filledInputStyles = {
 
   },
 
+  focused: {
+
+    /**
+     * Background Color for Filled Input Focused
+     */
+    backgroundColor: "var(--component-filled-input-focused-background-color, #f2f2f3)",
+
+  },
+
   label: {
 
     /**
@@ -906,7 +915,7 @@ export const filledInputStyles = {
 
 
     /**
-     * TODO: Check if we will use double or single for label margin top
+     * Margin Top for Filled Input Label
      */
     marginTop: "var(--component-filled-input-label-margin-top, 8px)",
 
@@ -1159,7 +1168,7 @@ export const formLabelStyles = {
     /**
      * Color for Form Label Focused
      */
-    color: "var(--component-form-label-focused-color, #05797d)",
+    color: "var(--component-form-label-focused-color, #303846)",
 
   },
 
@@ -1390,6 +1399,24 @@ export const inputBaseStyles = {
 
   },
 
+  error: {
+
+    /**
+     * Box Shadow for Input Base Error
+     */
+    boxShadow: "var(--component-input-base-error-box-shadow, 0px 0px 0px 3px #fe538c)",
+
+  },
+
+  focused: {
+
+    /**
+     * Box Shadow for Input Base Focused
+     */
+    boxShadow: "var(--component-input-base-focused-box-shadow, 0px 0px 0px 3px #53e2fe)",
+
+  },
+
 };
 
 export const labelStyles = {
@@ -1397,18 +1424,42 @@ export const labelStyles = {
   large: {
 
     /**
-     * Font size is the same of subtitle1, formerly subhead.
+     * Font Size for Label Large
      */
     fontSize: "var(--component-label-large-font-size, 1rem)",
+
+
+    /**
+     * Letter Spacing for Label Large
+     */
+    letterSpacing: "var(--component-label-large-letter-spacing, 0px)",
+
+
+    /**
+     * Line Height for Label Large
+     */
+    lineHeight: "var(--component-label-large-line-height, 1.5em)",
 
   },
 
   medium: {
 
     /**
-     * Font size is the same of caption.
+     * Font Size for Label Medium
      */
     fontSize: "var(--component-label-medium-font-size, 0.75rem)",
+
+
+    /**
+     * Letter Spacing for Label Medium
+     */
+    letterSpacing: "var(--component-label-medium-letter-spacing, 0px)",
+
+
+    /**
+     * Line Height for Label Medium
+     */
+    lineHeight: "var(--component-label-medium-line-height, 1em)",
 
   },
 
