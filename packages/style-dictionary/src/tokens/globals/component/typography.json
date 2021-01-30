@@ -17,7 +17,6 @@
         "lineHeight": { "value": "{size.font.headline1.lineHeight.value}" }
       },
       "headline2": {
-        "comment": "Formerly title1. Todo: define its use.",
         "color": { "value": "{color.font.primaryHighContrast.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
@@ -29,7 +28,7 @@
         "lineHeight": { "value": "{size.font.headline2.lineHeight.value}" }
       },
       "headline3": {
-        "comment": "Formerly title2. Useful for title text when we show messages with emoji and title text",
+        "comment": "Useful for title text when we show messages with emoji and title text",
         "color": { "value": "{color.font.primaryHighContrast.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
@@ -41,7 +40,6 @@
         "lineHeight": { "value": "{size.font.headline3.lineHeight.value}" }
       },
       "headline4": {
-        "comment": "Formerly title3. Todo: define its use.",
         "color": { "value": "{color.font.primaryHighContrast.value}" },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
