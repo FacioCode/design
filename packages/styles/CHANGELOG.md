@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/FacioCode/design/compare/v4.2.0...v4.3.0) (2021-01-30)
+
+
+### Features
+
+* **styles:** add `baseDoubleHalf` size token ([c038204](https://github.com/FacioCode/design/commit/c038204be69ebc4fee74a865a13efc46fdcd831f))
+* **styles:** add `elevation01` shadow token ([168a3a5](https://github.com/FacioCode/design/commit/168a3a5eee7fad9e2b619ae9b1cdce2d31e41ee4))
+* **styles:** add new base color token, add input color tokens ([ed3c758](https://github.com/FacioCode/design/commit/ed3c758f4206f01115c833aa6fb4d3c46364211b))
+* **styles:** add style tokens for switch ([c27fbee](https://github.com/FacioCode/design/commit/c27fbee4b36fda64011a5295e6ef4897535d996f))
+
+
+
+
+
 # [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
 
 

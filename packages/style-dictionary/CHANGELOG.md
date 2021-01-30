@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/FacioCode/design/compare/v4.2.0...v4.3.0) (2021-01-30)
+
+
+### Features
+
+* **style-dictionary:** add base double-half size token ([74cc1af](https://github.com/FacioCode/design/commit/74cc1af2f5806173c3ebb5b2b579afcc86194224))
+* **style-dictionary:** add border radius token for switch track ([56ee495](https://github.com/FacioCode/design/commit/56ee4955445ed890effeb28089cc20f453b9ce56))
+* **style-dictionary:** add box shadow token for switch on web ([5bd6710](https://github.com/FacioCode/design/commit/5bd6710b876593c062b404161fec836ddbfe87f0))
+* **style-dictionary:** add component tokens for switch ([91a6573](https://github.com/FacioCode/design/commit/91a6573ed147ccbcd7cd36ef2b6585922d14c234))
+* **style-dictionary:** add input colors for switch ([c426ad5](https://github.com/FacioCode/design/commit/c426ad5c80925871a033925ca94cc02a87afef5c))
+* **style-dictionary:** add primary light color to base color tokens ([2bb282f](https://github.com/FacioCode/design/commit/2bb282f2906dd99cb192ca8eac2b6cb42992ab5d))
+* **style-dictionary:** add shadow token for elevation `01` ([a5386d5](https://github.com/FacioCode/design/commit/a5386d5ffa73fcecf3d800d80de78c61e981fa87))
+
+
+
+
+
 # [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/FacioCode/design/compare/v4.2.0...v4.3.0) (2021-01-30)
+
+
+### Features
+
+* **mui-themes:** add elevation `01` to shadows ([4211e50](https://github.com/FacioCode/design/commit/4211e5019e710028e1f60ff7392aa8239d4a5034))
+* **mui-themes:** add overrides for `MuiSwitch` ([eaa32d9](https://github.com/FacioCode/design/commit/eaa32d9d6722ed9ce65ea0f1ff1bb7a73f64c076))
+
+
+
+
+
 # [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/FacioCode/design/compare/v4.2.0...v4.3.0) (2021-01-30)
+
+
+### Features
+
+* **react:** add `Switch` component ([ebd0812](https://github.com/FacioCode/design/commit/ebd081243182eb1109dca14264374cfc90befe68))
+* **react:** add support to value `"1"` on `Paper` `elevation` prop ([23a7ae3](https://github.com/FacioCode/design/commit/23a7ae31ceaaf8ede1b41bf241f63602d2658d48))
+
+
+
+
+
 # [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
 
 

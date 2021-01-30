@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/FacioCode/design/compare/v4.2.0...v4.3.0) (2021-01-30)
+
+
+### Features
+
+* **flutter:** add `SwitchStyles` for switches ([4befdb8](https://github.com/FacioCode/design/commit/4befdb8f3c5dfa68c4944acc547ad0ca65058785))
+* **flutter:** add base double half and track border radius sizes ([4f6fd8e](https://github.com/FacioCode/design/commit/4f6fd8e5ea424ec2c90e4a8f800b1fce55114f45))
+* **flutter:** add color tokens for primary light and switches ([1d7b078](https://github.com/FacioCode/design/commit/1d7b078a22dd061834260cf4aeafa52c8eb847e1))
+
+
+
+
+
 # [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
 
 

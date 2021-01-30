@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/FacioCode/design/compare/v4.2.0...v4.3.0) (2021-01-30)
+
+
+### Features
+
+* **flutter:** add `SwitchStyles` for switches ([4befdb8](https://github.com/FacioCode/design/commit/4befdb8f3c5dfa68c4944acc547ad0ca65058785))
+* **flutter:** add base double half and track border radius sizes ([4f6fd8e](https://github.com/FacioCode/design/commit/4f6fd8e5ea424ec2c90e4a8f800b1fce55114f45))
+* **flutter:** add color tokens for primary light and switches ([1d7b078](https://github.com/FacioCode/design/commit/1d7b078a22dd061834260cf4aeafa52c8eb847e1))
+* **mui-themes:** add elevation `01` to shadows ([4211e50](https://github.com/FacioCode/design/commit/4211e5019e710028e1f60ff7392aa8239d4a5034))
+* **mui-themes:** add overrides for `MuiSwitch` ([eaa32d9](https://github.com/FacioCode/design/commit/eaa32d9d6722ed9ce65ea0f1ff1bb7a73f64c076))
+* **react:** add `Switch` component ([ebd0812](https://github.com/FacioCode/design/commit/ebd081243182eb1109dca14264374cfc90befe68))
+* **react:** add support to value `"1"` on `Paper` `elevation` prop ([23a7ae3](https://github.com/FacioCode/design/commit/23a7ae31ceaaf8ede1b41bf241f63602d2658d48))
+* **style-dictionary:** add base double-half size token ([74cc1af](https://github.com/FacioCode/design/commit/74cc1af2f5806173c3ebb5b2b579afcc86194224))
+* **style-dictionary:** add border radius token for switch track ([56ee495](https://github.com/FacioCode/design/commit/56ee4955445ed890effeb28089cc20f453b9ce56))
+* **style-dictionary:** add box shadow token for switch on web ([5bd6710](https://github.com/FacioCode/design/commit/5bd6710b876593c062b404161fec836ddbfe87f0))
+* **style-dictionary:** add component tokens for switch ([91a6573](https://github.com/FacioCode/design/commit/91a6573ed147ccbcd7cd36ef2b6585922d14c234))
+* **style-dictionary:** add input colors for switch ([c426ad5](https://github.com/FacioCode/design/commit/c426ad5c80925871a033925ca94cc02a87afef5c))
+* **style-dictionary:** add primary light color to base color tokens ([2bb282f](https://github.com/FacioCode/design/commit/2bb282f2906dd99cb192ca8eac2b6cb42992ab5d))
+* **style-dictionary:** add shadow token for elevation `01` ([a5386d5](https://github.com/FacioCode/design/commit/a5386d5ffa73fcecf3d800d80de78c61e981fa87))
+* **styles:** add `baseDoubleHalf` size token ([c038204](https://github.com/FacioCode/design/commit/c038204be69ebc4fee74a865a13efc46fdcd831f))
+* **styles:** add `elevation01` shadow token ([168a3a5](https://github.com/FacioCode/design/commit/168a3a5eee7fad9e2b619ae9b1cdce2d31e41ee4))
+* **styles:** add new base color token, add input color tokens ([ed3c758](https://github.com/FacioCode/design/commit/ed3c758f4206f01115c833aa6fb4d3c46364211b))
+* **styles:** add style tokens for switch ([c27fbee](https://github.com/FacioCode/design/commit/c27fbee4b36fda64011a5295e6ef4897535d996f))
+
+
+
+
+
 # [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
 
 
