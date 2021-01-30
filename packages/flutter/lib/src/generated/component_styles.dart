@@ -729,6 +729,49 @@ class PaperStyles {
   static const squareBorderRadius = 0.00;
 }
 
+class SwitchStyles {
+  SwitchStyles._();
+
+  /// Color for Base
+  static const baseColor = const Color(0xFFFAFAFA);
+
+  /// Color for Checked
+  static const checkedColor = const Color(0xFF2BC4A8);
+
+  /// Background Color for Checked Track
+  static const checkedTrackBackgroundColor = const Color(0xFF53FEC5);
+
+  /// Opacity for Checked Track
+  static const checkedTrackOpacity = 1;
+
+  /// Background Color for Disabled Track
+  static const disabledTrackBackgroundColor = const Color(0xFFAFB4BB);
+
+  /// Color for Hover
+  static const hoverColor = const Color(0xFF53FEC5);
+
+  /// Height for Thumb
+  static const thumbHeight = 20.00;
+
+  /// Width for Thumb
+  static const thumbWidth = 20.00;
+
+  /// Background Color for Track
+  static const trackBackgroundColor = const Color(0xFFAFB4BB);
+
+  /// Border Radius for Track
+  static const trackBorderRadius = 6.00;
+
+  /// Height for Track
+  static const trackHeight = 12.00;
+
+  /// Min Width for Track
+  static const trackMinWidth = 24.00;
+
+  /// Opacity for Track
+  static const trackOpacity = 1;
+}
+
 class RefreshIndicatorStyles {
   RefreshIndicatorStyles._();
 
