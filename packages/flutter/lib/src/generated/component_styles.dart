@@ -384,6 +384,9 @@ class FilledInputStyles {
   /// Medium and large inputs has the same height
   static const minHeight = 64.00;
 
+  /// Background Color for Focused
+  static const focusedBackgroundColor = const Color(0xFFF2F2F3);
+
   /// Color for Label
   static const labelColor = const Color(0xFF303846);
 
@@ -411,7 +414,7 @@ class FilledInputStyles {
   /// Margin Left for Label
   static const labelMarginLeft = 16.00;
 
-  /// TODO: Check if we will use double or single for label margin top
+  /// Margin Top for Label
   static const labelMarginTop = 8.00;
 
   /// Padding Bottom for Input
@@ -528,7 +531,7 @@ class FormLabelStyles {
   static const disabledColor = const Color(0xFFAFB4BB);
 
   /// Color for Focused
-  static const focusedColor = const Color(0xFF05797D);
+  static const focusedColor = const Color(0xFF303846);
 }
 
 class IconButtonStyles {
@@ -620,11 +623,23 @@ class InputBaseStyles {
 class LabelStyles {
   LabelStyles._();
 
-  /// Font size is the same of subtitle1, formerly subhead.
+  /// Font Size for Large
   static const largeFontSize = 15.00;
 
-  /// Font size is the same of caption.
+  /// Letter Spacing for Large
+  static const largeLetterSpacing = -0.23;
+
+  /// Line Height for Large
+  static const largeLineHeight = 1.6;
+
+  /// Font Size for Medium
   static const mediumFontSize = 12.00;
+
+  /// Letter Spacing for Medium
+  static const mediumLetterSpacing = 0.00;
+
+  /// Line Height for Medium
+  static const mediumLineHeight = 1.33333333333;
 }
 
 class LinkButtonStyles {
