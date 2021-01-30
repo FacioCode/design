@@ -8,6 +8,7 @@ export const baseSingle = "8px";
 export const baseSingleHalf = "12px"; // Commonly used for medium button vertical padding or dialog content text margin
 export const baseDouble = "16px"; // Twice the base value (8) = 16
 export const baseDoubleQuarter = "18px"; // New border radius for small buttons
+export const baseDoubleHalf = "20px"; // Commonly used for switch thumb dimensions
 export const baseTriple = "24px"; // Commonly used for button label height
 export const baseTripleHalf = "28px"; // Used for medium input top padding
 export const baseQuadruple = "32px"; // Formerly used for small button height.
