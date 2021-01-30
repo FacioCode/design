@@ -23,6 +23,10 @@
         "comment": "New border radius for small buttons",
         "value": 18
       },
+      "doubleHalf": {
+        "comment": "Commonly used for switch thumb dimensions",
+        "value": 20
+      },
       "triple": {
         "comment": "Commonly used for button label height",
         "value": 24
