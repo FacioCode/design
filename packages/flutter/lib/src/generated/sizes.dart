@@ -9,6 +9,7 @@ class Sizes {
   Sizes._();
 
   static const baseDouble = 16.00;
+  static const baseDoubleHalf = 20.00;
   static const baseDoubleQuarter = 18.00;
   static const baseEightfold = 64.00;
   static const baseFivefold = 40.00;
@@ -32,6 +33,7 @@ class Sizes {
   static const borderRadiusDoubleQuarter = 27.00;
   static const borderRadiusNone = 0.00;
   static const borderRadiusSingle = 8.00;
+  static const borderRadiusTrack = 6.00;
   static const borderWidthDouble = 2.00;
   static const borderWidthNone = 0.00;
   static const borderWidthSingle = 1.00;
