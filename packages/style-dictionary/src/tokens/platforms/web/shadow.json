@@ -18,8 +18,12 @@
         "value": "0px 2px 5px 0px rgba(0, 0, 0, 0.25)"
       }
     },
+    "error": {
+      "comment": "Uses color.base.indianred.40",
+      "value": "0px 0px 0px 3px #fe538c"
+    },
     "focusVisible": {
-      "button": {
+      "default": {
         "comment": "Uses color.base.skyblue.40",
         "value": "0px 0px 0px 3px #53e2fe"
       },
