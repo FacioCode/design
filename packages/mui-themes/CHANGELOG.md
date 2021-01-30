@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
+
+
+### Features
+
+* **mui-themes:** add overrides for error and focused input ([5228338](https://github.com/FacioCode/design/commit/52283381644dbffe8f3ce2cf95b4283c640a895f))
+
+
+
+# 4.1.0 (2021-01-29)
+
+
+
+
+
 ## [4.1.2](https://github.com/FacioCode/design/compare/v4.1.1...v4.1.2) (2021-01-29)
 
 **Note:** Version bump only for package @faciocode/mui-themes

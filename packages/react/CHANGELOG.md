@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
+
+
+### Bug Fixes
+
+* **react:** add missing support to size prop on ButtonGroup ([ef25468](https://github.com/FacioCode/design/commit/ef254688db8228a79cc545e96f60124c8b2c947c))
+* **react:** make `ButtonGroup` component importable ([569f876](https://github.com/FacioCode/design/commit/569f876f474da6b60e7ef48b5b33b55c938f5449))
+* **react:** make size property optional on `ButtonGroup` ([b768046](https://github.com/FacioCode/design/commit/b7680462886f4cfc78d2bd6cac6d3a72328d81ad))
+* **react:** prevent type errors when using `component` prop from `Container` ([06f51b8](https://github.com/FacioCode/design/commit/06f51b8e8a4eb1091b98295d4e5e8614fdcdd52f))
+
+
+
+# 4.1.0 (2021-01-29)
+
+
+
+
+
 ## [4.1.2](https://github.com/FacioCode/design/compare/v4.1.1...v4.1.2) (2021-01-29)
 
 **Note:** Version bump only for package @faciocode/react

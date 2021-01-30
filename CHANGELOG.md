@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
+
+
+### Bug Fixes
+
+* **react:** add missing support to size prop on ButtonGroup ([ef25468](https://github.com/FacioCode/design/commit/ef254688db8228a79cc545e96f60124c8b2c947c))
+* **react:** make `ButtonGroup` component importable ([569f876](https://github.com/FacioCode/design/commit/569f876f474da6b60e7ef48b5b33b55c938f5449))
+* **react:** make size property optional on `ButtonGroup` ([b768046](https://github.com/FacioCode/design/commit/b7680462886f4cfc78d2bd6cac6d3a72328d81ad))
+* **react:** prevent type errors when using `component` prop from `Container` ([06f51b8](https://github.com/FacioCode/design/commit/06f51b8e8a4eb1091b98295d4e5e8614fdcdd52f))
+* **style-dictionary:** update focused form label color ([f45272b](https://github.com/FacioCode/design/commit/f45272b1b288d5086aa80e2970dd1b1a43e09853))
+
+
+### Features
+
+* **flutter:** add font and line-height tokens for `InputBaseStyles` ([5eef412](https://github.com/FacioCode/design/commit/5eef41247f951a4d00b8184717bee35ad249512c))
+* **mui-themes:** add overrides for error and focused input ([5228338](https://github.com/FacioCode/design/commit/52283381644dbffe8f3ce2cf95b4283c640a895f))
+* **style-dictionary:** add focused class key for filled input ([4e0701c](https://github.com/FacioCode/design/commit/4e0701c23aaa870a56560fd65449b7747ddc1c67))
+* **style-dictionary:** add letter spacing and line height tokens for label ([c7cc116](https://github.com/FacioCode/design/commit/c7cc116ae7bd4c2f6e3ae1b3299c04f674278580))
+* **style-dictionary:** create web tokens for input base ([5bf66d6](https://github.com/FacioCode/design/commit/5bf66d6e450534429f68472b7edd07fd6eb66bd2))
+* **style-dictionary:** create/update tokens for input and button ([b11cccb](https://github.com/FacioCode/design/commit/b11cccb0a52770f9b28ae8f4010b0734889f9f91))
+* **styles:** add new shadow tokens for error ([92b09ce](https://github.com/FacioCode/design/commit/92b09ce63a8a9ebf1c1c22866ac54b19c78015b2))
+* **styles:** add/update tokens for labels & inputs ([46a675f](https://github.com/FacioCode/design/commit/46a675f10224db387e39adc458263a069ef60c96))
+
+
+
+# 4.1.0 (2021-01-29)
+
+
+
+
+
 ## [4.1.2](https://github.com/FacioCode/design/compare/v4.1.1...v4.1.2) (2021-01-29)
 
 

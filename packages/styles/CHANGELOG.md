@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
+
+
+### Features
+
+* **styles:** add new shadow tokens for error ([92b09ce](https://github.com/FacioCode/design/commit/92b09ce63a8a9ebf1c1c22866ac54b19c78015b2))
+* **styles:** add/update tokens for labels & inputs ([46a675f](https://github.com/FacioCode/design/commit/46a675f10224db387e39adc458263a069ef60c96))
+
+
+
+# 4.1.0 (2021-01-29)
+
+
+
+
+
 ## [4.1.2](https://github.com/FacioCode/design/compare/v4.1.1...v4.1.2) (2021-01-29)
 
 **Note:** Version bump only for package @faciocode/styles

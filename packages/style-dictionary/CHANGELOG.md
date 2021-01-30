@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/FacioCode/design/compare/v4.1.2...v4.2.0) (2021-01-30)
+
+
+### Bug Fixes
+
+* **style-dictionary:** update focused form label color ([f45272b](https://github.com/FacioCode/design/commit/f45272b1b288d5086aa80e2970dd1b1a43e09853))
+
+
+### Features
+
+* **style-dictionary:** add focused class key for filled input ([4e0701c](https://github.com/FacioCode/design/commit/4e0701c23aaa870a56560fd65449b7747ddc1c67))
+* **style-dictionary:** add letter spacing and line height tokens for label ([c7cc116](https://github.com/FacioCode/design/commit/c7cc116ae7bd4c2f6e3ae1b3299c04f674278580))
+* **style-dictionary:** create web tokens for input base ([5bf66d6](https://github.com/FacioCode/design/commit/5bf66d6e450534429f68472b7edd07fd6eb66bd2))
+* **style-dictionary:** create/update tokens for input and button ([b11cccb](https://github.com/FacioCode/design/commit/b11cccb0a52770f9b28ae8f4010b0734889f9f91))
+
+
+
+# 4.1.0 (2021-01-29)
+
+
+
+
+
 ## [4.1.2](https://github.com/FacioCode/design/compare/v4.1.1...v4.1.2) (2021-01-29)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
