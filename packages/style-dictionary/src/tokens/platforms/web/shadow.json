@@ -5,6 +5,10 @@
       "00": {
         "value": "none"
       },
+      "01": {
+        "comment": "Elevation for switch thumb",
+        "value": "0px 1px 3px 0px rgba(0, 0, 0, 0.2)"
+      },
       "02": {
         "comment": "Elevation for contained button on hover state",
         "value": "0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)"
