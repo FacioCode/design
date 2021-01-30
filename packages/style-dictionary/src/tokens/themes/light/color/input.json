@@ -9,6 +9,14 @@
       },
       "disabled": {
         "value": "{color.base.grey.50.value}"
+      },
+      "switch": {
+        "base": {
+          "value": "{color.base.grey.05.value}"
+        },
+        "track": {
+          "value": "{color.base.grey.50.value}"
+        }
       }
     }
   }
