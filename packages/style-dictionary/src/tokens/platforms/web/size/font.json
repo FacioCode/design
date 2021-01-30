@@ -80,9 +80,8 @@
         }
       },
       "bodyText2": {
-        "comment": "Todo: check these values",
         "fontSize": {
-          "comment": "0.875rem = 14px",
+          "comment": "Font for bodyText2 for web. 0.875rem = 14px in default browsers",
           "value": 0.875
         },
         "letterSpacing": { "value": -0.15 },
@@ -101,8 +100,10 @@
         }
       },
       "caption": {
-        "comment": "Todo: check these values",
-        "fontSize": { "value": 0.75 },
+        "fontSize": {
+          "comment": "Font for caption for web. 0.75rem = 12px in default browsers",
+          "value": 0.75
+        },
         "letterSpacing": { "value": 0 },
         "lineHeight": { "value": 1 }
       },
