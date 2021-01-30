@@ -6,6 +6,10 @@
           "comment": "Equivalent to 0px for web",
           "value": "{size.base.none.value}"
         },
+        "track": {
+          "comment": "Equivalent to 6px for web",
+          "value": "{size.base.halfQuarter.value}"
+        },
         "single": {
           "comment": "Equivalent to 8px for web",
           "value": "{size.base.single.value}"
