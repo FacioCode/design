@@ -1,0 +1,34 @@
+{
+  "component": {
+    "switch": {
+      "base": {
+        "color": { "value": "{color.input.switch.base.value}" }
+      },
+      "checked": {
+        "color": { "value": "{color.base.primary.dark.value}" }
+      },
+      "checkedTrack": {
+        "backgroundColor": { "value": "{color.base.primary.light.value}" },
+        "opacity": { "value": "{opacity.base.opaque.value}" }
+      },
+      "disabledTrack": {
+        "backgroundColor": { "value": "{color.input.disabled.value}" }
+      },
+      "hover": {
+        "color": { "value": "{color.base.primary.light.value}" }
+      },
+      "thumb": {
+        "comment": "Background color should be not set here. Please use component.switch.base",
+        "height": { "value": "{size.base.doubleHalf.value}" },
+        "width": { "value": "{size.base.doubleHalf.value}" }
+      },
+      "track": {
+        "backgroundColor": { "value": "{color.input.switch.track.value}" },
+        "borderRadius": { "value": "{size.border.radius.track.value}" },
+        "height": { "value": "{size.base.singleHalf.value}" },
+        "minWidth": { "value": "{size.base.triple.value}" },
+        "opacity": { "value": "{opacity.base.opaque.value}" }
+      }
+    }
+  }
+}
