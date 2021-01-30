@@ -2,7 +2,7 @@
   "component": {
     "formHelperText": {
       "root": {
-        "comment": "Instead of caption, we use bodyText2 as base for form helper text",
+        "comment": "We use bodyText2 as base for form helper text",
         "color": { "value": "{component.typography.bodyText2.color.value}" },
         "fontFamily": { "value": "{component.typography.bodyText2.fontFamily.value}" },
         "fontSize": { "value": "{component.typography.bodyText2.fontSize.value}" },
