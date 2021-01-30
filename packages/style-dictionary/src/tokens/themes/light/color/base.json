@@ -12,6 +12,7 @@
       },
       "primary": {
         "lighter": { "value": "{color.base.aquamarine.10.value}" },
+        "light": { "value": "{color.base.aquamarine.40.value}" },
         "main": { "value": "{color.base.aquamarine.50.value}" },
         "dark": { "value": "{color.base.aquamarine.60.value}" }
       },
