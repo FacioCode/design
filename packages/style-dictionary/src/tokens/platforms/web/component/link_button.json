@@ -2,7 +2,7 @@
   "component": {
     "linkButton": {
       "focusVisible": {
-        "boxShadow": { "value": "{shadow.focusVisible.button.value}" }
+        "boxShadow": { "value": "{shadow.focusVisible.default.value}" }
       }
     }
   }

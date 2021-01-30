@@ -5,7 +5,7 @@
         "boxShadow": { "value": "{shadow.elevation.00.value}" }
       },
       "focusVisible": {
-        "boxShadow": { "value": "{shadow.focusVisible.button.value}" }
+        "boxShadow": { "value": "{shadow.focusVisible.default.value}" }
       },
       "pressed": {
         "boxShadow": { "value": "{shadow.elevation.00.value}" }
