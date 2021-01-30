@@ -1,0 +1,9 @@
+{
+  "component": {
+    "switch": {
+      "thumb": {
+        "boxShadow": { "value": "{shadow.elevation.01.value}" }
+      }
+    }
+  }
+}
