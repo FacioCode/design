@@ -1681,6 +1681,115 @@ export const paperStyles = {
 
 };
 
+export const switchStyles = {
+
+  base: {
+
+    /**
+     * Color for Switch Base
+     */
+    color: "var(--component-switch-base-color, #fafafa)",
+
+  },
+
+  checked: {
+
+    /**
+     * Color for Switch Checked
+     */
+    color: "var(--component-switch-checked-color, #2bc4a8)",
+
+  },
+
+  checkedTrack: {
+
+    /**
+     * Background Color for Switch Checked Track
+     */
+    backgroundColor: "var(--component-switch-checked-track-background-color, #53fec5)",
+
+
+    /**
+     * Opacity for Switch Checked Track
+     */
+    opacity: "var(--component-switch-checked-track-opacity, 1)",
+
+  },
+
+  disabledTrack: {
+
+    /**
+     * Background Color for Switch Disabled Track
+     */
+    backgroundColor: "var(--component-switch-disabled-track-background-color, #afb4bb)",
+
+  },
+
+  hover: {
+
+    /**
+     * Color for Switch Hover
+     */
+    color: "var(--component-switch-hover-color, #53fec5)",
+
+  },
+
+  thumb: {
+
+    /**
+     * Height for Switch Thumb
+     */
+    height: "var(--component-switch-thumb-height, 20px)",
+
+
+    /**
+     * Width for Switch Thumb
+     */
+    width: "var(--component-switch-thumb-width, 20px)",
+
+
+    /**
+     * Box Shadow for Switch Thumb
+     */
+    boxShadow: "var(--component-switch-thumb-box-shadow, 0px 1px 3px 0px rgba(0, 0, 0, 0.2))",
+
+  },
+
+  track: {
+
+    /**
+     * Background Color for Switch Track
+     */
+    backgroundColor: "var(--component-switch-track-background-color, #afb4bb)",
+
+
+    /**
+     * Border Radius for Switch Track
+     */
+    borderRadius: "var(--component-switch-track-border-radius, 6px)",
+
+
+    /**
+     * Height for Switch Track
+     */
+    height: "var(--component-switch-track-height, 12px)",
+
+
+    /**
+     * Min Width for Switch Track
+     */
+    minWidth: "var(--component-switch-track-min-width, 24px)",
+
+
+    /**
+     * Opacity for Switch Track
+     */
+    opacity: "var(--component-switch-track-opacity, 1)",
+
+  },
+
+};
+
 export const typographyStyles = {
 
   headline1: {
