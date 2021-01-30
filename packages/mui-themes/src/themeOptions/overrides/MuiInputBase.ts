@@ -7,6 +7,8 @@ export const MuiInputBase = {
   root: {
     ...customProperties.inputBaseStyles.root,
     ...customProperties.inputBaseStyles.medium,
+    "&$error": customProperties.inputBaseStyles.error,
+    "&$focused": customProperties.inputBaseStyles.focused,
   },
   input: {
     ...customProperties.inputBaseStyles.input,
