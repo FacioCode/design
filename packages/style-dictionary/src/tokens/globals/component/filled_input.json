@@ -17,6 +17,9 @@
           "value": "{size.base.eightfold.value}"
         }
       },
+      "focused": {
+        "backgroundColor": { "value": "{color.background.input.value}" }
+      },
       "label": {
         "comment": "Label for medium input. Label uses caption typography definitions",
         "color": { "value": "{component.typography.caption.color.value}" },
@@ -28,10 +31,7 @@
         "lineHeight": { "value": "{component.typography.caption.lineHeight.value}" },
         "marginBottom": { "value": "{size.base.half.value}" },
         "marginLeft": { "value":  "{size.base.double.value}" },
-        "marginTop": {
-          "comment": "TODO: Check if we will use double or single for label margin top",
-          "value": "{size.base.single.value}"
-        }
+        "marginTop": { "value": "{size.base.single.value}" }
       },
       "input": {
         "paddingBottom": { "value": "{size.base.singleHalf.value}" },
