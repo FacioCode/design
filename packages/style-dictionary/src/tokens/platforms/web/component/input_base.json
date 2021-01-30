@@ -1,0 +1,12 @@
+{
+  "component": {
+    "inputBase": {
+      "error": {
+        "boxShadow": { "value": "{shadow.error.value}" }
+      },
+      "focused": {
+        "boxShadow": { "value": "{shadow.focusVisible.default.value}" }
+      }
+    }
+  }
+}
