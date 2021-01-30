@@ -43,6 +43,7 @@ export { default as InputLabel, InputLabelProps } from "./InputLabel";
 export { Link, LinkProps } from "./Link";
 export { Paper, PaperProps } from "./Paper";
 export { Snackbar, SnackbarProps } from "./Snackbar";
+export { default as Switch, SwitchProps } from "./Switch";
 export {
   Table,
   TableBody,
