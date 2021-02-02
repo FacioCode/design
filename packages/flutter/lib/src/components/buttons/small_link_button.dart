@@ -25,7 +25,7 @@ class SmallLinkButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return FlatButton(
       key: _key,
-      onPressed: _onPressed,
+      onPressed: _isEnabled ? _onPressed : null,
       highlightColor: Colors.transparent,
       height: ButtonStyles.sizeSmallHeight,
       shape: RoundedRectangleBorder(
