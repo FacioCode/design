@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.3.1](https://github.com/FacioCode/design/compare/v4.3.0...v4.3.1) (2021-02-02)
+
+
+### Bug Fixes
+
+* **flutter:** do not allow onPress if button is disabled ([45385dd](https://github.com/FacioCode/design/commit/45385ddb2843aaca94a483fa1d36957b3e2dbc71))
+* **flutter:** proper keeping and cleaning states for input text with masks ([8bb5d75](https://github.com/FacioCode/design/commit/8bb5d75441b35e88fa703208b0e27456e7ae585d))
+
+
+
+
+
 # [4.3.0](https://github.com/FacioCode/design/compare/v4.2.0...v4.3.0) (2021-01-30)
 
 
