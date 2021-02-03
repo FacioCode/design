@@ -68,6 +68,7 @@ export const props : ComponentsProps = {
     disableRipple: true,
     size: "medium",
   },
+  MuiTabs: {},
   MuiTextField: {
     InputLabelProps: MuiInputLabel,
     InputProps: MuiInput,
