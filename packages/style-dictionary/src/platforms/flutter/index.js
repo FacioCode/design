@@ -8,8 +8,6 @@ const {
   version,
 } = require("../../../../flutter/package.json");
 
-const path = require("path");
-
 const colorPalette = require("./colorPalette");
 const sizes = require("./sizes");
 const textTheme = require("./textTheme");
