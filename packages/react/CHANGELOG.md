@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/FacioCode/design/compare/v4.4.0...v5.0.0) (2021-02-03)
+
+
+### Bug Fixes
+
+* **react:** add missing support to `component` prop on `Tab*` components ([ee0f0bf](https://github.com/FacioCode/design/commit/ee0f0bf3022d219be982edc42b4af3dbe843b406))
+* **react:** remove CSS direct import from `CssBaseline` ([c0fceb9](https://github.com/FacioCode/design/commit/c0fceb9a0e1dbf17dcae86e3387e732b73c61558))
+
+
+### Features
+
+* **react:** add `Tab*` components ([1dfb05a](https://github.com/FacioCode/design/commit/1dfb05a3a423748adfbe8b30f992717d8322cf6c))
+* **react:** add `Toolbar` component ([9304e4f](https://github.com/FacioCode/design/commit/9304e4fd5bb0c2a7c964a27f20d7b660811f38a7))
+* **react:** make `Tab*` and `Toolbar` components importable ([6389c8f](https://github.com/FacioCode/design/commit/6389c8f7a3658f8b5db9853b0dac5a3a3ec62df9))
+
+
+### BREAKING CHANGES
+
+* **react:** To ensure support for frameworks like Next.js, we will no longer export CSS with custom properties directly when using the CssBaseline component. If you need to use it, please copy the CSS for your project and import it directly.
+
+
+
+# 4.3.0 (2021-01-30)
+
+
+
+
+
 # [4.4.0](https://github.com/FacioCode/design/compare/v4.3.2...v4.4.0) (2021-02-03)
 
 
