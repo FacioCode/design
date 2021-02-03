@@ -34,24 +34,27 @@ class SmallContainedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: _padding,
-      child: Container(
-        height: ButtonStyles.sizeSmallHeight,
-        decoration: BoxDecoration(
-          color: _color.backgroundColor,
-          borderRadius:
-              BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
-        ),
-        child: FlatButton(
-          key: _key,
-          onPressed: _isEnabled ? _onPressed : null,
-          highlightColor: _color.pressedBackgroundColor,
-          shape: RoundedRectangleBorder(
+      child: Opacity(
+        opacity: _isEnabled ? 1 : 0.5,
+        child: Container(
+          height: ButtonStyles.sizeSmallHeight,
+          decoration: BoxDecoration(
+            color: _color.backgroundColor,
             borderRadius:
                 BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
           ),
-          child: Text(_title,
-              textAlign: TextAlign.center,
-              style: TextStyles.button.copyWith(color: _color.fontColor)),
+          child: FlatButton(
+            key: _key,
+            onPressed: _isEnabled ? _onPressed : null,
+            highlightColor: _color.pressedBackgroundColor,
+            shape: RoundedRectangleBorder(
+              borderRadius:
+                  BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
+            ),
+            child: Text(_title,
+                textAlign: TextAlign.center,
+                style: TextStyles.button.copyWith(color: _color.fontColor)),
+          ),
         ),
       ),
     );
