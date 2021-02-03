@@ -53,6 +53,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "@faciocode/style-dictionary": "^4.4.0"
+    "@faciocode/style-dictionary": "^4.3.2"
   }
 }
