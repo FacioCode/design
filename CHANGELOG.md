@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.4.0](https://github.com/FacioCode/design/compare/v4.3.2...v4.4.0) (2021-02-03)
+
+
+### Features
+
+* **react:** add `Tab*` components ([5863f4c](https://github.com/FacioCode/design/commit/5863f4c28b92d2e6c20d24df06c927c4709dd86f))
+* **react:** add `Toolbar` component ([f483129](https://github.com/FacioCode/design/commit/f4831293c50f1d24ec02f38cbc49270f2dd9138f))
+* **react:** make `Tab*` and `Toolbar` components importable ([e4f7def](https://github.com/FacioCode/design/commit/e4f7defba41c94824d5e26e21d722f6d1809cf1e))
+
+
+
+
+
 ## [4.3.2](https://github.com/FacioCode/design/compare/v4.3.1...v4.3.2) (2021-02-03)
 
 

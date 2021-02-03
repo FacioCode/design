@@ -1,7 +1,7 @@
 {
 	"name": "@faciocode/react",
 	"displayName": "FacioReact",
-	"version": "4.3.2",
+	"version": "4.4.0",
 	"private": false,
 	"description": "React components for Facio",
 	"keywords": [
@@ -52,8 +52,8 @@
 		"react-dom": "^16.14.0 || ^17.0.1"
 	},
 	"dependencies": {
-		"@faciocode/mui-themes": "^4.3.2",
-		"@faciocode/styles": "^4.3.2",
+		"@faciocode/mui-themes": "^4.4.0",
+		"@faciocode/styles": "^4.4.0",
 		"@material-ui/core": "deprecations",
 		"@material-ui/lab": "4.0.0-alpha.57",
 		"clsx": "1.1.1",
