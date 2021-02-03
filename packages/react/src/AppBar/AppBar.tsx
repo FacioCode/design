@@ -1,5 +1,5 @@
 import * as React from "react";
-import { AppBar as MaterialAppBar, Toolbar } from "@material-ui/core";
+import { AppBar as MaterialAppBar } from "@material-ui/core";
 import { AppBarProps } from "./AppBar.types";
 
 type Render = (props: AppBarProps, ref: AppBarProps["ref"]) => JSX.Element;
@@ -10,9 +10,7 @@ const render : Render = (props, ref) => {
 
   return (
     <MaterialAppBar {...otherProps} ref={ref}>
-      <Toolbar>
-        {children}
-      </Toolbar>
+      {children}
     </MaterialAppBar>
   );
 };
