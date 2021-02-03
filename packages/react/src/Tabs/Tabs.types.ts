@@ -1,3 +1,4 @@
+import * as React from "react";
 import { TabsProps as MaterialTabsProps } from "@material-ui/core/Tabs";
 
 type OmittedProps = |
@@ -9,4 +10,14 @@ type OmittedProps = |
   "focusVisibleClassName" |
   "TouchRippleProps"
 
-export type TabsProps = Omit<MaterialTabsProps, OmittedProps>;
+export interface TabsProps extends Omit<MaterialTabsProps, OmittedProps> {
+
+  /**
+   * The component used for the root node. Either a `string` to use a DOM element or a component.
+   *
+   * @optional
+   * @type element
+   */
+  component?: React.ElementType;
+
+}
