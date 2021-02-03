@@ -60,6 +60,15 @@ export {
   TableRow,
   TableRowProps,
 } from "./Table";
+export {
+  default as Tabs,
+  Tab,
+  TabProps,
+  TabPanel,
+  TabPanelProps,
+  TabsProps,
+} from "./Tabs";
+export { default as Toolbar, ToolbarProps } from "./Toolbar";
 export { TextField, TextFieldProps } from "./TextField";
 export { ThemeProvider, ThemeProviderProps } from "./ThemeProvider";
 export { default as Time, TimeProps } from "./Time";
