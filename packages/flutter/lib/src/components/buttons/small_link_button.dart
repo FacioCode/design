@@ -23,19 +23,24 @@ class SmallLinkButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
-      key: _key,
-      onPressed: _onPressed,
-      highlightColor: Colors.transparent,
-      height: ButtonStyles.sizeSmallHeight,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
-      ),
-      child: Text(
-        _title,
-        style: _isEnabled
-            ? TextStyles.button.copyWith(color: LinkButtonStyles.defaultColor)
-            : TextStyles.button.copyWith(color: LinkButtonStyles.disabledColor),
+    return Opacity(
+      opacity: _isEnabled ? 1 : 0.5,
+      child: FlatButton(
+        key: _key,
+        onPressed: _isEnabled ? _onPressed : null,
+        highlightColor: Colors.transparent,
+        height: ButtonStyles.sizeSmallHeight,
+        shape: RoundedRectangleBorder(
+          borderRadius:
+              BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
+        ),
+        child: Text(
+          _title,
+          style: _isEnabled
+              ? TextStyles.button.copyWith(color: LinkButtonStyles.defaultColor)
+              : TextStyles.button
+                  .copyWith(color: LinkButtonStyles.disabledColor),
+        ),
       ),
     );
   }

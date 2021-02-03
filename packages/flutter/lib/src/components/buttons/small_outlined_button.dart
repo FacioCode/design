@@ -22,31 +22,34 @@ class SmallOutlinedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: Sizes.baseSingle),
-      child: ButtonTheme(
-        height: ButtonStyles.sizeSmallHeight,
-        child: OutlineButton(
-          key: _key,
-          onPressed: _isEnabled ? _onPressed : null,
-          borderSide: const BorderSide(
-            color: OutlinedButtonStyles.defaultBorderColor,
-            width: OutlinedButtonStyles.borderWidth,
-          ),
-          splashColor: Colors.transparent,
-          highlightColor: OutlinedButtonStyles.pressedBackgroundColor,
-          highlightedBorderColor: OutlinedButtonStyles.pressedBorderColor,
-          shape: RoundedRectangleBorder(
-            borderRadius:
-                BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
-          ),
-          child: Text(
-            _title,
-            textAlign: TextAlign.center,
-            style: _isEnabled
-                ? TextStyles.button
-                : TextStyles.button
-                    .copyWith(color: OutlinedButtonStyles.disabledColor),
+    return Opacity(
+      opacity: _isEnabled ? 1 : 0.5,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: Sizes.baseSingle),
+        child: ButtonTheme(
+          height: ButtonStyles.sizeSmallHeight,
+          child: OutlineButton(
+            key: _key,
+            onPressed: _isEnabled ? _onPressed : null,
+            borderSide: const BorderSide(
+              color: OutlinedButtonStyles.defaultBorderColor,
+              width: OutlinedButtonStyles.borderWidth,
+            ),
+            splashColor: Colors.transparent,
+            highlightColor: OutlinedButtonStyles.pressedBackgroundColor,
+            highlightedBorderColor: OutlinedButtonStyles.pressedBorderColor,
+            shape: RoundedRectangleBorder(
+              borderRadius:
+                  BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
+            ),
+            child: Text(
+              _title,
+              textAlign: TextAlign.center,
+              style: _isEnabled
+                  ? TextStyles.button
+                  : TextStyles.button
+                      .copyWith(color: OutlinedButtonStyles.disabledColor),
+            ),
           ),
         ),
       ),

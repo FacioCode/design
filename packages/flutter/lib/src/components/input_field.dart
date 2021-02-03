@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
-import 'mask_input_field.dart';
+import 'masks/currency_mask.dart';
+import 'masks/magic_mask.dart';
 
 enum InputType { currency, cpf, phone, personName }
 
@@ -71,15 +72,17 @@ class FacioInputField extends StatelessWidget {
                   : TextCapitalization.none,
               inputFormatters: [
                 FilteringTextInputFormatter.singleLineFormatter,
-                FilteringTextInputFormatter.deny(MaskInputField.emojis),
+                FilteringTextInputFormatter.deny(TextInputMask.emojis),
                 if (_inputFormatters != null) ..._inputFormatters,
                 if (_inputType == InputType.personName)
-                  FilteringTextInputFormatter.deny(MaskInputField.numbers),
+                  FilteringTextInputFormatter.deny(TextInputMask.numbers),
                 if (_inputType == InputType.personName)
-                  FilteringTextInputFormatter.deny(MaskInputField.symbols),
-                if (_inputType == InputType.cpf) MaskInputField.cpf,
-                if (_inputType == InputType.currency) MaskInputField.currency,
-                if (_inputType == InputType.phone) MaskInputField.phone,
+                  FilteringTextInputFormatter.deny(TextInputMask.symbols),
+                if (_inputType == InputType.cpf)
+                  TextInputMask(mask: '999.999.999-99'),
+                if (_inputType == InputType.currency) CurrencyMask(),
+                if (_inputType == InputType.phone)
+                  TextInputMask(mask: '(99) 9 9999 9999'),
               ],
               keyboardType: keyboardType(),
               decoration: InputDecoration(
@@ -117,14 +120,11 @@ class FacioInputField extends StatelessWidget {
           duration: const Duration(milliseconds: 200),
           child: _errorMessage == null
               ? const SizedBox()
-              : Container(
-                  color: PaperStyles.backgroundColor,
-                  child: Padding(
-                    padding: const EdgeInsets.only(top: Sizes.baseSingle),
-                    child: Align(
-                      alignment: Alignment.centerLeft,
-                      child: Text(_errorMessage, style: TextStyles.bodyText2),
-                    ),
+              : Padding(
+                  padding: const EdgeInsets.only(top: Sizes.baseSingle),
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: Text(_errorMessage, style: TextStyles.bodyText2),
                   ),
                 ),
         )
