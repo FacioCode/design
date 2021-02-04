@@ -5,15 +5,42 @@
       "approval": { "value": "assets/icons/approval.svg" },
       "arrowRight": { "value": "assets/icons/arrow-right.svg" },
       "arrowUp": { "value": "assets/icons/arrow-up.svg" },
-      "bankB6": { "value": "assets/icons/bank-b6.svg" },
-      "bankBB": { "value": "assets/icons/bank-bb.svg" },
-      "bankBradesco": { "value": "assets/icons/bank-bradesco.svg" },
-      "bankCaixa": { "value": "assets/icons/bank-caixa.svg" },
-      "bankInter": { "value": "assets/icons/bank-inter.svg" },
-      "bankItau": { "value": "assets/icons/bank-itau.svg" },
-      "bankNubank": { "value": "assets/icons/bank-nubank.svg" },
-      "bankSantander": { "value": "assets/icons/bank-santander.svg" },
-      "bankVotorantim": { "value": "assets/icons/bank-votorantim.svg" },
+      "bankB6": {
+        "comment": "Icon for B6 Brazilian Bank",
+        "value": "assets/icons/bank-b6.svg"
+      },
+      "bankBB": {
+        "comment": "Icon for Banco do Brazil (Brazil's Bank)",
+        "value": "assets/icons/bank-bb.svg"
+      },
+      "bankBradesco": {
+        "comment": "Icon for Bradesco Bank",
+        "value": "assets/icons/bank-bradesco.svg"
+      },
+      "bankCaixa": {
+        "comment": "Icon for Caixa Bank",
+        "value": "assets/icons/bank-caixa.svg"
+      },
+      "bankInter": {
+        "comment": "Icon for Inter Bank",
+        "value": "assets/icons/bank-inter.svg"
+      },
+      "bankItau": {
+        "comment": "Icon for Itaú Bank",
+        "value": "assets/icons/bank-itau.svg"
+      },
+      "bankNubank": {
+        "comment": "Icon for Nubank",
+        "value": "assets/icons/bank-nubank.svg"
+      },
+      "bankSantander": {
+        "comment": "Icon for Santander Bank",
+        "value": "assets/icons/bank-santander.svg"
+      },
+      "bankVotorantim": {
+        "comment": "Icon for Votorantim Bank",
+        "value": "assets/icons/bank-votorantim.svg"
+      },
       "bigPig": { "value": "assets/icons/big-pig.svg" },
       "calendar": { "value": "assets/icons/calendar.svg" },
       "close": { "value": "assets/icons/close.svg" },
