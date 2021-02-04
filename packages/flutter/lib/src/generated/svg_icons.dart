@@ -23,6 +23,42 @@ class FacioSvgIcons {
   static final arrowUp =
       SvgPicture.asset("assets/icons/arrow-up.svg", package: packageName);
 
+  /// Icon For B 6 Brazilian Bank
+  static final bankB6 =
+      SvgPicture.asset("assets/icons/bank-b6.svg", package: packageName);
+
+  /// Icon For Banco Do Brazil Brazils Bank
+  static final bankBB =
+      SvgPicture.asset("assets/icons/bank-bb.svg", package: packageName);
+
+  /// Icon For Bradesco Bank
+  static final bankBradesco =
+      SvgPicture.asset("assets/icons/bank-bradesco.svg", package: packageName);
+
+  /// Icon For Caixa Bank
+  static final bankCaixa =
+      SvgPicture.asset("assets/icons/bank-caixa.svg", package: packageName);
+
+  /// Icon For Inter Bank
+  static final bankInter =
+      SvgPicture.asset("assets/icons/bank-inter.svg", package: packageName);
+
+  /// Icon For Itau Bank
+  static final bankItau =
+      SvgPicture.asset("assets/icons/bank-itau.svg", package: packageName);
+
+  /// Icon For Nubank
+  static final bankNubank =
+      SvgPicture.asset("assets/icons/bank-nubank.svg", package: packageName);
+
+  /// Icon For Santander Bank
+  static final bankSantander =
+      SvgPicture.asset("assets/icons/bank-santander.svg", package: packageName);
+
+  /// Icon For Votorantim Bank
+  static final bankVotorantim =
+      SvgPicture.asset("assets/icons/bank-votorantim.svg", package: packageName);
+
   /// Icon For Big Pig
   static final bigPig =
       SvgPicture.asset("assets/icons/big-pig.svg", package: packageName);
