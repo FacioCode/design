@@ -12,6 +12,7 @@ class BaseCard extends StatelessWidget {
     final double elevation = 0,
     final Color color = ColorPalette.baseWhite,
     final Color borderColor = ColorPalette.baseGrey30,
+    final Key key,
   })  : assert(child != null),
         _child = child,
         _padding = innerPadding,
@@ -19,7 +20,8 @@ class BaseCard extends StatelessWidget {
         _onTap = onTap,
         _elevation = elevation,
         _color = color,
-        _borderColor = borderColor;
+        _borderColor = borderColor,
+        _key = key;
 
   final Widget _child;
   final EdgeInsets _padding;
@@ -28,12 +30,14 @@ class BaseCard extends StatelessWidget {
   final double _elevation;
   final Color _color;
   final Color _borderColor;
+  final Key _key;
 
   static const BorderRadius _defaultRadius =
       BorderRadius.all(Radius.circular(PaperStyles.roundedBorderRadius));
 
   @override
   Widget build(BuildContext context) => Card(
+        key: _key,
         margin: _margin,
         elevation: _elevation,
         color: _color,
