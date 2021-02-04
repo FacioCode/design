@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.1](https://github.com/FacioCode/design/compare/v5.1.0...v5.1.1) (2021-02-04)
+
+
+### Bug Fixes
+
+* **style-dictionary:** generate correct formatting for svg picture classes ([c9011ba](https://github.com/FacioCode/design/commit/c9011ba5451ed0c52a269831ef4e0c82225e8c20))
+
+
+
+
+
 # [5.1.0](https://github.com/FacioCode/design/compare/v5.0.1...v5.1.0) (2021-02-04)
 
 
