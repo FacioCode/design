@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/FacioCode/design/compare/v5.0.1...v5.1.0) (2021-02-04)
+
+
+### Features
+
+* **flutter:** add bank icons to `FacioSvgIcons` ([9ae906d](https://github.com/FacioCode/design/commit/9ae906def411043f6dc4d53ac14fc9e7568bea0f))
+* **flutter:** update `FacioIcons` fonts ([370bdea](https://github.com/FacioCode/design/commit/370bdea2b51f6c0fdcd23ba311bfbe9ef57ec36a))
+
+
+
+
+
 ## [5.0.1](https://github.com/FacioCode/design/compare/v5.0.0...v5.0.1) (2021-02-04)
 
 **Note:** Version bump only for package facio_design_system
