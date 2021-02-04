@@ -4,6 +4,7 @@
 import 'package:flutter_svg/svg.dart';
 
 <%
+const threshold = 14;
 _.forEach(Object.keys(asset), (assetType) => {
 const className = _.upperFirst(_.camelCase(`Facio SVG ${assetType}s`));
 %>// ignore: avoid_classes_with_only_static_members
@@ -16,9 +17,9 @@ class <%= className %> {
   const comment = commentFromDictionary ? commentFromDictionary : `${assetType} for ${assetItem}`;
 %>
   /// <%= _.deburr(_.startCase(comment)) %>
-  static final <%= assetItem %> =<%= assetItem.length >= 17 ? " " : `
-      ` %>SvgPicture.asset(<%= assetItem.length >= 17 ? `
-      ` : "" %><%= assets[assetItem].value %>,<%= assetItem.length >= 17 ? `
+  static final <%= assetItem %> =<%= assetItem.length >= threshold ? " " : `
+      ` %>SvgPicture.asset(<%= assetItem.length >= threshold ? `
+      ` : "" %><%= assets[assetItem].value %>,<%= assetItem.length >= threshold ? `
       ` : " " %>package: packageName);
 <%
   }); // end forEach imageAsset
