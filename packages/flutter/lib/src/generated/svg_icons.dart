@@ -56,8 +56,9 @@ class FacioSvgIcons {
       SvgPicture.asset("assets/icons/bank-santander.svg", package: packageName);
 
   /// Icon For Votorantim Bank
-  static final bankVotorantim =
-      SvgPicture.asset("assets/icons/bank-votorantim.svg", package: packageName);
+  static final bankVotorantim = SvgPicture.asset(
+      "assets/icons/bank-votorantim.svg",
+      package: packageName);
 
   /// Icon For Big Pig
   static final bigPig =
