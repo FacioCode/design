@@ -5,7 +5,7 @@ export {
   AlertTitleProps,
 } from "./Alert";
 export { AppBar, AppBarProps } from "./AppBar";
-export { BottomSheet, BottomSheetProps } from "./BottomSheet";
+export { default as BottomSheet, BottomSheetProps } from "./BottomSheet";
 export { ButtonGroup, ButtonGroupProps } from "./Button";
 export {
   ContainedButton,
