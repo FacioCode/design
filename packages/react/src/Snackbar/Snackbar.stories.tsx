@@ -1,9 +1,9 @@
 import * as React from "react";
 import { ContainedButton, LinkButton } from "../Button";
 import type { Meta, Story } from "@storybook/react";
+import { AlertTitle } from "../Alert";
 import { Snackbar } from "./Snackbar";
 import { SnackbarProps } from "./Snackbar.types";
-import { Alert, AlertTitle } from "../Alert";
 
 export default {
   component: Snackbar,
