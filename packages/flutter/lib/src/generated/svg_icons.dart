@@ -23,10 +23,6 @@ class FacioSvgIcons {
   static final arrowUp =
       SvgPicture.asset("assets/icons/arrow-up.svg", package: packageName);
 
-  /// Icon For B 6 Brazilian Bank
-  static final bankB6 =
-      SvgPicture.asset("assets/icons/bank-b6.svg", package: packageName);
-
   /// Icon For Banco Do Brazil Brazils Bank
   static final bankBB =
       SvgPicture.asset("assets/icons/bank-bb.svg", package: packageName);
@@ -34,6 +30,10 @@ class FacioSvgIcons {
   /// Icon For Bradesco Bank
   static final bankBradesco =
       SvgPicture.asset("assets/icons/bank-bradesco.svg", package: packageName);
+
+  /// Icon For C 6 Brazilian Bank
+  static final bankC6 =
+      SvgPicture.asset("assets/icons/bank-c6.svg", package: packageName);
 
   /// Icon For Caixa Bank
   static final bankCaixa =
