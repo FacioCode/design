@@ -151,6 +151,10 @@ jobs:
       - name: Install project dependencies
         run: flutter pub get
         working-directory: ${{env.working-directory}}
+      - name: Format files
+        run: dartfmt -w .
+      - name: Commit formatted files
+        run: sh ./.github/scripts/commit-formatted-dart.sh
       - name: Verify formatting
         run: dart format --output=none --set-exit-if-changed .
         working-directory: ${{env.working-directory}}
