@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.2](https://github.com/FacioCode/design/compare/v5.1.1...v5.1.2) (2021-02-05)
+
+
+### Bug Fixes
+
+* **react:** prevent type errors when using `Snackbar` props ([f2866c0](https://github.com/FacioCode/design/commit/f2866c02fa89bb5cad30a91c5d098ab723c4b98f))
+
+
+
+
+
 ## [5.1.1](https://github.com/FacioCode/design/compare/v5.1.0...v5.1.1) (2021-02-04)
 
 
