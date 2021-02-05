@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.3](https://github.com/FacioCode/design/compare/v5.1.2...v5.1.3) (2021-02-05)
+
+
+### Bug Fixes
+
+* **flutter:** rename `bankB6` to `bankC6` on `FacioSvgIcons` ([58626a1](https://github.com/FacioCode/design/commit/58626a1054711fcef5bce03fbb73c59004d86b26))
+* **style-dictionary:** rename `bankB6` token to `bankC6` ([24d64c9](https://github.com/FacioCode/design/commit/24d64c95ce16a00b5663ebcec6e048ace0f69ec3))
+
+
+
+
+
 ## [5.1.2](https://github.com/FacioCode/design/compare/v5.1.1...v5.1.2) (2021-02-05)
 
 
