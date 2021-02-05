@@ -58,14 +58,6 @@ class TextStyles {
       letterSpacing: -0.43,
       height: 1.41176470588);
 
-  static const TextStyle bodyText1 = const TextStyle(
-      color: Color(0xFF424D5C),
-      fontFamily: "Open Sans",
-      fontSize: 17.00,
-      fontWeight: FontWeight.w400,
-      letterSpacing: -0.43,
-      height: 1.41176470588);
-
   static const TextStyle subtitle1 = const TextStyle(
       color: Color(0xFF303846),
       fontFamily: "Open Sans",
@@ -89,6 +81,14 @@ class TextStyles {
       fontWeight: FontWeight.w600,
       letterSpacing: -0.15);
 
+  static const TextStyle bodyText1 = const TextStyle(
+      color: Color(0xFF424D5C),
+      fontFamily: "Open Sans",
+      fontSize: 17.00,
+      fontWeight: FontWeight.w400,
+      letterSpacing: -0.43,
+      height: 1.41176470588);
+
   static const TextStyle bodyText2 = const TextStyle(
       color: Color(0xFF424D5C),
       fontFamily: "Open Sans",
@@ -111,10 +111,10 @@ class TextStyles {
       headline3: TextStyles.headline3,
       headline4: TextStyles.headline4,
       headline5: TextStyles.headline5,
-      bodyText1: TextStyles.bodyText1,
       subtitle1: TextStyles.subtitle1,
       subtitle2: TextStyles.subtitle2,
       button: TextStyles.button,
+      bodyText1: TextStyles.bodyText1,
       bodyText2: TextStyles.bodyText2,
       caption: TextStyles.caption);
 }
