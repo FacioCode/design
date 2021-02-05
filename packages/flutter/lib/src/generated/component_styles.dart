@@ -348,6 +348,12 @@ class ContainerStyles {
 
   /// Padding Right for Disable Gutters
   static const disableGuttersPaddingRight = 0.00;
+
+  /// Background Color for Color Default
+  static const colorDefaultBackgroundColor = const Color(0x00FFFFFF);
+
+  /// Background Color for Color Grey
+  static const colorGreyBackgroundColor = const Color(0xFFF2F2F3);
 }
 
 class CurrencyStyles {
@@ -575,6 +581,16 @@ class IconButtonStyles {
 
   /// Padding for Size Medium
   static const sizeMediumPadding = 12.00;
+}
+
+class IconStyles {
+  IconStyles._();
+
+  /// Color Default for Icon
+  static const colorDefault = Color(0xFF303846);
+
+  /// Color Hint for Icon
+  static const colorHint = Color(0xFFAFB4BB);
 }
 
 class InputBaseStyles {
