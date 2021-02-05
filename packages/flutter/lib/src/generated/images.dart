@@ -9,38 +9,58 @@ class FacioSvgImages {
   static final String packageName = 'facio_design_system';
 
   /// Default Coloured Image For Logo
-  static final logo = SvgPicture.asset("assets/images/logo.svg",
-      color: IconStyles.colorDefault, package: packageName);
+  static final logo = SvgPicture.asset(
+      "assets/images/logo.svg",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
 
   /// Hint Coloured Image For Logo
-  static final logoColorHint = SvgPicture.asset("assets/images/logo.svg",
-      color: IconStyles.colorHint, package: packageName);
+  static final logoColorHint = SvgPicture.asset(
+      "assets/images/logo.svg",
+      color: IconStyles.colorHint,
+      package: packageName
+  );
 
   /// Default Coloured Image For Logo 57 W
-  static final logo57w = SvgPicture.asset("assets/images/logo-57w.png",
-      color: IconStyles.colorDefault, package: packageName);
+  static final logo57w = SvgPicture.asset(
+      "assets/images/logo-57w.png",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
 
   /// Hint Coloured Image For Logo 57 W
-  static final logo57wColorHint = SvgPicture.asset("assets/images/logo-57w.png",
-      color: IconStyles.colorHint, package: packageName);
+  static final logo57wColorHint = SvgPicture.asset(
+      "assets/images/logo-57w.png",
+      color: IconStyles.colorHint,
+      package: packageName
+  );
 
   /// Default Coloured Image For Logo Dark
-  static final logoDark = SvgPicture.asset("assets/images/logo-dark.svg",
-      color: IconStyles.colorDefault, package: packageName);
+  static final logoDark = SvgPicture.asset(
+      "assets/images/logo-dark.svg",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
 
   /// Hint Coloured Image For Logo Dark
   static final logoDarkColorHint = SvgPicture.asset(
       "assets/images/logo-dark.svg",
       color: IconStyles.colorHint,
-      package: packageName);
+      package: packageName
+  );
 
   /// Default Coloured Image For Logo Light
-  static final logoLight = SvgPicture.asset("assets/images/logo-light.svg",
-      color: IconStyles.colorDefault, package: packageName);
+  static final logoLight = SvgPicture.asset(
+      "assets/images/logo-light.svg",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
 
   /// Hint Coloured Image For Logo Light
   static final logoLightColorHint = SvgPicture.asset(
       "assets/images/logo-light.svg",
       color: IconStyles.colorHint,
-      package: packageName);
+      package: packageName
+  );
 }
