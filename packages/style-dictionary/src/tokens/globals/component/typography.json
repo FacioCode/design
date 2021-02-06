@@ -62,15 +62,6 @@
         "letterSpacing": { "value": "{size.font.headline5.letterSpacing.value}" },
         "lineHeight": { "value": "{size.font.headline5.lineHeight.value}" }
       },
-      "bodyText1": {
-        "comment": "Formerly body. Also known as body1. Most common than bodyText2.",
-        "color": { "value": "{color.font.primary.value}" },
-        "fontFamily": { "value": "{font.family.base.value}" },
-        "fontSize": { "value": "{size.font.bodyText1.fontSize.value}" },
-        "fontWeight": { "value": "{font.weight.regular.value}"},
-        "letterSpacing": { "value": "{size.font.bodyText1.letterSpacing.value}" },
-        "lineHeight": { "value": "{size.font.bodyText1.lineHeight.value}" }
-      },
       "subtitle1": {
         "comment": "Formerly subhead. Used for primary text for list titles.",
         "color": { "value": "{color.font.primaryHighContrast.value}" },
@@ -105,9 +96,22 @@
         "fontWeight": { "value": "{font.weight.semiBold.value}" },
         "letterSpacing": { "value": "{size.font.button.letterSpacing.value}" }
       },
+      "bodyText1": {
+        "comment": "Formerly body. Also known as body1. Most common than bodyText2.",
+        "color": {
+          "value": "{color.font.primary.value}"
+        },
+        "fontFamily": { "value": "{font.family.base.value}" },
+        "fontSize": { "value": "{size.font.bodyText1.fontSize.value}" },
+        "fontWeight": { "value": "{font.weight.regular.value}"},
+        "letterSpacing": { "value": "{size.font.bodyText1.letterSpacing.value}" },
+        "lineHeight": { "value": "{size.font.bodyText1.lineHeight.value}" }
+      },
       "bodyText2": {
         "comment": "Formerly footnote. Useful for optional text content, like card content text.",
-        "color": { "value": "{color.font.primary.value}" },
+        "color": {
+          "value": "{color.font.primary.value}"
+        },
         "fontFamily": { "value": "{font.family.base.value}" },
         "fontSize": {
           "comment": "Low emphasis, useful for very small blocks",
