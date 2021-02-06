@@ -781,6 +781,24 @@ export const containerStyles = {
 
   },
 
+  colorDefault: {
+
+    /**
+     * Background Color for Container Color Default
+     */
+    backgroundColor: "var(--component-container-color-default-background-color, rgba(255, 255, 255, 0))",
+
+  },
+
+  colorGrey: {
+
+    /**
+     * Background Color for Container Color Grey
+     */
+    backgroundColor: "var(--component-container-color-grey-background-color, #fafafa)",
+
+  },
+
 };
 
 export const currencyStyles = {
@@ -1293,6 +1311,25 @@ export const iconButtonStyles = {
      * Padding for Icon Button Size Medium
      */
     padding: "var(--component-icon-button-size-medium-padding, 12px)",
+
+  },
+
+};
+
+export const iconStyles = {
+
+  root: {
+
+    /**
+     * Color Default for Icon Root
+     */
+    colorDefault: "var(--component-icon-root-color-default, #303846)",
+
+
+    /**
+     * Color Hint for Icon Root
+     */
+    colorHint: "var(--component-icon-root-color-hint, #afb4bb)",
 
   },
 
@@ -2047,51 +2084,6 @@ export const typographyStyles = {
 
   },
 
-  bodyText1: {
-
-    /**
-     * Color for Typography Body Text 1
-     */
-    color: "var(--component-typography-body-text-1-color, #424d5c)",
-
-
-    /**
-     * Font Family for Typography Body Text 1
-     */
-    fontFamily: "var(--component-typography-body-text-1-font-family, Open Sans, sans-serif)",
-
-
-    /**
-     * Font Size for Typography Body Text 1
-     */
-    fontSize: "var(--component-typography-body-text-1-font-size, 1rem)",
-
-
-    /**
-     * Font Weight for Typography Body Text 1
-     */
-    fontWeight: "var(--component-typography-body-text-1-font-weight, 400)",
-
-
-    /**
-     * Letter Spacing for Typography Body Text 1
-     */
-    letterSpacing: "var(--component-typography-body-text-1-letter-spacing, 0px)",
-
-
-    /**
-     * Line Height for Typography Body Text 1
-     */
-    lineHeight: "var(--component-typography-body-text-1-line-height, 1.5em)",
-
-
-    /**
-     * Margin Bottom for Typography Body Text 1
-     */
-    marginBottom: "var(--component-typography-body-text-1-margin-bottom, 1.5em)",
-
-  },
-
   subtitle1: {
 
     /**
@@ -2200,6 +2192,51 @@ export const typographyStyles = {
      * Letter Spacing for Typography Button
      */
     letterSpacing: "var(--component-typography-button-letter-spacing, 0px)",
+
+  },
+
+  bodyText1: {
+
+    /**
+     * Color for Typography Body Text 1
+     */
+    color: "var(--component-typography-body-text-1-color, #424d5c)",
+
+
+    /**
+     * Font Family for Typography Body Text 1
+     */
+    fontFamily: "var(--component-typography-body-text-1-font-family, Open Sans, sans-serif)",
+
+
+    /**
+     * Font Size for Typography Body Text 1
+     */
+    fontSize: "var(--component-typography-body-text-1-font-size, 1rem)",
+
+
+    /**
+     * Font Weight for Typography Body Text 1
+     */
+    fontWeight: "var(--component-typography-body-text-1-font-weight, 400)",
+
+
+    /**
+     * Letter Spacing for Typography Body Text 1
+     */
+    letterSpacing: "var(--component-typography-body-text-1-letter-spacing, 0px)",
+
+
+    /**
+     * Line Height for Typography Body Text 1
+     */
+    lineHeight: "var(--component-typography-body-text-1-line-height, 1.5em)",
+
+
+    /**
+     * Margin Bottom for Typography Body Text 1
+     */
+    marginBottom: "var(--component-typography-body-text-1-margin-bottom, 1.5em)",
 
   },
 
@@ -2584,19 +2621,160 @@ export const tableCellStyles = {
     /**
      * Border Bottom Color for Table Cell Root
      */
-    borderBottomColor: "var(--component-table-cell-root-border-bottom-color, #e2e3e4)",
+    borderBottomColor: "var(--component-table-cell-root-border-bottom-color, rgba(255, 255, 255, 0))",
 
 
     /**
      * Border Bottom Width for Table Cell Root
      */
-    borderBottomWidth: "var(--component-table-cell-root-border-bottom-width, 1px)",
+    borderBottomWidth: "var(--component-table-cell-root-border-bottom-width, 0px)",
+
+
+    /**
+     * Padding for Table Cell Root
+     */
+    padding: "var(--component-table-cell-root-padding, 16px)",
+
+  },
+
+  body: {
+
+    /**
+     * Color for Table Cell Body
+     */
+    color: "var(--component-table-cell-body-color, #424d5c)",
+
+  },
+
+  head: {
+
+    /**
+     * Background Color for Table Cell Head
+     */
+    backgroundColor: "var(--component-table-cell-head-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
+     * Border Bottom Color for Table Cell Head
+     */
+    borderBottomColor: "var(--component-table-cell-head-border-bottom-color, #e2e3e4)",
+
+
+    /**
+     * Border Bottom Width for Table Cell Head
+     */
+    borderBottomWidth: "var(--component-table-cell-head-border-bottom-width, 1px)",
+
+
+    /**
+     * Font Weight for Table Cell Head
+     */
+    fontWeight: "var(--component-table-cell-head-font-weight, 700)",
+
+  },
+
+  dataChild: {
+
+    /**
+     * Font Family for Table Cell Data Child
+     */
+    fontFamily: "var(--component-table-cell-data-child-font-family, -apple-system-monospace, 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace)",
+
+
+    /**
+     * Font Size for Table Cell Data Child
+     */
+    fontSize: "var(--component-table-cell-data-child-font-size, 0.92857em)",
+
+  },
+
+  paddingNone: {
+
+    /**
+     * Padding for Table Cell Padding None
+     */
+    padding: "var(--component-table-cell-padding-none-padding, 0px)",
+
+  },
+
+  sizeSmall: {
+
+    /**
+     * Padding for Table Cell Size Small
+     */
+    padding: "var(--component-table-cell-size-small-padding, 8px)",
+
+  },
+
+  timeChild: {
+
+    /**
+     * Font Family for Table Cell Time Child
+     */
+    fontFamily: "var(--component-table-cell-time-child-font-family, -apple-system-monospace, 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace)",
+
+
+    /**
+     * Font Size for Table Cell Time Child
+     */
+    fontSize: "var(--component-table-cell-time-child-font-size, 0.92857em)",
 
   },
 
 };
 
 export const tableRowStyles = {
+
+  root: {
+
+    /**
+     * Background Color for Table Row Root
+     */
+    backgroundColor: "var(--component-table-row-root-background-color, rgba(255, 255, 255, 0))",
+
+  },
+
+  even: {
+
+    /**
+     * Background Color for Table Row Even
+     */
+    backgroundColor: "var(--component-table-row-even-background-color, rgba(16, 22, 21, 0.02))",
+
+  },
+
+  head: {
+
+    /**
+     * Background Color for Table Row Head
+     */
+    backgroundColor: "var(--component-table-row-head-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
+     * Font Weight for Table Row Head
+     */
+    fontWeight: "var(--component-table-row-head-font-weight, 700)",
+
+  },
+
+  hover: {
+
+    /**
+     * Background Color for Table Row Hover
+     */
+    backgroundColor: "var(--component-table-row-hover-background-color, #e3eeff)",
+
+  },
+
+  odd: {
+
+    /**
+     * Background Color for Table Row Odd
+     */
+    backgroundColor: "var(--component-table-row-odd-background-color, rgba(255, 255, 255, 0))",
+
+  },
 
   selected: {
 
