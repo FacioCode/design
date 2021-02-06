@@ -2,8 +2,32 @@
   "component": {
     "tableCell": {
       "root": {
+        "borderBottomColor": { "value": "{color.base.transparent.00.value}" },
+        "borderBottomWidth": { "value": "{size.border.width.none.value}" },
+        "padding": { "value": "{size.base.double.value}" }
+      },
+      "body": {
+        "color": { "value": "{color.font.primary.value}" }
+      },
+      "head": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
         "borderBottomColor": { "value": "{color.border.divider.value}" },
-        "borderBottomWidth": { "value": "{size.border.width.single.value}" }
+        "borderBottomWidth": { "value": "{size.border.width.single.value}" },
+        "fontWeight": { "value": "{font.weight.bold.value}" }
+      },
+      "dataChild": {
+        "fontFamily": { "value": "{font.family.system.monospace.value}" },
+        "fontSize": { "value": 0.92857 }
+      },
+      "paddingNone": {
+        "padding": { "value": "{size.base.none.value}" }
+      },
+      "sizeSmall": {
+        "padding": { "value": "{size.base.single.value}" }
+      },
+      "timeChild": {
+        "fontFamily": { "value": "{font.family.system.monospace.value}" },
+        "fontSize": { "value": 0.92857 }
       }
     }
   }

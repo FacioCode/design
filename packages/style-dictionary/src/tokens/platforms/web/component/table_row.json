@@ -1,6 +1,23 @@
 {
   "component": {
     "tableRow": {
+      "root": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" }
+      },
+      "even": {
+        "backgroundColor": { "value": "{color.base.transparent.05.value}" }
+      },
+      "head": {
+        "comment": "Styles applied to the root element if table variant is head",
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
+        "fontWeight": { "value": "{font.weight.bold.value}" }
+      },
+      "hover": {
+        "backgroundColor": { "value": "{color.background.rowHover.value}" }
+      },
+      "odd": {
+        "backgroundColor": { "value": "{component.tableRow.root.backgroundColor.value}" }
+      },
       "selected": {
         "backgroundColor": { "value": "{color.background.selected.value}" }
       }
