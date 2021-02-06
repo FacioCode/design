@@ -1,17 +1,29 @@
 {
   "color": {
     "background": {
+      "default": { "value": "{color.base.white.value}" },
+      "paper": {
+        "comment": "Useful for app bars",
+        "value": "{color.base.white.value}"
+      },
+      "shadedPaper": {
+        "comment": "Useful for grey containers, table headers and and odd table rows on web",
+        "value": "{color.base.grey.05.value}"
+      },
+      "darkShadedPaper": {
+        "comment": "Useful for input background, for example",
+        "value": "{color.base.grey.10.value}"
+      },
+      "rowHover": {
+        "value": "{color.base.royalBlue.05.value}"
+      },
       "alert": {
-        "filledInfo": { "value": "{color.base.royalBlue.20.value}" },
-        "filledWarning": { "value": "{color.base.goldenrod.20.value}" },
         "standardInfo": { "value": "{color.base.royalBlue.05.value}" },
-        "standardWarning": { "value": "{color.base.goldenrod.05.value}" }
+        "filledInfo": { "value": "{color.base.royalBlue.20.value}" },
+        "standardWarning": { "value": "{color.base.goldenrod.05.value}" },
+        "filledWarning": { "value": "{color.base.goldenrod.20.value}" }
       },
       "brand": { "value": "{color.base.primary.main.value}" },
-      "default": { "value": "{color.base.white.value}" },
-      "info": { "value": "{color.base.info.main.value}" },
-      "input": { "value": "{color.base.grey.10.value}" },
-      "paper": { "value": "{color.base.white.value}" },
       "selected": { "value": "{color.base.skyBlue.05.value}" }
     }
   }
