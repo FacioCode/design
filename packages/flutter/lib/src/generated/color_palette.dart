@@ -15,8 +15,8 @@ class ColorPalette {
   static const Color backgroundBrand = const Color(0xFF3FE1B6);
   static const Color backgroundDarkShadedPaper = const Color(0xFFF2F2F3);
   static const Color backgroundDefault = const Color(0xFFFFFFFF);
-  static const Color backgroundInfo = const Color(0xFF066089);
   static const Color backgroundPaper = const Color(0xFFFFFFFF);
+  static const Color backgroundRowHover = const Color(0xFFE3EEFF);
   static const Color backgroundSelected = const Color(0xFFE3FCFF);
   static const Color backgroundShadedPaper = const Color(0xFFFAFAFA);
   static const Color baseAquamarine05 = const Color(0xFFE3FFF4);
