@@ -1,0 +1,9 @@
+{
+  "component": {
+    "container": {
+      "colorGrey": {
+        "backgroundColor": { "value": "{color.background.darkShadedPaper.value}" }
+      }
+    }
+  }
+}

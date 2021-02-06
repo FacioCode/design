@@ -8,6 +8,9 @@
       "disableGutters": {
         "paddingLeft": { "value": "{size.base.none.value}" },
         "paddingRight": { "value": "{size.base.none.value}" }
+      },
+      "colorDefault": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" }
       }
     }
   }
