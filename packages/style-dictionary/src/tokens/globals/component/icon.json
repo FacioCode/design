@@ -1,0 +1,10 @@
+{
+  "component": {
+    "icon": {
+      "root": {
+        "colorDefault": { "value": "{color.font.primaryHighContrast.value}" },
+        "colorHint": { "value": "{color.font.hint.value}" }
+      }
+    }
+  }
+}
