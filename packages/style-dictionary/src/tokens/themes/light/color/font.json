@@ -23,7 +23,7 @@
         "value": "{color.base.grey.50.value}"
       },
       "hint": {
-        "comment": "This token is not yet in use",
+        "comment": "Font/icon color for hint texts",
         "value": "{color.base.grey.50.value}"
       },
       "inverse": { "value": "{color.base.white.value}" },
