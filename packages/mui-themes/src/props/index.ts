@@ -1,4 +1,5 @@
 import { ComponentsProps } from "@material-ui/core/styles/props";
+import { Slide } from "@material-ui/core";
 
 const MuiButtonBase = {
   disableRipple: true,
@@ -31,6 +32,7 @@ export const props : ComponentsProps = {
   MuiButtonBase,
   MuiCard: {
     elevation: 0,
+    variant: "elevation",
   },
   MuiCheckbox: {
     ...MuiButtonBase,
@@ -58,15 +60,20 @@ export const props : ComponentsProps = {
   MuiPaper: {
     elevation: 0,
     square: true,
+    variant: "elevation",
   },
   MuiSnackbar: {
     ContentProps: MuiSnackbarContent,
+    TransitionComponent: Slide,
   },
   MuiSnackbarContent,
   MuiSwitch: {
     color: "primary",
     disableRipple: true,
     size: "medium",
+  },
+  MuiTable: {
+    stickyHeader: true,
   },
   MuiTabs: {},
   MuiTextField: {
