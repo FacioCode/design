@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/FacioCode/design/compare/v6.0.0...v6.1.0) (2021-02-07)
+
+
+### Features
+
+* **react:** add `LinearProgress` and `Skeleton` components ([affb7b4](https://github.com/FacioCode/design/commit/affb7b4bcae41641e326d83790749cfa89d06288))
+* **react:** add `LinearProgress` component ([4938749](https://github.com/FacioCode/design/commit/4938749973d18aaa1545a988c55ea2d42d4aa29b))
+* **react:** add `Skeleton` component ([bc45f96](https://github.com/FacioCode/design/commit/bc45f9645b35ec568c012b373fb74761879b3c7b))
+* **react:** add support to `loading` prop on `Typography` ([cf190ec](https://github.com/FacioCode/design/commit/cf190ecadd809ae4a9e402f392623a77c6007e0e))
+
+
+
+
+
 # [6.0.0](https://github.com/FacioCode/design/compare/v5.1.4...v6.0.0) (2021-02-07)
 
 
