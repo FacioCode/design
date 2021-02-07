@@ -5,7 +5,7 @@ import { ContainerProps } from "./Container.types";
 
 export default {
   component: Container,
-  title: "Components/Container",
+  title: "Utilities/Container",
 } as Meta;
 
 const Template : Story<ContainerProps> = (props: ContainerProps) => (
@@ -13,4 +13,18 @@ const Template : Story<ContainerProps> = (props: ContainerProps) => (
 );
 
 export const Playground : Story<ContainerProps> = Template.bind({});
-Playground.args = {};
+Playground.args = {
+  children: "Container content",
+};
+
+export const TransparentColor : Story<ContainerProps> = Template.bind({});
+TransparentColor.args = {
+  ...Playground.args,
+  color: "transparent",
+};
+
+export const GreyColor : Story<ContainerProps> = Template.bind({});
+GreyColor.args = {
+  ...Playground.args,
+  color: "grey",
+};
