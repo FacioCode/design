@@ -4,7 +4,14 @@ import { PaperProps as MaterialPaperProps } from "@material-ui/core/Paper";
 // eslint-disable-next-line no-magic-numbers
 type PaperElevation = 0 | 1 | 2 | 4 | 6;
 
-export interface PaperProps extends Omit<MaterialPaperProps, "css" | "elevation"> {
+export type MaterialPaperVariant = MaterialPaperProps["variant"];
+
+type OmittedProps = |
+  "css" |
+  "elevation" |
+  "variant";
+
+export interface PaperProps extends Omit<MaterialPaperProps, OmittedProps> {
 
   /**
    * The content of the component.
@@ -18,5 +25,12 @@ export interface PaperProps extends Omit<MaterialPaperProps, "css" | "elevation"
    * @optional
    * @type "0" | 1 | 2 | 4 | 6
    */
-  elevation?: PaperElevation
+  elevation?: PaperElevation;
+
+  /**
+   * @default false
+   * @optional
+   * @type boolean
+   */
+  outlined?: boolean;
 }
