@@ -349,8 +349,8 @@ class ContainerStyles {
   /// Padding Right for Disable Gutters
   static const disableGuttersPaddingRight = 0.00;
 
-  /// Background Color for Color Default
-  static const colorDefaultBackgroundColor = const Color(0x00FFFFFF);
+  /// Background Color for Color Transparent
+  static const colorTransparentBackgroundColor = const Color(0x00FFFFFF);
 
   /// Background Color for Color Grey
   static const colorGreyBackgroundColor = const Color(0xFFF2F2F3);
@@ -740,6 +740,12 @@ class PaperStyles {
 
   /// Border Radius for Rounded
   static const roundedBorderRadius = 8.00;
+
+  /// Border Color for Outlined
+  static const outlinedBorderColor = Color(0xFFE2E3E4);
+
+  /// Border Width for Outlined
+  static const outlinedBorderWidth = 1.00;
 
   /// Border Radius for Square
   static const squareBorderRadius = 0.00;
