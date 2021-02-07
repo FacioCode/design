@@ -73,3 +73,6 @@ export { TextField, TextFieldProps } from "./TextField";
 export { ThemeProvider, ThemeProviderProps } from "./ThemeProvider";
 export { default as Time, TimeProps } from "./Time";
 export { Typography, TypographyProps } from "./Typography";
+
+export { default as useMediaQuery } from "./hooks/useMediaQuery";
+export { default as useTheme } from "./hooks/useTheme";
