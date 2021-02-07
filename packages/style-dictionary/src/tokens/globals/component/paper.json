@@ -8,6 +8,10 @@
       "rounded": {
         "borderRadius": { "value": "{size.border.radius.single.value}" }
       },
+      "outlined": {
+        "borderColor": { "value": "{color.border.divider.value}" },
+        "borderWidth": { "value": "{size.border.width.single.value}" }
+      },
       "square": {
         "borderRadius": { "value": "{size.border.radius.none.value}" }
       }
