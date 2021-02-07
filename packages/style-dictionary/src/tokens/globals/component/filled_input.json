@@ -2,7 +2,7 @@
   "component": {
     "filledInput": {
       "root": {
-        "backgroundColor": { "value": "{color.background.input.value}" },
+        "backgroundColor": { "value": "{color.background.darkShadedPaper.value}" },
         "borderBottomLeftRadius": { "value": "{size.border.radius.single.value}" },
         "borderBottomRightRadius": { "value": "{size.border.radius.single.value}" },
         "borderRadius": {
@@ -18,7 +18,7 @@
         }
       },
       "focused": {
-        "backgroundColor": { "value": "{color.background.input.value}" }
+        "backgroundColor": { "value": "{component.filledInput.root.backgroundColor.value}" }
       },
       "label": {
         "comment": "Label for medium input. Label uses caption typography definitions",
