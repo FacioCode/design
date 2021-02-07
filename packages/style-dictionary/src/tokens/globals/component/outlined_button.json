@@ -8,7 +8,7 @@
       },
       "default": {
         "backgroundColor": { "value": "{color.base.transparent.00.value}" },
-        "borderColor": { "value": "{color.border.outlinedButton.value}" },
+        "borderColor": { "value": "{color.border.divider.value}" },
         "color": { "value": "{color.font.primaryHighContrast.value}" }
       },
       "disabled": {
