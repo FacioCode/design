@@ -781,12 +781,12 @@ export const containerStyles = {
 
   },
 
-  colorDefault: {
+  colorTransparent: {
 
     /**
-     * Background Color for Container Color Default
+     * Background Color for Container Color Transparent
      */
-    backgroundColor: "var(--component-container-color-default-background-color, rgba(255, 255, 255, 0))",
+    backgroundColor: "var(--component-container-color-transparent-background-color, rgba(255, 255, 255, 0))",
 
   },
 
@@ -1704,6 +1704,21 @@ export const paperStyles = {
      * Border Radius for Paper Rounded
      */
     borderRadius: "var(--component-paper-rounded-border-radius, 8px)",
+
+  },
+
+  outlined: {
+
+    /**
+     * Border Color for Paper Outlined
+     */
+    borderColor: "var(--component-paper-outlined-border-color, #e2e3e4)",
+
+
+    /**
+     * Border Width for Paper Outlined
+     */
+    borderWidth: "var(--component-paper-outlined-border-width, 1px)",
 
   },
 
