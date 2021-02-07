@@ -1,10 +1,6 @@
 {
   "color": {
     "border": {
-      "outlinedButton": {
-        "comment": "Border color commonly used for button with outlined variant.",
-        "value": "{color.base.grey.30.value}"
-      },
       "outlinedButtonPressed": {
         "value": "{color.base.aquamarine.60.value}"
       },
