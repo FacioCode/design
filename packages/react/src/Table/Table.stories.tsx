@@ -10,6 +10,7 @@ import { TableFooter } from "./TableFooter";
 import { TableHead } from "./TableHead";
 import { TableProps } from "./Table.types";
 import { TableRow } from "./TableRow";
+import { Time } from "../Time";
 
 export default {
   component: Table,
@@ -21,10 +22,12 @@ const Template : Story<TableProps> = (props: TableProps) => (
   <TableContainer>
     <Table {...props}>
       <TableHead>
-        <TableRow>
-          <TableCell padding={"checkbox"} scope={"col"}><Checkbox inputProps={{
-            "aria-label": "select all requests",
-          }} /></TableCell>
+        <TableRow hover={false} selected={false}>
+          <TableCell padding={"checkbox"} scope={"col"}>
+            <Checkbox inputProps={{
+              "aria-label": "select all requests",
+            }} />
+          </TableCell>
           <TableCell scope={"col"}>Requested at</TableCell>
           <TableCell scope={"col"}>Employer legal name</TableCell>
           <TableCell align={"right"} scope={"col"}>Employee ID</TableCell>
@@ -34,32 +37,50 @@ const Template : Story<TableProps> = (props: TableProps) => (
         </TableRow>
       </TableHead>
       <TableBody>
-        <TableRow hover={true}>
-          <TableCell padding={"checkbox"}><Checkbox /></TableCell>
-          <TableCell style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>05/12/2020 10:51</TableCell>
+        <TableRow hover={true} selected={false}>
+          <TableCell padding={"checkbox"}>
+            <Checkbox defaultChecked={false} inputProps={{
+              "aria-label": "select request",
+            }} />
+          </TableCell>
+          <TableCell>
+            <Time dateStyle={"short"} timeStyle={"short"}>05/12/2020 10:51</Time>
+          </TableCell>
           <TableCell>ACME Corporation</TableCell>
-          <TableCell align={"right"} style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>100</TableCell>
+          <TableCell align={"right"}>100</TableCell>
           <TableCell>Luisa Mendes dos Santos</TableCell>
-          <TableCell style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>123.456.789-00</TableCell>
-          <TableCell align={"right"} style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}><Currency code={"BRL"}>100.00</Currency></TableCell>
+          <TableCell>123.456.789-00</TableCell>
+          <TableCell align={"right"}><Currency code={"BRL"}>100.00</Currency></TableCell>
+        </TableRow>
+        <TableRow hover={true} selected={false}>
+          <TableCell padding={"checkbox"}>
+            <Checkbox defaultChecked={false} inputProps={{
+              "aria-label": "select request",
+            }} />
+          </TableCell>
+          <TableCell>
+            <Time dateStyle={"short"} timeStyle={"short"}>05/12/2020 10:51</Time>
+          </TableCell>
+          <TableCell>ACME Corporation</TableCell>
+          <TableCell align={"right"}>100</TableCell>
+          <TableCell>Luisa Mendes dos Santos</TableCell>
+          <TableCell>123.456.789-00</TableCell>
+          <TableCell align={"right"}><Currency code={"BRL"}>100.00</Currency></TableCell>
         </TableRow>
         <TableRow hover={true} selected={true}>
-          <TableCell padding={"checkbox"}><Checkbox checked={true} /></TableCell>
-          <TableCell style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>05/12/2020 10:51</TableCell>
+          <TableCell padding={"checkbox"}>
+            <Checkbox defaultChecked={true} inputProps={{
+              "aria-label": "select request",
+            }} />
+          </TableCell>
+          <TableCell>
+            <Time dateStyle={"short"} timeStyle={"short"}>05/12/2020 10:51</Time>
+          </TableCell>
           <TableCell>ACME Corporation</TableCell>
-          <TableCell align={"right"} style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>100</TableCell>
+          <TableCell align={"right"}>100</TableCell>
           <TableCell>Luisa Mendes dos Santos</TableCell>
-          <TableCell style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>123.456.789-00</TableCell>
-          <TableCell align={"right"} style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}><Currency code={"BRL"}>100.00</Currency></TableCell>
-        </TableRow>
-        <TableRow hover={true}>
-          <TableCell padding={"checkbox"}><Checkbox /></TableCell>
-          <TableCell style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>05/12/2020 10:51</TableCell>
-          <TableCell>ACME Corporation</TableCell>
-          <TableCell align={"right"} style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>100</TableCell>
-          <TableCell>Luisa Mendes dos Santos</TableCell>
-          <TableCell style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}>123.456.789-00</TableCell>
-          <TableCell align={"right"} style={{ fontFamily: "'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }}><Currency code={"BRL"}>100.00</Currency></TableCell>
+          <TableCell>123.456.789-00</TableCell>
+          <TableCell align={"right"}><Currency code={"BRL"}>100.00</Currency></TableCell>
         </TableRow>
       </TableBody>
       <TableFooter />
@@ -70,4 +91,9 @@ const Template : Story<TableProps> = (props: TableProps) => (
 export const Playground : Story<TableProps> = Template.bind({});
 Playground.args = {
 
+};
+
+export const StickyHeaderDisabled : Story<TableProps> = Template.bind({});
+StickyHeaderDisabled.args = {
+  stickyHeader: false,
 };
