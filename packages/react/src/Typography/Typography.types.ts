@@ -54,6 +54,13 @@ export interface TypographyProps extends Omit<MaterialTypographyProps, OmittedPr
   flexGrow?: boolean;
 
   /**
+   * @default false
+   * @optional
+   * @type boolean
+   */
+  loading?: boolean;
+
+  /**
    * Applies the theme typography styles.
    *
    * @default "bodyText1"

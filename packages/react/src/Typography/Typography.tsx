@@ -4,23 +4,26 @@ import {
   MaterialTypographyVariant,
   TypographyProps,
 } from "./Typography.types";
+
 import { Typography as MaterialTypography } from "@material-ui/core";
+import { Skeleton } from "../Skeleton";
+
 import clsx from "clsx";
 import { colorMapping } from "./colorMapping";
-import { componentMapping } from "./componentMapping";
+import { getTypographyComponent } from "./getTypographyComponent";
 import { useStyles } from "./Typography.styles";
 import { variantMapping } from "./variantMapping";
 
 type Render = (props: TypographyProps, ref: TypographyProps["ref"]) => JSX.Element;
 
-const defaultComponent : TypographyProps["component"] = "span";
-
 const render: Render = (props, ref) => {
   const {
     className,
+    children: childrenProp,
     color = "textPrimary",
     component,
     flexGrow: flexGrowProp,
+    loading,
     paragraph,
     variant = "bodyText1",
     ...otherProps
@@ -28,20 +31,6 @@ const render: Render = (props, ref) => {
 
   const mappedColor : MaterialTypographyColor = colorMapping[color];
   const mappedVariant : MaterialTypographyVariant = variantMapping[variant];
-
-  const getComponent = () => {
-    if (component) {
-      return component;
-    }
-    if (paragraph) {
-      return "p" as TypographyProps["component"];
-    }
-    if (componentMapping[variant]) {
-      return componentMapping[variant];
-    }
-
-    return defaultComponent;
-  };
 
   const { colorInverse, flexGrow } = useStyles();
 
@@ -52,15 +41,23 @@ const render: Render = (props, ref) => {
     className,
   };
 
+  let children = childrenProp;
+
+  if (loading) {
+    children = <Skeleton />;
+  }
+
   return <MaterialTypography
     className={clsx(classNames)}
     color={mappedColor}
-    component={getComponent()}
+    component={getTypographyComponent({ component, paragraph, variant })}
     paragraph={paragraph}
     ref={ref}
     variant={mappedVariant}
     {...otherProps}
-  />;
+  >
+    {children}
+  </MaterialTypography>;
 };
 
 export const Typography = React.forwardRef<unknown, TypographyProps>(render);
