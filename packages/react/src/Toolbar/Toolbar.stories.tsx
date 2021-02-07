@@ -13,4 +13,6 @@ const Template : Story<ToolbarProps> = (props: ToolbarProps) => (
 );
 
 export const Playground : Story<ToolbarProps> = Template.bind({});
-Playground.args = {};
+Playground.args = {
+  children: "Toolbar content",
+};
