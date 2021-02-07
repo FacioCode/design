@@ -1,3 +1,18 @@
 import { CardProps as MaterialCardProps } from "@material-ui/core";
+import { PaperProps } from "../Paper";
 
-export type CardProps = Omit<MaterialCardProps, "css" | "elevation" | "raised">;
+type OmittedProps = |
+  "css" |
+  "elevation" |
+  "raised";
+
+export interface CardProps extends Omit<MaterialCardProps, OmittedProps> {
+
+  /**
+   * @default false
+   * @optional
+   * @type boolean
+   */
+  outlined?: PaperProps["outlined"]
+
+}

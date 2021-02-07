@@ -20,3 +20,9 @@ export const Playground : Story<CardProps> = Template.bind({});
 Playground.args = {
   children: "Card children",
 };
+
+export const Outlined : Story<CardProps> = Template.bind({});
+Outlined.args = {
+  ...Playground.args,
+  outlined: true,
+};
