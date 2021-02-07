@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/FacioCode/design/compare/v5.1.4...v6.0.0) (2021-02-07)
+
+
+### Code Refactoring
+
+* **styles:** remove `borderOutlinedButton` color token ([3ec8f55](https://github.com/FacioCode/design/commit/3ec8f5522112acd20372c18071f524e483bf7af7))
+
+
+### Features
+
+* **styles:** add new component tokens for container, icon and table row ([e17f078](https://github.com/FacioCode/design/commit/e17f078ae8bab15da7b869c6aece1cae600f7e18))
+* **styles:** add style tokens for outlined paper ([07ee8c4](https://github.com/FacioCode/design/commit/07ee8c45d6a22b05d2fc5f80ee89cd84048b05c3))
+* **styles:** add/rename color tokens ([b18087e](https://github.com/FacioCode/design/commit/b18087e6a8b4229884efcf3166ba6b2caedfc137))
+
+
+### BREAKING CHANGES
+
+* **styles:** `borderOutlinedButton` color token was removed.
+* **styles:** `backgroundInfo` color token was removed. Please use `backgroundAlertFilledInfo` or `backgroundAlertStandardInfo` instead. `backgroundInput` color token was removed. Please use `backgroundDarkShadedPaper` instead.
+
+
+
+## 5.1.3 (2021-02-05)
+
+
+
+
+
 ## [5.1.4](https://github.com/FacioCode/design/compare/v5.1.3...v5.1.4) (2021-02-05)
 
 **Note:** Version bump only for package @faciocode/styles

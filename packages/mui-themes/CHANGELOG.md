@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/FacioCode/design/compare/v5.1.4...v6.0.0) (2021-02-07)
+
+
+### Bug Fixes
+
+* **mui-themes:** set default props for card, checkbox, snackbar and table ([97ed544](https://github.com/FacioCode/design/commit/97ed544371824bb3c06f808d9b5bf7d31d84c324))
+
+
+### Features
+
+* **mui-themes:** add style overrides for `Container`, `TableCell` and `TableRow` ([ceb2696](https://github.com/FacioCode/design/commit/ceb269647afe5f50eddb4e79bcf0c7c93ca999ce))
+
+
+
+## 5.1.3 (2021-02-05)
+
+
+
+
+
 ## [5.1.4](https://github.com/FacioCode/design/compare/v5.1.3...v5.1.4) (2021-02-05)
 
 **Note:** Version bump only for package @faciocode/mui-themes

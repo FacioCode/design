@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/FacioCode/design/compare/v5.1.4...v6.0.0) (2021-02-07)
+
+
+### Code Refactoring
+
+* **flutter:** remove `borderOutlinedButton` from color tokens ([afcd82e](https://github.com/FacioCode/design/commit/afcd82e6ad628b4670f6967db88bd7e91fb05558))
+
+
+### Features
+
+* **flutter:** add border tokens for outlined paper ([75951b8](https://github.com/FacioCode/design/commit/75951b8ee9b0d8a621d04baf02338c8fb847b0b0))
+* **flutter:** add hint coloured versions for icons, set grey.80 as default ([13d26da](https://github.com/FacioCode/design/commit/13d26da11149cc56846a0686e4440b6cbae9a422))
+* **flutter:** add new `backgroundDarkShadedPaper` and `backgroundShadedPaper` color tokens ([ea7de3b](https://github.com/FacioCode/design/commit/ea7de3b4b9c931e8b5886d20ac556f395a5ee3aa))
+* **flutter:** add style tokens for container and icon ([c6f434c](https://github.com/FacioCode/design/commit/c6f434c6f2c409c7b941110eaff6b083c1afd946))
+* **flutter:** add/remove background color tokens ([3e9bf25](https://github.com/FacioCode/design/commit/3e9bf25a2e95380e9c8604b1731e57d6ef16f9e5))
+
+
+### BREAKING CHANGES
+
+* **flutter:** `borderOutlinedButton` color token was removed. Please use `borderDivider` instead.
+* **flutter:** `backgroundInfo` color token was removed. Please use `backgroundAlertFilledInfo` or `backgroundAlertStandardInfo` instead.
+
+
+
+## 5.1.3 (2021-02-05)
+
+
+
+
+
 ## [5.1.4](https://github.com/FacioCode/design/compare/v5.1.3...v5.1.4) (2021-02-05)
 
 **Note:** Version bump only for package facio_design_system

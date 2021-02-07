@@ -3,6 +3,64 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/FacioCode/design/compare/v5.1.4...v6.0.0) (2021-02-07)
+
+
+### Bug Fixes
+
+* **mui-themes:** set default props for card, checkbox, snackbar and table ([97ed544](https://github.com/FacioCode/design/commit/97ed544371824bb3c06f808d9b5bf7d31d84c324))
+* **react:** prevent `BottomSheet` from being default exported at root ([d99b7de](https://github.com/FacioCode/design/commit/d99b7de5e1e5e7b32f99681f2762638d274c7b4a))
+* **style-dictionary:** add support to apple system monospace font ([e5e9000](https://github.com/FacioCode/design/commit/e5e9000fdc525ee22c2753a1ae48448110a7b9b7))
+
+
+### Code Refactoring
+
+* **flutter:** remove `borderOutlinedButton` from color tokens ([afcd82e](https://github.com/FacioCode/design/commit/afcd82e6ad628b4670f6967db88bd7e91fb05558))
+* **style-dictionary:** remove `{color.border.outlinedButton}`token ([c8d097d](https://github.com/FacioCode/design/commit/c8d097d8209415e7d9f16647316482248356f3fb))
+* **styles:** remove `borderOutlinedButton` color token ([3ec8f55](https://github.com/FacioCode/design/commit/3ec8f5522112acd20372c18071f524e483bf7af7))
+
+
+### Features
+
+* **flutter:** add border tokens for outlined paper ([75951b8](https://github.com/FacioCode/design/commit/75951b8ee9b0d8a621d04baf02338c8fb847b0b0))
+* **flutter:** add hint coloured versions for icons, set grey.80 as default ([13d26da](https://github.com/FacioCode/design/commit/13d26da11149cc56846a0686e4440b6cbae9a422))
+* **flutter:** add new `backgroundDarkShadedPaper` and `backgroundShadedPaper` color tokens ([ea7de3b](https://github.com/FacioCode/design/commit/ea7de3b4b9c931e8b5886d20ac556f395a5ee3aa))
+* **flutter:** add style tokens for container and icon ([c6f434c](https://github.com/FacioCode/design/commit/c6f434c6f2c409c7b941110eaff6b083c1afd946))
+* **flutter:** add/remove background color tokens ([3e9bf25](https://github.com/FacioCode/design/commit/3e9bf25a2e95380e9c8604b1731e57d6ef16f9e5))
+* **mui-themes:** add style overrides for `Container`, `TableCell` and `TableRow` ([ceb2696](https://github.com/FacioCode/design/commit/ceb269647afe5f50eddb4e79bcf0c7c93ca999ce))
+* **react:** add `useMediaQuery` and `useTheme` hooks ([8321787](https://github.com/FacioCode/design/commit/83217874e5e2fe5afeded3d711a153e79b64d74c))
+* **react:** add support to `color` prop on `Container` ([93223d9](https://github.com/FacioCode/design/commit/93223d91ba0e300cd01410e5d7a9836e6944898f))
+* **react:** add support to `outlined` prop on `Card` ([9afe9a8](https://github.com/FacioCode/design/commit/9afe9a8e84aed057c982521069d4583ed785791d))
+* **react:** add support to `outlined` prop on `Paper` ([a2da42a](https://github.com/FacioCode/design/commit/a2da42a38acc911afa89ce91138f4871eb06db04))
+* **react:** change table size to `"small"` at mobile devices ([c9401da](https://github.com/FacioCode/design/commit/c9401da638c9d35725e395b48fd825f2394394c0))
+* **style-dictionary:** add `{component.paper.outlined}` style tokens ([53b9615](https://github.com/FacioCode/design/commit/53b96155467dd7656fae1f1c6e91c5e4da3b073f))
+* **style-dictionary:** add background color tokens for container component ([683c328](https://github.com/FacioCode/design/commit/683c3286269106ef195e7cc07327cc7694f297bd))
+* **style-dictionary:** add color tokens for icon component ([83e29ff](https://github.com/FacioCode/design/commit/83e29ff8295f00fa50db7cc40722e8c799b26bf1))
+* **style-dictionary:** add style tokens for table cell & table row ([53dc257](https://github.com/FacioCode/design/commit/53dc2570a84274888c3f0b0ac0d0bc575763dd77))
+* **style-dictionary:** add/rename background color tokens ([8fec96c](https://github.com/FacioCode/design/commit/8fec96c73b259ec7bd5338e9a744e028eef1b18e))
+* **styles:** add new component tokens for container, icon and table row ([e17f078](https://github.com/FacioCode/design/commit/e17f078ae8bab15da7b869c6aece1cae600f7e18))
+* **styles:** add style tokens for outlined paper ([07ee8c4](https://github.com/FacioCode/design/commit/07ee8c45d6a22b05d2fc5f80ee89cd84048b05c3))
+* **styles:** add/rename color tokens ([b18087e](https://github.com/FacioCode/design/commit/b18087e6a8b4229884efcf3166ba6b2caedfc137))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `{color.border.outlinedButton}` token was removed
+* **styles:** `borderOutlinedButton` color token was removed.
+* **flutter:** `borderOutlinedButton` color token was removed. Please use `borderDivider` instead.
+* **style-dictionary:** By using system monospace font `-apple-system-monospace`, web apps and websites created with Facio Design System can not work properly at Internet Explorer 11 (IE11).
+* **styles:** `backgroundInfo` color token was removed. Please use `backgroundAlertFilledInfo` or `backgroundAlertStandardInfo` instead. `backgroundInput` color token was removed. Please use `backgroundDarkShadedPaper` instead.
+* **style-dictionary:** `info` background color was removed. Please use `alert.standardInfo` or `alert.filledInfo`. `input` background color was removed. Please use `darkShadedPaper` instead.
+* **flutter:** `backgroundInfo` color token was removed. Please use `backgroundAlertFilledInfo` or `backgroundAlertStandardInfo` instead.
+
+
+
+## 5.1.3 (2021-02-05)
+
+
+
+
+
 ## [5.1.4](https://github.com/FacioCode/design/compare/v5.1.3...v5.1.4) (2021-02-05)
 
 

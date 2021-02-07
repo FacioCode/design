@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/FacioCode/design/compare/v5.1.4...v6.0.0) (2021-02-07)
+
+
+### Bug Fixes
+
+* **style-dictionary:** add support to apple system monospace font ([e5e9000](https://github.com/FacioCode/design/commit/e5e9000fdc525ee22c2753a1ae48448110a7b9b7))
+
+
+### Code Refactoring
+
+* **style-dictionary:** remove `{color.border.outlinedButton}`token ([c8d097d](https://github.com/FacioCode/design/commit/c8d097d8209415e7d9f16647316482248356f3fb))
+
+
+### Features
+
+* **style-dictionary:** add `{component.paper.outlined}` style tokens ([53b9615](https://github.com/FacioCode/design/commit/53b96155467dd7656fae1f1c6e91c5e4da3b073f))
+* **style-dictionary:** add background color tokens for container component ([683c328](https://github.com/FacioCode/design/commit/683c3286269106ef195e7cc07327cc7694f297bd))
+* **style-dictionary:** add color tokens for icon component ([83e29ff](https://github.com/FacioCode/design/commit/83e29ff8295f00fa50db7cc40722e8c799b26bf1))
+* **style-dictionary:** add style tokens for table cell & table row ([53dc257](https://github.com/FacioCode/design/commit/53dc2570a84274888c3f0b0ac0d0bc575763dd77))
+* **style-dictionary:** add/rename background color tokens ([8fec96c](https://github.com/FacioCode/design/commit/8fec96c73b259ec7bd5338e9a744e028eef1b18e))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `{color.border.outlinedButton}` token was removed
+* **style-dictionary:** By using system monospace font `-apple-system-monospace`, web apps and websites created with Facio Design System can not work properly at Internet Explorer 11 (IE11).
+* **style-dictionary:** `info` background color was removed. Please use `alert.standardInfo` or `alert.filledInfo`. `input` background color was removed. Please use `darkShadedPaper` instead.
+
+
+
+## 5.1.3 (2021-02-05)
+
+
+
+
+
 ## [5.1.4](https://github.com/FacioCode/design/compare/v5.1.3...v5.1.4) (2021-02-05)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

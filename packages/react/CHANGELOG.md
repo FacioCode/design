@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/FacioCode/design/compare/v5.1.4...v6.0.0) (2021-02-07)
+
+
+### Bug Fixes
+
+* **react:** prevent `BottomSheet` from being default exported at root ([d99b7de](https://github.com/FacioCode/design/commit/d99b7de5e1e5e7b32f99681f2762638d274c7b4a))
+
+
+### Features
+
+* **react:** add `useMediaQuery` and `useTheme` hooks ([8321787](https://github.com/FacioCode/design/commit/83217874e5e2fe5afeded3d711a153e79b64d74c))
+* **react:** add support to `color` prop on `Container` ([93223d9](https://github.com/FacioCode/design/commit/93223d91ba0e300cd01410e5d7a9836e6944898f))
+* **react:** add support to `outlined` prop on `Card` ([9afe9a8](https://github.com/FacioCode/design/commit/9afe9a8e84aed057c982521069d4583ed785791d))
+* **react:** add support to `outlined` prop on `Paper` ([a2da42a](https://github.com/FacioCode/design/commit/a2da42a38acc911afa89ce91138f4871eb06db04))
+* **react:** change table size to `"small"` at mobile devices ([c9401da](https://github.com/FacioCode/design/commit/c9401da638c9d35725e395b48fd825f2394394c0))
+
+
+
+## 5.1.3 (2021-02-05)
+
+
+
+
+
 ## [5.1.4](https://github.com/FacioCode/design/compare/v5.1.3...v5.1.4) (2021-02-05)
 
 
