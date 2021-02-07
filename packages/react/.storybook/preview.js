@@ -17,7 +17,7 @@ export const decorators = [
 
 export const parameters = {
   backgrounds: {
-    default: "Default",
+    default: "Paper (default)",
     grid: {
       cellSize: parseInt(sizeTokens.baseSingle),
       cellAmount: parseInt(sizeTokens.baseHalf)
@@ -28,10 +28,6 @@ export const parameters = {
         value: colorTokens.backgroundBrand
       },
       {
-        name: "Default",
-        value: colorTokens.backgroundDefault
-      },
-      {
         name: "Info alert (filled)",
         value: colorTokens.backgroundAlertFilledInfo,
       },
@@ -40,8 +36,24 @@ export const parameters = {
         value: colorTokens.backgroundAlertStandardInfo,
       },
       {
+        name: "Paper (default)",
+        value: colorTokens.backgroundPaper,
+      },
+      {
+        name: "Paper (shaded)",
+        value: colorTokens.backgroundShadedPaper,
+      },
+      {
+        name: "Paper (dark shaded)",
+        value: colorTokens.backgroundDarkShadedPaper,
+      },
+      {
         name: "Selected",
         value: colorTokens.backgroundSelected
+      },
+      {
+        name: "Table row (hovered)",
+        value: colorTokens.backgroundRowHover,
       },
       {
         name: "Warning alert (standard)",
