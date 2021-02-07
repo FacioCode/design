@@ -40,8 +40,10 @@ export { IconButton, IconButtonProps } from "./IconButton";
 export { Input, InputProps } from "./Input";
 export { default as InputBase, InputBaseProps } from "./InputBase";
 export { default as InputLabel, InputLabelProps } from "./InputLabel";
+export { default as LinearProgress, LinearProgressProps } from "./LinearProgress";
 export { Link, LinkProps } from "./Link";
-export { Paper, PaperProps } from "./Paper";
+export { default as Paper, PaperProps } from "./Paper";
+export { default as Skeleton, SkeletonProps } from "./Skeleton";
 export { Snackbar, SnackbarProps } from "./Snackbar";
 export { default as Switch, SwitchProps } from "./Switch";
 export {
