@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.4](https://github.com/FacioCode/design/compare/v5.1.3...v5.1.4) (2021-02-05)
+
+
+### Bug Fixes
+
+* **react:** prevent `BottomSheet` from being default exported at root ([d99b7de](https://github.com/FacioCode/design/commit/d99b7de5e1e5e7b32f99681f2762638d274c7b4a))
+
+
+
+
+
 ## [5.1.3](https://github.com/FacioCode/design/compare/v5.1.2...v5.1.3) (2021-02-05)
 
 **Note:** Version bump only for package @faciocode/react
