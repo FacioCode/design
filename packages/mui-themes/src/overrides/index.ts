@@ -45,7 +45,10 @@ export const overrides : ThemeOptions["overrides"] = {
     root: customProperties.chipStyles.root,
   },
   MuiContainer: {
-    root: customProperties.containerStyles.root,
+    root: {
+      ...customProperties.containerStyles.root,
+      ...customProperties.containerStyles.colorTransparent,
+    },
     disableGutters: customProperties.containerStyles.disableGutters,
   },
   MuiCssBaseline: {
@@ -161,6 +164,7 @@ export const overrides : ThemeOptions["overrides"] = {
       ...customProperties.paperStyles.square,
     },
     rounded: customProperties.paperStyles.rounded,
+    outlined: customProperties.paperStyles.outlined,
   },
   MuiSwitch: {
     root: {
@@ -181,10 +185,44 @@ export const overrides : ThemeOptions["overrides"] = {
     thumb: customProperties.switchStyles.thumb,
     track: customProperties.switchStyles.track,
   },
-  MuiTableCell: customProperties.tableCellStyles,
+  MuiTableCell: {
+    root: {
+      ...customProperties.tableCellStyles.root,
+      borderBottom: null,
+      "& data": {
+        ...customProperties.tableCellStyles.dataChild,
+      },
+      "& time": {
+        ...customProperties.tableCellStyles.timeChild,
+      },
+    },
+    body: customProperties.tableCellStyles.body,
+    head: {
+      ...customProperties.tableCellStyles.head as CSSProperties,
+      borderBottomStyle: "solid",
+    },
+    paddingNone: customProperties.tableCellStyles.paddingNone,
+    sizeSmall: customProperties.tableCellStyles.sizeSmall,
+  },
   MuiTableRow: {
     root: {
+      ...customProperties.tableRowStyles.root,
+      "&$hover:hover": {
+        ...customProperties.tableRowStyles.hover,
+      },
       "&$selected, &$selected:hover": customProperties.tableRowStyles.selected,
+      "&:nth-child(odd)": {
+        ...customProperties.tableRowStyles.odd,
+        "&$selected, &$selected:hover": customProperties.tableRowStyles.selected,
+      },
+      "&:nth-child(even)": {
+        ...customProperties.tableRowStyles.even,
+        "&$selected, &$selected:hover": customProperties.tableRowStyles.selected,
+      },
+    },
+    head: {
+      ...customProperties.tableRowStyles.head as CSSProperties,
+      "&:nth-child(odd)": customProperties.tableRowStyles.head as CSSProperties,
     },
   },
   MuiToolbar: {
