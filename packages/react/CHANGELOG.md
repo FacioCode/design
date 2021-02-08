@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.1](https://github.com/FacioCode/design/compare/v6.1.0...v6.1.1) (2021-02-08)
+
+
+### Bug Fixes
+
+* **react:** prevent type errors when using `Skeleton` component ([eaf3c21](https://github.com/FacioCode/design/commit/eaf3c211149025f4f3cbf78224ff453e39354c87))
+
+
+
+
+
 # [6.1.0](https://github.com/FacioCode/design/compare/v6.0.0...v6.1.0) (2021-02-07)
 
 
