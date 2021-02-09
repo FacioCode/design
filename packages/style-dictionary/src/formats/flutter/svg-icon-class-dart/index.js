@@ -1,9 +1,9 @@
 const fs = require("fs");
 const { template: lodashTemplate } = require("lodash");
 
-const svgPictureClassFormatter = ({ properties }, options) => {
+const svgIconClassFormatter = ({ properties }, options) => {
   // eslint-disable-next-line no-sync
-  const templateFile = fs.readFileSync("./src/templates/flutter/svg_picture_class", "utf8");
+  const templateFile = fs.readFileSync("./src/templates/flutter/svg_icon_class", "utf8");
   const templateContent = templateFile.toString();
   const compiled = lodashTemplate(templateContent);
   const { asset } = properties;
@@ -15,6 +15,6 @@ const svgPictureClassFormatter = ({ properties }, options) => {
 };
 
 module.exports = {
-  formatter: svgPictureClassFormatter,
-  name: "flutter/svg_picture_class.dart",
+  formatter: svgIconClassFormatter,
+  name: "flutter/svg_icon_class.dart",
 };

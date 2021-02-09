@@ -37,18 +37,18 @@ const flutter = {
       packageName,
     },
     {
-      destination: `${generatedFilesPath}/images.dart`,
+      destination: `${generatedFilesPath}/svg_images.dart`,
       filter: ({ attributes }) => attributes.category === "asset" && attributes.type === "image",
-      format: "flutter/svg_picture_class.dart",
+      format: "flutter/svg_image_class.dart",
       options: {
-        className: "FacioImages",
+        className: "FacioSvgImages",
       },
       packageName,
     },
     {
       destination: `${generatedFilesPath}/svg_icons.dart`,
       filter: ({ attributes }) => attributes.category === "asset" && attributes.type === "icon",
-      format: "flutter/svg_picture_class.dart",
+      format: "flutter/svg_icon_class.dart",
       options: {
         className: "FacioSvgIcons",
       },
