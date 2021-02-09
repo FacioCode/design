@@ -20,7 +20,7 @@ class FacioInputField extends StatelessWidget {
     final TextInputType keyboardType,
     final void Function(String) onChanged,
     final InputType inputType,
-    final String errorMessage,
+    final Widget hint,
   })  : assert(autofocus != null),
         _key = key,
         _autofocus = autofocus,
@@ -32,7 +32,7 @@ class FacioInputField extends StatelessWidget {
         _inputFormatters = inputFormatters,
         _keyboardType = keyboardType,
         _inputType = inputType,
-        _errorMessage = errorMessage,
+        _hint = hint,
         super();
 
   final Key _key;
@@ -45,7 +45,7 @@ class FacioInputField extends StatelessWidget {
   final List<TextInputFormatter> _inputFormatters;
   final TextInputType _keyboardType;
   final InputType _inputType;
-  final String _errorMessage;
+  final Widget _hint;
 
   bool get _hasHint => _hintText != null && _hintText.isNotEmpty;
 
@@ -118,13 +118,13 @@ class FacioInputField extends StatelessWidget {
         ),
         AnimatedSwitcher(
           duration: const Duration(milliseconds: 200),
-          child: _errorMessage == null
+          child: _hint == null
               ? const SizedBox()
               : Padding(
                   padding: const EdgeInsets.only(top: Sizes.baseSingle),
                   child: Align(
                     alignment: Alignment.centerLeft,
-                    child: Text(_errorMessage, style: TextStyles.bodyText2),
+                    child: _hint,
                   ),
                 ),
         )
