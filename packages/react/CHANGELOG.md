@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://github.com/FacioCode/design/compare/v6.1.1...v6.2.0) (2021-02-09)
+
+
+### Features
+
+* **react:** add `Popover` component ([b20e669](https://github.com/FacioCode/design/commit/b20e669e4f059aaf3879f1b74b80caff2c9bfa7b))
+
+
+
+
+
 ## [6.1.1](https://github.com/FacioCode/design/compare/v6.1.0...v6.1.1) (2021-02-08)
 
 
