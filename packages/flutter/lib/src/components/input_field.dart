@@ -20,6 +20,7 @@ class FacioInputField extends StatelessWidget {
     final TextInputType keyboardType,
     final void Function(String) onChanged,
     final InputType inputType,
+    final String label,
     final Widget hint,
   })  : assert(autofocus != null),
         _key = key,
@@ -32,6 +33,7 @@ class FacioInputField extends StatelessWidget {
         _inputFormatters = inputFormatters,
         _keyboardType = keyboardType,
         _inputType = inputType,
+        _label = label,
         _hint = hint,
         super();
 
@@ -45,6 +47,7 @@ class FacioInputField extends StatelessWidget {
   final List<TextInputFormatter> _inputFormatters;
   final TextInputType _keyboardType;
   final InputType _inputType;
+  final String _label;
   final Widget _hint;
 
   bool get _hasHint => _hintText != null && _hintText.isNotEmpty;
@@ -53,6 +56,13 @@ class FacioInputField extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        if (_label != null)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 8.0),
+            child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(_label, style: TextStyles.subtitle1)),
+          ),
         Container(
           height: Sizes.baseEightfold,
           decoration: BoxDecoration(
@@ -121,7 +131,7 @@ class FacioInputField extends StatelessWidget {
           child: _hint == null
               ? const SizedBox()
               : Padding(
-                  padding: const EdgeInsets.only(top: Sizes.baseSingle),
+                  padding: const EdgeInsets.only(top: Sizes.baseDouble),
                   child: Align(
                     alignment: Alignment.centerLeft,
                     child: _hint,
