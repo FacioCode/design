@@ -153,6 +153,8 @@ jobs:
         working-directory: ${{env.working-directory}}
       - name: Format files
         run: dartfmt -w .
+      - name: Set git author identity
+        run: sh ./.github/scripts/configure-git.sh
       - name: Commit formatted files
         run: sh ./.github/scripts/commit-formatted-dart.sh
       - name: Verify formatting
