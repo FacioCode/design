@@ -46,7 +46,10 @@ class MyHomePage extends StatelessWidget {
                               return FacioInputField(
                                   hintText: 'FacioInputField',
                                   inputType: InputType.phone,
-                                  errorMessage: snapshot.data);
+                                  hint: snapshot.data != null
+                                      ? Text(snapshot.data,
+                                          style: TextStyles.bodyText2)
+                                      : null);
                             }),
                         SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
