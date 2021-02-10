@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.4.0](https://github.com/FacioCode/design/compare/v6.3.0...v6.4.0) (2021-02-10)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
 # [6.3.0](https://github.com/FacioCode/design/compare/v6.2.6...v6.3.0) (2021-02-10)
 
 **Note:** Version bump only for package @faciocode/mui-themes
