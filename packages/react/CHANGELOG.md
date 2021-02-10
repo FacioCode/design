@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.3.0](https://github.com/FacioCode/design/compare/v6.2.6...v6.3.0) (2021-02-10)
+
+
+### Features
+
+* **react:** make `Dialog` use `fullScreen` at mobile devices ([e93e08b](https://github.com/FacioCode/design/commit/e93e08b191d6dcf4ff25a4cccdd37cd40b1a2430))
+
+
+
+
+
 ## [6.2.6](https://github.com/FacioCode/design/compare/v6.2.5...v6.2.6) (2021-02-10)
 
 **Note:** Version bump only for package @faciocode/react
