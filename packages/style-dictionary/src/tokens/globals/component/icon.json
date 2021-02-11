@@ -2,8 +2,21 @@
   "component": {
     "icon": {
       "root": {
-        "colorDefault": { "value": "{color.font.primaryHighContrast.value}" },
-        "colorHint": { "value": "{color.font.hint.value}" }
+        "colorDefault": {
+          "color": {
+            "value": "{color.font.primaryHighContrast.value}"
+          }
+        },
+        "colorHint": {
+          "color": {
+            "value": "{color.font.hint.value}"
+          }
+        },
+        "colorTextSecondary": {
+          "color": {
+            "value": "{color.font.secondary.value}"
+          }
+        }
       }
     }
   }
