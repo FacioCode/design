@@ -2,9 +2,11 @@
 import { MuiFormLabel, MuiInputLabel } from "./MuiLabel";
 import type { CSSProperties } from "@material-ui/styles";
 import { MuiButton } from "./MuiButton";
+import { MuiCssBaseline } from "./MuiCssBaseline";
 import { MuiInput } from "./MuiInput";
 import { MuiInputBase } from "./MuiInputBase";
 import { MuiLink } from "./MuiLink";
+import { MuiScopedCssBaseline } from "./MuiScopedCssBaseline";
 import type { ThemeOptions } from "@material-ui/core";
 import { customProperties } from "@faciocode/styles";
 
@@ -51,29 +53,7 @@ export const overrides : ThemeOptions["overrides"] = {
     },
     disableGutters: customProperties.containerStyles.disableGutters,
   },
-  MuiCssBaseline: {
-    "@global": {
-      "@media (prefers-reduced-motion: reduce)": {
-        "*": {
-          animationDuration: "0.01ms !important",
-          animationIterationCount: "1 !important",
-          scrollBehavior: "auto !important",
-          transitionDuration: "0.01ms !important",
-        },
-      },
-      body: {
-        "@media print": customProperties.baselineStyles.mediaPrint,
-        minHeight: "100vh",
-        scrollBehavior: "smooth",
-      },
-      html: {
-        ...customProperties.baselineStyles.html,
-        MsTextSizeAdjust: "100%",
-        WebkitTextSizeAdjust: "100%",
-      },
-      "strong, b": customProperties.baselineStyles.bold,
-    },
-  },
+  MuiCssBaseline,
   MuiDialog: {
     paper: customProperties.dialogStyles.paper,
     paperWidthSm: customProperties.dialogStyles.paperWidthSm,
@@ -166,6 +146,7 @@ export const overrides : ThemeOptions["overrides"] = {
     rounded: customProperties.paperStyles.rounded,
     outlined: customProperties.paperStyles.outlined,
   },
+  MuiScopedCssBaseline,
   MuiSwitch: {
     root: {
       "&$checked": customProperties.switchStyles.checked,
