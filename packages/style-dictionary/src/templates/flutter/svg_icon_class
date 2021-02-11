@@ -23,10 +23,10 @@ class <%= className %> {
       package: packageName
   );
 
-  /// Hint Coloured <%= _.deburr(_.startCase(comment)) %>
-  static final <%= assetItem %>ColorHint = SvgPicture.asset(
+  /// Text Secondary Coloured <%= _.deburr(_.startCase(comment)) %>
+  static final <%= assetItem %>ColorTextSecondary = SvgPicture.asset(
       <%= assets[assetItem].value %>,
-      color: IconStyles.colorHint,
+      color: IconStyles.colorTextSecondary,
       package: packageName
   );
 <%
