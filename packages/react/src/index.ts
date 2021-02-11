@@ -44,7 +44,7 @@ export { default as LinearProgress, LinearProgressProps } from "./LinearProgress
 export { Link, LinkProps } from "./Link";
 export { default as Paper, PaperProps } from "./Paper";
 export { default as Popover, PopoverProps } from "./Popover";
-export { default as ScopedCssBaseline } from "./ScopedCssBaseline";
+export { ScopedCssBaseline } from "./ScopedCssBaseline";
 export { default as Skeleton, SkeletonProps } from "./Skeleton";
 export { Snackbar, SnackbarProps } from "./Snackbar";
 export { default as Switch, SwitchProps } from "./Switch";
