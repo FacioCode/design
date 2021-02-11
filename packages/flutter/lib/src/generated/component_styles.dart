@@ -591,6 +591,9 @@ class IconStyles {
 
   /// Color Hint for Icon
   static const colorHint = Color(0xFFAFB4BB);
+
+  /// Color Text Secondary for Icon
+  static const colorTextSecondary = Color(0xFF828C9B);
 }
 
 class InputBaseStyles {
