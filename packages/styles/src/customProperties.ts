@@ -1331,6 +1331,12 @@ export const iconStyles = {
      */
     colorHint: "var(--component-icon-root-color-hint, #afb4bb)",
 
+
+    /**
+     * Color Text Secondary for Icon Root
+     */
+    colorTextSecondary: "var(--component-icon-root-color-text-secondary, #828c9b)",
+
   },
 
 };
