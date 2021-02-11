@@ -442,6 +442,20 @@ class FacioSvgIcons {
       package: packageName
   );
 
+  /// Default Coloured Icon For Lock
+  static final lock = SvgPicture.asset(
+      "assets/icons/lock.svg",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
+
+  /// Text Secondary Coloured Icon For Lock
+  static final lockColorTextSecondary = SvgPicture.asset(
+      "assets/icons/lock.svg",
+      color: IconStyles.colorTextSecondary,
+      package: packageName
+  );
+
   /// Default Coloured Icon For Map
   static final map = SvgPicture.asset(
       "assets/icons/map.svg",
