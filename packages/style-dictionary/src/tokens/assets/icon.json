@@ -71,6 +71,7 @@
       "keyboardArrowDown": { "value": "assets/icons/keyboard-arrow-down.svg" },
       "keyboardArrowLeft": { "value": "assets/icons/keyboard-arrow-left.svg" },
       "keyboardArrowRight": { "value": "assets/icons/keyboard-arrow-right.svg" },
+      "lock": { "value": "assets/icons/lock.svg" },
       "map": { "value": "assets/icons/map.svg" },
       "megaphone": { "value": "assets/icons/megaphone.svg" },
       "payed": { "value": "assets/icons/payed.svg" },
