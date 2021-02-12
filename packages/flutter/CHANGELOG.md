@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/FacioCode/design/compare/v6.4.0...v6.5.0) (2021-02-12)
+
+
+### Features
+
+* **flutter:** add `IconStyles.colorTextSecondary` color token ([8f4e384](https://github.com/FacioCode/design/commit/8f4e384890d9f61a02f28be270f89e1fe519c297))
+* **flutter:** add `lock` icon ([217add4](https://github.com/FacioCode/design/commit/217add4e47d292a73b942c5b8f592fa48e05f3da))
+* **flutter:** add color tokens for alert ([f72953a](https://github.com/FacioCode/design/commit/f72953aa0d106709ca0f31ea4dbeb5b6cacc2df9))
+* **flutter:** add error background color tokens ([8080e2c](https://github.com/FacioCode/design/commit/8080e2cad3f4d1cfbbee6a5d5995dae9b28be5da))
+
+
+
+# 6.3.0 (2021-02-10)
+
+
+
+
+
 # [6.4.0](https://github.com/FacioCode/design/compare/v6.3.0...v6.4.0) (2021-02-10)
 
 **Note:** Version bump only for package facio_design_system

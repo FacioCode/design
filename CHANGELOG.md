@@ -3,6 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/FacioCode/design/compare/v6.4.0...v6.5.0) (2021-02-12)
+
+
+### Bug Fixes
+
+* **react:** change `ScopedCssBaseline` export strategy ([6548d95](https://github.com/FacioCode/design/commit/6548d9588fe40a7c873ef554c2675dc0d87551e9))
+
+
+### Features
+
+* **flutter:** add `IconStyles.colorTextSecondary` color token ([8f4e384](https://github.com/FacioCode/design/commit/8f4e384890d9f61a02f28be270f89e1fe519c297))
+* **flutter:** add `lock` icon ([217add4](https://github.com/FacioCode/design/commit/217add4e47d292a73b942c5b8f592fa48e05f3da))
+* **flutter:** add color tokens for alert ([f72953a](https://github.com/FacioCode/design/commit/f72953aa0d106709ca0f31ea4dbeb5b6cacc2df9))
+* **flutter:** add error background color tokens ([8080e2c](https://github.com/FacioCode/design/commit/8080e2cad3f4d1cfbbee6a5d5995dae9b28be5da))
+* **mui-themes:** add override for `MuiScopedCssBaseline` ([cfe8fdf](https://github.com/FacioCode/design/commit/cfe8fdfb6a0ad52eed9ecdb3c1ffb469a33e1dfd))
+* **mui-themes:** add overrides for `MuiAlert` ([a16ce0a](https://github.com/FacioCode/design/commit/a16ce0ae51b2d4eac7248b472e825df5a06848d6))
+* **react:** add `DataGrid` component ([04ff424](https://github.com/FacioCode/design/commit/04ff424770614d4d696e18f2f36a2029b6a3e711))
+* **react:** add `ScopedCssBaseline` component ([5a520c4](https://github.com/FacioCode/design/commit/5a520c4d9aba9b65d77d055065ad542dc7ce5d4d))
+* **react:** add `ServerStyleSheets` ([1613499](https://github.com/FacioCode/design/commit/1613499bc52aa93b881adbe81775b831463acd07))
+* **style-dictionary:** add `colorTextSecondary` class key for `Icon` ([a6c6ebd](https://github.com/FacioCode/design/commit/a6c6ebd5a127f8c70006a707930cc5a172da8667))
+* **style-dictionary:** add background color tokens for alert ([4988b14](https://github.com/FacioCode/design/commit/4988b1448e0e0cf04f90b6bd46b615d0018ac2c4))
+* **style-dictionary:** add color tokens for alert ([6a5e278](https://github.com/FacioCode/design/commit/6a5e278ee464cdaf5d48a46fc974a45e16ee4594))
+* **style-dictionary:** add lock icon ([187087f](https://github.com/FacioCode/design/commit/187087ffeeeaa52308b9e25323c6a885f28f9435))
+* **styles:** add `colorTextSecondary` class key for icon component ([ca16348](https://github.com/FacioCode/design/commit/ca163485b4383abec66a67df62261279d9c3c241))
+* **styles:** add colors for filled and standard alerts ([222b03c](https://github.com/FacioCode/design/commit/222b03ccc894ed8cad77bca2a28070b83c42fa21))
+
+
+### Reverts
+
+* **react:** remove `DataGrid` component ([f226a12](https://github.com/FacioCode/design/commit/f226a12d9c332dff3949fd95148ff3b6cbe3ef86))
+* **react:** use `CssBaseline` again ([c5c0295](https://github.com/FacioCode/design/commit/c5c0295d7d3bba4e98ed89504f8a03836b2ec2fd))
+
+
+
+# 6.3.0 (2021-02-10)
+
+
+
+
+
 # [6.4.0](https://github.com/FacioCode/design/compare/v6.3.0...v6.4.0) (2021-02-10)
 
 

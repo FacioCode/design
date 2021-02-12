@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/FacioCode/design/compare/v6.4.0...v6.5.0) (2021-02-12)
+
+
+### Features
+
+* **mui-themes:** add override for `MuiScopedCssBaseline` ([cfe8fdf](https://github.com/FacioCode/design/commit/cfe8fdfb6a0ad52eed9ecdb3c1ffb469a33e1dfd))
+* **mui-themes:** add overrides for `MuiAlert` ([a16ce0a](https://github.com/FacioCode/design/commit/a16ce0ae51b2d4eac7248b472e825df5a06848d6))
+
+
+
+# 6.3.0 (2021-02-10)
+
+
+
+
+
 # [6.4.0](https://github.com/FacioCode/design/compare/v6.3.0...v6.4.0) (2021-02-10)
 
 **Note:** Version bump only for package @faciocode/mui-themes
