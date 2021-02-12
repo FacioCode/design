@@ -20,7 +20,12 @@ export { Checkbox, CheckboxProps } from "./Checkbox";
 export { Chip, ChipProps } from "./Chip";
 export { default as Container, ContainerProps } from "./Container";
 export { CssBaseline } from "./CssBaseline";
-export { default as Currency, CurrencyProps } from "./Currency";
+export { Currency, CurrencyProps } from "./Currency";
+
+export {
+  DataGrid, DataGridProps, ValueGetterParams,
+} from "./DataGrid";
+
 export {
   Dialog,
   DialogActions,
@@ -44,7 +49,6 @@ export { default as LinearProgress, LinearProgressProps } from "./LinearProgress
 export { Link, LinkProps } from "./Link";
 export { default as Paper, PaperProps } from "./Paper";
 export { default as Popover, PopoverProps } from "./Popover";
-export { ScopedCssBaseline } from "./ScopedCssBaseline";
 export { default as Skeleton, SkeletonProps } from "./Skeleton";
 export { Snackbar, SnackbarProps } from "./Snackbar";
 export { default as Switch, SwitchProps } from "./Switch";
