@@ -21,11 +21,6 @@ export { Chip, ChipProps } from "./Chip";
 export { default as Container, ContainerProps } from "./Container";
 export { CssBaseline } from "./CssBaseline";
 export { Currency, CurrencyProps } from "./Currency";
-
-export {
-  DataGrid, DataGridProps, ValueGetterParams,
-} from "./DataGrid";
-
 export {
   Dialog,
   DialogActions,
