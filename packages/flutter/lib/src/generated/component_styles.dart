@@ -63,6 +63,18 @@ class AlertStyles {
   /// Line Height for Message
   static const messageLineHeight = 1.71428571429;
 
+  /// Background Color for Filled Error
+  static const filledErrorBackgroundColor = const Color(0xFFFFB3CC);
+
+  /// Color for Filled Error
+  static const filledErrorColor = const Color(0xFF890606);
+
+  /// Color for Filled Error Icon
+  static const filledErrorIconColor = const Color(0xFF890606);
+
+  /// Color for Filled Error Message
+  static const filledErrorMessageColor = const Color(0xFF890606);
+
   /// Background Color for Filled Info
   static const filledInfoBackgroundColor = const Color(0xFFB3CCFF);
 
@@ -83,6 +95,18 @@ class AlertStyles {
 
   /// Background Color for Standard Brand
   static const standardBrandBackgroundColor = const Color(0xFF3FE1B6);
+
+  /// Background Color for Standard Error
+  static const standardErrorBackgroundColor = const Color(0xFFFFE3EE);
+
+  /// Color for Standard Error
+  static const standardErrorColor = const Color(0xFF890606);
+
+  /// Color for Standard Error Icon
+  static const standardErrorIconColor = const Color(0xFF890606);
+
+  /// Color for Standard Error Message
+  static const standardErrorMessageColor = const Color(0xFF890606);
 
   /// Background Color for Standard Info
   static const standardInfoBackgroundColor = const Color(0xFFE3EEFF);
