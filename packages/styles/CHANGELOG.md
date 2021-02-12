@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/FacioCode/design/compare/v6.4.0...v6.5.0) (2021-02-12)
+
+
+### Features
+
+* **styles:** add `colorTextSecondary` class key for icon component ([ca16348](https://github.com/FacioCode/design/commit/ca163485b4383abec66a67df62261279d9c3c241))
+* **styles:** add colors for filled and standard alerts ([222b03c](https://github.com/FacioCode/design/commit/222b03ccc894ed8cad77bca2a28070b83c42fa21))
+
+
+
+# 6.3.0 (2021-02-10)
+
+
+
+
+
 # [6.4.0](https://github.com/FacioCode/design/compare/v6.3.0...v6.4.0) (2021-02-10)
 
 **Note:** Version bump only for package @faciocode/styles

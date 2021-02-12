@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/FacioCode/design/compare/v6.4.0...v6.5.0) (2021-02-12)
+
+
+### Features
+
+* **style-dictionary:** add `colorTextSecondary` class key for `Icon` ([a6c6ebd](https://github.com/FacioCode/design/commit/a6c6ebd5a127f8c70006a707930cc5a172da8667))
+* **style-dictionary:** add background color tokens for alert ([4988b14](https://github.com/FacioCode/design/commit/4988b1448e0e0cf04f90b6bd46b615d0018ac2c4))
+* **style-dictionary:** add color tokens for alert ([6a5e278](https://github.com/FacioCode/design/commit/6a5e278ee464cdaf5d48a46fc974a45e16ee4594))
+* **style-dictionary:** add lock icon ([187087f](https://github.com/FacioCode/design/commit/187087ffeeeaa52308b9e25323c6a885f28f9435))
+
+
+
+# 6.3.0 (2021-02-10)
+
+
+
+
+
 # [6.4.0](https://github.com/FacioCode/design/compare/v6.3.0...v6.4.0) (2021-02-10)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
