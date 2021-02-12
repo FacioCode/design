@@ -8,8 +8,10 @@ import 'package:flutter/painting.dart';
 class ColorPalette {
   ColorPalette._();
 
+  static const Color backgroundAlertFilledError = const Color(0xFFFFB3CC);
   static const Color backgroundAlertFilledInfo = const Color(0xFFB3CCFF);
   static const Color backgroundAlertFilledWarning = const Color(0xFFFFE6B3);
+  static const Color backgroundAlertStandardError = const Color(0xFFFFE3EE);
   static const Color backgroundAlertStandardInfo = const Color(0xFFE3EEFF);
   static const Color backgroundAlertStandardWarning = const Color(0xFFFFF4E3);
   static const Color backgroundBrand = const Color(0xFF3FE1B6);
