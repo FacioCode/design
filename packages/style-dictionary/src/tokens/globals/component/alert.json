@@ -18,6 +18,16 @@
         "letterSpacing": { "value": "{component.typography.bodyText2.letterSpacing.value}" },
         "lineHeight": { "value": "{component.typography.bodyText2.lineHeight.value}" }
       },
+      "filledError": {
+        "backgroundColor": { "value": "{color.background.alert.filledError.value}" },
+        "color": { "value": "{color.base.error.dark.value}" }
+      },
+      "filledErrorIcon": {
+        "color": { "value": "{color.base.error.dark.value}" }
+      },
+      "filledErrorMessage": {
+        "color": { "value": "{color.base.error.dark.value}" }
+      },
       "filledInfo": {
         "backgroundColor": { "value": "{color.background.alert.filledInfo.value}" },
         "color": { "value": "{color.font.primary.value}" }
@@ -33,6 +43,16 @@
       },
       "standardBrand": {
         "backgroundColor": { "value": "{color.background.brand.value}" }
+      },
+      "standardError": {
+        "backgroundColor": { "value": "{color.background.alert.standardError.value}" },
+        "color": { "value": "{color.base.error.dark.value}" }
+      },
+      "standardErrorIcon": {
+        "color": { "value": "{color.base.error.dark.value}" }
+      },
+      "standardErrorMessage": {
+        "color": { "value": "{color.base.error.dark.value}" }
       },
       "standardInfo": {
         "backgroundColor": { "value": "{color.background.alert.standardInfo.value}" },
