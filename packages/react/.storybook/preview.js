@@ -1,5 +1,5 @@
 import * as React from "react";
-import {ScopedCssBaseline, ThemeProvider} from "../src";
+import {CssBaseline, ThemeProvider} from "../src";
 import { theme } from "../../mui-themes/src";
 import { colorTokens, sizeTokens } from "@faciocode/styles";
 import lightTheme from "./themes/light";
@@ -8,9 +8,9 @@ import lightTheme from "./themes/light";
 export const decorators = [
   (Story) => (
     <ThemeProvider theme={theme}>
-      <ScopedCssBaseline>
+      <CssBaseline>
         <Story />
-      </ScopedCssBaseline>
+      </CssBaseline>
     </ThemeProvider>
   ),
 ];
