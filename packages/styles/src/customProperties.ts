@@ -120,6 +120,39 @@ export const alertStyles = {
 
   },
 
+  filledError: {
+
+    /**
+     * Background Color for Alert Filled Error
+     */
+    backgroundColor: "var(--component-alert-filled-error-background-color, #ffb3cc)",
+
+
+    /**
+     * Color for Alert Filled Error
+     */
+    color: "var(--component-alert-filled-error-color, #890606)",
+
+  },
+
+  filledErrorIcon: {
+
+    /**
+     * Color for Alert Filled Error Icon
+     */
+    color: "var(--component-alert-filled-error-icon-color, #890606)",
+
+  },
+
+  filledErrorMessage: {
+
+    /**
+     * Color for Alert Filled Error Message
+     */
+    color: "var(--component-alert-filled-error-message-color, #890606)",
+
+  },
+
   filledInfo: {
 
     /**
@@ -171,6 +204,39 @@ export const alertStyles = {
      * Background Color for Alert Standard Brand
      */
     backgroundColor: "var(--component-alert-standard-brand-background-color, #3fe1b6)",
+
+  },
+
+  standardError: {
+
+    /**
+     * Background Color for Alert Standard Error
+     */
+    backgroundColor: "var(--component-alert-standard-error-background-color, #ffe3ee)",
+
+
+    /**
+     * Color for Alert Standard Error
+     */
+    color: "var(--component-alert-standard-error-color, #890606)",
+
+  },
+
+  standardErrorIcon: {
+
+    /**
+     * Color for Alert Standard Error Icon
+     */
+    color: "var(--component-alert-standard-error-icon-color, #890606)",
+
+  },
+
+  standardErrorMessage: {
+
+    /**
+     * Color for Alert Standard Error Message
+     */
+    color: "var(--component-alert-standard-error-message-color, #890606)",
 
   },
 
