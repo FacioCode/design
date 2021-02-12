@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.6.0](https://github.com/FacioCode/design/compare/v6.5.0...v6.6.0) (2021-02-12)
+
+
+### Bug Fixes
+
+* **react:** change `ScopedCssBaseline` export strategy ([6548d95](https://github.com/FacioCode/design/commit/6548d9588fe40a7c873ef554c2675dc0d87551e9))
+
+
+### Features
+
+* **react:** add `DataGrid` component ([04ff424](https://github.com/FacioCode/design/commit/04ff424770614d4d696e18f2f36a2029b6a3e711))
+* **react:** add `ScopedCssBaseline` component ([5a520c4](https://github.com/FacioCode/design/commit/5a520c4d9aba9b65d77d055065ad542dc7ce5d4d))
+
+
+### Reverts
+
+* **react:** remove `DataGrid` component ([f226a12](https://github.com/FacioCode/design/commit/f226a12d9c332dff3949fd95148ff3b6cbe3ef86))
+* **react:** use `CssBaseline` again ([c5c0295](https://github.com/FacioCode/design/commit/c5c0295d7d3bba4e98ed89504f8a03836b2ec2fd))
+
+
+
+# [6.4.0](https://github.com/FacioCode/design/compare/v6.3.0...v6.4.0) (2021-02-10)
+
+
+### Features
+
+* **react:** add `ServerStyleSheets` ([1613499](https://github.com/FacioCode/design/commit/1613499bc52aa93b881adbe81775b831463acd07))
+
+
+
+# 6.3.0 (2021-02-10)
+
+
+
+
+
 # [6.5.0](https://github.com/FacioCode/design/compare/v6.4.0...v6.5.0) (2021-02-12)
 
 
