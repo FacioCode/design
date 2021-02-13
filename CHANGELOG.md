@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.6.2](https://github.com/FacioCode/design/compare/v6.6.1...v6.6.2) (2021-02-13)
+
+
+### Bug Fixes
+
+* **react:** add support to `null` types on `Currency` and `Time` components ([414eb70](https://github.com/FacioCode/design/commit/414eb70e332a8540618940000eedf65efe3d9c52))
+
+
+
+
+
 ## [6.6.1](https://github.com/FacioCode/design/compare/v6.6.0...v6.6.1) (2021-02-13)
 
 
