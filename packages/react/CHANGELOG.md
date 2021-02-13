@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.6.1](https://github.com/FacioCode/design/compare/v6.6.0...v6.6.1) (2021-02-13)
+
+
+### Bug Fixes
+
+* **react:** make `children` prop optional on `Currency` and `Time` ([adc767a](https://github.com/FacioCode/design/commit/adc767abf00f20e5481011950bb43b2bacdb65a0))
+
+
+
+
+
 # [6.6.0](https://github.com/FacioCode/design/compare/v6.5.0...v6.6.0) (2021-02-12)
 
 
