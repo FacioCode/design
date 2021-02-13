@@ -14,7 +14,7 @@ export interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
      * @type number
      */
     // eslint-disable-next-line no-magic-numbers
-    children: 0 | number | string;
+    children?: 0 | number | string;
 
     /**
      * The component used for the root node. Either a `string` to use a DOM element or a component.

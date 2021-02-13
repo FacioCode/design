@@ -14,6 +14,11 @@ const render : Render = (props, ref) => {
     locales,
     ...otherProps
   } = props;
+
+  if (!children) {
+    return null;
+  }
+
   const value = Number(children);
   const formatter = Intl.NumberFormat(locales, { currency: code, style: "currency" });
 

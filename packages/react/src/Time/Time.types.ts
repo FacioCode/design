@@ -9,10 +9,10 @@ export interface TimeTypeMap<P = {}, D extends React.ElementType = "time"> {
     /**
      * Time is required.
      *
-     * @required
+     * @optional
      * @type number | string
      */
-    children: number | string;
+    children?: number | string;
 
     /**
      * The component used for the root node. Either a `string` to use a DOM element or a component.
