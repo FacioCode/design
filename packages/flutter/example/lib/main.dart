@@ -40,6 +40,16 @@ class MyHomePage extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
+                        Alert(
+                          titleKey:
+                              const Key('registration_in_review_hint_card'),
+                          icon: FacioSvgIcons.megaphone,
+                          title: 'Cadastro em revisão',
+                          subtitle:
+                              'Em breve você terá acesso aos serviços disponíveis para o seu perfil',
+                          color: AlertColor.error,
+                          variant: AlertVariant.filled,
+                        ),
                         StreamBuilder<String>(
                             stream: _stream.stream,
                             builder: (context, snapshot) {

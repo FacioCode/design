@@ -1,3 +1,5 @@
+export 'components/alert.dart';
+export 'components/bottom_sheet.dart';
 export 'components/buttons/contained_button_color.dart';
 export 'components/buttons/medium_contained_button.dart';
 export 'components/buttons/medium_link_button.dart';
@@ -13,6 +15,7 @@ export 'components/legacy/chips.dart';
 export 'components/legacy/legacy_theme.dart';
 export 'components/legacy/swipe_button.dart';
 export 'components/legacy/video_thumb.dart';
+export 'components/money_text.dart';
 export 'components/progress_widget.dart';
 export 'components/scaffold.dart';
 export 'components/text_bullet.dart';
