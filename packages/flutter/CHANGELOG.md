@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.7.0](https://github.com/FacioCode/design/compare/v6.6.2...v6.7.0) (2021-02-15)
+
+
+### Features
+
+* **flutter:** add alert, bottom_sheet and money text components ([d39cf7a](https://github.com/FacioCode/design/commit/d39cf7ad3726dcf04e0ce06c5303dffe703fd5f6))
+
+
+
+
+
 ## [6.6.2](https://github.com/FacioCode/design/compare/v6.6.1...v6.6.2) (2021-02-13)
 
 **Note:** Version bump only for package facio_design_system
