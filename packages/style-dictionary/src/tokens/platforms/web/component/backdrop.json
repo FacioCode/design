@@ -1,0 +1,11 @@
+{
+  "component": {
+    "backdrop": {
+      "root": {
+        "backgroundColor": {
+          "value": "{color.base.transparent.50.value}"
+        }
+      }
+    }
+  }
+}
