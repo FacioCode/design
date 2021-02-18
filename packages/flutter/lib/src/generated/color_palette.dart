@@ -95,6 +95,7 @@ class ColorPalette {
   static const Color baseTransparent00 = const Color(0x00FFFFFF);
   static const Color baseTransparent05 = const Color(0x05101615);
   static const Color baseTransparent30 = const Color(0x21212631);
+  static const Color baseTransparent50 = const Color(0x80000000);
   static const Color baseTransparent70 = const Color(0xBD000F23);
   static const Color baseWarningDark = const Color(0xFFC4A82B);
   static const Color baseWarningMain = const Color(0xFFE1B63F);
