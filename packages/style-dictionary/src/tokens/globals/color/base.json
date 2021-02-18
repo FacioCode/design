@@ -5,6 +5,10 @@
         "00": { "value": "rgba(255, 255, 255, 0)" },
         "05": { "value": "rgba(16, 22, 21, 0.02)" },
         "30": { "value": "rgba(33, 38, 49, 0.13)" },
+        "50": {
+          "comment": "TODO: check this value",
+          "value": "rgba(0, 0, 0, 0.5)"
+        },
         "70": { "value": "rgba(0, 15, 35, 0.74)" }
       },
       "grey": {
