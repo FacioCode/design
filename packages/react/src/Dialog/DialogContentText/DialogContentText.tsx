@@ -5,7 +5,7 @@ import { DialogContentText as MaterialDialogContentText } from "@material-ui/cor
 type Render = (props: DialogContentTextProps, ref: DialogContentTextProps["ref"]) => JSX.Element;
 
 const render : Render = (props: DialogContentTextProps, ref: DialogContentTextProps["ref"]) => (
-  <MaterialDialogContentText {...props} ref={ref} />
+  <MaterialDialogContentText {...props} color={"textPrimary"} ref={ref} />
 );
 
 export const DialogContentText = React.forwardRef<unknown, DialogContentTextProps>(render);
