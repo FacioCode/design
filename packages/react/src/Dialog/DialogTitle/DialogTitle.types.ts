@@ -1,5 +1,8 @@
 import type { DialogTitleProps as MaterialDialogTitleProps } from "@material-ui/core/DialogTitle";
-export interface DialogTitleProps extends Omit<MaterialDialogTitleProps, "css"> {
+
+type OmittedProps = "css" | "disableTypography";
+
+export interface DialogTitleProps extends Omit<MaterialDialogTitleProps, OmittedProps> {
 
   /**
    * @ignore
