@@ -2464,6 +2464,19 @@ export const typographyStyles = {
 
 };
 
+export const backdropStyles = {
+
+  root: {
+
+    /**
+     * Background Color for Backdrop Root
+     */
+    backgroundColor: "var(--component-backdrop-root-background-color, rgba(0, 0, 0, 0.5))",
+
+  },
+
+};
+
 export const baselineStyles = {
 
   backdrop: {

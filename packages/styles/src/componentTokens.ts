@@ -331,6 +331,7 @@ export const typographyHeadline6MarginTop = "1.5em"; // Reuse margin top from he
 export const typographyColorErrorColor = "#c42b47";
 export const typographyColorInverseColor = "#ffffff";
 export const typographyColorTextPrimaryColor = "#424d5c";
+export const backdropRootBackgroundColor = "rgba(0, 0, 0, 0.5)";
 export const baselineBackdropBackgroundColor = "#ffffff";
 export const baselineBodyBackgroundColor = "#ffffff";
 export const baselineBodyColor = "#424d5c";
