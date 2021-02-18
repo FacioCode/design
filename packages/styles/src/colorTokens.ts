@@ -24,6 +24,7 @@ export const baseSecondaryDark = "#303846";
 export const baseWarningMain = "#e1b63f";
 export const baseWarningDark = "#c4a82b";
 export const baseTransparent30 = "rgba(33, 38, 49, 0.13)";
+export const baseTransparent50 = "rgba(0, 0, 0, 0.5)"; // TODO: check this value
 export const baseTransparent70 = "rgba(0, 15, 35, 0.74)";
 export const baseTransparent00 = "rgba(255, 255, 255, 0)";
 export const baseTransparent05 = "rgba(16, 22, 21, 0.02)";
