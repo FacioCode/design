@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.8.0](https://github.com/FacioCode/design/compare/v6.7.0...v6.8.0) (2021-02-18)
+
+
+### Bug Fixes
+
+* **react:** change `DialogTitle` typography variant to `headline3` ([358e1dc](https://github.com/FacioCode/design/commit/358e1dc6b3c0b4eac761361d21d0deef75329e20))
+* **react:** set correct color for `DialogContentText` component ([940b2c9](https://github.com/FacioCode/design/commit/940b2c99e50bdd15384ef4dbbc74e6fc49792071))
+
+
+### Features
+
+* **react:** add `CloseIcon` and `WhatsAppIcon` ([eb0e9f2](https://github.com/FacioCode/design/commit/eb0e9f20fff74d3f18b24bb1f5fcdb994d44738f))
+* **react:** add missing props to `SvgIcon` ([427d3b8](https://github.com/FacioCode/design/commit/427d3b83c493f9d7722a7304e13a5abd0579179c))
+
+
+
+
+
 # [6.7.0](https://github.com/FacioCode/design/compare/v6.6.2...v6.7.0) (2021-02-15)
 
 **Note:** Version bump only for package @faciocode/react

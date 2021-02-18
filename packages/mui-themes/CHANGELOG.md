@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.8.0](https://github.com/FacioCode/design/compare/v6.7.0...v6.8.0) (2021-02-18)
+
+
+### Features
+
+* **mui-themes:** add `MuiBackdrop` override ([21646d2](https://github.com/FacioCode/design/commit/21646d247acc9c6278f38f19aacc34f841b756cf))
+
+
+
+
+
 # [6.7.0](https://github.com/FacioCode/design/compare/v6.6.2...v6.7.0) (2021-02-15)
 
 **Note:** Version bump only for package @faciocode/mui-themes

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.8.0](https://github.com/FacioCode/design/compare/v6.7.0...v6.8.0) (2021-02-18)
+
+
+### Features
+
+* **style-dictionary:** add `{color.transparent.50}` token ([e1745c1](https://github.com/FacioCode/design/commit/e1745c11d842c7dbdcb07e0005b4dfd375cec219))
+* **style-dictionary:** add color token for dialog backdrop ([14f03ed](https://github.com/FacioCode/design/commit/14f03edcaabd67264d3513f1fae22fceced2a689))
+
+
+
+
+
 # [6.7.0](https://github.com/FacioCode/design/compare/v6.6.2...v6.7.0) (2021-02-15)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
