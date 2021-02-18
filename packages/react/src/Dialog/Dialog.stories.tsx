@@ -26,7 +26,6 @@ const Template : Story<DialogProps> = (props : DialogProps) => {
       <Dialog {...props} onClose={handleClose} open={open}>
         {props.children}
         <DialogActions>
-          <ContainedButton onClick={handleClose}>Not now</ContainedButton>
           <ContainedButton color={"brand"} onClick={handleClose}>Approve</ContainedButton>
         </DialogActions>
       </Dialog>
