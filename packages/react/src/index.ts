@@ -81,3 +81,6 @@ export { default as useMediaQuery } from "./hooks/useMediaQuery";
 export { default as useTheme } from "./hooks/useTheme";
 
 export { default as ServerStyleSheets } from "./ServerStyleSheets";
+
+export { default as CloseIcon } from "./icons/CloseIcon";
+export { default as WhatsAppIcon } from "./icons/WhatsAppIcon";
