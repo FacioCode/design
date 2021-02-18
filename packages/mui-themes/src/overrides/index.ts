@@ -14,6 +14,9 @@ export const overrides : ThemeOptions["overrides"] = {
   MuiAppBar: {
     colorDefault: customProperties.appBarStyles.colorDefault,
   },
+  MuiBackdrop: {
+    root: customProperties.backdropStyles.root,
+  },
   MuiButton,
   MuiButtonBase: {
     root: customProperties.buttonBaseStyles.root,
