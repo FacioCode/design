@@ -4,8 +4,13 @@ import { SvgIconProps } from "./SvgIcon.types";
 
 type Render = (props: SvgIconProps, ref: SvgIconProps["ref"]) => JSX.Element;
 
-const render : Render = (props, ref) => (
-  <MaterialSvgIcon {...props} ref={ref} />
+const render : Render = (props: SvgIconProps, ref) => (
+  <MaterialSvgIcon
+    {...props}
+    ref={ref}
+    version={"1.1"}
+    xmlns={"http://www.w3.org/2000/svg"}
+  />
 );
 
 export const SvgIcon = React.forwardRef<unknown, SvgIconProps>(render);
