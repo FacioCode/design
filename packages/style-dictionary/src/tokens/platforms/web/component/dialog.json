@@ -10,6 +10,10 @@
       "actionsSpacingChildren": {
         "marginLeft": { "value": "{size.base.singleHalf.value}" }
       },
+      "closeButton": {
+        "right": { "value": "{size.base.doubleQuarter.value}" },
+        "top": { "value": "{size.base.doubleQuarter.value}" }
+      },
       "content": {
         "paddingBottom": { "value": "{size.base.single.value}" },
         "paddingLeft": { "value": "{size.base.quadruple.value}" },
