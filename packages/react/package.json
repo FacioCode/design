@@ -51,6 +51,9 @@
 		"react": "^16.14.0 || ^17.0.1",
 		"react-dom": "^16.14.0 || ^17.0.1"
 	},
+  "devDependencies": {
+    "@emotion/react": "11.1.5"
+  },
 	"dependencies": {
 		"@faciocode/mui-themes": "^6.9.0",
 		"@faciocode/styles": "^6.9.0",

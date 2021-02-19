@@ -1,3 +1,6 @@
 {
+  "compilerOptions": {
+    "types": ["@emotion/core"]
+  },
   "extends": "../../tsconfig"
 }
