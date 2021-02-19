@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.9.0](https://github.com/FacioCode/design/compare/v6.8.0...v6.9.0) (2021-02-19)
+
+
+### Bug Fixes
+
+* **react:** change `DialogTitle` typography variant to `headline3` ([358e1dc](https://github.com/FacioCode/design/commit/358e1dc6b3c0b4eac761361d21d0deef75329e20))
+* **react:** prevent type errors with `SvgIcon` ([16dc381](https://github.com/FacioCode/design/commit/16dc381c8de8eb07e2b18b8d5a760b063e18726f))
+* **react:** set correct color for `DialogContentText` component ([940b2c9](https://github.com/FacioCode/design/commit/940b2c99e50bdd15384ef4dbbc74e6fc49792071))
+
+
+### Features
+
+* **flutter:** add `baseTransparent50` color token ([c110c62](https://github.com/FacioCode/design/commit/c110c62c7ac3978292f55b12a4968ae5c9f6ddce))
+* **mui-themes:** add `MuiBackdrop` override ([21646d2](https://github.com/FacioCode/design/commit/21646d247acc9c6278f38f19aacc34f841b756cf))
+* **react:** add `CloseButton` to `Dialog` ([c0611cd](https://github.com/FacioCode/design/commit/c0611cd9713b37e621ae3e9d06dead5861f7fdda))
+* **react:** add `CloseIcon` and `WhatsAppIcon` ([eb0e9f2](https://github.com/FacioCode/design/commit/eb0e9f20fff74d3f18b24bb1f5fcdb994d44738f))
+* **react:** add missing props to `SvgIcon` ([427d3b8](https://github.com/FacioCode/design/commit/427d3b83c493f9d7722a7304e13a5abd0579179c))
+* **style-dictionary:** add `{color.transparent.50}` token ([e1745c1](https://github.com/FacioCode/design/commit/e1745c11d842c7dbdcb07e0005b4dfd375cec219))
+* **style-dictionary:** add color token for dialog backdrop ([14f03ed](https://github.com/FacioCode/design/commit/14f03edcaabd67264d3513f1fae22fceced2a689))
+* **style-dictionary:** create style tokens for dialog close button ([de6d8f3](https://github.com/FacioCode/design/commit/de6d8f3362f78ef37bc6e203b063a3d832382908))
+* **styles:** add `baseTransparent50` color token ([a14d5a9](https://github.com/FacioCode/design/commit/a14d5a93b2c78ae486ba699e19b56614403401c6))
+* **styles:** add backdrop style token ([44c6fe0](https://github.com/FacioCode/design/commit/44c6fe0f1a9d4c9dd05cbc4225dfda2604ad5d3a))
+* **styles:** add tokens for Dialog close button ([f7012db](https://github.com/FacioCode/design/commit/f7012dba1f3c2fcd66cc0e957e3b51fee512dd51))
+
+
+
+# 6.7.0 (2021-02-15)
+
+
+
+
+
 # [6.8.0](https://github.com/FacioCode/design/compare/v6.7.0...v6.8.0) (2021-02-18)
 
 

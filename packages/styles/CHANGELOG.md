@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.9.0](https://github.com/FacioCode/design/compare/v6.8.0...v6.9.0) (2021-02-19)
+
+
+### Features
+
+* **styles:** add `baseTransparent50` color token ([a14d5a9](https://github.com/FacioCode/design/commit/a14d5a93b2c78ae486ba699e19b56614403401c6))
+* **styles:** add backdrop style token ([44c6fe0](https://github.com/FacioCode/design/commit/44c6fe0f1a9d4c9dd05cbc4225dfda2604ad5d3a))
+* **styles:** add tokens for Dialog close button ([f7012db](https://github.com/FacioCode/design/commit/f7012dba1f3c2fcd66cc0e957e3b51fee512dd51))
+
+
+
+# 6.7.0 (2021-02-15)
+
+
+
+
+
 # [6.8.0](https://github.com/FacioCode/design/compare/v6.7.0...v6.8.0) (2021-02-18)
 
 
