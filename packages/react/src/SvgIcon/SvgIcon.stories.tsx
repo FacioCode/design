@@ -1,9 +1,9 @@
 import * as React from "react";
 import type { Meta, Story } from "@storybook/react";
+import { CloseIcon } from "../icons/CloseIcon";
 import { SvgIcon } from "./SvgIcon";
 import { SvgIconProps } from "./SvgIcon.types";
 import { WhatsAppIcon } from "../icons/WhatsAppIcon";
-import CloseIcon from "../icons/CloseIcon";
 
 export default {
   component: SvgIcon,
