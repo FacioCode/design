@@ -23,7 +23,11 @@ const Template : Story<DialogProps> = (props : DialogProps) => {
   return (
     <div>
       <ContainedButton onClick={handleClickOpen}>Open dialog</ContainedButton>
-      <Dialog {...props} onClose={handleClose} open={open}>
+      <Dialog
+        {...props}
+        CloseButtonProps={{ onClick: handleClose }}
+        onClose={handleClose}
+        open={open}>
         {props.children}
         <DialogActions>
           <ContainedButton color={"brand"} onClick={handleClose}>Approve</ContainedButton>
