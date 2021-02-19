@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.9.1](https://github.com/FacioCode/design/compare/v6.9.0...v6.9.1) (2021-02-19)
+
+
+### Bug Fixes
+
+* **react:** prevent type errors when using `css` prop ([68f6266](https://github.com/FacioCode/design/commit/68f626650815b2b5a95fc80a77d168ab841b09ec))
+
+
+
+
+
 # [6.9.0](https://github.com/FacioCode/design/compare/v6.8.0...v6.9.0) (2021-02-19)
 
 
