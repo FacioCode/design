@@ -1,13 +1,30 @@
 {
-  "plugins": [{
-    "removeViewBox": false
-  }, {
-    "convertPathData": { "noSpaceAfterFlags": false }
-  }, {
-    "mergePaths": { "noSpaceAfterFlags": false }
-  }, {
-    "removeAttrs": { "attrs": "(stroke|fill)" }
-  }, {
-    "sortAttrs": true
-  }]
+  "plugins": [
+    {
+      "name": "removeViewBox",
+      "active": false
+    },
+    {
+      "name": "convertPathData",
+      "params": {
+        "noSpaceAfterFlags": false
+      }
+    },
+    {
+      "name": "mergePaths",
+      "params": {
+        "noSpaceAfterFlags": false
+      }
+    },
+    {
+      "name": "removeAttrs",
+      "params": {
+        "attrs": "(stroke|fill)"
+      }
+    },
+    {
+      "name": "sortAttrs",
+      "active": true
+    }
+  ]
 }
