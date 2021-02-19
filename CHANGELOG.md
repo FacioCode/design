@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.8.0](https://github.com/FacioCode/design/compare/v6.7.0...v6.8.0) (2021-02-18)
+
+
+### Bug Fixes
+
+* **react:** change `DialogTitle` typography variant to `headline3` ([358e1dc](https://github.com/FacioCode/design/commit/358e1dc6b3c0b4eac761361d21d0deef75329e20))
+* **react:** set correct color for `DialogContentText` component ([940b2c9](https://github.com/FacioCode/design/commit/940b2c99e50bdd15384ef4dbbc74e6fc49792071))
+
+
+### Features
+
+* **flutter:** add `baseTransparent50` color token ([c110c62](https://github.com/FacioCode/design/commit/c110c62c7ac3978292f55b12a4968ae5c9f6ddce))
+* **mui-themes:** add `MuiBackdrop` override ([21646d2](https://github.com/FacioCode/design/commit/21646d247acc9c6278f38f19aacc34f841b756cf))
+* **react:** add `CloseIcon` and `WhatsAppIcon` ([eb0e9f2](https://github.com/FacioCode/design/commit/eb0e9f20fff74d3f18b24bb1f5fcdb994d44738f))
+* **react:** add missing props to `SvgIcon` ([427d3b8](https://github.com/FacioCode/design/commit/427d3b83c493f9d7722a7304e13a5abd0579179c))
+* **style-dictionary:** add `{color.transparent.50}` token ([e1745c1](https://github.com/FacioCode/design/commit/e1745c11d842c7dbdcb07e0005b4dfd375cec219))
+* **style-dictionary:** add color token for dialog backdrop ([14f03ed](https://github.com/FacioCode/design/commit/14f03edcaabd67264d3513f1fae22fceced2a689))
+* **styles:** add `baseTransparent50` color token ([a14d5a9](https://github.com/FacioCode/design/commit/a14d5a93b2c78ae486ba699e19b56614403401c6))
+* **styles:** add backdrop style token ([44c6fe0](https://github.com/FacioCode/design/commit/44c6fe0f1a9d4c9dd05cbc4225dfda2604ad5d3a))
+
+
+
+
+
 # [6.7.0](https://github.com/FacioCode/design/compare/v6.6.2...v6.7.0) (2021-02-15)
 
 
