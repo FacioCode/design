@@ -2643,6 +2643,21 @@ export const dialogStyles = {
 
   },
 
+  closeButton: {
+
+    /**
+     * Right for Dialog Close Button
+     */
+    right: "var(--component-dialog-close-button-right, 18px)",
+
+
+    /**
+     * Top for Dialog Close Button
+     */
+    top: "var(--component-dialog-close-button-top, 18px)",
+
+  },
+
   content: {
 
     /**
