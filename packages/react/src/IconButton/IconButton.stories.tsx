@@ -6,7 +6,7 @@ import { WhatsAppIcon } from "../icons/WhatsAppIcon";
 
 export default {
   component: IconButton,
-  title: "Components/IconButton",
+  title: "Components/Icon Button",
 } as Meta;
 
 const Template : Story<IconButtonProps> = (props: IconButtonProps) => (
