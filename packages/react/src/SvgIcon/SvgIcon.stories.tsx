@@ -7,7 +7,7 @@ import { WhatsAppIcon } from "../icons/WhatsAppIcon";
 
 export default {
   component: SvgIcon,
-  title: "Components/Icons (SVG)",
+  title: "Components/SVG Icon",
 } as Meta;
 
 export const Close : Story<SvgIconProps> = (props: SvgIconProps) => <CloseIcon {...props} />;
