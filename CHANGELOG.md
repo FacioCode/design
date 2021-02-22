@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.10.0](https://github.com/FacioCode/design/compare/v6.9.1...v6.10.0) (2021-02-22)
+
+
+### Features
+
+* **mui-themes:** add default props for `MuiTooltip` ([329acdc](https://github.com/FacioCode/design/commit/329acdc131319e410a30d166c198cb679795c454))
+* **react:** add `CloseButton` component ([9727057](https://github.com/FacioCode/design/commit/9727057c7bf5854b10223e6780be63585215b6b7))
+* **react:** add `Tooltip` component ([80b3dc8](https://github.com/FacioCode/design/commit/80b3dc8c75d6689b027fe846f310c4cce6e25e57))
+* **react:** add improved support to `CloseButton` on `Dialog` ([fc63da0](https://github.com/FacioCode/design/commit/fc63da0eeb1d0f4af8733d787c3bcf8e5250366e))
+* **react:** make `CloseButton` and `Tooltip` importable ([ad23a66](https://github.com/FacioCode/design/commit/ad23a6684a591c049cd6b1f7c49b8bb55a8433a3))
+
+
+
+
+
 ## [6.9.1](https://github.com/FacioCode/design/compare/v6.9.0...v6.9.1) (2021-02-19)
 
 

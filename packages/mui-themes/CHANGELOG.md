@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.10.0](https://github.com/FacioCode/design/compare/v6.9.1...v6.10.0) (2021-02-22)
+
+
+### Features
+
+* **mui-themes:** add default props for `MuiTooltip` ([329acdc](https://github.com/FacioCode/design/commit/329acdc131319e410a30d166c198cb679795c454))
+
+
+
+
+
 ## [6.9.1](https://github.com/FacioCode/design/compare/v6.9.0...v6.9.1) (2021-02-19)
 
 **Note:** Version bump only for package @faciocode/mui-themes
