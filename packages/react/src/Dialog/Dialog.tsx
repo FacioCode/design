@@ -1,16 +1,18 @@
 import * as React from "react";
-import { CloseIcon } from "../icons/CloseIcon";
 import type { DialogProps } from "./Dialog.types";
-import { IconButton } from "../IconButton";
 import { Dialog as MaterialDialog } from "@material-ui/core";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { useStyles } from "./Dialog.styles";
+import { CloseButton } from "@components/Button";
 
 type Render = (props: DialogProps, ref: DialogProps["ref"]) => JSX.Element;
 
 const render : Render = (props: DialogProps, ref) => {
   const {
-    CloseButtonProps = {},
+    CloseButtonProps = {
+      onClick: () => Function.prototype(),
+      title: "Close",
+    },
     children,
     fullScreen: fullScreenProp,
     onClose,
@@ -36,9 +38,11 @@ const render : Render = (props: DialogProps, ref) => {
       ref={ref}
       {...otherProps}>
       {children}
-      {onClose && <IconButton {...CloseButtonProps} className={closeButton}>
-        <CloseIcon />
-      </IconButton>}
+      {onClose && <CloseButton
+        className={closeButton}
+        onClick={CloseButtonProps.onClick}
+        title={CloseButtonProps.title}
+        {...CloseButtonProps} />}
     </MaterialDialog>);
 };
 

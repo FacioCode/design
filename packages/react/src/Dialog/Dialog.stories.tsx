@@ -25,7 +25,7 @@ const Template : Story<DialogProps> = (props : DialogProps) => {
       <ContainedButton onClick={handleClickOpen}>Open dialog</ContainedButton>
       <Dialog
         {...props}
-        CloseButtonProps={{ onClick: handleClose }}
+        CloseButtonProps={{ onClick: handleClose, title: "Fechar" }}
         onClose={handleClose}
         open={open}>
         {props.children}

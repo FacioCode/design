@@ -1,4 +1,4 @@
-import { IconButtonProps } from "../IconButton";
+import { CloseButtonProps } from "@components/Button";
 import type { DialogProps as MaterialDialogProps } from "@material-ui/core/Dialog";
 
 export interface DialogProps extends Omit<MaterialDialogProps, "css"> {
@@ -7,6 +7,6 @@ export interface DialogProps extends Omit<MaterialDialogProps, "css"> {
    * @optional
    * @type object
    */
-  CloseButtonProps?: IconButtonProps;
+  CloseButtonProps?: CloseButtonProps;
 
 }

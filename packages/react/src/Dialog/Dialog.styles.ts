@@ -1,11 +1,10 @@
 import { createStyles, makeStyles } from "@material-ui/core";
-import { sizeTokens } from "@faciocode/styles";
+import { customProperties } from "@faciocode/styles";
 
 const styles = createStyles({
   closeButton: {
+    ...customProperties.dialogStyles.closeButton,
     position: "absolute",
-    right: sizeTokens.baseDoubleQuarter,
-    top: sizeTokens.baseDoubleQuarter,
   },
 });
 
