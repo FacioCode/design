@@ -10,6 +10,8 @@ export { ButtonGroup, ButtonGroupProps } from "./Button";
 export {
   ContainedButton,
   ContainedButtonProps,
+  CloseButton,
+  CloseButtonProps,
   LinkButton,
   LinkButtonProps,
   OutlinedButton,
@@ -75,6 +77,7 @@ export { default as Toolbar, ToolbarProps } from "./Toolbar";
 export { TextField, TextFieldProps } from "./TextField";
 export { ThemeProvider, ThemeProviderProps } from "./ThemeProvider";
 export { default as Time, TimeProps } from "./Time";
+export { default as Tooltip, TooltipProps } from "./Tooltip";
 export { Typography, TypographyProps } from "./Typography";
 
 export { default as useMediaQuery } from "./hooks/useMediaQuery";
