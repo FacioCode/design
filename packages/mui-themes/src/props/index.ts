@@ -81,6 +81,9 @@ export const props : ComponentsProps = {
     InputProps: MuiInput,
     variant: "filled",
   },
+  MuiTooltip: {
+    arrow: true,
+  },
 };
 
 export default props;
