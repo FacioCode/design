@@ -1,10 +1,18 @@
 {
   "asset": {
     "icon": {
-      "app": { "value": "assets/icons/app.svg" },
-      "approval": { "value": "assets/icons/approval.svg" },
-      "arrowRight": { "value": "assets/icons/arrow-right.svg" },
-      "arrowUp": { "value": "assets/icons/arrow-up.svg" },
+      "app": {
+        "value": "assets/icons/app.svg"
+      },
+      "approval": {
+        "value": "assets/icons/approval.svg"
+      },
+      "arrowRight": {
+        "value": "assets/icons/arrow-right.svg"
+      },
+      "arrowUp": {
+        "value": "assets/icons/arrow-up.svg"
+      },
       "bankBB": {
         "comment": "Icon for Banco do Brazil (Brazil's Bank)",
         "value": "assets/icons/bank-bb.svg"
@@ -41,15 +49,25 @@
         "comment": "Icon for Votorantim Bank",
         "value": "assets/icons/bank-votorantim.svg"
       },
-      "bigPig": { "value": "assets/icons/big-pig.svg" },
-      "calendar": { "value": "assets/icons/calendar.svg" },
-      "close": { "value": "assets/icons/close.svg" },
-      "contract": { "value": "assets/icons/contract.svg" },
+      "bigPig": {
+        "value": "assets/icons/big-pig.svg"
+      },
+      "calendar": {
+        "value": "assets/icons/calendar.svg"
+      },
+      "close": {
+        "value": "assets/icons/close.svg"
+      },
+      "contract": {
+        "value": "assets/icons/contract.svg"
+      },
       "deposit": {
         "comment": "Antecipação de salário",
         "value": "assets/icons/deposit.svg"
       },
-      "double": { "value": "assets/icons/double.svg" },
+      "double": {
+        "value": "assets/icons/double.svg"
+      },
       "eyeClosed": {
         "comment": "Ocultar saldo",
         "value": "assets/icons/eye-closed.svg"
@@ -58,41 +76,90 @@
         "comment": "Exibir saldo",
         "value": "assets/icons/eye-open.svg"
       },
-      "forbidden": { "value": "assets/icons/forbidden.svg" },
-      "free": { "value": "assets/icons/free.svg" },
-      "gear": { "value": "assets/icons/gear.svg" },
+      "forbidden": {
+        "value": "assets/icons/forbidden.svg"
+      },
+      "free": {
+        "value": "assets/icons/free.svg"
+      },
+      "gear": {
+        "value": "assets/icons/gear.svg"
+      },
       "growth": {
         "comment": "Educação financeira",
         "value": "assets/icons/growth.svg"
       },
-      "health": { "value": "assets/icons/health.svg" },
-      "hourglass": { "value": "assets/icons/hourglass.svg" },
-      "id": { "value": "assets/icons/id.svg" },
-      "keyboardArrowDown": { "value": "assets/icons/keyboard-arrow-down.svg" },
-      "keyboardArrowLeft": { "value": "assets/icons/keyboard-arrow-left.svg" },
-      "keyboardArrowRight": { "value": "assets/icons/keyboard-arrow-right.svg" },
-      "lock": { "value": "assets/icons/lock.svg" },
-      "map": { "value": "assets/icons/map.svg" },
-      "megaphone": { "value": "assets/icons/megaphone.svg" },
-      "payed": { "value": "assets/icons/payed.svg" },
+      "health": {
+        "value": "assets/icons/health.svg"
+      },
+      "hourglass": {
+        "value": "assets/icons/hourglass.svg"
+      },
+      "id": {
+        "value": "assets/icons/id.svg"
+      },
+      "keyboardArrowDown": {
+        "value": "assets/icons/keyboard-arrow-down.svg"
+      },
+      "keyboardArrowLeft": {
+        "value": "assets/icons/keyboard-arrow-left.svg"
+      },
+      "keyboardArrowRight": {
+        "value": "assets/icons/keyboard-arrow-right.svg"
+      },
+      "lock": {
+        "value": "assets/icons/lock.svg"
+      },
+      "map": {
+        "value": "assets/icons/map.svg"
+      },
+      "megaphone": {
+        "value": "assets/icons/megaphone.svg"
+      },
+      "payed": {
+        "value": "assets/icons/payed.svg"
+      },
       "pig": {
         "comment": "Poupe Facio",
         "value": "assets/icons/pig.svg"
       },
-      "play": { "value": "assets/icons/play.svg" },
+      "play": {
+        "value": "assets/icons/play.svg"
+      },
       "received": {
         "comment": "Crédito consignado",
         "value": "assets/icons/received.svg"
       },
-      "safe": { "value": "assets/icons/safe.svg" },
-      "search": { "value": "assets/icons/search.svg" },
-      "taxes": { "value": "assets/icons/taxes.svg" },
-      "thunderbolt": { "value": "assets/icons/thunderbolt.svg" },
-      "video": { "value": "assets/icons/video.svg" },
-      "waiting": { "value": "assets/icons/waiting.svg" },
-      "wallet": { "value": "assets/icons/wallet.svg" },
-      "warning": { "value": "assets/icons/warning.svg" },
-      "whatsapp": { "value": "assets/icons/whatsapp.svg" }
+      "safe": {
+        "value": "assets/icons/safe.svg"
+      },
+      "search": {
+        "value": "assets/icons/search.svg"
+      },
+      "taxes": {
+        "value": "assets/icons/taxes.svg"
+      },
+      "thunderbolt": {
+        "value": "assets/icons/thunderbolt.svg"
+      },
+      "video": {
+        "value": "assets/icons/video.svg"
+      },
+      "waiting": {
+        "value": "assets/icons/waiting.svg"
+      },
+      "wallet": {
+        "value": "assets/icons/wallet.svg"
+      },
+      "warning": {
+        "value": "assets/icons/warning.svg"
+      },
+      "whatsapp": {
+        "value": "assets/icons/whatsapp.svg"
+      },
+      "lab": {
+        "value": "assets/icons/lab.svg"
+      }
     }
   }
 }
