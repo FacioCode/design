@@ -18,6 +18,9 @@ const themeOptions : ThemeOptions = {
     MuiAlert: {
       severity: "info",
     },
+    MuiAlertTitle: {
+      gutterBottom: false,
+    },
     ...props,
   },
   shadows,
