@@ -90,6 +90,7 @@ export { default as ServerStyleSheets } from "./ServerStyleSheets";
 export { default as ApproveIcon } from "@svg-icons/ApproveIcon";
 export { default as CloseIcon } from "@svg-icons/CloseIcon";
 export { default as ForbiddenIcon } from "@svg-icons/ForbiddenIcon";
+export { default as PaidIcon } from "@svg-icons/PaidIcon";
 export { default as ReceivedIcon } from "@svg-icons/ReceivedIcon";
 export { default as WalletIcon } from "@svg-icons/WalletIcon";
 export { default as WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
