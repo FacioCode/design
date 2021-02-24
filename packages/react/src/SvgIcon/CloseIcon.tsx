@@ -1,5 +1,6 @@
 import * as React from "react";
-import { SvgIcon, SvgIconProps } from "../SvgIcon";
+import { SvgIcon } from "./SvgIcon";
+import { SvgIconProps } from "./SvgIcon.types";
 
 type Render = (props: SvgIconProps, ref: SvgIconProps["ref"]) => JSX.Element;
 
