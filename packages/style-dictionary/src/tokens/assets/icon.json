@@ -74,7 +74,7 @@
       "lock": { "value": "assets/icons/lock.svg" },
       "map": { "value": "assets/icons/map.svg" },
       "megaphone": { "value": "assets/icons/megaphone.svg" },
-      "payed": { "value": "assets/icons/payed.svg" },
+      "paid": { "value": "assets/icons/paid.svg" },
       "pig": {
         "comment": "Poupe Facio",
         "value": "assets/icons/pig.svg"
