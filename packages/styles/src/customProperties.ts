@@ -2319,12 +2319,6 @@ export const typographyStyles = {
      */
     lineHeight: "var(--component-typography-body-text-1-line-height, 1.5em)",
 
-
-    /**
-     * Margin Bottom for Typography Body Text 1
-     */
-    marginBottom: "var(--component-typography-body-text-1-margin-bottom, 1.5em)",
-
   },
 
   bodyText2: {
@@ -2432,6 +2426,15 @@ export const typographyStyles = {
      * Reuse margin top from headline5
      */
     marginTop: "var(--component-typography-headline-6-margin-top, 1.5em)",
+
+  },
+
+  bodyText1GutterBottom: {
+
+    /**
+     * Margin Bottom for Typography Body Text 1 Gutter Bottom
+     */
+    marginBottom: "var(--component-typography-body-text-1-gutter-bottom-margin-bottom, 1.5em)",
 
   },
 
