@@ -36,7 +36,9 @@ export {
   DialogTitleProps,
 } from "./Dialog";
 export { Divider, DividerProps } from "./Divider";
+export { default as FormControlLabel, FormControlLabelProps } from "./FormControlLabel";
 export { default as FormLabel, FormLabelProps } from "./FormLabel";
+export { default as FormGroup, FormGroupProps } from "./FormGroup";
 export { default as FormHelperText, FormHelperTextProps } from "./FormHelperText";
 export { IconButton, IconButtonProps } from "./IconButton";
 export { Input, InputProps } from "./Input";
