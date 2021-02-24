@@ -9,7 +9,7 @@ const render : SvgIconRender = (props, ref) => (
   </SvgIcon>
 );
 
-export const PayedIcon = React.forwardRef<unknown, SvgIconProps>(render);
-PayedIcon.displayName = "PayedIcon";
+export const PaidIcon = React.forwardRef<unknown, SvgIconProps>(render);
+PaidIcon.displayName = "PaidIcon";
 
-export default PayedIcon;
+export default PaidIcon;
