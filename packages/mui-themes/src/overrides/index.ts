@@ -213,6 +213,9 @@ export const overrides : ThemeOptions["overrides"] = {
     regular: customProperties.appBarStyles.regularToolbar,
   },
   MuiTypography: {
+    body1: {
+      "&$gutterBottom": customProperties.typographyStyles.bodyText1GutterBottom,
+    },
     colorError: customProperties.typographyStyles.colorError,
     colorTextPrimary: customProperties.typographyStyles.colorTextPrimary,
     root: customProperties.typographyStyles.root,
