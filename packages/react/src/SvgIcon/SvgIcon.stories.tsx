@@ -7,6 +7,7 @@ import { ReceivedIcon } from "@svg-icons/ReceivedIcon";
 import { SvgIcon } from "./SvgIcon";
 import { SvgIconProps } from "./SvgIcon.types";
 import { WalletIcon } from "@svg-icons/WalletIcon";
+import { WarningIcon } from "@svg-icons/WarningIcon";
 import { WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
 
 export default {
@@ -28,6 +29,9 @@ Received.args = { titleAccess: "Crédito consignado" };
 
 export const Wallet : Story<SvgIconProps> = (props: SvgIconProps) => <WalletIcon {...props} />;
 Wallet.args = { titleAccess: "Adiantamento de salário" };
+
+export const Warning : Story<SvgIconProps> = (props: SvgIconProps) => <WarningIcon {...props} />;
+Warning.args = { titleAccess: "Aviso" };
 
 export const WhatsApp : Story<SvgIconProps> = (props: SvgIconProps) => <WhatsAppIcon {...props} />;
 WhatsApp.args = { titleAccess: "WhatsApp" };
