@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0](https://github.com/FacioCode/design/compare/v7.2.0...v8.0.0) (2021-02-24)
+
+
+### Code Refactoring
+
+* **flutter:** rename `payed` icon to `paid` ([bde2ed1](https://github.com/FacioCode/design/commit/bde2ed162f2587c3b316970fa4c38f2ca3913b85))
+
+
+### BREAKING CHANGES
+
+* **flutter:** `FacioSvgIcons.payed` was renamed to `FacioSvgIcons.paid`
+
+
+
+
+
 # [7.2.0](https://github.com/FacioCode/design/compare/v7.1.0...v7.2.0) (2021-02-24)
 
 **Note:** Version bump only for package facio_design_system
