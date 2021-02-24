@@ -1,13 +1,13 @@
 import * as React from "react";
 import type { Meta, Story } from "@storybook/react";
 import { ApproveIcon } from "@components/SvgIcon/ApproveIcon";
-import { CloseIcon } from "./CloseIcon";
+import { CloseIcon } from "@svg-icons/CloseIcon";
+import { ForbiddenIcon } from "@svg-icons/ForbiddenIcon";
+import { ReceivedIcon } from "@svg-icons/ReceivedIcon";
 import { SvgIcon } from "./SvgIcon";
 import { SvgIconProps } from "./SvgIcon.types";
 import { WalletIcon } from "@svg-icons/WalletIcon";
-import { WhatsAppIcon } from "./WhatsAppIcon";
-import ReceivedIcon from "@svg-icons/ReceivedIcon";
-import ForbiddenIcon from "@svg-icons/ForbiddenIcon";
+import { WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
 
 export default {
   component: SvgIcon,
