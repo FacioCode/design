@@ -1,10 +1,8 @@
 import * as React from "react";
+import { SvgIconProps, SvgIconRender } from "./SvgIcon.types";
 import { SvgIcon as MaterialSvgIcon } from "@material-ui/core";
-import { SvgIconProps } from "./SvgIcon.types";
 
-type Render = (props: SvgIconProps, ref: SvgIconProps["ref"]) => JSX.Element;
-
-const render : Render = (props: SvgIconProps, ref) => (
+const render : SvgIconRender = (props: SvgIconProps, ref) => (
   <MaterialSvgIcon
     {...props}
     ref={ref}

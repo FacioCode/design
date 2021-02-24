@@ -1,10 +1,8 @@
 import * as React from "react";
+import { SvgIconProps, SvgIconRender } from "./SvgIcon.types";
 import { SvgIcon } from "./SvgIcon";
-import { SvgIconProps } from "./SvgIcon.types";
 
-type Render = (props: SvgIconProps, ref: SvgIconProps["ref"]) => JSX.Element;
-
-const render : Render = (props, ref) => (
+const render : SvgIconRender = (props, ref) => (
   <SvgIcon {...props} ref={ref}>
     <g id="whatsapp" stroke="none" strokeWidth="1" fill="none" >
       {/* eslint-disable-next-line max-len */}
