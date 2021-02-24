@@ -1,7 +1,7 @@
 ---
 name: facio_design_system
 description: Facio Design System style tokens and UI components for Facio applications built on Flutter.
-version: 6.10.0
+version: 7.0.0
 homepage: https://github.com/FacioCode/design/tree/main/packages/flutter#readme
 repository: https://github.com/FacioCode/design
 issue_tracker: https://github.com/FacioCode/design/issues
