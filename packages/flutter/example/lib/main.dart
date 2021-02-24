@@ -41,10 +41,12 @@ class MyHomePage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
                         Alert(
-                          titleKey: const Key('registration_in_review_hint_card'),
+                          titleKey:
+                              const Key('registration_in_review_hint_card'),
                           icon: FacioSvgIcons.megaphone,
                           title: 'Cadastro em revisão',
-                          subtitle: 'Em breve você terá acesso aos serviços disponíveis para o seu perfil',
+                          subtitle:
+                              'Em breve você terá acesso aos serviços disponíveis para o seu perfil',
                           color: AlertColor.error,
                           variant: AlertVariant.filled,
                         ),
@@ -54,8 +56,10 @@ class MyHomePage extends StatelessWidget {
                               return FacioInputField(
                                   hintText: 'FacioInputField',
                                   inputType: InputType.phone,
-                                  hint:
-                                      snapshot.data != null ? Text(snapshot.data, style: TextStyles.bodyText2) : null);
+                                  hint: snapshot.data != null
+                                      ? Text(snapshot.data,
+                                          style: TextStyles.bodyText2)
+                                      : null);
                             }),
                         SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
@@ -81,14 +85,19 @@ class MyHomePage extends StatelessWidget {
                             color: ContainedButtonColor.warning,
                             onPressed: () => null),
                         SizedBox(height: Sizes.baseSingle),
-                        SmallOutlinedButton(title: 'small/outlined', onPressed: () => null),
+                        SmallOutlinedButton(
+                            title: 'small/outlined', onPressed: () => null),
                         SizedBox(height: Sizes.baseSingle),
-                        SmallLinkButton(title: 'small/link', onPressed: () => null),
+                        SmallLinkButton(
+                            title: 'small/link', onPressed: () => null),
                         SizedBox(height: Sizes.baseSingle),
-                        MediumOutlinedButton(title: 'medium/outlined', onPressed: () => null),
+                        MediumOutlinedButton(
+                            title: 'medium/outlined', onPressed: () => null),
                         SizedBox(height: Sizes.baseSingle),
                         MediumContainedButton(
-                            title: 'medium/contained/brand', color: ContainedButtonColor.brand, onPressed: () => null),
+                            title: 'medium/contained/brand',
+                            color: ContainedButtonColor.brand,
+                            onPressed: () => null),
                         SizedBox(height: Sizes.baseSingle),
                         MediumContainedButton(
                             title: 'medium/contained/danger',
@@ -105,7 +114,8 @@ class MyHomePage extends StatelessWidget {
                             color: ContainedButtonColor.warning,
                             onPressed: () => null),
                         SizedBox(height: Sizes.baseSingle),
-                        MediumLinkButton(title: "medium/link", onPressed: () => null)
+                        MediumLinkButton(
+                            title: "medium/link", onPressed: () => null)
                       ],
                     ),
                   ),
