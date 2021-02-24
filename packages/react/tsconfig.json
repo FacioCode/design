@@ -4,7 +4,7 @@
     "paths": {
       "@components/*": ["./src/*"],
       "@hooks/*": ["./src/hooks/*"],
-      "@icons/*": ["./src/icons/*"]
+      "@svg-icons/*": ["./src/SvgIcon/*"]
     },
     "types": ["@emotion/core"]
   },
