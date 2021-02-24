@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.2.0](https://github.com/FacioCode/design/compare/v7.1.0...v7.2.0) (2021-02-24)
+
+
+### Features
+
+* **react:** add `ApproveIcon` component ([664f3b2](https://github.com/FacioCode/design/commit/664f3b2980d2b4ee45ede239b36152680398b29d))
+* **react:** add `ForbiddenIcon` component ([d3c59b4](https://github.com/FacioCode/design/commit/d3c59b4f9b02e537d105977c237dcc8e2e38b164))
+* **react:** add `ReceivedIcon` component ([bd581d1](https://github.com/FacioCode/design/commit/bd581d1a7d035c62100618e327f90792872ea971))
+* **react:** add `WalletIcon` component ([c0da9e0](https://github.com/FacioCode/design/commit/c0da9e07173dfe1c77fb5110026f1a2d5ab071c6))
+* **react:** make icons importable ([59b88f6](https://github.com/FacioCode/design/commit/59b88f60bf28b0bead06af56f6f5cff71b03a4f6))
+
+
+
+# 7.0.0 (2021-02-24)
+
+
+
+
+
 # [7.1.0](https://github.com/FacioCode/design/compare/v7.0.0...v7.1.0) (2021-02-24)
 
 
