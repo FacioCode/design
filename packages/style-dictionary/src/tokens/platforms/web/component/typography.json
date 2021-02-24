@@ -35,8 +35,8 @@
           "value": "{size.font.headline5.marginTop.value}"
         }
       },
-      "bodyText1": {
-        "marginBottom": { "value": "{size.font.bodyText1.marginBottom.value}" }
+      "bodyText1GutterBottom": {
+        "marginBottom": { "value": "{size.font.bodyText1GutterBottom.marginBottom.value}" }
       },
       "colorError": {
         "color": { "value": "{color.font.error.value}" }

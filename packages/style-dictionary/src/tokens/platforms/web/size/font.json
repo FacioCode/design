@@ -64,7 +64,9 @@
         "lineHeight": {
           "comment": "On web, line height for body text should be 1.5rem",
           "value": "{size.font.base.lineHeight.value}"
-        },
+        }
+      },
+      "bodyText1GutterBottom": {
         "marginBottom": { "value": 1.5 }
       },
       "subtitle": {
