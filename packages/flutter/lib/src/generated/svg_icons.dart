@@ -484,16 +484,16 @@ class FacioSvgIcons {
       package: packageName
   );
 
-  /// Default Coloured Icon For Payed
-  static final payed = SvgPicture.asset(
-      "assets/icons/payed.svg",
+  /// Default Coloured Icon For Paid
+  static final paid = SvgPicture.asset(
+      "assets/icons/paid.svg",
       color: IconStyles.colorDefault,
       package: packageName
   );
 
-  /// Text Secondary Coloured Icon For Payed
-  static final payedColorTextSecondary = SvgPicture.asset(
-      "assets/icons/payed.svg",
+  /// Text Secondary Coloured Icon For Paid
+  static final paidColorTextSecondary = SvgPicture.asset(
+      "assets/icons/paid.svg",
       color: IconStyles.colorTextSecondary,
       package: packageName
   );
