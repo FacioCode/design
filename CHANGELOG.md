@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/FacioCode/design/compare/v6.10.0...v7.0.0) (2021-02-24)
+
+
+### Code Refactoring
+
+* **style-dictionary:** rename bodyText1 token for web platform ([d02bdde](https://github.com/FacioCode/design/commit/d02bddea75fda5e2a62f20ed8ade6559c53e4835))
+* **styles:** rename bodyText1 token ([2b89e6e](https://github.com/FacioCode/design/commit/2b89e6e8b13ba133bfc184126e54cc1ebdba424d))
+
+
+### Features
+
+* **mui-themes:** add support to custom gutter bottom on bodyText1 ([4435f78](https://github.com/FacioCode/design/commit/4435f7828cc667ff23fce7efe6dd2b30a3856aca))
+* **react:** add `FormControlLabel` and `FormGroup` components ([5354e81](https://github.com/FacioCode/design/commit/5354e8176049bb64d76a39a9742a0043380cfe90))
+
+
+### BREAKING CHANGES
+
+* **styles:** `bodyText1` token was renamed to `bodyText1GutterBottom`.
+* **style-dictionary:** `bodyText1` token was renamed to `bodyText1GutterBottom`.
+
+
+
+
+
 # [6.10.0](https://github.com/FacioCode/design/compare/v6.9.1...v6.10.0) (2021-02-22)
 
 

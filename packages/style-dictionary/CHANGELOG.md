@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/FacioCode/design/compare/v6.10.0...v7.0.0) (2021-02-24)
+
+
+### Code Refactoring
+
+* **style-dictionary:** rename bodyText1 token for web platform ([d02bdde](https://github.com/FacioCode/design/commit/d02bddea75fda5e2a62f20ed8ade6559c53e4835))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `bodyText1` token was renamed to `bodyText1GutterBottom`.
+
+
+
+
+
 # [6.10.0](https://github.com/FacioCode/design/compare/v6.9.1...v6.10.0) (2021-02-22)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

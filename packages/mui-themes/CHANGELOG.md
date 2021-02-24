@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/FacioCode/design/compare/v6.10.0...v7.0.0) (2021-02-24)
+
+
+### Features
+
+* **mui-themes:** add support to custom gutter bottom on bodyText1 ([4435f78](https://github.com/FacioCode/design/commit/4435f7828cc667ff23fce7efe6dd2b30a3856aca))
+
+
+
+
+
 # [6.10.0](https://github.com/FacioCode/design/compare/v6.9.1...v6.10.0) (2021-02-22)
 
 

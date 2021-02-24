@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/FacioCode/design/compare/v6.10.0...v7.0.0) (2021-02-24)
+
+
+### Features
+
+* **react:** add `FormControlLabel` and `FormGroup` components ([5354e81](https://github.com/FacioCode/design/commit/5354e8176049bb64d76a39a9742a0043380cfe90))
+
+
+
+
+
 # [6.10.0](https://github.com/FacioCode/design/compare/v6.9.1...v6.10.0) (2021-02-22)
 
 
