@@ -1,10 +1,10 @@
 import * as React from "react";
 import type { Meta, Story } from "@storybook/react";
-import { Tooltip } from "./Tooltip";
-import { TooltipProps } from "./Tooltip.types";
-import { IconButton } from "../IconButton";
-import WhatsAppIcon from "../icons/WhatsAppIcon";
-import CloseIcon from "../icons/CloseIcon";
+import { Tooltip, TooltipProps } from "@components/Tooltip";
+import { ApproveIcon } from "@svg-icons/ApproveIcon";
+import { CloseIcon } from "@svg-icons/CloseIcon";
+import { IconButton } from "@components/IconButton";
+import { WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
 
 export default {
   component: Tooltip,
@@ -16,6 +16,12 @@ const Template : Story<TooltipProps> = (props: TooltipProps) => (
     {props.children}
   </Tooltip>
 );
+
+export const ApproveIconButton = Template.bind({});
+ApproveIconButton.args = {
+  children: <IconButton aria-label={"Aprovar"}><ApproveIcon /></IconButton>,
+  title: "Aprovar",
+};
 
 export const CloseIconButton = Template.bind({});
 CloseIconButton.args = {

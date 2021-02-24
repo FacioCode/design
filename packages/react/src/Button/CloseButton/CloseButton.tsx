@@ -1,6 +1,6 @@
 import * as React from "react";
-import { CloseButtonProps } from "./CloseButton.types";
-import CloseIcon from "@icons/CloseIcon";
+import { CloseButtonProps } from "@components/Button";
+import { CloseIcon } from "@svg-icons/CloseIcon";
 import { IconButton } from "@components/IconButton";
 import { Tooltip } from "@components/Tooltip";
 

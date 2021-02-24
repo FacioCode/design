@@ -1,8 +1,7 @@
 import * as React from "react";
+import { IconButton, IconButtonProps } from "@components/IconButton";
 import { Meta, Story } from "@storybook/react";
-import { IconButton } from "./IconButton";
-import type { IconButtonProps } from "./IconButton.types";
-import { WhatsAppIcon } from "../icons/WhatsAppIcon";
+import { WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
 
 export default {
   component: IconButton,
