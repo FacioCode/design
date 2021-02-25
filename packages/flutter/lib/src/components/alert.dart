@@ -80,8 +80,8 @@ class Alert extends StatelessWidget {
     switch (_color) {
       case AlertColor.error:
         return _variant == AlertVariant.standard
-            ? AlertStyles.standardInfoBackgroundColor // <-- missing
-            : AlertStyles.filledInfoBackgroundColor; // <-- missing
+            ? AlertStyles.standardErrorBackgroundColor
+            : AlertStyles.filledErrorBackgroundColor;
       case AlertColor.info:
         return _variant == AlertVariant.standard
             ? AlertStyles.standardInfoBackgroundColor

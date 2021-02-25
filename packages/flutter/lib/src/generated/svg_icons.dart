@@ -456,6 +456,20 @@ class FacioSvgIcons {
       package: packageName
   );
 
+  /// Default Coloured Icon For Lab
+  static final lab = SvgPicture.asset(
+      "assets/icons/lab.svg",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
+
+  /// Text Secondary Coloured Icon For Lab
+  static final labColorTextSecondary = SvgPicture.asset(
+      "assets/icons/lab.svg",
+      color: IconStyles.colorTextSecondary,
+      package: packageName
+  );
+
   /// Default Coloured Icon For Map
   static final map = SvgPicture.asset(
       "assets/icons/map.svg",
