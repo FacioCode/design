@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.1.0](https://github.com/FacioCode/design/compare/v8.0.0...v8.1.0) (2021-02-25)
+
+
+### Features
+
+* **flutter:** add missing error background color to AlertStyles ([b0d94fc](https://github.com/FacioCode/design/commit/b0d94fc84306fcb79d1b711450113c0ee26bb326))
+* **style-dictionary:** add lab icon ([ae26778](https://github.com/FacioCode/design/commit/ae267787f4c4db38cd25eb37fd7e2fff5a44c1fc))
+
+
+
+# 7.2.0 (2021-02-24)
+
+
+
+
+
 # [8.0.0](https://github.com/FacioCode/design/compare/v7.2.0...v8.0.0) (2021-02-24)
 
 
