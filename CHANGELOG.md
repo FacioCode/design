@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.2.0](https://github.com/FacioCode/design/compare/v8.1.0...v8.2.0) (2021-02-25)
+
+
+### Features
+
+* **flutter:** add button optionally to AlertStyles ([7818aab](https://github.com/FacioCode/design/commit/7818aaba60a8cabeb20a34ef85cfd4bff66638c2))
+
+
+
+
+
 # [8.1.0](https://github.com/FacioCode/design/compare/v8.0.0...v8.1.0) (2021-02-25)
 
 
