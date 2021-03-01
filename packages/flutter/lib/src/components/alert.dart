@@ -63,7 +63,8 @@ class Alert extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(_title, key: _titleKey, style: TextStyles.subtitle1),
-                if (_subtitle != null) Text(_subtitle, style: TextStyles.bodyText2),
+                if (_subtitle != null)
+                  Text(_subtitle, style: TextStyles.bodyText2),
                 if (_buttonTitle != null)
                   Padding(
                     padding: const EdgeInsets.only(top: Sizes.baseSingle),
