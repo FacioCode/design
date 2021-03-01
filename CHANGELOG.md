@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
+
+
+### Bug Fixes
+
+* **flutter:** defaults to Navigator.pop for hardware back button behavior (Android) ([3f68404](https://github.com/FacioCode/design/commit/3f684041e6bf3618666a87d6b7b1dab1094340ea))
+
+
+
+
+
 # [8.2.0](https://github.com/FacioCode/design/compare/v8.1.0...v8.2.0) (2021-02-25)
 
 
