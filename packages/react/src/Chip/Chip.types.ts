@@ -1,9 +1,10 @@
 import type { ChipProps as MaterialChipProps } from "@material-ui/core/Chip";
 
-type OmittedProps = "css" |
+type OmittedProps = |
+  "color" |
+  "css" |
   "disableRipple" |
   "disableTouchRipple" |
   "focusRipple" |
-  "size" |
-  "variant";
+  "size";
 export type ChipProps = Omit<MaterialChipProps, OmittedProps>;
