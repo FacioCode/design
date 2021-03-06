@@ -31,6 +31,7 @@
         "lineHeight": { "value": "{component.typography.caption.lineHeight.value}" },
         "marginBottom": { "value": "{size.base.half.value}" },
         "marginLeft": { "value":  "{size.base.double.value}" },
+        "marginRight": { "value": "{size.base.none.value}" },
         "marginTop": { "value": "{size.base.single.value}" }
       },
       "input": {
