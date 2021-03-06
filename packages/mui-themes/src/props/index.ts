@@ -43,6 +43,7 @@ export const props : ComponentsProps = {
    * MuiChip does not need the MuiButtonBasse override
    */
   MuiChip: {
+    color: "default",
     variant: "outlined",
   },
   MuiDialogContent: {
