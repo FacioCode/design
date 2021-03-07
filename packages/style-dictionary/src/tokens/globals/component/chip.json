@@ -2,9 +2,26 @@
   "component": {
     "chip": {
       "root": {
-        "borderRadius": { "value": "{size.border.radius.double.value}" },
+        "borderRadius": { "value": "{size.base.double.value}" },
         "borderWidth": { "value": "{size.border.width.single.value}" },
-        "height": { "value": "{size.base.quadruple.value}" }
+        "fontFamily": { "value": "{component.typography.button.fontFamily.value}" },
+        "fontSize": { "value": "{component.typography.button.fontSize.value}" },
+        "height": { "value": "{size.base.quadruple.value}" },
+        "outline": { "value": "{size.base.none.value}" }
+      },
+      "contained": {
+        "backgroundColor": { "value": "{color.base.secondary.main.value}" },
+        "borderColor": { "value": "{color.base.secondary.main.value}" },
+        "color": { "value": "{color.font.inverse.value}" }
+      },
+      "outlined": {
+        "backgroundColor": { "value": "{color.base.transparent.00.value}" },
+        "borderColor": { "value": "{color.border.divider.value}" },
+        "color": { "value": "{color.font.primaryHighContrast.value}" }
+      },
+      "outlinedPressed": {
+        "backgroundColor": { "value": "{color.base.transparent.05.value}" },
+        "borderColor": { "value": "{color.border.outlinedButtonPressed.value}" }
       }
     }
   }

@@ -1,0 +1,9 @@
+{
+  "component": {
+    "chip": {
+      "focusVisible": {
+        "boxShadow": { "value": "{shadow.focusVisible.default.value}" }
+      }
+    }
+  }
+}
