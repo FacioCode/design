@@ -40,9 +40,10 @@ export const props : ComponentsProps = {
   },
 
   /**
-   * MuiChip does not need the MuiButtonBasse override
+   * MuiChip does not need the MuiButtonBase override
    */
   MuiChip: {
+    clickable: true,
     color: "default",
     variant: "outlined",
   },
