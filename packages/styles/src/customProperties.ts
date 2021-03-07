@@ -562,9 +562,93 @@ export const chipStyles = {
 
 
     /**
+     * Font Family for Chip Root
+     */
+    fontFamily: "var(--component-chip-root-font-family, Open Sans, sans-serif)",
+
+
+    /**
+     * Font Size for Chip Root
+     */
+    fontSize: "var(--component-chip-root-font-size, 0.875rem)",
+
+
+    /**
      * Height for Chip Root
      */
     height: "var(--component-chip-root-height, 32px)",
+
+
+    /**
+     * Outline for Chip Root
+     */
+    outline: "var(--component-chip-root-outline, 0px)",
+
+  },
+
+  contained: {
+
+    /**
+     * Background Color for Chip Contained
+     */
+    backgroundColor: "var(--component-chip-contained-background-color, #424d5c)",
+
+
+    /**
+     * Border Color for Chip Contained
+     */
+    borderColor: "var(--component-chip-contained-border-color, #424d5c)",
+
+
+    /**
+     * Color for Chip Contained
+     */
+    color: "var(--component-chip-contained-color, #ffffff)",
+
+  },
+
+  outlined: {
+
+    /**
+     * Background Color for Chip Outlined
+     */
+    backgroundColor: "var(--component-chip-outlined-background-color, rgba(255, 255, 255, 0))",
+
+
+    /**
+     * Border Color for Chip Outlined
+     */
+    borderColor: "var(--component-chip-outlined-border-color, #e2e3e4)",
+
+
+    /**
+     * Color for Chip Outlined
+     */
+    color: "var(--component-chip-outlined-color, #303846)",
+
+  },
+
+  outlinedPressed: {
+
+    /**
+     * Background Color for Chip Outlined Pressed
+     */
+    backgroundColor: "var(--component-chip-outlined-pressed-background-color, rgba(16, 22, 21, 0.02))",
+
+
+    /**
+     * Border Color for Chip Outlined Pressed
+     */
+    borderColor: "var(--component-chip-outlined-pressed-border-color, #2bc4a8)",
+
+  },
+
+  focusVisible: {
+
+    /**
+     * Box Shadow for Chip Focus Visible
+     */
+    boxShadow: "var(--component-chip-focus-visible-box-shadow, 0px 0px 0px 3px #53e2fe)",
 
   },
 
@@ -996,6 +1080,12 @@ export const filledInputStyles = {
      * Margin Left for Filled Input Label
      */
     marginLeft: "var(--component-filled-input-label-margin-left, 16px)",
+
+
+    /**
+     * Margin Right for Filled Input Label
+     */
+    marginRight: "var(--component-filled-input-label-margin-right, 0px)",
 
 
     /**
