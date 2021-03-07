@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0](https://github.com/FacioCode/design/compare/v8.2.1...v9.0.0) (2021-03-07)
+
+
+### Features
+
+* **styles:** add style tokens for `Chip` and margin right for input label ([b6e4e59](https://github.com/FacioCode/design/commit/b6e4e59c52cfb61e890d2694d0cd2ee70145b995))
+
+
+
+# 7.2.0 (2021-02-24)
+
+
+
+
+
 ## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
 
 **Note:** Version bump only for package @faciocode/styles

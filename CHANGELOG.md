@@ -3,6 +3,53 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0](https://github.com/FacioCode/design/compare/v8.2.1...v9.0.0) (2021-03-07)
+
+
+### Bug Fixes
+
+* **mui-themes:** make `Chip` clickable by default ([16acd11](https://github.com/FacioCode/design/commit/16acd1165ca563e5c85e8efeaf5f8ef0502615f2))
+* **mui-themes:** remove `gutterBottom` from `MuiAlertTitle` ([e004d6d](https://github.com/FacioCode/design/commit/e004d6d84bfd5b4a69f78dfe8953069fb9882626))
+* **mui-themes:** set default color `MuiChip` ([5544186](https://github.com/FacioCode/design/commit/5544186c33a38b70c0bb7dd9f012f8555699dfce))
+* **react:** make Chip clickable by default, remove css prop ([d6483e1](https://github.com/FacioCode/design/commit/d6483e1ca82b0b12f45d915484191a5279edf24f))
+* **react:** remove `gutterBottom` prop from `AlertTitle` component ([ef63491](https://github.com/FacioCode/design/commit/ef634915fdef748c5244080adcd0b56e27435f8a))
+* **style-dictionary:** set right margin for filled inputs ([5321a40](https://github.com/FacioCode/design/commit/5321a402575db9a3c0a5f81ebfd753d542c3d8e0))
+
+
+### Code Refactoring
+
+* **flutter:** rename `payed` icon to `paid` ([bde2ed1](https://github.com/FacioCode/design/commit/bde2ed162f2587c3b316970fa4c38f2ca3913b85))
+* **react:** rename `PayedIcon` component to `PaidIcon` ([c52efa4](https://github.com/FacioCode/design/commit/c52efa448ae0a2bd5dcac627cd942e392b852194))
+* **style-dictionary:** rename `payed.svg` to `paid.svg` ([593803d](https://github.com/FacioCode/design/commit/593803d0d36af964f4b64f313a91e93c38671802))
+
+
+### Features
+
+* **flutter:** add style tokens for `ChipStyles` ([6062892](https://github.com/FacioCode/design/commit/6062892279bdca1d1845d6ffa72f1b0baa1bb42b))
+* **mui-themes:** add `MuiChip` overrides ([028894a](https://github.com/FacioCode/design/commit/028894af1515d88c70b429c79eb79d31def0204c))
+* **react:** add `Badge` component ([0138155](https://github.com/FacioCode/design/commit/0138155f1a4958115649375f7347a10b548e75ca))
+* **react:** add `PayedIcon` component ([0fae18b](https://github.com/FacioCode/design/commit/0fae18b45674af04185696f894fe3c146179a0c4))
+* **react:** add `WarningIcon` component ([5bcd2ec](https://github.com/FacioCode/design/commit/5bcd2ec02a33a3bef34bb29b24687e973e8bb981))
+* **react:** add support to `variant` prop on `Chip` component ([2c52a10](https://github.com/FacioCode/design/commit/2c52a10e2dc2d068ecad0d630c6cdd0b24e28425))
+* **react:** make `PaidIcon` importable ([bb124cc](https://github.com/FacioCode/design/commit/bb124ccf1201898dc65c70e1b47c90e8789b1e45))
+* **style-dictionary:** add style tokens for chip ([bf4161e](https://github.com/FacioCode/design/commit/bf4161e2ff263f654d49329f49a4e0dd6e4c5144))
+* **styles:** add style tokens for `Chip` and margin right for input label ([b6e4e59](https://github.com/FacioCode/design/commit/b6e4e59c52cfb61e890d2694d0cd2ee70145b995))
+
+
+### BREAKING CHANGES
+
+* **react:** `PayedIcon` component now is `PaidIcon`.
+* **flutter:** `FacioSvgIcons.payed` was renamed to `FacioSvgIcons.paid`
+* **style-dictionary:** `payed.svg` icon was renamed to `paid.svg`
+
+
+
+# 7.2.0 (2021-02-24)
+
+
+
+
+
 ## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
 
 

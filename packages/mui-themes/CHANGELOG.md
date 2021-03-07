@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0](https://github.com/FacioCode/design/compare/v8.2.1...v9.0.0) (2021-03-07)
+
+
+### Bug Fixes
+
+* **mui-themes:** make `Chip` clickable by default ([16acd11](https://github.com/FacioCode/design/commit/16acd1165ca563e5c85e8efeaf5f8ef0502615f2))
+* **mui-themes:** remove `gutterBottom` from `MuiAlertTitle` ([e004d6d](https://github.com/FacioCode/design/commit/e004d6d84bfd5b4a69f78dfe8953069fb9882626))
+* **mui-themes:** set default color `MuiChip` ([5544186](https://github.com/FacioCode/design/commit/5544186c33a38b70c0bb7dd9f012f8555699dfce))
+
+
+### Features
+
+* **mui-themes:** add `MuiChip` overrides ([028894a](https://github.com/FacioCode/design/commit/028894af1515d88c70b429c79eb79d31def0204c))
+
+
+
+# 7.2.0 (2021-02-24)
+
+
+
+
+
 ## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
 
 **Note:** Version bump only for package @faciocode/mui-themes

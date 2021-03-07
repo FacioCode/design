@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0](https://github.com/FacioCode/design/compare/v8.2.1...v9.0.0) (2021-03-07)
+
+
+### Code Refactoring
+
+* **flutter:** rename `payed` icon to `paid` ([bde2ed1](https://github.com/FacioCode/design/commit/bde2ed162f2587c3b316970fa4c38f2ca3913b85))
+
+
+### Features
+
+* **flutter:** add style tokens for `ChipStyles` ([6062892](https://github.com/FacioCode/design/commit/6062892279bdca1d1845d6ffa72f1b0baa1bb42b))
+
+
+### BREAKING CHANGES
+
+* **flutter:** `FacioSvgIcons.payed` was renamed to `FacioSvgIcons.paid`
+
+
+
+# 7.2.0 (2021-02-24)
+
+
+
+
+
 ## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
 
 

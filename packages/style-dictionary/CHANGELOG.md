@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0](https://github.com/FacioCode/design/compare/v8.2.1...v9.0.0) (2021-03-07)
+
+
+### Bug Fixes
+
+* **style-dictionary:** set right margin for filled inputs ([5321a40](https://github.com/FacioCode/design/commit/5321a402575db9a3c0a5f81ebfd753d542c3d8e0))
+
+
+### Code Refactoring
+
+* **style-dictionary:** rename `payed.svg` to `paid.svg` ([593803d](https://github.com/FacioCode/design/commit/593803d0d36af964f4b64f313a91e93c38671802))
+
+
+### Features
+
+* **style-dictionary:** add style tokens for chip ([bf4161e](https://github.com/FacioCode/design/commit/bf4161e2ff263f654d49329f49a4e0dd6e4c5144))
+
+
+### BREAKING CHANGES
+
+* **style-dictionary:** `payed.svg` icon was renamed to `paid.svg`
+
+
+
+# 7.2.0 (2021-02-24)
+
+
+
+
+
 ## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
