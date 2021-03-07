@@ -5,6 +5,7 @@ export {
   AlertTitleProps,
 } from "./Alert";
 export { AppBar, AppBarProps } from "./AppBar";
+export { default as Badge } from "./Badge";
 export { default as BottomSheet, BottomSheetProps } from "./BottomSheet";
 export { ButtonGroup, ButtonGroupProps } from "./Button";
 export {
