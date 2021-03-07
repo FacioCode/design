@@ -3,6 +3,58 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [8.2.0](https://github.com/FacioCode/design/compare/v8.1.0...v8.2.0) (2021-02-25)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [8.1.0](https://github.com/FacioCode/design/compare/v8.0.0...v8.1.0) (2021-02-25)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [8.0.0](https://github.com/FacioCode/design/compare/v7.2.0...v8.0.0) (2021-02-24)
+
+
+### Bug Fixes
+
+* **react:** remove `gutterBottom` prop from `AlertTitle` component ([ef63491](https://github.com/FacioCode/design/commit/ef634915fdef748c5244080adcd0b56e27435f8a))
+
+
+### Code Refactoring
+
+* **react:** rename `PayedIcon` component to `PaidIcon` ([c52efa4](https://github.com/FacioCode/design/commit/c52efa448ae0a2bd5dcac627cd942e392b852194))
+
+
+### Features
+
+* **react:** add `PayedIcon` component ([0fae18b](https://github.com/FacioCode/design/commit/0fae18b45674af04185696f894fe3c146179a0c4))
+* **react:** add `WarningIcon` component ([5bcd2ec](https://github.com/FacioCode/design/commit/5bcd2ec02a33a3bef34bb29b24687e973e8bb981))
+* **react:** make `PaidIcon` importable ([bb124cc](https://github.com/FacioCode/design/commit/bb124ccf1201898dc65c70e1b47c90e8789b1e45))
+
+
+### BREAKING CHANGES
+
+* **react:** `PayedIcon` component now is `PaidIcon`.
+
+
+
+
+
 # [7.2.0](https://github.com/FacioCode/design/compare/v7.1.0...v7.2.0) (2021-02-24)
 
 

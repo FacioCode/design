@@ -91,7 +91,7 @@ class FacioScaffold extends StatelessWidget {
       ),
     );
 
-    if (_hasBackButton && _onBackPressed == null) {
+    if (!_hasBackButton) {
       return canvas;
     } else {
       // Overrides hardware back button behavior (Android)
@@ -99,6 +99,8 @@ class FacioScaffold extends StatelessWidget {
         onWillPop: () {
           if (_onBackPressed != null) {
             _onBackPressed();
+          } else {
+            Navigator.of(context).pop();
           }
           return Future<bool>.value(false);
         },

@@ -3,6 +3,60 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
+
+
+### Bug Fixes
+
+* **flutter:** defaults to Navigator.pop for hardware back button behavior (Android) ([3f68404](https://github.com/FacioCode/design/commit/3f684041e6bf3618666a87d6b7b1dab1094340ea))
+
+
+
+
+
+# [8.2.0](https://github.com/FacioCode/design/compare/v8.1.0...v8.2.0) (2021-02-25)
+
+
+### Features
+
+* **flutter:** add button optionally to AlertStyles ([7818aab](https://github.com/FacioCode/design/commit/7818aaba60a8cabeb20a34ef85cfd4bff66638c2))
+
+
+
+
+
+# [8.1.0](https://github.com/FacioCode/design/compare/v8.0.0...v8.1.0) (2021-02-25)
+
+
+### Features
+
+* **flutter:** add missing error background color to AlertStyles ([b0d94fc](https://github.com/FacioCode/design/commit/b0d94fc84306fcb79d1b711450113c0ee26bb326))
+* **style-dictionary:** add lab icon ([ae26778](https://github.com/FacioCode/design/commit/ae267787f4c4db38cd25eb37fd7e2fff5a44c1fc))
+
+
+
+# 7.2.0 (2021-02-24)
+
+
+
+
+
+# [8.0.0](https://github.com/FacioCode/design/compare/v7.2.0...v8.0.0) (2021-02-24)
+
+
+### Code Refactoring
+
+* **flutter:** rename `payed` icon to `paid` ([bde2ed1](https://github.com/FacioCode/design/commit/bde2ed162f2587c3b316970fa4c38f2ca3913b85))
+
+
+### BREAKING CHANGES
+
+* **flutter:** `FacioSvgIcons.payed` was renamed to `FacioSvgIcons.paid`
+
+
+
+
+
 # [7.2.0](https://github.com/FacioCode/design/compare/v7.1.0...v7.2.0) (2021-02-24)
 
 **Note:** Version bump only for package facio_design_system

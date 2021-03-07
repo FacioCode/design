@@ -17,7 +17,8 @@ class Alert extends StatelessWidget {
     VoidCallback onTap,
     Key key,
     Key titleKey,
-    Widget content,
+    Key buttonKey,
+    String buttonTitle,
   })  : assert(icon != null),
         assert(title != null),
         assert(variant != null),
@@ -28,50 +29,55 @@ class Alert extends StatelessWidget {
         _title = title,
         _subtitle = subtitle,
         _onTap = onTap,
-        _content = content,
         _variant = variant,
-        _color = color;
+        _color = color,
+        _buttonKey = buttonKey,
+        _buttonTitle = buttonTitle;
 
   final Key _key;
   final Key _titleKey;
   final SvgPicture _icon;
   final String _title;
   final String _subtitle;
-  final Widget _content;
   final VoidCallback _onTap;
   final AlertVariant _variant;
   final AlertColor _color;
+  final Key _buttonKey;
+  final String _buttonTitle;
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      child: BaseCard(
-        key: _key,
-        borderColor: Colors.transparent,
-        elevation: 0,
-        color: _backgroundColor,
-        onTap: _onTap,
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            _icon,
-            const SizedBox(width: AlertStyles.iconMarginRight),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(_title, key: _titleKey, style: TextStyles.subtitle1),
-                  if (_subtitle != null)
-                    Text(_subtitle,
-                        maxLines: 2,
-                        overflow: TextOverflow.clip,
-                        style: TextStyles.bodyText2),
-                  if (_content != null) _content
-                ],
-              ),
+    return BaseCard(
+      key: _key,
+      borderColor: Colors.transparent,
+      elevation: 0,
+      color: _backgroundColor,
+      onTap: _onTap,
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          _icon,
+          const SizedBox(width: AlertStyles.iconMarginRight),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(_title, key: _titleKey, style: TextStyles.subtitle1),
+                if (_subtitle != null)
+                  Text(_subtitle, style: TextStyles.bodyText2),
+                if (_buttonTitle != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: Sizes.baseSingle),
+                    child: SmallContainedButton(
+                      title: _buttonTitle,
+                      key: _buttonKey,
+                      color: ContainedButtonColor.colorDefault,
+                    ),
+                  )
+              ],
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
@@ -80,8 +86,8 @@ class Alert extends StatelessWidget {
     switch (_color) {
       case AlertColor.error:
         return _variant == AlertVariant.standard
-            ? AlertStyles.standardInfoBackgroundColor // <-- missing
-            : AlertStyles.filledInfoBackgroundColor; // <-- missing
+            ? AlertStyles.standardErrorBackgroundColor
+            : AlertStyles.filledErrorBackgroundColor;
       case AlertColor.info:
         return _variant == AlertVariant.standard
             ? AlertStyles.standardInfoBackgroundColor

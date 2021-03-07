@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.2.1](https://github.com/FacioCode/design/compare/v8.2.0...v8.2.1) (2021-03-01)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+# [8.2.0](https://github.com/FacioCode/design/compare/v8.1.0...v8.2.0) (2021-02-25)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+# [8.1.0](https://github.com/FacioCode/design/compare/v8.0.0...v8.1.0) (2021-02-25)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+# [8.0.0](https://github.com/FacioCode/design/compare/v7.2.0...v8.0.0) (2021-02-24)
+
+
+### Bug Fixes
+
+* **mui-themes:** remove `gutterBottom` from `MuiAlertTitle` ([e004d6d](https://github.com/FacioCode/design/commit/e004d6d84bfd5b4a69f78dfe8953069fb9882626))
+
+
+
+
+
 # [7.2.0](https://github.com/FacioCode/design/compare/v7.1.0...v7.2.0) (2021-02-24)
 
 **Note:** Version bump only for package @faciocode/mui-themes
