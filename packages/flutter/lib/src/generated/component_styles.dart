@@ -254,13 +254,46 @@ class ChipStyles {
   ChipStyles._();
 
   /// Border Radius for Chip
-  static const borderRadius = 24.00;
+  static const borderRadius = 16.00;
 
   /// Border Width for Chip
   static const borderWidth = 1.00;
 
+  /// Font Family for Chip
+  static const fontFamily = "Open Sans";
+
+  /// Font Size for Chip
+  static const fontSize = 14.00;
+
   /// Height for Chip
   static const height = 32.00;
+
+  /// Outline for Chip
+  static const outline = 0.00;
+
+  /// Background Color for Contained
+  static const containedBackgroundColor = const Color(0xFF424D5C);
+
+  /// Border Color for Contained
+  static const containedBorderColor = Color(0xFF424D5C);
+
+  /// Color for Contained
+  static const containedColor = const Color(0xFFFFFFFF);
+
+  /// Background Color for Outlined
+  static const outlinedBackgroundColor = const Color(0x00FFFFFF);
+
+  /// Border Color for Outlined
+  static const outlinedBorderColor = Color(0xFFE2E3E4);
+
+  /// Color for Outlined
+  static const outlinedColor = const Color(0xFF303846);
+
+  /// Background Color for Outlined Pressed
+  static const outlinedPressedBackgroundColor = const Color(0x05101615);
+
+  /// Border Color for Outlined Pressed
+  static const outlinedPressedBorderColor = Color(0xFF2BC4A8);
 }
 
 class CircularProgressStyles {
@@ -443,6 +476,9 @@ class FilledInputStyles {
 
   /// Margin Left for Label
   static const labelMarginLeft = 16.00;
+
+  /// Margin Right for Label
+  static const labelMarginRight = 0.00;
 
   /// Margin Top for Label
   static const labelMarginTop = 8.00;
