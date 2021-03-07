@@ -47,7 +47,25 @@ export const overrides : ThemeOptions["overrides"] = {
     },
   },
   MuiChip: {
-    root: customProperties.chipStyles.root,
+    root: {
+      ...customProperties.chipStyles.root,
+      ...customProperties.chipStyles.contained,
+    },
+    clickable: {
+      "&:focus-visible": {
+        ...customProperties.chipStyles.focusVisible,
+        ...customProperties.chipStyles.contained,
+      },
+      "&:hover, &:focus": customProperties.chipStyles.contained,
+    },
+    outlined: {
+      ...customProperties.chipStyles.outlined,
+      "$clickable&:active": customProperties.chipStyles.outlinedPressed,
+      "&:focus-visible": {
+        ...customProperties.chipStyles.outlined,
+      },
+      "&:hover, &:focus": customProperties.chipStyles.outlined,
+    },
   },
   MuiContainer: {
     root: {
