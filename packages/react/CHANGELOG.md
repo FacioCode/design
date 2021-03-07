@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.1](https://github.com/FacioCode/design/compare/v9.0.0...v9.0.1) (2021-03-07)
+
+
+### Bug Fixes
+
+* **react:** make `Badge` component importable ([c795d38](https://github.com/FacioCode/design/commit/c795d3871d8070d324dd9883f21b8f76ff93226b))
+
+
+
+
+
 # [9.0.0](https://github.com/FacioCode/design/compare/v8.2.1...v9.0.0) (2021-03-07)
 
 
