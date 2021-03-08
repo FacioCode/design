@@ -57,7 +57,7 @@
     "postinstall": "npm run bootstrap",
     "pretest": "npm run build",
     "preversion": "npm run test",
-    "reinstall": "npx rimraf package-lock.json packages/*/package-lock.json node_modules packages/*/node_modules && npm install",
+    "reinstall": "npx rimraf package-lock.json packages/*/package-lock.json node_modules packages/*/node_modules && npm install --legacy-peer-deps",
     "test": "jest --passWithNoTests"
   },
   "repository": {
