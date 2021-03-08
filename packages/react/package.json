@@ -60,7 +60,7 @@
 		"@material-ui/core": "deprecations",
 		"@material-ui/lab": "4.0.0-alpha.57",
 		"clsx": "1.1.1",
-		"lodash": "4.17.20"
+		"lodash": "4.17.21"
 	},
 	"scripts": {
 		"build": "npm run clean && npm run compile",
