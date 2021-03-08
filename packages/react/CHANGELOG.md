@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.2](https://github.com/FacioCode/design/compare/v9.0.1...v9.0.2) (2021-03-08)
+
+
+### Bug Fixes
+
+* **mui-themes:** update package lock file ([7f57ee2](https://github.com/FacioCode/design/commit/7f57ee24a7e1fcc11ac9273e9366a00c7c011a79))
+
+
+
+
+
 ## [9.0.1](https://github.com/FacioCode/design/compare/v9.0.0...v9.0.1) (2021-03-07)
 
 
