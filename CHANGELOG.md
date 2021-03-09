@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.1.0](https://github.com/FacioCode/design/compare/v9.0.2...v9.1.0) (2021-03-09)
+
+
+### Features
+
+* **react:** add `Drawer` component ([327a410](https://github.com/FacioCode/design/commit/327a410ee77bf5e891257ecdd4ccf27672b60cd3))
+
+
+
+
+
 ## [9.0.2](https://github.com/FacioCode/design/compare/v9.0.1...v9.0.2) (2021-03-08)
 
 
