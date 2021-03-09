@@ -37,6 +37,7 @@ export {
   DialogTitleProps,
 } from "./Dialog";
 export { Divider, DividerProps } from "./Divider";
+export { Drawer, DrawerProps } from "./Drawer";
 export { default as FormControlLabel, FormControlLabelProps } from "./FormControlLabel";
 export { default as FormLabel, FormLabelProps } from "./FormLabel";
 export { default as FormGroup, FormGroupProps } from "./FormGroup";
