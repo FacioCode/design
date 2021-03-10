@@ -125,7 +125,9 @@ class SwipeButtonState extends State<SwipeButton>
     final pos = _container.globalToLocal(details.globalPosition) - _start;
     final extent = _container.size.width - _positioned.size.width;
     _controller.value = pos.dx.clamp(0.0, extent) / extent;
-    widget.onProgressChanged(_controller.value);
+    if (widget.onProgressChanged != null) {
+      widget.onProgressChanged(_controller.value);
+    }
   }
 
   void _onDragEnd(DragEndDetails details) {
