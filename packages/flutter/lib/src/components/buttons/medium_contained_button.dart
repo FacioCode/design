@@ -34,13 +34,9 @@ class MediumContainedButton extends StatelessWidget {
           color: _color.backgroundColor,
           borderRadius: BorderRadius.circular(Sizes.baseSingle),
         ),
-        child: FlatButton(
+        child: TextButton(
           key: _key,
           onPressed: _isEnabled ? _onPressed : null,
-          highlightColor: _color.pressedBackgroundColor,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(Sizes.baseSingle),
-          ),
           child: Text(
             _title,
             textAlign: TextAlign.center,

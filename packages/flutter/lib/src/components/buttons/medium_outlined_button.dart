@@ -25,27 +25,21 @@ class MediumOutlinedButton extends StatelessWidget {
     return Container(
       height: Sizes.baseSixfold,
       width: ButtonStyles.maxWidth,
-      child: OutlineButton(
+      child: OutlinedButton(
         key: _key,
         onPressed: _isEnabled ? _onPressed : null,
-        borderSide: const BorderSide(
-          color: OutlinedButtonStyles.defaultBorderColor,
-          width: OutlinedButtonStyles.borderWidth,
-        ),
-        splashColor: Colors.transparent,
-        highlightColor: Colors.transparent,
-        highlightedBorderColor: OutlinedButtonStyles.pressedBorderColor,
-        shape: RoundedRectangleBorder(
-          borderRadius:
-              BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
+        style: OutlinedButton.styleFrom(
+          primary: Colors.black87,
+          minimumSize: Size(88, 36),
+          padding: EdgeInsets.symmetric(horizontal: 16),
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(2)),
+          ),
         ),
         child: Text(
           _title,
           textAlign: TextAlign.center,
-          style: _isEnabled
-              ? TextStyles.button
-              : TextStyles.button
-                  .copyWith(color: OutlinedButtonStyles.disabledColor),
+          style: _isEnabled ? TextStyles.button : TextStyles.button.copyWith(color: OutlinedButtonStyles.disabledColor),
         ),
       ),
     );

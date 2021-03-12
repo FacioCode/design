@@ -9,18 +9,18 @@ documentation: https://github.com/FacioCode/design/tree/main/packages/flutter#re
 
 environment:
   sdk: ">=2.10.4 <3.0.0"
-  flutter: ">=1.22.5 <2.0.0"
+  flutter: ">=2.0.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^0.19.1
-  intl: ^0.16.1
+  flutter_svg: ^0.21.0-nullsafety.0
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pedantic: ^1.9.2
+  pedantic: ^1.11.0
 
 flutter:
   assets:

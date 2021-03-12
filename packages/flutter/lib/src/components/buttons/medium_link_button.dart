@@ -23,22 +23,21 @@ class MediumLinkButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
-      key: _key,
-      onPressed: _isEnabled ? _onPressed : null,
-      highlightColor: Colors.transparent,
-      height: ButtonStyles.sizeMediumHeight,
-      shape: RoundedRectangleBorder(
-        borderRadius:
-            BorderRadius.circular(ButtonStyles.sizeMediumBorderRadius),
-      ),
-      minWidth: ButtonStyles.maxWidth,
-      child: Text(
-        _title,
-        style: _isEnabled
-            ? TextStyles.button.copyWith(color: LinkButtonStyles.defaultColor)
-            : TextStyles.button.copyWith(color: LinkButtonStyles.disabledColor),
-      ),
-    );
+    return Container(
+        height: Sizes.baseSixfold,
+        width: ButtonStyles.maxWidth,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(Sizes.baseSingle),
+        ),
+        child: TextButton(
+          key: _key,
+          onPressed: _isEnabled ? _onPressed : null,
+          child: Text(
+            _title,
+            style: _isEnabled
+                ? TextStyles.button.copyWith(color: LinkButtonStyles.defaultColor)
+                : TextStyles.button.copyWith(color: LinkButtonStyles.disabledColor),
+          ),
+        ));
   }
 }

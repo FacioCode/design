@@ -44,7 +44,6 @@ class FacioDateField extends StatelessWidget {
       ],
       textInputAction: TextInputAction.next,
       keyboardType: TextInputType.datetime,
-      maxLengthEnforced: true,
       maxLength: _maxLength,
       maxLines: 1,
       decoration: const InputDecoration(
@@ -58,8 +57,7 @@ class FacioDateField extends StatelessWidget {
         counterStyle: TextStyle(
           height: double.minPositive,
         ),
-        contentPadding:
-            EdgeInsets.only(left: 15, bottom: 11, top: 11, right: 15),
+        contentPadding: EdgeInsets.only(left: 15, bottom: 11, top: 11, right: 15),
       ),
       textAlign: TextAlign.center,
       style: TextStyles.bodyText1.copyWith(height: 1.25, fontSize: 22.0),

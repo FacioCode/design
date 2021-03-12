@@ -33,20 +33,12 @@ class SmallContainedButton extends StatelessWidget {
         height: ButtonStyles.sizeSmallHeight,
         decoration: BoxDecoration(
           color: _color.backgroundColor,
-          borderRadius:
-              BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
+          borderRadius: BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
         ),
-        child: FlatButton(
+        child: TextButton(
           key: _key,
           onPressed: _isEnabled ? _onPressed : null,
-          highlightColor: _color.pressedBackgroundColor,
-          shape: RoundedRectangleBorder(
-            borderRadius:
-                BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
-          ),
-          child: Text(_title,
-              textAlign: TextAlign.center,
-              style: TextStyles.button.copyWith(color: _color.fontColor)),
+          child: Text(_title, textAlign: TextAlign.center, style: TextStyles.button.copyWith(color: _color.fontColor)),
         ),
       ),
     );

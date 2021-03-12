@@ -2,40 +2,60 @@
   "size": {
     "font": {
       "base": {
-        "fontSize": { "value": 17 },
-        "letterSpacing": { "value": -0.43 },
-        "lineHeight": { "value": "{size.base.triple.value}" }
+        "fontSize": {
+          "value": 17
+        },
+        "letterSpacing": {
+          "value": -0.43
+        },
+        "lineHeight": {
+          "value": "{size.base.triple.value}"
+        }
       },
       "headline1": {
         "fontSize": {
           "comment": "Headline1 font size",
           "value": 34
         },
-        "letterSpacing": { "value": -0.5 },
+        "letterSpacing": {
+          "value": -0.5
+        },
         "lineHeight": {
           "comment": "Line height is 40. Font size is 34. 40/34",
           "value": 1.17647058824
         }
       },
       "headline2": {
-        "fontSize": { "value": 28 },
-        "letterSpacing": { "value": -0.38 },
+        "fontSize": {
+          "value": 28
+        },
+        "letterSpacing": {
+          "value": -0.38
+        },
         "lineHeight": {
           "comment": "Line height is 40. Font size is 28. 40/34",
           "value": 1.42857142857
         }
       },
       "headline3": {
-        "fontSize": { "value": 22 },
-        "letterSpacing": { "value": -0.26 },
+        "fontSize": {
+          "value": 22
+        },
+        "letterSpacing": {
+          "value": -0.26
+        },
         "lineHeight": {
           "comment": "Line height is 32. Font size is 22. 40/34 = 1.45454545455",
           "value": 1.45454545455
         }
       },
       "headline4": {
-        "fontSize": { "value": 20 },
-        "letterSpacing": { "value": -0.45 },
+        "fontSize": {
+          "value": 20
+        },
+        "letterSpacing": {
+          "value": -0.45
+        },
         "lineHeight": {
           "comment": "Line height is 24. Font size is 20. 24/20 = 1.2",
           "value": 1.2
@@ -43,8 +63,12 @@
       },
       "headline5": {
         "comment": "Inspired by iOS, equivalent to Material subtitle1",
-        "fontSize": { "value": 17 },
-        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
+        "fontSize": {
+          "value": 17
+        },
+        "letterSpacing": {
+          "value": "{size.font.base.letterSpacing.value}"
+        },
         "lineHeight": {
           "comment": "Line height is 24. Font size is 17. 24/20 = 1.41176470588",
           "value": 1.41176470588
@@ -52,8 +76,12 @@
       },
       "bodyText1": {
         "comment": "Inspired by iOS. Maps to Flutter body1.",
-        "fontSize": { "value": 17 },
-        "letterSpacing": { "value": "{size.font.base.letterSpacing.value}" },
+        "fontSize": {
+          "value": 17
+        },
+        "letterSpacing": {
+          "value": "{size.font.base.letterSpacing.value}"
+        },
         "lineHeight": {
           "comment": "Line height is 24. Font size is 17. 24/20 = 1.41176470588",
           "value": 1.41176470588
@@ -61,8 +89,12 @@
       },
       "subtitle": {
         "comment": "Inspired by iOS, equivalent to Material subtitle2.",
-        "fontSize": { "value": 15 },
-        "letterSpacing": { "value": -0.23 },
+        "fontSize": {
+          "value": 15
+        },
+        "letterSpacing": {
+          "value": -0.23
+        },
         "lineHeight": {
           "comment": "Line height is 24. Font size is 15. 24/20 = 1.6",
           "value": 1.6
@@ -70,13 +102,21 @@
       },
       "button": {
         "comment": "Used for text on ElevatedButton, TextButton and OutlinedButton",
-        "fontSize": { "value": 14 },
-        "letterSpacing": { "value": -0.15 }
+        "fontSize": {
+          "value": 14
+        },
+        "letterSpacing": {
+          "value": -0.15
+        }
       },
       "bodyText2": {
         "comment": "Inspired by iOS. Default text style for Material.",
-        "fontSize": { "value": 14 },
-        "letterSpacing": { "value": -0.15 },
+        "fontSize": {
+          "value": 14
+        },
+        "letterSpacing": {
+          "value": -0.15
+        },
         "lineHeight": {
           "comment": "Line height is 24. Font size is 14. 24/14 = 1.71428571429",
           "value": 1.71428571429
@@ -84,15 +124,21 @@
       },
       "caption": {
         "comment": "Inspired by Material.",
-        "fontSize": { "value": 12 },
-        "letterSpacing": { "value": 0 },
+        "fontSize": {
+          "value": 12
+        },
+        "letterSpacing": {
+          "value": 0
+        },
         "lineHeight": {
           "comment": "Line height is 16. Font size is 12. 16/12 = 1.33333333333",
           "value": 1.33333333333
         }
       },
       "inputLarge": {
-        "fontSize": { "value": "{size.font.headline2.fontSize.value}" }
+        "fontSize": {
+          "value": "{size.font.headline2.fontSize.value}"
+        }
       }
     }
   }
