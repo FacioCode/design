@@ -5,16 +5,13 @@ import 'package:flutter/widgets.dart';
 
 class FacioDateField extends StatelessWidget {
   const FacioDateField({
-    final Key key,
-    @required final TextEditingController controller,
-    @required final void Function(String) onChanged,
-    final int maxLength,
+    final Key? key,
+    required final TextEditingController controller,
+    required final void Function(String) onChanged,
+    final int? maxLength,
     final bool autofocus = false,
-    final FocusNode focusNode,
-  })  : assert(controller != null),
-        assert(onChanged != null),
-        assert(autofocus != null),
-        _key = key,
+    final FocusNode? focusNode,
+  })  : _key = key,
         _autofocus = autofocus,
         _controller = controller,
         _focusNode = focusNode,
@@ -22,12 +19,12 @@ class FacioDateField extends StatelessWidget {
         _onChanged = onChanged,
         super();
 
-  final Key _key;
+  final Key? _key;
   final TextEditingController _controller;
   final void Function(String) _onChanged;
-  final int _maxLength;
+  final int? _maxLength;
   final bool _autofocus;
-  final FocusNode _focusNode;
+  final FocusNode? _focusNode;
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +54,8 @@ class FacioDateField extends StatelessWidget {
         counterStyle: TextStyle(
           height: double.minPositive,
         ),
-        contentPadding: EdgeInsets.only(left: 15, bottom: 11, top: 11, right: 15),
+        contentPadding:
+            EdgeInsets.only(left: 15, bottom: 11, top: 11, right: 15),
       ),
       textAlign: TextAlign.center,
       style: TextStyles.bodyText1.copyWith(height: 1.25, fontSize: 22.0),

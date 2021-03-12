@@ -6,24 +6,23 @@ typedef OnProgressChanged = void Function(double);
 
 class SwipeButton extends StatefulWidget {
   const SwipeButton({
-    Key key,
+    Key? key,
     this.thumb,
     this.content,
     this.borderRadius = BorderRadius.zero,
     this.initialPosition = SwipePosition.swipeLeft,
-    @required this.onChanged,
+    required this.onChanged,
     this.onProgressChanged,
     this.height = 56.0,
-  })  : assert(initialPosition != null && onChanged != null && height != null),
-        super(key: key);
+  }) : super(key: key);
 
-  final Widget thumb;
-  final Widget content;
+  final Widget? thumb;
+  final Widget? content;
   final BorderRadius borderRadius;
   final double height;
   final SwipePosition initialPosition;
-  final ValueChanged<SwipePosition> onChanged;
-  final OnProgressChanged onProgressChanged;
+  final ValueChanged<SwipePosition>? onChanged;
+  final OnProgressChanged? onProgressChanged;
 
   @override
   State<SwipeButton> createState() => SwipeButtonState();
@@ -34,24 +33,24 @@ class SwipeButtonState extends State<SwipeButton>
   final GlobalKey _containerKey = GlobalKey();
   final GlobalKey _positionedKey = GlobalKey();
 
-  AnimationController _controller;
-  Animation<double> _contentAnimation;
+  AnimationController? _controller;
+  late Animation<double> _contentAnimation;
   Offset _start = Offset.zero;
 
-  RenderBox get _positioned =>
-      _positionedKey.currentContext.findRenderObject() as RenderBox;
+  RenderBox? get _positioned =>
+      _positionedKey.currentContext!.findRenderObject() as RenderBox?;
 
-  RenderBox get _container =>
-      _containerKey.currentContext.findRenderObject() as RenderBox;
+  RenderBox? get _container =>
+      _containerKey.currentContext!.findRenderObject() as RenderBox?;
 
   @override
   void initState() {
     super.initState();
     _controller = AnimationController.unbounded(vsync: this);
     _contentAnimation = Tween<double>(begin: 1.0, end: 0.0)
-        .animate(CurvedAnimation(parent: _controller, curve: Curves.easeOut));
+        .animate(CurvedAnimation(parent: _controller!, curve: Curves.easeOut));
     if (widget.initialPosition == SwipePosition.swipeRight) {
-      _controller.value = 1.0;
+      _controller!.value = 1.0;
     }
   }
 
@@ -84,12 +83,12 @@ class SwipeButtonState extends State<SwipeButton>
             ),
           ),
           AnimatedBuilder(
-            animation: _controller,
-            builder: (BuildContext context, Widget child) {
+            animation: _controller!,
+            builder: (BuildContext context, Widget? child) {
               return Padding(
                 padding: const EdgeInsets.all(4.0),
                 child: Align(
-                  alignment: Alignment((_controller.value * 2.0) - 1.0, 0.0),
+                  alignment: Alignment((_controller!.value * 2.0) - 1.0, 0.0),
                   child: child,
                 ),
               );
@@ -116,29 +115,29 @@ class SwipeButtonState extends State<SwipeButton>
   }
 
   void _onDragStart(DragStartDetails details) {
-    final pos = _positioned.globalToLocal(details.globalPosition);
+    final pos = _positioned!.globalToLocal(details.globalPosition);
     _start = Offset(pos.dx, 0.0);
-    _controller.stop(canceled: true);
+    _controller!.stop(canceled: true);
   }
 
   void _onDragUpdate(DragUpdateDetails details) {
-    final pos = _container.globalToLocal(details.globalPosition) - _start;
-    final extent = _container.size.width - _positioned.size.width;
-    _controller.value = pos.dx.clamp(0.0, extent) / extent;
+    final pos = _container!.globalToLocal(details.globalPosition) - _start;
+    final extent = _container!.size.width - _positioned!.size.width;
+    _controller!.value = pos.dx.clamp(0.0, extent) / extent;
     if (widget.onProgressChanged != null) {
-      widget.onProgressChanged(_controller.value);
+      widget.onProgressChanged!(_controller!.value);
     }
   }
 
   void _onDragEnd(DragEndDetails details) {
-    final extent = _container.size.width - _positioned.size.width;
-    var fractionalVelocity = (details.primaryVelocity / extent).abs();
+    final extent = _container!.size.width - _positioned!.size.width;
+    var fractionalVelocity = (details.primaryVelocity! / extent).abs();
     if (fractionalVelocity < 1.0) {
       fractionalVelocity = 1.0;
     }
     SwipePosition result;
     double acceleration, velocity;
-    if (_controller.value >= 0.99) {
+    if (_controller!.value >= 0.99) {
       acceleration = 0.5;
       velocity = fractionalVelocity;
       result = SwipePosition.swipeRight;
@@ -149,20 +148,20 @@ class SwipeButtonState extends State<SwipeButton>
     }
     final simulation = _SwipeSimulation(
       acceleration,
-      _controller.value,
+      _controller!.value,
       1.0,
       velocity,
     );
-    _controller.animateWith(simulation).then<void>((_) {
+    _controller!.animateWith(simulation).then<void>((_) {
       if (widget.onChanged != null) {
-        widget.onChanged(result);
+        widget.onChanged!(result);
       }
     });
   }
 
   @override
   void dispose() {
-    _controller.dispose();
+    _controller!.dispose();
     super.dispose();
   }
 }
@@ -178,7 +177,7 @@ class _SwipeSimulation extends GravitySimulation {
       : super(acceleration, distance, endDistance, velocity);
 
   @override
-  double x(double time) => super.x(time).clamp(0.0, 1.0) as double;
+  double x(double time) => super.x(time).clamp(0.0, 1.0);
 
   @override
   bool isDone(double time) {
@@ -189,19 +188,18 @@ class _SwipeSimulation extends GravitySimulation {
 
 class _SwipeButtonClipper extends CustomClipper<RRect> {
   const _SwipeButtonClipper({
-    @required this.animation,
-    @required this.borderRadius,
-  })  : assert(animation != null && borderRadius != null),
-        super(reclip: animation);
+    required this.animation,
+    required this.borderRadius,
+  }) : super(reclip: animation);
 
-  final Animation<double> animation;
+  final Animation<double>? animation;
   final BorderRadius borderRadius;
 
   @override
   RRect getClip(Size size) {
     return borderRadius.toRRect(
       Rect.fromLTRB(
-        size.width * animation.value,
+        size.width * animation!.value,
         0.0,
         size.width,
         size.height,

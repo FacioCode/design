@@ -9,13 +9,6 @@
             "type": "dart"
         },
         {
-            "type": "Flutter DS Web",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
             "type": "chrome",
             "request": "launch",
             "name": "Storybook Debug",

@@ -4,21 +4,19 @@ import 'package:flutter/widgets.dart';
 
 class MediumOutlinedButton extends StatelessWidget {
   const MediumOutlinedButton({
-    final Key key,
-    @required final String title,
-    final VoidCallback onPressed,
+    final Key? key,
+    required final String title,
+    final VoidCallback? onPressed,
     final bool isEnabled = true,
-  })  : assert(title != null),
-        assert(isEnabled != null),
-        _isEnabled = isEnabled,
+  })  : _isEnabled = isEnabled,
         _key = key,
         _title = title,
         _onPressed = onPressed;
 
-  final Key _key;
+  final Key? _key;
   final bool _isEnabled;
   final String _title;
-  final VoidCallback _onPressed;
+  final VoidCallback? _onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +37,10 @@ class MediumOutlinedButton extends StatelessWidget {
         child: Text(
           _title,
           textAlign: TextAlign.center,
-          style: _isEnabled ? TextStyles.button : TextStyles.button.copyWith(color: OutlinedButtonStyles.disabledColor),
+          style: _isEnabled
+              ? TextStyles.button
+              : TextStyles.button
+                  .copyWith(color: OutlinedButtonStyles.disabledColor),
         ),
       ),
     );

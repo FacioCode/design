@@ -11,13 +11,13 @@ enum VideoThumbTextSize { large, medium }
 /// the maximum space as possible within its parent.
 class VideoThumb extends StatelessWidget {
   const VideoThumb(
-      {@required VideoThumbTextSize textSize,
-      @required String title,
-      @required String lengthText,
-      @required String thumbUrl,
-      @required bool shouldShowPlayButton,
-      @required void Function() onTap,
-      Key key})
+      {required VideoThumbTextSize textSize,
+      required String title,
+      required String lengthText,
+      required String thumbUrl,
+      required bool shouldShowPlayButton,
+      required void Function() onTap,
+      Key? key})
       : _textSize = textSize,
         _title = title,
         _lengthText = lengthText,
@@ -49,7 +49,7 @@ class VideoThumb extends StatelessWidget {
                     child: Image.network(
                       _thumbUrl,
                       errorBuilder: (BuildContext context, Object exception,
-                          StackTrace stackTrace) {
+                          StackTrace? stackTrace) {
                         return Container();
                       },
                       fit: BoxFit.cover,
@@ -69,33 +69,32 @@ class VideoThumb extends StatelessWidget {
                         _title,
                         style: (_textSize == VideoThumbTextSize.large
                                 ? Theme.of(context).textTheme.headline5
-                                : Theme.of(context).textTheme.bodyText1)
+                                : Theme.of(context).textTheme.bodyText1)!
                             .copyWith(
                                 color: Colors.white,
                                 height: 1.2,
                                 fontWeight: FontWeight.bold),
                       ),
                     ),
-                    if (_lengthText != null)
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(16),
-                        child: Opacity(
-                          opacity: 0.3,
-                          child: Container(
-                            color: Colors.black,
-                            padding: const EdgeInsets.fromLTRB(12, 1, 12, 1),
-                            child: Text(
-                              _lengthText,
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .bodyText1
-                                  .copyWith(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold),
-                            ),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(16),
+                      child: Opacity(
+                        opacity: 0.3,
+                        child: Container(
+                          color: Colors.black,
+                          padding: const EdgeInsets.fromLTRB(12, 1, 12, 1),
+                          child: Text(
+                            _lengthText,
+                            style: Theme.of(context)
+                                .textTheme
+                                .bodyText1!
+                                .copyWith(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
                           ),
                         ),
                       ),
+                    ),
                   ],
                 ),
               ),

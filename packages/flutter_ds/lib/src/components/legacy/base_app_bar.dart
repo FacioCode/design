@@ -10,25 +10,25 @@ class BaseAppBarButton {
     this.iconData,
     this.title,
     this.key,
-    @required this.onPressed,
+    required this.onPressed,
   }) : assert(iconData != null || title != null);
 
-  final IconData iconData;
-  final String title;
+  final IconData? iconData;
+  final String? title;
   final VoidCallback onPressed;
-  final Key key;
+  final Key? key;
 }
 
 class BaseAppBar extends AppBar {
   BaseAppBar(
     final BuildContext context, {
-    final Key key,
+    final Key? key,
     final String title = '',
     final bool logo = false,
     final bool centerTitle = true,
     final bool hasBackButton = true,
-    final VoidCallback onBackPressed,
-    final BaseAppBarButton rightBarButton,
+    final VoidCallback? onBackPressed,
+    final BaseAppBarButton? rightBarButton,
     final Color backgroundColor = Colors.transparent,
   }) : super(
           backgroundColor: backgroundColor,
@@ -57,7 +57,7 @@ class BaseAppBar extends AppBar {
 
   static List<Widget> _actionsFromBarButton(
     final BuildContext context,
-    final BaseAppBarButton barButton,
+    final BaseAppBarButton? barButton,
   ) {
     final actions = <Widget>[];
     if (barButton != null) {
@@ -71,7 +71,7 @@ class BaseAppBar extends AppBar {
       } else {
         actions.add(SmallLinkButton(
             onPressed: barButton.onPressed,
-            title: barButton.title,
+            title: barButton.title!,
             key: barButton.key));
       }
     }

@@ -10,20 +10,19 @@ enum InputType { currency, cpf, phone, personName }
 
 class FacioInputField extends StatelessWidget {
   const FacioInputField({
-    final Key key,
-    final String hintText,
-    final FocusNode focusNode,
+    final Key? key,
+    final String? hintText,
+    final FocusNode? focusNode,
     final bool autofocus = false,
     final bool capitalize = false,
-    final TextEditingController controller,
-    final List<TextInputFormatter> inputFormatters,
-    final TextInputType keyboardType,
-    final void Function(String) onChanged,
-    final InputType inputType,
-    final String label,
-    final Widget hint,
-  })  : assert(autofocus != null),
-        _key = key,
+    final TextEditingController? controller,
+    final List<TextInputFormatter>? inputFormatters,
+    final TextInputType? keyboardType,
+    final void Function(String)? onChanged,
+    final InputType? inputType,
+    final String? label,
+    final Widget? hint,
+  })  : _key = key,
         _autofocus = autofocus,
         _controller = controller,
         _focusNode = focusNode,
@@ -37,20 +36,20 @@ class FacioInputField extends StatelessWidget {
         _hint = hint,
         super();
 
-  final Key _key;
+  final Key? _key;
   final bool _autofocus;
-  final TextEditingController _controller;
-  final void Function(String) _onChanged;
-  final String _hintText;
-  final FocusNode _focusNode;
+  final TextEditingController? _controller;
+  final void Function(String)? _onChanged;
+  final String? _hintText;
+  final FocusNode? _focusNode;
   final bool _capitalize;
-  final List<TextInputFormatter> _inputFormatters;
-  final TextInputType _keyboardType;
-  final InputType _inputType;
-  final String _label;
-  final Widget _hint;
+  final List<TextInputFormatter>? _inputFormatters;
+  final TextInputType? _keyboardType;
+  final InputType? _inputType;
+  final String? _label;
+  final Widget? _hint;
 
-  bool get _hasHint => _hintText != null && _hintText.isNotEmpty;
+  bool get _hasHint => _hintText != null && _hintText!.isNotEmpty;
 
   @override
   Widget build(BuildContext context) {
@@ -61,7 +60,7 @@ class FacioInputField extends StatelessWidget {
             padding: const EdgeInsets.only(bottom: 8.0),
             child: Align(
                 alignment: Alignment.centerLeft,
-                child: Text(_label, style: TextStyles.subtitle1)),
+                child: Text(_label!, style: TextStyles.subtitle1)),
           ),
         Container(
           height: Sizes.baseEightfold,
@@ -83,7 +82,7 @@ class FacioInputField extends StatelessWidget {
               inputFormatters: [
                 FilteringTextInputFormatter.singleLineFormatter,
                 FilteringTextInputFormatter.deny(TextInputMask.emojis),
-                if (_inputFormatters != null) ..._inputFormatters,
+                if (_inputFormatters != null) ..._inputFormatters!,
                 if (_inputType == InputType.personName)
                   FilteringTextInputFormatter.deny(TextInputMask.numbers),
                 if (_inputType == InputType.personName)
@@ -144,14 +143,13 @@ class FacioInputField extends StatelessWidget {
 
   TextInputType keyboardType() {
     if (_keyboardType != null) {
-      return _keyboardType;
+      return _keyboardType!;
     } else {
       switch (_inputType) {
         case InputType.cpf:
         case InputType.phone:
         case InputType.currency:
           return TextInputType.number;
-          break;
         case InputType.personName:
         default:
           return TextInputType.name;
