@@ -3,7 +3,7 @@ const fs = require("fs");
 const { template: lodashTemplate } = require("lodash");
 
 const pubspecYamlFormatter = (dictionary, { metadata }) => {
-  const templateFile = fs.readFileSync("./src/templates/flutter/pubspec_yaml");
+  const templateFile = fs.readFileSync("./src/templates/flutter_ds/pubspec_yaml");
   const templateContent = templateFile.toString();
   const compiled = lodashTemplate(templateContent);
   const { font } = dictionary.properties.asset;

@@ -3,7 +3,7 @@ const fs = require("fs");
 const { template: lodashTemplate } = require("lodash");
 
 const packageDartFormatter = () => {
-  const templateFile = fs.readFileSync("./src/templates/flutter/package");
+  const templateFile = fs.readFileSync("./src/templates/flutter_ds/package");
   const templateContent = templateFile.toString();
   const compiled = lodashTemplate(templateContent);
 

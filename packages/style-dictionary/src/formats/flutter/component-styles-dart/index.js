@@ -7,7 +7,7 @@ const flutterComponentStylesFormatter = (dictionary, options) => {
   const { allProperties } = dictionary;
   const { packageName } = options.metadata;
 
-  const templateFile = fs.readFileSync("./src/templates/flutter/component_styles");
+  const templateFile = fs.readFileSync("./src/templates/flutter_ds/component_styles");
   const props = getAllPropertiesByAttributeType(allProperties);
   const templateContent = templateFile.toString();
 

@@ -43,8 +43,8 @@ jobs:
           cache-name: cache-pubspec-file
         with:
           path: |
-            packages/flutter/pubspec.yaml
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/flutter/pubspec.yaml') }}
+            packages/flutter_ds/pubspec.yaml
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/flutter_ds/pubspec.yaml') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
 
@@ -116,7 +116,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     env:
-      working-directory: ./packages/flutter
+      working-directory: ./packages/flutter_ds
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -128,8 +128,8 @@ jobs:
           cache-name: cache-pubspec-file
         with:
           path: |
-            packages/flutter/pubspec.yaml
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/flutter/pubspec.yaml') }}
+            packages/flutter_ds/pubspec.yaml
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/flutter_ds/pubspec.yaml') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
       - name: Install Flutter SDK

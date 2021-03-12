@@ -12,5 +12,5 @@ charset = utf-8
 insert_final_newline = true
 max_line_length = 100
 
-[packages/*/src/templates/flutter/*]
+[packages/*/src/templates/flutter_ds/*]
 insert_final_newline = false

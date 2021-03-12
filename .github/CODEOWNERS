@@ -1,5 +1,5 @@
 *                                     @jimmyandrade
-packages/flutter/**/*.dart            @gustavogamino @jimmyandrade @paulononaka
-packages/flutter-styles/**/*.dart     @gustavogamino @jimmyandrade @paulononaka
+packages/flutter_ds/**/*.dart            @gustavogamino @jimmyandrade @paulononaka
+packages/flutter_ds-styles/**/*.dart     @gustavogamino @jimmyandrade @paulononaka
 packages/style-dictionary/**/*.json   @jimmyandrade @marciobda
 packages/styles/**/*.ts               @jimmyandrade

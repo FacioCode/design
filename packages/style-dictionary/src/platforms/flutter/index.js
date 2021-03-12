@@ -6,7 +6,7 @@ const {
   name: packageName,
   repository,
   version,
-} = require("../../../../flutter/package.json");
+} = require("../../../../flutter_ds/package.json");
 
 const colorPalette = require("./colorPalette");
 const sizes = require("./sizes");
@@ -16,7 +16,7 @@ const generatedFilesPath = "lib/src/generated";
 
 const flutter = {
   actions: ["copy_assets", "create_icon_font"],
-  buildPath: "../flutter/",
+  buildPath: "../flutter_ds/",
   files: [
     {
       destination: "pubspec.yaml",

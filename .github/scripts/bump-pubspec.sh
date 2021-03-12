@@ -5,7 +5,7 @@ set -e
 git status
 
 # Prepare Flutter pubspec file to commit
-git add ./packages/flutter/pubspec.yaml
+git add ./packages/flutter_ds/pubspec.yaml
 
 # Commit pubspec file
 git commit --allow-empty -m "chore(flutter): bump package version [skip ci]"

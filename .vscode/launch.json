@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Flutter Design System Example",
-            "program": "packages/flutter/example/lib/main.dart",
+            "program": "packages/flutter_ds/example/lib/main.dart",
             "request": "launch",
             "flutterMode": "debug",
             "type": "dart"
