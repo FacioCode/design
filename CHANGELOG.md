@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.1](https://github.com/FacioCode/design/compare/v10.0.0...v10.0.1) (2021-03-16)
+
+
+### Reverts
+
+* Revert "feat(flutter): migrated to null-safety" ([324da82](https://github.com/FacioCode/design/commit/324da82fa9b461d5c6994a2d7733d726940af973))
+
+
+
+
+
 # [10.0.0](https://github.com/FacioCode/design/compare/v9.1.1...v10.0.0) (2021-03-12)
 
 
