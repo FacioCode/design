@@ -9,7 +9,7 @@ documentation: https://github.com/FacioCode/design/tree/main/packages/flutter_ds
 
 environment:
   sdk: ">=2.10.4 <3.0.0"
-  flutter: ">=2.0.1 <2.0.0"
+  flutter: ">=1.22.6 <3.0.0"
 
 dependencies:
   flutter:
