@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.4](https://github.com/FacioCode/design/compare/v10.0.3...v10.0.4) (2021-03-16)
+
+
+### Reverts
+
+* Revert "Revert "feat(flutter): migrated to null-safety"" ([1f6fd9f](https://github.com/FacioCode/design/commit/1f6fd9f672e11117ab559b758cb0b53ccfc8ea73))
+* Revert "chore(flutter): upgrade workflow to use Flutter 2.0.1 and remove requirement from project" ([54691d5](https://github.com/FacioCode/design/commit/54691d514726dd02b5de85455bb065cf833cdaad))
+
+
+
+
+
 ## [10.0.3](https://github.com/FacioCode/design/compare/v10.0.2...v10.0.3) (2021-03-16)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
