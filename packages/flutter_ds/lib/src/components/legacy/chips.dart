@@ -4,12 +4,13 @@ import 'package:flutter/widgets.dart';
 
 class BaseChips extends StatelessWidget {
   const BaseChips({
-    final Key? key,
-    required final String title,
+    final Key key,
+    @required final String title,
     final bool selected = false,
     final bool isLast = false,
-    final VoidCallback? onPressed,
-  })  : _title = title,
+    final VoidCallback onPressed,
+  })  : assert(title != null),
+        _title = title,
         _selected = selected,
         _last = isLast,
         _onPressed = onPressed,
@@ -18,7 +19,7 @@ class BaseChips extends StatelessWidget {
   final String _title;
   final bool _selected;
   final bool _last;
-  final VoidCallback? _onPressed;
+  final VoidCallback _onPressed;
 
   @override
   Widget build(BuildContext context) {

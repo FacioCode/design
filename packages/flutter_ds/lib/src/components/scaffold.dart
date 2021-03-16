@@ -4,22 +4,28 @@ import 'package:flutter/widgets.dart';
 
 class FacioScaffold extends StatelessWidget {
   const FacioScaffold({
-    final Key? key,
-    required final Widget child,
-    final List<Widget>? appBarActions,
+    final Key key,
+    @required final Widget child,
+    final List<Widget> appBarActions,
     final bool hasBackButton = true,
     final bool hasAppBarLogo = false,
     final Color appBarColor = Colors.transparent,
-    final Widget? appBarLeading,
-    final VoidCallback? appBarLogoutOnPressed,
-    final Color? appBarShadowColor,
-    final Widget? appBarTitle,
+    final Widget appBarLeading,
+    final VoidCallback appBarLogoutOnPressed,
+    final Color appBarShadowColor,
+    final Widget appBarTitle,
     final Color canvasColor = ColorPalette.baseWhite,
     final EdgeInsets canvasPadding = EdgeInsets.zero,
     final double elevation = 0.0,
     final bool keyboardPushScreen = true,
-    final VoidCallback? onBackPressed,
-  })  : assert(hasBackButton || (!hasBackButton && onBackPressed == null)),
+    final VoidCallback onBackPressed,
+  })  : assert(child != null),
+        assert(hasBackButton != null),
+        assert(hasBackButton || (!hasBackButton && onBackPressed == null)),
+        assert(appBarColor != null),
+        assert(canvasPadding != null),
+        assert(keyboardPushScreen != null),
+        assert(elevation != null),
         assert((hasAppBarLogo && appBarTitle == null) ||
             (!hasAppBarLogo && appBarTitle != null)),
         _child = child,
@@ -39,19 +45,19 @@ class FacioScaffold extends StatelessWidget {
         super(key: key);
 
   final Widget _child;
-  final List<Widget>? _appBarActions;
+  final List<Widget> _appBarActions;
   final bool _hasBackButton;
   final bool _hasAppBarLogo;
   final Color _appBarColor;
-  final Widget? _appBarLeading;
-  final VoidCallback? _appBarLogoutOnPressed;
-  final Widget? _appBarTitle;
-  final Color? _appBarShadowColor;
+  final Widget _appBarLeading;
+  final VoidCallback _appBarLogoutOnPressed;
+  final Widget _appBarTitle;
+  final Color _appBarShadowColor;
   final Color _canvasColor;
   final EdgeInsets _canvasPadding;
   final double _elevation;
   final bool _keyboardPushScreen;
-  final VoidCallback? _onBackPressed;
+  final VoidCallback _onBackPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -75,7 +81,7 @@ class FacioScaffold extends StatelessWidget {
         actions: _appBarLogoutOnPressed != null
             ? [
                 SmallLinkButton(
-                    title: 'Sair', onPressed: _appBarLogoutOnPressed!)
+                    title: 'Sair', onPressed: _appBarLogoutOnPressed)
               ]
             : _appBarActions,
       ),
@@ -92,7 +98,7 @@ class FacioScaffold extends StatelessWidget {
       return WillPopScope(
         onWillPop: () {
           if (_onBackPressed != null) {
-            _onBackPressed!();
+            _onBackPressed();
           } else {
             Navigator.of(context).pop();
           }

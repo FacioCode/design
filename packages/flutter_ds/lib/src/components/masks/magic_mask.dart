@@ -11,7 +11,7 @@ class TextInputMask extends TextInputFormatter {
   bool reverse;
   int maxLength;
   int maxPlaceHolders;
-  late MagicMask magicMask;
+  MagicMask magicMask;
 
   static const String _symbolsRegexText =
       r'''[@#$_&\-+()/*"':;!?,.№₱€¢£¥_&—_–·±★†‡„“”«»‚‘'‹›:;¡¿‽,~`|•√π÷×¶∆£¢€¥^°={}\\%©®™✓[\]<>♪ΩΠμ§←↑↓→′″∞≠≈‰℅«≤‹⟨⟩»≥›…’]''';
@@ -97,18 +97,18 @@ class MagicMask {
   static const String _multiple = 'multiple';
   static const String _multipleOpt = 'multiple';
 
-  late bool _reverse;
-  bool? _overflow;
-  late int _charIndex;
-  late int _tagIndex;
-  late int _step;
-  late int _charDeslocation;
-  late int _cursorPosition;
-  String? _placeholder;
-  late int _maxPlaceHolderCharacters;
-  String? _maskedText;
-  late String _extraChar;
-  late int _typedCharacter;
+  bool _reverse;
+  bool _overflow;
+  int _charIndex;
+  int _tagIndex;
+  int _step;
+  int _charDeslocation;
+  int _cursorPosition;
+  String _placeholder;
+  int _maxPlaceHolderCharacters;
+  String _maskedText;
+  String _extraChar;
+  int _typedCharacter;
 
   List<Map<String, String>> _tags = [];
   List<List<Map<String, String>>> _allTags = [];
@@ -120,7 +120,7 @@ class MagicMask {
     if (mask != null) this.buildMaskTokens(mask);
   }
 
-  String? _lastMaskType() => _tags.isEmpty ? null : _tags.last[_type];
+  String _lastMaskType() => _tags?.last == null ? null : _tags.last[_type];
 
   /// the BuildMaskTokens will transform the String pattern in tokens to be used as formatter.
   /// The [mask] should a String following the pattern:
@@ -200,7 +200,7 @@ class MagicMask {
 
   /// [text] is the string to be formatted
   /// It returns a formatted String.
-  String? getMaskedString(String text) =>
+  String getMaskedString(String text) =>
       getAdvancedMaskedString(text, -1, '', 0);
 
   /// [text] is the string to be formatted
@@ -209,10 +209,10 @@ class MagicMask {
   /// [maxPlaceHolderCharacters] Numbers of times the placeholder could be counted. A typed character consumes a count.
   ///
   /// It returns a formatted String.
-  String? getAdvancedMaskedString(String text, int maxLenght,
-      String placeholder, int maxPlaceHolderCharacters) {
+  String getAdvancedMaskedString(String text, int maxLenght, String placeholder,
+      int maxPlaceHolderCharacters) {
     return executeMasking(text, 0, false, maxLenght, placeholder,
-        maxPlaceHolderCharacters)['text'] as String?;
+        maxPlaceHolderCharacters)['text'] as String;
   }
 
   /// [text] is the mask to be formatter on mask.
@@ -238,7 +238,7 @@ class MagicMask {
       int maxLenght,
       String placeholder,
       int maxPlaceHolderCharacters) {
-    if (text.isEmpty || _tags.length == 0)
+    if (text == null || text.isEmpty || _tags.length == 0)
       return _buildResultJson('', 0, maxLenght);
     _reverse = reverse;
     _step = _reverse ? -1 : 1;
@@ -288,8 +288,8 @@ class MagicMask {
       var tag = _tags[tagIndex];
       if (tag[_type] == _forcedChar || tag[_type] == _fixChar) {
         int pos = _reverse
-            ? cleared.lastIndexOf(tag[_value]!)
-            : cleared.indexOf(tag[_value]!);
+            ? cleared.lastIndexOf(tag[_value])
+            : cleared.indexOf(tag[_value]);
         if (pos != -1) {
           if (pos < _cursorPosition) {
             _cursorPosition -= 1;
@@ -306,12 +306,12 @@ class MagicMask {
 
   Map<String, dynamic> _proccessMask(String text, int maxLenght) {
     _charIndex = _reverse ? text.length - 1 : 0;
-    String currentChar = text[_charIndex];
+    String currentChar = text[_charIndex] ?? '';
     while (currentChar.isNotEmpty) {
       _applyTagMask(currentChar, false);
       _charIndex += _step;
       if (_charIndex < 0 || _charIndex >= text.length) break;
-      currentChar = text[_charIndex];
+      currentChar = text[_charIndex] ?? '';
     }
 
     int placeHolderCounter = _maxPlaceHolderCharacters - _typedCharacter;
@@ -333,18 +333,18 @@ class MagicMask {
     }
 
     _cursorPosition =
-        min(_cursorPosition + _charDeslocation, _maskedText!.length);
+        min(_cursorPosition + _charDeslocation, _maskedText.length);
     return _buildResultJson(_maskedText, _cursorPosition, maxLenght);
   }
 
-  void _applyTagMask(String? char, bool isPlaceHolder) {
+  void _applyTagMask(String char, bool isPlaceHolder) {
     if (_tagIndex < 0 || _tagIndex >= _tags.length) {
       _overflow = true;
       return;
     }
     var tag = _tags[_tagIndex];
-    String? tagType = tag[_type];
-    String? tagValue = tag[_value];
+    String tagType = tag[_type];
+    String tagValue = tag[_value];
 
     switch (tagType) {
       case _fixChar:
@@ -359,7 +359,7 @@ class MagicMask {
         _applyTagMask(char, isPlaceHolder);
         break;
       case _token:
-        if (_match(tagValue!, char!) || isPlaceHolder) {
+        if (_match(tagValue, char) || isPlaceHolder) {
           _appendText(char);
           _typedCharacter += 1;
           _tagIndex += _step;
@@ -368,7 +368,7 @@ class MagicMask {
         }
         break;
       case _tokenOpt:
-        if (_match(tagValue!, char!) || isPlaceHolder) {
+        if (_match(tagValue, char) || isPlaceHolder) {
           _appendText(char);
           _typedCharacter += 1;
           _tagIndex += _step;
@@ -378,11 +378,11 @@ class MagicMask {
         }
         break;
       case _multiple:
-        if (_match(tagValue!, char!) || isPlaceHolder) {
+        if (_match(tagValue, char) || isPlaceHolder) {
           _appendText(char);
           _typedCharacter += 1;
           tag['readed'] = '1';
-        } else if (tag['readed']!.isNotEmpty) {
+        } else if (tag['readed'].isNotEmpty) {
           _tagIndex += _step;
           _applyTagMask(char, isPlaceHolder);
         } else {
@@ -390,7 +390,7 @@ class MagicMask {
         }
         break;
       case _multipleOpt:
-        if (_match(tagValue!, char!) || isPlaceHolder) {
+        if (_match(tagValue, char) || isPlaceHolder) {
           _appendText(char);
           _typedCharacter += 1;
         } else {
@@ -409,7 +409,7 @@ class MagicMask {
 
   bool _match(String tagValue, String char) => RegExp(tagValue).hasMatch(char);
 
-  void _appendText(String? char) {
+  void _appendText(String char) {
     _maskedText = _reverse
         ? '$char$_extraChar$_maskedText'
         : '$_maskedText$_extraChar$char';
@@ -417,17 +417,17 @@ class MagicMask {
     _extraChar = '';
   }
 
-  void _appendExtraChar(String? extra) {
+  void _appendExtraChar(String extra) {
     _extraChar = _reverse ? '$extra$_extraChar' : '$_extraChar$extra';
   }
 
   Map<String, dynamic> _buildResultJson(
-      String? text, int cursorPos, int maxLengh) {
+      String text, int cursorPos, int maxLengh) {
     if (maxLengh > 0) {
       if (_reverse) {
-        text = text!.substring(max(0, text.length - maxLengh));
+        text = text.substring(max(0, text.length - maxLengh));
       } else {
-        text = text!.substring(0, maxLengh);
+        text = text.substring(0, maxLengh);
       }
     }
     return <String, dynamic>{

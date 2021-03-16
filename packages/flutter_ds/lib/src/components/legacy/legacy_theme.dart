@@ -36,14 +36,14 @@ class LegacyTheme {
     colors: <Color>[Color(0x19FFFFFF), Colors.transparent],
   );
 
-  static ThemeData getThemeData([final BuildContext? context]) => ThemeData(
+  static ThemeData getThemeData([final BuildContext context]) => ThemeData(
         accentColor: LegacyColorPalette.greenBlue,
         primaryColor: primaryColor,
         backgroundColor: backgroundColor,
         textTheme: _getTextThemeForDevice(context),
       );
 
-  static bool? _isSmallDeviceCache;
+  static bool _isSmallDeviceCache;
 
   static const double _smallDeviceWidthBreakpoint = 360.0;
 
@@ -57,7 +57,7 @@ class LegacyTheme {
     return isDeviceSmall;
   }
 
-  static TextTheme _getTextThemeForDevice(final BuildContext? context) {
+  static TextTheme _getTextThemeForDevice(final BuildContext context) {
     if (context == null) {
       return _getTextTheme();
     }
@@ -204,17 +204,17 @@ class ThemeChanger with ChangeNotifier {
   ThemeChanger.defaultSize() : this._(theme: LegacyTheme.getThemeData());
 
   ThemeChanger._({
-    final ThemeData? theme,
+    final ThemeData theme,
   })  : _themeData = theme,
         _check = true;
 
-  ThemeData? _themeData;
+  ThemeData _themeData;
 
   bool _check;
 
-  ThemeData? get theme => _themeData;
+  ThemeData get theme => _themeData;
 
-  set theme(final ThemeData? theme) {
+  set theme(final ThemeData theme) {
     _themeData = theme;
     notifyListeners();
   }

@@ -5,9 +5,9 @@ import 'money_text.dart';
 
 class FacioBottomSheet extends StatelessWidget {
   const FacioBottomSheet({
-    required String text,
-    required String buttonTitle,
-    required VoidCallback buttonTap,
+    @required String text,
+    @required String buttonTitle,
+    @required VoidCallback buttonTap,
     bool buttonEnabled = true,
   })  : _text = text,
         _buttonTitle = buttonTitle,

@@ -135,7 +135,7 @@ jobs:
       - name: Install Flutter SDK
         uses: subosito/flutter-action@v1
         with:
-          flutter-version: "2.0.0"
+          flutter-version: "1.22.5"
       - name: Setup pub credentials
         run: |
           mkdir -p ~/.pub-cache

@@ -22,11 +22,11 @@ class HideAnimation {
   void _focusOnComponent(GlobalKey keyAppBar, GlobalKey keyInputAmount,
       ScrollController scrollController, int animationMS) {
     final renderBoxAppBar =
-        keyAppBar.currentContext!.findRenderObject() as RenderBox;
+        keyAppBar.currentContext.findRenderObject() as RenderBox;
     final sizeAppBar = renderBoxAppBar.size;
 
     final renderBoxInputInstallments =
-        keyInputAmount.currentContext!.findRenderObject() as RenderBox;
+        keyInputAmount.currentContext.findRenderObject() as RenderBox;
     final positionInputInstallments =
         renderBoxInputInstallments.localToGlobal(Offset.zero);
 

@@ -4,19 +4,21 @@ import 'package:flutter/widgets.dart';
 
 class SmallOutlinedButton extends StatelessWidget {
   const SmallOutlinedButton({
-    final Key? key,
-    required final String title,
-    final VoidCallback? onPressed,
+    final Key key,
+    @required final String title,
+    final VoidCallback onPressed,
     final bool isEnabled = true,
-  })  : _isEnabled = isEnabled,
+  })  : assert(title != null),
+        assert(isEnabled != null),
+        _isEnabled = isEnabled,
         _key = key,
         _title = title,
         _onPressed = onPressed;
 
-  final Key? _key;
+  final Key _key;
   final bool _isEnabled;
   final String _title;
-  final VoidCallback? _onPressed;
+  final VoidCallback _onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -36,17 +38,14 @@ class SmallOutlinedButton extends StatelessWidget {
               width: OutlinedButtonStyles.borderWidth,
             ),
             shape: RoundedRectangleBorder(
-              borderRadius:
-                  BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
+              borderRadius: BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
             ),
           ),
           child: Text(
             _title,
             textAlign: TextAlign.center,
-            style: _isEnabled
-                ? TextStyles.button
-                : TextStyles.button
-                    .copyWith(color: OutlinedButtonStyles.disabledColor),
+            style:
+                _isEnabled ? TextStyles.button : TextStyles.button.copyWith(color: OutlinedButtonStyles.disabledColor),
           ),
         ),
       ),

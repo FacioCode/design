@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 
 class ProgressWidget extends StatelessWidget {
   const ProgressWidget({
-    Key? key,
+    Key key,
   }) : super(key: key);
 
   @override

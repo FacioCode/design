@@ -4,16 +4,17 @@ import 'package:flutter/widgets.dart';
 
 class BaseCard extends StatelessWidget {
   const BaseCard({
-    required final Widget child,
+    @required final Widget child,
     final EdgeInsets innerPadding =
         const EdgeInsets.all(CardContentStyles.padding),
     final EdgeInsets margin = const EdgeInsets.only(bottom: Sizes.baseTriple),
-    final VoidCallback? onTap,
+    final VoidCallback onTap,
     final double elevation = 0,
     final Color color = ColorPalette.baseWhite,
     final Color borderColor = ColorPalette.baseGrey30,
-    final Key? key,
-  })  : _child = child,
+    final Key key,
+  })  : assert(child != null),
+        _child = child,
         _padding = innerPadding,
         _margin = margin,
         _onTap = onTap,
@@ -25,11 +26,11 @@ class BaseCard extends StatelessWidget {
   final Widget _child;
   final EdgeInsets _padding;
   final EdgeInsets _margin;
-  final VoidCallback? _onTap;
+  final VoidCallback _onTap;
   final double _elevation;
   final Color _color;
   final Color _borderColor;
-  final Key? _key;
+  final Key _key;
 
   static const BorderRadius _defaultRadius =
       BorderRadius.all(Radius.circular(PaperStyles.roundedBorderRadius));
@@ -53,9 +54,9 @@ class BaseCard extends StatelessWidget {
         ),
       );
 
-  Widget? _clickableWrapper({
-    required final bool clickable,
-    final Widget? child,
+  Widget _clickableWrapper({
+    final bool clickable,
+    final Widget child,
   }) =>
       clickable
           ? InkWell(

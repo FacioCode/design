@@ -8,19 +8,19 @@ issue_tracker: https://github.com/FacioCode/design/issues
 documentation: https://github.com/FacioCode/design/tree/main/packages/flutter_ds#readme
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: '>=2.0.0 <3.0.0'
+  sdk: ">=2.10.4 <3.0.0"
+  flutter: ">=1.22.5 <2.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^0.21.0-nullsafety.0
-  intl: ^0.17.0
+  flutter_svg: ^0.19.1
+  intl: ^0.16.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pedantic: ^1.11.0
+  pedantic: ^1.9.2
 
 flutter:
   assets:

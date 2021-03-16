@@ -4,21 +4,23 @@ import 'package:flutter/widgets.dart';
 
 class MediumContainedButton extends StatelessWidget {
   const MediumContainedButton({
-    required final String title,
-    final VoidCallback? onPressed,
+    @required final String title,
+    final VoidCallback onPressed,
     final bool isEnabled = true,
-    final Key? key,
+    final Key key,
     final ContainedButtonColor color = ContainedButtonColor.brand,
-  })  : _title = title,
+  })  : assert(title != null),
+        assert(color != null),
+        _title = title,
         _onPressed = onPressed,
         _isEnabled = isEnabled,
         _key = key,
         _color = color;
 
   final String _title;
-  final VoidCallback? _onPressed;
+  final VoidCallback _onPressed;
   final bool _isEnabled;
-  final Key? _key;
+  final Key _key;
   final ContainedButtonColor _color;
 
   @override
