@@ -10,20 +10,16 @@ enum AlertColor { error, info, success, warning }
 class Alert extends StatelessWidget {
   const Alert({
     final AlertVariant variant = AlertVariant.standard,
-    @required final AlertColor color,
-    @required SvgPicture icon,
-    @required String title,
-    String subtitle,
-    VoidCallback onTap,
-    Key key,
-    Key titleKey,
-    Key buttonKey,
-    String buttonTitle,
-  })  : assert(icon != null),
-        assert(title != null),
-        assert(variant != null),
-        assert(color != null),
-        _key = key,
+    required final AlertColor color,
+    required SvgPicture icon,
+    required String title,
+    String? subtitle,
+    VoidCallback? onTap,
+    Key? key,
+    Key? titleKey,
+    Key? buttonKey,
+    String? buttonTitle,
+  })  : _key = key,
         _icon = icon,
         _titleKey = titleKey,
         _title = title,
@@ -34,16 +30,16 @@ class Alert extends StatelessWidget {
         _buttonKey = buttonKey,
         _buttonTitle = buttonTitle;
 
-  final Key _key;
-  final Key _titleKey;
+  final Key? _key;
+  final Key? _titleKey;
   final SvgPicture _icon;
   final String _title;
-  final String _subtitle;
-  final VoidCallback _onTap;
+  final String? _subtitle;
+  final VoidCallback? _onTap;
   final AlertVariant _variant;
   final AlertColor _color;
-  final Key _buttonKey;
-  final String _buttonTitle;
+  final Key? _buttonKey;
+  final String? _buttonTitle;
 
   @override
   Widget build(BuildContext context) {
@@ -64,12 +60,12 @@ class Alert extends StatelessWidget {
               children: <Widget>[
                 Text(_title, key: _titleKey, style: TextStyles.subtitle1),
                 if (_subtitle != null)
-                  Text(_subtitle, style: TextStyles.bodyText2),
+                  Text(_subtitle!, style: TextStyles.bodyText2),
                 if (_buttonTitle != null)
                   Padding(
                     padding: const EdgeInsets.only(top: Sizes.baseSingle),
                     child: SmallContainedButton(
-                      title: _buttonTitle,
+                      title: _buttonTitle!,
                       key: _buttonKey,
                       color: ContainedButtonColor.colorDefault,
                     ),

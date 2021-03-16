@@ -4,19 +4,16 @@ import 'package:flutter/widgets.dart';
 
 class SmallLinkButton extends StatelessWidget {
   const SmallLinkButton({
-    final Key key,
-    @required final String title,
-    @required final VoidCallback onPressed,
+    final Key? key,
+    required final String title,
+    required final VoidCallback onPressed,
     final bool isEnabled = true,
-  })  : assert(title != null),
-        assert(onPressed != null),
-        assert(isEnabled != null),
-        _isEnabled = isEnabled,
+  })  : _isEnabled = isEnabled,
         _key = key,
         _title = title,
         _onPressed = onPressed;
 
-  final Key _key;
+  final Key? _key;
   final bool _isEnabled;
   final String _title;
   final VoidCallback _onPressed;
@@ -32,7 +29,8 @@ class SmallLinkButton extends StatelessWidget {
           _title,
           style: _isEnabled
               ? TextStyles.button.copyWith(color: LinkButtonStyles.defaultColor)
-              : TextStyles.button.copyWith(color: LinkButtonStyles.disabledColor),
+              : TextStyles.button
+                  .copyWith(color: LinkButtonStyles.disabledColor),
         ),
       ),
     );

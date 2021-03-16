@@ -5,23 +5,20 @@ import 'package:flutter/widgets.dart';
 
 class SmallContainedButton extends StatelessWidget {
   const SmallContainedButton({
-    final Key key,
-    @required final String title,
-    final VoidCallback onPressed,
+    final Key? key,
+    required final String title,
+    final VoidCallback? onPressed,
     final bool isEnabled = true,
     final ContainedButtonColor color = ContainedButtonColor.brand,
-  })  : assert(title != null),
-        assert(isEnabled != null),
-        assert(color != null),
-        _color = color,
+  })  : _color = color,
         _key = key,
         _isEnabled = isEnabled,
         _onPressed = onPressed,
         _title = title;
 
-  final Key _key;
+  final Key? _key;
   final String _title;
-  final VoidCallback _onPressed;
+  final VoidCallback? _onPressed;
   final bool _isEnabled;
   final ContainedButtonColor _color;
 
@@ -33,12 +30,15 @@ class SmallContainedButton extends StatelessWidget {
         height: ButtonStyles.sizeSmallHeight,
         decoration: BoxDecoration(
           color: _color.backgroundColor,
-          borderRadius: BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
+          borderRadius:
+              BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
         ),
         child: TextButton(
           key: _key,
           onPressed: _isEnabled ? _onPressed : null,
-          child: Text(_title, textAlign: TextAlign.center, style: TextStyles.button.copyWith(color: _color.fontColor)),
+          child: Text(_title,
+              textAlign: TextAlign.center,
+              style: TextStyles.button.copyWith(color: _color.fontColor)),
         ),
       ),
     );

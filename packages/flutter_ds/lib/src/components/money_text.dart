@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 
 class MoneyText extends StatelessWidget {
   const MoneyText({
-    @required this.text,
-    @required this.style,
+    required this.text,
+    required this.style,
     this.boldWeight = CurrencyStyles.fontWeight,
   });
 
@@ -18,8 +18,8 @@ class MoneyText extends StatelessWidget {
   /// Without this regex emojis have different sizes compared to fonts.
   /// Because of this bug it bounces the screen if you replace one to another such as we have in the home screen.
   /// For more details check this issue: https://github.com/flutter_ds/flutter/issues/28894
-  static final emojiRegex =
-      RegExp('(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])');
+  static final emojiRegex = RegExp(
+      '(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])');
 
   // Regex to match <b></b>
   static final boldRegex = RegExp(r'<b>(.*?)</b>');
@@ -27,7 +27,8 @@ class MoneyText extends StatelessWidget {
   List<TextSpan> generateTextSpans(String text) {
     final List<TextSpan> spans = [];
     final TextStyle emojiStyle = style.copyWith(
-      fontSize: style.fontSize * (Platform.isAndroid ? 1.12 - 0.05 * 34 / style.fontSize : 0.9),
+      fontSize: style.fontSize! *
+          (Platform.isAndroid ? 1.12 - 0.05 * 34 / style.fontSize! : 0.9),
       letterSpacing: 2,
     );
 
@@ -68,6 +69,8 @@ class MoneyText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(child: RichText(text: TextSpan(children: generateTextSpans(text), style: style)));
+    return Container(
+        child: RichText(
+            text: TextSpan(children: generateTextSpans(text), style: style)));
   }
 }
