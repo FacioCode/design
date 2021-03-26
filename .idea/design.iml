@@ -42,11 +42,19 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/ios/Flutter/App.framework" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/ios/Flutter/Flutter.framework" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/ios/Pods" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/node_modules/@faciocode/style-dictionary/node_modules/style-dictionary/examples/advanced/flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/node_modules/@faciocode/style-dictionary/node_modules/style-dictionary/examples/advanced/flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/node_modules/@faciocode/style-dictionary/node_modules/style-dictionary/examples/advanced/flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
     <orderEntry type="library" name="@faciocode/styles" level="application" />
-    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
