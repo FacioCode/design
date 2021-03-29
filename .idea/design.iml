@@ -19,7 +19,7 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/android/app/src/main/java" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/ios/Flutter/App.framework" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter-styles/example/ios/Flutter/Flutter.framework" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/coverage" />
       <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/react/dist" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/libraries" />
@@ -31,13 +31,13 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/coverage" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/android/app/src/main/java" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/android/app/src/main/java" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist-storybook" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/ios/Flutter/App.framework" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/ios/Flutter/Flutter.framework" />
@@ -56,5 +56,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
     <orderEntry type="library" name="@faciocode/styles" level="application" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
