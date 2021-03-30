@@ -1,7 +1,6 @@
-import 'dart:io';
-
 import 'package:facio_design_system/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:universal_io/io.dart';
 
 class MoneyText extends StatelessWidget {
   const MoneyText({
