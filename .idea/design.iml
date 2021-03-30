@@ -31,10 +31,7 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/coverage" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/android/app/src/main/java" />
@@ -42,12 +39,12 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/ios/Flutter/App.framework" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/ios/Flutter/Flutter.framework" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/ios/Pods" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/build" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/node_modules/@faciocode/style-dictionary/node_modules/style-dictionary/examples/advanced/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/node_modules/@faciocode/style-dictionary/node_modules/style-dictionary/examples/advanced/flutter/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/node_modules/@faciocode/style-dictionary/node_modules/style-dictionary/examples/advanced/flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/.pub" />
