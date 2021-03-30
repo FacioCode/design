@@ -34,12 +34,12 @@ const render: Render = (props, ref) => {
 
   const { colorInverse, flexGrow } = useStyles();
 
-  const classNames = {
+
+  const classNames = clsx({
     [colorInverse]: color === "inverse",
     [flexGrow]: flexGrowProp === true,
     // eslint-disable-next-line sort-keys
-    className,
-  };
+  }, className);
 
   let children = childrenProp;
 
@@ -48,7 +48,7 @@ const render: Render = (props, ref) => {
   }
 
   return <MaterialTypography
-    className={clsx(classNames)}
+    className={classNames}
     color={mappedColor}
     component={getTypographyComponent({ component, paragraph, variant })}
     paragraph={paragraph}
