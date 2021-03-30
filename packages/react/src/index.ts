@@ -46,6 +46,7 @@ export { IconButton, IconButtonProps } from "./IconButton";
 export { Input, InputProps } from "./Input";
 export { default as InputBase, InputBaseProps } from "./InputBase";
 export { default as InputLabel, InputLabelProps } from "./InputLabel";
+export { default as LabeledCurrency, LabeledCurrencyProps } from "./LabeledCurrency";
 export { default as LinearProgress, LinearProgressProps } from "./LinearProgress";
 export { Link, LinkProps } from "./Link";
 export { default as Paper, PaperProps } from "./Paper";
