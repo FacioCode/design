@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.2.0](https://github.com/FacioCode/design/compare/v10.1.2...v10.2.0) (2021-03-30)
+
+
+### Bug Fixes
+
+* **style-dictionary:** clean svg files ([90763b5](https://github.com/FacioCode/design/commit/90763b56cd88e5bf0c44180cf55a4d515d68253e))
+
+
+
+# [10.1.0](https://github.com/FacioCode/design/compare/v10.0.4...v10.1.0) (2021-03-26)
+
+
+
+## 10.0.4 (2021-03-16)
+
+
+
+
+
 ## [10.1.2](https://github.com/FacioCode/design/compare/v10.1.1...v10.1.2) (2021-03-30)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

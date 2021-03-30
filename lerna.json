@@ -9,5 +9,5 @@
     "packages/*",
     "examples/*"
   ],
-  "version": "10.1.2"
+  "version": "10.2.0"
 }
