@@ -120,3 +120,5 @@ dist
 
 # Dart files
 .dart_tool
+
+tmp-dir/

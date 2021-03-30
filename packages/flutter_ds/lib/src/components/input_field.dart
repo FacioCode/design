@@ -58,7 +58,9 @@ class FacioInputField extends StatelessWidget {
         if (_label != null)
           Padding(
             padding: const EdgeInsets.only(bottom: 8.0),
-            child: Align(alignment: Alignment.centerLeft, child: Text(_label!, style: TextStyles.subtitle1)),
+            child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(_label!, style: TextStyles.subtitle1)),
           ),
         Container(
           height: Sizes.baseEightfold,
@@ -74,25 +76,35 @@ class FacioInputField extends StatelessWidget {
               controller: _controller,
               onChanged: _onChanged,
               autocorrect: false,
-              textCapitalization: _capitalize ? TextCapitalization.words : TextCapitalization.none,
+              textCapitalization: _capitalize
+                  ? TextCapitalization.words
+                  : TextCapitalization.none,
               inputFormatters: [
                 FilteringTextInputFormatter.singleLineFormatter,
                 FilteringTextInputFormatter.deny(TextInputMask.emojis),
                 if (_inputFormatters != null) ..._inputFormatters!,
-                if (_inputType == InputType.personName) FilteringTextInputFormatter.deny(TextInputMask.numbers),
-                if (_inputType == InputType.personName) FilteringTextInputFormatter.deny(TextInputMask.symbols),
-                if (_inputType == InputType.cpf) TextInputMask(mask: '999.999.999-99'),
+                if (_inputType == InputType.personName)
+                  FilteringTextInputFormatter.deny(TextInputMask.numbers),
+                if (_inputType == InputType.personName)
+                  FilteringTextInputFormatter.deny(TextInputMask.symbols),
+                if (_inputType == InputType.cpf)
+                  TextInputMask(mask: '999.999.999-99'),
                 if (_inputType == InputType.currency) CurrencyMask(),
-                if (_inputType == InputType.phone) TextInputMask(mask: '(99) 9 9999 9999'),
-                if (_inputType == InputType.pinCode) FilteringTextInputFormatter.digitsOnly,
+                if (_inputType == InputType.phone)
+                  TextInputMask(mask: '(99) 9 9999 9999'),
+                if (_inputType == InputType.pinCode)
+                  FilteringTextInputFormatter.digitsOnly,
               ],
               keyboardType: keyboardType(),
               decoration: InputDecoration(
                 prefixText: _inputType == InputType.currency ? 'R\$ ' : '',
-                prefixStyle: TextStyles.headline2.copyWith(fontWeight: FontWeight.w400),
+                prefixStyle:
+                    TextStyles.headline2.copyWith(fontWeight: FontWeight.w400),
                 hintText: _hintText,
                 hintStyle: _hasHint
-                    ? TextStyles.headline2.copyWith(fontWeight: FontWeight.w400, color: ColorPalette.baseGrey50)
+                    ? TextStyles.headline2.copyWith(
+                        fontWeight: FontWeight.w400,
+                        color: ColorPalette.baseGrey50)
                     : null,
                 filled: false,
                 border: InputBorder.none,
@@ -100,10 +112,14 @@ class FacioInputField extends StatelessWidget {
                 enabledBorder: InputBorder.none,
                 errorBorder: InputBorder.none,
                 disabledBorder: InputBorder.none,
-                contentPadding:
-                    const EdgeInsets.only(left: Sizes.baseDouble, bottom: 12, top: 12, right: Sizes.baseDouble),
-                errorStyle:
-                    TextStyles.headline2.copyWith(fontWeight: FontWeight.w400, color: ColorPalette.baseIndianRed70),
+                contentPadding: const EdgeInsets.only(
+                    left: Sizes.baseDouble,
+                    bottom: 12,
+                    top: 12,
+                    right: Sizes.baseDouble),
+                errorStyle: TextStyles.headline2.copyWith(
+                    fontWeight: FontWeight.w400,
+                    color: ColorPalette.baseIndianRed70),
               ),
               textAlign: TextAlign.left,
               style: TextStyles.headline2.copyWith(fontWeight: FontWeight.w400),
