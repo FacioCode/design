@@ -9,7 +9,9 @@ export const decorators = [
   (Story) => (
     <ThemeProvider theme={theme}>
       <CssBaseline>
-        <Story />
+        <div lang={"pt-br"}>
+          <Story />
+        </div>
       </CssBaseline>
     </ThemeProvider>
   ),
