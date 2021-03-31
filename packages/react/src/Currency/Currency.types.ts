@@ -55,8 +55,8 @@ export interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
      *
      * @example 100
      * @required
+     * @since 10.3.0
      * @type number
-     * @version 10.3.0
      */
     value?: CurrencyValue
   }
