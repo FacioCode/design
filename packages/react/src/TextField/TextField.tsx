@@ -9,6 +9,7 @@ type Render = (props: TextFieldProps, ref: TextFieldProps["ref"]) => JSX.Element
 const render : Render = (props, ref) => {
   const {
     InputProps,
+    "aria-label": ariaLabel,
     allowRecording,
     className,
     inputProps,
@@ -21,13 +22,11 @@ const render : Render = (props, ref) => {
 
   const variantProp = React.useMemo<MaterialTextFieldVariant>(
     () => {
-      let mappedVariant : MaterialTextFieldVariant = "filled";
-
       if (variant === "underline") {
-        mappedVariant = "standard";
+        return "standard";
       }
 
-      return mappedVariant;
+      return "filled";
     },
     [variant],
   );
@@ -35,6 +34,7 @@ const render : Render = (props, ref) => {
   const additionalInputAttributes = React.useMemo<TextFieldProps["inputProps"]>(
     () => {
       const attributes : TextFieldProps["inputProps"] = {
+        "aria-label": ariaLabel,
         className: clsx({
           "data-hj-allow": allowRecording,
           [inputLarge]: size === "large",
@@ -50,7 +50,7 @@ const render : Render = (props, ref) => {
 
       return attributes;
     },
-    [allowRecording, clsx, inputLarge, size],
+    [allowRecording, ariaLabel, clsx, inputLarge, size],
   );
 
   const additionalInputProps = React.useMemo(
