@@ -66,5 +66,5 @@ export type CurrencyProps<
   D extends React.ElementType = CurrencyTypeMap["defaultComponent"],
   // eslint-disable-next-line @typescript-eslint/ban-types
   P = {}
-  > = OverrideProps<CurrencyTypeMap<P, D>, D>;
+  > = Omit<OverrideProps<CurrencyTypeMap<P, D>, D>, "css">;
 

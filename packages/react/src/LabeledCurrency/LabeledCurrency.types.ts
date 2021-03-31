@@ -55,6 +55,15 @@ export interface LabeledCurrencyTypeMap<P = {}, D extends React.ElementType = "p
     gutterBottom?: TypographyProps["gutterBottom"];
 
     /**
+     * Defaults to current browser locale(s).
+     *
+     * @example "pt-BR"
+     * @optional
+     * @type string | string[]
+     */
+    locales?: CurrencyProps["locales"];
+
+    /**
      * @default horizontal
      * @optional
      * @type "horizontal" | "vertical"
@@ -97,4 +106,4 @@ export type LabeledCurrencyProps<
   D extends React.ElementType = LabeledCurrencyTypeMap["defaultComponent"],
   // eslint-disable-next-line @typescript-eslint/ban-types
   P = {}
-> = OverrideProps<LabeledCurrencyTypeMap<P, D>, D>;
+> = Omit<OverrideProps<LabeledCurrencyTypeMap<P, D>, D>, "css">;
