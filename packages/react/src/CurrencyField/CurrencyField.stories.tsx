@@ -7,9 +7,24 @@ export default {
   title: "Components/Currency Field",
 } as Meta;
 
-const Template : Story<CurrencyFieldProps> = (props: CurrencyFieldProps) => (
-  <CurrencyField {...props} />
-);
+const Template : Story<CurrencyFieldProps> = (props: CurrencyFieldProps) => {
+  const [value, setValue] = React.useState<CurrencyFieldProps["value"]>(props.value);
+
+  const handleChange = React.useCallback<CurrencyFieldProps["onChange"]>(
+    ({ target }) => {
+      setValue(target.value);
+    },
+    [setValue],
+  );
+
+  return (
+    <CurrencyField
+      onChange={handleChange}
+      value={value}
+      {...props}
+    />
+  );
+};
 
 export const Playground : Story<CurrencyFieldProps> = Template.bind({});
 Playground.args = {
