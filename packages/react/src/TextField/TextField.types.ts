@@ -8,6 +8,15 @@ type TextFieldVariant = "filled" | "underline";
 export interface TextFieldProps extends Omit<MaterialTextFieldProps, OmittedProps> {
 
   /**
+   * Allow recording of element content and keystrokes by Hotjar and LogRocket.
+   *
+   * @optional
+   * @since 10.4.0
+   * @type boolean
+   */
+  allowRecording?: boolean;
+
+  /**
    * @default "medium"
    * @optional
    * @type "medium" | "large"

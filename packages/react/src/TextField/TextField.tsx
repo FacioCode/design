@@ -8,30 +8,75 @@ type Render = (props: TextFieldProps, ref: TextFieldProps["ref"]) => JSX.Element
 
 const render : Render = (props, ref) => {
   const {
-    className,
     InputProps,
+    allowRecording,
+    className,
+    inputProps,
     size = "medium",
     variant = "filled",
     ...otherProps
   } = props;
 
-  let mappedVariant : MaterialTextFieldVariant = "filled";
-
-  if (variant === "underline") {
-    mappedVariant = "standard";
-  }
-
   const { labelLarge, large, inputLarge } = useStyles();
 
-  const additionalInputProps = {
-    className: clsx({ [large]: size === "large" }),
-    disableUnderline: variant === "filled",
-  };
+  const variantProp = React.useMemo<MaterialTextFieldVariant>(
+    () => {
+      let mappedVariant : MaterialTextFieldVariant = "filled";
 
-  const finalInputProps = {
-    ...InputProps,
-    ...additionalInputProps,
-  };
+      if (variant === "underline") {
+        mappedVariant = "standard";
+      }
+
+      return mappedVariant;
+    },
+    [variant],
+  );
+
+  const additionalInputAttributes = React.useMemo<TextFieldProps["inputProps"]>(
+    () => {
+      const attributes : TextFieldProps["inputProps"] = {
+        className: clsx({
+          "data-hj-allow": allowRecording,
+          [inputLarge]: size === "large",
+        }),
+      };
+
+      if (allowRecording) {
+        attributes["data-hj-allow"] = true;
+        attributes["data-public"] = true;
+      } else {
+        attributes["data-private"] = true;
+      }
+
+      return attributes;
+    },
+    [allowRecording, clsx, inputLarge, size],
+  );
+
+  const additionalInputProps = React.useMemo(
+    () => ({
+      className: clsx({
+        [large]: size === "large",
+      }),
+      disableUnderline: variant === "filled",
+    }),
+    [clsx, large, size, variant],
+  );
+
+  const finalInputAttributes = React.useMemo(
+    () => ({
+      ...inputProps,
+      ...additionalInputAttributes,
+    }),
+    [additionalInputAttributes, inputProps],
+  );
+
+  const finalInputProps = React.useMemo(
+    () => ({
+      ...InputProps,
+      ...additionalInputProps,
+    }),
+    [additionalInputProps, InputProps]);
 
   return (
     <MaterialTextField
@@ -39,9 +84,9 @@ const render : Render = (props, ref) => {
       className={className}
       InputLabelProps={{ className: clsx({ [labelLarge]: size === "large" }) }}
       InputProps={finalInputProps}
-      inputProps={{ className: clsx({ [inputLarge]: size === "large" }) }}
+      inputProps={finalInputAttributes}
       ref={ref}
-      variant={mappedVariant}
+      variant={variantProp}
     />
   );
 };
