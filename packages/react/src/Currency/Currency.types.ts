@@ -1,20 +1,36 @@
 import type { OverrideProps } from "@material-ui/core/OverridableComponent";
 
+type CurrencyClassKey = "root";
+type CurrencyValue = number | string | null;
+
 // eslint-disable-next-line @typescript-eslint/ban-types
 export interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
-  classKey: "Currency";
+  classKey: CurrencyClassKey;
   defaultComponent: D;
   props: P & {
 
     /**
-     * Currency amount is required.
+     * Currency amount.
      *
-     * @example 100
+     * @deprecated `children` property is deprecated since 10.3.0 and will be removed at 11.x.
+     * Please use `value` property instead.
+     *
+     * @alias value
+     * @example <CurrencyValue code={"BRL"} value={100} />
      * @required
      * @type number
      */
-    // eslint-disable-next-line no-magic-numbers
-    children?: 0 | number | string | null;
+    children?: CurrencyValue
+
+    /**
+     * Currency code for currency style. Will be BRL (Brazilian Real) by default.
+     *
+     * @default "BRL"
+     * @example "BRL"
+     * @optional
+     * @type string
+     */
+    code?: "BRL" | string;
 
     /**
      * The component used for the root node. Either a `string` to use a DOM element or a component.
@@ -26,15 +42,6 @@ export interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
     component?: "data" | React.ElementType;
 
     /**
-     * Currency code is required for currency style.
-     *
-     * @example "BRL"
-     * @required
-     * @type string
-     */
-    code: "BRL" | string;
-
-    /**
      * Defaults to current browser locale(s).
      *
      * @example "pt-BR"
@@ -42,11 +49,21 @@ export interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
      * @type string | string[]
      */
     locales?: "pt-BR" | string | string[];
-  };
+
+    /**
+     * Currency amount.
+     *
+     * @example 100
+     * @required
+     * @type number
+     */
+    value?: CurrencyValue
+  }
 }
 
 export type CurrencyProps<
   D extends React.ElementType = CurrencyTypeMap["defaultComponent"],
   // eslint-disable-next-line @typescript-eslint/ban-types
   P = {}
-> = Omit<OverrideProps<CurrencyTypeMap<P, D>, D>, "css">;
+  > = OverrideProps<CurrencyTypeMap<P, D>, D>;
+
