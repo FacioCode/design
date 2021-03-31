@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.3.0](https://github.com/FacioCode/design/compare/v10.2.0...v10.3.0) (2021-03-31)
+
+
+### Features
+
+* **react:** add support to `value` prop on `Currency` ([cbe148c](https://github.com/FacioCode/design/commit/cbe148c8700489428972b3fb48a99ca1bb5f40d4))
+* **react:** add support to `value` prop on `Currency` ([5fa92e5](https://github.com/FacioCode/design/commit/5fa92e5e5bb6b525f09868e1021d347948e159ee))
+
+
+
+
+
 # [10.2.0](https://github.com/FacioCode/design/compare/v10.1.2...v10.2.0) (2021-03-30)
 
 
