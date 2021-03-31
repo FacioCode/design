@@ -67,6 +67,7 @@
 		"clean": "rm -rf dist/",
 		"compile": "npm run rollup && npm run emitDeclaration",
 		"emitDeclaration": "tsc --declaration --declarationDir dist --emitDeclarationOnly",
+		"open-storybook": "open http://localhost:9009",
 		"rollup": "rollup -c",
 		"start-storybook": "start-storybook --no-manager-cache -c ./.storybook -p 9009",
 		"test": "echo \"Todo: write tests\" && exit 0"
