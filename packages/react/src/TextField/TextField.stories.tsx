@@ -77,17 +77,6 @@ DisabledLarge.args = {
   id: "disabled-large",
 };
 
-export const CurrencyWithoutCents : Story<TextFieldProps> = Template.bind({});
-CurrencyWithoutCents.args = {
-  InputProps: {
-    endAdornment: ",00",
-    startAdornment: "R$",
-  },
-  id: "currency",
-  label: "Amount",
-  type: "number",
-};
-
 export const Error : Story<TextFieldProps> = Template.bind({});
 Error.args = {
   ...Playground.args,
