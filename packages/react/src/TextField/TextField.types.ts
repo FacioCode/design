@@ -17,6 +17,20 @@ export interface TextFieldProps extends Omit<MaterialTextFieldProps, OmittedProp
   allowRecording?: boolean;
 
   /**
+   * @example "Amount to be anticipated"
+   * @optional
+   * @type string
+   */
+  "aria-label"?: MaterialTextFieldProps["aria-label"];
+
+  /**
+   * @example 1
+   * @optional
+   * @type string | number | undefined
+   */
+  maxRows?: MaterialTextFieldProps["maxRows"];
+
+  /**
    * @default "medium"
    * @optional
    * @type "medium" | "large"
