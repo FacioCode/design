@@ -24,6 +24,7 @@ export { Chip, ChipProps } from "./Chip";
 export { default as Container, ContainerProps } from "./Container";
 export { CssBaseline } from "./CssBaseline";
 export { Currency, CurrencyProps } from "./Currency";
+export { CurrencyField, CurrencyFieldProps } from "./CurrencyField";
 export {
   Dialog,
   DialogActions,
