@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.6.0](https://github.com/FacioCode/design/compare/v10.5.0...v10.6.0) (2021-03-31)
+
+
+### Bug Fixes
+
+* **react:** add missing `locales` props on `LabeledCurrency` ([f2010af](https://github.com/FacioCode/design/commit/f2010af16b37254cc35fd42752b0a4804f609200))
+* **react:** prevent TypeScript errors for `TextField` ([c04cec5](https://github.com/FacioCode/design/commit/c04cec5a7afe64f3cff74ddf8be236d30df4c4b7))
+* **react:** remove `css` prop from `Currency` and `LabeledCurrency` components ([cfd4619](https://github.com/FacioCode/design/commit/cfd46190852a0451801abd383841ee3686d76ef6))
+* **react:** use correct property name `rowsMax` for `TextField` ([4e921ae](https://github.com/FacioCode/design/commit/4e921ae720b78e33332f401c43ec10412c281bdd))
+
+
+### Features
+
+* **react:** add `aria-label` and `error` properties for `CurrencyField` ([8d97b7b](https://github.com/FacioCode/design/commit/8d97b7b13066e23a7f70ba9ea473b69f526be382))
+* **react:** improve support for `error` property on `CurrencyField` ([ba6493b](https://github.com/FacioCode/design/commit/ba6493bb192e5eb8f2d698001761090936b02449))
+
+
+
+# 10.4.0 (2021-03-31)
+
+
+
+
+
 # [10.5.0](https://github.com/FacioCode/design/compare/v10.4.0...v10.5.0) (2021-03-31)
 
 
