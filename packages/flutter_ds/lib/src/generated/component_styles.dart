@@ -413,6 +413,19 @@ class ContainerStyles {
   static const colorGreyBackgroundColor = const Color(0xFFF2F2F3);
 }
 
+class CurrencyFieldStyles {
+  CurrencyFieldStyles._();
+
+  /// Padding Top for End Adornment
+  static const endAdornmentPaddingTop = 16.00;
+
+  /// Padding Right for Start Adornment
+  static const startAdornmentPaddingRight = 8.00;
+
+  /// Padding Top for Start Adornment
+  static const startAdornmentPaddingTop = 16.00;
+}
+
 class CurrencyStyles {
   CurrencyStyles._();
 
