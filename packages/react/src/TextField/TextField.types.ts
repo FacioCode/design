@@ -28,7 +28,7 @@ export interface TextFieldProps extends Omit<MaterialTextFieldProps, OmittedProp
    * @optional
    * @type string | number | undefined
    */
-  maxRows?: MaterialTextFieldProps["maxRows"];
+  rowsMax?: MaterialTextFieldProps["rowsMax"];
 
   /**
    * @default "medium"
