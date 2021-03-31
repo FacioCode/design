@@ -16,6 +16,7 @@ const render : Render = (props, ref) => {
     className,
     code,
     gutterBottom = true,
+    locales,
     orientation = "horizontal",
     paragraph = true,
     role,
@@ -52,7 +53,7 @@ const render : Render = (props, ref) => {
       </Typography>
       <Typography
         {...CurrencyTypographyProps} aria-label={ariaLabel} component={"span"} paragraph={false}>
-        <Currency code={code} value={Number(value)} {...otherProps} />
+        <Currency code={code} locales={locales} value={Number(value)} {...otherProps} />
       </Typography>
     </Typography>
   );
