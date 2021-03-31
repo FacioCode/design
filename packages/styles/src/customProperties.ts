@@ -951,6 +951,34 @@ export const containerStyles = {
 
 };
 
+export const currencyFieldStyles = {
+
+  endAdornment: {
+
+    /**
+     * Padding Top for Currency Field End Adornment
+     */
+    paddingTop: "var(--component-currency-field-end-adornment-padding-top, 16px)",
+
+  },
+
+  startAdornment: {
+
+    /**
+     * Padding Right for Currency Field Start Adornment
+     */
+    paddingRight: "var(--component-currency-field-start-adornment-padding-right, 8px)",
+
+
+    /**
+     * Padding Top for Currency Field Start Adornment
+     */
+    paddingTop: "var(--component-currency-field-start-adornment-padding-top, 16px)",
+
+  },
+
+};
+
 export const currencyStyles = {
 
   root: {
