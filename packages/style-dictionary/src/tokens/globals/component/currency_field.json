@@ -1,0 +1,19 @@
+{
+  "component": {
+    "currencyField": {
+      "endAdornment": {
+        "paddingTop": {
+          "value": "{size.base.double.value}"
+        }
+      },
+      "startAdornment": {
+        "paddingRight": {
+          "value": "{size.base.single.value}"
+        },
+        "paddingTop": {
+          "value": "{size.base.double.value}"
+        }
+      }
+    }
+  }
+}
