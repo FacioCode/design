@@ -14,6 +14,6 @@ const Template : Story<CurrencyProps> = (props: CurrencyProps) => (
 
 export const Playground : Story<CurrencyProps> = Template.bind({});
 Playground.args = {
-  children: 100,
   code: "BRL",
+  value: 100,
 };
