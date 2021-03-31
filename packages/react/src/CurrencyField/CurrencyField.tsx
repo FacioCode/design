@@ -13,6 +13,7 @@ const render : Render = (props, ref) => {
     InputProps,
     allowRecording,
     endAdornment: endAdornmentProp = ",00",
+    error: errorProp,
     id,
     inputMode = "decimal",
     inputProps,
@@ -33,6 +34,7 @@ const render : Render = (props, ref) => {
 
   const startAdornment = React.useMemo(() => (
     <Typography
+      aria-hidden={true}
       className={startAdornmentClassName}
       component={"span"}
       gutterBottom={false}
@@ -51,6 +53,7 @@ const render : Render = (props, ref) => {
 
     return (
       <Typography
+        aria-hidden={true}
         component={"span"}
         gutterBottom={false}
         variant={"inherit"}
@@ -76,6 +79,32 @@ const render : Render = (props, ref) => {
   },
   [inputMode, stepProp]);
 
+  const error = React.useMemo(
+    () => {
+      if (max && (value > max)) {
+        return true;
+      }
+
+      if (min && (value > min)) {
+        return true;
+      }
+
+      return errorProp;
+    },
+    [errorProp, max, min, value],
+  );
+
+  const pattern = React.useMemo(
+    () => {
+      if (inputMode === "decimal") {
+        return "/\\d+((.|,)\\d{1,2})?/u";
+      }
+
+      return "/\\d+/u";
+    },
+    [inputMode],
+  );
+
   return (
     <TextField
       InputProps={{
@@ -86,17 +115,20 @@ const render : Render = (props, ref) => {
           inputMode,
           max,
           min,
+          pattern,
           step,
         },
         startAdornment,
       }}
+      error={error}
       id={id}
       allowRecording={allowRecording}
       label={label}
-      maxRows={1}
       onChange={onChange}
       ref={ref}
       required={required}
+      rows={1}
+      rowsMax={1}
       size={size}
       type={type}
       value={value}
