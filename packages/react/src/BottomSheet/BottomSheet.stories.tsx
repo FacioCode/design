@@ -5,7 +5,6 @@ import { BottomSheetProps } from "./BottomSheet.types";
 import { ContainedButton } from "../Button";
 import { Currency } from "../Currency";
 import { Typography } from "../Typography";
-import { sizeTokens } from "@faciocode/styles";
 
 export default {
   component: BottomSheet,
