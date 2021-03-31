@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.4.0](https://github.com/FacioCode/design/compare/v10.3.0...v10.4.0) (2021-03-31)
+
+
+### Features
+
+* **flutter_ds:** add style tokens for `CurrencyFieldStyles` ([0c0fb50](https://github.com/FacioCode/design/commit/0c0fb508564c1efd62d3bc2bfdc9308151f5af34))
+* **react:** add `CurrencyField` React component ([79fbd10](https://github.com/FacioCode/design/commit/79fbd100015088f0867faa050c488e9310e792e2))
+* **react:** add support to `allowRecording`, add memos ([3626e81](https://github.com/FacioCode/design/commit/3626e81b42958862669a57205e93c273d80bb0f1))
+* **style-dictionary:** add style tokens for currency field ([ae86d18](https://github.com/FacioCode/design/commit/ae86d18d138696df62676e34154b5a578b7d0cd9))
+* **styles:** add style tokens for currency field ([2655b0b](https://github.com/FacioCode/design/commit/2655b0bff95579f545777d6d2ca5711c550e7f31))
+
+
+
+
+
 # [10.3.0](https://github.com/FacioCode/design/compare/v10.2.0...v10.3.0) (2021-03-31)
 
 

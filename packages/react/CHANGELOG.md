@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.4.0](https://github.com/FacioCode/design/compare/v10.3.0...v10.4.0) (2021-03-31)
+
+
+### Features
+
+* **react:** add `CurrencyField` React component ([79fbd10](https://github.com/FacioCode/design/commit/79fbd100015088f0867faa050c488e9310e792e2))
+* **react:** add support to `allowRecording`, add memos ([3626e81](https://github.com/FacioCode/design/commit/3626e81b42958862669a57205e93c273d80bb0f1))
+
+
+
+
+
 # [10.3.0](https://github.com/FacioCode/design/compare/v10.2.0...v10.3.0) (2021-03-31)
 
 

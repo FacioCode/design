@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.4.0](https://github.com/FacioCode/design/compare/v10.3.0...v10.4.0) (2021-03-31)
+
+
+### Features
+
+* **flutter_ds:** add style tokens for `CurrencyFieldStyles` ([0c0fb50](https://github.com/FacioCode/design/commit/0c0fb508564c1efd62d3bc2bfdc9308151f5af34))
+
+
+
+
+
 # [10.3.0](https://github.com/FacioCode/design/compare/v10.2.0...v10.3.0) (2021-03-31)
 
 **Note:** Version bump only for package facio_design_system

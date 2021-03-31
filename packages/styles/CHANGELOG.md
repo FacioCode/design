@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.4.0](https://github.com/FacioCode/design/compare/v10.3.0...v10.4.0) (2021-03-31)
+
+
+### Features
+
+* **styles:** add style tokens for currency field ([2655b0b](https://github.com/FacioCode/design/commit/2655b0bff95579f545777d6d2ca5711c550e7f31))
+
+
+
+
+
 # [10.3.0](https://github.com/FacioCode/design/compare/v10.2.0...v10.3.0) (2021-03-31)
 
 **Note:** Version bump only for package @faciocode/styles
