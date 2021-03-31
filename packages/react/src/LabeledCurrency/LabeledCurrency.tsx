@@ -59,7 +59,7 @@ const render : Render = (props, ref) => {
 };
 
 /**
- * @version 10.2.0
+ * @since 10.2.0
  */
 export const LabeledCurrency = React.forwardRef<unknown, LabeledCurrencyProps>(render);
 
