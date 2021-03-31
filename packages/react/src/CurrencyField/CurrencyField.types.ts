@@ -1,13 +1,20 @@
-import { TextFieldProps } from "@components/TextField";
 import { InputProps } from "@components/Input";
+import { TextFieldProps } from "@components/TextField";
 
-export interface CurrencyFieldProps extends TextFieldProps {
+export interface CurrencyFieldProps extends Omit<TextFieldProps, "css" | "rowsMax"> {
 
   /**
    * @optional
    * @type boolean
    */
   allowRecording?: TextFieldProps["allowRecording"];
+
+  /**
+   * @example "Amount to be anticipated"
+   * @optional
+   * @type string
+   */
+  "aria-label"?: TextFieldProps["aria-label"];
 
   /**
    * @default ,00
@@ -17,6 +24,14 @@ export interface CurrencyFieldProps extends TextFieldProps {
    * @type node
    */
   endAdornment?: InputProps["endAdornment"];
+
+  /**
+   * @default false
+   * @example false
+   * @example true
+   * @type boolean
+   */
+  error?: TextFieldProps["error"];
 
   /**
    * @example "detail"
