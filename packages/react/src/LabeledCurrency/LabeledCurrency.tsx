@@ -9,60 +9,50 @@ type Render = (props: LabeledCurrencyProps, ref: LabeledCurrencyProps["ref"]) =>
 
 const render : Render = (props, ref) => {
   const {
+    CurrencyTypographyProps = { variant: "inherit" },
     "aria-label": ariaLabel,
     "aria-live": ariaLive,
-    className,
     children,
+    className,
     code,
-    currencyVariant = "inherit",
     gutterBottom = true,
-    label,
     orientation = "horizontal",
     paragraph = true,
     role,
+    value,
     variant = "bodyText1",
     ...otherProps
   } = props;
 
-  const { horizontal, root, vertical } = useStyles();
+  const {
+    orientationHorizontal,
+    root,
+    orientationVertical,
+  } = useStyles();
 
   const classNames = clsx({
-    [root]: Boolean(label),
+    [root]: Boolean(children),
     // eslint-disable-next-line sort-keys
-    [horizontal]: orientation === "horizontal",
-    [vertical]: orientation === "vertical",
+    [orientationHorizontal]: orientation === "horizontal",
+    [orientationVertical]: orientation === "vertical",
     // eslint-disable-next-line sort-keys
     className,
   });
 
+
   return (
     <Typography
-      aria-atomic={true}
-      aria-live={ariaLive}
-      className={classNames}
-      component={"p"}
-      gutterBottom={gutterBottom}
-      paragraph={paragraph}
-      ref={ref}
-      role={role}
-      variant={variant}
+      aria-atomic={true} aria-live={ariaLive} className={classNames} component={"p"}
+      gutterBottom={gutterBottom} paragraph={paragraph} ref={ref} role={role} variant={variant}
     >
       <Typography
-        aria-hidden={Boolean(ariaLabel)}
-        component={"span"}
-        gutterBottom={false}
-        paragraph={false}
+        aria-hidden={Boolean(ariaLabel)} component={"span"} gutterBottom={false} paragraph={false}
         variant={"inherit"}>
-        {label}
-        <Typography component={"span"} variant={"srOnly"}>:</Typography>
+        {children}
       </Typography>
       <Typography
-        aria-label={ariaLabel}
-        component={"span"}
-        paragraph={false}
-        variant={currencyVariant}
-      >
-        <Currency code={code} {...otherProps}>{children}</Currency>
+        {...CurrencyTypographyProps} aria-label={ariaLabel} component={"span"} paragraph={false}>
+        <Currency code={code} value={Number(value)} {...otherProps} />
       </Typography>
     </Typography>
   );

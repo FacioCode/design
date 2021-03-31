@@ -1,74 +1,100 @@
 import { CurrencyProps } from "@components/Currency";
+import type { OverrideProps } from "@material-ui/core/OverridableComponent";
 import { TypographyProps } from "@components/Typography";
 
-export interface LabeledCurrencyProps extends CurrencyProps {
+export type LabeledCurrencyClassKey =
+  | "root"
+  | "orientationHorizontal"
+  | "orientationVertical";
 
-  /**
-   * @example "O total a pagar será de R$ 100,00"
-   * @required
-   * @type string
-   */
-  "aria-label": CurrencyProps["aria-label"];
+export type LabeledCurrencyBaseProps = React.HTMLAttributes<HTMLParagraphElement>
+  & Omit<CurrencyProps, "css">;
 
-  /**
-   * @required
-   */
-  children: CurrencyProps["children"];
+// eslint-disable-next-line @typescript-eslint/ban-types
+export interface LabeledCurrencyTypeMap<P = {}, D extends React.ElementType = "p"> {
+  props: P & LabeledCurrencyBaseProps & {
+    CurrencyTypographyProps: TypographyProps;
 
-  /**
-   * @ignore
-   */
-  component: CurrencyProps["component"];
+    /**
+     * @example "The total amount to be paid will be $100"
+     * @required
+     * @type string
+     */
+    "aria-label": CurrencyProps["aria-label"];
 
-  /**
-   * @default inherit
-   * @example inherit
-   * @optional
-   */
-  currencyVariant?: TypographyProps["variant"];
+    /**
+     * @optional
+     * @type "off" | "assertive" | "polite"
+     */
+    "aria-live"?: TypographyProps["aria-live"];
 
-  /**
-   * @default true
-   * @example true
-   * @optional
-   * @type boolean
-   */
-  gutterBottom?: TypographyProps["gutterBottom"];
+    /**
+     * @example "Total amount to be paid"
+     * @required
+     * @type node
+     */
+    children: TypographyProps["children"];
 
-  /**
-   * @example "Total a pagar"
-   * @required
-   * @type node
-   */
-  label: TypographyProps["children"];
+    /**
+     * @example BRL
+     * @required
+     */
+    code: CurrencyProps["code"];
 
-  /**
-   * @default horizontal
-   * @optional
-   * @type "horizontal" | "vertical"
-   */
-  orientation?: "horizontal" | "vertical"
+    /**
+     * @ignore
+     */
+    component: CurrencyProps["component"];
 
-  /**
-   * @default true
-   * @example true
-   * @optional
-   * @type boolean
-   */
-  paragraph?: TypographyProps["paragraph"];
+    /**
+     * @default true
+     * @example true
+     * @optional
+     * @type boolean
+     */
+    gutterBottom?: TypographyProps["gutterBottom"];
 
-  /**
-   * @example "alert"
-   * @optional
-   * @type "alert" | string
-   */
-  role?: TypographyProps["role"];
+    /**
+     * @default horizontal
+     * @optional
+     * @type "horizontal" | "vertical"
+     */
+    orientation?: "horizontal" | "vertical";
 
-  /**
-   * @default bodyText1
-   * @example "bodyText1"
-   * @optional
-   */
-  variant?: TypographyProps["variant"];
+    /**
+     * @default true
+     * @example true
+     * @optional
+     * @type boolean
+     */
+    paragraph?: TypographyProps["paragraph"];
 
+    /**
+     * @example "alert"
+     * @optional
+     * @type "alert" | string
+     */
+    role?: TypographyProps["role"];
+
+    /**
+     * @required
+     */
+    value?: CurrencyProps["value"];
+
+    /**
+     * @default bodyText1
+     * @example "bodyText1"
+     * @optional
+     */
+    variant?: TypographyProps["variant"];
+
+  };
+  defaultComponent: D;
+  classKey: LabeledCurrencyClassKey;
 }
+
+export type LabeledCurrencyProps<
+  D extends React.ElementType = LabeledCurrencyTypeMap["defaultComponent"],
+  // eslint-disable-next-line @typescript-eslint/ban-types
+  P = {}
+> = OverrideProps<LabeledCurrencyTypeMap<P, D>, D>;

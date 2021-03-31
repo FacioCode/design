@@ -5,10 +5,10 @@ const styles = createStyles({
     display: "flex",
     justifyContent: "space-between",
   },
-  horizontal: {
+  orientationHorizontal: {
     flexDirection: "row",
   },
-  vertical: {
+  orientationVertical: {
     flexDirection: "column",
   },
 });
