@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.6.1](https://github.com/FacioCode/design/compare/v10.6.0...v10.6.1) (2021-04-01)
+
+
+### Bug Fixes
+
+* **react:** use `Omit` from Material UI types lib ([e94ce41](https://github.com/FacioCode/design/commit/e94ce412fa83cdb37a438c630b5e73aa3ce52ac0))
+
+
+
+
+
 # [10.6.0](https://github.com/FacioCode/design/compare/v10.5.0...v10.6.0) (2021-03-31)
 
 
