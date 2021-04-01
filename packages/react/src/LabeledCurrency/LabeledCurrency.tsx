@@ -52,7 +52,7 @@ const render : Render = (props: LabeledCurrencyProps, ref) => {
         aria-label={ariaLabel} component={"span"} paragraph={false} variant={"inherit"}
         {...CurrencyTypographyProps}
       >
-        <Currency {...CurrencyProps} value={value} />
+        <Currency {...CurrencyProps} value={value || CurrencyProps.value} />
       </Typography>
     </Typography>
   );

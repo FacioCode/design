@@ -1,6 +1,10 @@
 import { CurrencyProps } from "@components/Currency";
 import { Omit } from "@material-ui/types";
+import { Optional } from "@components/types/Optional";
 import { TypographyProps } from "@components/Typography";
+
+type OmittedCurrencyKeys = "css";
+type OmittedCurrencyProps = Omit<CurrencyProps, OmittedCurrencyKeys>;
 
 export interface LabeledCurrencyProps {
 
@@ -8,7 +12,7 @@ export interface LabeledCurrencyProps {
      * @example `{ value: 100 }`
      * @required
      */
-    CurrencyProps?: Partial<Omit<CurrencyProps, "css" | "value">>;
+    CurrencyProps?: Optional<OmittedCurrencyProps, "value">;
 
     /**
      * @optional
