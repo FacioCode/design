@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.3](https://github.com/FacioCode/design/compare/v12.0.2...v12.0.3) (2021-04-01)
+
+
+### Bug Fixes
+
+* **react:** don't omit `css` prop on `CurrencyField` ([914f6bd](https://github.com/FacioCode/design/commit/914f6bd03df1d85cd23c1026ca61207882b45489))
+* **react:** make `LabeledCurrency` some props optional ([216c88f](https://github.com/FacioCode/design/commit/216c88f168a8f8b4abd3ad9457963cbe05eb207d))
+* **react:** make `value` prop on `CurrencyProps` from `LabeledCurrency` ([4a53527](https://github.com/FacioCode/design/commit/4a53527dde5573f7f2ef3b4a8ee2bf6b9d82ceda))
+* **react:** set `LabeledCurrency` `aria-live` prop to `off` by default ([85deaf4](https://github.com/FacioCode/design/commit/85deaf40a3c944ce8d953bd7aaac7579e52501a0))
+
+
+
+## 12.0.1 (2021-04-01)
+
+
+
+
+
 ## [12.0.2](https://github.com/FacioCode/design/compare/v12.0.1...v12.0.2) (2021-04-01)
 
 
