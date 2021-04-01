@@ -11,19 +11,6 @@ export interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
   props: P & {
 
     /**
-     * Currency amount.
-     *
-     * @deprecated `children` property is deprecated since 10.3.0 and will be removed at 11.x.
-     * Please use `value` property instead.
-     *
-     * @alias value
-     * @example <CurrencyValue code={"BRL"} value={100} />
-     * @required
-     * @type number
-     */
-    children?: CurrencyValue
-
-    /**
      * Currency code for currency style. Will be BRL (Brazilian Real) by default.
      *
      * @default "BRL"
@@ -67,5 +54,5 @@ export type CurrencyProps<
   D extends React.ElementType = CurrencyTypeMap["defaultComponent"],
   // eslint-disable-next-line @typescript-eslint/ban-types
   P = {}
-  > = Omit<OverrideProps<CurrencyTypeMap<P, D>, D>, "css">;
+  > = Omit<OverrideProps<CurrencyTypeMap<P, D>, D>, "children" | "css">;
 

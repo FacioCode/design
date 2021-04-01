@@ -8,7 +8,6 @@ type Render = (props: CurrencyProps, ref: CurrencyProps["ref"]) => JSX.Element;
 const render : Render = (props, ref) => {
   const {
     className,
-    children,
     component: Component = "data",
     code = "BRL",
     locales,
@@ -20,7 +19,7 @@ const render : Render = (props, ref) => {
     return null;
   }
 
-  const formattedValue = Number(value) || Number(children);
+  const formattedValue = Number(value);
   const formatter = Intl.NumberFormat(locales, { currency: code, style: "currency" });
 
   const { root } = useStyles();
