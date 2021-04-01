@@ -13,14 +13,13 @@ export default {
 } as Meta;
 
 const Template : Story<LabeledCurrencyProps> = (props: LabeledCurrencyProps) => (
-  <LabeledCurrency {...props} />
+  <LabeledCurrency {...props}>{props.children}</LabeledCurrency>
 );
 
 export const Playground : Story<LabeledCurrencyProps> = Template.bind({});
 Playground.args = {
   "aria-label": "O total a pagar será de R$ 100",
   children: "Total a pagar",
-  code: "BRL",
   value: 100,
 };
 
