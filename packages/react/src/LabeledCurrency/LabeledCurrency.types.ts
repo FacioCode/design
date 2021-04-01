@@ -8,7 +8,7 @@ export interface LabeledCurrencyProps {
      * @example `{ value: 100 }`
      * @required
      */
-    CurrencyProps?: Omit<CurrencyProps, "css" | "value">;
+    CurrencyProps?: Partial<Omit<CurrencyProps, "css" | "value">>;
 
     /**
      * @optional
