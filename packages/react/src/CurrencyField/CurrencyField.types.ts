@@ -1,8 +1,7 @@
 import { InputProps } from "@components/Input";
-import { Omit } from "@material-ui/types";
 import { TextFieldProps } from "@components/TextField";
 
-export interface CurrencyFieldProps extends Omit<TextFieldProps, "css" | "rowsMax"> {
+export interface CurrencyFieldProps extends TextFieldProps {
 
   /**
    * @optional
