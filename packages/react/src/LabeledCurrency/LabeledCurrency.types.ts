@@ -1,18 +1,7 @@
 import { CurrencyProps } from "@components/Currency";
-import { Omit } from "@material-ui/types";
-import { Optional } from "@components/types/Optional";
 import { TypographyProps } from "@components/Typography";
 
-type OmittedCurrencyKeys = "css";
-type OmittedCurrencyProps = Omit<CurrencyProps, OmittedCurrencyKeys>;
-
 export interface LabeledCurrencyProps {
-
-    /**
-     * @example `{ value: 100 }`
-     * @required
-     */
-    CurrencyProps?: Optional<OmittedCurrencyProps, "value">;
 
     /**
      * @optional
@@ -47,6 +36,8 @@ export interface LabeledCurrencyProps {
      */
     className?: TypographyProps["className"] | undefined;
 
+    code?: CurrencyProps["code"];
+
     /**
      * @default true
      * @example true
@@ -54,6 +45,8 @@ export interface LabeledCurrencyProps {
      * @type boolean
      */
     gutterBottom?: TypographyProps["gutterBottom"];
+
+    locales?: CurrencyProps["locales"];
 
     /**
      * @default "horizontal"
@@ -83,9 +76,10 @@ export interface LabeledCurrencyProps {
     role?: TypographyProps["role"];
 
     /**
+     * @example `{ value: 100 }`
      * @optional
      */
-    value?: CurrencyProps["value"];
+    value?: CurrencyProps["value"] | undefined;
 
     /**
      * @default bodyText1
