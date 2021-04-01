@@ -16,21 +16,23 @@ export interface LabeledCurrencyProps {
 
     /**
      * @optional
+     * @type object | undefined
      */
-    CurrencyTypographyProps?: TypographyProps;
+    CurrencyTypographyProps?: TypographyProps | undefined;
 
     /**
      * @example "The total amount to be paid will be $100"
-     * @required
+     * @optional
      * @type string
      */
-    "aria-label": TypographyProps["aria-label"];
+    "aria-label"?: TypographyProps["aria-label"] | undefined;
 
     /**
+     * @default "off"
      * @optional
      * @type "off" | "assertive" | "polite"
      */
-    "aria-live"?: TypographyProps["aria-live"];
+    "aria-live"?: TypographyProps["aria-live"] | undefined;
 
     /**
      * @example "Total amount to be paid"
@@ -41,9 +43,9 @@ export interface LabeledCurrencyProps {
 
     /**
      * @optional
-     * @type string
+     * @type string | undefined
      */
-    className?: TypographyProps["className"];
+    className?: TypographyProps["className"] | undefined;
 
     /**
      * @default true
@@ -54,7 +56,7 @@ export interface LabeledCurrencyProps {
     gutterBottom?: TypographyProps["gutterBottom"];
 
     /**
-     * @default horizontal
+     * @default "horizontal"
      * @optional
      * @type "horizontal" | "vertical"
      */
