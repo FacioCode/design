@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.6.2](https://github.com/FacioCode/design/compare/v10.6.1...v10.6.2) (2021-04-01)
+
+
+### Bug Fixes
+
+* **flutter:** add hardcoded max lenght for pin code input on TextField ([562782d](https://github.com/FacioCode/design/commit/562782db812c7cabb2c3e457351f3dd5ea5cfd1e))
+
+
+
+
+
 ## [10.6.1](https://github.com/FacioCode/design/compare/v10.6.0...v10.6.1) (2021-04-01)
 
 
