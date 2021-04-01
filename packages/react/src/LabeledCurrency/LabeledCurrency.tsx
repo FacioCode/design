@@ -12,7 +12,7 @@ const render : Render = (props: LabeledCurrencyProps, ref) => {
     CurrencyProps,
     CurrencyTypographyProps,
     "aria-label": ariaLabel,
-    "aria-live": ariaLive,
+    "aria-live": ariaLive = "off",
     children,
     className,
     gutterBottom = true,
