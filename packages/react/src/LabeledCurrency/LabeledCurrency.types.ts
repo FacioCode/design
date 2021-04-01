@@ -1,27 +1,26 @@
 import { CurrencyProps } from "@components/Currency";
 import { Omit } from "@material-ui/types";
-import type { OverrideProps } from "@material-ui/core/OverridableComponent";
 import { TypographyProps } from "@components/Typography";
 
-export type LabeledCurrencyClassKey =
-  | "root"
-  | "orientationHorizontal"
-  | "orientationVertical";
+export interface LabeledCurrencyProps {
 
-export type LabeledCurrencyBaseProps = React.HTMLAttributes<HTMLParagraphElement>
-  & Omit<CurrencyProps, "css">;
+    /**
+     * @example `{ value: 100 }`
+     * @required
+     */
+    CurrencyProps?: Omit<CurrencyProps, "css" | "value">;
 
-// eslint-disable-next-line @typescript-eslint/ban-types
-export interface LabeledCurrencyTypeMap<P = {}, D extends React.ElementType = "p"> {
-  props: P & LabeledCurrencyBaseProps & {
-    CurrencyTypographyProps: TypographyProps;
+    /**
+     * @optional
+     */
+    CurrencyTypographyProps?: TypographyProps;
 
     /**
      * @example "The total amount to be paid will be $100"
      * @required
      * @type string
      */
-    "aria-label": CurrencyProps["aria-label"];
+    "aria-label": TypographyProps["aria-label"];
 
     /**
      * @optional
@@ -37,15 +36,10 @@ export interface LabeledCurrencyTypeMap<P = {}, D extends React.ElementType = "p
     children: TypographyProps["children"];
 
     /**
-     * @example BRL
-     * @required
+     * @optional
+     * @type string
      */
-    code: CurrencyProps["code"];
-
-    /**
-     * @ignore
-     */
-    component: CurrencyProps["component"];
+    className?: TypographyProps["className"];
 
     /**
      * @default true
@@ -54,15 +48,6 @@ export interface LabeledCurrencyTypeMap<P = {}, D extends React.ElementType = "p
      * @type boolean
      */
     gutterBottom?: TypographyProps["gutterBottom"];
-
-    /**
-     * Defaults to current browser locale(s).
-     *
-     * @example "pt-BR"
-     * @optional
-     * @type string | string[]
-     */
-    locales?: CurrencyProps["locales"];
 
     /**
      * @default horizontal
@@ -80,6 +65,11 @@ export interface LabeledCurrencyTypeMap<P = {}, D extends React.ElementType = "p
     paragraph?: TypographyProps["paragraph"];
 
     /**
+     * @optional
+     */
+    ref?: TypographyProps["ref"];
+
+    /**
      * @example "alert"
      * @optional
      * @type "alert" | string
@@ -87,7 +77,7 @@ export interface LabeledCurrencyTypeMap<P = {}, D extends React.ElementType = "p
     role?: TypographyProps["role"];
 
     /**
-     * @required
+     * @optional
      */
     value?: CurrencyProps["value"];
 
@@ -97,14 +87,4 @@ export interface LabeledCurrencyTypeMap<P = {}, D extends React.ElementType = "p
      * @optional
      */
     variant?: TypographyProps["variant"];
-
-  };
-  defaultComponent: D;
-  classKey: LabeledCurrencyClassKey;
 }
-
-export type LabeledCurrencyProps<
-  D extends React.ElementType = LabeledCurrencyTypeMap["defaultComponent"],
-  // eslint-disable-next-line @typescript-eslint/ban-types
-  P = {}
-> = Omit<OverrideProps<LabeledCurrencyTypeMap<P, D>, D>, "css">;

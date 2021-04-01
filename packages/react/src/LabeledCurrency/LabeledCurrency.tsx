@@ -9,20 +9,18 @@ type Render = (props: LabeledCurrencyProps, ref: LabeledCurrencyProps["ref"]) =>
 
 const render : Render = (props: LabeledCurrencyProps, ref) => {
   const {
-    CurrencyTypographyProps = { variant: "inherit" },
+    CurrencyProps,
+    CurrencyTypographyProps,
     "aria-label": ariaLabel,
     "aria-live": ariaLive,
     children,
     className,
-    code,
     gutterBottom = true,
-    locales,
     orientation = "horizontal",
     paragraph = true,
     role,
     value,
     variant = "bodyText1",
-    ...otherProps
   } = props;
 
   const {
@@ -40,7 +38,6 @@ const render : Render = (props: LabeledCurrencyProps, ref) => {
     className,
   });
 
-
   return (
     <Typography
       aria-atomic={true} aria-live={ariaLive} className={classNames} component={"p"}
@@ -52,8 +49,10 @@ const render : Render = (props: LabeledCurrencyProps, ref) => {
         {children}
       </Typography>
       <Typography
-        {...CurrencyTypographyProps} aria-label={ariaLabel} component={"span"} paragraph={false}>
-        <Currency code={code} locales={locales} value={Number(value)} {...otherProps} />
+        aria-label={ariaLabel} component={"span"} paragraph={false} variant={"inherit"}
+        {...CurrencyTypographyProps}
+      >
+        <Currency {...CurrencyProps} value={value} />
       </Typography>
     </Typography>
   );
