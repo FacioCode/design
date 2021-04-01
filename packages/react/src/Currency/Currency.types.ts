@@ -1,3 +1,4 @@
+import { Omit } from "@material-ui/types";
 import type { OverrideProps } from "@material-ui/core/OverridableComponent";
 
 type CurrencyClassKey = "root";

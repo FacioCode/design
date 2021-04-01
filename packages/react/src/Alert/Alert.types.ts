@@ -1,4 +1,5 @@
 import { AlertProps as MaterialAlertProps } from "@material-ui/lab/Alert";
+import { Omit } from "@material-ui/types";
 
 type AlertVariant = "filled" | "standard";
 type OmittedProps = "css" | "elevation" | "severity" | "variant";

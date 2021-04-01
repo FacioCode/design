@@ -1,4 +1,5 @@
 import { IconButtonProps } from "@components/IconButton";
+import { Omit } from "@material-ui/types";
 import { SvgIconProps } from "@components/SvgIcon";
 import { TooltipProps } from "@components/Tooltip";
 

@@ -1,4 +1,5 @@
 import type { TableProps as MaterialTableProps } from "@material-ui/core/Table";
+import { Omit } from "@material-ui/types";
 
 export interface TableProps extends Omit<MaterialTableProps, "css"> {
 

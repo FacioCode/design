@@ -1,5 +1,6 @@
 import * as React from "react";
 import { LinkProps as MaterialLinkProps } from "@material-ui/core/Link";
+import { Omit } from "@material-ui/types";
 
 export type LinkColor = "default" | "inherit";
 export type MaterialLinkColor = MaterialLinkProps["color"];

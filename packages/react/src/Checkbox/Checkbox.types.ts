@@ -1,4 +1,5 @@
 import type { CheckboxProps as MaterialCheckboxProps } from "@material-ui/core/Checkbox";
+import { Omit } from "@material-ui/types";
 
 type OmittedProps = |
   "centerRipple" |

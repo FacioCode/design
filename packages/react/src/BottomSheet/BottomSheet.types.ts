@@ -1,3 +1,4 @@
+import { Omit } from "@material-ui/types";
 import { PaperProps } from "../Paper";
 import { SlideProps } from "@material-ui/core/Slide";
 

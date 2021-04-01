@@ -1,4 +1,5 @@
 import type { ContainerProps as MaterialContainerProps } from "@material-ui/core/Container";
+import { Omit } from "@material-ui/types";
 
 type ContainerColor = "transparent" | "grey";
 

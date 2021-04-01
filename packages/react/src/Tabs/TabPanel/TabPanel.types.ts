@@ -1,5 +1,6 @@
-import type { OverrideProps } from "@material-ui/core/OverridableComponent";
 import * as React from "react";
+import { Omit } from "@material-ui/types";
+import type { OverrideProps } from "@material-ui/core/OverridableComponent";
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 export interface TabPanelTypeMap<P = {}, D extends React.ElementType = "div"> {

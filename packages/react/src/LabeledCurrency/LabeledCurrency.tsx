@@ -7,7 +7,7 @@ import { useStyles } from "@components/LabeledCurrency/LabeledCurrency.styles";
 
 type Render = (props: LabeledCurrencyProps, ref: LabeledCurrencyProps["ref"]) => JSX.Element;
 
-const render : Render = (props, ref) => {
+const render : Render = (props: LabeledCurrencyProps, ref) => {
   const {
     CurrencyTypographyProps = { variant: "inherit" },
     "aria-label": ariaLabel,

@@ -1,4 +1,5 @@
 import { ButtonProps as MaterialButtonProps } from "@material-ui/core/Button";
+import { Omit } from "@material-ui/types";
 
 export type ButtonSize = "small" | "medium";
 

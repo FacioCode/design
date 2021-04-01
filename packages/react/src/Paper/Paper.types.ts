@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Omit } from "@material-ui/types";
 import { PaperProps as MaterialPaperProps } from "@material-ui/core/Paper";
 
 // eslint-disable-next-line no-magic-numbers

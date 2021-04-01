@@ -1,5 +1,6 @@
 import * as React from "react";
 import { TabsProps as MaterialTabsProps } from "@material-ui/core/Tabs";
+import { Omit } from "@material-ui/types";
 
 type OmittedProps = |
   "centerRipple" |

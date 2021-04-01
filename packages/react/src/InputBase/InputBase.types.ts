@@ -1,4 +1,5 @@
 import { InputBaseProps as MaterialInputBaseProps } from "@material-ui/core/InputBase";
+import { Omit } from "@material-ui/types";
 
 type InputBaseSize = "medium" | "large";
 

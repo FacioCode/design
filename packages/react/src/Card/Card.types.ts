@@ -1,4 +1,5 @@
 import { CardProps as MaterialCardProps } from "@material-ui/core";
+import { Omit } from "@material-ui/types";
 import { PaperProps } from "../Paper";
 
 type OmittedProps = |

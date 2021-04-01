@@ -1,5 +1,6 @@
 import { AlertProps } from "../Alert";
 import { SnackbarProps as MaterialSnackbarProps } from "@material-ui/core/Snackbar";
+import { Omit } from "@material-ui/types";
 
 export interface SnackbarProps extends Omit<MaterialSnackbarProps, "css"> {
 

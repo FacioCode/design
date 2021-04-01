@@ -1,5 +1,6 @@
 import type { ElementType } from "react";
 import { TypographyProps as MaterialTypographyProps } from "@material-ui/core/Typography";
+import { Omit } from "@material-ui/types";
 
 export type MaterialTypographyColor = MaterialTypographyProps["color"];
 export type MaterialTypographyVariant = MaterialTypographyProps["variant"];

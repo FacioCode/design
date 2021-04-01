@@ -1,4 +1,5 @@
 import { CurrencyProps } from "@components/Currency";
+import { Omit } from "@material-ui/types";
 import type { OverrideProps } from "@material-ui/core/OverridableComponent";
 import { TypographyProps } from "@components/Typography";
 
