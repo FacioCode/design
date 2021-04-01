@@ -9,7 +9,7 @@ export default {
 } as Meta;
 
 const Template : Story<CurrencyProps> = (props: CurrencyProps) => (
-  <Currency {...props}>{props.children}</Currency>
+  <Currency {...props} />
 );
 
 export const Playground : Story<CurrencyProps> = Template.bind({});

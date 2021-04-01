@@ -16,8 +16,8 @@ const Template : Story<FormHelperTextProps> = (props: FormHelperTextProps) => (
 export const Playground : Story<FormHelperTextProps> = Template.bind({});
 Playground.args = {
   children: <>
-    Parcela mínima de <Currency code={"BRL"}>100</Currency>
+    Parcela mínima de <Currency code={"BRL"} value={100} />
     {" "}
-    e máxima de <Currency code={"BRL"}>700</Currency>.
+    e máxima de <Currency code={"BRL"} value={700} />.
   </>,
 };

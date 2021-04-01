@@ -34,6 +34,6 @@ const Template : Story<BottomSheetProps> = (props: BottomSheetProps) => {
 export const Playground : Story<BottomSheetProps> = Template.bind({});
 Playground.args = {
   children: <Typography style={{ flexGrow: 1 }} variant={"bodyText2"}>
-    Total a pagar: <Currency code={"BRL"}>9980.14</Currency>
+    Total a pagar: <Currency code={"BRL"} value={9980.14} />
   </Typography>,
 };

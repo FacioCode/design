@@ -50,7 +50,7 @@ const Template : Story<TableProps> = (props: TableProps) => (
           <TableCell align={"right"}>100</TableCell>
           <TableCell>Luisa Mendes dos Santos</TableCell>
           <TableCell>123.456.789-00</TableCell>
-          <TableCell align={"right"}><Currency code={"BRL"}>100.00</Currency></TableCell>
+          <TableCell align={"right"}><Currency code={"BRL"} value={100} /></TableCell>
         </TableRow>
         <TableRow hover={true} selected={false}>
           <TableCell padding={"checkbox"}>
@@ -65,7 +65,7 @@ const Template : Story<TableProps> = (props: TableProps) => (
           <TableCell align={"right"}>100</TableCell>
           <TableCell>Luisa Mendes dos Santos</TableCell>
           <TableCell>123.456.789-00</TableCell>
-          <TableCell align={"right"}><Currency code={"BRL"}>100.00</Currency></TableCell>
+          <TableCell align={"right"}><Currency code={"BRL"} value={100} /></TableCell>
         </TableRow>
         <TableRow hover={true} selected={true}>
           <TableCell padding={"checkbox"}>
@@ -80,7 +80,7 @@ const Template : Story<TableProps> = (props: TableProps) => (
           <TableCell align={"right"}>100</TableCell>
           <TableCell>Luisa Mendes dos Santos</TableCell>
           <TableCell>123.456.789-00</TableCell>
-          <TableCell align={"right"}><Currency code={"BRL"}>100.00</Currency></TableCell>
+          <TableCell align={"right"}><Currency code={"BRL"} value={100} /></TableCell>
         </TableRow>
       </TableBody>
       <TableFooter />
