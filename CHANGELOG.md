@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.2](https://github.com/FacioCode/design/compare/v12.0.1...v12.0.2) (2021-04-01)
+
+
+### Bug Fixes
+
+* **react:** make `value` prop on `CurrencyProps` from `LabeledCurrency` ([4a53527](https://github.com/FacioCode/design/commit/4a53527dde5573f7f2ef3b4a8ee2bf6b9d82ceda))
+
+
+
+
+
 ## [12.0.1](https://github.com/FacioCode/design/compare/v12.0.0...v12.0.1) (2021-04-01)
 
 
