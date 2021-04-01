@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [11.0.0](https://github.com/FacioCode/design/compare/v10.6.3...v11.0.0) (2021-04-01)
+
+
+### Code Refactoring
+
+* **react:** change `LabeledCurrency` interface ([b423f66](https://github.com/FacioCode/design/commit/b423f66ee525ff50f1376c5b55e2dcab930ae5b1))
+
+
+### BREAKING CHANGES
+
+* **react:** Some properties from `LabeledCurrency` has changed. Now `CurrencyProps` must be used for `code` and `locales` properties. Extra HTML properties were removed and can be added in future versions as needed.
+
+
+
+## 10.6.2 (2021-04-01)
+
+
+
+
+
 ## [10.6.3](https://github.com/FacioCode/design/compare/v10.6.2...v10.6.3) (2021-04-01)
 
 **Note:** Version bump only for package @faciocode/design
