@@ -94,6 +94,8 @@ class FacioInputField extends StatelessWidget {
                   TextInputMask(mask: '(99) 9 9999 9999'),
                 if (_inputType == InputType.pinCode)
                   FilteringTextInputFormatter.digitsOnly,
+                if (_inputType == InputType.pinCode)
+                  LengthLimitingTextInputFormatter(4),
               ],
               keyboardType: keyboardType(),
               decoration: InputDecoration(
