@@ -34,7 +34,7 @@ export interface CurrencyFieldProps extends TextFieldProps {
   error?: TextFieldProps["error"];
 
   /**
-   * @example "detail"
+   * @example "amount"
    * @optional
    * @type string
    */
@@ -43,7 +43,7 @@ export interface CurrencyFieldProps extends TextFieldProps {
   /**
    * @example "Margem consignável correta"
    * @optional
-   * @type node
+   * @type any
    */
   label?: TextFieldProps["label"];
 
@@ -122,15 +122,6 @@ export interface CurrencyFieldProps extends TextFieldProps {
    */
   // eslint-disable-next-line no-magic-numbers
   step?: 0.01 | 1 | 10 | TextFieldProps["inputProps"]["step"];
-
-  /**
-   * @default text
-   * @example "number"
-   * @example "text"
-   * @optional
-   * @type "text" | "number"
-   */
-  type?: "text" | "number";
 
   /**
    * @optional
