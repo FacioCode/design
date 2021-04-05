@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://github.com/FacioCode/design/compare/v12.0.4...v13.0.0) (2021-04-05)
+
+
+### Bug Fixes
+
+* **mui-themes:** prevent number inputs to add arrow buttons ([a61ac36](https://github.com/FacioCode/design/commit/a61ac36ce6da2caf2e36a21b938cc0275fdc7d22))
+* **react:** fix CurrencyField controlled and error behavior ([be4cad2](https://github.com/FacioCode/design/commit/be4cad2b476029522c1d66ea7563cf6eef9adb8b))
+* **react:** remove `Omit` type from `LabeledCurrency` ([bde0326](https://github.com/FacioCode/design/commit/bde0326f8c77c600efa019d1d7dc5cc6b1c42c58))
+
+
+### BREAKING CHANGES
+
+* **react:** `type` prop was removed from `CurrencyField` and, from now, it will be always `"number"`.
+
+
+
+## [12.0.3](https://github.com/FacioCode/design/compare/v12.0.2...v12.0.3) (2021-04-01)
+
+
+### Bug Fixes
+
+* **react:** don't omit `css` prop on `CurrencyField` ([914f6bd](https://github.com/FacioCode/design/commit/914f6bd03df1d85cd23c1026ca61207882b45489))
+* **react:** make `LabeledCurrency` some props optional ([216c88f](https://github.com/FacioCode/design/commit/216c88f168a8f8b4abd3ad9457963cbe05eb207d))
+* **react:** set `LabeledCurrency` `aria-live` prop to `off` by default ([85deaf4](https://github.com/FacioCode/design/commit/85deaf40a3c944ce8d953bd7aaac7579e52501a0))
+
+
+
+## [12.0.2](https://github.com/FacioCode/design/compare/v12.0.1...v12.0.2) (2021-04-01)
+
+
+### Bug Fixes
+
+* **react:** make `value` prop on `CurrencyProps` from `LabeledCurrency` ([4a53527](https://github.com/FacioCode/design/commit/4a53527dde5573f7f2ef3b4a8ee2bf6b9d82ceda))
+
+
+
+## 12.0.1 (2021-04-01)
+
+
+
+
+
 ## [12.0.4](https://github.com/FacioCode/design/compare/v12.0.3...v12.0.4) (2021-04-01)
 
 

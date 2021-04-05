@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://github.com/FacioCode/design/compare/v12.0.4...v13.0.0) (2021-04-05)
+
+
+### Bug Fixes
+
+* **mui-themes:** prevent number inputs to add arrow buttons ([a61ac36](https://github.com/FacioCode/design/commit/a61ac36ce6da2caf2e36a21b938cc0275fdc7d22))
+
+
+
+## [12.0.3](https://github.com/FacioCode/design/compare/v12.0.2...v12.0.3) (2021-04-01)
+
+
+
+
+
 ## [12.0.4](https://github.com/FacioCode/design/compare/v12.0.3...v12.0.4) (2021-04-01)
 
 **Note:** Version bump only for package @faciocode/mui-themes
