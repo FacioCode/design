@@ -1,5 +1,5 @@
 /* eslint-disable sort-keys */
-import { customProperties } from "@faciocode/styles";
+import { customProperties, sizeTokens } from "@faciocode/styles";
 
 const { placeholder } = customProperties.inputBaseStyles;
 
@@ -17,6 +17,13 @@ export const MuiInputBase = {
     "&::-moz-placeholder": placeholder,
     "&::-ms-input-placeholder": placeholder,
     "&::-webkit-input-placeholder": placeholder,
+    "&::-webkit-outer-spin-button, &::-webkit-inner-spin-button": {
+      WebkitAppearance: "none",
+      margin: sizeTokens.baseNone,
+    },
+    "&[type=number]": {
+      MozAppearance: "textfield",
+    },
   },
 };
 
