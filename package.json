@@ -47,7 +47,7 @@
     "ts-node": "9.1.1",
     "tsconfig-paths-webpack-plugin": "3.5.1",
     "typescript": "4.2.3",
-    "webfont": "10.0.0-alpha.3"
+    "webfont": "latest"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
