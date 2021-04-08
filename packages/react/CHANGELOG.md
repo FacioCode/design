@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.3](https://github.com/FacioCode/design/compare/v13.0.2...v13.0.3) (2021-04-08)
+
+
+
+## [13.0.1](https://github.com/FacioCode/design/compare/v13.0.0...v13.0.1) (2021-04-06)
+
+
+### Bug Fixes
+
+* **react:** accept all keyboard shortcuts on `CurrencyField` ([339bcaa](https://github.com/FacioCode/design/commit/339bcaab1bf61bfc2219b06b841e61e3df058e50))
+
+
+
+# 13.0.0 (2021-04-05)
+
+
+
+
+
 ## [13.0.2](https://github.com/FacioCode/design/compare/v13.0.1...v13.0.2) (2021-04-08)
 
 
