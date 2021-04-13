@@ -27,7 +27,7 @@
     "@types/estree": "0.0.47",
     "@types/lodash": "4.14.168",
     "@types/react": "17.0.3",
-    "@typescript-eslint/eslint-plugin": "4.20.0",
+    "@typescript-eslint/eslint-plugin": "4.22.0",
     "@typescript-eslint/parser": "4.20.0",
     "chromatic": "5.7.0",
     "conventional-changelog-cli": "2.1.1",
