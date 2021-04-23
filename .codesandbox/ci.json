@@ -1,4 +1,4 @@
 {
-  "packages": ["packages/react", "packages/react-unstyled", "packages/styles"],
+  "packages": ["packages/mui-themes", "packages/react", "packages/styles"],
   "sandboxes": ["new"]
 }
