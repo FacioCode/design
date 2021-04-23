@@ -1089,7 +1089,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Code Refactoring
 
-* **react-unstyled:** delete package ([b6f5279](https://github.com/FacioCode/design/commit/b6f527945ddf7224bc9e0abb17e3a9d2629c274f))
+* **react:** delete package ([b6f5279](https://github.com/FacioCode/design/commit/b6f527945ddf7224bc9e0abb17e3a9d2629c274f))
 
 
 ### Features
@@ -1099,7 +1099,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* **react-unstyled:** `@faciocode/react-unstyled` package will not be published anymore. Please use `@faciocode/react`.
+* **react:** `@faciocode/react` package will not be published anymore. Please use `@faciocode/react`.
 
 
 
@@ -1139,9 +1139,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **react:** add StyledProps type ([e652ce0](https://github.com/FacioCode/design/commit/e652ce09b34b3821acc5dd434d2b427a75f584d0))
 * **react:** add styles and displayName for Card ([8ff26bc](https://github.com/FacioCode/design/commit/8ff26bc39cd6dd95eeb6a2bdb388ea074a9c592c))
 * **react:** add support to `classes` and `className` properties ([da624c2](https://github.com/FacioCode/design/commit/da624c25f0047150ccf16239bb9d10a546be7e95))
-* **react-unstyled:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
-* **react-unstyled:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
-* **react-unstyled:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
+* **react:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
+* **react:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
+* **react:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
 * **style-dictionary:** add paper component tokens ([64c1618](https://github.com/FacioCode/design/commit/64c1618f29a4615593eb8d4b36bced7aeea2ab40))
 * **styles:** add backgroundColor and color for Paper component ([d49dc03](https://github.com/FacioCode/design/commit/d49dc03c63849502b8c4eb2a37240b0561711bfb))
 * **styles:** add border radius values for Paper ([346d5fb](https://github.com/FacioCode/design/commit/346d5fbaf66a8238508c4bb7b745265cfaeed698))
@@ -1205,9 +1205,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **react:** add StyledProps type ([e652ce0](https://github.com/FacioCode/design/commit/e652ce09b34b3821acc5dd434d2b427a75f584d0))
 * **react:** add styles and displayName for Card ([8ff26bc](https://github.com/FacioCode/design/commit/8ff26bc39cd6dd95eeb6a2bdb388ea074a9c592c))
 * **react:** add support to `classes` and `className` properties ([da624c2](https://github.com/FacioCode/design/commit/da624c25f0047150ccf16239bb9d10a546be7e95))
-* **react-unstyled:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
-* **react-unstyled:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
-* **react-unstyled:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
+* **react:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
+* **react:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
+* **react:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
 * **style-dictionary:** add paper component tokens ([64c1618](https://github.com/FacioCode/design/commit/64c1618f29a4615593eb8d4b36bced7aeea2ab40))
 * **styles:** add backgroundColor and color for Paper component ([d49dc03](https://github.com/FacioCode/design/commit/d49dc03c63849502b8c4eb2a37240b0561711bfb))
 * **styles:** add border radius values for Paper ([346d5fb](https://github.com/FacioCode/design/commit/346d5fbaf66a8238508c4bb7b745265cfaeed698))
@@ -1250,9 +1250,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **react:** add StyledProps type ([e652ce0](https://github.com/FacioCode/design/commit/e652ce09b34b3821acc5dd434d2b427a75f584d0))
 * **react:** add styles and displayName for Card ([8ff26bc](https://github.com/FacioCode/design/commit/8ff26bc39cd6dd95eeb6a2bdb388ea074a9c592c))
 * **react:** add support to `classes` and `className` properties ([da624c2](https://github.com/FacioCode/design/commit/da624c25f0047150ccf16239bb9d10a546be7e95))
-* **react-unstyled:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
-* **react-unstyled:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
-* **react-unstyled:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
+* **react:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
+* **react:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
+* **react:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
 * **style-dictionary:** add paper component tokens ([64c1618](https://github.com/FacioCode/design/commit/64c1618f29a4615593eb8d4b36bced7aeea2ab40))
 * **styles:** add backgroundColor and color for Paper component ([d49dc03](https://github.com/FacioCode/design/commit/d49dc03c63849502b8c4eb2a37240b0561711bfb))
 * **styles:** add border radius values for Paper ([346d5fb](https://github.com/FacioCode/design/commit/346d5fbaf66a8238508c4bb7b745265cfaeed698))
@@ -1295,9 +1295,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **react:** add StyledProps type ([e652ce0](https://github.com/FacioCode/design/commit/e652ce09b34b3821acc5dd434d2b427a75f584d0))
 * **react:** add styles and displayName for Card ([8ff26bc](https://github.com/FacioCode/design/commit/8ff26bc39cd6dd95eeb6a2bdb388ea074a9c592c))
 * **react:** add support to `classes` and `className` properties ([da624c2](https://github.com/FacioCode/design/commit/da624c25f0047150ccf16239bb9d10a546be7e95))
-* **react-unstyled:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
-* **react-unstyled:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
-* **react-unstyled:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
+* **react:** create Paper component ([44cbc1f](https://github.com/FacioCode/design/commit/44cbc1f7d0729df4e67c37f72c18ed97794438d2))
+* **react:** make Card use Paper component ([6f78b28](https://github.com/FacioCode/design/commit/6f78b28bb1f008588cae70f954755e8661e87416))
+* **react:** make Paper component available ([58e8aef](https://github.com/FacioCode/design/commit/58e8aef6e6b2c661bf6d0fcd99f01891677cf38e))
 * **style-dictionary:** add paper component tokens ([64c1618](https://github.com/FacioCode/design/commit/64c1618f29a4615593eb8d4b36bced7aeea2ab40))
 * **styles:** add backgroundColor and color for Paper component ([d49dc03](https://github.com/FacioCode/design/commit/d49dc03c63849502b8c4eb2a37240b0561711bfb))
 * **styles:** add border radius values for Paper ([346d5fb](https://github.com/FacioCode/design/commit/346d5fbaf66a8238508c4bb7b745265cfaeed698))
@@ -1410,8 +1410,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **flutter:** add styles for Card ([ef36e08](https://github.com/FacioCode/design/commit/ef36e08a4ca726817fbccddf8e61963e2d504a68))
 * **react:** add new Card component ([75a79ae](https://github.com/FacioCode/design/commit/75a79ae0dc5fabaa7cc582af71c3268eb0b48cc7))
 * **react:** create cssVarName util for consuming styles ([3e14a14](https://github.com/FacioCode/design/commit/3e14a145af8fba3e9e60a731c8f642bf783f3597))
-* **react-unstyled:** add new Card component ([37dd75f](https://github.com/FacioCode/design/commit/37dd75fc0fe3e4ea4b45c0733486f530455989d3))
-* **react-unstyled:** add UnstyledComponent type ([d2aa0a4](https://github.com/FacioCode/design/commit/d2aa0a4a61d43f601644e4da1e9d95b32e9d103d))
+* **react:** add new Card component ([37dd75f](https://github.com/FacioCode/design/commit/37dd75fc0fe3e4ea4b45c0733486f530455989d3))
+* **react:** add UnstyledComponent type ([d2aa0a4](https://github.com/FacioCode/design/commit/d2aa0a4a61d43f601644e4da1e9d95b32e9d103d))
 * **styles:** add card component tokens ([dbf76a4](https://github.com/FacioCode/design/commit/dbf76a4f29c8886e0b00e764ff0314cf793b9c01))
 * **styles:** add lineHeight for input, add margins for typography variants ([8f37f8a](https://github.com/FacioCode/design/commit/8f37f8afe00c12bdb0991622a06f9da830e53889))
 * **styles:** add margin styles for typography component token ([3e30bf6](https://github.com/FacioCode/design/commit/3e30bf61e8f701ac2a53c50d990ea8d3b5c0d43c))
@@ -2633,7 +2633,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **react-unstyled:** make *Element types available ([3fd07d5](https://github.com/FacioCode/design/commit/3fd07d5e81c5bc614fab67fbbae9507e9e19ea60))
+* **react:** make *Element types available ([3fd07d5](https://github.com/FacioCode/design/commit/3fd07d5e81c5bc614fab67fbbae9507e9e19ea60))
 * **styles:** add alignment transform for Flutter ([4a626bd](https://github.com/FacioCode/design/commit/4a626bdb5583c0196ee8045dfd3771112718359d))
 * **styles:** add fontSizeToRem transform ([01594d5](https://github.com/FacioCode/design/commit/01594d5e3d911f147d78e4dc2b875e01ff57f088))
 * **styles:** add fontWeight transform for Flutter ([025d712](https://github.com/FacioCode/design/commit/025d712e74170e070dd9ab585b96f931c6d50e3d))
@@ -2670,10 +2670,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **react-unstyled:** add ButtonBase component ([b13068c](https://github.com/FacioCode/design/commit/b13068c3de811b97756f000c6f88f7894f6c300b))
-* **react-unstyled:** add FormLabel component ([a1d9bbb](https://github.com/FacioCode/design/commit/a1d9bbb94bf7b32b2d2823e2f44f1acf36773be9))
-* **react-unstyled:** add InputBase component ([70bd2b6](https://github.com/FacioCode/design/commit/70bd2b6d4a4e700f69c166616864948c115a726a))
-* **react-unstyled:** make unstylerd components available ([d0cc855](https://github.com/FacioCode/design/commit/d0cc8556c8b1abdf586d0b94ca155ae7522e7c4f))
+* **react:** add ButtonBase component ([b13068c](https://github.com/FacioCode/design/commit/b13068c3de811b97756f000c6f88f7894f6c300b))
+* **react:** add FormLabel component ([a1d9bbb](https://github.com/FacioCode/design/commit/a1d9bbb94bf7b32b2d2823e2f44f1acf36773be9))
+* **react:** add InputBase component ([70bd2b6](https://github.com/FacioCode/design/commit/70bd2b6d4a4e700f69c166616864948c115a726a))
+* **react:** make components available ([d0cc855](https://github.com/FacioCode/design/commit/d0cc8556c8b1abdf586d0b94ca155ae7522e7c4f))
 
 
 
