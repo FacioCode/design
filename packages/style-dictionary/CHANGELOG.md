@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.30](https://github.com/FacioCode/design/compare/v13.0.29...v13.0.30) (2021-05-11)
+
+
+### Bug Fixes
+
+* fix security issues with dependencies ([059fd68](https://github.com/FacioCode/design/commit/059fd68416a08e078af03251840adf7188609b40))
+
+
+
+## 13.0.28 (2021-05-11)
+
+
+
+
+
 ## [13.0.29](https://github.com/FacioCode/design/compare/v13.0.28...v13.0.29) (2021-05-11)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
