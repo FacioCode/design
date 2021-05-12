@@ -1,7 +1,6 @@
 import PeerDepsExternalPlugin from "rollup-plugin-peer-deps-external";
 import nodeResolve from "@rollup/plugin-node-resolve";
 import path from "path";
-import postcss from "rollup-plugin-postcss";
 import { terser } from "rollup-plugin-terser";
 import typescript from "@rollup/plugin-typescript";
 
@@ -10,9 +9,6 @@ const plugins = [
   nodeResolve(),
   PeerDepsExternalPlugin(),
   typescript(),
-  postcss({
-    modules: true,
-  }),
 ];
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
