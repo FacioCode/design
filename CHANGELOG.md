@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.31](https://github.com/FacioCode/design/compare/v13.0.30...v13.0.31) (2021-05-12)
+
+
+### Bug Fixes
+
+* **deps:** upgrade deps to fix security issues ([f1ad200](https://github.com/FacioCode/design/commit/f1ad200d90ddc748d2bba1317dfc9d5656c90039))
+
+
+
+
+
 ## [13.0.30](https://github.com/FacioCode/design/compare/v13.0.29...v13.0.30) (2021-05-11)
 
 
