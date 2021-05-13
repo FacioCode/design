@@ -26,7 +26,7 @@
     "@stryker-mutator/jest-runner": "4.5.1",
     "@types/estree": "0.0.47",
     "@types/jest": "latest",
-    "@types/lodash": "4.14.168",
+    "@types/lodash": "4.14.169",
     "@types/react": "17.0.5",
     "@typescript-eslint/eslint-plugin": "4.23.0",
     "@typescript-eslint/parser": "latest",
