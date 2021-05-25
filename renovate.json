@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "assignees": ["jimmyandrade"],
+  "automerge": true,
+  "enabled": true,
+  "labels": ["dependencies", "renovate"],
+  "packageRules": [
+    {
+      "paths": ["package.json"],
+      "labels": ["dependencies", "renovate", "root package"]
+    },
+    {
+      "paths": ["packages/flutter_ds/package.json"],
+      "labels": ["dependencies", "flutter_ds", "renovate"]
+    },
+    {
+      "paths": ["packages/mui-themes/package.json"],
+      "labels": ["dependencies", "mui-themes", "renovate"]
+    },
+    {
+      "paths": ["packages/react/package.json"],
+      "labels": ["dependencies", "react", "renovate"]
+    },
+    {
+      "paths": ["packages/style-dictionary/package.json"],
+      "labels": ["dependencies", "renovate", "style-dictionary"]
+    },
+    {
+      "paths": ["packages/styles/package.json"],
+      "labels": ["dependencies", "renovate", "styles"]
+    }
+  ],
+  "semanticCommits": "enabled",
+  "unicodeEmoji": true,
+  "updateLockFiles": true
+}
