@@ -1,9 +1,9 @@
 {
   "name": "@faciocode/design",
+  "private": true,
   "version": "0.0.0",
   "displayName": "Root",
   "description": "Root package for Design System for Facio",
-  "private": true,
   "workspaces": [
     "packages/flutter_ds",
     "packages/mui-themes",
@@ -13,6 +13,7 @@
   ],
   "devDependencies": {
     "@babel/preset-typescript": "7.13.0",
+    "@jest/types": "26.6.2",
     "@rollup/plugin-node-resolve": "13.0.0",
     "@rollup/plugin-typescript": "8.2.1",
     "@storybook/addon-a11y": "6.2.9",
@@ -30,11 +31,14 @@
     "@types/react": "17.0.5",
     "@typescript-eslint/eslint-plugin": "4.23.0",
     "@typescript-eslint/parser": "latest",
+    "alex": "latest",
     "chromatic": "latest",
     "conventional-changelog-cli": "2.1.1",
     "eslint": "7.26.0",
     "eslint-plugin-react": "7.23.2",
+    "eslint-plugin-react-hooks": "latest",
     "handlebars": "4.7.7",
+    "husky": "latest",
     "jest": "26.6.3",
     "lerna": "4.0.0",
     "lodash": "4.17.21",
@@ -50,6 +54,7 @@
     "webfont": "latest"
   },
   "scripts": {
+    "alex": "alex .",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "clean": "lerna clean",
@@ -57,7 +62,8 @@
     "pretest": "npm run build",
     "preversion": "npm run test",
     "reinstall": "npx rimraf package-lock.json packages/*/package-lock.json node_modules packages/*/node_modules && npm install --legacy-peer-deps",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "testu": "npm run test -- -u"
   },
   "repository": {
     "type": "git",
@@ -78,5 +84,13 @@
   "homepage": "https://github.com/FacioCode/design#readme",
   "engines": {
     "node": ">=10.0.0"
+  },
+  "changelog": {
+    "labels": {
+      "bug": "Bug Fix",
+      "dependencies": "Dependency update",
+      "documentation": "Docs",
+      "enhancement": "New Feature"
+    }
   }
 }
