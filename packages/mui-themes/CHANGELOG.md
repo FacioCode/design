@@ -3,6 +3,94 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.44](https://github.com/FacioCode/design/compare/v13.0.43...v13.0.44) (2021-05-25)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.43](https://github.com/FacioCode/design/compare/v13.0.42...v13.0.43) (2021-05-25)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.42](https://github.com/FacioCode/design/compare/v13.0.41...v13.0.42) (2021-05-24)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.41](https://github.com/FacioCode/design/compare/v13.0.40...v13.0.41) (2021-05-24)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.40](https://github.com/FacioCode/design/compare/v13.0.39...v13.0.40) (2021-05-24)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.39](https://github.com/FacioCode/design/compare/v13.0.38...v13.0.39) (2021-05-24)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.38](https://github.com/FacioCode/design/compare/v13.0.37...v13.0.38) (2021-05-24)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.37](https://github.com/FacioCode/design/compare/v13.0.36...v13.0.37) (2021-05-20)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.36](https://github.com/FacioCode/design/compare/v13.0.35...v13.0.36) (2021-05-20)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.35](https://github.com/FacioCode/design/compare/v13.0.34...v13.0.35) (2021-05-18)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+## [13.0.34](https://github.com/FacioCode/design/compare/v13.0.33...v13.0.34) (2021-05-18)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
 ## [13.0.33](https://github.com/FacioCode/design/compare/v13.0.32...v13.0.33) (2021-05-14)
 
 **Note:** Version bump only for package @faciocode/mui-themes
