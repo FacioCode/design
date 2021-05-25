@@ -43,6 +43,12 @@ export default ({ browser, displayName, globals = {}, source }) => [
         sourcemap: true,
       },
       {
+        file: "dist/iife/index.js",
+        format: "iife",
+        globals,
+        name: displayName,
+      },
+      {
         file: "dist/umd/index.min.js",
         format: "umd",
         globals,
