@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.45](https://github.com/FacioCode/design/compare/v13.0.44...v13.0.45) (2021-05-25)
+
+
+### Bug Fixes
+
+* **react:** add missing `inputRef` prop definition to `CurrencyField` ([a215d72](https://github.com/FacioCode/design/commit/a215d72c80c23869927be1b11a244460c1a0853d))
+
+
+
+## 13.0.33 (2021-05-14)
+
+
+
+
+
 ## [13.0.44](https://github.com/FacioCode/design/compare/v13.0.43...v13.0.44) (2021-05-25)
 
 **Note:** Version bump only for package @faciocode/react
