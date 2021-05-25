@@ -1,13 +1,15 @@
 {
   "command": {
+    "init": {
+      "exact": true
+    },
     "version": {
       "allowBranch": "main",
       "message": "chore(release): publish %s [skip ci]"
     }
   },
   "packages": [
-    "packages/*",
-    "examples/*"
+    "packages/*"
   ],
   "version": "13.0.33"
 }
