@@ -40,6 +40,8 @@ export interface CurrencyFieldProps extends TextFieldProps {
    */
   id?: TextFieldProps["id"];
 
+  inputRef?: TextFieldProps["inputRef"];
+
   /**
    * @example "Margem consignável correta"
    * @optional
