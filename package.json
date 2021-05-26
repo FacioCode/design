@@ -13,7 +13,7 @@
   ],
   "devDependencies": {
     "@babel/preset-typescript": "7.13.0",
-    "@jest/types": "26.6.2",
+    "@jest/types": "27.0.1",
     "@rollup/plugin-node-resolve": "13.0.0",
     "@rollup/plugin-typescript": "8.2.1",
     "@storybook/addon-a11y": "6.2.9",
