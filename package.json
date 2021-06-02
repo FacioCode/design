@@ -28,7 +28,7 @@
     "@types/estree": "0.0.48",
     "@types/jest": "latest",
     "@types/lodash": "4.14.170",
-    "@types/react": "17.0.5",
+    "@types/react": "17.0.9",
     "@typescript-eslint/eslint-plugin": "4.25.0",
     "@typescript-eslint/parser": "latest",
     "alex": "latest",
