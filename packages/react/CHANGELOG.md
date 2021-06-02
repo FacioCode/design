@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.50](https://github.com/FacioCode/design/compare/v13.0.49...v13.0.50) (2021-06-02)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
 ## [13.0.49](https://github.com/FacioCode/design/compare/v13.0.48...v13.0.49) (2021-06-01)
 
 **Note:** Version bump only for package @faciocode/react
