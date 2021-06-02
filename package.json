@@ -25,7 +25,7 @@
     "@storybook/theming": "6.2.9",
     "@stryker-mutator/core": "4.5.1",
     "@stryker-mutator/jest-runner": "4.5.1",
-    "@types/estree": "0.0.47",
+    "@types/estree": "0.0.48",
     "@types/jest": "latest",
     "@types/lodash": "4.14.170",
     "@types/react": "17.0.5",
