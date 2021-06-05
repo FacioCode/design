@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.51](https://github.com/FacioCode/design/compare/v13.0.50...v13.0.51) (2021-06-05)
+
+
+### Bug Fixes
+
+* **flutter:** upgrade `flutter_svg` dependency to `^0.22.0` ([c12b7d9](https://github.com/FacioCode/design/commit/c12b7d934f88599e506339e719234389b08828aa))
+
+
+
+
+
 ## [13.0.50](https://github.com/FacioCode/design/compare/v13.0.49...v13.0.50) (2021-06-02)
 
 **Note:** Version bump only for package facio_design_system
