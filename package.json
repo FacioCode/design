@@ -34,7 +34,7 @@
     "alex": "latest",
     "chromatic": "latest",
     "conventional-changelog-cli": "2.1.1",
-    "eslint": "7.27.0",
+    "eslint": "7.28.0",
     "eslint-plugin-react": "7.24.0",
     "eslint-plugin-react-hooks": "latest",
     "handlebars": "4.7.7",
