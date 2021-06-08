@@ -51,6 +51,7 @@ export { default as LabeledCurrency, LabeledCurrencyProps } from "./LabeledCurre
 export { default as LinearProgress, LinearProgressProps } from "./LinearProgress";
 export { Link, LinkProps } from "./Link";
 export { default as Paper, PaperProps } from "./Paper";
+export { PhoneField, PhoneFieldProps } from "./PhoneField";
 export { default as Popover, PopoverProps } from "./Popover";
 export { default as Skeleton, SkeletonProps } from "./Skeleton";
 export { Snackbar, SnackbarProps } from "./Snackbar";
