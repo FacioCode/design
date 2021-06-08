@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.1.0](https://github.com/FacioCode/design/compare/v13.0.53...v13.1.0) (2021-06-08)
+
+
+### Features
+
+* **react:** add `PhoneField` component ([0cbc497](https://github.com/FacioCode/design/commit/0cbc4973095f3da65130636fb321899aa2955b45))
+
+
+
+## 13.0.51 (2021-06-05)
+
+
+
+
+
 ## [13.0.53](https://github.com/FacioCode/design/compare/v13.0.52...v13.0.53) (2021-06-07)
 
 **Note:** Version bump only for package @faciocode/react
