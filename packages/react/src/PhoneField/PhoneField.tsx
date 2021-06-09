@@ -14,7 +14,7 @@ const render : Render = (props, ref) => {
   return (
     <TextField
       InputProps={{
-        startAdornment: "+55",
+        inputMode: "numeric",
       }}
       allowRecording={allowRecording}
       autoComplete={autoComplete}
