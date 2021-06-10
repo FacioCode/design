@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.2.3](https://github.com/FacioCode/design/compare/v13.2.2...v13.2.3) (2021-06-10)
+
+
+### Bug Fixes
+
+* **react:** allow spaces, hyphens and parens at `PhoneField` pattern ([cf30937](https://github.com/FacioCode/design/commit/cf30937e050b6c5db0729fa9a495a986c89e23cb))
+
+
+
+
+
 ## [13.2.2](https://github.com/FacioCode/design/compare/v13.2.1...v13.2.2) (2021-06-10)
 
 **Note:** Version bump only for package @faciocode/design
