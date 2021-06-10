@@ -5,9 +5,16 @@ import { TextField } from "@components/TextField";
 type Render = (props: PhoneFieldProps, ref: PhoneFieldProps["ref"]) => JSX.Element;
 
 const render : Render = (props, ref) => {
+  const defaultInputProps = {
+    maxLength: 16,
+    minLength: 11,
+    pattern: "\\(?\\d{2}\\)?(\\s|-)*9(-|\\s)*\\d{4}(-|\\s)*\\d{4}",
+  };
+
   const {
     allowRecording = false,
     autoComplete = "tel-national",
+    inputProps,
     ...otherProps
   } = props;
 
@@ -19,9 +26,8 @@ const render : Render = (props, ref) => {
       allowRecording={allowRecording}
       autoComplete={autoComplete}
       inputProps={{
-        maxLength: 16,
-        minLength: 11,
-        pattern: "\\d{2}9\\d{4}\\d{4}",
+        ...defaultInputProps,
+        ...inputProps,
       }}
       ref={ref}
       type={"tel"}
