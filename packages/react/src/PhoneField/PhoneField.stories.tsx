@@ -6,7 +6,7 @@ import { ContainedButton } from "@components/Button";
 
 export default {
   component: PhoneField,
-  title: "Field Components/Phone Field",
+  title: "Components/Fields/Phone Field",
 } as Meta;
 
 const Template : Story<PhoneFieldProps> = (props: PhoneFieldProps) => (
@@ -19,7 +19,7 @@ const Template : Story<PhoneFieldProps> = (props: PhoneFieldProps) => (
 export const Playground : Story<PhoneFieldProps> = Template.bind({});
 Playground.args = {
   id: "phone-field",
-  label: "Número de telefone",
+  label: "Número de telefone com DDD",
   name: "phone",
 };
 
