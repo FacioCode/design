@@ -5,7 +5,7 @@ import type { TextFieldProps } from "./TextField.types";
 
 export default {
   component: TextField,
-  title: "Field Components/Text Field",
+  title: "Components/Fields/Text Field",
 } as Meta;
 
 const Template : Story<TextFieldProps> = (props: TextFieldProps) => (
