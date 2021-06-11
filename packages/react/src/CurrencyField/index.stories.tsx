@@ -6,7 +6,7 @@ import { LabeledCurrency } from "@components/LabeledCurrency";
 
 export default {
   component: CurrencyField,
-  title: "Components/Currency Field",
+  title: "Components/Fields/Currency Field",
 } as Meta;
 
 const UncontrolledTemplate : Story<CurrencyFieldProps> = (props: CurrencyFieldProps) => (
