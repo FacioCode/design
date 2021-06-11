@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.2.4](https://github.com/FacioCode/design/compare/v13.2.3...v13.2.4) (2021-06-11)
+
+
+### Bug Fixes
+
+* **react:** prevent invalid chars on `PhoneField`, improve pattern ([4dbe315](https://github.com/FacioCode/design/commit/4dbe315118b514fafa263798c9b7543b4e74c1be))
+
+
+
+
+
 ## [13.2.3](https://github.com/FacioCode/design/compare/v13.2.2...v13.2.3) (2021-06-10)
 
 
