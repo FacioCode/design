@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.2.7](https://github.com/FacioCode/design/compare/v13.2.6...v13.2.7) (2021-06-14)
+
+**Note:** Version bump only for package @faciocode/design
+
+
+
+
+
 ## [13.2.6](https://github.com/FacioCode/design/compare/v13.2.5...v13.2.6) (2021-06-14)
 
 **Note:** Version bump only for package @faciocode/design
