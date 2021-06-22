@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.2.19](https://github.com/FacioCode/design/compare/v13.2.18...v13.2.19) (2021-06-22)
+
+
+### Bug Fixes
+
+* **deps:** update storybook to next (6.3) ([609f2dd](https://github.com/FacioCode/design/commit/609f2dd9dd1cac322f9bd9cea6b8cc6202f2de5d))
+
+
+
+## [13.2.17](https://github.com/FacioCode/design/compare/v13.2.16...v13.2.17) (2021-06-22)
+
+
+
+## 13.2.16 (2021-06-18)
+
+
+
+
+
 ## [13.2.18](https://github.com/FacioCode/design/compare/v13.2.17...v13.2.18) (2021-06-22)
 
 
