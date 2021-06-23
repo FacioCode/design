@@ -23,6 +23,11 @@ export default ({ browser, displayName, globals = {}, source }) => [
         dir: "dist",
         format: "cjs",
       },
+      {
+        chunkFileNames: "[name].js",
+        dir: "dist/es",
+        format: "es",
+      },
     ],
     plugins,
   },

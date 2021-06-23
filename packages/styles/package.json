@@ -24,8 +24,11 @@
     "dist"
   ],
   "browser": "dist/umd/index.js",
+  "esmodule": "dist/es/index.js",
   "jsdelivr": "dist/umd/index.min.js",
+  "jsnext:main": "dist/es/index.js",
   "main": "dist/index.js",
+  "module": "dist/es/index.js",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
