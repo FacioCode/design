@@ -1,7 +1,7 @@
 {
 	"name": "@faciocode/react",
 	"displayName": "FacioReact",
-	"version": "13.2.19",
+	"version": "14.0.0",
 	"private": false,
 	"description": "React components for Facio",
 	"keywords": [
@@ -28,11 +28,11 @@
 		"README.md",
 		"dist/index.d.ts"
 	],
-  "esmodule": "dist/es/index.js",
-  "jsdelivr": "dist/umd/index.js",
-  "jsnext:main": "dist/es/index.js",
-  "main": "dist/index.js",
-  "module": "dist/es/index.js",
+	"esmodule": "dist/es/index.js",
+	"jsdelivr": "dist/umd/index.js",
+	"jsnext:main": "dist/es/index.js",
+	"main": "dist/index.js",
+	"module": "dist/es/index.js",
 	"source": "src/index.ts",
 	"types": "dist/index.d.ts",
 	"typings": "dist/index.d.ts",
@@ -52,8 +52,8 @@
 		"react-dom": "^17.0.2"
 	},
 	"dependencies": {
-		"@faciocode/mui-themes": "^13.2.19",
-		"@faciocode/styles": "^13.2.19",
+		"@faciocode/mui-themes": "^14.0.0",
+		"@faciocode/styles": "^14.0.0",
 		"@material-ui/core": "4.11.3",
 		"@material-ui/lab": "4.0.0-alpha.58",
 		"clsx": "1.1.1",

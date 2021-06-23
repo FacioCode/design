@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.0.0](https://github.com/FacioCode/design/compare/v13.2.19...v14.0.0) (2021-06-23)
+
+
+### Bug Fixes
+
+* **deps:** update storybook to next (6.3) ([609f2dd](https://github.com/FacioCode/design/commit/609f2dd9dd1cac322f9bd9cea6b8cc6202f2de5d))
+
+
+### Build System
+
+* remove support to ES package format ([22e57c4](https://github.com/FacioCode/design/commit/22e57c47ee9119de994acb759180a7628939cd33))
+
+
+### Reverts
+
+* bring back support to ES modules ([37dda51](https://github.com/FacioCode/design/commit/37dda51d7ebff6cbb2e6e06e053094d1f5fdaa98))
+
+
+### BREAKING CHANGES
+
+* We dropped support to ES module format. Probably your bundler (like webpack) will use CommonJS from now.
+
+
+
+## [13.2.18](https://github.com/FacioCode/design/compare/v13.2.17...v13.2.18) (2021-06-22)
+
+
+
+## [13.2.17](https://github.com/FacioCode/design/compare/v13.2.16...v13.2.17) (2021-06-22)
+
+
+
+## 13.2.16 (2021-06-18)
+
+
+
+
+
 ## [13.2.19](https://github.com/FacioCode/design/compare/v13.2.18...v13.2.19) (2021-06-22)
 
 
