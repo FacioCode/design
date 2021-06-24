@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.0.2](https://github.com/FacioCode/design/compare/v16.0.1...v16.0.2) (2021-06-24)
+
+
+### Bug Fixes
+
+* **react:** don't expose event key names on `useKeyDown` hook ([dd0bb16](https://github.com/FacioCode/design/commit/dd0bb16342bfc0ee9d36d600914f2ee0917a8a7b))
+* **react:** prevent missing `factoryWithTypeCheckers` module error ([24d8ce6](https://github.com/FacioCode/design/commit/24d8ce6f7ddafef2177696547bcb060a911ba795))
+
+
+
+# 16.0.0 (2021-06-24)
+
+
+
+
+
 ## [16.0.1](https://github.com/FacioCode/design/compare/v16.0.0...v16.0.1) (2021-06-24)
 
 
