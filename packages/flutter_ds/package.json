@@ -1,6 +1,6 @@
 {
   "name": "facio_design_system",
-  "version": "16.0.3",
+  "version": "16.0.4",
   "description": "Facio Design System style tokens and UI components for Facio applications built on Flutter.",
   "private": true,
   "repository": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "devDependencies": {
-    "@faciocode/style-dictionary": "^16.0.3"
+    "@faciocode/style-dictionary": "^16.0.4"
   },
   "scripts": {
     "clean": "flutter clean",
