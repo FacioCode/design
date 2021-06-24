@@ -4,9 +4,22 @@ import { PhoneFieldProps } from "@components/PhoneField/PhoneField.types";
 import { TextField } from "@components/TextField";
 import { useKeyDown } from "@hooks/useKeyDown";
 
+const allowedKeyGroups = [
+  "arrows",
+  "backspace",
+  "delete",
+  "enter",
+  "hyphen",
+  "numbers",
+  "parens",
+  "space",
+  "tab",
+];
+
 export const PhoneField = React.forwardRef<unknown, PhoneFieldProps>(
   (props, ref: PhoneFieldProps["ref"]) => {
-    const defaultInputProps = {
+    const defaultInputProps : PhoneFieldProps["inputProps"] = {
+      inputMode: "numeric",
       minLength: 11,
       pattern: "\\(?\\s*\\d{2}\\s*\\)?(\\s|-)*9(-|\\s)*\\d{4}(-|\\s)*\\d{4}",
     };
@@ -30,14 +43,11 @@ export const PhoneField = React.forwardRef<unknown, PhoneFieldProps>(
 
     const handleKeyDown = useKeyDown({
       allowMetaKey: true,
-      allowedKeyGroups: ["arrows", "backspace", "delete", "enter", "hyphen", "numbers", "parens", "space", "tab"],
+      allowedKeyGroups,
     });
 
     return (
       <TextField
-        InputProps={{
-          inputMode: "numeric",
-        }}
         allowRecording={allowRecording}
         autoComplete={autoComplete}
         onBlur={handleBlur}
@@ -53,7 +63,10 @@ export const PhoneField = React.forwardRef<unknown, PhoneFieldProps>(
     );
   });
 
-PhoneField.displayName = "PhoneField";
+// eslint-disable-next-line no-process-env
+if (process.env.NODE_ENV !== "production") {
+  PhoneField.displayName = "PhoneField";
+}
 
 PhoneField.propTypes = {
   allowRecording: PropTypes.bool,
@@ -61,5 +74,3 @@ PhoneField.propTypes = {
   inputProps: PropTypes.object,
   onBlur: PropTypes.func,
 };
-
-export default PhoneField;
