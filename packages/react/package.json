@@ -47,6 +47,7 @@
 		"url": "https://github.com/FacioCode/design/issues"
 	},
 	"peerDependencies": {
+    "prop-types": "15.7.2",
 		"@types/react": "^17.0.3",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2"
