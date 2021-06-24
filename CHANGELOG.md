@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.0.6](https://github.com/FacioCode/design/compare/v16.0.5...v16.0.6) (2021-06-24)
+
+
+### Bug Fixes
+
+* **deps:** remove `alex` dependency with vulnerability ([9a743ae](https://github.com/FacioCode/design/commit/9a743aef00829fc42e4138f96549044b907e4067))
+
+
+
+
+
 ## [16.0.5](https://github.com/FacioCode/design/compare/v16.0.4...v16.0.5) (2021-06-24)
 
 **Note:** Version bump only for package @faciocode/design
