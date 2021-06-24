@@ -6,7 +6,7 @@ export default config({
   directories,
   displayName,
   globals: {
-    "@faciocode/styles/dist/index.css": "FacioStyles",
+    "@faciocode/styles": "FacioStyles",
     "@material-ui/core": "MuiCore",
     "@material-ui/core/styles": "MuiCoreStyles",
     "@material-ui/lab": "MuiLab",
