@@ -31,7 +31,6 @@
     "@types/react": "17.0.5",
     "@typescript-eslint/eslint-plugin": "4.28.0",
     "@typescript-eslint/parser": "latest",
-    "alex": "latest",
     "chromatic": "latest",
     "conventional-changelog-cli": "2.1.1",
     "eslint": "7.29.0",
@@ -52,10 +51,9 @@
     "ts-node": "10.0.0",
     "tsconfig-paths-webpack-plugin": "3.5.1",
     "typescript": "4.3.4",
-    "webfont": "latest"
+    "webfont": "11.2.4"
   },
   "scripts": {
-    "alex": "alex .",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "clean": "lerna clean",
