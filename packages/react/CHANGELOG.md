@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.0.0](https://github.com/FacioCode/design/compare/v15.0.0...v16.0.0) (2021-06-24)
+
+
+### Build System
+
+* **react:** don't bundle style tokens ([1a49576](https://github.com/FacioCode/design/commit/1a49576b02dc1324b3df2624d8db0ad2d4cfaebe))
+
+
+### BREAKING CHANGES
+
+* **react:** from now, style tokens will also be imported from `@faciocode/styles` instead of internal bundle. This will decrease `@faciocode/react` package size and allow different versions of `@faciocode/styles` style tokens
+
+
+
+## 14.0.1 (2021-06-24)
+
+
+
+
+
 # [15.0.0](https://github.com/FacioCode/design/compare/v14.0.1...v15.0.0) (2021-06-24)
 
 
