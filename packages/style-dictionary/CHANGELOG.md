@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.0.3](https://github.com/FacioCode/design/compare/v16.0.2...v16.0.3) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/style-dictionary
+
+
+
+
+
 ## [16.0.2](https://github.com/FacioCode/design/compare/v16.0.1...v16.0.2) (2021-06-24)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
