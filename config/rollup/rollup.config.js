@@ -26,7 +26,6 @@ export default ({ browser, displayName, globals = {}, source }) => [
     output: [
       {
         chunkFileNames,
-        // dir: "dist",
         file: `${dir.cjs}/index.js`,
         format: "cjs",
       },
