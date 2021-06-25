@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.1.2](https://github.com/FacioCode/design/compare/v16.1.1...v16.1.2) (2021-06-25)
+
+
+### Bug Fixes
+
+* **react:** improve compatibility with custom `onChange` handler for `CpfField` ([922c49b](https://github.com/FacioCode/design/commit/922c49b9e8a68441ccf1bc485eddea2b9fe29432))
+* **react:** improve CPF validation for `CpfField` ([64f4352](https://github.com/FacioCode/design/commit/64f4352c7e3e6bc6ca4d0d8941ed2f1614be7c6e))
+
+
+
+# 16.1.0 (2021-06-24)
+
+
+
+
+
 ## [16.1.1](https://github.com/FacioCode/design/compare/v16.1.0...v16.1.1) (2021-06-25)
 
 
