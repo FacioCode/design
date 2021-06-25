@@ -24,7 +24,9 @@ const validValueLength = 11;
 const isValid = (rawValue: string) => {
   const value = rawValue.replace(/[^\d]+/gu, "");
 
-  if (value === "" || value.length !== validValueLength) {
+  const sameDigitsRegex = /^(?<digits>[0-9])\1*$/u;
+
+  if (value === "" || value.length !== validValueLength || sameDigitsRegex.test(value)) {
     return false;
   }
 
@@ -127,5 +129,3 @@ CpfField.propTypes = {
   autoComplete: PropTypes.string,
   inputProps: PropTypes.object,
 };
-
-export default CpfField;
