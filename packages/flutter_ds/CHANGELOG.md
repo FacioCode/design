@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.1.0](https://github.com/FacioCode/design/compare/v16.0.8...v16.1.0) (2021-06-24)
+
+**Note:** Version bump only for package facio_design_system
+
+
+
+
+
+## [16.0.8](https://github.com/FacioCode/design/compare/v16.0.7...v16.0.8) (2021-06-24)
+
+**Note:** Version bump only for package facio_design_system
+
+
+
+
+
+## [16.0.7](https://github.com/FacioCode/design/compare/v16.0.6...v16.0.7) (2021-06-24)
+
+
+### Bug Fixes
+
+* **flutter_ds:** update generated `FacioIcons` font file ([547c7e9](https://github.com/FacioCode/design/commit/547c7e9ed4b1094214a7f85727ebcb1d04a3aada))
+
+
+
+
+
 ## [16.0.6](https://github.com/FacioCode/design/compare/v16.0.5...v16.0.6) (2021-06-24)
 
 **Note:** Version bump only for package facio_design_system

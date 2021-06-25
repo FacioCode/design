@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.1.0](https://github.com/FacioCode/design/compare/v16.0.8...v16.1.0) (2021-06-24)
+
+
+### Bug Fixes
+
+* **react:** fix `inputMode` property on `PhoneField` ([191db55](https://github.com/FacioCode/design/commit/191db55378aaa23943347b48d0ee2fad3f858585))
+
+
+### Features
+
+* **react:** add `CpfField` component ([694309f](https://github.com/FacioCode/design/commit/694309f2101e69ac05b2d1921c7fa7b4033c3b26))
+* **react:** add support to CPF validation for `CpfField` ([209c94c](https://github.com/FacioCode/design/commit/209c94ced6d6845c69d275626f06f2d36c265b35))
+
+
+
+
+
+## [16.0.8](https://github.com/FacioCode/design/compare/v16.0.7...v16.0.8) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/design
+
+
+
+
+
+## [16.0.7](https://github.com/FacioCode/design/compare/v16.0.6...v16.0.7) (2021-06-24)
+
+
+### Bug Fixes
+
+* **flutter_ds:** update generated `FacioIcons` font file ([547c7e9](https://github.com/FacioCode/design/commit/547c7e9ed4b1094214a7f85727ebcb1d04a3aada))
+
+
+
+
+
 ## [16.0.6](https://github.com/FacioCode/design/compare/v16.0.5...v16.0.6) (2021-06-24)
 
 

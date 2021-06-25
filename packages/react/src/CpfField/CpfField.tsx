@@ -132,4 +132,3 @@ CpfField.propTypes = {
   inputProps: PropTypes.object,
   onChange: PropTypes.func,
 };
-
