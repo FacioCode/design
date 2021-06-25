@@ -29,3 +29,11 @@ Required.args = {
   id: "required-cpf-field",
   required: true,
 };
+
+export const WithChangeHandler : Story<PhoneFieldProps> = Template.bind({});
+WithChangeHandler.args = {
+  ...Playground.args,
+  id: "with-change-handler",
+  onChange: (event) => Function.prototype(event),
+  required: true,
+}
