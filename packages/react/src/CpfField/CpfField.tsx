@@ -67,18 +67,19 @@ const isValid = (rawValue: string) => {
   return remainder === parseInt(value.charAt(lastDigitIndex), radix);
 };
 
+const defaultInputProps : CpfFieldProps["inputProps"] = {
+  inputMode: "numeric",
+  minLength: validValueLength,
+  pattern: "\\d{3}(\\s|.|-)*\\d{3}(\\s|.|-)*\\d{3}(\\s|.|-)*\\d{2}",
+};
+
 export const CpfField = React.forwardRef<unknown, CpfFieldProps>(
   (props, ref: PhoneFieldProps["ref"]) => {
-    const defaultInputProps : CpfFieldProps["inputProps"] = {
-      inputMode: "numeric",
-      minLength: validValueLength,
-      pattern: "\\d{3}(\\s|.|-)*\\d{3}(\\s|.|-)*\\d{3}(\\s|.|-)*\\d{2}",
-    };
-
     const {
       allowRecording = false,
       autoComplete = "off",
       inputProps,
+      onChange,
       ...otherProps
     } = props;
 
@@ -96,6 +97,9 @@ export const CpfField = React.forwardRef<unknown, CpfFieldProps>(
       }
       if (!isValid(value)) {
         target.setCustomValidity("Por favor, confira se o seu CPF foi digitado corretamente.");
+      }
+      if (typeof onChange === "function") {
+        onChange(event);
       }
     };
 
@@ -126,6 +130,5 @@ CpfField.propTypes = {
   allowRecording: PropTypes.bool,
   autoComplete: PropTypes.string,
   inputProps: PropTypes.object,
+  onChange: PropTypes.func,
 };
-
-export default CpfField;
