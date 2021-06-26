@@ -116,6 +116,7 @@ export const CpfField = React.forwardRef<unknown, CpfFieldProps>(
         onChange={handleChange}
         onKeyDown={handleKeyDown}
         ref={ref}
+        rowsMax={1}
         type={"text"}
         {...otherProps}
       />
