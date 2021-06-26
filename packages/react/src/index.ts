@@ -40,6 +40,7 @@ export {
 } from "./Dialog";
 export { Divider, DividerProps } from "./Divider";
 export { Drawer, DrawerProps } from "./Drawer";
+export { EmailField, EmailFieldProps } from "./EmailField";
 export { default as FormControlLabel, FormControlLabelProps } from "./FormControlLabel";
 export { default as FormLabel, FormLabelProps } from "./FormLabel";
 export { default as FormGroup, FormGroupProps } from "./FormGroup";
@@ -52,6 +53,7 @@ export { default as LabeledCurrency, LabeledCurrencyProps } from "./LabeledCurre
 export { default as LinearProgress, LinearProgressProps } from "./LinearProgress";
 export { Link, LinkProps } from "./Link";
 export { default as Paper, PaperProps } from "./Paper";
+export { PasswordField, PasswordFieldProps } from "./PasswordField";
 export { PhoneField, PhoneFieldProps } from "./PhoneField";
 export { default as Popover, PopoverProps } from "./Popover";
 export { default as Skeleton, SkeletonProps } from "./Skeleton";
