@@ -56,6 +56,7 @@ export const PhoneField = React.forwardRef<unknown, PhoneFieldProps>(
           ...inputProps,
         }}
         onKeyDown={handleKeyDown}
+        rowsMax={1}
         ref={ref}
         type={"tel"}
         {...otherProps}
