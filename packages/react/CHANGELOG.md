@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.1.3](https://github.com/FacioCode/design/compare/v16.1.2...v16.1.3) (2021-06-26)
+
+
+### Bug Fixes
+
+* **react:** prevent whitespace wrap on `Time` component ([2167f1f](https://github.com/FacioCode/design/commit/2167f1f55a4aa5dc96ff6c88016be6a5f34ea8b4))
+
+
+
+
+
 ## [16.1.2](https://github.com/FacioCode/design/compare/v16.1.1...v16.1.2) (2021-06-25)
 
 
