@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.5.0](https://github.com/FacioCode/design/compare/v16.4.0...v16.5.0) (2021-06-29)
+
+
+### Features
+
+* add `fifteenFold` base size token ([9da4107](https://github.com/FacioCode/design/commit/9da410750a4064461ad125b83df56bb4259d2734))
+
+
+
+
+
 # [16.4.0](https://github.com/FacioCode/design/compare/v16.3.0...v16.4.0) (2021-06-29)
 
 
