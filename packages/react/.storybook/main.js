@@ -21,6 +21,9 @@ module.exports = {
       name: "@storybook/addon-viewport"
     }
   ],
+  features: {
+    postcss: false,
+  },
   stories: [
     "../src/**/*.stories.@(mdx)",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
