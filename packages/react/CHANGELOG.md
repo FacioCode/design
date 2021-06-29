@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.2.1](https://github.com/FacioCode/design/compare/v16.2.0...v16.2.1) (2021-06-28)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [16.2.0](https://github.com/FacioCode/design/compare/v16.1.3...v16.2.0) (2021-06-26)
+
+
+### Features
+
+* **react:** add new `EmailField` component ([ab61991](https://github.com/FacioCode/design/commit/ab619916841b1e9feed4982a0983ae5cd0ddc891))
+* **react:** add new `PasswordField` component ([25783e0](https://github.com/FacioCode/design/commit/25783e0bf452d91ad2480e1b7bebb544f6171a00))
+* **react:** make `EmailField` and `PasswordField` importable ([caa6854](https://github.com/FacioCode/design/commit/caa6854ca37b99acf5967b30d0ba1b08a2395165))
+
+
+
+
+
 ## [16.1.3](https://github.com/FacioCode/design/compare/v16.1.2...v16.1.3) (2021-06-26)
 
 
