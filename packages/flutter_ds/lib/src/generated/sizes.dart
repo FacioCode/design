@@ -13,6 +13,7 @@ class Sizes {
   static const baseDoubleQuarter = 18.00;
   static const baseEighteenFold = 144.00;
   static const baseEightfold = 64.00;
+  static const baseFifteenFold = 120.00;
   static const baseFivefold = 40.00;
   static const baseFocus = 3.00;
   static const baseHalf = 4.00;
