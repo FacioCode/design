@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.4.0](https://github.com/FacioCode/design/compare/v16.3.0...v16.4.0) (2021-06-29)
+
+
+### Features
+
+* add `eighteenFold` base size token ([0436fc5](https://github.com/FacioCode/design/commit/0436fc57bf601eaddda39e07e966c87487f195d8))
+
+
+
+
+
 # [16.3.0](https://github.com/FacioCode/design/compare/v16.2.1...v16.3.0) (2021-06-29)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
