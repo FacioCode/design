@@ -82,6 +82,10 @@
         "comment": "Useful for Date and Time XGrid columns",
         "value": 144
       },
+      "twentyFourFold": {
+        "comment": "Useful for Cancellation Reason XGrid columns",
+        "value": 192
+      },
       "thirtyOneFold": {
         "comment": "Button max width",
         "value": 248
