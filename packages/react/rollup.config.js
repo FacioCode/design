@@ -11,6 +11,7 @@ export default config({
     "@material-ui/core/styles": "MuiCoreStyles",
     "@material-ui/lab": "MuiLab",
     lodash: "_",
+    "prop-types": "PropTypes",
     react: "React",
   },
   module,
