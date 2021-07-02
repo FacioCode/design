@@ -25,6 +25,7 @@
     "@faciocode/style-dictionary": "^16.6.4"
   },
   "scripts": {
+    "build": "exit 0",
     "clean": "flutter clean",
     "format": "dartfmt -w .",
     "lint": "dart format --output=none --set-exit-if-changed .",
