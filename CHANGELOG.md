@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.6.6](https://github.com/FacioCode/design/compare/v16.6.5...v16.6.6) (2021-07-02)
+
+
+
+## 16.6.4 (2021-07-01)
+
+**Note:** Version bump only for package @faciocode/design
+
+
+
+
+
 ## [16.6.5](https://github.com/FacioCode/design/compare/v16.6.4...v16.6.5) (2021-07-02)
 
 **Note:** Version bump only for package @faciocode/design
