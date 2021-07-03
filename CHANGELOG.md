@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.7.1](https://github.com/FacioCode/design/compare/v16.7.0...v16.7.1) (2021-07-03)
+
+
+### Bug Fixes
+
+* **react:** use strict theme on storybook ([bc32f68](https://github.com/FacioCode/design/commit/bc32f6861a989051911b39d913be88bf774a0064))
+
+
+### Features
+
+* **mui-themes:** add new (unstable) `strictTheme` for strict mode ([cdf9462](https://github.com/FacioCode/design/commit/cdf94625b6e45f94f7f9d007d9d2551f34f11474))
+
+
+
+## 16.6.6 (2021-07-02)
+
+
+
+
+
 # [16.7.0](https://github.com/FacioCode/design/compare/v16.6.6...v16.7.0) (2021-07-03)
 
 
