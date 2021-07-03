@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.8.1](https://github.com/FacioCode/design/compare/v16.8.0...v16.8.1) (2021-07-03)
+
+
+### Bug Fixes
+
+* **react:** remove duplicated Skeleton on `LabeledCurrency` when loading ([aa81188](https://github.com/FacioCode/design/commit/aa81188d2a21b5bd084919218d575107ed137be2))
+
+
+
+
+
 # [16.8.0](https://github.com/FacioCode/design/compare/v16.7.1...v16.8.0) (2021-07-03)
 
 
