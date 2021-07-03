@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.8.2](https://github.com/FacioCode/design/compare/v16.8.1...v16.8.2) (2021-07-03)
+
+
+### Bug Fixes
+
+* **react:** improve `LabeledCurrency` styling when within a `BottomSheet` ([1698fd5](https://github.com/FacioCode/design/commit/1698fd58208aec428fd092fb993905949803bc46))
+
+
+
+
+
 ## [16.8.1](https://github.com/FacioCode/design/compare/v16.8.0...v16.8.1) (2021-07-03)
 
 
