@@ -1,7 +1,6 @@
 import * as React from "react";
+import { Alert, AlertProps } from ".";
 import { Meta, Story } from "@storybook/react";
-import { Alert } from "./Alert";
-import type { AlertProps } from "./Alert.types";
 import { AlertTitle } from "./AlertTitle";
 import { Typography } from "../Typography";
 
