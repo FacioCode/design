@@ -1,7 +1,7 @@
 {
 	"name": "@faciocode/mui-themes",
 	"displayName": "FacioMuiThemes",
-	"version": "16.7.1",
+	"version": "16.8.0",
 	"private": false,
 	"description": "Material UI themes for Facio Design System",
 	"keywords": [
@@ -55,7 +55,7 @@
 		"@material-ui/core": "^4.11.4"
 	},
 	"dependencies": {
-		"@faciocode/styles": "^16.7.1",
+		"@faciocode/styles": "^16.8.0",
 		"@material-ui/core": "4.11.4"
 	},
 	"publishConfig": {
