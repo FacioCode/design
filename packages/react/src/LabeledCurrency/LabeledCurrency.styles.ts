@@ -5,6 +5,9 @@ const styles = createStyles({
     display: "flex",
     justifyContent: "space-between",
   },
+  loading: {
+    width: "100%",
+  },
   orientationHorizontal: {
     flexDirection: "row",
   },

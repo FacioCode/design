@@ -23,6 +23,12 @@ Playground.args = {
   value: 100,
 };
 
+export const Loading : Story<LabeledCurrencyProps> = Template.bind({});
+Loading.args = {
+  ...Playground.args,
+  loading: true,
+};
+
 export const AssertiveAlertExample : Story<LabeledCurrencyProps> = Template.bind({});
 AssertiveAlertExample.args = {
   ...Playground.args,

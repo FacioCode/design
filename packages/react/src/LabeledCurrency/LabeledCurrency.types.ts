@@ -25,10 +25,10 @@ export interface LabeledCurrencyProps {
 
     /**
      * @example "Total amount to be paid"
-     * @required
+     * @optional
      * @type node
      */
-    children: TypographyProps["children"];
+    children?: TypographyProps["children"];
 
     /**
      * @optional
@@ -45,6 +45,8 @@ export interface LabeledCurrencyProps {
      * @type boolean
      */
     gutterBottom?: TypographyProps["gutterBottom"];
+
+    loading?: boolean;
 
     locales?: CurrencyProps["locales"];
 
