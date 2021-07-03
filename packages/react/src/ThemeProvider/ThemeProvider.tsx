@@ -8,5 +8,3 @@ export const ThemeProvider : Component = (props: ThemeProviderProps) => {
 
   return <MaterialThemeProvider theme={theme} {...otherProps}>{children}</MaterialThemeProvider>;
 };
-
-export default ThemeProvider;
