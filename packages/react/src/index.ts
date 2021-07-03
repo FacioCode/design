@@ -1,9 +1,11 @@
 export {
   Alert,
-  AlertProps,
   AlertTitle,
   AlertTitleProps,
 } from "./Alert";
+export type {
+  AlertProps,
+} from "./Alert/Alert.types";
 export { AppBar, AppBarProps } from "./AppBar";
 export { default as Badge } from "./Badge";
 export { default as BottomSheet, BottomSheetProps } from "./BottomSheet";
