@@ -63,7 +63,6 @@ export const LabeledCurrency = React.forwardRef<unknown, LabeledCurrencyProps>(
           aria-label={ariaLabel} component={"span"} paragraph={false} variant={"inherit"}
           {...CurrencyTypographyProps}
         >
-          {loading && <Skeleton />}
           {!loading && <Currency code={code} locales={locales} value={value} />}
         </Typography>
       </Typography>
