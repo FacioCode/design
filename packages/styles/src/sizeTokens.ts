@@ -18,6 +18,7 @@ export const baseSixfold = "48px";
 export const baseSevenfold = "56px"; // Commonly used for app bar height
 export const baseEightfold = "64px"; // Commonly used for button min height
 export const baseNinefold = "72px"; // Commonly used for bottom sheet min height
+export const baseFourteenFold = "112px"; // Useful for AppBar with tabs (e.g. Company Dashboard)
 export const baseFifteenFold = "120px"; // Useful for Brazilian CPF XGrid columns
 export const baseEighteenFold = "144px"; // Useful for Date and Time XGrid columns
 export const baseTwentyFourFold = "192px"; // Useful for Cancellation Reason XGrid columns
