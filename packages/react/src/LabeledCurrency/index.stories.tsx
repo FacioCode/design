@@ -1,6 +1,8 @@
 import * as React from "react";
 import LabeledCurrency, { LabeledCurrencyProps } from "@components/LabeledCurrency";
 import type { Meta, Story } from "@storybook/react";
+import { BottomSheet } from "@components/BottomSheet";
+import { sizeTokens } from "@faciocode/styles";
 
 export default {
   argTypes: {
@@ -14,6 +16,14 @@ export default {
 
 const Template : Story<LabeledCurrencyProps> = (props: LabeledCurrencyProps) => (
   <LabeledCurrency {...props}>{props.children}</LabeledCurrency>
+);
+
+const TemplateWithBottomSheet : Story<LabeledCurrencyProps> = (props: LabeledCurrencyProps) => (
+  <div style={{ minHeight: sizeTokens.baseFivefold }}>
+    <BottomSheet>
+      <Template {...props} />
+    </BottomSheet>
+  </div>
 );
 
 export const Playground : Story<LabeledCurrencyProps> = Template.bind({});
@@ -43,4 +53,9 @@ VerticalExample.args = {
     variant: "headline2",
   },
   orientation: "vertical",
+};
+
+export const WithBottomSheet : Story<LabeledCurrencyProps> = TemplateWithBottomSheet.bind({});
+WithBottomSheet.args = {
+  ...Playground.args,
 };

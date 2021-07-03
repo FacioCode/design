@@ -10,6 +10,7 @@ const styles = createStyles({
   },
   orientationHorizontal: {
     flexDirection: "row",
+    width: "100%",
   },
   orientationVertical: {
     flexDirection: "column",
