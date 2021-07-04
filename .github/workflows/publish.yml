@@ -90,7 +90,7 @@ jobs:
           node-version: "16.x"
           registry-url: "https://npm.pkg.github.com"
       - name: Publish to GitHub Packages
-        run: lerna publish from-got --ignore-prepublish --registry https://npm.pkg.github.com/ --yes
+        run: lerna publish from-git --ignore-prepublish --registry https://npm.pkg.github.com/ --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
