@@ -2,7 +2,7 @@ import {
   Theme,
   ThemeOptions,
   unstable_createMuiStrictModeTheme as createMuiStrictModeTheme,
-  createMuiTheme,
+  createTheme,
 } from "@material-ui/core";
 import { MuiAlert } from "./overrides/MuiAlert";
 import { customProperties } from "@faciocode/styles";
@@ -32,15 +32,5 @@ const themeOptions : ThemeOptions = {
   typography,
 } as ThemeOptions;
 
-type CreateTheme = (options: ThemeOptions) => Theme;
-
-const createTheme: CreateTheme = (options: ThemeOptions) => createMuiTheme({
-  ...options,
-});
-
-const createStrictTheme = (options: ThemeOptions) => createMuiStrictModeTheme({
-  ...options,
-});
-
-export const strictTheme = createStrictTheme(themeOptions);
-export const theme = createTheme(themeOptions);
+export const strictTheme : Theme = createMuiStrictModeTheme(themeOptions);
+export const theme : Theme = createTheme(themeOptions);
