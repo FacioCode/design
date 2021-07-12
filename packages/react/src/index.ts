@@ -54,6 +54,10 @@ export { default as InputLabel, InputLabelProps } from "./InputLabel";
 
 export { LabeledCurrency } from "./LabeledCurrency";
 export type { LabeledCurrencyProps } from "./LabeledCurrency/LabeledCurrency.types";
+
+export { LabeledItem } from "./LabeledItem";
+export type { LabeledItemProps } from "./LabeledItem/LabeledItem.types";
+
 export { default as LinearProgress, LinearProgressProps } from "./LinearProgress";
 export { Link, LinkProps } from "./Link";
 export { default as Paper, PaperProps } from "./Paper";
