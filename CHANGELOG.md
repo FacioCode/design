@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.0.0](https://github.com/FacioCode/design/compare/v16.8.7...v17.0.0) (2021-07-12)
+
+
+### Bug Fixes
+
+* **react:** adopt named import/export for `LabeledCurrency` ([89c7ef8](https://github.com/FacioCode/design/commit/89c7ef8dcf7fee90b9d48a54d95daa072da7e72d))
+
+
+### Documentation
+
+* **react:** move `LabeledCurrency` currency flat props to `CurrencyProps` prop ([6b2f59b](https://github.com/FacioCode/design/commit/6b2f59b662e569f9cd1063f5813e7f4a52038a0f))
+
+
+### Features
+
+* **react:** add new `LabeledItem` component ([3058571](https://github.com/FacioCode/design/commit/30585712fd1a70d26577203e184d7b532de4af38))
+* **react:** make `LabeledItem` named importable ([b1a817e](https://github.com/FacioCode/design/commit/b1a817e78504d54ba5dc8845c949b4811ab836a4))
+
+
+### BREAKING CHANGES
+
+* **react:** `value` and another `Currency` properties were moved to `CurrencyProps` for `LabeledCurrency`. Example: instead of `<LabeledCurrency value={currencyValue}>Total amount</LabeledCurrency>` you must use `<LabeledCurrency CurrencyProps={{ value: currencyValue }} label={"Valor total"} />.
+
+
+
+
+
 ## [16.8.7](https://github.com/FacioCode/design/compare/v16.8.6...v16.8.7) (2021-07-12)
 
 **Note:** Version bump only for package @faciocode/design
