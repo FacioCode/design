@@ -2,7 +2,7 @@
   "name": "@faciocode/style-dictionary",
   "displayName": "FacioStyleDictionary",
   "private": false,
-  "version": "17.0.1",
+  "version": "18.0.0",
   "description": "Styles and assets for Facio Design System",
   "keywords": [
     "styles",
