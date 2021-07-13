@@ -1,6 +1,6 @@
 import { TypographyProps } from "@components/Typography";
 
-export interface LabeledItemProps extends Partial<TypographyProps> {
+export interface LabeledItemProps {
 
   /**
    * @optional
@@ -32,6 +32,8 @@ export interface LabeledItemProps extends Partial<TypographyProps> {
    * @type "off" | "assertive" | "polite"
    */
   "aria-live"?: TypographyProps["aria-live"] | undefined;
+
+  children?: TypographyProps["children"];
 
   /**
    * @optional
