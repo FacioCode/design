@@ -24,11 +24,11 @@ export const LabeledItem = React.forwardRef<Element, LabeledItemProps>(
       className,
       color,
       component = "p",
-      gutterBottom = true,
+      gutterBottom = false,
       label,
       loading = false,
       orientation = "horizontal",
-      paragraph = true,
+      paragraph = false,
       role,
       variant = "bodyText1",
     } = props;

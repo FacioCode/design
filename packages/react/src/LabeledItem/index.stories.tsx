@@ -66,6 +66,11 @@ Error.args = {
   color: "error",
 };
 
+export const GutterBottom : Story<LabeledItemProps> = Template.bind({});
+GutterBottom.args = {
+  ...Playground.args,
+  gutterBottom: true,
+};
 
 export const WithBottomSheet : Story<LabeledItemProps> = TemplateWithBottomSheet.bind({});
 WithBottomSheet.args = Playground.args;
