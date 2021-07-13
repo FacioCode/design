@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.1.0](https://github.com/FacioCode/design/compare/v19.0.6...v19.1.0) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** prevent required prop errors for `LabeledCurrency` ([d9dc859](https://github.com/FacioCode/design/commit/d9dc859991a214bff60e884ab324ce4c3835615e))
+* **react:** set `gutterBottom` and `paragraph` prop as default for `LabeledItem` ([58dff91](https://github.com/FacioCode/design/commit/58dff914f22f5d5fe4df973323ff6092168bd1d9))
+
+
+### Features
+
+* **react:** add `FreeIcon` icon component ([86741a6](https://github.com/FacioCode/design/commit/86741a6c239ca5713559458e2b45ee0aa38c7a44))
+* **react:** add `HourglassIcon` icon component ([079bbb8](https://github.com/FacioCode/design/commit/079bbb8fb8dbf07317bba05f74dd3d9973d87fc8))
+* **react:** add `List` component ([7b773ea](https://github.com/FacioCode/design/commit/7b773eab0b89d862e46c2ca6268ed3923a1c6987))
+* **react:** add `ListInstallmentItem` component ([42d26fc](https://github.com/FacioCode/design/commit/42d26fc54f87d895ce6e304c69df616ae7880ce9))
+* **react:** add `ListItem` component ([d5b639e](https://github.com/FacioCode/design/commit/d5b639ea13821a5f389d9b34d32abf784a7a2d20))
+* **react:** add `ListItemIcon` component ([d2fb8a8](https://github.com/FacioCode/design/commit/d2fb8a85c2dd7e4a120a36608a96807b24d8c445))
+* **react:** add `ListItemText` component ([452b3e6](https://github.com/FacioCode/design/commit/452b3e6da71d931096661e021b98953905617869))
+* **react:** add `ListSubheader` component ([a260bc1](https://github.com/FacioCode/design/commit/a260bc17e92ad3224f37bcc2bc0c9a173845eebb))
+* **react:** add `ReceivedIcon` icon component ([1f59c9b](https://github.com/FacioCode/design/commit/1f59c9b7e2b066e66fef992829365bc7c5fe3475))
+* **react:** add `WaitingIcon` icon component ([17e8b10](https://github.com/FacioCode/design/commit/17e8b10c759eef2aa7efd3af14a3e6631789e158))
+* **react:** add support to `showZero` prop on `Currency` ([2c114c9](https://github.com/FacioCode/design/commit/2c114c96f8cf2866e75fce10f0b65517517911c0))
+* **react:** make some components & icons named importable ([f3f4187](https://github.com/FacioCode/design/commit/f3f4187ea992ae820852618fd90c84722a828c51))
+
+
+
+## 19.0.5 (2021-07-13)
+
+
+
+
+
 ## [19.0.6](https://github.com/FacioCode/design/compare/v19.0.5...v19.0.6) (2021-07-13)
 
 
