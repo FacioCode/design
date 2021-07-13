@@ -5,10 +5,13 @@ import { Omit } from "@material-ui/types";
 export interface ThemeProviderProps extends Omit<MaterialThemeProviderProps, "css" | "theme"> {
 
   /**
-   * Defaults to Facio Light Theme.
    *
-   * @optional
+   * If `false`, uses Facio Theme.
+   * If `true`, uses Facio Strict Theme.
+   *
+   * @default false
    */
-  theme?: MaterialThemeProviderProps["theme"]
+  strict?: boolean;
+
 }
 export type Component = FunctionComponent<ThemeProviderProps>;
