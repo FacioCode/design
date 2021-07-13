@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.0.3](https://github.com/FacioCode/design/compare/v19.0.2...v19.0.3) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** make all props optional for `LabeledCurrency` component ([e80cf0c](https://github.com/FacioCode/design/commit/e80cf0c7759a16d86791a2f0dc81fd0ef1e14e23))
+* **react:** make all props optional for `LabeledItem` component ([4447c48](https://github.com/FacioCode/design/commit/4447c4801f3958c2445606a1bfa46a099b62621b))
+
+
+
+
+
 ## [19.0.2](https://github.com/FacioCode/design/compare/v19.0.1...v19.0.2) (2021-07-13)
 
 
