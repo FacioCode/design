@@ -5,10 +5,12 @@ import { LabeledItem } from "@components/LabeledItem";
 
 export type { LabeledCurrencyProps } from "./LabeledCurrency.types";
 
+type Element = HTMLParagraphElement | HTMLSpanElement;
+
 /**
  * @since 10.2.0
  */
-export const LabeledCurrency = React.forwardRef<unknown, LabeledCurrencyProps>(
+export const LabeledCurrency = React.forwardRef<Element, LabeledCurrencyProps>(
   (props: LabeledCurrencyProps, ref: LabeledCurrencyProps["ref"]) => {
     const {
       CurrencyProps,
