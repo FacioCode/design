@@ -1,13 +1,12 @@
 import * as React from "react";
 import {CssBaseline, ThemeProvider} from "../src";
-import { strictTheme } from "../../mui-themes/src";
 import { colorTokens, sizeTokens } from "@faciocode/styles";
 import lightTheme from "./themes/light";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const decorators = [
   (Story) => (
-    <ThemeProvider theme={strictTheme}>
+    <ThemeProvider strict={true}>
       <CssBaseline>
         <div lang={"pt-br"}>
           <Story />
