@@ -2,7 +2,7 @@ import { TypographyProps } from "@components/Typography";
 
 type OmittedProps = "aria-atomic" | "aria-hidden" | "component";
 
-export interface LabeledItemProps extends Omit<TypographyProps, OmittedProps> {
+export interface LabeledItemProps extends Partial<Omit<TypographyProps, OmittedProps>> {
 
   LabelTypographyProps?: TypographyProps;
 
