@@ -1,10 +1,23 @@
 import { TypographyProps } from "@components/Typography";
 
-type OmittedProps = "aria-atomic" | "aria-hidden" | "component";
+export interface LabeledItemProps extends TypographyProps {
 
-export interface LabeledItemProps extends Partial<Omit<TypographyProps, OmittedProps>> {
-
+  /**
+   * @optional
+   */
   LabelTypographyProps?: TypographyProps;
+
+  /**
+   * @default true
+   * @optional
+   */
+  "aria-atomic"?: TypographyProps["aria-atomic"];
+
+  /**
+   * @default false
+   * @optional
+   */
+  "aria-hidden"?: TypographyProps["aria-hidden"];
 
   /**
    * @example "The total amount to be paid will be $100"
@@ -27,6 +40,8 @@ export interface LabeledItemProps extends Partial<Omit<TypographyProps, OmittedP
   className?: TypographyProps["className"];
 
   color?: TypographyProps["color"];
+
+  component?: TypographyProps["component"];
 
   /**
    * @default true

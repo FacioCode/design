@@ -16,11 +16,14 @@ export const LabeledItem = React.forwardRef<Element, LabeledItemProps>(
   (props: LabeledItemProps, ref: LabeledItemProps["ref"]) => {
     const {
       LabelTypographyProps,
+      "aria-atomic": ariaAtomic = true,
+      "aria-hidden": ariaHidden = false,
       "aria-label": ariaLabel,
       "aria-live": ariaLive = "off",
       children,
       className,
       color,
+      component = "p",
       gutterBottom = true,
       label,
       loading = false,
@@ -48,10 +51,11 @@ export const LabeledItem = React.forwardRef<Element, LabeledItemProps>(
 
     return (
       <Typography
-        aria-atomic={true}
+        aria-atomic={ariaAtomic}
+        aria-hidden={ariaHidden}
         aria-live={ariaLive}
         className={classNames}
-        component={"p"}
+        component={component}
         gutterBottom={gutterBottom}
         paragraph={paragraph}
         ref={ref}
