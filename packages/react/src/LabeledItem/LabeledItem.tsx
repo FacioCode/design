@@ -9,7 +9,9 @@ import { useStyles } from "./LabeledItem.styles";
 
 export type { LabeledItemProps } from "./LabeledItem.types";
 
-export const LabeledItem = React.forwardRef<unknown, LabeledItemProps>(
+type Element = HTMLParagraphElement | HTMLSpanElement;
+
+export const LabeledItem = React.forwardRef<Element, LabeledItemProps>(
   // eslint-disable-next-line max-lines-per-function
   (props: LabeledItemProps, ref: LabeledItemProps["ref"]) => {
     const {
