@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.1.1](https://github.com/FacioCode/design/compare/v19.1.0...v19.1.1) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** add missing `ListInstallmentItem` named export ([11b2f69](https://github.com/FacioCode/design/commit/11b2f6978bcdaa4b676e3c90bd6fc58acd827d39))
+
+
+
+
+
 # [19.1.0](https://github.com/FacioCode/design/compare/v19.0.6...v19.1.0) (2021-07-13)
 
 
