@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.0.1](https://github.com/FacioCode/design/compare/v17.0.0...v17.0.1) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** make `LabeledItem` props optional ([3cf05fd](https://github.com/FacioCode/design/commit/3cf05fda2a13e80b647a4e9df8b018cecce96944))
+
+
+
+
+
 # [17.0.0](https://github.com/FacioCode/design/compare/v16.8.7...v17.0.0) (2021-07-12)
 
 
