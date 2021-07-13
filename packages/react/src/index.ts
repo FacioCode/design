@@ -1,4 +1,4 @@
-export { sizeTokens } from "@faciocode/styles";
+export { colorTokens, sizeTokens } from "@faciocode/styles";
 
 export {
   Alert,
@@ -9,8 +9,13 @@ export type {
   AlertProps,
 } from "./Alert/Alert.types";
 export { AppBar, AppBarProps } from "./AppBar";
-export { default as Badge } from "./Badge";
-export { default as BottomSheet, BottomSheetProps } from "./BottomSheet";
+
+export { Badge } from "./Badge";
+export type { BadgeProps } from "./Badge/Badge.types";
+
+export { BottomSheet } from "./BottomSheet";
+export type { BottomSheetProps } from "./BottomSheet/BottomSheet.types";
+
 export { ButtonGroup, ButtonGroupProps } from "./Button";
 export {
   ContainedButton,
@@ -28,7 +33,10 @@ export { Chip, ChipProps } from "./Chip";
 export { default as Container, ContainerProps } from "./Container";
 export { CpfField, CpfFieldProps } from "./CpfField";
 export { CssBaseline } from "./CssBaseline";
-export { Currency, CurrencyProps } from "./Currency";
+
+export { Currency } from "./Currency";
+export type { CurrencyProps } from "./Currency/Currency.types";
+
 export { CurrencyField, CurrencyFieldProps } from "./CurrencyField";
 export {
   Dialog,
@@ -45,14 +53,25 @@ export {
 export { Divider, DividerProps } from "./Divider";
 export { Drawer, DrawerProps } from "./Drawer";
 export { EmailField, EmailFieldProps } from "./EmailField";
-export { default as FormControlLabel, FormControlLabelProps } from "./FormControlLabel";
-export { default as FormLabel, FormLabelProps } from "./FormLabel";
-export { default as FormGroup, FormGroupProps } from "./FormGroup";
-export { default as FormHelperText, FormHelperTextProps } from "./FormHelperText";
+
+export { FormControlLabel } from "./FormControlLabel";
+export type { FormControlLabelProps } from "./FormControlLabel/FormControlLabel.types";
+
+export { FormLabel } from "./FormLabel";
+export type { FormLabelProps } from "./FormLabel/FormLabel.types";
+
+export { FormGroup } from "./FormGroup";
+export type { FormGroupProps } from "./FormGroup/FormGroup.types";
+
+export { FormHelperText } from "./FormHelperText";
+export type { FormHelperTextProps } from "./FormHelperText/FormHelperText.types";
+
 export { IconButton, IconButtonProps } from "./IconButton";
 export { Input, InputProps } from "./Input";
 export { default as InputBase, InputBaseProps } from "./InputBase";
-export { default as InputLabel, InputLabelProps } from "./InputLabel";
+
+export { InputLabel } from "./InputLabel";
+export type { InputLabelProps } from "./InputLabel/InputLabel.types";
 
 export { LabeledCurrency } from "./LabeledCurrency";
 export type { LabeledCurrencyProps } from "./LabeledCurrency/LabeledCurrency.types";
@@ -60,13 +79,33 @@ export type { LabeledCurrencyProps } from "./LabeledCurrency/LabeledCurrency.typ
 export { LabeledItem } from "./LabeledItem";
 export type { LabeledItemProps } from "./LabeledItem/LabeledItem.types";
 
-export { default as LinearProgress, LinearProgressProps } from "./LinearProgress";
+export { LinearProgress } from "./LinearProgress";
+export type { LinearProgressProps } from "./LinearProgress/LinearProgress.types";
+
+export { List } from "./List";
+export type { ListProps } from "./List/List.types";
+
+export { ListItem } from "./ListItem";
+export type { ListItemProps } from "./ListItem/ListItem.types";
+
+export { ListItemIcon } from "./ListItemIcon";
+export type { ListItemIconProps } from "./ListItemIcon/ListItemIcon.types";
+
+export { ListItemText } from "./ListItemText";
+export type { ListItemTextProps } from "./ListItemText/ListItemText.types";
+
+export { ListSubheader } from "./ListSubheader";
+export type { ListSubheaderProps } from "./ListSubheader/ListSubheader.types";
+
 export { Link, LinkProps } from "./Link";
 export { default as Paper, PaperProps } from "./Paper";
 export { PasswordField, PasswordFieldProps } from "./PasswordField";
 export { PhoneField, PhoneFieldProps } from "./PhoneField";
 export { default as Popover, PopoverProps } from "./Popover";
-export { default as Skeleton, SkeletonProps } from "./Skeleton";
+
+export { Skeleton } from "./Skeleton";
+export type { SkeletonProps } from "./Skeleton/Skeleton.types";
+
 export { Snackbar, SnackbarProps } from "./Snackbar";
 export { default as Switch, SwitchProps } from "./Switch";
 export {
@@ -93,22 +132,33 @@ export {
   TabPanelProps,
   TabsProps,
 } from "./Tabs";
-export { default as Toolbar, ToolbarProps } from "./Toolbar";
+
+export { Toolbar } from "./Toolbar";
+export type { ToolbarProps } from "./Toolbar/Toolbar.types";
+
 export { TextField, TextFieldProps } from "./TextField";
 export { ThemeProvider, ThemeProviderProps } from "./ThemeProvider";
-export { default as Time, TimeProps } from "./Time";
-export { default as Tooltip, TooltipProps } from "./Tooltip";
+
+export { Time } from "./Time";
+export type { TimeProps } from "./Time/Time.types";
+
+export { Tooltip } from "./Tooltip";
+export type { TooltipProps } from "./Tooltip/Tooltip.types";
+
 export { Typography, TypographyProps } from "./Typography";
 
-export { default as useMediaQuery } from "./hooks/useMediaQuery";
-export { default as useTheme } from "./hooks/useTheme";
+export { useMediaQuery } from "./hooks/useMediaQuery";
+export { useTheme } from "./hooks/useTheme";
 
-export { default as ServerStyleSheets } from "./ServerStyleSheets";
+export { ServerStyleSheets } from "./ServerStyleSheets";
 
-export { default as ApproveIcon } from "@svg-icons/ApproveIcon";
-export { default as CloseIcon } from "@svg-icons/CloseIcon";
-export { default as ForbiddenIcon } from "@svg-icons/ForbiddenIcon";
-export { default as PaidIcon } from "@svg-icons/PaidIcon";
-export { default as ReceivedIcon } from "@svg-icons/ReceivedIcon";
-export { default as WalletIcon } from "@svg-icons/WalletIcon";
-export { default as WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
+export { ApproveIcon } from "@svg-icons/ApproveIcon";
+export { CloseIcon } from "@svg-icons/CloseIcon";
+export { FreeIcon } from "@svg-icons/FreeIcon";
+export { ForbiddenIcon } from "@svg-icons/ForbiddenIcon";
+export { HourglassIcon } from "@svg-icons/HourglassIcon";
+export { PaidIcon } from "@svg-icons/PaidIcon";
+export { ReceivedIcon } from "@svg-icons/ReceivedIcon";
+export { WaitingIcon } from "@svg-icons/WaitingIcon";
+export { WalletIcon } from "@svg-icons/WalletIcon";
+export { WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
