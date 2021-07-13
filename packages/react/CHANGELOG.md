@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.0.2](https://github.com/FacioCode/design/compare/v19.0.1...v19.0.2) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** make `LabeledCurrency` props optional ([4acf9b2](https://github.com/FacioCode/design/commit/4acf9b22fe3d081a1b5da13c60e0731f38deed63))
+* **react:** use valid element types for forward ref on `LabeledCurrency` ([1c86975](https://github.com/FacioCode/design/commit/1c86975734b99e24e15e7e8ea2f5354b195539bd))
+* **react:** use valid element types for forward ref on `LabeledItem` ([e491c0c](https://github.com/FacioCode/design/commit/e491c0c48129f69e55f7a01259cd2030c6274a93))
+
+
+
+# 19.0.0 (2021-07-13)
+
+
+
+
+
 ## [19.0.1](https://github.com/FacioCode/design/compare/v19.0.0...v19.0.1) (2021-07-13)
 
 
