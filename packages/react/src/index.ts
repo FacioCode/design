@@ -1,3 +1,5 @@
+export { sizeTokens } from "@faciocode/styles";
+
 export {
   Alert,
   AlertTitle,
