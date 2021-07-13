@@ -10,13 +10,14 @@ export const Currency = React.forwardRef(
       component: Component = "data",
       code = "BRL",
       locales,
+      showZero = false,
       value,
       ...otherProps
     } = props;
 
     const { root } = useStyles();
 
-    if (!value) {
+    if (!value && !showZero) {
       return null;
     }
 
