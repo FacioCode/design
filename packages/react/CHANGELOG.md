@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://github.com/FacioCode/design/compare/v17.0.1...v18.0.0) (2021-07-13)
+
+
+### Code Refactoring
+
+* **react:** add new `strict` prop to `ThemeProvider` ([3981227](https://github.com/FacioCode/design/commit/3981227b0cbbf606a72b7e625a48830b877dd38c))
+
+
+### BREAKING CHANGES
+
+* **react:** `theme` prop was removed from `ThemeProvider`. Please use `strict` prop if you want to use strict theme.
+
+
+
+
+
 ## [17.0.1](https://github.com/FacioCode/design/compare/v17.0.0...v17.0.1) (2021-07-13)
 
 
