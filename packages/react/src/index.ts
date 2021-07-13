@@ -85,6 +85,9 @@ export type { LinearProgressProps } from "./LinearProgress/LinearProgress.types"
 export { List } from "./List";
 export type { ListProps } from "./List/List.types";
 
+export { ListInstallmentItem } from "./ListInstallmentItem";
+export type { ListInstallmentItemProps } from "./ListInstallmentItem/ListInstallmentItem.types";
+
 export { ListItem } from "./ListItem";
 export type { ListItemProps } from "./ListItem/ListItem.types";
 
