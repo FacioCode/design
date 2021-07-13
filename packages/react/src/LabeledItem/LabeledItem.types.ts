@@ -1,6 +1,6 @@
 import { TypographyProps } from "@components/Typography";
 
-export interface LabeledItemProps extends TypographyProps {
+export interface LabeledItemProps extends Partial<TypographyProps> {
 
   /**
    * @optional
