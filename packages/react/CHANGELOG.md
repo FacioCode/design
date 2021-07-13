@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.0.6](https://github.com/FacioCode/design/compare/v19.0.5...v19.0.6) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** prevent required prop errors for `LabeledCurrency` ([d9dc859](https://github.com/FacioCode/design/commit/d9dc859991a214bff60e884ab324ce4c3835615e))
+
+
+
+
+
 ## [19.0.5](https://github.com/FacioCode/design/compare/v19.0.4...v19.0.5) (2021-07-13)
 
 
