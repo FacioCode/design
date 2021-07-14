@@ -1753,6 +1753,152 @@ export const linkButtonStyles = {
 
 };
 
+export const listItemIconStyles = {
+
+  colorError: {
+
+    /**
+     * Background Color for List Item Icon Color Error
+     */
+    backgroundColor: "var(--component-list-item-icon-color-error-background-color, #ffe3ee)",
+
+
+    /**
+     * Color for List Item Icon Color Error
+     */
+    color: "var(--component-list-item-icon-color-error-color, #c42b47)",
+
+  },
+
+  root: {
+
+    /**
+     * Background Color for List Item Icon Root
+     */
+    backgroundColor: "var(--component-list-item-icon-root-background-color, #fafafa)",
+
+
+    /**
+     * Border Radius for List Item Icon Root
+     */
+    borderRadius: "var(--component-list-item-icon-root-border-radius, 8px)",
+
+
+    /**
+     * Color for List Item Icon Root
+     */
+    color: "var(--component-list-item-icon-root-color, #303846)",
+
+
+    /**
+     * Margin Bottom for List Item Icon Root
+     */
+    marginBottom: "var(--component-list-item-icon-root-margin-bottom, 8px)",
+
+
+    /**
+     * Margin Left for List Item Icon Root
+     */
+    marginLeft: "var(--component-list-item-icon-root-margin-left, 0px)",
+
+
+    /**
+     * Margin Right for List Item Icon Root
+     */
+    marginRight: "var(--component-list-item-icon-root-margin-right, 8px)",
+
+
+    /**
+     * Margin Top for List Item Icon Root
+     */
+    marginTop: "var(--component-list-item-icon-root-margin-top, 8px)",
+
+
+    /**
+     * Min Width for List Item Icon Root
+     */
+    minWidth: "var(--component-list-item-icon-root-min-width, 24px)",
+
+
+    /**
+     * Padding for List Item Icon Root
+     */
+    padding: "var(--component-list-item-icon-root-padding, 4px)",
+
+  },
+
+};
+
+export const listSubheaderStyles = {
+
+  gutters: {
+
+    /**
+     * Padding Bottom for List Subheader Gutters
+     */
+    paddingBottom: "var(--component-list-subheader-gutters-padding-bottom, 16px)",
+
+
+    /**
+     * Padding Left for List Subheader Gutters
+     */
+    paddingLeft: "var(--component-list-subheader-gutters-padding-left, 16px)",
+
+
+    /**
+     * Padding Right for List Subheader Gutters
+     */
+    paddingRight: "var(--component-list-subheader-gutters-padding-right, 16px)",
+
+
+    /**
+     * Padding Top for List Subheader Gutters
+     */
+    paddingTop: "var(--component-list-subheader-gutters-padding-top, 16px)",
+
+  },
+
+  root: {
+
+    /**
+     * Background Color for List Subheader Root
+     */
+    backgroundColor: "var(--component-list-subheader-root-background-color, #ffffff)",
+
+
+    /**
+     * Color for List Subheader Root
+     */
+    color: "var(--component-list-subheader-root-color, #303846)",
+
+
+    /**
+     * Font Family for List Subheader Root
+     */
+    fontFamily: "var(--component-list-subheader-root-font-family, Open Sans, sans-serif)",
+
+
+    /**
+     * Font Weight for List Subheader Root
+     */
+    fontWeight: "var(--component-list-subheader-root-font-weight, 600)",
+
+
+    /**
+     * Letter Spacing for List Subheader Root
+     */
+    letterSpacing: "var(--component-list-subheader-root-letter-spacing, 0px)",
+
+
+    /**
+     * Line Height for List Subheader Root
+     */
+    lineHeight: "var(--component-list-subheader-root-line-height, 1.5em)",
+
+  },
+
+};
+
 export const outlinedButtonStyles = {
 
   root: {
