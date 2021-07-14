@@ -1,7 +1,7 @@
 import * as React from "react";
 
+import { CalendarIcon } from "@svg-icons/CalendarIcon";
 import { FreeIcon } from "@svg-icons/FreeIcon";
-import { HourglassIcon } from "@svg-icons/HourglassIcon";
 import { LabeledItem } from "@components/LabeledItem";
 import { ListInstallmentItemProps } from "./ListInstallmentItem.types";
 import { ListItem } from "@components/ListItem";
@@ -9,7 +9,7 @@ import { ListItemIcon } from "@components/ListItemIcon";
 import { ListItemText } from "@components/ListItemText";
 import { PaidIcon } from "@components/SvgIcon";
 import { Time } from "@components/Time";
-import { WaitingIcon } from "@svg-icons/WaitingIcon";
+import { WarningIcon } from "@svg-icons/WarningIcon";
 
 export type { ListInstallmentItemProps } from "./ListInstallmentItem.types";
 
@@ -21,17 +21,6 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
       label,
       variant = "pending",
     } = props;
-
-    const labelColor = React.useMemo(
-      () => {
-        if (variant === "delayed") {
-          return "error";
-        }
-
-        return "textPrimary";
-      },
-      [variant],
-    );
 
     const timeColor = React.useMemo(
       () => {
@@ -51,13 +40,23 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
     const icon = React.useMemo<JSX.Element>(
       () => {
         switch (variant) {
-        case "delayed": return <HourglassIcon color={"error"} />;
-        case "paid": return <PaidIcon color={"primary"} />;
+        case "delayed": return <WarningIcon color={"error"} />;
+        case "paid": return <PaidIcon />;
         case "zero": return <FreeIcon color={"disabled"} />;
-        default: return <WaitingIcon />;
+        default: return <CalendarIcon color={"inherit"} />;
         }
       },
       [variant],
+    );
+
+    const listIconContainerColor = React.useMemo(
+      () => {
+        if (variant === "delayed") {
+          return "error";
+        }
+
+        return "default";
+      }, [variant],
     );
 
     const Wrapper = React.useMemo(
@@ -73,13 +72,13 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
 
     return (
       <ListItem ref={ref} {...props}>
-        <ListItemIcon>
+        <ListItemIcon color={listIconContainerColor}>
           {icon}
         </ListItemIcon>
         <ListItemText
           primary={
             <Wrapper>
-              <LabeledItem color={labelColor} label={label}>
+              <LabeledItem color={"textPrimary"} label={label} variant={"bodyText2"}>
                 {children}
               </LabeledItem>
             </Wrapper>
