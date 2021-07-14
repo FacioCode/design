@@ -51,3 +51,9 @@ Zero.args = {
   label: "Parcela 5",
   variant: "zero",
 };
+
+export const Loading : Story<ListInstallmentItemProps> = Template.bind({});
+Loading.args = {
+  ...Playground.arg,
+  loading: true,
+};

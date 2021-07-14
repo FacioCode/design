@@ -10,6 +10,7 @@ import { ListItemText } from "@components/ListItemText";
 import { PaidIcon } from "@components/SvgIcon";
 import { Time } from "@components/Time";
 import { WarningIcon } from "@svg-icons/WarningIcon";
+import { Skeleton } from "@components/Skeleton";
 
 export type { ListInstallmentItemProps } from "./ListInstallmentItem.types";
 
@@ -19,6 +20,7 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
       billingDate,
       children,
       label,
+      loading,
       variant = "pending",
     } = props;
 
@@ -39,6 +41,9 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
 
     const icon = React.useMemo<JSX.Element>(
       () => {
+        if (loading) {
+          return <Skeleton height={24} variant={"circle"} width={24} />;
+        }
         switch (variant) {
         case "delayed": return <WarningIcon color={"error"} />;
         case "paid": return <PaidIcon />;
@@ -46,7 +51,7 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
         default: return <CalendarIcon color={"inherit"} />;
         }
       },
-      [variant],
+      [loading, variant],
     );
 
     const listIconContainerColor = React.useMemo(
@@ -61,13 +66,27 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
 
     const Wrapper = React.useMemo(
       () => {
-        if (variant === "zero") {
+        if (variant === "zero" || !loading) {
           return "del";
         }
 
         return "span";
       },
-      [variant],
+      [loading, variant],
+    );
+
+    const secondaryContent = React.useMemo(
+      () => {
+        if (loading) {
+          return (<Skeleton />);
+        }
+        if (billingDate) {
+          return (<Time dateStyle={"medium"}>{billingDate}</Time>);
+        }
+
+        return null;
+      },
+      [billingDate, loading],
     );
 
     return (
@@ -78,14 +97,16 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
         <ListItemText
           primary={
             <Wrapper>
-              <LabeledItem color={"textPrimary"} label={label} variant={"bodyText2"}>
+              <LabeledItem
+                color={"textPrimary"}
+                label={label}
+                loading={loading}
+                variant={"bodyText2"}>
                 {children}
               </LabeledItem>
             </Wrapper>
           }
-          secondary={
-            billingDate && <Time dateStyle={"medium"}>{billingDate}</Time>
-          }
+          secondary={secondaryContent}
           secondaryTypographyProps={{ color: timeColor }}
         />
       </ListItem>
