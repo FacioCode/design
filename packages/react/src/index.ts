@@ -156,6 +156,7 @@ export { useTheme } from "./hooks/useTheme";
 export { ServerStyleSheets } from "./ServerStyleSheets";
 
 export { ApproveIcon } from "@svg-icons/ApproveIcon";
+export { CalendarIcon } from "@svg-icons/CalendarIcon";
 export { CloseIcon } from "@svg-icons/CloseIcon";
 export { FreeIcon } from "@svg-icons/FreeIcon";
 export { ForbiddenIcon } from "@svg-icons/ForbiddenIcon";
