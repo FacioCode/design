@@ -66,7 +66,7 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
 
     const Wrapper = React.useMemo(
       () => {
-        if (variant === "zero" || !loading) {
+        if (variant === "zero" && !loading) {
           return "del";
         }
 
