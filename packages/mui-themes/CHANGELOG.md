@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+### Features
+
+* **mui-themes:** add theme overrides for list item icon and list subheader ([512cdd9](https://github.com/FacioCode/design/commit/512cdd900ee986f9f811864514e14e13bc743660))
+
+
+
+## 19.1.1 (2021-07-13)
+
+
+
+
+
 ## [19.1.2](https://github.com/FacioCode/design/compare/v19.1.1...v19.1.2) (2021-07-14)
 
 **Note:** Version bump only for package @faciocode/mui-themes

@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+### Features
+
+* **flutter:** add styles for list item icon and list subheader ([e7d7805](https://github.com/FacioCode/design/commit/e7d7805db58eb59e45d489903a391764f3bdc354))
+
+
+
+## 19.1.1 (2021-07-13)
+
+
+
+
+
 ## [19.1.2](https://github.com/FacioCode/design/compare/v19.1.1...v19.1.2) (2021-07-14)
 
 **Note:** Version bump only for package facio_design_system
