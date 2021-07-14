@@ -54,6 +54,6 @@ Zero.args = {
 
 export const Loading : Story<ListInstallmentItemProps> = Template.bind({});
 Loading.args = {
-  ...Playground.arg,
+  ...Playground.args,
   loading: true,
 };
