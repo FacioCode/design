@@ -1,0 +1,40 @@
+{
+  "component": {
+    "listSubheader": {
+      "gutters": {
+        "paddingBottom": {
+          "value": "{size.base.double.value}"
+        },
+        "paddingLeft": {
+          "value": "{size.base.double.value}"
+        },
+        "paddingRight": {
+          "value": "{size.base.double.value}"
+        },
+        "paddingTop": {
+          "value": "{size.base.double.value}"
+        }
+      },
+      "root": {
+        "backgroundColor": {
+          "value": "{color.background.default.value}"
+        },
+        "color": {
+          "value": "{component.typography.subtitle1.color.value}"
+        },
+        "fontFamily": {
+          "value": "{component.typography.subtitle1.fontFamily.value}"
+        },
+        "fontWeight": {
+          "value": "{component.typography.subtitle1.fontWeight.value}"
+        },
+        "letterSpacing": {
+          "value": "{component.typography.subtitle1.letterSpacing.value}"
+        },
+        "lineHeight": {
+          "value": "{component.typography.subtitle1.lineHeight.value}"
+        }
+      }
+    }
+  }
+}

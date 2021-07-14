@@ -1,0 +1,43 @@
+{
+  "component": {
+    "listItemIcon": {
+      "colorError": {
+        "backgroundColor": {
+          "value": "{color.background.alert.standardError.value}"
+        },
+        "color": {
+          "value": "{color.base.error.main.value}"
+        }
+      },
+      "root": {
+        "backgroundColor": {
+          "value": "{color.background.shadedPaper.value}"
+        },
+        "borderRadius": {
+          "value": "{size.border.radius.single.value}"
+        },
+        "color": {
+          "value": "{color.font.primaryHighContrast.value}"
+        },
+        "marginBottom": {
+          "value": "{size.base.single.value}"
+        },
+        "marginLeft": {
+          "value": "{size.base.none.value}"
+        },
+        "marginRight": {
+          "value": "{size.base.single.value}"
+        },
+        "marginTop": {
+          "value": "{size.base.single.value}"
+        },
+        "minWidth": {
+          "value": "{size.base.triple.value}"
+        },
+        "padding": {
+          "value": "{size.base.half.value}"
+        }
+      }
+    }
+  }
+}
