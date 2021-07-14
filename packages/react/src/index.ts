@@ -164,4 +164,5 @@ export { PaidIcon } from "@svg-icons/PaidIcon";
 export { ReceivedIcon } from "@svg-icons/ReceivedIcon";
 export { WaitingIcon } from "@svg-icons/WaitingIcon";
 export { WalletIcon } from "@svg-icons/WalletIcon";
+export { WarningIcon } from "@svg-icons/WarningIcon";
 export { WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
