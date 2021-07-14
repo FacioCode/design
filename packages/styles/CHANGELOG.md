@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+### Features
+
+* **styles:** add styles for list item icon and list subheader ([8119cbc](https://github.com/FacioCode/design/commit/8119cbce6fbc5cc34209ad4dc2dea8b7f3d8872e))
+
+
+
+## 19.1.1 (2021-07-13)
+
+
+
+
+
 ## [19.1.2](https://github.com/FacioCode/design/compare/v19.1.1...v19.1.2) (2021-07-14)
 
 **Note:** Version bump only for package @faciocode/styles

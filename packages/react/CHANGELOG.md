@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+### Bug Fixes
+
+* **react:** add missing path data to `WarningIcon` ([143948e](https://github.com/FacioCode/design/commit/143948ef9be26dfc36e6091035b93eb4d319965d))
+* **react:** fix colors and icons for `ListInstallmentItem` ([2607f51](https://github.com/FacioCode/design/commit/2607f511341e2116f4a5697fed59fba9598fd341))
+* **react:** prevent typescript errors with `Link` styles ([8aba693](https://github.com/FacioCode/design/commit/8aba693fc9650bd4554b3ede723d1f036b4a4bb4))
+* **react:** use medium date style for `ListInstallmentItem` ([9d15377](https://github.com/FacioCode/design/commit/9d153772118c7685d0d9f211d6735bf9fbddc6d4))
+
+
+### Features
+
+* **react:** add `color` prop for `ListItemIcon` ([7448f55](https://github.com/FacioCode/design/commit/7448f559d7b73feaaf9a7ec57b63ae5af9dc98be))
+* **react:** add new `CalendarIcon` svg icon component ([27f7340](https://github.com/FacioCode/design/commit/27f73402021cb13b6b150cedea924f6252d7db03))
+* **react:** add new `WarningIcon` svg icon component ([fe2821f](https://github.com/FacioCode/design/commit/fe2821f8d522b16dd4a6ba42c529e87d4e8b6e0d))
+
+
+
+## 19.1.1 (2021-07-13)
+
+
+
+
+
 ## [19.1.2](https://github.com/FacioCode/design/compare/v19.1.1...v19.1.2) (2021-07-14)
 
 
