@@ -85,7 +85,7 @@ export const ListInstallmentItem = React.forwardRef<unknown, ListInstallmentItem
             </Wrapper>
           }
           secondary={
-            billingDate && <Time>{billingDate}</Time>
+            billingDate && <Time dateStyle={"medium"}>{billingDate}</Time>
           }
           secondaryTypographyProps={{ color: timeColor }}
         />
