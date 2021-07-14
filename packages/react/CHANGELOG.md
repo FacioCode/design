@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.2.3](https://github.com/FacioCode/design/compare/v19.2.2...v19.2.3) (2021-07-14)
+
+
+### Bug Fixes
+
+* **react:** add support to `loading` prop on `ListInstallmentItem` ([b3074e3](https://github.com/FacioCode/design/commit/b3074e3c0b8de707477b2322776b41fa9cdd0bf1))
+* **react:** don't strike installments unless zeroed on `ListInstallmentItem` ([c9ead9d](https://github.com/FacioCode/design/commit/c9ead9d8c84b73a21c8ca2244001f288c5a2776a))
+
+
+
+## [19.2.1](https://github.com/FacioCode/design/compare/v19.2.0...v19.2.1) (2021-07-14)
+
+
+
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+
+
+
 ## [19.2.2](https://github.com/FacioCode/design/compare/v19.2.1...v19.2.2) (2021-07-14)
 
 
