@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.1.2](https://github.com/FacioCode/design/compare/v19.1.1...v19.1.2) (2021-07-14)
+
+
+### Bug Fixes
+
+* **react:** use medium date style for `ListInstallmentItem` ([9d15377](https://github.com/FacioCode/design/commit/9d153772118c7685d0d9f211d6735bf9fbddc6d4))
+
+
+
+
+
 ## [19.1.1](https://github.com/FacioCode/design/compare/v19.1.0...v19.1.1) (2021-07-13)
 
 
