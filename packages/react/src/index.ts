@@ -163,6 +163,7 @@ export { ForbiddenIcon } from "@svg-icons/ForbiddenIcon";
 export { HourglassIcon } from "@svg-icons/HourglassIcon";
 export { PaidIcon } from "@svg-icons/PaidIcon";
 export { ReceivedIcon } from "@svg-icons/ReceivedIcon";
+export { SearchIcon } from "@svg-icons/SearchIcon";
 export { WaitingIcon } from "@svg-icons/WaitingIcon";
 export { WalletIcon } from "@svg-icons/WalletIcon";
 export { WarningIcon } from "@svg-icons/WarningIcon";
