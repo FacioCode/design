@@ -45,5 +45,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "engines": {
+    "node": ">=16.4.0",
+    "npm": ">=7.19.0"
   }
 }
