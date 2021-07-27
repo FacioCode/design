@@ -5,10 +5,12 @@
     "moduleResolution": "Node",
     "noImplicitAny": true,
     "resolveJsonModule": true,
-    "skipLibCheck": false
+    "skipLibCheck": false,
+    "types": ["jest", "node"]
   },
   "exclude": [
     "node_modules",
-    "packages/*/node_modules"
+    "packages/*/node_modules",
+    "**/jest.config.ts"
   ]
 }
