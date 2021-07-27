@@ -56,7 +56,7 @@
     "@faciocode/style-dictionary": "^19.4.3"
   },
   "engines": {
-    "node": ">=16.4.0",
+    "node": ">=14.17.3 || >=16.4.0",
     "npm": ">=7.19.0"
   }
 }
