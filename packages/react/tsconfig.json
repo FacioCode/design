@@ -6,7 +6,7 @@
       "@hooks/*": ["./src/hooks/*"],
       "@svg-icons/*": ["./src/SvgIcon/*"]
     },
-    "types": ["@emotion/core"]
+    "types": ["jest", "node"]
   },
   "extends": "../../tsconfig"
 }
