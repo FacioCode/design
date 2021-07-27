@@ -9,7 +9,14 @@ const manualChunks = (id) => path.parse(id).name;
 const plugins = [
   nodeResolve(),
   PeerDepsExternalPlugin(),
-  typescript(),
+  typescript({
+    exclude: [
+      "**/jest.config.ts",
+      "**/*.test.ts",
+      "**/*.test.tsx",
+    ],
+    include: "src/**/*.{ts,tsx}",
+  }),
 ];
 
 const chunkFileNames = "[name].js";
