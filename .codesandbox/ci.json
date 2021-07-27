@@ -1,6 +1,5 @@
 {
   "buildCommand": "build-codesandbox",
-  "infiniteLoopProtection": true,
   "installCommand": "install-codesandbox",
   "node": "14",
   "packages": ["packages/mui-themes", "packages/react", "packages/styles"],
