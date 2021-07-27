@@ -59,7 +59,8 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "npm run build --workspaces",
+    "build": "lerna run build",
+    "build-workspaces": "npm run build --workspaces",
     "clean": "lerna clean",
     "pretest": "npm run build",
     "preversion": "npm run test",
