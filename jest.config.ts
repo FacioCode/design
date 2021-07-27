@@ -1,11 +1,31 @@
-import base from "./config/jest/jest.config";
-import { displayName } from "./package.json";
+import type { Config } from "@jest/types";
 
-export default {
-  ...base,
-  displayName,
-  projects: [
-    "<rootDir>",
-    "<rootDir>/packages/react",
-  ],
+const modulePathIgnorePatterns = [
+  "/.stryker-tmp/",
+  "/coverage/",
+  "/dist/",
+  "/src.old/",
+];
+
+const ignorePatterns = [
+  ...modulePathIgnorePatterns,
+  "/node_modules/",
+];
+
+export const baseConfig : Config.InitialOptions = {
+  collectCoverage: true,
+  coverageDirectory: "coverage",
+  coveragePathIgnorePatterns: ignorePatterns,
+  errorOnDeprecated: true,
+  testPathIgnorePatterns: ignorePatterns,
+  transformIgnorePatterns: ignorePatterns,
+  verbose: true,
+  watchPathIgnorePatterns: ignorePatterns,
 };
+
+const config = {
+  ...baseConfig,
+  projects: ["<rootDir>/packages/*"],
+};
+
+export default config;
