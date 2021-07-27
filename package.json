@@ -62,7 +62,7 @@
     "build": "npm run build --workspaces",
     "build-codesandbox": "lerna run build",
     "clean": "lerna clean",
-    "install-codesandbox": "npm ci && npm bootstrap",
+    "install-codesandbox": "npm ci && npm run bootstrap",
     "pretest": "npm run build",
     "preversion": "npm run test",
     "reinstall": "npx rimraf package-lock.json packages/*/package-lock.json node_modules packages/*/node_modules && npm install --legacy-peer-deps",
