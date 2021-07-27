@@ -10,6 +10,7 @@ const babelOptions = {
       },
     ],
     "@babel/preset-typescript",
+    "@babel/preset-react",
   ],
 };
 
