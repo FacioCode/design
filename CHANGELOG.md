@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.0.0](https://github.com/FacioCode/design/compare/v20.0.1...v21.0.0) (2021-07-28)
+
+
+### Features
+
+* add `<AppIcon />` svg icon component ([#359](https://github.com/FacioCode/design/issues/359)) ([4a1629f](https://github.com/FacioCode/design/commit/4a1629fe2a1478e3ba649fc324a18f6aaf7c5161))
+
+
+### BREAKING CHANGES
+
+* From now, you'll need Node 16.4 (or higher) and npm 7.19 (or higher) for consuming Design System packages
+
+* build: use lerna for packages build for now
+
+We can't use npm 7 workspaces because codesandbox does not support node 16 / npm 7
+
+* ci(codesandbox): add install & build scripts for codesandbox
+
+* ci: fix bootstrap command, remove infiniteLoopProtection key
+
+* ci(codesandbox): force npm update before instaling dependencies
+
+* build: prevent engine warning when using codesandbox ci
+
+* feat(react): add app svg icon (`<AppIcon />`)
+
+* build: update package lock file
+
+
+
+
+
 ## [20.0.1](https://github.com/FacioCode/design/compare/v20.0.0...v20.0.1) (2021-07-28)
 
 **Note:** Version bump only for package @faciocode/design
