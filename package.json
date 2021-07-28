@@ -16,7 +16,7 @@
     "@babel/preset-typescript": "7.14.5",
     "@jest/types": "27.0.6",
     "@rollup/plugin-node-resolve": "13.0.0",
-    "@rollup/plugin-typescript": "8.2.1",
+    "@rollup/plugin-typescript": "8.2.3",
     "@storybook/addon-a11y": "6.3.5",
     "@storybook/addon-backgrounds": "6.3.5",
     "@storybook/addon-docs": "^6.3.5",
