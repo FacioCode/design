@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [20.0.1](https://github.com/FacioCode/design/compare/v20.0.0...v20.0.1) (2021-07-28)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
+# [20.0.0](https://github.com/FacioCode/design/compare/v19.4.3...v20.0.0) (2021-07-27)
+
+
+### Build System
+
+* require Node 16 & npm 7 ([47e5225](https://github.com/FacioCode/design/commit/47e5225f86ad59f75030da9d52577fe541ae0ca4))
+
+
+### BREAKING CHANGES
+
+* From now, you'll need Node 16.4 (or higher) and npm 7.19 (or higher) for consuming Design System packages
+
+
+
+
+
 ## [19.4.3](https://github.com/FacioCode/design/compare/v19.4.2...v19.4.3) (2021-07-23)
 
 **Note:** Version bump only for package @faciocode/mui-themes
