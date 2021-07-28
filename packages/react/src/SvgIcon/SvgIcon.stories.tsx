@@ -1,5 +1,8 @@
 import * as React from "react";
-import type { Meta, Story } from "@storybook/react";
+
+import type { ComponentMeta, ComponentStory } from "@storybook/react";
+
+import { AppIcon } from "@svg-icons/AppIcon";
 import { ApproveIcon } from "@components/SvgIcon/ApproveIcon";
 import { CloseIcon } from "@svg-icons/CloseIcon";
 import { ForbiddenIcon } from "@svg-icons/ForbiddenIcon";
@@ -13,26 +16,45 @@ import { WhatsAppIcon } from "@svg-icons/WhatsAppIcon";
 export default {
   component: SvgIcon,
   title: "Components/SVG Icon",
-} as Meta;
+} as ComponentMeta<typeof SvgIcon>;
 
-export const Approve : Story<SvgIconProps> = (props: SvgIconProps) => <ApproveIcon {...props} />;
+export const App : ComponentStory<typeof AppIcon> = (args: SvgIconProps) => (
+  <AppIcon {...args} />
+);
+App.args = { titleAccess: "Aplicativo" };
+
+export const Approve : ComponentStory<typeof ApproveIcon> = (args) => (
+  <ApproveIcon {...args} />
+);
 Approve.args = { titleAccess: "Aprovar" };
 
-export const Close : Story<SvgIconProps> = (props: SvgIconProps) => <CloseIcon {...props} />;
+export const Close : ComponentStory<typeof CloseIcon> = (args) => (
+  <CloseIcon {...args} />
+);
 Close.args = { titleAccess: "Fechar" };
 
-export const Forbidden: Story<SvgIconProps> = (props: SvgIconProps) => <ForbiddenIcon {...props} />;
+export const Forbidden: ComponentStory<typeof ForbiddenIcon> = (args) => (
+  <ForbiddenIcon {...args} />
+);
 Forbidden.args = { titleAccess: "Reprovar" };
 
-export const Received : Story<SvgIconProps> = (props: SvgIconProps) => <ReceivedIcon {...props} />;
+export const Received : ComponentStory<typeof ReceivedIcon> = (args) => (
+  <ReceivedIcon {...args} />
+);
 Received.args = { titleAccess: "Crédito consignado" };
 
-export const Wallet : Story<SvgIconProps> = (props: SvgIconProps) => <WalletIcon {...props} />;
+export const Wallet : ComponentStory<typeof WalletIcon> = (args) => (
+  <WalletIcon {...args} />
+);
 Wallet.args = { titleAccess: "Adiantamento de salário" };
 
-export const Warning : Story<SvgIconProps> = (props: SvgIconProps) => <WarningIcon {...props} />;
+export const Warning : ComponentStory<typeof WarningIcon> = (args) => (
+  <WarningIcon {...args} />
+);
 Warning.args = { titleAccess: "Aviso" };
 
-export const WhatsApp : Story<SvgIconProps> = (props: SvgIconProps) => <WhatsAppIcon {...props} />;
+export const WhatsApp : ComponentStory<typeof WhatsAppIcon> = (args) => (
+  <WhatsAppIcon {...args} />
+);
 WhatsApp.args = { titleAccess: "WhatsApp" };
 WhatsApp.storyName = "WhatsApp";
