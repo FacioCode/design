@@ -130,3 +130,7 @@ public
 
 # misc
 tmp-dir/
+
+# use TS instead of JS for Jest config files
+!jest.config.ts
+jest.config.js
