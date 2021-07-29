@@ -50,7 +50,8 @@
     "clean": "rm -rf dist/",
     "compile": "npm run rollup && npm run emitDeclaration",
     "emitDeclaration": "tsc --declaration --declarationDir dist --emitDeclarationOnly",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "test": "jest"
   },
   "peerDependencies": {
     "@material-ui/core": "^4.12.2"
