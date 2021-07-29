@@ -63,7 +63,6 @@
     "build-codesandbox": "npm run build",
     "clean": "lerna clean",
     "install-codesandbox": "npm install -g npm && npm ci",
-    "prebuild": "eslint .",
     "pretest": "npm run build",
     "preversion": "npm run test",
     "reinstall": "npx rimraf package-lock.json packages/*/package-lock.json node_modules packages/*/node_modules && npm install --legacy-peer-deps",
