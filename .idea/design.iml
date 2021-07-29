@@ -53,6 +53,8 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/templates/flutter/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/templates/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/tmp-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/react-icons/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
