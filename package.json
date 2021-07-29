@@ -59,6 +59,7 @@
     "build": "lerna run build",
     "clean": "lerna clean",
     "postinstall": "npm run bootstrap",
+    "prebuild": "eslint .",
     "pretest": "npm run build",
     "preversion": "npm run test",
     "reinstall": "npx rimraf package-lock.json packages/*/package-lock.json node_modules packages/*/node_modules && npm install --legacy-peer-deps",
