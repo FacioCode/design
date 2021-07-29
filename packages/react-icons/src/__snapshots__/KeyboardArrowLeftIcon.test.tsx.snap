@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KeyboardArrowLeftIcon component should match snapshot 1`] = `
+<svg
+  aria-hidden={true}
+  className="MuiSvgIcon-root"
+  focusable="false"
+  height="24"
+  viewBox="0 0 24 24"
+  width="24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M14.646 5.646a.5.5 0 0 1 .765.638l-.057.07L9.707 12l5.647 5.646a.5.5 0 0 1 .057.638l-.057.07a.5.5 0 0 1-.638.057l-.07-.057-6-6a.5.5 0 0 1-.057-.638l.057-.07 6-6z"
+    fillRule="evenodd"
+  />
+</svg>
+`;

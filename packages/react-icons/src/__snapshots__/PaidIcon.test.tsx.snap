@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaidIcon component should match snapshot 1`] = `
+<svg
+  aria-hidden={true}
+  className="MuiSvgIcon-root"
+  focusable="false"
+  height="24"
+  viewBox="0 0 24 24"
+  width="24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M5.349 12.027a.5.5 0 0 0-.698.716l4.737 4.615a.5.5 0 0 0 .698 0l10.263-10a.5.5 0 0 0-.698-.716l-9.914 9.66-4.388-4.275z"
+    fillRule="evenodd"
+  />
+</svg>
+`;

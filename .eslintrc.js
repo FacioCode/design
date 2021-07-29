@@ -38,7 +38,6 @@ module.exports = {
       rules: {
         "eol-last": "off",
         "line-comment-position": "off",
-        "max-len": ["error", 145],
         "no-inline-comments": "off",
       },
     },
@@ -290,5 +289,10 @@ module.exports = {
     "wrap-regex": "error",
     "yield-star-spacing": "error",
     yoda: "error",
+  },
+  settings: {
+    react: {
+      version: "17.0.2",
+    },
   },
 };

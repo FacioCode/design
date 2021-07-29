@@ -154,18 +154,3 @@ export { useMediaQuery } from "./hooks/useMediaQuery";
 export { useTheme } from "./hooks/useTheme";
 
 export { ServerStyleSheets } from "./ServerStyleSheets";
-
-export { AppIcon } from "@svg-icons/AppIcon";
-export { ApproveIcon } from "@svg-icons/ApproveIcon";
-export { CalendarIcon } from "@svg-icons/CalendarIcon";
-export { CloseIcon } from "@svg-icons/CloseIcon";
-export { FreeIcon } from "@svg-icons/FreeIcon";
-export { ForbiddenIcon } from "@svg-icons/ForbiddenIcon";
-export { HourglassIcon } from "@svg-icons/HourglassIcon";
-export { PaidIcon } from "@svg-icons/PaidIcon";
-export { ReceivedIcon } from "@svg-icons/ReceivedIcon";
-export { SearchIcon } from "@svg-icons/SearchIcon";
-export { WaitingIcon } from "@svg-icons/WaitingIcon";
-export { WalletIcon } from "@svg-icons/WalletIcon";
-export { WarningIcon } from "@svg-icons/WarningIcon";
-export { WhatsAppIcon } from "@svg-icons/WhatsAppIcon";

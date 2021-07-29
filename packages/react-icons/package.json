@@ -1,0 +1,69 @@
+{
+  "name": "@faciocode/react-icons",
+  "displayName": "FacioReactIcons",
+  "version": "21.0.1",
+  "description": "Facio Design System icons for React",
+  "repository": {
+    "directory": "packages/react-icons",
+    "type": "git",
+    "url": "https://github.com/FacioCode/design"
+  },
+  "keywords": [
+    "facio",
+    "icons",
+    "react",
+    "svg"
+  ],
+  "author": {
+    "name": "Facio",
+    "url": "https://github.com/FacioCode"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/FacioCode/design/tree/main/packages/react-icons#readme",
+  "bugs": {
+    "url": "https://github.com/FacioCode/design/issues"
+  },
+  "devDependencies": {
+    "@faciocode/style-dictionary": "^21.0.1"
+  },
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "dist/index.d.ts"
+  ],
+  "browser": "dist/umd/index.js",
+  "esmodule": "dist/es/index.js",
+  "jsdelivr": "dist/umd/index.js",
+  "jsnext:main": "dist/es/index.js",
+  "main": "dist/index.js",
+  "module": "dist/es/index.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "umd:main": "dist/umd/index.js",
+  "unpkg": "dist/umd/index.js",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf dist/",
+    "compile": "npm run rollup && npm run emitDeclaration",
+    "emitDeclaration": "tsc --declaration --declarationDir dist --emitDeclarationOnly",
+    "rollup": "rollup -c",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.12.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14.17.3 || >=16.4.0",
+    "npm": ">=7.19.0"
+  }
+}

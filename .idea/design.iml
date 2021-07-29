@@ -25,9 +25,6 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea/libraries" />
       <excludeFolder url="file://$MODULE_DIR$/packages/mui-styles/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/mui-themes/dist" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src/templates/flutter/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/coverage" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter/example/.pub" />
@@ -47,10 +44,17 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/flutter_ds/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/public" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/react/coverage" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist-storybook" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/src.old" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/react/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/templates/flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/templates/flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/templates/flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/tmp-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/react-icons/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
