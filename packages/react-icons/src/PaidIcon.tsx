@@ -3,11 +3,11 @@ import * as React from "react";
 import { SvgIcon, SvgIconProps } from "@material-ui/core";
 
 /**
- * Paid Icon
+ * Useful for approve icon button or paid status
  *
  * @example
  * ```jsx
- * <PaidIcon titleAccess={"Human-readable title here"} />
+ * <PaidIcon titleAccess={"Useful for approve icon button or paid status"} />
  * ```
  */
 export const PaidIcon = React.forwardRef<SVGSVGElement, SvgIconProps>(
