@@ -1,28 +1,16 @@
 {
   "size": {
     "base": {
-      "none": {
-        "value": 0
-      },
-      "one": {
-        "value": 1
-      },
-      "quarter": {
-        "value": 2
-      },
-      "focus": {
-        "value": 3
-      },
-      "half": {
-        "value": 4
-      },
+      "none": { "value": 0 },
+      "one": { "value": 1 },
+      "quarter": { "value": 2 },
+      "focus": { "value": 3 },
+      "half": { "value": 4 },
       "halfQuarter": {
         "comment": "Commonly used for small button vertical padding",
         "value": 6
       },
-      "single": {
-        "value": 8
-      },
+      "single": { "value": 8 },
       "singleHalf": {
         "comment": "Commonly used for medium button vertical padding or dialog content text margin",
         "value": 12
@@ -59,9 +47,7 @@
         "comment": "Used for large input height",
         "value": 40
       },
-      "sixfold": {
-        "value": 48
-      },
+      "sixfold": { "value": 48 },
       "sevenfold": {
         "comment": "Commonly used for app bar height",
         "value": 56
@@ -73,22 +59,6 @@
       "ninefold": {
         "comment": "Commonly used for bottom sheet min height",
         "value": 72
-      },
-      "fourteenFold": {
-        "comment": "Useful for AppBar with tabs (e.g. Company Dashboard)",
-        "value": 112
-      },
-      "fifteenFold": {
-        "comment": "Useful for Brazilian CPF XGrid columns",
-        "value": 120
-      },
-      "eighteenFold": {
-        "comment": "Useful for Date and Time XGrid columns",
-        "value": 144
-      },
-      "twentyFourFold": {
-        "comment": "Useful for Cancellation Reason XGrid columns",
-        "value": 192
       },
       "thirtyOneFold": {
         "comment": "Button max width",

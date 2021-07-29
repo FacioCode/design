@@ -120,6 +120,7 @@
         "value": "assets/icons/megaphone.svg"
       },
       "paid": {
+        "comment": "Useful for approve icon button or paid status",
         "value": "assets/icons/paid.svg"
       },
       "pig": {
@@ -157,7 +158,7 @@
       "warning": {
         "value": "assets/icons/warning.svg"
       },
-      "whatsapp": {
+      "whatsApp": {
         "value": "assets/icons/whatsapp.svg"
       }
     }
