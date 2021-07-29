@@ -22,7 +22,7 @@
   "directories": {
     "lib": "dist"
   },
-  "main": "src/index.js",
+  "main": "build/index.js",
   "source": "src/index.js",
   "repository": {
     "directory": "packages/style-dictionary",
@@ -33,14 +33,17 @@
     "url": "https://github.com/FacioCode/design/issues"
   },
   "devDependencies": {
-    "style-dictionary": "2.10.3"
+    "style-dictionary": "3.0.1"
   },
   "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "style-dictionary clean --config ./src/index.js && rm -rf ./dist && rm -rf ../flutter_ds/lib/src/generated",
-    "compile": "style-dictionary build --config ./src/index.js",
-    "prebuild": "svgo -f assets/icons --config=./src/config/svgo.json --quiet",
+    "build": "npm run compile && npm run style-dictionary",
+    "clean": "rm -rf ./build && rm -rf ./dist && rm -rf ../flutter_ds/lib/src/generated",
+    "compile": "tsc",
+    "prebuild": "npm run svgo",
+    "style-dictionary": "node ./build/index.js",
+    "svgo": "svgo -f assets/icons --config=./src/config/svgo.json --quiet",
     "test": "jest",
+    "tsc": "tsc",
     "webfont": "webfont"
   },
   "publishConfig": {
