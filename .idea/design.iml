@@ -49,6 +49,7 @@
       <excludeFolder url="file://$MODULE_DIR$/public" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/react/dist-storybook" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/style-dictionary/tmp-dir" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
