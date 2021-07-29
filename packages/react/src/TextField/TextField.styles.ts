@@ -16,4 +16,3 @@ const styles = createStyles({
 });
 
 export const useStyles = makeStyles(styles, { name: "FacioTextField" });
-export default useStyles;

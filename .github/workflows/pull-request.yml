@@ -1,0 +1,22 @@
+name: Pull request
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16"
+      - name: Install Lerna globally
+        run: npm install --global --loglevel=error lerna
+      - name: Install project dependencies
+        run: npm ci --no-optional
+      - name: Run tests
+        run: npm test

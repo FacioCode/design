@@ -39,6 +39,14 @@ export interface CurrencyTypeMap<P = {}, D extends React.ElementType = "data"> {
     locales?: "pt-BR" | string | string[];
 
     /**
+     * Controls whether the Currency is hidden when `value` is zero.
+     *
+     * @default false
+     * @type bool
+     */
+    showZero?: boolean;
+
+    /**
      * Currency amount.
      *
      * @example 100

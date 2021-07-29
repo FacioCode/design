@@ -756,6 +756,77 @@ class LinkButtonStyles {
   static const pressedColor = const Color(0xFF005C5E);
 }
 
+class ListItemIconStyles {
+  ListItemIconStyles._();
+
+  /// Background Color for Color Error
+  static const colorErrorBackgroundColor = const Color(0xFFFFE3EE);
+
+  /// Color for Color Error
+  static const colorErrorColor = const Color(0xFFC42B47);
+
+  /// Background Color for List Item Icon
+  static const backgroundColor = const Color(0xFFFAFAFA);
+
+  /// Border Radius for List Item Icon
+  static const borderRadius = 8.00;
+
+  /// Color for List Item Icon
+  static const color = const Color(0xFF303846);
+
+  /// Margin Bottom for List Item Icon
+  static const marginBottom = 8.00;
+
+  /// Margin Left for List Item Icon
+  static const marginLeft = 0.00;
+
+  /// Margin Right for List Item Icon
+  static const marginRight = 8.00;
+
+  /// Margin Top for List Item Icon
+  static const marginTop = 8.00;
+
+  /// Min Width for List Item Icon
+  static const minWidth = 24.00;
+
+  /// Padding for List Item Icon
+  static const padding = 4.00;
+}
+
+class ListSubheaderStyles {
+  ListSubheaderStyles._();
+
+  /// Padding Bottom for Gutters
+  static const guttersPaddingBottom = 16.00;
+
+  /// Padding Left for Gutters
+  static const guttersPaddingLeft = 16.00;
+
+  /// Padding Right for Gutters
+  static const guttersPaddingRight = 16.00;
+
+  /// Padding Top for Gutters
+  static const guttersPaddingTop = 16.00;
+
+  /// Background Color for List Subheader
+  static const backgroundColor = const Color(0xFFFFFFFF);
+
+  /// Color for List Subheader
+  static const color = const Color(0xFF303846);
+
+  /// Font Family for List Subheader
+  static const fontFamily = "Open Sans";
+
+  /// Font Weight for List Subheader
+  static const fontWeight = FontWeight.w600;
+
+  /// Letter Spacing for List Subheader
+  static const letterSpacing = -0.23;
+
+  /// Line Height for List Subheader
+  static const lineHeight = 1.6;
+}
+
 class OutlinedButtonStyles {
   OutlinedButtonStyles._();
 

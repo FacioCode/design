@@ -11,9 +11,12 @@ class Sizes {
   static const baseDouble = 16.00;
   static const baseDoubleHalf = 20.00;
   static const baseDoubleQuarter = 18.00;
+  static const baseEighteenFold = 144.00;
   static const baseEightfold = 64.00;
+  static const baseFifteenFold = 120.00;
   static const baseFivefold = 40.00;
   static const baseFocus = 3.00;
+  static const baseFourteenFold = 112.00;
   static const baseHalf = 4.00;
   static const baseHalfQuarter = 6.00;
   static const baseNinefold = 72.00;
@@ -29,6 +32,7 @@ class Sizes {
   static const baseThirtyOneFold = 248.00;
   static const baseTriple = 24.00;
   static const baseTripleHalf = 28.00;
+  static const baseTwentyFourFold = 192.00;
   static const borderRadiusDouble = 24.00;
   static const borderRadiusDoubleQuarter = 27.00;
   static const borderRadiusNone = 0.00;

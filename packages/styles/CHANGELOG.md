@@ -3,6 +3,598 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.0.1](https://github.com/FacioCode/design/compare/v21.0.0...v21.0.1) (2021-07-29)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [21.0.0](https://github.com/FacioCode/design/compare/v20.0.1...v21.0.0) (2021-07-28)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [20.0.1](https://github.com/FacioCode/design/compare/v20.0.0...v20.0.1) (2021-07-28)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [20.0.0](https://github.com/FacioCode/design/compare/v19.4.3...v20.0.0) (2021-07-27)
+
+
+### Build System
+
+* require Node 16 & npm 7 ([47e5225](https://github.com/FacioCode/design/commit/47e5225f86ad59f75030da9d52577fe541ae0ca4))
+
+
+### BREAKING CHANGES
+
+* From now, you'll need Node 16.4 (or higher) and npm 7.19 (or higher) for consuming Design System packages
+
+
+
+
+
+## [19.4.3](https://github.com/FacioCode/design/compare/v19.4.2...v19.4.3) (2021-07-23)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.4.2](https://github.com/FacioCode/design/compare/v19.4.1...v19.4.2) (2021-07-21)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.4.1](https://github.com/FacioCode/design/compare/v19.4.0...v19.4.1) (2021-07-21)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [19.4.0](https://github.com/FacioCode/design/compare/v19.3.0...v19.4.0) (2021-07-15)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [19.3.0](https://github.com/FacioCode/design/compare/v19.2.3...v19.3.0) (2021-07-15)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.2.3](https://github.com/FacioCode/design/compare/v19.2.2...v19.2.3) (2021-07-14)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.2.2](https://github.com/FacioCode/design/compare/v19.2.1...v19.2.2) (2021-07-14)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.2.1](https://github.com/FacioCode/design/compare/v19.2.0...v19.2.1) (2021-07-14)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+### Features
+
+* **styles:** add styles for list item icon and list subheader ([8119cbc](https://github.com/FacioCode/design/commit/8119cbce6fbc5cc34209ad4dc2dea8b7f3d8872e))
+
+
+
+## 19.1.1 (2021-07-13)
+
+
+
+
+
+## [19.1.2](https://github.com/FacioCode/design/compare/v19.1.1...v19.1.2) (2021-07-14)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.1.1](https://github.com/FacioCode/design/compare/v19.1.0...v19.1.1) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [19.1.0](https://github.com/FacioCode/design/compare/v19.0.6...v19.1.0) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.0.6](https://github.com/FacioCode/design/compare/v19.0.5...v19.0.6) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.0.5](https://github.com/FacioCode/design/compare/v19.0.4...v19.0.5) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.0.4](https://github.com/FacioCode/design/compare/v19.0.3...v19.0.4) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.0.3](https://github.com/FacioCode/design/compare/v19.0.2...v19.0.3) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.0.2](https://github.com/FacioCode/design/compare/v19.0.1...v19.0.2) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [19.0.1](https://github.com/FacioCode/design/compare/v19.0.0...v19.0.1) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [19.0.0](https://github.com/FacioCode/design/compare/v18.0.0...v19.0.0) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [18.0.0](https://github.com/FacioCode/design/compare/v17.0.1...v18.0.0) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [17.0.1](https://github.com/FacioCode/design/compare/v17.0.0...v17.0.1) (2021-07-13)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [17.0.0](https://github.com/FacioCode/design/compare/v16.8.7...v17.0.0) (2021-07-12)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.8.7](https://github.com/FacioCode/design/compare/v16.8.6...v16.8.7) (2021-07-12)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.8.6](https://github.com/FacioCode/design/compare/v16.8.5...v16.8.6) (2021-07-12)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.8.5](https://github.com/FacioCode/design/compare/v16.8.4...v16.8.5) (2021-07-12)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.8.4](https://github.com/FacioCode/design/compare/v16.8.3...v16.8.4) (2021-07-04)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.8.3](https://github.com/FacioCode/design/compare/v16.8.2...v16.8.3) (2021-07-04)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.8.2](https://github.com/FacioCode/design/compare/v16.8.1...v16.8.2) (2021-07-03)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.8.1](https://github.com/FacioCode/design/compare/v16.8.0...v16.8.1) (2021-07-03)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [16.8.0](https://github.com/FacioCode/design/compare/v16.7.1...v16.8.0) (2021-07-03)
+
+
+### Features
+
+* add `fourteenFold` base size token ([d122785](https://github.com/FacioCode/design/commit/d1227852c3d9eab67d5883dc7aa7c369c91b3bf8))
+
+
+
+# [16.7.0](https://github.com/FacioCode/design/compare/v16.6.6...v16.7.0) (2021-07-03)
+
+
+
+
+
+## [16.7.1](https://github.com/FacioCode/design/compare/v16.7.0...v16.7.1) (2021-07-03)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [16.7.0](https://github.com/FacioCode/design/compare/v16.6.6...v16.7.0) (2021-07-03)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.6.6](https://github.com/FacioCode/design/compare/v16.6.5...v16.6.6) (2021-07-02)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.6.5](https://github.com/FacioCode/design/compare/v16.6.4...v16.6.5) (2021-07-02)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.6.4](https://github.com/FacioCode/design/compare/v16.6.3...v16.6.4) (2021-07-01)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.6.3](https://github.com/FacioCode/design/compare/v16.6.2...v16.6.3) (2021-07-01)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.6.2](https://github.com/FacioCode/design/compare/v16.6.1...v16.6.2) (2021-06-30)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.6.1](https://github.com/FacioCode/design/compare/v16.6.0...v16.6.1) (2021-06-30)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [16.6.0](https://github.com/FacioCode/design/compare/v16.5.0...v16.6.0) (2021-06-30)
+
+
+### Features
+
+* add `twentyFourFold` base size token ([c85bf1b](https://github.com/FacioCode/design/commit/c85bf1b38428d223d351637b22ed47dec3797c97))
+
+
+
+
+
+# [16.5.0](https://github.com/FacioCode/design/compare/v16.4.0...v16.5.0) (2021-06-29)
+
+
+### Features
+
+* add `fifteenFold` base size token ([9da4107](https://github.com/FacioCode/design/commit/9da410750a4064461ad125b83df56bb4259d2734))
+
+
+
+
+
+# [16.4.0](https://github.com/FacioCode/design/compare/v16.3.0...v16.4.0) (2021-06-29)
+
+
+### Features
+
+* add `eighteenFold` base size token ([0436fc5](https://github.com/FacioCode/design/commit/0436fc57bf601eaddda39e07e966c87487f195d8))
+
+
+
+
+
+# [16.3.0](https://github.com/FacioCode/design/compare/v16.2.1...v16.3.0) (2021-06-29)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.2.1](https://github.com/FacioCode/design/compare/v16.2.0...v16.2.1) (2021-06-28)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [16.2.0](https://github.com/FacioCode/design/compare/v16.1.3...v16.2.0) (2021-06-26)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.1.3](https://github.com/FacioCode/design/compare/v16.1.2...v16.1.3) (2021-06-26)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.1.2](https://github.com/FacioCode/design/compare/v16.1.1...v16.1.2) (2021-06-25)
+
+
+
+# 16.1.0 (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.1.1](https://github.com/FacioCode/design/compare/v16.1.0...v16.1.1) (2021-06-25)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [16.1.0](https://github.com/FacioCode/design/compare/v16.0.8...v16.1.0) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.0.8](https://github.com/FacioCode/design/compare/v16.0.7...v16.0.8) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.0.7](https://github.com/FacioCode/design/compare/v16.0.6...v16.0.7) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.0.6](https://github.com/FacioCode/design/compare/v16.0.5...v16.0.6) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.0.5](https://github.com/FacioCode/design/compare/v16.0.4...v16.0.5) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.0.4](https://github.com/FacioCode/design/compare/v16.0.3...v16.0.4) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.0.3](https://github.com/FacioCode/design/compare/v16.0.2...v16.0.3) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.0.2](https://github.com/FacioCode/design/compare/v16.0.1...v16.0.2) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [16.0.1](https://github.com/FacioCode/design/compare/v16.0.0...v16.0.1) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [16.0.0](https://github.com/FacioCode/design/compare/v15.0.0...v16.0.0) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [15.0.0](https://github.com/FacioCode/design/compare/v14.0.1...v15.0.0) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [14.0.1](https://github.com/FacioCode/design/compare/v14.0.0...v14.0.1) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+# [14.0.0](https://github.com/FacioCode/design/compare/v13.2.19...v14.0.0) (2021-06-23)
+
+
+### Build System
+
+* remove support to ES package format ([22e57c4](https://github.com/FacioCode/design/commit/22e57c47ee9119de994acb759180a7628939cd33))
+
+
+### Reverts
+
+* bring back support to ES modules ([37dda51](https://github.com/FacioCode/design/commit/37dda51d7ebff6cbb2e6e06e053094d1f5fdaa98))
+
+
+### BREAKING CHANGES
+
+* We dropped support to ES module format. Probably your bundler (like webpack) will use CommonJS from now.
+
+
+
+## [13.2.18](https://github.com/FacioCode/design/compare/v13.2.17...v13.2.18) (2021-06-22)
+
+
+
+
+
+## [13.2.19](https://github.com/FacioCode/design/compare/v13.2.18...v13.2.19) (2021-06-22)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [13.2.18](https://github.com/FacioCode/design/compare/v13.2.17...v13.2.18) (2021-06-22)
+
+
+
+## 13.2.16 (2021-06-18)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
+## [13.2.17](https://github.com/FacioCode/design/compare/v13.2.16...v13.2.17) (2021-06-22)
+
+**Note:** Version bump only for package @faciocode/styles
+
+
+
+
+
 ## [13.2.16](https://github.com/FacioCode/design/compare/v13.2.15...v13.2.16) (2021-06-18)
 
 **Note:** Version bump only for package @faciocode/styles

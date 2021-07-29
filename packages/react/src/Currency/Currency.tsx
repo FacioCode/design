@@ -3,38 +3,37 @@ import type { CurrencyProps } from "./Currency.types";
 import clsx from "clsx";
 import useStyles from "./Currency.styles";
 
-type Render = (props: CurrencyProps, ref: CurrencyProps["ref"]) => JSX.Element;
+export const Currency = React.forwardRef(
+  (props: CurrencyProps, ref: CurrencyProps["ref"]) => {
+    const {
+      className,
+      component: Component = "data",
+      code = "BRL",
+      locales,
+      showZero = false,
+      value,
+      ...otherProps
+    } = props;
 
-const render : Render = (props, ref) => {
-  const {
-    className,
-    component: Component = "data",
-    code = "BRL",
-    locales,
-    value,
-    ...otherProps
-  } = props;
+    const { root } = useStyles();
 
-  if (!value) {
-    return null;
-  }
+    if (!value && !showZero) {
+      return null;
+    }
 
-  const formattedValue = Number(value);
-  const formatter = Intl.NumberFormat(locales, { currency: code, style: "currency" });
+    const formattedValue = Number(value);
+    const formatter = Intl.NumberFormat(locales, { currency: code, style: "currency" });
 
-  const { root } = useStyles();
+    // eslint-disable-next-line sort-keys
+    const classNames = clsx(root, className);
 
-  // eslint-disable-next-line sort-keys
-  const classNames = clsx(root, className);
-
-  return (
-    <Component className={classNames} ref={ref} value={formattedValue} {...otherProps}>
-      {formatter.format(formattedValue)}
-    </Component>
-  );
-};
-
-export const Currency = React.forwardRef(render);
+    return (
+      <Component className={classNames} ref={ref} value={formattedValue} {...otherProps}>
+        {formatter.format(formattedValue)}
+      </Component>
+    );
+  },
+);
 Currency.displayName = "Currency";
 
 export default Currency;

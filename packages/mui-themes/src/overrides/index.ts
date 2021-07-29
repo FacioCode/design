@@ -159,6 +159,13 @@ export const overrides : ThemeOptions["overrides"] = {
   MuiInputBase,
   MuiInputLabel,
   MuiLink,
+  MuiListItemIcon: {
+    root: customProperties.listItemIconStyles.root,
+  },
+  MuiListSubheader: {
+    gutters: customProperties.listSubheaderStyles.gutters,
+    root: customProperties.listSubheaderStyles.root as CSSProperties,
+  },
   MuiPaper: {
     root: {
       ...customProperties.paperStyles.root,

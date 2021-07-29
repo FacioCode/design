@@ -10,6 +10,8 @@ const render : SvgIconRender = (props, ref) => (
 );
 
 export const ReceivedIcon = React.forwardRef<unknown, SvgIconProps>(render);
-ReceivedIcon.displayName = "ReceivedIcon";
 
-export default ReceivedIcon;
+// eslint-disable-next-line no-process-env
+if (process.env.NODE_ENV !== "production") {
+  ReceivedIcon.displayName = "ReceivedIcon";
+}

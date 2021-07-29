@@ -2,7 +2,7 @@
   "name": "@faciocode/styles",
   "displayName": "FacioStyles",
   "private": false,
-  "version": "13.2.16",
+  "version": "21.0.1",
   "description": "Styles and assets for Facio Design System in CSS and JavaScript",
   "keywords": [
     "styles",
@@ -53,6 +53,10 @@
     "access": "public"
   },
   "devDependencies": {
-    "@faciocode/style-dictionary": "^13.2.16"
+    "@faciocode/style-dictionary": "^21.0.1"
+  },
+  "engines": {
+    "node": ">=14.17.3 || >=16.4.0",
+    "npm": ">=7.19.0"
   }
 }

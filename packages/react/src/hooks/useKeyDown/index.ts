@@ -37,8 +37,6 @@ export const useKeyDown = ({
       return onKeyDown;
     }
 
-    console.log(event.key);
-
     const allowedKeys : Keys = [];
 
     allowedKeyGroups.forEach((keyGroupName) => {

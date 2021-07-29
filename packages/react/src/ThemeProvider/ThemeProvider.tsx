@@ -1,12 +1,27 @@
 import * as React from "react";
 import { Component, ThemeProviderProps } from "./ThemeProvider.types";
+import { theme as defaultTheme, strictTheme } from "@faciocode/mui-themes";
 import { ThemeProvider as MaterialThemeProvider } from "@material-ui/core/styles";
-import { theme as defaultTheme } from "@faciocode/mui-themes";
 
 export const ThemeProvider : Component = (props: ThemeProviderProps) => {
-  const { children, theme = defaultTheme, ...otherProps } = props;
+  const { children, strict = false, ...otherProps } = props;
 
-  return <MaterialThemeProvider theme={theme} {...otherProps}>{children}</MaterialThemeProvider>;
+  const theme = React.useMemo(
+    () => {
+      if (strict) {
+        return strictTheme;
+      }
+
+      return defaultTheme;
+    },
+    [strict],
+  );
+
+  return (
+    <MaterialThemeProvider
+      theme={theme}
+      {...otherProps}>
+      {children}
+    </MaterialThemeProvider>
+  );
 };
-
-export default ThemeProvider;

@@ -17,3 +17,10 @@ Playground.args = {
   code: "BRL",
   value: 100,
 };
+
+export const ShowZero : Story<CurrencyProps> = Template.bind({});
+ShowZero.args = {
+  ...Playground.args,
+  showZero: true,
+  value: 0,
+};

@@ -52,10 +52,9 @@ const ControlledTemplate : Story<CurrencyFieldProps> = (props: CurrencyFieldProp
         value={value}
       />
       <LabeledCurrency
+        CurrencyProps={{ value: currencyValue }}
         key={"labeledCurrency"}
-        value={currencyValue}>
-        Valor total
-      </LabeledCurrency>
+        label={"Valor total"} />
       <ContainedButton type={"submit"}>Antecipar</ContainedButton>
     </form>
   );

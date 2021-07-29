@@ -15,6 +15,13 @@ module.exports = {
   ],
   overrides: [
     {
+      files: "**/*.config.js",
+      rules: {
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+      },
+    },
+    {
       files: "packages/**/*.js",
       rules: {
         "@typescript-eslint/no-var-requires": "off",

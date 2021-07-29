@@ -1,9 +1,8 @@
 import * as React from "react";
 import type { TimeProps } from "./Time.types";
+import { useStyles } from "./Time.styles";
 
-type Render = (props: TimeProps, ref: TimeProps["ref"]) => JSX.Element;
-
-const render : Render = (props, ref) => {
+export const Time = React.forwardRef((props: TimeProps, ref: TimeProps["ref"]) => {
   const {
     children,
     component: Component = "time",
@@ -12,6 +11,8 @@ const render : Render = (props, ref) => {
     timeStyle,
     ...otherProps
   } = props;
+
+  const { root } = useStyles();
 
   if (!children) {
     return null;
@@ -22,13 +23,18 @@ const render : Render = (props, ref) => {
   const formatter = new Intl.DateTimeFormat(locales, options);
 
   return (
-    <Component dateTime={value.toISOString()} ref={ref} {...otherProps}>
+    <Component
+      className={root}
+      dateTime={value.toISOString()}
+      ref={ref}
+      {...otherProps}>
       {formatter.format(value)}
     </Component>
   );
-};
+});
 
-export const Time = React.forwardRef(render);
-Time.displayName = "Time";
+// eslint-disable-next-line no-process-env
+if (process.env.NODE_ENV !== "production") {
+  Time.displayName = "Time";
+}
 
-export default Time;

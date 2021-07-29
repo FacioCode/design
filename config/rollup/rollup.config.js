@@ -5,27 +5,40 @@ import { terser } from "rollup-plugin-terser";
 import typescript from "@rollup/plugin-typescript";
 
 const manualChunks = (id) => path.parse(id).name;
+
 const plugins = [
   nodeResolve(),
   PeerDepsExternalPlugin(),
-  typescript(),
+  typescript({
+    exclude: [
+      "**/jest.config.ts",
+      "**/*.test.ts",
+      "**/*.test.tsx",
+    ],
+    include: "src/**/*.{ts,tsx}",
+  }),
 ];
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+const chunkFileNames = "[name].js";
+
+const dir = {
+  cjs: "dist",
+  es: "dist/es",
+};
+
 export default ({ browser, displayName, globals = {}, source }) => [
   {
     external: Object.keys(globals),
     input: source,
-    manualChunks,
     output: [
       {
-        chunkFileNames: "[name].js",
-        dir: "dist",
+        chunkFileNames,
+        file: `${dir.cjs}/index.js`,
         format: "cjs",
       },
       {
-        chunkFileNames: "[name].js",
-        dir: "dist/es",
+        chunkFileNames,
+        file: `${dir.es}/index.js`,
         format: "es",
       },
     ],

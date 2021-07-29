@@ -12,9 +12,10 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v1
+      - name: Use Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: "16"
       - name: Fetch git branches
         run: git fetch
       - name: Checkout main branch
@@ -48,7 +49,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
 
-  publish-npm:
+  publish-node-packages:
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -66,10 +67,11 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
       - name: List dist/ folders
         run: ls packages/*/dist
-      - uses: actions/setup-node@v1
+      - name: Prepare for npm publishing
+        uses: actions/setup-node@v2
         with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
+          node-version: "16.x"
+          registry-url: "https://registry.npmjs.org"
       - name: Install Lerna globally
         run: npm install -g lerna
       - name: Checking npm credentials
@@ -78,41 +80,22 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
       - name: Set git author identity
         run: sh ./.github/scripts/configure-git.sh
-      - name: Publishing to npm
+      - name: Publish to npm
         run: lerna publish from-git --ignore-prepublish --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Restore cached output
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-dist-folders
+      - name: Prepare for GitHub Packages publishing
+        uses: actions/setup-node@v2
         with:
-          path: |
-            packages/*/dist
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-      - name: Set git author identity
-        run: sh ./.github/scripts/configure-git.sh
-      - name: Install Lerna globally
-        run: npm install -g lerna
-      - name: Publishing to GitHub packages
+          node-version: "16.x"
+          registry-url: "https://npm.pkg.github.com"
+      - name: Publish to GitHub Packages
         run: lerna publish from-git --ignore-prepublish --registry https://npm.pkg.github.com/ --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-  publish-pubdev:
+  publish-pubdev-package:
+    if: ${{ false }} # TODO: re-enable after fixing null safety package error
     needs: build
     runs-on: ubuntu-latest
     env:

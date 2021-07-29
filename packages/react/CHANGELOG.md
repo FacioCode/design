@@ -3,6 +3,878 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.0.1](https://github.com/FacioCode/design/compare/v21.0.0...v21.0.1) (2021-07-29)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [21.0.0](https://github.com/FacioCode/design/compare/v20.0.1...v21.0.0) (2021-07-28)
+
+
+### Features
+
+* add `<AppIcon />` svg icon component ([#359](https://github.com/FacioCode/design/issues/359)) ([4a1629f](https://github.com/FacioCode/design/commit/4a1629fe2a1478e3ba649fc324a18f6aaf7c5161))
+
+
+### BREAKING CHANGES
+
+* From now, you'll need Node 16.4 (or higher) and npm 7.19 (or higher) for consuming Design System packages
+
+* build: use lerna for packages build for now
+
+We can't use npm 7 workspaces because codesandbox does not support node 16 / npm 7
+
+* ci(codesandbox): add install & build scripts for codesandbox
+
+* ci: fix bootstrap command, remove infiniteLoopProtection key
+
+* ci(codesandbox): force npm update before instaling dependencies
+
+* build: prevent engine warning when using codesandbox ci
+
+* feat(react): add app svg icon (`<AppIcon />`)
+
+* build: update package lock file
+
+
+
+
+
+## [20.0.1](https://github.com/FacioCode/design/compare/v20.0.0...v20.0.1) (2021-07-28)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [20.0.0](https://github.com/FacioCode/design/compare/v19.4.3...v20.0.0) (2021-07-27)
+
+
+### Build System
+
+* require Node 16 & npm 7 ([47e5225](https://github.com/FacioCode/design/commit/47e5225f86ad59f75030da9d52577fe541ae0ca4))
+
+
+### BREAKING CHANGES
+
+* From now, you'll need Node 16.4 (or higher) and npm 7.19 (or higher) for consuming Design System packages
+
+
+
+
+
+## [19.4.3](https://github.com/FacioCode/design/compare/v19.4.2...v19.4.3) (2021-07-23)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [19.4.2](https://github.com/FacioCode/design/compare/v19.4.1...v19.4.2) (2021-07-21)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [19.4.1](https://github.com/FacioCode/design/compare/v19.4.0...v19.4.1) (2021-07-21)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [19.4.0](https://github.com/FacioCode/design/compare/v19.3.0...v19.4.0) (2021-07-15)
+
+
+### Features
+
+* **react:** add `SearchIcon` svg icon component ([0819bb5](https://github.com/FacioCode/design/commit/0819bb5103388f4f1320e3b617cf1d80ff3231e0))
+
+
+
+## 19.2.3 (2021-07-14)
+
+
+
+
+
+# [19.3.0](https://github.com/FacioCode/design/compare/v19.2.3...v19.3.0) (2021-07-15)
+
+
+### Features
+
+* **react:** add `SearchIcon` svg icon component ([0819bb5](https://github.com/FacioCode/design/commit/0819bb5103388f4f1320e3b617cf1d80ff3231e0))
+
+
+
+
+
+## [19.2.3](https://github.com/FacioCode/design/compare/v19.2.2...v19.2.3) (2021-07-14)
+
+
+### Bug Fixes
+
+* **react:** add support to `loading` prop on `ListInstallmentItem` ([b3074e3](https://github.com/FacioCode/design/commit/b3074e3c0b8de707477b2322776b41fa9cdd0bf1))
+* **react:** don't strike installments unless zeroed on `ListInstallmentItem` ([c9ead9d](https://github.com/FacioCode/design/commit/c9ead9d8c84b73a21c8ca2244001f288c5a2776a))
+
+
+
+## [19.2.1](https://github.com/FacioCode/design/compare/v19.2.0...v19.2.1) (2021-07-14)
+
+
+
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+
+
+
+## [19.2.2](https://github.com/FacioCode/design/compare/v19.2.1...v19.2.2) (2021-07-14)
+
+
+### Bug Fixes
+
+* **react:** add support to `loading` prop on `ListInstallmentItem` ([b3074e3](https://github.com/FacioCode/design/commit/b3074e3c0b8de707477b2322776b41fa9cdd0bf1))
+
+
+
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+
+
+
+## [19.2.1](https://github.com/FacioCode/design/compare/v19.2.0...v19.2.1) (2021-07-14)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [19.2.0](https://github.com/FacioCode/design/compare/v19.1.2...v19.2.0) (2021-07-14)
+
+
+### Bug Fixes
+
+* **react:** add missing path data to `WarningIcon` ([143948e](https://github.com/FacioCode/design/commit/143948ef9be26dfc36e6091035b93eb4d319965d))
+* **react:** fix colors and icons for `ListInstallmentItem` ([2607f51](https://github.com/FacioCode/design/commit/2607f511341e2116f4a5697fed59fba9598fd341))
+* **react:** prevent typescript errors with `Link` styles ([8aba693](https://github.com/FacioCode/design/commit/8aba693fc9650bd4554b3ede723d1f036b4a4bb4))
+* **react:** use medium date style for `ListInstallmentItem` ([9d15377](https://github.com/FacioCode/design/commit/9d153772118c7685d0d9f211d6735bf9fbddc6d4))
+
+
+### Features
+
+* **react:** add `color` prop for `ListItemIcon` ([7448f55](https://github.com/FacioCode/design/commit/7448f559d7b73feaaf9a7ec57b63ae5af9dc98be))
+* **react:** add new `CalendarIcon` svg icon component ([27f7340](https://github.com/FacioCode/design/commit/27f73402021cb13b6b150cedea924f6252d7db03))
+* **react:** add new `WarningIcon` svg icon component ([fe2821f](https://github.com/FacioCode/design/commit/fe2821f8d522b16dd4a6ba42c529e87d4e8b6e0d))
+
+
+
+## 19.1.1 (2021-07-13)
+
+
+
+
+
+## [19.1.2](https://github.com/FacioCode/design/compare/v19.1.1...v19.1.2) (2021-07-14)
+
+
+### Bug Fixes
+
+* **react:** use medium date style for `ListInstallmentItem` ([9d15377](https://github.com/FacioCode/design/commit/9d153772118c7685d0d9f211d6735bf9fbddc6d4))
+
+
+
+
+
+## [19.1.1](https://github.com/FacioCode/design/compare/v19.1.0...v19.1.1) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** add missing `ListInstallmentItem` named export ([11b2f69](https://github.com/FacioCode/design/commit/11b2f6978bcdaa4b676e3c90bd6fc58acd827d39))
+
+
+
+
+
+# [19.1.0](https://github.com/FacioCode/design/compare/v19.0.6...v19.1.0) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** prevent required prop errors for `LabeledCurrency` ([d9dc859](https://github.com/FacioCode/design/commit/d9dc859991a214bff60e884ab324ce4c3835615e))
+* **react:** set `gutterBottom` and `paragraph` prop as default for `LabeledItem` ([58dff91](https://github.com/FacioCode/design/commit/58dff914f22f5d5fe4df973323ff6092168bd1d9))
+
+
+### Features
+
+* **react:** add `FreeIcon` icon component ([86741a6](https://github.com/FacioCode/design/commit/86741a6c239ca5713559458e2b45ee0aa38c7a44))
+* **react:** add `HourglassIcon` icon component ([079bbb8](https://github.com/FacioCode/design/commit/079bbb8fb8dbf07317bba05f74dd3d9973d87fc8))
+* **react:** add `List` component ([7b773ea](https://github.com/FacioCode/design/commit/7b773eab0b89d862e46c2ca6268ed3923a1c6987))
+* **react:** add `ListInstallmentItem` component ([42d26fc](https://github.com/FacioCode/design/commit/42d26fc54f87d895ce6e304c69df616ae7880ce9))
+* **react:** add `ListItem` component ([d5b639e](https://github.com/FacioCode/design/commit/d5b639ea13821a5f389d9b34d32abf784a7a2d20))
+* **react:** add `ListItemIcon` component ([d2fb8a8](https://github.com/FacioCode/design/commit/d2fb8a85c2dd7e4a120a36608a96807b24d8c445))
+* **react:** add `ListItemText` component ([452b3e6](https://github.com/FacioCode/design/commit/452b3e6da71d931096661e021b98953905617869))
+* **react:** add `ListSubheader` component ([a260bc1](https://github.com/FacioCode/design/commit/a260bc17e92ad3224f37bcc2bc0c9a173845eebb))
+* **react:** add `ReceivedIcon` icon component ([1f59c9b](https://github.com/FacioCode/design/commit/1f59c9b7e2b066e66fef992829365bc7c5fe3475))
+* **react:** add `WaitingIcon` icon component ([17e8b10](https://github.com/FacioCode/design/commit/17e8b10c759eef2aa7efd3af14a3e6631789e158))
+* **react:** add support to `showZero` prop on `Currency` ([2c114c9](https://github.com/FacioCode/design/commit/2c114c96f8cf2866e75fce10f0b65517517911c0))
+* **react:** make some components & icons named importable ([f3f4187](https://github.com/FacioCode/design/commit/f3f4187ea992ae820852618fd90c84722a828c51))
+
+
+
+## 19.0.5 (2021-07-13)
+
+
+
+
+
+## [19.0.6](https://github.com/FacioCode/design/compare/v19.0.5...v19.0.6) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** prevent required prop errors for `LabeledCurrency` ([d9dc859](https://github.com/FacioCode/design/commit/d9dc859991a214bff60e884ab324ce4c3835615e))
+
+
+
+
+
+## [19.0.5](https://github.com/FacioCode/design/compare/v19.0.4...v19.0.5) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** force most of props of `LabeledCurrency` to be optional ([68fe9d4](https://github.com/FacioCode/design/commit/68fe9d4ea9682f78a1b6515d4a4f44ee689b8dbc))
+* **react:** force most of props of `LabeledItem` to be optional ([77db343](https://github.com/FacioCode/design/commit/77db3431af9afd091e5d0d0ef08a5b8ee0ff3cb1))
+* **react:** prevent required props error on `LabeledItemProps` ([d4981ce](https://github.com/FacioCode/design/commit/d4981ce3a76507375a8de6b44515c84f4f7bfa35))
+
+
+
+## [19.0.3](https://github.com/FacioCode/design/compare/v19.0.2...v19.0.3) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** make all props optional for `LabeledCurrency` component ([e80cf0c](https://github.com/FacioCode/design/commit/e80cf0c7759a16d86791a2f0dc81fd0ef1e14e23))
+* **react:** make all props optional for `LabeledItem` component ([4447c48](https://github.com/FacioCode/design/commit/4447c4801f3958c2445606a1bfa46a099b62621b))
+
+
+
+## 19.0.2 (2021-07-13)
+
+
+
+
+
+## [19.0.4](https://github.com/FacioCode/design/compare/v19.0.3...v19.0.4) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** force most of props of `LabeledCurrency` to be optional ([68fe9d4](https://github.com/FacioCode/design/commit/68fe9d4ea9682f78a1b6515d4a4f44ee689b8dbc))
+* **react:** force most of props of `LabeledItem` to be optional ([77db343](https://github.com/FacioCode/design/commit/77db3431af9afd091e5d0d0ef08a5b8ee0ff3cb1))
+* **react:** make all props optional for `LabeledCurrency` component ([e80cf0c](https://github.com/FacioCode/design/commit/e80cf0c7759a16d86791a2f0dc81fd0ef1e14e23))
+* **react:** make all props optional for `LabeledItem` component ([4447c48](https://github.com/FacioCode/design/commit/4447c4801f3958c2445606a1bfa46a099b62621b))
+
+
+
+## 19.0.2 (2021-07-13)
+
+
+
+
+
+## [19.0.3](https://github.com/FacioCode/design/compare/v19.0.2...v19.0.3) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** make all props optional for `LabeledCurrency` component ([e80cf0c](https://github.com/FacioCode/design/commit/e80cf0c7759a16d86791a2f0dc81fd0ef1e14e23))
+* **react:** make all props optional for `LabeledItem` component ([4447c48](https://github.com/FacioCode/design/commit/4447c4801f3958c2445606a1bfa46a099b62621b))
+
+
+
+
+
+## [19.0.2](https://github.com/FacioCode/design/compare/v19.0.1...v19.0.2) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** make `LabeledCurrency` props optional ([4acf9b2](https://github.com/FacioCode/design/commit/4acf9b22fe3d081a1b5da13c60e0731f38deed63))
+* **react:** use valid element types for forward ref on `LabeledCurrency` ([1c86975](https://github.com/FacioCode/design/commit/1c86975734b99e24e15e7e8ea2f5354b195539bd))
+* **react:** use valid element types for forward ref on `LabeledItem` ([e491c0c](https://github.com/FacioCode/design/commit/e491c0c48129f69e55f7a01259cd2030c6274a93))
+
+
+
+# 19.0.0 (2021-07-13)
+
+
+
+
+
+## [19.0.1](https://github.com/FacioCode/design/compare/v19.0.0...v19.0.1) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** make `LabeledCurrency` props optional ([4acf9b2](https://github.com/FacioCode/design/commit/4acf9b22fe3d081a1b5da13c60e0731f38deed63))
+
+
+
+
+
+# [19.0.0](https://github.com/FacioCode/design/compare/v18.0.0...v19.0.0) (2021-07-13)
+
+
+### Code Refactoring
+
+* **react:** add new `strict` prop to `ThemeProvider` ([3981227](https://github.com/FacioCode/design/commit/3981227b0cbbf606a72b7e625a48830b877dd38c))
+
+
+### Features
+
+* **react:** export size tokens from `@faciocode/styles` ([72966bb](https://github.com/FacioCode/design/commit/72966bb61c17fb768b7793466cbf7aa187a29167))
+
+
+### BREAKING CHANGES
+
+* **react:** `theme` prop was removed from `ThemeProvider`. Please use `strict` prop if you want to use strict theme.
+
+
+
+## 17.0.1 (2021-07-13)
+
+
+
+
+
+# [18.0.0](https://github.com/FacioCode/design/compare/v17.0.1...v18.0.0) (2021-07-13)
+
+
+### Code Refactoring
+
+* **react:** add new `strict` prop to `ThemeProvider` ([3981227](https://github.com/FacioCode/design/commit/3981227b0cbbf606a72b7e625a48830b877dd38c))
+
+
+### BREAKING CHANGES
+
+* **react:** `theme` prop was removed from `ThemeProvider`. Please use `strict` prop if you want to use strict theme.
+
+
+
+
+
+## [17.0.1](https://github.com/FacioCode/design/compare/v17.0.0...v17.0.1) (2021-07-13)
+
+
+### Bug Fixes
+
+* **react:** make `LabeledItem` props optional ([3cf05fd](https://github.com/FacioCode/design/commit/3cf05fda2a13e80b647a4e9df8b018cecce96944))
+
+
+
+
+
+# [17.0.0](https://github.com/FacioCode/design/compare/v16.8.7...v17.0.0) (2021-07-12)
+
+
+### Bug Fixes
+
+* **react:** adopt named import/export for `LabeledCurrency` ([89c7ef8](https://github.com/FacioCode/design/commit/89c7ef8dcf7fee90b9d48a54d95daa072da7e72d))
+
+
+### Documentation
+
+* **react:** move `LabeledCurrency` currency flat props to `CurrencyProps` prop ([6b2f59b](https://github.com/FacioCode/design/commit/6b2f59b662e569f9cd1063f5813e7f4a52038a0f))
+
+
+### Features
+
+* **react:** add new `LabeledItem` component ([3058571](https://github.com/FacioCode/design/commit/30585712fd1a70d26577203e184d7b532de4af38))
+* **react:** make `LabeledItem` named importable ([b1a817e](https://github.com/FacioCode/design/commit/b1a817e78504d54ba5dc8845c949b4811ab836a4))
+
+
+### BREAKING CHANGES
+
+* **react:** `value` and another `Currency` properties were moved to `CurrencyProps` for `LabeledCurrency`. Example: instead of `<LabeledCurrency value={currencyValue}>Total amount</LabeledCurrency>` you must use `<LabeledCurrency CurrencyProps={{ value: currencyValue }} label={"Valor total"} />.
+
+
+
+
+
+## [16.8.7](https://github.com/FacioCode/design/compare/v16.8.6...v16.8.7) (2021-07-12)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.8.6](https://github.com/FacioCode/design/compare/v16.8.5...v16.8.6) (2021-07-12)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.8.5](https://github.com/FacioCode/design/compare/v16.8.4...v16.8.5) (2021-07-12)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.8.4](https://github.com/FacioCode/design/compare/v16.8.3...v16.8.4) (2021-07-04)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.8.3](https://github.com/FacioCode/design/compare/v16.8.2...v16.8.3) (2021-07-04)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.8.2](https://github.com/FacioCode/design/compare/v16.8.1...v16.8.2) (2021-07-03)
+
+
+### Bug Fixes
+
+* **react:** improve `LabeledCurrency` styling when within a `BottomSheet` ([1698fd5](https://github.com/FacioCode/design/commit/1698fd58208aec428fd092fb993905949803bc46))
+
+
+
+
+
+## [16.8.1](https://github.com/FacioCode/design/compare/v16.8.0...v16.8.1) (2021-07-03)
+
+
+### Bug Fixes
+
+* **react:** remove duplicated Skeleton on `LabeledCurrency` when loading ([aa81188](https://github.com/FacioCode/design/commit/aa81188d2a21b5bd084919218d575107ed137be2))
+
+
+
+
+
+# [16.8.0](https://github.com/FacioCode/design/compare/v16.7.1...v16.8.0) (2021-07-03)
+
+
+### Features
+
+* **react:** add `loading` prop to `LabeledCurrency` ([cc1c936](https://github.com/FacioCode/design/commit/cc1c936afe16f1a5b2642e971c1222102a5734c7))
+
+
+
+# [16.7.0](https://github.com/FacioCode/design/compare/v16.6.6...v16.7.0) (2021-07-03)
+
+
+
+
+
+## [16.7.1](https://github.com/FacioCode/design/compare/v16.7.0...v16.7.1) (2021-07-03)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [16.7.0](https://github.com/FacioCode/design/compare/v16.6.6...v16.7.0) (2021-07-03)
+
+
+### Bug Fixes
+
+* **react:** use strict theme on storybook ([bc32f68](https://github.com/FacioCode/design/commit/bc32f6861a989051911b39d913be88bf774a0064))
+
+
+
+
+
+## [16.6.6](https://github.com/FacioCode/design/compare/v16.6.5...v16.6.6) (2021-07-02)
+
+
+
+## 16.6.4 (2021-07-01)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.6.5](https://github.com/FacioCode/design/compare/v16.6.4...v16.6.5) (2021-07-02)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.6.4](https://github.com/FacioCode/design/compare/v16.6.3...v16.6.4) (2021-07-01)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.6.3](https://github.com/FacioCode/design/compare/v16.6.2...v16.6.3) (2021-07-01)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.6.2](https://github.com/FacioCode/design/compare/v16.6.1...v16.6.2) (2021-06-30)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.6.1](https://github.com/FacioCode/design/compare/v16.6.0...v16.6.1) (2021-06-30)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [16.6.0](https://github.com/FacioCode/design/compare/v16.5.0...v16.6.0) (2021-06-30)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [16.5.0](https://github.com/FacioCode/design/compare/v16.4.0...v16.5.0) (2021-06-29)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [16.4.0](https://github.com/FacioCode/design/compare/v16.3.0...v16.4.0) (2021-06-29)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [16.3.0](https://github.com/FacioCode/design/compare/v16.2.1...v16.3.0) (2021-06-29)
+
+
+### Features
+
+* **react:** add new `EmailField` component ([ab61991](https://github.com/FacioCode/design/commit/ab619916841b1e9feed4982a0983ae5cd0ddc891))
+* **react:** add new `PasswordField` component ([25783e0](https://github.com/FacioCode/design/commit/25783e0bf452d91ad2480e1b7bebb544f6171a00))
+* **react:** make `EmailField` and `PasswordField` importable ([caa6854](https://github.com/FacioCode/design/commit/caa6854ca37b99acf5967b30d0ba1b08a2395165))
+
+
+
+## 16.1.3 (2021-06-26)
+
+
+
+
+
+## [16.2.1](https://github.com/FacioCode/design/compare/v16.2.0...v16.2.1) (2021-06-28)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [16.2.0](https://github.com/FacioCode/design/compare/v16.1.3...v16.2.0) (2021-06-26)
+
+
+### Features
+
+* **react:** add new `EmailField` component ([ab61991](https://github.com/FacioCode/design/commit/ab619916841b1e9feed4982a0983ae5cd0ddc891))
+* **react:** add new `PasswordField` component ([25783e0](https://github.com/FacioCode/design/commit/25783e0bf452d91ad2480e1b7bebb544f6171a00))
+* **react:** make `EmailField` and `PasswordField` importable ([caa6854](https://github.com/FacioCode/design/commit/caa6854ca37b99acf5967b30d0ba1b08a2395165))
+
+
+
+
+
+## [16.1.3](https://github.com/FacioCode/design/compare/v16.1.2...v16.1.3) (2021-06-26)
+
+
+### Bug Fixes
+
+* **react:** prevent whitespace wrap on `Time` component ([2167f1f](https://github.com/FacioCode/design/commit/2167f1f55a4aa5dc96ff6c88016be6a5f34ea8b4))
+
+
+
+
+
+## [16.1.2](https://github.com/FacioCode/design/compare/v16.1.1...v16.1.2) (2021-06-25)
+
+
+### Bug Fixes
+
+* **react:** improve compatibility with custom `onChange` handler for `CpfField` ([922c49b](https://github.com/FacioCode/design/commit/922c49b9e8a68441ccf1bc485eddea2b9fe29432))
+* **react:** improve CPF validation for `CpfField` ([64f4352](https://github.com/FacioCode/design/commit/64f4352c7e3e6bc6ca4d0d8941ed2f1614be7c6e))
+
+
+
+# 16.1.0 (2021-06-24)
+
+
+
+
+
+## [16.1.1](https://github.com/FacioCode/design/compare/v16.1.0...v16.1.1) (2021-06-25)
+
+
+### Bug Fixes
+
+* **react:** improve compatibility with custom `onChange` handler for `CpfField` ([#306](https://github.com/FacioCode/design/issues/306)) ([759eac0](https://github.com/FacioCode/design/commit/759eac09f30abaf1a3349056beac4f40cc5cdc51))
+
+
+
+
+
+# [16.1.0](https://github.com/FacioCode/design/compare/v16.0.8...v16.1.0) (2021-06-24)
+
+
+### Bug Fixes
+
+* **react:** fix `inputMode` property on `PhoneField` ([191db55](https://github.com/FacioCode/design/commit/191db55378aaa23943347b48d0ee2fad3f858585))
+
+
+### Features
+
+* **react:** add `CpfField` component ([694309f](https://github.com/FacioCode/design/commit/694309f2101e69ac05b2d1921c7fa7b4033c3b26))
+* **react:** add support to CPF validation for `CpfField` ([209c94c](https://github.com/FacioCode/design/commit/209c94ced6d6845c69d275626f06f2d36c265b35))
+
+
+
+
+
+## [16.0.8](https://github.com/FacioCode/design/compare/v16.0.7...v16.0.8) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.0.7](https://github.com/FacioCode/design/compare/v16.0.6...v16.0.7) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.0.6](https://github.com/FacioCode/design/compare/v16.0.5...v16.0.6) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.0.5](https://github.com/FacioCode/design/compare/v16.0.4...v16.0.5) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.0.4](https://github.com/FacioCode/design/compare/v16.0.3...v16.0.4) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.0.3](https://github.com/FacioCode/design/compare/v16.0.2...v16.0.3) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [16.0.2](https://github.com/FacioCode/design/compare/v16.0.1...v16.0.2) (2021-06-24)
+
+
+### Bug Fixes
+
+* **react:** don't expose event key names on `useKeyDown` hook ([dd0bb16](https://github.com/FacioCode/design/commit/dd0bb16342bfc0ee9d36d600914f2ee0917a8a7b))
+* **react:** prevent missing `factoryWithTypeCheckers` module error ([24d8ce6](https://github.com/FacioCode/design/commit/24d8ce6f7ddafef2177696547bcb060a911ba795))
+
+
+
+# 16.0.0 (2021-06-24)
+
+
+
+
+
+## [16.0.1](https://github.com/FacioCode/design/compare/v16.0.0...v16.0.1) (2021-06-24)
+
+
+### Bug Fixes
+
+* **react:** prevent missing `factoryWithTypeCheckers` module error ([24d8ce6](https://github.com/FacioCode/design/commit/24d8ce6f7ddafef2177696547bcb060a911ba795))
+
+
+
+
+
+# [16.0.0](https://github.com/FacioCode/design/compare/v15.0.0...v16.0.0) (2021-06-24)
+
+
+### Build System
+
+* **react:** don't bundle style tokens ([1a49576](https://github.com/FacioCode/design/commit/1a49576b02dc1324b3df2624d8db0ad2d4cfaebe))
+
+
+### BREAKING CHANGES
+
+* **react:** from now, style tokens will also be imported from `@faciocode/styles` instead of internal bundle. This will decrease `@faciocode/react` package size and allow different versions of `@faciocode/styles` style tokens
+
+
+
+## 14.0.1 (2021-06-24)
+
+
+
+
+
+# [15.0.0](https://github.com/FacioCode/design/compare/v14.0.1...v15.0.0) (2021-06-24)
+
+
+### Build System
+
+* **react:** don't bundle style tokens ([1a49576](https://github.com/FacioCode/design/commit/1a49576b02dc1324b3df2624d8db0ad2d4cfaebe))
+
+
+### BREAKING CHANGES
+
+* **react:** from now, style tokens will also be imported from `@faciocode/styles` instead of internal bundle. This will decrease `@faciocode/react` package size and allow different versions of `@faciocode/styles` style tokens
+
+
+
+
+
+## [14.0.1](https://github.com/FacioCode/design/compare/v14.0.0...v14.0.1) (2021-06-24)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+# [14.0.0](https://github.com/FacioCode/design/compare/v13.2.19...v14.0.0) (2021-06-23)
+
+
+### Bug Fixes
+
+* **deps:** update storybook to next (6.3) ([609f2dd](https://github.com/FacioCode/design/commit/609f2dd9dd1cac322f9bd9cea6b8cc6202f2de5d))
+
+
+### Build System
+
+* remove support to ES package format ([22e57c4](https://github.com/FacioCode/design/commit/22e57c47ee9119de994acb759180a7628939cd33))
+
+
+### Reverts
+
+* bring back support to ES modules ([37dda51](https://github.com/FacioCode/design/commit/37dda51d7ebff6cbb2e6e06e053094d1f5fdaa98))
+
+
+### BREAKING CHANGES
+
+* We dropped support to ES module format. Probably your bundler (like webpack) will use CommonJS from now.
+
+
+
+## [13.2.18](https://github.com/FacioCode/design/compare/v13.2.17...v13.2.18) (2021-06-22)
+
+
+
+## [13.2.17](https://github.com/FacioCode/design/compare/v13.2.16...v13.2.17) (2021-06-22)
+
+
+
+## 13.2.16 (2021-06-18)
+
+
+
+
+
+## [13.2.19](https://github.com/FacioCode/design/compare/v13.2.18...v13.2.19) (2021-06-22)
+
+
+### Bug Fixes
+
+* **deps:** update storybook to next (6.3) ([609f2dd](https://github.com/FacioCode/design/commit/609f2dd9dd1cac322f9bd9cea6b8cc6202f2de5d))
+
+
+
+## [13.2.17](https://github.com/FacioCode/design/compare/v13.2.16...v13.2.17) (2021-06-22)
+
+
+
+## 13.2.16 (2021-06-18)
+
+
+
+
+
+## [13.2.18](https://github.com/FacioCode/design/compare/v13.2.17...v13.2.18) (2021-06-22)
+
+
+
+## 13.2.16 (2021-06-18)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
+## [13.2.17](https://github.com/FacioCode/design/compare/v13.2.16...v13.2.17) (2021-06-22)
+
+**Note:** Version bump only for package @faciocode/react
+
+
+
+
+
 ## [13.2.16](https://github.com/FacioCode/design/compare/v13.2.15...v13.2.16) (2021-06-18)
 
 **Note:** Version bump only for package @faciocode/react
