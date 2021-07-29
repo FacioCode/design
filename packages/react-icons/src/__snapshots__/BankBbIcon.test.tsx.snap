@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BankBbIcon component should match snapshot 1`] = `
+<svg
+  aria-hidden={true}
+  className="MuiSvgIcon-root"
+  focusable="false"
+  height="24"
+  viewBox="0 0 24 24"
+  width="24"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <path
+      d="m3 18.5 1.875-1.25L6.75 18.5 3 21v-2.5zm18-13-1.876 1.25L17.25 5.5 21 3v2.501zm0 9.5-9 6-9-6 10.687-7.125 1.875 1.25-8.624 5.75 5.25 3.5 2.436-1.625-1.875-1.25 4.5-3.001 3.75 2.5zM3 9.001l9-5.999 9 6-10.687 7.124-1.875-1.25 8.624-5.75-5.25-3.5-2.437 1.625 1.875 1.25-4.5 3L3 9.002z"
+      id="a"
+    />
+  </defs>
+  <use
+    fillRule="evenodd"
+    xlinkHref="#a"
+  />
+</svg>
+`;

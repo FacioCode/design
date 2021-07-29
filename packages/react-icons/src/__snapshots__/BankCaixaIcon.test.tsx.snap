@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BankCaixaIcon component should match snapshot 1`] = `
+<svg
+  aria-hidden={true}
+  className="MuiSvgIcon-root"
+  focusable="false"
+  height="24"
+  viewBox="0 0 24 24"
+  width="24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M15.944 11.75 22 4.093h-6.973L12.74 6.987 11.021 4H4.514l4.458 7.75h6.972zm-6.972 8.917 2.23-2.856 1.69 2.809h6.747l-4.623-7.689h-.001l.012-.014H8.055L2 20.667h6.972z"
+    fillRule="evenodd"
+  />
+</svg>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlayIcon component should match snapshot 1`] = `
+<svg
+  aria-hidden={true}
+  className="MuiSvgIcon-root"
+  focusable="false"
+  height="53"
+  viewBox="0 0 24 24"
+  width="53"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M26.5 0C41.136 0 53 11.864 53 26.5S41.136 53 26.5 53 0 41.136 0 26.5 11.864 0 26.5 0z"
+  />
+  <path
+    d="m40.23 27.25-11.25-6.495-11.25-6.495v25.981l11.25-6.495z"
+  />
+</svg>
+`;

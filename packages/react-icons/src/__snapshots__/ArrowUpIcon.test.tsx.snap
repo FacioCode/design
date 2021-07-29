@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowUpIcon component should match snapshot 1`] = `
+<svg
+  aria-hidden={true}
+  className="MuiSvgIcon-root"
+  focusable="false"
+  height="24"
+  viewBox="0 0 24 24"
+  width="24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="m4.777 11.527.058-.07 6.623-6.622a.5.5 0 0 1 .638-.058l.069.058 6.623 6.623a.5.5 0 0 1-.638.765l-.07-.058-5.77-5.77.001 12.416a.5.5 0 0 1-.992.09l-.008-.09V6.395l-5.769 5.77a.5.5 0 0 1-.638.058l-.069-.058a.5.5 0 0 1-.058-.638z"
+    fillRule="evenodd"
+  />
+</svg>
+`;
