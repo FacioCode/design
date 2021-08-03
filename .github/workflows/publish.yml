@@ -95,7 +95,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   publish-pubdev-package:
-    if: ${{ false }} # TODO: re-enable after fixing null safety package error
     needs: build
     runs-on: ubuntu-latest
     env:
