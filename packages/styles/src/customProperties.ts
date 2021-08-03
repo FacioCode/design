@@ -370,6 +370,12 @@ export const buttonStyles = {
      */
     minWidth: "var(--component-button-root-min-width, 64px)",
 
+
+    /**
+     * Opacity for Button Root
+     */
+    opacity: "var(--component-button-root-opacity, 1)",
+
   },
 
   fullWidth: {
