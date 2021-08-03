@@ -1,7 +1,9 @@
 {
   "opacity": {
     "base": {
-      "opaque": { "value": 1 }
+      "opaque": {
+        "value": 1
+      }
     }
   }
 }
