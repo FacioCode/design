@@ -47,6 +47,7 @@ export const bottomSheetRootPaddingRight = "16px";
 export const bottomSheetRootPaddingTop = "24px";
 export const buttonRootMaxWidth = "248px";
 export const buttonRootMinWidth = "64px";
+export const buttonRootOpacity = 1;
 export const buttonFullWidthBorderRadius = "8px";
 export const buttonLabelFontSize = "0.875rem"; // Default button font size can vary depending on platform.
 export const buttonLabelFontWeight = 600; // Medium button labels have semi bold font weight
