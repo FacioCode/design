@@ -11,7 +11,4 @@ export const AppIcon = React.forwardRef<unknown, SvgIconProps>(
   ),
 );
 
-// eslint-disable-next-line no-process-env
-if (process.env.NODE_ENV !== "production") {
-  AppIcon.displayName = "AppIcon";
-}
+AppIcon.displayName = "AppIcon";
