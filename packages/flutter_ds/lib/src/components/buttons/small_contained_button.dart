@@ -24,23 +24,36 @@ class SmallContainedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    final ButtonStyle style = ElevatedButton.styleFrom(
+      padding: EdgeInsets.fromLTRB(
+        ButtonStyles.sizeSmallPaddingLeft,
+        ButtonStyles.sizeSmallPaddingTop,
+        ButtonStyles.sizeSmallPaddingRight,
+        ButtonStyles.sizeSmallPaddingBottom
+      ),
+      primary: _color.backgroundColor,
+      shape: new RoundedRectangleBorder(
+        borderRadius: new BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius)
+      )
+    );
+
     return Opacity(
-      opacity: _isEnabled ? 1 : 0.5,
-      child: Container(
-        height: ButtonStyles.sizeSmallHeight,
-        decoration: BoxDecoration(
-          color: _color.backgroundColor,
-          borderRadius:
-              BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
-        ),
+      // TODO: adopt solid background colors in favor of opacity
+      opacity: _isEnabled ? ButtonStyles.opacity.toDouble() : 0.5,
+      child: ConstrainedBox(
+        constraints: BoxConstraints.tightFor(height: ButtonStyles.sizeSmallHeight),
         child: TextButton(
           key: _key,
           onPressed: _isEnabled ? _onPressed : null,
-          child: Text(_title,
-              textAlign: TextAlign.center,
-              style: TextStyles.button.copyWith(color: _color.fontColor)),
+          style: style,
+          child: Text(
+            _title,
+            textAlign: TextAlign.center,
+            style: TextStyles.button.copyWith(color: _color.fontColor)
+          ),
         ),
-      ),
+      )
     );
   }
 }
