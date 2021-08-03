@@ -4,7 +4,8 @@
       "root": {
         "comment": "Styles applied to the root element.",
         "maxWidth": { "value": "{size.base.thirtyOneFold.value}" },
-        "minWidth": { "value": "{size.base.eightfold.value}" }
+        "minWidth": { "value": "{size.base.eightfold.value}" },
+        "opacity": { "value": "{opacity.base.opaque.value}" }
       },
       "fullWidth": {
         "borderRadius": { "value": "{size.border.radius.single.value}" }
