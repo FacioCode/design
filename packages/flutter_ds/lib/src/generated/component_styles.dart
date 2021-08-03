@@ -171,6 +171,9 @@ class ButtonStyles {
   /// Min Width for Button
   static const minWidth = 64.00;
 
+  /// Opacity for Button
+  static const opacity = 1;
+
   /// Border Radius for Full Width
   static const fullWidthBorderRadius = 8.00;
 
