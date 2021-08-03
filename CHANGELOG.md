@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.1.0](https://github.com/FacioCode/design/compare/v21.0.3...v21.1.0) (2021-08-03)
+
+
+### Bug Fixes
+
+* **flutter:** fix small button padding for web platform ([9481bc8](https://github.com/FacioCode/design/commit/9481bc8b8cb15a9c01239d52a3e3335a7220aad5))
+
+
+### Features
+
+* **flutter:** add opacity style token ([215ccd6](https://github.com/FacioCode/design/commit/215ccd62a173fb881e5679063bfc6933b3e3931c))
+* **style-dictionary:** add opacity token for button ([d74414f](https://github.com/FacioCode/design/commit/d74414fb2f38642540e9e85f1e201396cdab728d))
+* **styles:** add opacity token for button ([9d64bf6](https://github.com/FacioCode/design/commit/9d64bf64704b964bb36ca105251e5d7bdd0b1359))
+
+
+
+
+
 ## [21.0.3](https://github.com/FacioCode/design/compare/v21.0.2...v21.0.3) (2021-08-02)
 
 **Note:** Version bump only for package @faciocode/design

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.1.0](https://github.com/FacioCode/design/compare/v21.0.3...v21.1.0) (2021-08-03)
+
+
+### Features
+
+* **style-dictionary:** add opacity token for button ([d74414f](https://github.com/FacioCode/design/commit/d74414fb2f38642540e9e85f1e201396cdab728d))
+
+
+
+
+
 ## [21.0.3](https://github.com/FacioCode/design/compare/v21.0.2...v21.0.3) (2021-08-02)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
