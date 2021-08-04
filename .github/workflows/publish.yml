@@ -20,8 +20,12 @@ jobs:
         run: git fetch
       - name: Checkout main branch
         run: git checkout main
+      - name: Install Lerna globally
+        run: npm install -g lerna
       - name: Install dependencies
         run: npm ci --no-optional
+      - name: Run Lerna bootstrap
+        run: lerna bootstrap
       - name: Build and run tests
         run: npm test
       - name: Set git author identity
