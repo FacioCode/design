@@ -18,8 +18,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "16"
-      - name: Install Lerna globally
-        run: npm install --global --loglevel=error lerna
+      # @see https://github.com/npm/cli/issues/2231
+      - name: Install latest version of npm
+        run: npm install -g npm
       - name: Install project dependencies
         run: npm ci --no-optional
       - name: Set git author identity
