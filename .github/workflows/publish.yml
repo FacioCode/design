@@ -5,60 +5,13 @@ on:
     types: [created]
 
 jobs:
-  build:
+  publish-node-packages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Use Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: "16"
-      - name: Fetch git branches
-        run: git fetch
-      - name: Checkout main branch
-        run: git checkout main
-      - name: Install Lerna globally
-        run: npm install -g lerna
-      - name: Install dependencies
-        run: npm ci --no-optional
-      - name: Run Lerna bootstrap
-        run: lerna bootstrap
-      - name: Build and run tests
-        run: npm test
-      - name: Set git author identity
-        run: sh ./.github/scripts/configure-git.sh
-      - name: Bump pubspec version
-        run: sh ./.github/scripts/bump-pubspec.sh
-      - name: Cache dist/ folders
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-dist-folders
-        with:
-          path: |
-            packages/*/dist
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-      - name: Cache pubspec file
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-pubspec-file
-        with:
-          path: |
-            packages/flutter_ds/pubspec.yaml
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/flutter_ds/pubspec.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-
-  publish-node-packages:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
       - name: Restore cached output
         uses: actions/cache@v2
         env:
@@ -69,23 +22,29 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
-      - name: List dist/ folders
-        run: ls packages/*/dist
-      - name: Prepare for npm publishing
+      - name: Configure Node.js and prepare for publishing on npm
         uses: actions/setup-node@v2
         with:
-          node-version: "16.x"
+          node-version: "16"
           registry-url: "https://registry.npmjs.org"
-      - name: Install Lerna globally
-        run: npm install -g lerna
       - name: Checking npm credentials
         run: npm whoami
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      - name: Fetch git branches
+        run: git fetch
+      - name: Checkout main branch
+        run: git checkout main
+      - name: Install dependencies
+        run: npm ci --no-optional
+      - name: Build and run tests
+        run: npm test
       - name: Set git author identity
         run: sh ./.github/scripts/configure-git.sh
-      - name: Publish to npm
-        run: lerna publish from-git --ignore-prepublish --yes
+      - name: Bump pubspec version
+        run: sh ./.github/scripts/bump-pubspec.sh
+      - name: Publish packages to npm
+        run: npm run publish-packages
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
       - name: Prepare for GitHub Packages publishing
@@ -93,13 +52,32 @@ jobs:
         with:
           node-version: "16.x"
           registry-url: "https://npm.pkg.github.com"
-      - name: Publish to GitHub Packages
-        run: lerna publish from-git --ignore-prepublish --registry https://npm.pkg.github.com/ --yes
+      - name: Publish packages to GitHub Packages
+        run: npm run publish-packages
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
+      - name: Cache dist/ folders
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-dist-folders
+        with:
+          path: |
+            packages/*/dist
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+      - name: Cache Flutter pubspec file
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-pubspec-file
+        with:
+          path: |
+            packages/flutter_ds/pubspec.yaml
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('packages/flutter_ds/pubspec.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
   publish-pubdev-package:
-    needs: build
+    needs: publish-node-packages
     runs-on: ubuntu-latest
     env:
       working-directory: ./packages/flutter_ds
