@@ -54,6 +54,7 @@ jobs:
       - name: Prepare for GitHub Packages publishing
         uses: actions/setup-node@v2
         with:
+          cache: "npm"
           node-version: "16.x"
           registry-url: "https://npm.pkg.github.com"
       - name: Publish packages to GitHub Packages

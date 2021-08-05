@@ -17,10 +17,15 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
+          cache: "npm"
           node-version: "16"
       # @see https://github.com/npm/cli/issues/2231
       - name: Install latest version of npm
         run: npm install -g npm
+      - name: Install Lerna globally
+        run: npm install -g lerna
+      - name: Run Lerna bootstrap
+        run: npm run bootstrap
       - name: Install project dependencies
         run: npm ci --no-optional
       - name: Set git author identity
