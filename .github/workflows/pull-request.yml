@@ -14,8 +14,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "16"
-      - name: Install Lerna globally
-        run: npm install --global --loglevel=error lerna
+      - name: Install npm v7.19.1
+        # npm >= 7.20 breaks when installing workspace packages
+        run: npm install -g npm@7.19.1
+      - name: Check npm version
+        run: npm -v
       - name: Install project dependencies
         run: npm ci --no-optional
       - name: Run tests
