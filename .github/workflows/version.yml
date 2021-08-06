@@ -1,9 +1,7 @@
 name: Node.js Packages version bump
-
 on:
   push:
     branches: [ main ]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +9,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          fetch-depth: "0"
-      - name: Pull all tags for Lerna semantic release
+          fetch-depth: 0
+      - name: Fetch all tags for semantic release
         run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
-      - name: Use Node.js
+      - name: Configure git author identity
+        run: sh ./.github/scripts/configure-git.sh
+      - name: Use Node.js 16
         uses: actions/setup-node@v2
         with:
+          cache: "npm"
           node-version: "16"
-      - name: Install Lerna globally
-        run: npm install --global --loglevel=error lerna
       - name: Install project dependencies
         run: npm ci --no-optional
-      - name: Set git author identity
-        run: sh ./.github/scripts/configure-git.sh
       - name: Bump versions and create release
         run: lerna version --conventional-commits --create-release github --force-publish --yes
         env:
-          GH_TOKEN: ${{secrets.gh_token}}
           GH_AUTH_TOKEN: ${{secrets.gh_auth_token}}
+          GH_TOKEN: ${{secrets.gh_token}}
