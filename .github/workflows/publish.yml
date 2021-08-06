@@ -27,19 +27,18 @@ jobs:
         run: npm install -g npm@7.19.1
       - name: Check npm version
         run: npm -v
-      - name: Cache dist/ folders and pubspec file
+      - name: Cache dist/ folders
         uses: actions/cache@v2
         env:
-          cache-name: dist-folders
+          cache-name: cache-dist-folders
         with:
           path: |
             packages/*/dist
-            packages/flutter_ds/pubspec.yaml
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('packages/*/dist/index.js') }}
       - name: Cache pubspec file
         uses: actions/cache@v2
         env:
-          cache-name: pubspec-file
+          cache-name: cache-pubspec-file
         with:
           path: |
             packages/flutter_ds/pubspec.yaml
@@ -70,3 +69,54 @@ jobs:
         run: npm run publish-packages
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  publish-pubdev-package:
+    env:
+      working-directory: ./packages/flutter_ds
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: "0"
+      - name: Restore cached output
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-pubspec-file
+        with:
+          path: |
+            packages/flutter_ds/pubspec.yaml
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('packages/flutter_ds/pubspec.yaml') }}
+      - name: Install Flutter SDK
+        uses: subosito/flutter-action@v1
+        with:
+          flutter-version: "2.0.5"
+      - name: Setup pub credentials
+        run: |
+          mkdir -p ~/.pub-cache
+          cat <<EOF > ~/.pub-cache/credentials.json
+          {
+            "accessToken":"${{ secrets.PUB_ACCESS_TOKEN }}",
+            "refreshToken":"${{ secrets.PUB_REFRESH_TOKEN }}",
+            "tokenEndpoint":"https://accounts.google.com/o/oauth2/token",
+            "scopes": [ "openid", "https://www.googleapis.com/auth/userinfo.email" ],
+            "expiration": 1606086594822
+          }
+          EOF
+      - name: Install project dependencies
+        run: flutter pub get
+        working-directory: ${{env.working-directory}}
+      - name: Format files
+        run: dartfmt -w .
+      - name: Verify formatting
+        run: dart format --output=none --set-exit-if-changed .
+        working-directory: ${{env.working-directory}}
+      - name: Analyze project source
+        run: dart analyze --fatal-infos
+        working-directory: ${{env.working-directory}}
+      - name: Ensure Example builds
+        run: flutter build appbundle -t lib/main.dart
+        working-directory: ${{env.working-directory}}/example
+      - name: Publish package
+        run: pub publish -f
+        working-directory: ${{env.working-directory}}
