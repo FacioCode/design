@@ -65,7 +65,7 @@
     "build": "npm run build --workspaces",
     "build-codesandbox": "npm run build",
     "clean": "lerna clean",
-    "install-codesandbox": "npm install -g npm && npm ci",
+    "install-codesandbox": "npm install -g npm@7.19.1 && npm ci",
     "pretest": "npm run build",
     "preversion": "npm run test",
     "publish-packages-legacy": "lerna publish from-git --ignore-prepublish --yes",
