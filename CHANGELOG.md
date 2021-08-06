@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.1.8](https://github.com/FacioCode/design/compare/v21.1.7...v21.1.8) (2021-08-06)
+
+
+### Reverts
+
+* **github:** revert publishing workflow to a working version ([ed16077](https://github.com/FacioCode/design/commit/ed16077334fd567857c8e99db2ae8bab11fc7adc))
+
+
+
+## 21.1.6 (2021-08-06)
+
+
+
+
+
 ## [21.1.7](https://github.com/FacioCode/design/compare/v21.1.6...v21.1.7) (2021-08-06)
 
 
