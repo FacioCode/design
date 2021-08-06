@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.1.6](https://github.com/FacioCode/design/compare/v21.1.5...v21.1.6) (2021-08-06)
+
+
+### Reverts
+
+* Revert "ci(github): add lerna bootstrap command before installing packages" ([9494592](https://github.com/FacioCode/design/commit/9494592bfca4209c7bae8ec8d19072d3d7d6e5d9))
+* Revert "ci(github): use latest version of npm" ([794ac10](https://github.com/FacioCode/design/commit/794ac10b3f3da50bdee12887b038b701a98378c1))
+* Revert "ci: cache npm dependencies and run lerna before npm ci" ([6c19096](https://github.com/FacioCode/design/commit/6c1909661a689a3c24338a840cfa47829883eda6))
+
+
+
+## 21.1.4 (2021-08-04)
+
+
+
+
+
 ## [21.1.4](https://github.com/FacioCode/design/compare/v21.1.3...v21.1.4) (2021-08-04)
 
 
