@@ -22,6 +22,8 @@ jobs:
           cache: "npm"
           node-version: "16"
           registry-url: "https://registry.npmjs.org"
+      - name: Check npm version
+        run: npm -v
       - name: Cache dist/ folders and pubspec file
         uses: actions/cache@v2
         env:
