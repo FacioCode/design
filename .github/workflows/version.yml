@@ -19,6 +19,9 @@ jobs:
         with:
           cache: "npm"
           node-version: "16"
+      - name: Install npm v7.19.1
+        # npm >= 7.20 breaks when installing workspace packages
+        run: npm install -g npm@7.19.1
       - name: Check npm version
         run: npm -v
       - name: Install project dependencies

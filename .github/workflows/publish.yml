@@ -22,6 +22,9 @@ jobs:
           cache: "npm"
           node-version: "16"
           registry-url: "https://registry.npmjs.org"
+      - name: Install npm v7.19.1
+        # npm >= 7.20 breaks when installing workspace packages
+        run: npm install -g npm@7.19.1
       - name: Check npm version
         run: npm -v
       - name: Cache dist/ folders and pubspec file
@@ -42,7 +45,7 @@ jobs:
             packages/flutter_ds/pubspec.yaml
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('packages/flutter_ds/pubspec.yaml') }}
       - name: Install dependencies
-        run: npm install --no-optional
+        run: npm ci --no-optional
       - name: Build and run tests
         run: npm test
       - name: Bump pubspec version
