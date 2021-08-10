@@ -30,7 +30,7 @@
     "@stryker-mutator/jest-runner": "4.5.1",
     "@types/estree": "0.0.50",
     "@types/jest": "26.0.24",
-    "@types/lodash": "4.14.171",
+    "@types/lodash": "4.14.172",
     "@types/node": "15.6.1",
     "@types/react": "17.0.16",
     "@types/react-test-renderer": "17.0.1",
