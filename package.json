@@ -34,7 +34,7 @@
     "@types/node": "15.6.1",
     "@types/react": "17.0.18",
     "@types/react-test-renderer": "17.0.1",
-    "@typescript-eslint/eslint-plugin": "4.29.1",
+    "@typescript-eslint/eslint-plugin": "4.29.2",
     "@typescript-eslint/parser": "latest",
     "chromatic": "latest",
     "conventional-changelog-cli": "2.1.1",
