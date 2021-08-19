@@ -127,14 +127,15 @@ export {
   TableRow,
   TableRowProps,
 } from "./Table";
-export {
-  default as Tabs,
-  Tab,
-  TabProps,
-  TabPanel,
-  TabPanelProps,
-  TabsProps,
-} from "./Tabs";
+
+export { Tabs } from "./Tabs";
+export type { TabsProps } from "./Tabs";
+
+export { Tab } from "./Tabs";
+export type { TabProps } from "./Tabs";
+
+export { TabPanel } from "./Tabs";
+export type { TabPanelProps } from "./Tabs";
 
 export { Toolbar } from "./Toolbar";
 export type { ToolbarProps } from "./Toolbar/Toolbar.types";
