@@ -3002,6 +3002,58 @@ export const dialogStyles = {
 
 };
 
+export const tabStyles = {
+
+  root: {
+
+    /**
+     * Color for Tab Root
+     */
+    color: "var(--component-tab-root-color, #05797d)",
+
+
+    /**
+     * Opacity for Tab Root
+     */
+    opacity: "var(--component-tab-root-opacity, 0.93)",
+
+  },
+
+  disabled: {
+
+    /**
+     * Color for Tab Disabled
+     */
+    color: "var(--component-tab-disabled-color, #afb4bb)",
+
+
+    /**
+     * Opacity for Tab Disabled
+     */
+    opacity: "var(--component-tab-disabled-opacity, 1)",
+
+  },
+
+  pressed: {
+
+    /**
+     * Color for Tab Pressed
+     */
+    color: "var(--component-tab-pressed-color, #005c5e)",
+
+  },
+
+  selected: {
+
+    /**
+     * Opacity for Tab Selected
+     */
+    opacity: "var(--component-tab-selected-opacity, 1)",
+
+  },
+
+};
+
 export const tableCellStyles = {
 
   root: {
