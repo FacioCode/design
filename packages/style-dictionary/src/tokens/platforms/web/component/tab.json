@@ -1,0 +1,20 @@
+{
+  "component": {
+    "tab": {
+      "root": {
+        "color": { "value": "{color.font.link.value}" },
+        "opacity": { "value": "{opacity.base.almostOpaque.value}" }
+      },
+      "disabled": {
+        "color": { "value": "{color.font.disabled.value}" },
+        "opacity": { "value": "{opacity.base.opaque.value}" }
+      },
+      "pressed": {
+        "color": { "value": "{color.font.linkPressed.value}" }
+      },
+      "selected": {
+        "opacity": { "value": "{opacity.base.opaque.value}" }
+      }
+    }
+  }
+}
