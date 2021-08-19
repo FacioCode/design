@@ -1,9 +1,12 @@
+/* eslint-disable no-shadow */
 import * as React from "react";
 import type { Meta, Story } from "@storybook/react";
+
 import { Tab } from "./Tab";
 import { TabPanel } from "./TabPanel";
+
 import { Tabs } from "./Tabs";
-import { TabsProps } from "./Tabs.types";
+import type { TabsProps } from "./Tabs.types";
 
 export default {
   component: Tabs,
@@ -12,48 +15,46 @@ export default {
 } as Meta;
 
 const Template : Story<TabsProps> = (props: TabsProps) => {
-  const tabsEnum : Record<string, number> = {
-    PENDING_TRANSACTIONS: 0,
-    TRANSACTIONS_HISTORY: 1,
-  };
+  enum TabsEnum {
+    FirstTab,
+    SecondTab
+  }
 
   const {
-    value: defaultValue = tabsEnum.PENDING_TRANSACTIONS,
+    value: defaultValue = TabsEnum.FirstTab,
     ...otherProps
   } = props;
 
   const [currentValue, setCurrentValue] = React.useState<number>(defaultValue);
 
-  // eslint-disable-next-line @typescript-eslint/ban-types
-  const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
-    setCurrentValue(newValue);
-  };
+  const handleChange = React.useCallback<TabsProps["onChange"]>(
+    (event, newValue?: number) => {
+      if (typeof newValue !== "undefined") {
+        setCurrentValue(newValue);
+      }
+    },
+    [],
+  );
 
   return (
     <>
-      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-      {/* @ts-ignore */}
       <Tabs {...otherProps} onChange={handleChange} value={currentValue}>
-        <Tab
-          id={"pending-transactions-tab"}
-          aria-controls={"pending-transactions-panel"}
-          label={"Operações pendentes"} />
-        <Tab
-          id={"transactions-history-tab"}
-          arial-controls={"transactions-history-panel"}
-          label={"Histórico"} />
+        <Tab id={"first-tab"}
+          aria-controls={"first-panel"}
+          label={"Operações"} />
+        <Tab id={"second-tab"}
+          aria-controls={"second-panel"}
+          label={"Pessoas"} />
       </Tabs>
-      <TabPanel
-        id={"pending-transactions-panel"}
-        aria-labelledby={"pending-transactions-tab"}
-        hidden={currentValue !== tabsEnum.PENDING_TRANSACTIONS}>
-        Operações pendentes
+      <TabPanel id={"first-panel"}
+        aria-labelledby={"first-tab"}
+        hidden={currentValue !== TabsEnum.FirstTab}>
+        Conteúdo do painel de operações
       </TabPanel>
-      <TabPanel
-        id={"transactions-history-panel"}
-        aria-labelledby={"transactions-history-tab"}
-        hidden={currentValue !== tabsEnum.TRANSACTIONS_HISTORY}>
-        Histórico
+      <TabPanel id={"second-panel"}
+        aria-labelledby={"second-tab"}
+        hidden={currentValue !== TabsEnum.SecondTab}>
+        Conteúdo do painel de pessoas
       </TabPanel>
     </>
   );
