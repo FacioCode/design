@@ -1,6 +1,9 @@
 {
   "opacity": {
     "base": {
+      "almostOpaque": {
+        "value": 0.93
+      },
       "opaque": {
         "value": 1
       }
