@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.0.0](https://github.com/FacioCode/design/compare/v21.1.32...v22.0.0) (2021-08-19)
+
+
+### Features
+
+* **style-dictionary:** add `almostOpaque` opacity token ([ab915dd](https://github.com/FacioCode/design/commit/ab915dd39dbd3d0ef31ad8268551175ad3da7463))
+* **style-dictionary:** add style tokens for tab link ([b9dbec0](https://github.com/FacioCode/design/commit/b9dbec09080ca289a0ca852e320ce1c4168e8cb2))
+* **style-dictionary:** add tokens to tab component ([e079bf5](https://github.com/FacioCode/design/commit/e079bf5e3890f8e973b58b12b34a9338b9a14904))
+
+
+
+
+
 ## [21.1.32](https://github.com/FacioCode/design/compare/v21.1.31...v21.1.32) (2021-08-19)
 
 **Note:** Version bump only for package @faciocode/style-dictionary

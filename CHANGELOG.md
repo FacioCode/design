@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.0.0](https://github.com/FacioCode/design/compare/v21.1.32...v22.0.0) (2021-08-19)
+
+
+### Bug Fixes
+
+* **react:** prevent invalid default import for `Tab` and `TabPanel` ([481f4d2](https://github.com/FacioCode/design/commit/481f4d2b1254b15543f075a1e5e80df385ecd0c1))
+
+
+### Code Refactoring
+
+* **react:** remove `textColor` prop from `Tab` component ([0c3d935](https://github.com/FacioCode/design/commit/0c3d935dc3ba33bacf10e3de1c8996e2965fe5f5))
+
+
+### Features
+
+* **mui-themes:** override `MuiTab` styles from Material UI ([da5ac68](https://github.com/FacioCode/design/commit/da5ac6820093e64f9a5721be77029a733d592738))
+* **style-dictionary:** add `almostOpaque` opacity token ([ab915dd](https://github.com/FacioCode/design/commit/ab915dd39dbd3d0ef31ad8268551175ad3da7463))
+* **style-dictionary:** add style tokens for tab link ([b9dbec0](https://github.com/FacioCode/design/commit/b9dbec09080ca289a0ca852e320ce1c4168e8cb2))
+* **style-dictionary:** add tokens to tab component ([e079bf5](https://github.com/FacioCode/design/commit/e079bf5e3890f8e973b58b12b34a9338b9a14904))
+* **styles:** add style tokens for tab components ([6b46d3f](https://github.com/FacioCode/design/commit/6b46d3f2320e6ff798a486b83374b49b08171847))
+
+
+### BREAKING CHANGES
+
+* **react:** We've removed `textColor` prop from `Tab` React component, since all tab texts will receive link color from now on.
+
+
+
+
+
 ## [21.1.32](https://github.com/FacioCode/design/compare/v21.1.31...v21.1.32) (2021-08-19)
 
 **Note:** Version bump only for package @faciocode/design

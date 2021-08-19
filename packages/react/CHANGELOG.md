@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.0.0](https://github.com/FacioCode/design/compare/v21.1.32...v22.0.0) (2021-08-19)
+
+
+### Bug Fixes
+
+* **react:** prevent invalid default import for `Tab` and `TabPanel` ([481f4d2](https://github.com/FacioCode/design/commit/481f4d2b1254b15543f075a1e5e80df385ecd0c1))
+
+
+### Code Refactoring
+
+* **react:** remove `textColor` prop from `Tab` component ([0c3d935](https://github.com/FacioCode/design/commit/0c3d935dc3ba33bacf10e3de1c8996e2965fe5f5))
+
+
+### BREAKING CHANGES
+
+* **react:** We've removed `textColor` prop from `Tab` React component, since all tab texts will receive link color from now on.
+
+
+
+
+
 ## [21.1.32](https://github.com/FacioCode/design/compare/v21.1.31...v21.1.32) (2021-08-19)
 
 **Note:** Version bump only for package @faciocode/react

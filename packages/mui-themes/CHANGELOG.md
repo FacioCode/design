@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.0.0](https://github.com/FacioCode/design/compare/v21.1.32...v22.0.0) (2021-08-19)
+
+
+### Features
+
+* **mui-themes:** override `MuiTab` styles from Material UI ([da5ac68](https://github.com/FacioCode/design/commit/da5ac6820093e64f9a5721be77029a733d592738))
+
+
+
+
+
 ## [21.1.32](https://github.com/FacioCode/design/compare/v21.1.31...v21.1.32) (2021-08-19)
 
 **Note:** Version bump only for package @faciocode/mui-themes
