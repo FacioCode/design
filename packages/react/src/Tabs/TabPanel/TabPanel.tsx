@@ -3,6 +3,8 @@ import type { TabPanelProps } from "./TabPanel.types";
 
 type Render = (props: TabPanelProps, ref: TabPanelProps["ref"]) => JSX.Element;
 
+const defaultTabIndex = 0;
+
 const render : Render = (props, ref) => {
   const {
     "aria-labelledby": ariaLabelledBy,
@@ -10,6 +12,7 @@ const render : Render = (props, ref) => {
     component: Component = "div",
     hidden,
     id,
+    tabIndex = defaultTabIndex,
     ...otherProps
   } = props;
 
@@ -21,6 +24,7 @@ const render : Render = (props, ref) => {
       hidden={hidden}
       role={"tabpanel"}
       ref={ref}
+      tabindex={tabIndex}
     >
       {children}
     </Component>
@@ -29,5 +33,3 @@ const render : Render = (props, ref) => {
 
 export const TabPanel = React.forwardRef<HTMLDivElement | HTMLElement, TabPanelProps>(render);
 TabPanel.displayName = "TabPanel";
-
-export default TabPanel;
