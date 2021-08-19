@@ -5,7 +5,8 @@ import { Omit } from "@material-ui/types";
 type OmittedProps = |
   "css" |
   "disabledFocusRipple" |
-  "disableRipple";
+  "disableRipple" |
+  "textColor";
 
 export interface TabProps extends Omit<MaterialTabProps, OmittedProps> {
 
