@@ -194,6 +194,24 @@ export const overrides : ThemeOptions["overrides"] = {
     thumb: customProperties.switchStyles.thumb,
     track: customProperties.switchStyles.track,
   },
+  MuiTab: {
+    root: {
+      ...customProperties.tabStyles.root,
+      "&:active": customProperties.tabStyles.pressed,
+      "&$selected": customProperties.tabStyles.selected,
+      "&$disabled": customProperties.tabStyles.disabled,
+    },
+    textColorInherit: {
+      ...customProperties.tabStyles.root,
+      "&$selected": customProperties.tabStyles.selected,
+      "&$disabled": customProperties.tabStyles.disabled,
+    },
+    textColorPrimary: {
+      ...customProperties.tabStyles.root,
+      "&$selected": customProperties.tabStyles.selected,
+      "&$disabled": customProperties.tabStyles.disabled,
+    },
+  },
   MuiTableCell: {
     root: {
       ...customProperties.tableCellStyles.root,
