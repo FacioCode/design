@@ -190,6 +190,20 @@ class FacioSvgIcons {
       package: packageName
   );
 
+  /// Default Coloured Icon For Bank
+  static final bank = SvgPicture.asset(
+      "assets/icons/bank.svg",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
+
+  /// Text Secondary Coloured Icon For Bank
+  static final bankColorTextSecondary = SvgPicture.asset(
+      "assets/icons/bank.svg",
+      color: IconStyles.colorTextSecondary,
+      package: packageName
+  );
+
   /// Default Coloured Icon For Big Pig
   static final bigPig = SvgPicture.asset(
       "assets/icons/big-pig.svg",

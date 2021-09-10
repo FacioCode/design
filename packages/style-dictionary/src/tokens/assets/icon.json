@@ -49,6 +49,10 @@
         "comment": "Icon for Votorantim Bank",
         "value": "assets/icons/bank-votorantim.svg"
       },
+      "bank": {
+        "comment": "Icon for Bank",
+        "value": "assets/icons/bank.svg"
+      },
       "bigPig": {
         "value": "assets/icons/big-pig.svg"
       },
