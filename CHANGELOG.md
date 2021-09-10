@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.1.0](https://github.com/FacioCode/design/compare/v22.0.1...v22.1.0) (2021-09-10)
+
+
+### Features
+
+* bank icon ([bf98fd2](https://github.com/FacioCode/design/commit/bf98fd2a5f5312cd48fdb77baeb0c4db6d5007dc))
+
+
+
+
+
 ## [22.0.1](https://github.com/FacioCode/design/compare/v22.0.0...v22.0.1) (2021-08-20)
 
 **Note:** Version bump only for package @faciocode/design

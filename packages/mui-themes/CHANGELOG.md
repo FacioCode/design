@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.1.0](https://github.com/FacioCode/design/compare/v22.0.1...v22.1.0) (2021-09-10)
+
+**Note:** Version bump only for package @faciocode/mui-themes
+
+
+
+
+
 ## [22.0.1](https://github.com/FacioCode/design/compare/v22.0.0...v22.0.1) (2021-08-20)
 
 **Note:** Version bump only for package @faciocode/mui-themes
