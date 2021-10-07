@@ -260,6 +260,20 @@ class FacioSvgIcons {
       package: packageName
   );
 
+  /// Default Coloured Icon For Corporate
+  static final corporate = SvgPicture.asset(
+      "assets/icons/corporate.svg",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
+
+  /// Text Secondary Coloured Icon For Corporate
+  static final corporateColorTextSecondary = SvgPicture.asset(
+      "assets/icons/corporate.svg",
+      color: IconStyles.colorTextSecondary,
+      package: packageName
+  );
+
   /// Default Coloured Antecipacao De Salario
   static final deposit = SvgPicture.asset(
       "assets/icons/deposit.svg",
@@ -480,6 +494,20 @@ class FacioSvgIcons {
   /// Text Secondary Coloured Icon For Lab
   static final labColorTextSecondary = SvgPicture.asset(
       "assets/icons/lab.svg",
+      color: IconStyles.colorTextSecondary,
+      package: packageName
+  );
+
+  /// Default Coloured Icon For Logout
+  static final logout = SvgPicture.asset(
+      "assets/icons/logout.svg",
+      color: IconStyles.colorDefault,
+      package: packageName
+  );
+
+  /// Text Secondary Coloured Icon For Logout
+  static final logoutColorTextSecondary = SvgPicture.asset(
+      "assets/icons/logout.svg",
       color: IconStyles.colorTextSecondary,
       package: packageName
   );
