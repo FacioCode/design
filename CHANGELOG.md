@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.2.1](https://github.com/FacioCode/design/compare/v22.2.0...v22.2.1) (2021-10-07)
+
+
+### Bug Fixes
+
+* example build error: No toolchains found in the NDK ([11eec0c](https://github.com/FacioCode/design/commit/11eec0cd551391feda03d9753fcd516ac69e5fd3))
+
+
+
+
+
 # [22.2.0](https://github.com/FacioCode/design/compare/v22.1.0...v22.2.0) (2021-10-07)
 
 
