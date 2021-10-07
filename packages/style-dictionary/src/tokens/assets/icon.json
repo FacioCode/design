@@ -65,6 +65,9 @@
       "contract": {
         "value": "assets/icons/contract.svg"
       },
+      "corporate": {
+        "value": "assets/icons/corporate.svg"
+      },
       "deposit": {
         "comment": "Antecipação de salário",
         "value": "assets/icons/deposit.svg"
@@ -116,6 +119,9 @@
       },
       "lab": {
         "value": "assets/icons/lab.svg"
+      },
+      "logout": {
+        "value": "assets/icons/logout.svg"
       },
       "map": {
         "value": "assets/icons/map.svg"
