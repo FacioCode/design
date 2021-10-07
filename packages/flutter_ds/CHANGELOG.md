@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.2.0](https://github.com/FacioCode/design/compare/v22.1.0...v22.2.0) (2021-10-07)
+
+
+### Features
+
+* add icons corporate and logout ([970ee0a](https://github.com/FacioCode/design/commit/970ee0a4a1ff5fd693c6f19a15908f46e8fc246f))
+* update lib version in example ([769437d](https://github.com/FacioCode/design/commit/769437da968997702b04fd6bf47a98c57aa11802))
+
+
+
+
+
 # [22.1.0](https://github.com/FacioCode/design/compare/v22.0.1...v22.1.0) (2021-09-10)
 
 
