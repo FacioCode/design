@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.3.0](https://github.com/FacioCode/design/compare/v22.2.1...v22.3.0) (2021-10-14)
+
+
+### Bug Fixes
+
+* wrong border radius in medium outlined button ([91b9cca](https://github.com/FacioCode/design/commit/91b9cca4ab329e39e64b2439c30b8cb557cb7b14))
+
+
+### Features
+
+* add icon option to mediumoutlinedbutton ([78c0412](https://github.com/FacioCode/design/commit/78c041254e50381e683842fc6de9d447a60ac250))
+
+
+
+
+
 ## [22.2.1](https://github.com/FacioCode/design/compare/v22.2.0...v22.2.1) (2021-10-07)
 
 
