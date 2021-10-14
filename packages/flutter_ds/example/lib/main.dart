@@ -94,6 +94,11 @@ class MyHomePage extends StatelessWidget {
                         MediumOutlinedButton(
                             title: 'medium/outlined', onPressed: () => null),
                         SizedBox(height: Sizes.baseSingle),
+                        MediumOutlinedButton(
+                            icon: FacioSvgIcons.whatsapp,
+                            title: 'medium/outlined/icon',
+                            onPressed: () => null),
+                        SizedBox(height: Sizes.baseSingle),
                         MediumContainedButton(
                             title: 'medium/contained/brand',
                             color: ContainedButtonColor.brand,
