@@ -41,7 +41,7 @@ class MediumOutlinedButton extends StatelessWidget {
               ? Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                   _icon!,
                   SizedBox(width: Sizes.baseSingle),
-                  _text(),
+                  Flexible(child: _text(), fit: FlexFit.loose),
                 ])
               : _text(),
         ));
