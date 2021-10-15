@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.3.1](https://github.com/FacioCode/design/compare/v22.3.0...v22.3.1) (2021-10-15)
+
+
+### Bug Fixes
+
+* RenderFlex overflowed while testing widget ([7be0898](https://github.com/FacioCode/design/commit/7be0898643f1e2073adf8c9fe01ee6e111de0381))
+
+
+
+
+
 # [22.3.0](https://github.com/FacioCode/design/compare/v22.2.1...v22.3.0) (2021-10-14)
 
 
