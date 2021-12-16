@@ -9,17 +9,20 @@ class MediumContainedButton extends StatelessWidget {
     final bool isEnabled = true,
     final Key? key,
     final ContainedButtonColor color = ContainedButtonColor.brand,
+    final Widget? icon,
   })  : _title = title,
         _onPressed = onPressed,
         _isEnabled = isEnabled,
         _key = key,
-        _color = color;
+        _color = color,
+        _icon = icon;
 
   final String _title;
   final VoidCallback? _onPressed;
   final bool _isEnabled;
   final Key? _key;
   final ContainedButtonColor _color;
+  final Widget? _icon;
 
   @override
   Widget build(BuildContext context) {
@@ -35,13 +38,23 @@ class MediumContainedButton extends StatelessWidget {
         child: TextButton(
           key: _key,
           onPressed: _isEnabled ? _onPressed : null,
-          child: Text(
-            _title,
-            textAlign: TextAlign.center,
-            style: TextStyles.button.copyWith(color: _color.fontColor),
-          ),
+          child: _icon != null
+              ? Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  _icon!,
+                  SizedBox(width: Sizes.baseSingle),
+                  Flexible(child: _text(), fit: FlexFit.loose),
+                ])
+              : _text(),
         ),
       ),
+    );
+  }
+
+  Widget _text() {
+    return Text(
+      _title,
+      textAlign: TextAlign.center,
+      style: TextStyles.button.copyWith(color: _color.fontColor),
     );
   }
 }

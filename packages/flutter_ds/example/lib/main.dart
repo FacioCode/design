@@ -105,6 +105,11 @@ class MyHomePage extends StatelessWidget {
                             onPressed: () => null),
                         SizedBox(height: Sizes.baseSingle),
                         MediumContainedButton(
+                            icon: FacioSvgIcons.whatsapp,
+                            title: 'medium/contained/icon',
+                            onPressed: () => null),
+                        SizedBox(height: Sizes.baseSingle),
+                        MediumContainedButton(
                             title: 'medium/contained/danger',
                             color: ContainedButtonColor.danger,
                             onPressed: () => null),
