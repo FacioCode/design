@@ -10,6 +10,7 @@ export 'components/buttons/small_outlined_button.dart';
 export 'components/card.dart';
 export 'components/date_field.dart';
 export 'components/input_field.dart';
+export 'components/small_input_field.dart';
 export 'components/legacy/base_app_bar.dart';
 export 'components/legacy/chips.dart';
 export 'components/legacy/legacy_theme.dart';

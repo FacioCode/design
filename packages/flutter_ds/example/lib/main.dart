@@ -62,6 +62,11 @@ class MyHomePage extends StatelessWidget {
                                       : null);
                             }),
                         SizedBox(height: Sizes.baseSingle),
+                        SmallInputField(
+                          label: 'Small Input Field',
+                          hintText: 'Small',
+                        ),
+                        SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
                             title: 'small/contained/brand',
                             color: ContainedButtonColor.brand,
