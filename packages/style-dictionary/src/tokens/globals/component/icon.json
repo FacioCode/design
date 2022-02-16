@@ -16,6 +16,11 @@
           "color": {
             "value": "{color.font.secondary.value}"
           }
+        },
+        "colorError": {
+          "color": {
+            "value": "{color.font.error.value}"
+          }
         }
       }
     }

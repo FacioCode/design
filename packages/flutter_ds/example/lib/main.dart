@@ -50,6 +50,17 @@ class MyHomePage extends StatelessWidget {
                           color: AlertColor.error,
                           variant: AlertVariant.filled,
                         ),
+                        Alert(
+                          titleKey:
+                              const Key('registration_in_review_hint_card'),
+                          icon: FacioSvgIcons.approvalTinted(
+                              color: ColorPalette.backgroundBrand),
+                          title: 'Cadastro em aprovação',
+                          subtitle:
+                              'Em breve você terá acesso aos serviços disponíveis para o seu perfil',
+                          color: AlertColor.warning,
+                          variant: AlertVariant.filled,
+                        ),
                         StreamBuilder<String>(
                             stream: _stream.stream,
                             builder: (context, snapshot) {
@@ -57,7 +68,7 @@ class MyHomePage extends StatelessWidget {
                                   hintText: 'FacioInputField',
                                   inputType: InputType.phone,
                                   hint: snapshot.data != null
-                                      ? Text(snapshot.data,
+                                      ? Text(snapshot.data ?? '',
                                           style: TextStyles.bodyText2)
                                       : null);
                             }),
@@ -73,7 +84,7 @@ class MyHomePage extends StatelessWidget {
                         SmallContainedButton(
                             title: 'small/contained/danger',
                             color: ContainedButtonColor.danger,
-                            onPressed: () => {_stream.add(null)}),
+                            onPressed: () => {_stream.add('')}),
                         SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
                             title: 'small/contained/default',

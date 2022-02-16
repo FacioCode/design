@@ -3,6 +3,7 @@
 
 import 'package:facio_design_system/styles.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:flutter/material.dart';
 
 <%
 _.forEach(Object.keys(asset), (assetType) => {
@@ -20,6 +21,20 @@ class <%= className %> {
   static final <%= assetItem %> = SvgPicture.asset(
       <%= assets[assetItem].value %>,
       color: IconStyles.colorDefault,
+      package: packageName
+  );
+
+  /// Error Coloured <%= _.deburr(_.startCase(comment)) %>
+  static final <%= assetItem %>ColorError = SvgPicture.asset(
+      <%= assets[assetItem].value %>,
+      color: IconStyles.colorError,
+      package: packageName
+  );
+  
+   /// Returns coloured icon <%= _.deburr(_.startCase(comment)) %>
+  static SvgPicture <%= assetItem %>Tinted({Color color = IconStyles.colorDefault}) => SvgPicture.asset(
+      <%= assets[assetItem].value %>,
+      color: color,
       package: packageName
   );
 
