@@ -670,6 +670,9 @@ class IconStyles {
 
   /// Color Text Secondary for Icon
   static const colorTextSecondary = Color(0xFF828C9B);
+
+  /// Color Error for Icon
+  static const colorError = Color(0xFFC42B47);
 }
 
 class InputBaseStyles {

@@ -201,6 +201,7 @@ export const iconButtonSizeMediumPadding = "12px";
 export const iconRootColorDefaultColor = "#303846";
 export const iconRootColorHintColor = "#afb4bb";
 export const iconRootColorTextSecondaryColor = "#828c9b";
+export const iconRootColorErrorColor = "#c42b47";
 export const inputBaseRootColor = "#424d5c";
 export const inputBaseRootMarginBottom = "8px";
 export const inputBaseInputBorder = "0px";
