@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.5.0](https://github.com/FacioCode/design/compare/v22.4.0...v22.5.0) (2022-02-16)
+
+
+### Features
+
+* commit generated files ([eda815f](https://github.com/FacioCode/design/commit/eda815fb8286da75863182c3e08a0c976402d5f8))
+
+
+
+
+
 # [22.4.0](https://github.com/FacioCode/design/compare/v22.3.2...v22.4.0) (2022-02-16)
 
 
