@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.4.0](https://github.com/FacioCode/design/compare/v22.3.2...v22.4.0) (2022-02-16)
+
+
+### Features
+
+* include icon Tinted in example ([8982345](https://github.com/FacioCode/design/commit/898234525e88c1674b1907ee14c45905c84383e9))
+
+
+
+
+
 ## [22.3.2](https://github.com/FacioCode/design/compare/v22.3.1...v22.3.2) (2021-10-21)
 
 **Note:** Version bump only for package facio_design_system

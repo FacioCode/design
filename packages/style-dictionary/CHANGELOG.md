@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.4.0](https://github.com/FacioCode/design/compare/v22.3.2...v22.4.0) (2022-02-16)
+
+
+### Features
+
+* creating an error icon color ref ([2c8d9e9](https://github.com/FacioCode/design/commit/2c8d9e9641e98ae15b5fbbf31a54691e6c0eb97b))
+* updates template with error color and method with color param ([8aabd8a](https://github.com/FacioCode/design/commit/8aabd8af52901a55dccadc414d198fceb6f0912c))
+
+
+
+
+
 ## [22.3.2](https://github.com/FacioCode/design/compare/v22.3.1...v22.3.2) (2021-10-21)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
