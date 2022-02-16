@@ -1527,6 +1527,12 @@ export const iconStyles = {
      */
     colorTextSecondary: "var(--component-icon-root-color-text-secondary, #828c9b)",
 
+
+    /**
+     * Color Error for Icon Root
+     */
+    colorError: "var(--component-icon-root-color-error, #c42b47)",
+
   },
 
 };
