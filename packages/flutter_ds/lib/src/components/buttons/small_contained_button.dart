@@ -24,36 +24,34 @@ class SmallContainedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     final ButtonStyle style = ElevatedButton.styleFrom(
-      padding: EdgeInsets.fromLTRB(
-        ButtonStyles.sizeSmallPaddingLeft,
-        ButtonStyles.sizeSmallPaddingTop,
-        ButtonStyles.sizeSmallPaddingRight,
-        ButtonStyles.sizeSmallPaddingBottom
-      ),
-      primary: _color.backgroundColor,
-      shape: new RoundedRectangleBorder(
-        borderRadius: new BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius)
-      )
-    );
+        padding: EdgeInsets.fromLTRB(
+            ButtonStyles.sizeSmallPaddingLeft,
+            ButtonStyles.sizeSmallPaddingTop,
+            ButtonStyles.sizeSmallPaddingRight,
+            ButtonStyles.sizeSmallPaddingBottom),
+        primary: _color.backgroundColor,
+        shape: new RoundedRectangleBorder(
+            borderRadius:
+                new BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius)));
 
     return Opacity(
-      // TODO: adopt solid background colors in favor of opacity
-      opacity: _isEnabled ? ButtonStyles.opacity.toDouble() : 0.5,
-      child: ConstrainedBox(
-        constraints: BoxConstraints.tightFor(height: ButtonStyles.sizeSmallHeight),
-        child: TextButton(
-          key: _key,
-          onPressed: _isEnabled ? _onPressed : null,
-          style: style,
-          child: Text(
-            _title,
-            textAlign: TextAlign.center,
-            style: TextStyles.button.copyWith(color: _color.fontColor)
+        // TODO: adopt solid background colors in favor of opacity
+        opacity: _isEnabled ? ButtonStyles.opacity.toDouble() : 0.5,
+        child: Container(
+          decoration: BoxDecoration(
+            color: _color.backgroundColor,
+            borderRadius:
+                new BorderRadius.circular(ButtonStyles.sizeSmallBorderRadius),
           ),
-        ),
-      )
-    );
+          child: TextButton(
+            key: _key,
+            style: style,
+            onPressed: _isEnabled ? _onPressed : null,
+            child: Text(_title,
+                textAlign: TextAlign.center,
+                style: TextStyles.button.copyWith(color: _color.fontColor)),
+          ),
+        ));
   }
 }
