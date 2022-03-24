@@ -5,7 +5,7 @@ import 'package:flutter_svg/svg.dart';
 
 enum AlertVariant { filled, standard }
 
-enum AlertColor { error, info, success, warning }
+enum AlertColor { error, info, success, warning, neutral }
 
 class Alert extends StatelessWidget {
   const Alert({
@@ -63,19 +63,30 @@ class Alert extends StatelessWidget {
                   Text(_subtitle!, style: TextStyles.bodyText2),
                 if (_buttonTitle != null)
                   Padding(
-                    padding: const EdgeInsets.only(top: Sizes.baseSingle),
-                    child: SmallContainedButton(
-                      title: _buttonTitle!,
-                      key: _buttonKey,
-                      color: ContainedButtonColor.colorDefault,
-                    ),
-                  )
+                      padding: const EdgeInsets.only(top: Sizes.baseSingle),
+                      child: _alertButton)
               ],
             ),
           ),
         ],
       ),
     );
+  }
+
+  Widget get _alertButton {
+    switch (_color) {
+      case AlertColor.neutral:
+        return SmallOutlinedButton(
+          title: _buttonTitle!,
+          key: _buttonKey,
+        );
+
+      default:
+        return SmallContainedButton(
+            title: _buttonTitle!,
+            key: _buttonKey,
+            color: ContainedButtonColor.colorDefault);
+    }
   }
 
   Color get _backgroundColor {
@@ -96,6 +107,8 @@ class Alert extends StatelessWidget {
         return _variant == AlertVariant.standard
             ? AlertStyles.standardWarningBackgroundColor
             : AlertStyles.filledWarningBackgroundColor;
+      case AlertColor.neutral:
+        return AlertStyles.standardNeutralBackgroundColor;
       default:
         return AlertStyles.standardInfoBackgroundColor;
     }

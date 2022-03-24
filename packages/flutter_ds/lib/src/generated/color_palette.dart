@@ -13,6 +13,7 @@ class ColorPalette {
   static const Color backgroundAlertFilledWarning = const Color(0xFFFFE6B3);
   static const Color backgroundAlertStandardError = const Color(0xFFFFE3EE);
   static const Color backgroundAlertStandardInfo = const Color(0xFFE3EEFF);
+  static const Color backgroundAlertStandardNeutral = const Color(0xFFFAFAFA);
   static const Color backgroundAlertStandardWarning = const Color(0xFFFFF4E3);
   static const Color backgroundBrand = const Color(0xFF3FE1B6);
   static const Color backgroundDarkShadedPaper = const Color(0xFFF2F2F3);

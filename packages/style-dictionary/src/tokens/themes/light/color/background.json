@@ -23,7 +23,8 @@
         "filledWarning": { "value": "{color.base.goldenrod.20.value}" },
         "standardError": { "value": "{color.base.indianRed.05.value}" },
         "standardInfo": { "value": "{color.base.royalBlue.05.value}" },
-        "standardWarning": { "value": "{color.base.goldenrod.05.value}" }
+        "standardWarning": { "value": "{color.base.goldenrod.05.value}" },
+        "standardNeutral": { "value": "{color.base.grey.05.value}" }
       },
       "brand": { "value": "{color.base.primary.main.value}" },
       "selected": { "value": "{color.base.skyBlue.05.value}" }

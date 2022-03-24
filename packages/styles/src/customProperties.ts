@@ -270,6 +270,21 @@ export const alertStyles = {
 
   },
 
+  standardNeutral: {
+
+    /**
+     * Background Color for Alert Standard Neutral
+     */
+    backgroundColor: "var(--component-alert-standard-neutral-background-color, #fafafa)",
+
+
+    /**
+     * Color for Alert Standard Neutral
+     */
+    color: "var(--component-alert-standard-neutral-color, #424d5c)",
+
+  },
+
 };
 
 export const appBarStyles = {
