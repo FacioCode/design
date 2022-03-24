@@ -382,13 +382,13 @@ class ContainedButtonStyles {
   static const focusVisibleOutlineWidth = 0.00;
 
   /// Background Color for Warning
-  static const warningBackgroundColor = const Color(0xFFE1B63F);
+  static const warningBackgroundColor = const Color(0xFFFEC553);
 
   /// Color for Warning
   static const warningColor = const Color(0xFF303846);
 
   /// Background Color for Warning Hover
-  static const warningHoverBackgroundColor = const Color(0xFFE1B63F);
+  static const warningHoverBackgroundColor = const Color(0xFFFEC553);
 
   /// Color for Warning Hover
   static const warningHoverColor = const Color(0xFF303846);
