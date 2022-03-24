@@ -61,6 +61,18 @@ class MyHomePage extends StatelessWidget {
                           color: AlertColor.warning,
                           variant: AlertVariant.filled,
                         ),
+                        Alert(
+                          titleKey:
+                              const Key('registration_in_review_hint_card'),
+                          icon: FacioSvgIcons.approvalTinted(
+                              color: ColorPalette.backgroundBrand),
+                          title: 'Cadastro em aprovação',
+                          subtitle:
+                              'Em breve você terá acesso aos serviços disponíveis para o seu perfil',
+                          color: AlertColor.neutral,
+                          variant: AlertVariant.standard,
+                          buttonTitle: 'Saiba mais',
+                        ),
                         StreamBuilder<String>(
                             stream: _stream.stream,
                             builder: (context, snapshot) {
@@ -72,6 +84,15 @@ class MyHomePage extends StatelessWidget {
                                           style: TextStyles.bodyText2)
                                       : null);
                             }),
+                        SizedBox(height: Sizes.baseSingle),
+                        SmallContainedButton(
+                            title: 'small/contained/brand/disabled',
+                            color: ContainedButtonColor.brand,
+                            isEnabled: false,
+                            onPressed: () => {
+                                  _stream.add(
+                                      'Ops! Não encontramos um cadastro com esse número. Se ele estiver correto, entre em contato para atualiza-lo.')
+                                }),
                         SizedBox(height: Sizes.baseSingle),
                         SmallContainedButton(
                             title: 'small/contained/brand',
