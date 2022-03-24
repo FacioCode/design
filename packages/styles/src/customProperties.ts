@@ -869,7 +869,7 @@ export const containedButtonStyles = {
     /**
      * Background Color for Contained Button Warning
      */
-    backgroundColor: "var(--component-contained-button-warning-background-color, #e1b63f)",
+    backgroundColor: "var(--component-contained-button-warning-background-color, #fec553)",
 
 
     /**
@@ -884,7 +884,7 @@ export const containedButtonStyles = {
     /**
      * Background Color for Contained Button Warning Hover
      */
-    backgroundColor: "var(--component-contained-button-warning-hover-background-color, #e1b63f)",
+    backgroundColor: "var(--component-contained-button-warning-hover-background-color, #fec553)",
 
 
     /**

@@ -21,7 +21,7 @@
         "dark": { "value": "{color.base.grey.80.value}" }
       },
       "warning": {
-        "main": { "value": "{color.base.goldenrod.50.value}" },
+        "main": { "value": "{color.base.goldenrod.40.value}" },
         "dark": { "value": "{color.base.goldenrod.60.value}" }
       }
     }
