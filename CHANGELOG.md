@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.7.1](https://github.com/FacioCode/design/compare/v22.7.0...v22.7.1) (2022-03-24)
+
+
+### Bug Fixes
+
+* changing warning color ([e20e1a3](https://github.com/FacioCode/design/commit/e20e1a34017d246fb85c0591a8a5503172df2fa2))
+
+
+
+
+
 # [22.7.0](https://github.com/FacioCode/design/compare/v22.5.1...v22.7.0) (2022-03-24)
 
 
