@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.7.0](https://github.com/FacioCode/design/compare/v22.5.1...v22.7.0) (2022-03-24)
+
+
+### Bug Fixes
+
+* disabled color should match button color ([974a4fd](https://github.com/FacioCode/design/commit/974a4fdc6c90decb0499ebd388f827605fe2f74b))
+
+
+### Features
+
+* **example:** neutral alert style and disabled small button ([52f3e96](https://github.com/FacioCode/design/commit/52f3e96cd4ba55e35bbb76773406f69a64a668a5))
+* includes new neutral standard alert color token ([5e2d966](https://github.com/FacioCode/design/commit/5e2d9663fd727f4c0a7aaa7e4e69339b55da02a9))
+* reference AlertColor neutral ([79fca43](https://github.com/FacioCode/design/commit/79fca436b0948e7a7c7f74edf3a3a875207db7f5))
+* test manual bump version ([1daa193](https://github.com/FacioCode/design/commit/1daa193893db73111ec3f9ee22fc36c4a8657cc9))
+
+
+
+
+
 ## [22.5.1](https://github.com/FacioCode/design/compare/v22.6.0...v22.5.1) (2022-02-16)
 
 **Note:** Version bump only for package @faciocode/design

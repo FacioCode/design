@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.7.0](https://github.com/FacioCode/design/compare/v22.5.1...v22.7.0) (2022-03-24)
+
+
+### Features
+
+* includes new neutral standard alert color token ([5e2d966](https://github.com/FacioCode/design/commit/5e2d9663fd727f4c0a7aaa7e4e69339b55da02a9))
+
+
+
+
+
 ## [22.5.1](https://github.com/FacioCode/design/compare/v22.6.0...v22.5.1) (2022-02-16)
 
 **Note:** Version bump only for package @faciocode/style-dictionary
