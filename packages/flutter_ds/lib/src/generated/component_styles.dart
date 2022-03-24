@@ -119,6 +119,12 @@ class AlertStyles {
 
   /// Color for Standard Warning
   static const standardWarningColor = const Color(0xFF424D5C);
+
+  /// Background Color for Standard Neutral
+  static const standardNeutralBackgroundColor = const Color(0xFFFAFAFA);
+
+  /// Color for Standard Neutral
+  static const standardNeutralColor = const Color(0xFF424D5C);
 }
 
 class AppBarStyles {

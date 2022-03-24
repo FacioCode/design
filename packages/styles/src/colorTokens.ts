@@ -9,6 +9,7 @@ export const backgroundAlertFilledWarning = "#ffe6b3";
 export const backgroundAlertStandardError = "#ffe3ee";
 export const backgroundAlertStandardInfo = "#e3eeff";
 export const backgroundAlertStandardWarning = "#fff4e3";
+export const backgroundAlertStandardNeutral = "#fafafa";
 export const backgroundBrand = "#3fe1b6";
 export const backgroundSelected = "#e3fcff";
 export const baseErrorMain = "#c42b47";
