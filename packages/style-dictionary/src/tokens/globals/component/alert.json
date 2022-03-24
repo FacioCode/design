@@ -61,6 +61,10 @@
       "standardWarning": {
         "backgroundColor": { "value": "{color.background.alert.standardWarning.value}" },
         "color": { "value": "{color.font.primary.value}" }
+      },
+      "standardNeutral": {
+        "backgroundColor": { "value": "{color.background.alert.standardNeutral.value}" },
+        "color": { "value": "{color.font.primary.value}" }
       }
     }
   }
